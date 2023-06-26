@@ -1,0 +1,274 @@
+{
+color = 3;
+glyphname = f.ful_pl.ini;
+layers = (
+{
+anchors = (
+{
+name = cnct;
+pos = (325,0);
+}
+);
+annotations = (
+{
+pos = (335,455);
+text = cnct.mod_c_n;
+type = Text;
+}
+);
+background = {
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+};
+layerId = m01;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (260,0);
+}
+);
+layerId = m016;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (260,0);
+}
+);
+layerId = m012;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (260,0);
+}
+);
+background = {
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+};
+layerId = m002;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (260,0);
+}
+);
+layerId = m006;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (325,0);
+}
+);
+layerId = m009;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (325,0);
+}
+);
+layerId = m005;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (325,0);
+}
+);
+layerId = m011;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (325,0);
+}
+);
+layerId = m015;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (260,0);
+}
+);
+layerId = m008;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (260,0);
+}
+);
+layerId = m010;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (260,0);
+}
+);
+layerId = m004;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (260,0);
+}
+);
+layerId = m014;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (325,0);
+}
+);
+layerId = m007;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (325,0);
+}
+);
+background = {
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+};
+layerId = m003;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (325,0);
+}
+);
+layerId = m013;
+shapes = (
+{
+ref = f.ful_de.ini;
+}
+);
+width = 325;
+}
+);
+}

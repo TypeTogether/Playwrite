@@ -1,0 +1,89 @@
+{
+export = 0;
+glyphname = _circle;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(28,-501,o),
+(50,-479,o),
+(50,-451,cs),
+(50,-424,o),
+(28,-402,o),
+(1,-402,cs),
+(-27,-402,o),
+(-49,-424,o),
+(-49,-451,cs),
+(-49,-479,o),
+(-27,-501,o),
+(1,-501,cs)
+);
+}
+);
+width = 1200;
+},
+{
+layerId = m012;
+width = 600;
+},
+{
+layerId = m002;
+width = 600;
+},
+{
+layerId = m006;
+width = 600;
+},
+{
+layerId = m009;
+width = 600;
+},
+{
+layerId = m005;
+width = 600;
+},
+{
+layerId = m011;
+width = 600;
+},
+{
+layerId = m015;
+width = 600;
+},
+{
+layerId = m008;
+width = 600;
+},
+{
+layerId = m010;
+width = 600;
+},
+{
+layerId = m004;
+width = 600;
+},
+{
+layerId = m014;
+width = 600;
+},
+{
+layerId = m007;
+width = 600;
+},
+{
+layerId = m003;
+width = 600;
+},
+{
+layerId = m013;
+width = 600;
+},
+{
+layerId = m016;
+width = 600;
+}
+);
+}

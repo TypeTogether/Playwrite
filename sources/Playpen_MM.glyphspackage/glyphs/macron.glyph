@@ -1,0 +1,151 @@
+{
+color = 2;
+glyphname = macron;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m006;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m007;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m008;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m009;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m010;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m011;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m012;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m013;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m014;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m015;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+},
+{
+layerId = m016;
+shapes = (
+{
+ref = macroncomb;
+}
+);
+width = 250;
+}
+);
+unicode = 175;
+}

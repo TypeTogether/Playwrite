@@ -1,0 +1,526 @@
+{
+color = 9;
+glyphname = v.mlp.med_n_;
+layers = (
+{
+anchors = (
+{
+name = cnct;
+pos = (523,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (40,0);
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 523;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (458,0);
+}
+);
+layerId = m002;
+shapes = (
+{
+alignment = -1;
+pos = (40,0);
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 523;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (483,0);
+}
+);
+layerId = m003;
+shapes = (
+{
+alignment = -1;
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 483;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (418,0);
+}
+);
+layerId = m004;
+shapes = (
+{
+alignment = -1;
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 483;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (523,0);
+}
+);
+layerId = m005;
+shapes = (
+{
+alignment = -1;
+pos = (40,0);
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 523;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (458,0);
+}
+);
+layerId = m006;
+shapes = (
+{
+alignment = -1;
+pos = (40,0);
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 523;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (483,0);
+}
+);
+layerId = m007;
+shapes = (
+{
+alignment = -1;
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 483;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (418,0);
+}
+);
+layerId = m008;
+shapes = (
+{
+alignment = -1;
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 483;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (523,0);
+}
+);
+layerId = m009;
+shapes = (
+{
+alignment = -1;
+pos = (40,0);
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 523;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (458,0);
+}
+);
+layerId = m010;
+shapes = (
+{
+alignment = -1;
+pos = (40,0);
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 523;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (483,0);
+}
+);
+layerId = m011;
+shapes = (
+{
+alignment = -1;
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 483;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (418,0);
+}
+);
+layerId = m012;
+shapes = (
+{
+alignment = -1;
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 483;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (523,0);
+}
+);
+layerId = m013;
+shapes = (
+{
+alignment = -1;
+pos = (40,0);
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 523;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (458,0);
+}
+);
+layerId = m014;
+shapes = (
+{
+alignment = -1;
+pos = (40,0);
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 523;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (483,0);
+}
+);
+layerId = m015;
+shapes = (
+{
+alignment = -1;
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 483;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (418,0);
+}
+);
+layerId = m016;
+shapes = (
+{
+alignment = -1;
+ref = v.mlp.med;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 483;
+}
+);
+}
