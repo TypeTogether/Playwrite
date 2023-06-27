@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="edotaccent" format="2">
+	<unicode hex="0117"/>
+	<advance width="421"/>
+	<outline>
+		<component base="e"/>
+		<component base="dotaccentcomb" xOffset="211"/>
+	</outline>
+	<anchor name="bottom" x="165" y="0"/>
+	<anchor name="ogonek" x="272" y="10"/>
+	<anchor name="top" x="348" y="620"/>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="b.mod.fin" format="2">
+	<advance width="498"/>
+	<outline>
+		<component base="b.mod"/>
+	</outline>
+	<anchor name="bottom" x="209" y="0"/>
+	<anchor name="center" x="274" y="200"/>
+	<anchor name="top" x="339" y="400"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>b.mod</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

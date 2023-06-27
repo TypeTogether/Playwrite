@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="p.ful" format="2">
+	<advance width="523"/>
+	<outline>
+		<contour>
+			<point x="-39" y="-312" type="curve" smooth="yes"/>
+			<point x="-28" y="-312"/>
+			<point x="-24" y="-309"/>
+			<point x="-21" y="-300" type="curve" smooth="yes"/>
+			<point x="207" y="400" type="line" smooth="yes"/>
+			<point x="210" y="408"/>
+			<point x="203" y="412"/>
+			<point x="193" y="412" type="curve" smooth="yes"/>
+			<point x="181" y="412"/>
+			<point x="178" y="409"/>
+			<point x="175" y="400" type="curve" smooth="yes"/>
+			<point x="-51" y="-295" type="line" smooth="yes"/>
+			<point x="-54" y="-304"/>
+			<point x="-52" y="-312"/>
+		</contour>
+		<contour>
+			<point x="369" y="-13" type="curve" smooth="yes"/>
+			<point x="412" y="-13"/>
+			<point x="460" y="37"/>
+			<point x="481" y="70" type="curve" smooth="yes"/>
+			<point x="484" y="75"/>
+			<point x="486" y="80"/>
+			<point x="478" y="86" type="curve" smooth="yes"/>
+			<point x="472" y="91"/>
+			<point x="467" y="91"/>
+			<point x="462" y="84" type="curve" smooth="yes"/>
+			<point x="441" y="54"/>
+			<point x="402" y="14"/>
+			<point x="373" y="14" type="curve" smooth="yes"/>
+			<point x="357" y="14"/>
+			<point x="350" y="21"/>
+			<point x="350" y="45" type="curve" smooth="yes"/>
+			<point x="350" y="104"/>
+			<point x="450" y="250"/>
+			<point x="450" y="333" type="curve" smooth="yes"/>
+			<point x="450" y="385"/>
+			<point x="426" y="415"/>
+			<point x="372" y="415" type="curve" smooth="yes"/>
+			<point x="292" y="415"/>
+			<point x="197" y="323"/>
+			<point x="89" y="91" type="curve"/>
+			<point x="96" y="61" type="line"/>
+			<point x="196" y="285"/>
+			<point x="301" y="387"/>
+			<point x="367" y="387" type="curve" smooth="yes"/>
+			<point x="403" y="387"/>
+			<point x="418" y="368"/>
+			<point x="418" y="333" type="curve" smooth="yes"/>
+			<point x="418" y="247"/>
+			<point x="319" y="111"/>
+			<point x="319" y="36" type="curve" smooth="yes"/>
+			<point x="319" y="6"/>
+			<point x="333" y="-13"/>
+		</contour>
+	</outline>
+</glyph>

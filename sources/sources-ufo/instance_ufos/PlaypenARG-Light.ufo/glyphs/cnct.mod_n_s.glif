@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cnct.mod_n_s" format="2">
+  <anchor x="0.0" y="0.0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-50.666666666666664" y="-14.0" type="curve" smooth="yes"/>
+      <point x="66.33333333333333" y="-14.0"/>
+      <point x="109.66666666666667" y="163.0"/>
+      <point x="145.0" y="320.3333333333333" type="curve" smooth="yes"/>
+      <point x="149.0" y="338.0"/>
+      <point x="120.66666666666667" y="344.0"/>
+      <point x="116.33333333333333" y="326.0" type="curve" smooth="yes"/>
+      <point x="77.66666666666667" y="177.0"/>
+      <point x="40.333333333333336" y="24.666666666666664"/>
+      <point x="-47.333333333333336" y="24.666666666666664" type="curve" smooth="yes"/>
+      <point x="-70.66666666666667" y="24.666666666666664"/>
+      <point x="-74.0" y="-14.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>40</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

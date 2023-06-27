@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slashshortcomb.case" format="2">
+	<outline>
+		<contour>
+			<point x="-121" y="167" type="curve" smooth="yes"/>
+			<point x="239" y="377" type="line" smooth="yes"/>
+			<point x="251" y="384"/>
+			<point x="252" y="397"/>
+			<point x="240" y="413" type="curve" smooth="yes"/>
+			<point x="227" y="431"/>
+			<point x="218" y="433"/>
+			<point x="204" y="425" type="curve" smooth="yes"/>
+			<point x="-155" y="219" type="line" smooth="yes"/>
+			<point x="-169" y="211"/>
+			<point x="-167" y="194"/>
+			<point x="-159" y="181" type="curve" smooth="yes"/>
+			<point x="-148" y="165"/>
+			<point x="-136" y="158"/>
+		</contour>
+	</outline>
+	<anchor name="_center" x="0" y="274"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
+			<integer>250</integer>
+		</dict>
+	</lib>
+</glyph>

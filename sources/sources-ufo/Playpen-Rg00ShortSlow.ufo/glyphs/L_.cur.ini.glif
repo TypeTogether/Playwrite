@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="L.cur.ini" format="2">
+	<advance width="586"/>
+	<outline>
+		<contour>
+			<point x="109" y="-17" type="curve" smooth="yes"/>
+			<point x="186" y="-17"/>
+			<point x="236" y="40"/>
+			<point x="236" y="129" type="curve" smooth="yes"/>
+			<point x="236" y="515" type="line" smooth="yes"/>
+			<point x="236" y="607"/>
+			<point x="276" y="645"/>
+			<point x="348" y="645" type="curve" smooth="yes"/>
+			<point x="407" y="645"/>
+			<point x="438" y="615"/>
+			<point x="454" y="570" type="curve" smooth="yes"/>
+			<point x="462" y="547"/>
+			<point x="473" y="541"/>
+			<point x="498" y="548" type="curve" smooth="yes"/>
+			<point x="518" y="554"/>
+			<point x="523" y="568"/>
+			<point x="516" y="591" type="curve" smooth="yes"/>
+			<point x="492" y="675"/>
+			<point x="435" y="712"/>
+			<point x="350" y="712" type="curve" smooth="yes"/>
+			<point x="231" y="712"/>
+			<point x="166" y="644"/>
+			<point x="166" y="515" type="curve" smooth="yes"/>
+			<point x="166" y="129" type="line" smooth="yes"/>
+			<point x="166" y="79"/>
+			<point x="143" y="43"/>
+			<point x="105" y="43" type="curve" smooth="yes"/>
+			<point x="87" y="43"/>
+			<point x="71" y="54"/>
+			<point x="71" y="70" type="curve" smooth="yes"/>
+			<point x="71" y="85"/>
+			<point x="90" y="97"/>
+			<point x="109" y="97" type="curve" smooth="yes"/>
+			<point x="233" y="97"/>
+			<point x="342" y="-14"/>
+			<point x="526" y="-14" type="curve" smooth="yes"/>
+			<point x="566" y="-14"/>
+			<point x="581" y="46"/>
+			<point x="541" y="46" type="curve" smooth="yes"/>
+			<point x="392" y="46"/>
+			<point x="265" y="159"/>
+			<point x="114" y="159" type="curve" smooth="yes"/>
+			<point x="56" y="159"/>
+			<point x="6" y="120"/>
+			<point x="6" y="65" type="curve" smooth="yes"/>
+			<point x="6" y="11"/>
+			<point x="48" y="-17"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="372" y="0"/>
+	<anchor name="cnct" x="586" y="0"/>
+	<anchor name="top" x="352" y="670"/>
+</glyph>

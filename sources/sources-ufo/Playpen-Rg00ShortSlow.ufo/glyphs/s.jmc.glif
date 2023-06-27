@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="s.jmc" format="2">
+	<advance width="425"/>
+	<outline>
+		<component base="s.mod"/>
+	</outline>
+	<anchor name="bottom" x="196" y="0"/>
+	<anchor name="top" x="208" y="400"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>s.mod</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

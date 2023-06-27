@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="g.mod.fin" format="2">
+	<advance width="498"/>
+	<outline>
+		<component base="g.mod"/>
+	</outline>
+	<anchor name="top" x="247" y="400"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>g.mod</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

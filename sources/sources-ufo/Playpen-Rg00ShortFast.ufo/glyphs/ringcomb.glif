@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringcomb" format="2">
+	<unicode hex="030A"/>
+	<outline>
+		<contour>
+			<point x="0" y="481" type="curve" smooth="yes"/>
+			<point x="65" y="481"/>
+			<point x="109" y="522"/>
+			<point x="109" y="585" type="curve" smooth="yes"/>
+			<point x="109" y="647"/>
+			<point x="65" y="688"/>
+			<point x="0" y="688" type="curve" smooth="yes"/>
+			<point x="-65" y="688"/>
+			<point x="-109" y="647"/>
+			<point x="-109" y="585" type="curve" smooth="yes"/>
+			<point x="-109" y="522"/>
+			<point x="-65" y="481"/>
+		</contour>
+		<contour>
+			<point x="0" y="529" type="curve" smooth="yes"/>
+			<point x="-33" y="529"/>
+			<point x="-52" y="551"/>
+			<point x="-52" y="585" type="curve" smooth="yes"/>
+			<point x="-52" y="618"/>
+			<point x="-33" y="640"/>
+			<point x="0" y="640" type="curve" smooth="yes"/>
+			<point x="33" y="640"/>
+			<point x="52" y="618"/>
+			<point x="52" y="585" type="curve" smooth="yes"/>
+			<point x="52" y="551"/>
+			<point x="33" y="529"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="0" y="400"/>
+	<anchor name="top" x="0" y="654"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
+			<integer>250</integer>
+		</dict>
+	</lib>
+</glyph>

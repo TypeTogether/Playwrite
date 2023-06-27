@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cnct.mlp_f_n" format="2">
+  <anchor x="0.0" y="0.0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-98.0" y="-5.0" type="curve" smooth="yes"/>
+      <point x="-5.666666666666667" y="-5.0"/>
+      <point x="43.333333333333336" y="57.0"/>
+      <point x="68.33333333333333" y="204.33333333333334" type="curve" smooth="yes"/>
+      <point x="84.33333333333333" y="298.0"/>
+      <point x="96.33333333333333" y="363.0"/>
+      <point x="141.66666666666666" y="363.0" type="curve" smooth="yes"/>
+      <point x="161.66666666666666" y="363.0"/>
+      <point x="163.0" y="412.0"/>
+      <point x="143.0" y="412.0" type="curve" smooth="yes"/>
+      <point x="64.66666666666667" y="412.0"/>
+      <point x="40.66666666666667" y="345.0"/>
+      <point x="19.666666666666668" y="217.33333333333334" type="curve" smooth="yes"/>
+      <point x="-0.33333333333333215" y="94.33333333333333"/>
+      <point x="-28.333333333333332" y="42.66666666666667"/>
+      <point x="-98.66666666666667" y="42.66666666666667" type="curve" smooth="yes"/>
+      <point x="-139.66666666666666" y="42.66666666666667"/>
+      <point x="-190.33333333333334" y="59.66666666666667"/>
+      <point x="-190.33333333333334" y="106.0" type="curve" smooth="yes"/>
+      <point x="-190.33333333333334" y="125.33333333333333"/>
+      <point x="-226.66666666666666" y="125.33333333333333"/>
+      <point x="-226.66666666666666" y="106.0" type="curve" smooth="yes"/>
+      <point x="-226.66666666666666" y="25.666666666666668"/>
+      <point x="-162.33333333333334" y="-5.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>90</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

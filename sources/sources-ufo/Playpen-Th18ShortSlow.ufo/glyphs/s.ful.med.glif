@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="s.ful.med" format="2">
+	<advance width="440"/>
+	<outline>
+		<contour>
+			<point x="334" y="-14" type="curve" smooth="yes"/>
+			<point x="360" y="-14"/>
+			<point x="363" y="14"/>
+			<point x="343" y="14" type="curve" smooth="yes"/>
+			<point x="313" y="14"/>
+			<point x="291" y="21"/>
+			<point x="224" y="4" type="curve"/>
+			<point x="204" y="-10" type="line"/>
+			<point x="266" y="0"/>
+			<point x="302" y="-14"/>
+		</contour>
+		<component base="s.ful.fin"/>
+	</outline>
+	<anchor name="cnct" x="375" y="0"/>
+	<anchor name="bottom" x="178" y="0"/>
+	<anchor name="top" x="225" y="415"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>s.ful.fin</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

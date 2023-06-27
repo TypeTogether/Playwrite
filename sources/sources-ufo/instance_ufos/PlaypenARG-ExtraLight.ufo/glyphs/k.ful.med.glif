@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k.ful.med" format="2">
+  <advance width="451.0"/>
+  <anchor x="451.0" y="0.0" name="cnct"/>
+  <anchor x="256.0" y="0.0" name="bottom"/>
+  <anchor x="129.0" y="670.0" name="top"/>
+  <outline>
+    <component base="k.ful.ini"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>k.ful.ini</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

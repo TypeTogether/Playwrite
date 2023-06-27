@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="l.mod.ini" format="2">
+	<advance width="259"/>
+	<outline>
+		<contour>
+			<point x="111" y="-14" type="curve" smooth="yes"/>
+			<point x="134" y="-14"/>
+			<point x="138" y="14"/>
+			<point x="120" y="14" type="curve" smooth="yes"/>
+			<point x="87" y="14"/>
+			<point x="85" y="36"/>
+			<point x="100" y="82" type="curve" smooth="yes"/>
+			<point x="304" y="698" type="line" smooth="yes"/>
+			<point x="307" y="706"/>
+			<point x="301" y="712"/>
+			<point x="291" y="712" type="curve" smooth="yes"/>
+			<point x="279" y="712"/>
+			<point x="276" y="709"/>
+			<point x="273" y="700" type="curve" smooth="yes"/>
+			<point x="69" y="81" type="line" smooth="yes"/>
+			<point x="47" y="14"/>
+			<point x="69" y="-14"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="113" y="0"/>
+	<anchor name="center" x="174" y="350"/>
+	<anchor name="cnct" x="194" y="0"/>
+	<anchor name="top" x="280" y="670"/>
+	<anchor name="topright" x="303" y="699"/>
+</glyph>

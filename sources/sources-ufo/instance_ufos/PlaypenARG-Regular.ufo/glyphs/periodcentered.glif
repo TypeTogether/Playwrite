@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered" format="2">
+  <advance width="250.0"/>
+  <unicode hex="00B7"/>
+  <anchor x="7.0" y="213.0" name="_center"/>
+  <anchor x="-94.0" y="213.0" name="_centerCase"/>
+  <outline>
+    <component base="dotaccentcomb" xOffset="125.0" yOffset="-370.0"/>
+  </outline>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f.mlp" format="2">
+	<advance width="350"/>
+	<outline>
+		<contour>
+			<point x="-82" y="-14" type="curve" smooth="yes"/>
+			<point x="18" y="-14"/>
+			<point x="123" y="145"/>
+			<point x="198" y="369" type="curve" smooth="yes"/>
+			<point x="261" y="556"/>
+			<point x="303" y="786"/>
+			<point x="303" y="1005" type="curve" smooth="yes"/>
+			<point x="303" y="1025"/>
+			<point x="272" y="1025"/>
+			<point x="272" y="1005" type="curve" smooth="yes"/>
+			<point x="272" y="769"/>
+			<point x="223" y="517"/>
+			<point x="154" y="326" type="curve" smooth="yes"/>
+			<point x="86" y="142"/>
+			<point x="-1" y="14"/>
+			<point x="-82" y="14" type="curve" smooth="yes"/>
+			<point x="-100" y="14"/>
+			<point x="-100" y="-14"/>
+		</contour>
+		<component base="f.mlp.fin"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>f.mlp.fin</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

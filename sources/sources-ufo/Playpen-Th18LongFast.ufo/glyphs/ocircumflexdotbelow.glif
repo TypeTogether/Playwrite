@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ocircumflexdotbelow" format="2">
+	<unicode hex="1ED9"/>
+	<advance width="471"/>
+	<outline>
+		<component base="o"/>
+		<component base="dotbelowcomb" xOffset="242"/>
+		<component base="circumflexcomb" xOffset="224"/>
+	</outline>
+	<anchor name="bottom" x="127" y="-155"/>
+	<anchor name="center" x="236" y="200"/>
+	<anchor name="ogonek" x="280" y="10"/>
+	<anchor name="top" x="371" y="654"/>
+	<anchor name="topright" x="348" y="405"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>o</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>dotbelowcomb</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>circumflexcomb</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>
