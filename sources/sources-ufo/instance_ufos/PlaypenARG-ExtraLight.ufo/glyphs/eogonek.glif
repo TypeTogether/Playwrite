@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eogonek" format="2">
+  <advance width="421.0"/>
+  <unicode hex="0119"/>
+  <anchor x="233.0" y="0.0" name="bottom"/>
+  <anchor x="327.0" y="10.0" name="ogonek"/>
+  <anchor x="233.0" y="400.0" name="top"/>
+  <outline>
+    <component base="e"/>
+    <component base="ogonekcomb" xOffset="274.0" yOffset="10.0"/>
+  </outline>
+</glyph>

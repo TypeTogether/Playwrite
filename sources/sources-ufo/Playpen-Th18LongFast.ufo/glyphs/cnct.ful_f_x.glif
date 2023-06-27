@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cnct.ful_f_x" format="2">
+	<outline>
+		<contour>
+			<point x="-610" y="-815" type="curve" smooth="yes"/>
+			<point x="-590" y="-815"/>
+			<point x="-585" y="-787"/>
+			<point x="-605" y="-787" type="curve" smooth="yes"/>
+			<point x="-638" y="-787"/>
+			<point x="-654" y="-765"/>
+			<point x="-654" y="-720" type="curve" smooth="yes"/>
+			<point x="-654" y="-523"/>
+			<point x="-469" y="-281"/>
+			<point x="-213" y="-92" type="curve" smooth="yes"/>
+			<point x="102" y="140"/>
+			<point x="157" y="388"/>
+			<point x="239" y="388" type="curve" smooth="yes"/>
+			<point x="259" y="388"/>
+			<point x="265" y="415"/>
+			<point x="245" y="415" type="curve" smooth="yes"/>
+			<point x="128" y="415"/>
+			<point x="93" y="164"/>
+			<point x="-222" y="-66" type="curve" smooth="yes"/>
+			<point x="-492" y="-263"/>
+			<point x="-687" y="-517"/>
+			<point x="-687" y="-720" type="curve" smooth="yes"/>
+			<point x="-687" y="-778"/>
+			<point x="-661" y="-815"/>
+		</contour>
+	</outline>
+	<anchor name="_cnct" x="-65" y="0"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Mark</string>
+			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
+			<integer>40</integer>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Nonspacing</string>
+		</dict>
+	</lib>
+</glyph>

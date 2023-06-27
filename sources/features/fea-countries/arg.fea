@@ -1,0 +1,6 @@
+@UC = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
+@lc = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+@UCARG = [A.cur B.cur C.cur D.dec E.cur F.dec G.cur H.dec I.cur J.cur K.cur L.cur M.cur N.cur O.cur P.dec Q.cur R.dec S.cur T.dec U.cur V.cur W.cur X.dec Y.cur Z.cur];
+@lcARG = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.ful q.jmc_ar r.ful s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.cnt];
+
+sub [@UC @lc] by [@UCARG @lcARG];

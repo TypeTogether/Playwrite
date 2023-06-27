@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="o.mod" format="2">
+	<advance width="481"/>
+	<outline>
+		<component base="o" xOffset="10"/>
+	</outline>
+	<anchor name="cnct" x="408" y="365"/>
+	<anchor name="bottom" x="187" y="0"/>
+	<anchor name="center" x="246" y="200"/>
+	<anchor name="ogonek" x="290" y="10"/>
+	<anchor name="top" x="274" y="400"/>
+	<anchor name="topright" x="358" y="405"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>o</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

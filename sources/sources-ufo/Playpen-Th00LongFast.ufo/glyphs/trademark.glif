@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="trademark" format="2">
+	<unicode hex="2122"/>
+	<advance width="2156"/>
+	<outline>
+		<component base="T"/>
+		<component base="M" xOffset="856"/>
+	</outline>
+	<anchor name="bottom_1" x="428" y="0"/>
+	<anchor name="bottom_2" x="1507" y="0"/>
+	<anchor name="center" x="428" y="595"/>
+	<anchor name="top_1" x="428" y="1139"/>
+	<anchor name="top_2" x="1507" y="1139"/>
+</glyph>

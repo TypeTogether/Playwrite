@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="b.jmc" format="2">
+	<advance width="508"/>
+	<outline>
+		<component base="b" xOffset="20"/>
+	</outline>
+	<anchor name="bottom" x="213" y="0"/>
+	<anchor name="center" x="278" y="200"/>
+	<anchor name="top" x="343" y="400"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>b</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ccedilla" format="2">
+	<unicode hex="00E7"/>
+	<advance width="418"/>
+	<outline>
+		<component base="c"/>
+		<component base="cedillacomb" xOffset="234"/>
+	</outline>
+	<anchor name="bottom" x="100" y="-210"/>
+	<anchor name="top" x="292" y="400"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>c</string>
+				</dict>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>cedillacomb</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

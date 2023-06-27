@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cnct.jmc_f_o" format="2">
+	<outline>
+		<contour>
+			<point x="-291" y="-815" type="curve" smooth="yes"/>
+			<point x="-273" y="-815"/>
+			<point x="-256" y="-755"/>
+			<point x="-280" y="-755" type="curve" smooth="yes"/>
+			<point x="-310" y="-755"/>
+			<point x="-340" y="-732"/>
+			<point x="-340" y="-653" type="curve" smooth="yes"/>
+			<point x="-340" y="-304"/>
+			<point x="92" y="4"/>
+			<point x="129" y="301" type="curve" smooth="yes"/>
+			<point x="131" y="321"/>
+			<point x="104" y="338"/>
+			<point x="101" y="323" type="curve" smooth="yes"/>
+			<point x="29" y="5"/>
+			<point x="-411" y="-270"/>
+			<point x="-411" y="-657" type="curve" smooth="yes"/>
+			<point x="-411" y="-752"/>
+			<point x="-363" y="-815"/>
+		</contour>
+	</outline>
+	<anchor name="_cnct" x="0" y="0"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Mark</string>
+			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
+			<integer>10</integer>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Nonspacing</string>
+		</dict>
+	</lib>
+</glyph>

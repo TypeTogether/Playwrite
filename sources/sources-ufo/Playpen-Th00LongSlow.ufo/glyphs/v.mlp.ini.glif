@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="v.mlp.ini" format="2">
+	<advance width="483"/>
+	<outline>
+		<contour>
+			<point x="242" y="-15" type="curve" smooth="yes"/>
+			<point x="359" y="-15"/>
+			<point x="415" y="91"/>
+			<point x="415" y="218" type="curve" smooth="yes"/>
+			<point x="415" y="350"/>
+			<point x="387" y="415"/>
+			<point x="339" y="415" type="curve" smooth="yes"/>
+			<point x="323" y="415"/>
+			<point x="323" y="391"/>
+			<point x="339" y="391" type="curve" smooth="yes"/>
+			<point x="363" y="391"/>
+			<point x="386" y="335"/>
+			<point x="386" y="218" type="curve" smooth="yes"/>
+			<point x="386" y="87"/>
+			<point x="322" y="12"/>
+			<point x="247" y="12" type="curve" smooth="yes"/>
+			<point x="177" y="12"/>
+			<point x="139" y="65"/>
+			<point x="139" y="160" type="curve" smooth="yes"/>
+			<point x="139" y="305" type="line" smooth="yes"/>
+			<point x="139" y="380"/>
+			<point x="106" y="412"/>
+			<point x="53" y="412" type="curve" smooth="yes"/>
+			<point x="-5" y="412"/>
+			<point x="-42" y="368"/>
+			<point x="-45" y="277" type="curve"/>
+			<point x="-45" y="271"/>
+			<point x="-40" y="267"/>
+			<point x="-32" y="267" type="curve" smooth="yes"/>
+			<point x="-22" y="267"/>
+			<point x="-17" y="270"/>
+			<point x="-17" y="276" type="curve"/>
+			<point x="-11" y="356"/>
+			<point x="12" y="385"/>
+			<point x="51" y="385" type="curve" smooth="yes"/>
+			<point x="89" y="385"/>
+			<point x="110" y="359"/>
+			<point x="110" y="301" type="curve" smooth="yes"/>
+			<point x="110" y="154" type="line" smooth="yes"/>
+			<point x="110" y="42"/>
+			<point x="167" y="-15"/>
+		</contour>
+	</outline>
+	<anchor name="cnct" x="483" y="0"/>
+</glyph>

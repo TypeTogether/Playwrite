@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ibreve" format="2">
+	<unicode hex="012C"/>
+	<advance width="418"/>
+	<outline>
+		<component base="I"/>
+		<component base="brevecomb" xOffset="441" yOffset="739"/>
+	</outline>
+	<anchor name="bottom" x="145" y="0"/>
+	<anchor name="ogonek" x="165" y="-9"/>
+	<anchor name="top" x="588" y="1393"/>
+</glyph>

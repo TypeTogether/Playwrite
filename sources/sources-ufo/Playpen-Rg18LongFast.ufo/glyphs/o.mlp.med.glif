@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="o.mlp.med" format="2">
+	<advance width="481"/>
+	<outline>
+		<contour>
+			<point x="203" y="-15" type="curve" smooth="yes"/>
+			<point x="366" y="-15"/>
+			<point x="443" y="157"/>
+			<point x="443" y="265" type="curve" smooth="yes"/>
+			<point x="443" y="354"/>
+			<point x="390" y="415"/>
+			<point x="291" y="415" type="curve" smooth="yes"/>
+			<point x="251" y="415"/>
+			<point x="244" y="351"/>
+			<point x="284" y="351" type="curve" smooth="yes"/>
+			<point x="337" y="351"/>
+			<point x="370" y="319"/>
+			<point x="370" y="257" type="curve" smooth="yes"/>
+			<point x="370" y="176"/>
+			<point x="315" y="49"/>
+			<point x="211" y="49" type="curve" smooth="yes"/>
+			<point x="156" y="49"/>
+			<point x="122" y="84"/>
+			<point x="122" y="146" type="curve" smooth="yes"/>
+			<point x="122" y="215"/>
+			<point x="185" y="360"/>
+			<point x="299" y="360" type="curve" smooth="yes"/>
+			<point x="319" y="360"/>
+			<point x="325" y="395"/>
+			<point x="305" y="395" type="curve" smooth="yes"/>
+			<point x="135" y="395"/>
+			<point x="50" y="248"/>
+			<point x="50" y="141" type="curve" smooth="yes"/>
+			<point x="50" y="50"/>
+			<point x="103" y="-15"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="181" y="0"/>
+	<anchor name="center" x="246" y="200"/>
+	<anchor name="cnct" x="416" y="0"/>
+	<anchor name="ogonek" x="290" y="10"/>
+	<anchor name="top" x="291" y="400"/>
+	<anchor name="topright" x="358" y="405"/>
+</glyph>

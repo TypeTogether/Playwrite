@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="v.mod.fin" format="2">
+	<advance width="407"/>
+	<outline>
+		<component base="v.mod"/>
+	</outline>
+	<anchor name="cnct" x="376" y="405"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>v.mod</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

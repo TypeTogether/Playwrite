@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cnct.cnt_z_z" format="2">
+	<outline>
+		<contour>
+			<point x="-403" y="-238" type="curve" smooth="yes"/>
+			<point x="-403" y="-149"/>
+			<point x="-258" y="-53"/>
+			<point x="-123" y="35" type="curve" smooth="yes"/>
+			<point x="-47" y="84"/>
+			<point x="33" y="147"/>
+			<point x="100" y="248" type="curve" smooth="yes"/>
+			<point x="173" y="357"/>
+			<point x="208" y="388"/>
+			<point x="253" y="388" type="curve" smooth="yes"/>
+			<point x="273" y="388"/>
+			<point x="281" y="415"/>
+			<point x="261" y="415" type="curve" smooth="yes"/>
+			<point x="200" y="415"/>
+			<point x="154" y="377"/>
+			<point x="79" y="264" type="curve" smooth="yes"/>
+			<point x="12" y="163"/>
+			<point x="-62" y="103"/>
+			<point x="-132" y="58" type="curve" smooth="yes"/>
+			<point x="-286" y="-42"/>
+			<point x="-434" y="-140"/>
+			<point x="-434" y="-244" type="curve" smooth="yes"/>
+			<point x="-434" y="-264"/>
+			<point x="-403" y="-258"/>
+		</contour>
+	</outline>
+	<anchor name="_cnct" x="-65" y="0"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.category</key>
+			<string>Mark</string>
+			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
+			<integer>20</integer>
+			<key>com.schriftgestaltung.Glyphs.subCategory</key>
+			<string>Nonspacing</string>
+		</dict>
+	</lib>
+</glyph>

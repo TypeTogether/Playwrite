@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a.mod.med" format="2">
+  <advance width="508.0"/>
+  <anchor x="508.0" y="0.0" name="cnct"/>
+  <anchor x="233.0" y="0.0" name="bottom"/>
+  <anchor x="463.3333333333333" y="0.0" name="ogonek"/>
+  <anchor x="242.0" y="400.0" name="top"/>
+  <outline>
+    <component base="a.mod.ini"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>a.mod.ini</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

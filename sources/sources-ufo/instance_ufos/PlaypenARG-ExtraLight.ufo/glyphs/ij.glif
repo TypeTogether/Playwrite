@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij" format="2">
+  <advance width="454.0"/>
+  <unicode hex="0133"/>
+  <anchor x="158.0" y="0.0" name="bottom"/>
+  <anchor x="202.0" y="0.0" name="ogonek"/>
+  <outline>
+    <component base="i"/>
+    <component base="j" xOffset="240.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

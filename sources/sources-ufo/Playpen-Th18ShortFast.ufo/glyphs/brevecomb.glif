@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevecomb" format="2">
+	<unicode hex="0306"/>
+	<outline>
+		<contour>
+			<point x="109" y="504" type="curve" smooth="yes"/>
+			<point x="183" y="504"/>
+			<point x="248" y="559"/>
+			<point x="270" y="656" type="curve" smooth="yes"/>
+			<point x="272" y="665"/>
+			<point x="268" y="669"/>
+			<point x="258" y="669" type="curve" smooth="yes"/>
+			<point x="248" y="669"/>
+			<point x="243" y="665"/>
+			<point x="241" y="656" type="curve" smooth="yes"/>
+			<point x="223" y="578"/>
+			<point x="173" y="536"/>
+			<point x="109" y="536" type="curve" smooth="yes"/>
+			<point x="53" y="536"/>
+			<point x="31" y="578"/>
+			<point x="44" y="656" type="curve" smooth="yes"/>
+			<point x="46" y="665"/>
+			<point x="43" y="669"/>
+			<point x="33" y="669" type="curve" smooth="yes"/>
+			<point x="23" y="669"/>
+			<point x="18" y="665"/>
+			<point x="16" y="656" type="curve" smooth="yes"/>
+			<point x="-1" y="559"/>
+			<point x="33" y="504"/>
+		</contour>
+	</outline>
+	<anchor name="_top" x="65" y="400"/>
+	<anchor name="top" x="147" y="654"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
+			<integer>250</integer>
+		</dict>
+	</lib>
+</glyph>

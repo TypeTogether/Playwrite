@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Z.cur.ini.001" format="2">
+	<advance width="820"/>
+	<outline>
+		<contour>
+			<point x="641" y="-816" type="curve" smooth="yes"/>
+			<point x="755" y="-816"/>
+			<point x="794" y="-681"/>
+			<point x="794" y="-355" type="curve" smooth="yes"/>
+			<point x="794" y="112"/>
+			<point x="683" y="288"/>
+			<point x="420" y="312" type="curve"/>
+			<point x="420" y="313" type="line"/>
+			<point x="682" y="486"/>
+			<point x="816" y="672"/>
+			<point x="816" y="918" type="curve" smooth="yes"/>
+			<point x="816" y="1114"/>
+			<point x="698" y="1212"/>
+			<point x="536" y="1212" type="curve" smooth="yes"/>
+			<point x="401" y="1212"/>
+			<point x="265" y="1143"/>
+			<point x="82" y="975" type="curve" smooth="yes"/>
+			<point x="75" y="968"/>
+			<point x="74" y="960"/>
+			<point x="80" y="953" type="curve" smooth="yes"/>
+			<point x="86" y="945"/>
+			<point x="94" y="945"/>
+			<point x="102" y="952" type="curve" smooth="yes"/>
+			<point x="275" y="1114"/>
+			<point x="402" y="1182"/>
+			<point x="533" y="1182" type="curve" smooth="yes"/>
+			<point x="677" y="1182"/>
+			<point x="783" y="1099"/>
+			<point x="783" y="916" type="curve" smooth="yes"/>
+			<point x="783" y="699"/>
+			<point x="657" y="499"/>
+			<point x="390" y="328" type="curve" smooth="yes"/>
+			<point x="363" y="311"/>
+			<point x="372" y="282"/>
+			<point x="393" y="281" type="curve" smooth="yes"/>
+			<point x="650" y="273"/>
+			<point x="761" y="111"/>
+			<point x="761" y="-355" type="curve" smooth="yes"/>
+			<point x="761" y="-660"/>
+			<point x="730" y="-788"/>
+			<point x="641" y="-788" type="curve" smooth="yes"/>
+			<point x="593" y="-788"/>
+			<point x="565" y="-740"/>
+			<point x="565" y="-661" type="curve" smooth="yes"/>
+			<point x="565" y="-641"/>
+			<point x="533" y="-643"/>
+			<point x="533" y="-663" type="curve" smooth="yes"/>
+			<point x="533" y="-758"/>
+			<point x="573" y="-816"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="468" y="0"/>
+	<anchor name="center" x="468" y="629"/>
+	<anchor name="cnct" x="820" y="0"/>
+	<anchor name="top" x="468" y="1139"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.Export</key>
+			<false/>
+		</dict>
+	</lib>
+</glyph>

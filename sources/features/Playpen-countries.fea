@@ -1,0 +1,1292 @@
+# 230626_1708
+
+# --------------
+# CLASSES
+# --------------
+
+# --------------
+# UC CURSIVE
+@UC = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
+@UC_Cursive = [A.cur B.cur C.cur D.cur E.cur F.cur G.cur H.cur I.cur J.cur K.cur L.cur M.cur N.cur O.cur P.cur Q.cur R.cur S.cur T.cur U.cur V.cur W.cur X.cur Y.cur Z.cur];
+@UC_CursiveHasIni = [ A.cur G.cur H.cur J.cur K.cur L.cur M.cur N.cur Q.cur R.cur T.cur U.cur X.cur Y.cur Z.cur];
+@UC_CursiveIni = [A.cur.ini G.cur.ini H.cur.ini J.cur.ini K.cur.ini L.cur.ini M.cur.ini N.cur.ini Q.cur.ini R.cur.ini T.cur.ini U.cur.ini X.cur.ini Y.cur.ini Z.cur.ini];
+
+@UC_Decorative = [A.dec B.dec C.cur D.dec E.cur F.dec G.dec H.dec I.dec J.dec K.dec L.dec M.dec N.dec O.dec P.dec Q.dec R.dec S.dec T.dec U.cur V.dec W.dec X.dec Y.cur Z.dec];
+@UC_DecorativeHasIni = [J.dec K.dec L.dec M.dec Q.dec R.dec X.dec Z.dec A.dec_locl X.dec_locl Z.dec_locl];
+@UC_DecorativeIni = [J.dec.ini K.dec.ini L.dec.ini M.dec.ini Q.dec.ini R.dec.ini X.dec.ini Z.dec.ini A.dec_locl.ini X.dec_locl.ini Z.dec_locl.ini];
+
+# --------------
+# STYLES
+@lc = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+@lcMOD = [a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod j.mod k.mod l.mod m.mod n.mod o.mod p.mod q.mod r.mod s.mod t.mod u.mod v.mod w.mod x.mod y.mod z.mod];
+@lcJMC = [a.mod b.jmc c.mod d.mod e.mod f.jmc g.jmc h.mod i.mod j.jmc k.mod l.mod m.mod n.mod o.mod p.jmc q.jmc r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.jmc z.mod];
+@lcFUL = [a.mod b.ful c.mod d.mod e.ful f.ful g.jmc h.mod i.mod j.jmc k.ful l.mod m.mod n.mod o.mod p.ful q.jmc r.ful s.ful t.mod u.mod v.ful w.ful x.ful y.jmc z.ful];
+@lcLOP = [a.mod b.lop c.mod d.mod e.ful f.ful g.jmc h.lop i.mod j.jmc k.lop l.lop m.mod n.mod o.mod p.ful q.jmc r.ful s.ful t.mod u.mod v.ful w.ful x.ful y.jmc z.ful];
+@lcCNT = [a.mod b.lop c.mod d.mod e.ful f.ful g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.cnt s.ful t.mod u.mod v.cnt w.cnt x.cnt y.cnt z.cnt];
+@lcMRR = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.mrr q.mrr r.cnt s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.cnt];
+@lcMLP = [a.mod b.mlp c.mod d.mod e.ful f.mlp g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.mrr q.mrr r.mlp s.mlp t.mod u.mod v.mlp w.mlp x.ful y.cnt z.mlp];
+
+# --------------
+# POSITION
+@posBase = [a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod j.mod k.mod l.mod m.mod n.mod o.mod p.mod q.mod r.mod s.mod t.mod u.mod v.mod w.mod x.mod y.mod z.mod b.jmc f.jmc g.jmc j.jmc p.jmc q.jmc q.jmc_ar s.jmc y.jmc b.ful e.ful f.ful k.ful p.ful r.ful s.ful v.ful w.ful x.ful z.ful b.lop h.lop k.lop l.lop l.alt1.lop m.cnt n.cnt r.cnt v.cnt w.cnt y.cnt z.cnt f.mrr f.alt1.mrr p.mrr q.mrr b.mlp o.mlp r.mlp s.mlp v.mlp w.mlp z.mlp x.cnt f.mlp];
+@posIni = [a.mod.ini b.mod.ini c.mod.ini d.mod.ini e.mod.ini f.mod.ini g.mod.ini h.mod.ini i.mod.ini j.mod.ini k.mod.ini l.mod.ini m.mod.ini n.mod.ini o.mod.ini p.mod.ini q.mod.ini r.mod.ini s.mod.ini t.mod.ini u.mod.ini v.mod.ini w.mod.ini x.mod.ini y.mod.ini z.mod.ini b.jmc.ini f.jmc.ini g.jmc.ini j.jmc.ini p.jmc.ini q.jmc.ini q.jmc_ar.ini s.jmc.ini y.jmc.ini b.ful.ini e.ful.ini f.ful.ini k.ful.ini p.ful.ini r.ful.ini s.ful.ini v.ful.ini w.ful.ini x.ful.ini z.ful.ini b.lop.ini h.lop.ini k.lop.ini l.lop.ini l.alt1.lop.ini m.cnt.ini n.cnt.ini r.cnt.ini v.cnt.ini w.cnt.ini y.cnt.ini z.cnt.ini f.mrr.ini f.alt1.mrr.ini p.mrr.ini q.mrr.ini b.mlp.ini o.mlp.ini r.mlp.ini s.mlp.ini v.mlp.ini w.mlp.ini z.mlp.ini x.cnt.ini f.mlp.ini];
+@posMed = [a.mod.med b.mod.med c.mod.med d.mod.med e.mod.med f.mod.med g.mod.med h.mod.med i.mod.med j.mod.med k.mod.med l.mod.med m.mod.med n.mod.med o.mod.med p.mod.med q.mod.med r.mod.med s.mod.med t.mod.med u.mod.med v.mod.med w.mod.med x.mod.med y.mod.med z.mod.med b.jmc.med f.jmc.med g.jmc.med j.jmc.med p.jmc.med q.jmc.med q.jmc_ar.med s.jmc.med y.jmc.med b.ful.med e.ful.med f.ful.med k.ful.med p.ful.med r.ful.med s.ful.med v.ful.med w.ful.med x.ful.med z.ful.med b.lop.med h.lop.med k.lop.med l.lop.med l.alt1.lop.med m.cnt.med n.cnt.med r.cnt.med v.cnt.med w.cnt.med y.cnt.med z.cnt.med f.mrr.med f.alt1.mrr.med p.mrr.med q.mrr.med b.mlp.med o.mlp.med r.mlp.med s.mlp.med v.mlp.med w.mlp.med z.mlp.med x.cnt.med f.mlp.med];
+@posFin = [a.mod.fin b.mod.fin c.mod.fin d.mod.fin e.mod.fin f.mod.fin g.mod.fin h.mod.fin i.mod.fin j.mod.fin k.mod.fin l.mod.fin m.mod.fin n.mod.fin o.mod.fin p.mod.fin q.mod.fin r.mod.fin s.mod.fin t.mod.fin u.mod.fin v.mod.fin w.mod.fin x.mod.fin y.mod.fin z.mod.fin b.jmc.fin f.jmc.fin g.jmc.fin j.jmc.fin p.jmc.fin q.jmc.fin q.jmc_ar.fin s.jmc.fin y.jmc.fin b.ful.fin e.ful.fin f.ful.fin k.ful.fin p.ful.fin r.ful.fin s.ful.fin v.ful.fin w.ful.fin x.ful.fin z.ful.fin b.lop.fin h.lop.fin k.lop.fin l.lop.fin l.alt1.lop.fin m.cnt.fin n.cnt.fin r.cnt.fin v.cnt.fin w.cnt.fin y.cnt.fin z.cnt.fin f.mrr.fin f.alt1.mrr.fin p.mrr.fin q.mrr.fin b.mlp.fin o.mlp.fin r.mlp.fin s.mlp.fin v.mlp.fin w.mlp.fin z.mlp.fin x.cnt.fin f.mlp.fin];
+
+# --------------
+# CONNECTIONS
+
+# UPPERCASE
+@Gcur_SRC = [G.cur.ini G.cur_locl.ini J.cur.ini J.dec.ini Y.cur.ini Z.cur.ini];
+@Tdec_SRC = [T.cur.ini T.cur_loc.ini Z.dec.ini X.dec_locl.ini Z.dec_locl.ini];
+@Xdec_SRC = [X.dec.ini];
+# SOURCE CLASSES (INI and MED)
+@bful_SRC = [b.ful.ini b.ful.med v.ful.ini v.ful.med w.ful.ini w.ful.med b.lop.ini b.lop.med v.cnt.ini v.cnt.med v.cnt.med_n_ w.cnt.ini w.cnt.med w.cnt.med_n_];
+@bmlp_SRC = [b.mlp.ini b.mlp.med v.mlp.ini v.mlp.med w.mlp.ini w.mlp.med v.mlp.med_n_ w.mlp.med_n_];
+@cmod_SRC = [c.mod.ini c.mod.med];
+@emod_SRC = [e.mod.ini e.mod.med e.mod.med_b_ e.mod.med_n_ e.jmc.med_g_];
+@eful_SRC = [e.ful.ini e.ful.med e.ful.med_g_ e.ful.fin_g_ e.ful.med_o_ e.ful.fin_o_];
+@fful_SRC = [f.ful.ini f.ful.med];
+@fjmc_SRC = [f.jmc.ini f.jmc.med f.jmc.med_o_];
+@fmlp_SRC = [f.mlp.ini f.mlp.med];
+@fmrr_SRC = [f.mrr.ini f.mrr.med];
+@gjmc_SRC = [g.jmc.ini g.jmc.med j.jmc.ini j.jmc.med y.jmc.ini y.jmc.med y.cnt.ini y.cnt.med y.cnt.med_n_ ];
+@nmod_SRC = [A.cur.ini H.cur.ini K.cur.ini L.cur.ini M.cur.ini N.cur.ini Q.cur.ini R.cur.ini U.cur.ini X.cur.ini K.dec.ini L.dec.ini M.dec.ini Q.dec.ini R.dec.ini A.cur_locl.ini A.dec_locl.ini a.mod.ini a.mod.med b.jmc.ini b.jmc.med d.mod.ini d.mod.med h.lop.ini h.lop.med h.mod.ini h.mod.med i.mod.ini i.mod.med k.ful.ini k.ful.med k.lop.ini k.lop.med k.mod.ini k.mod.med l.lop.ini l.lop.med l.mod.ini l.mod.med m.cnt.ini m.cnt.med m.cnt.med_n_ m.mod.ini m.mod.med n.cnt.ini n.cnt.med n.cnt.med_n_ n.mod.ini n.mod.med p.ful.ini p.ful.med p.jmc.ini p.jmc.med p.mrr.ini p.mrr.med q.jmc.ini q.jmc.med q.jmc_ar.ini q.jmc_ar.med q.mrr.ini q.mrr.med r.ful.ini r.ful.med r.mlp.ini r.mlp.med s.ful.ini s.ful.med s.jmc.ini s.jmc.med s.mlp.ini s.mlp.med t.mod.ini t.mod.med t.mod.med_o_ u.mod.ini u.mod.med x.cnt.ini x.cnt.med x.ful.ini x.ful.med x.mod.ini x.mod.med z.mod.ini z.mod.med];
+@omod_SRC = [o.mod.ini o.mod.med];
+@omlp_SRC = [o.mlp.ini o.mlp.med];
+@rmod_SRC = [r.mod.ini r.mod.med];
+@rcnt_SRC = [r.cnt.ini r.cnt.med r.cnt.med_n_];
+@vmod_SRC = [v.mod.ini v.mod.med w.mod.ini w.mod.med];
+# @zcnt_SRC = [z.cnt.ini z.cnt.med];
+@zful_SRC = [z.ful.ini z.ful.med z.mlp.ini z.mlp.med z.cnt.ini z.cnt.med];
+#
+@cenorvfg_SRC = [@cmod_SRC @emod_SRC @nmod_SRC @omod_SRC @rmod_SRC @vmod_SRC @fjmc_SRC @gjmc_SRC];
+
+# TARGET CLASSES (MED and FIN)
+@bmod_TGT = [b.ful.fin b.ful.med b.jmc.fin b.jmc.med b.mod.fin b.mod.med h.mod.fin h.mod.med k.ful.fin k.ful.med k.mod.fin k.mod.med l.mod.fin l.mod.med];
+@emod_TGT = [e.mod.fin e.mod.fin_b_ e.mod.fin_n_ e.mod.med e.mod.med_b_ e.mod.med_n_ e.jmc.fin_g_ e.jmc.med_g_];
+@eful_TGT = [e.ful.fin e.ful.fin_g_ e.ful.fin_o_ e.ful.med e.ful.med_g_ e.ful.med_o_];
+@fful_TGT = [b.lop.fin b.lop.med b.mlp.fin b.mlp.med f.ful.fin f.ful.med f.mlp.fin f.mlp.med f.mrr.fin f.mrr.med l.lop.fin l.lop.med];
+@fjmc_TGT = [f.jmc.fin f.jmc.fin_o_ f.jmc.med f.jmc.med_o_];
+@fmrr_TGT = [b.lop.fin b.lop.med f.ful.fin f.ful.med f.mrr.fin f.mrr.med l.lop.fin l.lop.med];
+@hlop_TGT = [h.lop.fin h.lop.med k.lop.fin k.lop.med];
+@imrr_TGT = [i.mod.fin i.mod.med j.jmc.fin j.jmc.med j.mod.fin j.mod.med p.ful.fin p.ful.med p.jmc.fin p.jmc.med p.mod.fin p.mod.med p.mrr.fin p.mrr.med u.mod.fin u.mod.med y.jmc.fin y.jmc.med];
+
+@nmod_TGT_CUR = [i.mod j.jmc p.ful u.mod];
+@nmod_TGT = [@nmod_TGT_CUR i.mod.fin i.mod.med j.jmc.fin j.jmc.med j.mod.fin j.mod.med m.mod.fin m.mod.med n.mod.fin n.mod.med p.ful.fin p.ful.med p.jmc.fin p.jmc.med p.mod.fin p.mod.med p.mrr.fin p.mrr.med r.mod.fin r.mod.med u.mod.fin u.mod.med v.ful.fin v.ful.med w.ful.fin w.ful.med y.jmc.fin y.jmc.med y.mod.fin y.mod.med];
+
+@ncnt_TGT_CUR = [m.cnt n.cnt v.cnt w.cnt y.cnt];
+@ncnt_TGT = [@ncnt_TGT_CUR m.cnt.fin m.cnt.fin_n_ m.cnt.med m.cnt.med_n_ n.cnt.fin n.cnt.fin_n_ n.cnt.med n.cnt.med_n_ r.cnt.fin r.cnt.fin_n_ r.cnt.med r.cnt.med_n_ v.cnt.fin v.cnt.fin_n_ v.cnt.med v.cnt.med_n_ w.cnt.fin w.cnt.fin_n_ w.cnt.med w.cnt.med_n_ y.cnt.fin y.cnt.fin_n_ y.cnt.med y.cnt.med_n_ v.mlp.med v.mlp.fin w.mlp.med w.mlp.fin v.mlp.med_n_ v.mlp.fin_n_ w.mlp.med_n_ w.mlp.fin_n_];
+
+### TGT must have also their .ini version for UC_cur connection:
+@omod_TGT_CUR = [a.mod c.mod d.mod g.jmc o.mlp q.jmc_ar];
+@omod_TGT = [@omod_TGT_CUR a.mod.fin a.mod.med c.mod.fin c.mod.med d.mod.fin d.mod.med g.jmc.fin g.jmc.med g.mod.fin g.mod.med o.mlp.fin o.mlp.med o.mod.fin o.mod.med q.jmc.fin q.jmc.med q.jmc_ar.fin q.jmc_ar.med q.mod.fin q.mod.med q.mrr.fin q.mrr.med a.mod.ini c.mod.ini d.mod.ini g.jmc.ini g.mod.ini o.mlp.ini o.mod.ini q.jmc.ini q.jmc_ar.ini q.mod.ini q.mrr.ini];
+@omlp_TGT = [o.mlp.fin o.mlp.med];
+
+@rful_TGT = [r.ful.fin r.ful.med r.mlp.fin r.mlp.med z.mlp.fin z.mlp.med];
+@smod_TGT = [s.jmc.fin s.jmc.med s.mod.fin s.mod.med];
+@sful_TGT = [s.ful.fin s.ful.med s.mlp.fin s.mlp.med];
+
+@tmod_TGT_CUR = [t.mod];
+@tmod_TGT = [@tmod_TGT_CUR f.mod.fin f.mod.fin_o_ f.mod.med f.mod.med_o_ t.mod.fin t.mod.fin_o_ t.mod.med t.mod.med_o_];
+@vmod_TGT = [v.mod.fin v.mod.med w.mod.fin w.mod.med];
+@xmod_TGT = [x.mod.fin x.mod.med];
+
+@xful_TGT_CUR = [x.ful];
+@xful_TGT = [@xful_TGT_CUR x.cnt.fin x.cnt.med x.ful.fin x.ful.med];
+@zmod_TGT = [z.mod.fin z.mod.med];
+
+@zcnt_TGT_CUR = [z.cnt];
+@zcnt_TGT = [@zcnt_TGT_CUR z.cnt.fin z.cnt.med];
+@zful_TGT = [z.ful.fin z.ful.med];
+#
+
+# --------------
+# LOOKUPS
+# --------------
+
+lookup before_b {
+	sub @Gcur_SRC by @Gcur_SRC cnct.mod_G_b;
+	sub @Tdec_SRC by @Tdec_SRC cnct.mod_c_b;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_b;
+	#
+	sub @cmod_SRC by @cmod_SRC cnct.mod_c_b;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_b;
+	sub @nmod_SRC by @nmod_SRC cnct.mod_n_b;
+	sub @omod_SRC by @omod_SRC cnct.mod_o_b;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_b;
+	sub @vmod_SRC by @vmod_SRC cnct.mod_v_b;
+	#
+	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_b;
+	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_b;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_b;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_b;
+	sub @fful_SRC by @fful_SRC cnct.jmc_f_b;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_b;
+} before_b;
+
+
+lookup before_e {
+	sub @Gcur_SRC by @Gcur_SRC cnct.mod_G_e;
+	sub @Tdec_SRC by @Tdec_SRC cnct.mod_c_e;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_e;
+	#
+	sub @cmod_SRC by @cmod_SRC cnct.mod_c_e;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_e;
+	sub @nmod_SRC by @nmod_SRC cnct.mod_n_e;
+	sub @omod_SRC by @omod_SRC cnct.mod_o_e;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_e;
+	sub @vmod_SRC by @vmod_SRC cnct.mod_v_e;
+	#
+	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_e;
+	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_e;
+	} before_e;
+
+
+lookup before_eful {
+	sub @cmod_SRC by @cmod_SRC cnct.ful_c_e;
+	sub @nmod_SRC by @nmod_SRC cnct.ful_n_e;
+	sub @omod_SRC by @omod_SRC cnct.ful_o_e;
+	#
+	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_e;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_e;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_e;
+	sub @fful_SRC by @fful_SRC cnct.ful_f_e;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_e;
+	#
+	sub @rmod_SRC by @rmod_SRC cnct.ful_n_e;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_e;
+	#
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_e;
+	#
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_e;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_e;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_e;
+} before_eful;
+
+
+lookup before_fjmc {
+	sub @cmod_SRC by @cmod_SRC cnct.jmc_c_f;
+	sub @emod_SRC by @emod_SRC cnct.jmc_e_f;
+	sub @nmod_SRC by @nmod_SRC cnct.jmc_n_f;
+	sub @omod_SRC by @omod_SRC cnct.jmc_o_f;
+	sub @rmod_SRC by @rmod_SRC cnct.jmc_r_f;
+	sub @vmod_SRC by @vmod_SRC cnct.jmc_v_f;
+	#
+	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_f;
+	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_f;
+	#
+	sub @zful_SRC by @zful_SRC cnct.ful_z_f;
+} before_fjmc;
+
+lookup before_fful {
+	sub @cmod_SRC by @cmod_SRC cnct.ful_c_f;
+	sub @nmod_SRC by @nmod_SRC cnct.ful_n_f;
+	sub @omod_SRC by @omod_SRC cnct.ful_o_f;
+	#
+	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_f;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_f;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_f;
+	sub @fful_SRC by @fful_SRC cnct.ful_f_f;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_f;
+	#
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_f;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_f;
+	#
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_f;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_f;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_f;
+	#
+} before_fful;
+
+lookup before_fmrr {
+	sub @nmod_SRC by @nmod_SRC cnct.ful_n_f;
+} before_fmrr;
+
+
+lookup before_h {
+	sub @bful_SRC by @bful_SRC cnct.lop_b_h;
+	sub @nmod_SRC by @nmod_SRC cnct.lop_n_h;
+	sub @cmod_SRC by @cmod_SRC cnct.lop_c_h;
+	sub @eful_SRC by @eful_SRC cnct.lop_e_h;
+	sub @fful_SRC by @fful_SRC cnct.lop_f_h;
+	sub @gjmc_SRC by @gjmc_SRC cnct.lop_g_h;
+	sub @omod_SRC by @omod_SRC cnct.lop_o_h;
+	sub @zful_SRC by @zful_SRC cnct.lop_z_h;
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_h;
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_h;
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_h;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_h;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_h;
+} before_h;
+
+
+lookup before_imrr {
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_i;
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_i;
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_i;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_i;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_i;
+} before_imrr;
+
+
+lookup before_n {
+	sub @Gcur_SRC by @Gcur_SRC cnct.mod_G_n;
+	sub @Tdec_SRC by @Tdec_SRC cnct.mod_c_n;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_n;
+	#
+	sub @cmod_SRC by @cmod_SRC cnct.mod_c_n;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_n;
+	sub @nmod_SRC by @nmod_SRC cnct.mod_n_n;
+	sub @omod_SRC by @omod_SRC cnct.mod_o_n;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_n;
+	sub @vmod_SRC by @vmod_SRC cnct.mod_v_n;
+	#
+	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_n;
+	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_n;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_n;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_n;
+	sub @fful_SRC by @fful_SRC cnct.jmc_f_n;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_n;
+	#
+} before_n;
+
+lookup before_ncnt {
+	sub @bful_SRC by @bful_SRC cnct.cnt_b_n;
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_n;
+	sub @cmod_SRC by @cmod_SRC cnct.cnt_c_n;
+	sub @eful_SRC by @eful_SRC cnct.cnt_e_n;
+	sub @fful_SRC by @fful_SRC cnct.cnt_f_n;
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_n;
+	sub @gjmc_SRC by @gjmc_SRC cnct.cnt_g_n;
+	sub @nmod_SRC by @nmod_SRC cnct.cnt_n_n;
+	sub @omod_SRC by @omod_SRC cnct.cnt_o_n;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_n;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_n;
+	sub @rmod_SRC by @rmod_SRC cnct.cnt_r_n;
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_n;
+	sub @zful_SRC by @zful_SRC cnct.cnt_z_n;
+} before_ncnt;
+
+
+lookup before_o {
+	sub @Gcur_SRC by @Gcur_SRC cnct.mod_G_o;
+	sub @Tdec_SRC by @Tdec_SRC cnct.mod_c_o;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_o;
+	#
+	sub @cmod_SRC by @cmod_SRC cnct.mod_c_o;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_o;
+	sub @nmod_SRC by @nmod_SRC cnct.mod_n_o;
+	sub @omod_SRC by @omod_SRC cnct.mod_o_o;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_o;
+	sub @vmod_SRC by @vmod_SRC cnct.mod_v_o;
+	#
+	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_o;
+	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_o;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_o;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_o;
+	sub @fful_SRC by @fful_SRC cnct.jmc_f_o;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_o;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_o;
+	#
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_o;
+	#
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_o;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_o;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_o;
+} before_o;
+
+
+lookup before_rful {
+	sub @cmod_SRC by @cmod_SRC cnct.ful_c_r;
+	sub @nmod_SRC by @nmod_SRC cnct.ful_n_r;
+	sub @omod_SRC by @omod_SRC cnct.ful_o_r;
+	#
+	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_r;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_r;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_r;
+	sub @fful_SRC by @fful_SRC cnct.ful_f_r;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_r;
+	#
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_r;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_r;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_r;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_r.ful;
+} before_rful;
+
+
+lookup before_s {
+	sub @Gcur_SRC by @Gcur_SRC cnct.mod_G_s;
+	sub @Tdec_SRC by @Tdec_SRC cnct.mod_c_s;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_s;
+	#
+	sub @cmod_SRC by @cmod_SRC cnct.mod_c_s;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_s;
+	sub @nmod_SRC by @nmod_SRC cnct.mod_n_s;
+	sub @omod_SRC by @omod_SRC cnct.mod_o_s;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_s;
+	sub @vmod_SRC by @vmod_SRC cnct.mod_v_s;
+	#
+	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_s;
+	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_s;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_s;
+	sub @fful_SRC by @fful_SRC cnct.ful_f_s;
+	#
+	} before_s;
+
+lookup before_sful {
+	sub @cmod_SRC by @cmod_SRC cnct.ful_c_s;
+	sub @bful_SRC by @bful_SRC cnct.ful_b_s;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_s;
+	sub @fful_SRC by @fful_SRC cnct.ful_f_s;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_s;
+	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_s;
+	sub @nmod_SRC by @nmod_SRC cnct.ful_n_s;
+	sub @omod_SRC by @omod_SRC cnct.ful_o_s;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_s;
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_s;
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_s;
+	# sub @zful_SRC by @zful_SRC cnct.cnt_z_s;
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_s;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_s;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_s;
+} before_sful;
+
+
+lookup before_t {
+	sub @Gcur_SRC by @Gcur_SRC cnct.mod_G_t;
+	sub @Tdec_SRC by @Tdec_SRC cnct.mod_c_t;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_t;
+	#
+	sub @cmod_SRC by @cmod_SRC cnct.mod_c_t;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_t;
+	sub @nmod_SRC by @nmod_SRC cnct.mod_n_t;
+	sub @omod_SRC by @omod_SRC cnct.mod_o_t;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_t;
+	sub @vmod_SRC by @vmod_SRC cnct.mod_v_t;
+	#
+	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_t;
+	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_t;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_t;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_t;
+	sub @fful_SRC by @fful_SRC cnct.jmc_f_t;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_t;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_t;
+	#
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_t;
+	#
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_t;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_t;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_t;
+} before_t;
+
+
+lookup before_v {
+	sub @Gcur_SRC by @Gcur_SRC cnct.mod_G_v;
+	sub @Tdec_SRC by @Tdec_SRC cnct.mod_c_v;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_v;
+	#
+	sub @cmod_SRC by @cmod_SRC cnct.mod_c_v;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_v;
+	sub @nmod_SRC by @nmod_SRC cnct.mod_n_v;
+	sub @omod_SRC by @omod_SRC cnct.mod_o_v;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_v;
+	sub @vmod_SRC by @vmod_SRC cnct.mod_v_v;
+	#
+	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_v;
+	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_v;
+} before_v;
+
+
+lookup before_x {
+	sub @Gcur_SRC by @Gcur_SRC cnct.mod_G_x;
+	sub @Tdec_SRC by @Tdec_SRC cnct.mod_c_x;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_x;
+	#
+	sub @cmod_SRC by @cmod_SRC cnct.mod_c_x;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_x;
+	sub @nmod_SRC by @nmod_SRC cnct.mod_n_x;
+	sub @omod_SRC by @omod_SRC cnct.mod_o_x;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_x;
+	sub @vmod_SRC by @vmod_SRC cnct.mod_v_x;
+	#
+	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_x;
+	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_x;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_x;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_x;
+	sub @fful_SRC by @fful_SRC cnct.ful_f_x;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_x;
+} before_x;
+
+lookup before_xful {
+	sub @bful_SRC by @bful_SRC cnct.ful_b_x;
+	sub @cmod_SRC by @cmod_SRC cnct.ful_c_x;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_x;
+	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_x;
+	sub @nmod_SRC by @nmod_SRC cnct.ful_n_x;
+	sub @omod_SRC by @omod_SRC cnct.ful_o_x;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_x;
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_x;
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_x;
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_x;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_x;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_x;
+} before_xful;
+
+
+lookup before_z {
+	sub @Gcur_SRC by @Gcur_SRC cnct.mod_G_z;
+	sub @Tdec_SRC by @Tdec_SRC cnct.mod_c_z;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_z;
+	#
+	sub @cmod_SRC by @cmod_SRC cnct.mod_c_z;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_z;
+	sub @nmod_SRC by @nmod_SRC cnct.mod_n_z;
+	sub @omod_SRC by @omod_SRC cnct.mod_o_z;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_z;
+	sub @vmod_SRC by @vmod_SRC cnct.mod_v_z;
+	#
+	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_z;
+	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_z;
+	#
+	# sub @zful_SRC by @zful_SRC cnct.cnt_z_z;
+} before_z;
+
+lookup before_zful {
+	sub @cmod_SRC by @cmod_SRC cnct.ful_c_z;
+	sub @bful_SRC by @bful_SRC cnct.ful_b_z;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_z;
+	sub @fful_SRC by @fful_SRC cnct.ful_f_z;
+	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_z;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_z;
+	sub @nmod_SRC by @nmod_SRC cnct.ful_n_z;
+	sub @omod_SRC by @omod_SRC cnct.ful_o_z;
+} before_zful;
+
+lookup before_zcnt {
+	sub @bful_SRC by @bful_SRC cnct.cnt_b_z;
+	sub @cmod_SRC by @cmod_SRC cnct.cnt_c_z;
+	sub @eful_SRC by @eful_SRC cnct.cnt_e_z;
+	sub @fful_SRC by @fful_SRC cnct.cnt_f_z;
+	sub @gjmc_SRC by @gjmc_SRC cnct.cnt_g_z;
+	sub @nmod_SRC by @nmod_SRC cnct.cnt_n_z;
+	sub @omod_SRC by @omod_SRC cnct.cnt_o_z;
+	sub @rmod_SRC by @rmod_SRC cnct.cnt_r_z;
+	sub @zful_SRC by @zful_SRC cnct.cnt_z_z;
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_z;
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_z;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_z.cnt;
+} before_zcnt;
+
+
+
+# --------------
+# FEATURES
+# --------------
+
+feature locl {
+	script DFLT;
+	language dflt;
+	# some code?
+	include(../features/fea-countries/arg.fea);
+} locl;
+
+feature ccmp {
+	lookup ccmp_decomp {
+		sub Aacute by A acutecomb ;
+		sub Abreve by A brevecomb ;
+		sub Acaron by A caroncomb ;
+		sub Acircumflex by A circumflexcomb ;
+		sub Adieresis by A dieresiscomb ;
+	# sub AEacute by AE acutecomb ;
+		sub Agrave by A gravecomb ;
+		sub Amacron by A macroncomb ;
+		sub Aogonek by A ogonekcomb ;
+		sub Aring by A ringcomb ;
+		sub Atilde by A tildecomb ;
+		sub Adotbelow by A dotbelowcomb ;
+		sub Ahookabove by A hookabovecomb ;
+		sub Cacute by C acutecomb ;
+		sub Ccaron by C caroncomb ;
+		sub Ccedilla by C cedillacomb ;
+		sub Ccircumflex by C circumflexcomb ;
+		sub Cdotaccent by C dotaccentcomb ;
+		sub Dcaron by D caroncomb ;
+		sub Dcroat by D strokeshortcomb.case ;
+		sub Eacute by E acutecomb ;
+		sub Ebreve by E brevecomb ;
+		sub Ecaron by E caroncomb ;
+		sub Ecircumflex by E circumflexcomb ;
+		sub Edieresis by E dieresiscomb ;
+		sub Edotaccent by E dotaccentcomb ;
+		sub Egrave by E gravecomb ;
+		sub Emacron by E macroncomb ;
+		sub Eogonek by E ogonekcomb ;
+		sub Edotbelow by E dotbelowcomb ;
+		sub Ehookabove by E hookabovecomb ;
+		sub Etilde by E tildecomb ;
+		sub Gbreve by G brevecomb ;
+		sub Gcircumflex by G circumflexcomb ;
+		sub Gcommaaccent by G commaaccentcomb ;
+		sub Gdotaccent by G dotaccentcomb ;
+		sub Hbar by H strokelongcomb ;
+		sub Hcircumflex by H circumflexcomb ;
+		sub Iacute by I acutecomb ;
+		sub Ibreve by I brevecomb ;
+		sub Icaron by I caroncomb ;
+		sub Icircumflex by I circumflexcomb ;
+		sub Idieresis by I dieresiscomb ;
+		sub Idotaccent by I dotaccentcomb ;
+		sub Igrave by I gravecomb ;
+		sub Imacron by I macroncomb ;
+		sub Iogonek by I ogonekcomb ;
+		sub Itilde by I tildecomb ;
+		sub Idotbelow by I dotbelowcomb ;
+		sub Ihookabove by I hookabovecomb ;
+	# sub IJacute by I J acutecomb ;
+		sub Jcircumflex by J circumflexcomb ;
+		sub Kcommaaccent by K commaaccentcomb ;
+		sub Lacute by L acutecomb ;
+		sub Lcaron by L caroncomb.alt ;
+		sub Lcommaaccent by L commaaccentcomb ;
+		sub Ldot by L dotaccentcomb ;
+		sub Lslash by L slashshortcomb.case ;
+		sub Nacute by N acutecomb ;
+		sub Ncaron by N caroncomb ;
+		sub Ncommaaccent by N commaaccentcomb ;
+		sub Ntilde by N tildecomb ;
+		sub Oacute by O acutecomb ;
+		sub Obreve by O brevecomb ;
+		sub Ocaron by O caroncomb ;
+		sub Ocircumflex by O circumflexcomb ;
+		sub Odieresis by O dieresiscomb ;
+		sub Ograve by O gravecomb ;
+		sub Ohungarumlaut by O hungarumlautcomb ;
+		sub Omacron by O macroncomb ;
+		sub Oslash by O slashlongcomb.case ;
+		sub Otilde by O tildecomb ;
+		sub Odotbelow by O dotbelowcomb ;
+		sub Ohookabove by O hookabovecomb ;
+		sub Racute by R acutecomb ;
+		sub Rcaron by R caroncomb ;
+		sub Rcommaaccent by R commaaccentcomb ;
+		sub Sacute by S acutecomb ;
+		sub Scaron by S caroncomb ;
+		sub Scedilla by S cedillacomb ;
+		sub Scircumflex by S circumflexcomb ;
+		sub Scommaaccent by S commaaccentcomb ;
+		sub Tbar by T strokeshortcomb.case ;
+		sub Tcaron by T caroncomb ;
+		sub Tcedilla by T cedillacomb ;
+		sub Tcommaaccent by T commaaccentcomb ;
+		sub Uacute by U acutecomb ;
+		sub Ubreve by U brevecomb ;
+		sub Ucaron by U caroncomb ;
+		sub Ucircumflex by U circumflexcomb ;
+		sub Udieresis by U dieresiscomb ;
+		sub Ugrave by U gravecomb ;
+		sub Uhungarumlaut by U hungarumlautcomb ;
+		sub Umacron by U macroncomb ;
+		sub Uogonek by U ogonekcomb ;
+		sub Uring by U ringcomb ;
+		sub Utilde by U tildecomb ;
+		sub Udotbelow by U dotbelowcomb ;
+		sub Uhookabove by U hookabovecomb ;
+		sub Wacute by W acutecomb ;
+		sub Wcircumflex by W circumflexcomb ;
+		sub Wdieresis by W dieresiscomb ;
+		sub Wgrave by W gravecomb ;
+		sub Yacute by Y acutecomb ;
+		sub Ycircumflex by Y circumflexcomb ;
+		sub Ydieresis by Y dieresiscomb ;
+		sub Ygrave by Y gravecomb ;
+		sub Ydotbelow by Y dotbelowcomb ;
+		sub Yhookabove by Y hookabovecomb ;
+		sub Ytilde by Y tildecomb ;
+		sub Zacute by Z acutecomb ;
+		sub Zcaron by Z caroncomb ;
+		sub Zdotaccent by Z dotaccentcomb ;
+		sub aacute by a acutecomb ;
+		sub abreve by a brevecomb ;
+		sub acaron by a caroncomb ;
+		sub acircumflex by a circumflexcomb ;
+		sub adieresis by a dieresiscomb ;
+	# sub aeacute by ae acutecomb ;
+		sub agrave by a gravecomb ;
+		sub amacron by a macroncomb ;
+		sub aogonek by a ogonekcomb ;
+		sub aring by a ringcomb ;
+		sub atilde by a tildecomb ;
+		sub adotbelow by a dotbelowcomb ;
+		sub ahookabove by a hookabovecomb ;
+		sub cacute by c acutecomb ;
+		sub ccaron by c caroncomb ;
+		sub ccedilla by c cedillacomb ;
+		sub ccircumflex by c circumflexcomb ;
+		sub cdotaccent by c dotaccentcomb ;
+		sub dcaron by d caroncomb.alt ;
+		sub dcroat by d strokeshortcomb ;
+		sub eacute by e acutecomb ;
+		sub ebreve by e brevecomb ;
+		sub ecaron by e caroncomb ;
+		sub ecircumflex by e circumflexcomb ;
+		sub edieresis by e dieresiscomb ;
+		sub edotaccent by e dotaccentcomb ;
+		sub egrave by e gravecomb ;
+		sub emacron by e macroncomb ;
+		sub eogonek by e ogonekcomb ;
+		sub edotbelow by e dotbelowcomb ;
+		sub ehookabove by e hookabovecomb ;
+		sub etilde by e tildecomb ;
+		sub gbreve by g brevecomb ;
+		sub gcircumflex by g circumflexcomb ;
+		sub gcommaaccent by g commaturnedabovecomb ;
+		sub gdotaccent by g dotaccentcomb ;
+		sub hbar by h strokeshortcomb ;
+		sub hcircumflex by h circumflexcomb ;
+		sub iacute by idotless acutecomb ;
+		sub ibreve by idotless brevecomb ;
+		sub icaron by idotless caroncomb ;
+		sub icircumflex by idotless circumflexcomb ;
+		sub idieresis by idotless dieresiscomb ;
+		sub idotaccent by idotless dotaccentcomb ;
+		sub igrave by idotless gravecomb ;
+		sub imacron by idotless macroncomb ;
+		sub iogonek by idotless ogonekcomb ;
+		sub itilde by idotless tildecomb ;
+		sub idotbelow by idotless dotbelowcomb ;
+		sub ihookabove by idotless hookabovecomb ;
+		sub ijacute by idotless jdotless acutecomb ;
+		sub jcircumflex by jdotless circumflexcomb ;
+		sub kcommaaccent by k commaaccentcomb ;
+		sub lacute by l acutecomb ;
+		sub lcaron by l caroncomb.alt ;
+		sub lcommaaccent by l commaaccentcomb ;
+		sub ldot by l dotaccentcomb ;
+		sub lslash by l slashshortcomb ;
+		sub nacute by n acutecomb ;
+		sub ncaron by n caroncomb ;
+		sub ncommaaccent by n commaaccentcomb ;
+		sub ntilde by n tildecomb ;
+		sub oacute by o acutecomb ;
+		sub obreve by o brevecomb ;
+		sub ocaron by o caroncomb ;
+		sub ocircumflex by o circumflexcomb ;
+		sub odieresis by o dieresiscomb ;
+		sub ograve by o gravecomb ;
+		sub ohungarumlaut by o hungarumlautcomb ;
+		sub omacron by o macroncomb ;
+		sub oslash by o slashlongcomb ;
+		sub otilde by o tildecomb ;
+		sub odotbelow by o dotbelowcomb ;
+		sub ohookabove by o hookabovecomb ;
+		sub racute by r acutecomb ;
+		sub rcaron by r caroncomb ;
+		sub rcommaaccent by r commaaccentcomb ;
+		sub sacute by s acutecomb ;
+		sub scaron by s caroncomb ;
+		sub scedilla by s cedillacomb ;
+		sub scircumflex by s circumflexcomb ;
+		sub scommaaccent by s commaaccentcomb ;
+		sub tbar by t strokeshortcomb.t ;
+		sub tcaron by t caroncomb ;
+		sub tcedilla by t cedillacomb ;
+		sub tcommaaccent by t commaaccentcomb ;
+		sub uacute by u acutecomb ;
+		sub ubreve by u brevecomb ;
+		sub ucaron by u caroncomb ;
+		sub ucircumflex by u circumflexcomb ;
+		sub udieresis by u dieresiscomb ;
+		sub ugrave by u gravecomb ;
+		sub uhungarumlaut by u hungarumlautcomb ;
+		sub umacron by u macroncomb ;
+		sub uogonek by u ogonekcomb ;
+		sub uring by u ringcomb ;
+		sub utilde by u tildecomb ;
+		sub udotbelow by u dotbelowcomb ;
+		sub uhookabove by u hookabovecomb ;
+		sub wacute by w acutecomb ;
+		sub wcircumflex by w circumflexcomb ;
+		sub wdieresis by w dieresiscomb ;
+		sub wgrave by w gravecomb ;
+		sub yacute by y acutecomb ;
+		sub ycircumflex by y circumflexcomb ;
+		sub ydieresis by y dieresiscomb ;
+		sub ygrave by y gravecomb ;
+		sub ydotbelow by y dotbelowcomb ;
+		sub yhookabove by y hookabovecomb ;
+		sub ytilde by y tildecomb ;
+		sub zacute by z acutecomb ;
+		sub zcaron by z caroncomb ;
+		sub zdotaccent by z dotaccentcomb ;
+
+		sub Ohorn by O horncomb ;
+		sub Ohornacute by O horncomb acutecomb ;
+		sub Ohorndotbelow by O horncomb dotbelowcomb ;
+		sub Ohorngrave by O horncomb gravecomb ;
+		sub Ohornhookabove by O horncomb hookabovecomb ;
+		sub Ohorntilde by O horncomb tildecomb ;
+		sub Uhorn by U horncomb ;
+		sub Uhornacute by U horncomb acutecomb ;
+		sub Uhorndotbelow by U horncomb dotbelowcomb ;
+		sub Uhorngrave by U horncomb gravecomb ;
+		sub Uhornhookabove by U horncomb hookabovecomb ;
+		sub Uhorntilde by U horncomb tildecomb ;
+		sub ohorn by o horncomb ;
+		sub ohornacute by o horncomb acutecomb ;
+		sub ohorndotbelow by o horncomb dotbelowcomb ;
+		sub ohorngrave by o horncomb gravecomb ;
+		sub ohornhookabove by o horncomb hookabovecomb ;
+		sub ohorntilde by o horncomb tildecomb ;
+		sub uhorn by u horncomb ;
+		sub uhornacute by u horncomb acutecomb ;
+		sub uhorndotbelow by u horncomb dotbelowcomb ;
+		sub uhorngrave by u horncomb gravecomb ;
+		sub uhornhookabove by u horncomb hookabovecomb ;
+		sub uhorntilde by u horncomb tildecomb ;
+
+		sub Acircumflexacute by A circumflexcomb_acutecomb ;
+		sub Acircumflexdotbelow by A circumflexcomb dotbelowcomb ;
+		sub Acircumflexgrave by A circumflexcomb_gravecomb ;
+		sub Acircumflexhookabove by A circumflexcomb_hookabovecomb ;
+		sub Acircumflextilde by A circumflexcomb_tildecomb ;
+		sub Ecircumflexacute by E circumflexcomb_acutecomb ;
+		sub Ecircumflexdotbelow by E circumflexcomb dotbelowcomb ;
+		sub Ecircumflexgrave by E circumflexcomb_gravecomb ;
+		sub Ecircumflexhookabove by E circumflexcomb_hookabovecomb ;
+		sub Ecircumflextilde by E circumflexcomb_tildecomb ;
+		sub Ocircumflexacute by O circumflexcomb_acutecomb ;
+		sub Ocircumflexdotbelow by O circumflexcomb dotbelowcomb ;
+		sub Ocircumflexgrave by O circumflexcomb_gravecomb ;
+		sub Ocircumflexhookabove by O circumflexcomb_hookabovecomb ;
+		sub Ocircumflextilde by O circumflexcomb_tildecomb ;
+		sub acircumflexacute by a circumflexcomb_acutecomb ;
+		sub acircumflexdotbelow by a circumflexcomb dotbelowcomb ;
+		sub acircumflexgrave by a circumflexcomb_gravecomb ;
+		sub acircumflexhookabove by a circumflexcomb_hookabovecomb ;
+		sub acircumflextilde by a circumflexcomb_tildecomb ;
+		sub ecircumflexacute by e circumflexcomb_acutecomb ;
+		sub ecircumflexdotbelow by e circumflexcomb dotbelowcomb ;
+		sub ecircumflexgrave by e circumflexcomb_gravecomb ;
+		sub ecircumflexhookabove by e circumflexcomb_hookabovecomb ;
+		sub ecircumflextilde by e circumflexcomb_tildecomb ;
+		sub ocircumflexacute by o circumflexcomb_acutecomb ;
+		sub ocircumflexdotbelow by o circumflexcomb dotbelowcomb ;
+		sub ocircumflexgrave by o circumflexcomb_gravecomb ;
+		sub ocircumflexhookabove by o circumflexcomb_hookabovecomb ;
+		sub ocircumflextilde by o circumflexcomb_tildecomb ;
+
+		sub Abreveacute by A brevecomb_acutecomb ;
+		sub Abrevedotbelow by A brevecomb dotbelowcomb ;
+		sub Abrevegrave by A brevecomb_gravecomb ;
+		sub Abrevehookabove by A brevecomb_hookabovecomb ;
+		sub Abrevetilde by A brevecomb_tildecomb ;
+		sub abreveacute by a brevecomb_acutecomb ;
+		sub abrevedotbelow by a brevecomb dotbelowcomb ;
+		sub abrevegrave by a brevecomb_gravecomb ;
+		sub abrevehookabove by a brevecomb_hookabovecomb ;
+		sub abrevetilde by a brevecomb_tildecomb ;
+
+		sub Udieresisacute by U dieresiscomb acutecomb ;
+		sub Udieresiscaron by U dieresiscomb caroncomb ;
+		sub Udieresisgrave by U dieresiscomb gravecomb ;
+		sub Udieresismacron by U dieresiscomb macroncomb ;
+		sub udieresisacute by u dieresiscomb acutecomb ;
+		sub udieresiscaron by u dieresiscomb caroncomb ;
+		sub udieresisgrave by u dieresiscomb gravecomb ;
+		sub udieresismacron by u dieresiscomb macroncomb ;
+
+	# sub ffi by f f i ;
+	# sub ffl by f f l ;
+	# sub ff by f f ;
+	# sub fi by f i ;
+	# sub fl by f l ;
+
+	} ccmp_decomp;
+} ccmp;
+
+
+# ------------------
+# Stylistic sets
+# ------------------
+# Model classes
+@lc_ARG = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.ful q.jmc_ar r.ful s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.cnt];
+@lc_CHILE = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.ful q.mrr r.ful s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.cnt];
+@lc_COLOMBIA = [a.mod b.mlp c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.ful q.mrr r.ful s.ful t.mod u.mod v.cnt w.ful x.ful y.cnt z.mlp];
+
+feature ss01 {
+	featureNames {
+		name "MOD - Modern Cursive"; # Windows English
+		name 1 0 0 "MOD - Modern Cursive"; # Mac English
+	};
+	sub @lc by @lcMOD;
+	#
+	script latn;
+	language ESP exclude_dflt;
+	sub @lcMOD by @lc_ARG;
+	sub @UC by @UC_Cursive;
+} ss01;
+
+feature ss02 {
+	featureNames {
+		name "JMC - Joined Modern Cursive"; # Windows English
+		name 1 0 0 "JMC - Joined Modern Cursive"; # Mac English
+	};
+	sub @lc by @lcJMC;
+	#
+	script latn;
+	language ESP exclude_dflt;
+	sub @lcJMC by @lc_CHILE;
+	sub @UC by @UC_Cursive;
+} ss02;
+
+feature ss03 {
+	featureNames {
+		name "FUL - Full Cursive"; # Windows English
+		name 1 0 0 "FUL - Full Cursive"; # Mac English
+	};
+	sub @lc by @lcFUL;
+	#
+	script latn;
+	language ESP exclude_dflt;
+	sub @lcJMC by @lc_COLOMBIA;
+	sub @UC by @UC_Cursive;
+} ss03;
+
+
+feature ss04 {
+	featureNames {
+		name "LOP - Speed Loops"; # Windows English
+		name 1 0 0 "LOP - Speed Loops"; # Mac English
+	};
+	sub @lc by @lcLOP;
+} ss04;
+
+feature ss05 {
+	featureNames {
+		name "CNT - Curved Entry Stroke"; # Windows English
+		name 1 0 0 "CNT - Curved Entry Stroke"; # Mac English
+	};
+	sub @lc by @lcCNT;
+} ss05;
+
+feature ss06 {
+	featureNames {
+		name "MRR - Mirrored Loops"; # Windows English
+		name 1 0 0 "MRR - Mirrored Loops"; # Mac English
+	};
+	sub @lc by @lcMRR;
+} ss06;
+
+feature ss07 {
+	featureNames {
+		name "MLP - Micro Loops"; # Windows English
+		name 1 0 0 "MLP - Micro Loops"; # Mac English
+	};
+	sub @lc by @lcMLP;
+} ss07;
+
+
+feature ss19 {
+	featureNames {
+		name "Cursive Uppercase"; # Windows English
+		name 1 0 0 "Cursive Uppercase"; # Mac English
+	};
+	sub @UC by @UC_Cursive;
+} ss19;
+
+
+feature ss20 {
+	featureNames {
+		name "Decorative Uppercase"; # Windows English
+		name 1 0 0 "Decorative Uppercase"; # Mac English
+	};
+	sub @UC by @UC_Decorative;
+} ss20;
+
+feature calt {
+	lookup POSITIONS {
+		lookupflag IgnoreMarks;
+		#
+		sub @UC_CursiveHasIni' @posBase by @UC_CursiveIni;
+		sub @UC_CursiveIni @posBase' @posBase by @posMed;
+		sub @UC_CursiveIni @posBase' by @posFin;
+		#
+		sub @UC_DecorativeHasIni' @posBase by @UC_DecorativeIni;
+		sub @UC_DecorativeIni @posBase' @posBase by @posMed;
+		sub @UC_DecorativeIni @posBase' by @posFin;
+		#
+		sub @posIni @posBase' @posBase by @posMed;
+		sub [@posIni @posMed] @posBase' @posBase by @posMed;
+		sub @posBase' @posBase by @posIni;
+		sub [@posIni @posMed] @posBase' by @posFin;
+		#
+	} POSITIONS;
+
+	# deal with special pairs
+	lookup TRACKBACK {
+		lookupflag IgnoreMarks;
+		# MOD
+		sub [b.mod.ini b.mod.med f.mod.ini f.mod.med g.mod.ini g.mod.med j.mod.ini j.mod.med p.mod.ini p.mod.med q.mod.ini q.mod.med s.mod.ini s.mod.med y.mod.ini y.mod.med] [e.mod.med e.mod.fin]' by [e.mod.med_b_ e.mod.fin_b_];
+		sub [a.mod.ini a.mod.med c.mod.ini c.mod.med d.mod.ini d.mod.med e.mod.ini e.mod.med e.mod.med_b_ e.mod.med_n_ e.jmc.med_g_ h.mod.ini h.mod.med i.mod.ini i.mod.med k.mod.ini k.mod.med l.mod.ini l.mod.med m.mod.ini m.mod.med n.mod.ini n.mod.med t.mod.ini t.mod.med u.mod.ini u.mod.med x.mod.ini x.mod.med z.mod.ini z.mod.med] [e.mod.med e.mod.fin]' by [e.mod.med_n_ e.mod.fin_n_];
+		sub [o.mod.ini o.mod.med r.mod.ini r.mod.med v.mod.ini v.mod.med w.mod.ini w.mod.med] [f.mod.med f.mod.fin f.jmc.med f.jmc.fin t.mod.med t.mod.fin]' by [f.mod.med_o_ f.mod.fin_o_ f.jmc.med_o_	f.jmc.fin_o_ t.mod.med_o_ t.mod.fin_o_];
+		# JMC
+		sub [b.jmc.ini b.jmc.med f.jmc.ini f.jmc.med p.jmc.ini p.jmc.med q.jmc.ini q.jmc.med s.jmc.ini s.jmc.med] [e.mod.med e.mod.fin]' by [e.mod.med_n_ e.mod.fin_n_];
+		sub [f.jmc.ini f.jmc.med] [e.mod.med e.mod.fin]' by [e.mod.med_b_ e.mod.fin_b_];
+		sub [g.jmc.ini g.jmc.med j.jmc.ini j.jmc.med y.jmc.ini y.jmc.med] [e.mod.med e.mod.fin]' by [e.jmc.med_g_ e.jmc.fin_g_];
+		# FUL
+		sub [o.mod.ini o.mod.med b.ful.ini b.ful.med v.ful.ini v.ful.med w.ful.ini w.ful.med b.lop.ini b.lop.med r.cnt.ini r.cnt.med r.cnt.med_n_ v.cnt.ini v.cnt.med w.cnt.ini w.cnt.med v.cnt.med_n_ w.cnt.med_n_ @bmlp_SRC o.mlp.ini o.mlp.med] [e.ful.med e.ful.fin]' by [e.ful.med_o_ e.ful.fin_o_];
+		sub [c.mod.ini c.mod.med g.jmc.ini g.jmc.med j.jmc.ini j.jmc.med y.jmc.ini y.jmc.med y.cnt.ini y.cnt.med y.cnt.med_n_ z.cnt.ini z.cnt.med z.ful.ini z.ful.med z.mlp.ini z.mlp.med] [e.ful.med e.ful.fin]' by [e.ful.med_g_ e.ful.fin_g_];
+		sub [@bmlp_SRC b.ful.ini b.ful.med b.lop.ini b.lop.med o.mod.ini o.mod.med r.cnt.ini r.cnt.med r.cnt.med_n_ v.cnt.ini v.cnt.med v.cnt.med_n_ v.ful.ini v.ful.med w.cnt.ini w.cnt.med w.cnt.med_n_ w.ful.ini w.ful.med] [t.mod.med t.mod.fin]' by [t.mod.med_o_ t.mod.fin_o_];
+		# CNT
+		@cStroke_SRC = [m.cnt.fin m.cnt.med n.cnt.fin n.cnt.med r.cnt.fin r.cnt.med v.cnt.fin v.cnt.med w.cnt.fin w.cnt.med y.cnt.fin y.cnt.med];
+		@cStroke_TGT = [m.cnt.fin_n_ m.cnt.med_n_ n.cnt.fin_n_ n.cnt.med_n_ r.cnt.fin_n_ r.cnt.med_n_ v.cnt.fin_n_ v.cnt.med_n_ w.cnt.fin_n_ w.cnt.med_n_ y.cnt.fin_n_ y.cnt.med_n_];
+		sub @eful_SRC @cStroke_SRC' by @cStroke_TGT;
+		sub @fful_SRC @cStroke_SRC' by @cStroke_TGT;
+		sub @nmod_SRC @cStroke_SRC' by @cStroke_TGT;
+		# MLP
+		sub [@nmod_SRC @eful_SRC @fful_SRC] [v.mlp.med v.mlp.fin w.mlp.med w.mlp.fin]' by [v.mlp.med_n_ v.mlp.fin_n_ w.mlp.med_n_ w.mlp.fin_n_];
+		sub @bmlp_SRC [e.ful.med e.ful.fin]' by [e.ful.med_o_ e.ful.fin_o_];
+		sub @bmlp_SRC [t.mod.med t.mod.fin]' by [t.mod.med_o_ t.mod.fin_o_];
+		sub @omlp_SRC [e.ful.med e.ful.fin]' by [e.ful.med_o_ e.ful.fin_o_];
+		sub @omlp_SRC [t.mod.med t.mod.fin]' by [t.mod.med_o_ t.mod.fin_o_];
+	} TRACKBACK;
+
+
+	lookup SENSEI_MAGIC {
+		# MOD UC
+		sub @Gcur_SRC' lookup before_b @bmod_TGT;
+		sub @Gcur_SRC' lookup before_e @emod_TGT;
+		sub @Gcur_SRC' lookup before_n @nmod_TGT;
+		sub @Gcur_SRC' lookup before_o @omod_TGT;
+		sub @Gcur_SRC' lookup before_s @smod_TGT;
+		sub @Gcur_SRC' lookup before_t @tmod_TGT;
+		sub @Gcur_SRC' lookup before_v @vmod_TGT;
+		sub @Gcur_SRC' lookup before_x @xmod_TGT;
+		sub @Gcur_SRC' lookup before_z @zmod_TGT;
+		#
+		sub @Tdec_SRC' lookup before_b @bmod_TGT;
+		sub @Tdec_SRC' lookup before_e @emod_TGT;
+		sub @Tdec_SRC' lookup before_n @nmod_TGT;
+		sub @Tdec_SRC' lookup before_o @omod_TGT;
+		sub @Tdec_SRC' lookup before_s @smod_TGT;
+		sub @Tdec_SRC' lookup before_t @tmod_TGT;
+		sub @Tdec_SRC' lookup before_v @vmod_TGT;
+		sub @Tdec_SRC' lookup before_x @xmod_TGT;
+		sub @Tdec_SRC' lookup before_z @zmod_TGT;
+		#
+		sub @Xdec_SRC' lookup before_b @bmod_TGT;
+		sub @Xdec_SRC' lookup before_e @emod_TGT;
+		sub @Xdec_SRC' lookup before_n @nmod_TGT;
+		sub @Xdec_SRC' lookup before_o @omod_TGT;
+		sub @Xdec_SRC' lookup before_s @smod_TGT;
+		sub @Xdec_SRC' lookup before_t @tmod_TGT;
+		sub @Xdec_SRC' lookup before_v @vmod_TGT;
+		sub @Xdec_SRC' lookup before_x @xmod_TGT;
+		sub @Xdec_SRC' lookup before_z @zmod_TGT;
+		# MOD
+		sub @cenorvfg_SRC' lookup before_b @bmod_TGT;
+		sub @cenorvfg_SRC' lookup before_e @emod_TGT;
+		sub @cenorvfg_SRC' lookup before_n @nmod_TGT;
+		sub @cenorvfg_SRC' lookup before_o @omod_TGT;
+		sub @cenorvfg_SRC' lookup before_s @smod_TGT;
+		sub @cenorvfg_SRC' lookup before_t @tmod_TGT;
+		sub @cenorvfg_SRC' lookup before_v @vmod_TGT;
+		sub @cenorvfg_SRC' lookup before_x @xmod_TGT;
+		sub @cenorvfg_SRC' lookup before_z @zmod_TGT;
+		# JMC
+		sub @cenorvfg_SRC' lookup before_fjmc @fjmc_TGT;
+		# FUL
+		sub @cenorvfg_SRC' lookup before_eful @eful_TGT;
+		sub @cenorvfg_SRC' lookup before_fful @fful_TGT;
+		sub @cenorvfg_SRC' lookup before_rful @rful_TGT;
+		sub @cenorvfg_SRC' lookup before_zful @zful_TGT;
+		# FUL
+		sub @bful_SRC' lookup before_b @bmod_TGT;
+		sub @bful_SRC' lookup before_fful @fful_TGT;
+		sub @bful_SRC' lookup before_eful @eful_TGT;
+		sub @bful_SRC' lookup before_n @nmod_TGT;
+		sub @bful_SRC' lookup before_o @omod_TGT;
+		sub @bful_SRC' lookup before_rful @rful_TGT;
+		sub @bful_SRC' lookup before_s @smod_TGT;
+		sub @bful_SRC' lookup before_sful @sful_TGT;
+		sub @bful_SRC' lookup before_t @tmod_TGT;
+		sub @bful_SRC' lookup before_x @xmod_TGT;
+		sub @bful_SRC' lookup before_xful @xful_TGT;
+		sub @bful_SRC' lookup before_zful @zful_TGT;
+		#
+		sub @eful_SRC' lookup before_b @bmod_TGT;
+		sub @eful_SRC' lookup before_eful @eful_TGT;
+		sub @eful_SRC' lookup before_fful @fful_TGT;
+		sub @eful_SRC' lookup before_n @nmod_TGT;
+		sub @eful_SRC' lookup before_o @omod_TGT;
+		sub @eful_SRC' lookup before_rful @rful_TGT;
+		sub @eful_SRC' lookup before_sful @sful_TGT;
+		sub @eful_SRC' lookup before_t @tmod_TGT;
+		sub @eful_SRC' lookup before_x @xful_TGT;
+		sub @eful_SRC' lookup before_zful @zful_TGT;
+		#
+		sub @fful_SRC' lookup before_b @bmod_TGT;
+		sub @fful_SRC' lookup before_fful @fful_TGT;
+		sub @fful_SRC' lookup before_eful @eful_TGT;
+		sub @fful_SRC' lookup before_n @nmod_TGT;
+		sub @fful_SRC' lookup before_o @omod_TGT;
+		sub @fful_SRC' lookup before_rful @rful_TGT;
+		sub @fful_SRC' lookup before_sful @sful_TGT;
+		sub @fful_SRC' lookup before_t @tmod_TGT;
+		sub @fful_SRC' lookup before_x @xful_TGT;
+		sub @fful_SRC' lookup before_zful @zful_TGT;
+		#
+		sub @gjmc_SRC' lookup before_fful @fful_TGT;
+		sub @gjmc_SRC' lookup before_sful @sful_TGT;
+		sub @gjmc_SRC' lookup before_xful @xful_TGT;
+		sub @gjmc_SRC' lookup before_zful @zful_TGT;
+
+		sub @zful_SRC' lookup before_b @bmod_TGT;
+		sub @zful_SRC' lookup before_eful @eful_TGT;
+		sub @zful_SRC' lookup before_fful @fful_TGT;
+		sub @zful_SRC' lookup before_fjmc @fjmc_TGT;
+		sub @zful_SRC' lookup before_n @nmod_TGT;
+		sub @zful_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @zful_SRC' lookup before_o @omod_TGT;
+		sub @zful_SRC' lookup before_rful @rful_TGT;
+		sub @zful_SRC' lookup before_sful @sful_TGT;
+		sub @zful_SRC' lookup before_t @tmod_TGT;
+		sub @zful_SRC' lookup before_x @xmod_TGT;
+		sub @zful_SRC' lookup before_zful @zful_TGT;
+		#
+		sub @cmod_SRC' lookup before_sful @sful_TGT;
+		sub @nmod_SRC' lookup before_sful @sful_TGT;
+		sub @omod_SRC' lookup before_sful @sful_TGT;
+		sub @rmod_SRC' lookup before_sful @sful_TGT;
+		sub @cmod_SRC' lookup before_xful @xful_TGT;
+		sub @nmod_SRC' lookup before_xful @xful_TGT;
+		sub @omod_SRC' lookup before_xful @xful_TGT;
+		#
+		sub @bful_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @bful_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @cmod_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @cmod_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @eful_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @eful_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @fful_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @fful_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @gjmc_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @gjmc_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @nmod_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @nmod_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @omod_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @omod_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @rmod_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @rmod_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @zful_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @zful_SRC' lookup before_zcnt @zcnt_TGT;
+		#
+		sub @bful_SRC' lookup before_h @hlop_TGT;
+		sub @nmod_SRC' lookup before_h @hlop_TGT;
+		sub @cmod_SRC' lookup before_h @hlop_TGT;
+		sub @eful_SRC' lookup before_h @hlop_TGT;
+		sub @fful_SRC' lookup before_h @hlop_TGT;
+		sub @gjmc_SRC' lookup before_h @hlop_TGT;
+		sub @omod_SRC' lookup before_h @hlop_TGT;
+		sub @zful_SRC' lookup before_h @hlop_TGT;
+		sub @zful_SRC' lookup before_x @xful_TGT;
+		#
+		sub @fmrr_SRC' lookup before_eful @eful_TGT;
+		sub @fmrr_SRC' lookup before_fful @fful_TGT;
+		sub @fmrr_SRC' lookup before_h @hlop_TGT;
+		sub @fmrr_SRC' lookup before_imrr @imrr_TGT;
+		sub @fmrr_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @fmrr_SRC' lookup before_o @omod_TGT;
+		sub @fmrr_SRC' lookup before_rful @rful_TGT;
+		sub @fmrr_SRC' lookup before_sful @sful_TGT;
+		sub @fmrr_SRC' lookup before_t @tmod_TGT;
+		sub @fmrr_SRC' lookup before_xful @xful_TGT;
+		sub @fmrr_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @nmod_SRC' lookup before_fmrr @fmrr_TGT;
+		#
+		sub @rcnt_SRC' lookup before_eful @eful_TGT;
+		sub @rcnt_SRC' lookup before_fful @fful_TGT;
+		sub @rcnt_SRC' lookup before_h @hlop_TGT;
+		sub @rcnt_SRC' lookup before_imrr @imrr_TGT;
+		sub @rcnt_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @rcnt_SRC' lookup before_o @omod_TGT;
+		sub @rcnt_SRC' lookup before_sful @sful_TGT;
+		sub @rcnt_SRC' lookup before_t @tmod_TGT;
+		sub @rcnt_SRC' lookup before_xful @xful_TGT;
+		sub @rcnt_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @zful_SRC' lookup before_fful @fful_TGT;
+		sub @zful_SRC' lookup before_sful @sful_TGT;
+		#
+		sub @bmlp_SRC' lookup before_o @omod_TGT;
+		sub @bmlp_SRC' lookup before_eful @eful_TGT;
+		sub @bmlp_SRC' lookup before_h @hlop_TGT;
+		sub @bmlp_SRC' lookup before_imrr @imrr_TGT;
+		sub @bmlp_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @bmlp_SRC' lookup before_fful @fful_TGT;
+		sub @bmlp_SRC' lookup before_rful @rful_TGT;
+		sub @bmlp_SRC' lookup before_sful @sful_TGT;
+		sub @bmlp_SRC' lookup before_t @tmod_TGT;
+		sub @bmlp_SRC' lookup before_xful @xful_TGT;
+		#
+		sub @fmlp_SRC' lookup before_o @omod_TGT;
+		sub @fmlp_SRC' lookup before_eful @eful_TGT;
+		sub @fmlp_SRC' lookup before_h @hlop_TGT;
+		sub @fmlp_SRC' lookup before_imrr @imrr_TGT;
+		sub @fmlp_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @fmlp_SRC' lookup before_fful @fful_TGT;
+		sub @fmlp_SRC' lookup before_rful @rful_TGT;
+		sub @fmlp_SRC' lookup before_sful @sful_TGT;
+		sub @fmlp_SRC' lookup before_t @tmod_TGT;
+		sub @fmlp_SRC' lookup before_xful @xful_TGT;
+
+		#
+		sub @omlp_SRC' lookup before_o @omod_TGT;
+		sub @omlp_SRC' lookup before_eful @eful_TGT;
+		sub @omlp_SRC' lookup before_h @hlop_TGT;
+		sub @omlp_SRC' lookup before_imrr @imrr_TGT;
+		sub @omlp_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @omlp_SRC' lookup before_fful @fful_TGT;
+		sub @omlp_SRC' lookup before_rful @rful_TGT;
+		sub @omlp_SRC' lookup before_sful @sful_TGT;
+		sub @omlp_SRC' lookup before_t @tmod_TGT;
+		sub @omlp_SRC' lookup before_xful @xful_TGT;
+		#
+	} SENSEI_MAGIC;
+} calt;
+
+
+feature dist {
+		lookup dist_MOD {
+			lookupflag IgnoreMarks;
+			pos @cmod_SRC 80 @vmod_TGT;
+			pos @cmod_SRC 80 @xmod_TGT;
+			pos @cmod_SRC 30 @zmod_TGT;
+			pos @emod_SRC 40 @smod_TGT;
+			pos @emod_SRC 90 @vmod_TGT;
+			pos @emod_SRC 80 @xmod_TGT;
+			pos @emod_SRC 80 @zmod_TGT;
+			pos @nmod_SRC 40 @smod_TGT;
+			pos @nmod_SRC 94 @vmod_TGT;
+			pos @nmod_SRC 110 @xmod_TGT;
+			pos @nmod_SRC 66 @zmod_TGT;
+			pos @omod_SRC 20 @emod_TGT;
+			pos @rmod_SRC 50 @emod_TGT;
+			pos @rmod_SRC 5 @zmod_TGT;
+			pos @vmod_SRC 30 @emod_TGT;
+		} dist_MOD;
+		#
+		# JMC:
+		lookup dist_JMC {
+			lookupflag IgnoreMarks;
+			pos @fjmc_SRC 10 @bmod_TGT;
+			pos @fjmc_SRC 10 @omod_TGT;
+			pos @fjmc_SRC 10 @tmod_TGT;
+			pos @fjmc_SRC 30 @vmod_TGT;
+			pos @fjmc_SRC 40 @xmod_TGT;
+			pos @gjmc_SRC 20 @fjmc_TGT;
+			pos @gjmc_SRC 10 @smod_TGT;
+			pos @gjmc_SRC 60 @vmod_TGT;
+			pos @gjmc_SRC 60 @xmod_TGT;
+			pos @gjmc_SRC 30 @zmod_TGT;
+		} dist_JMC;
+
+		# FUL:
+		lookup dist_FUL {
+			lookupflag IgnoreMarks;
+			pos @bful_SRC 20 @eful_TGT;
+			pos @bful_SRC 20 @fful_TGT;
+			pos @cmod_SRC 15 @xful_TGT;
+			pos @cmod_SRC 60 @zful_TGT;
+			pos @eful_SRC 10 @rful_TGT;
+			pos @eful_SRC 30 @xful_TGT;
+			pos @eful_SRC 60 @zful_TGT;
+			pos @fful_SRC 10 @omod_TGT;
+			pos @fful_SRC 20 @rful_TGT;
+			pos @fful_SRC 40 @xful_TGT;
+			pos @fful_SRC 50 @zful_TGT;
+			pos @gjmc_SRC 10 @fful_TGT;
+			pos @gjmc_SRC 10 @rful_TGT;
+			pos @gjmc_SRC 30 @xful_TGT;
+			pos @gjmc_SRC 45 @zful_TGT;
+			pos @nmod_SRC 30 @rful_TGT;
+			pos @nmod_SRC 50 @xful_TGT;
+			pos @nmod_SRC 70 @zful_TGT;
+			pos @omod_SRC 30 @eful_TGT;
+			pos @omod_SRC 20 @fful_TGT;
+			pos @omod_SRC 10 @zful_TGT;
+			pos @zful_SRC 60 @fful_TGT;
+			pos @zful_SRC 10 @nmod_TGT;
+			pos @zful_SRC 30 @fful_TGT;
+			pos @zful_SRC 10 @tmod_TGT;
+			pos @zful_SRC 20 @xful_TGT;
+			pos @zful_SRC 60 @zful_TGT;
+		} dist_FUL;
+
+		lookup dist_LOP {
+			lookupflag IgnoreMarks;
+			pos @bful_SRC 20 @hlop_TGT;
+		} dist_LOP;
+
+		lookup dist_CNT {
+			lookupflag IgnoreMarks;
+			pos @bful_SRC 20 @ncnt_TGT;
+			pos @cmod_SRC 100 @ncnt_TGT;
+			pos @eful_SRC 100 @ncnt_TGT;
+			pos @eful_SRC 30 @zcnt_TGT;
+			pos @fful_SRC 60 @ncnt_TGT;
+			pos @gjmc_SRC 85 @ncnt_TGT;
+			pos @gjmc_SRC 20 @zcnt_TGT;
+			pos @nmod_SRC 80 @ncnt_TGT;
+			pos @nmod_SRC 35 @zcnt_TGT;
+			pos @rcnt_SRC 50 @omod_TGT;
+			pos @rcnt_SRC 20 @eful_TGT;
+			pos @rcnt_SRC 50 @hlop_TGT;
+			pos @rcnt_SRC 18 @nmod_TGT;
+			pos @rcnt_SRC 90 @ncnt_TGT;
+			pos @rcnt_SRC 50 @fjmc_TGT;
+			pos @rcnt_SRC 20 @tmod_TGT;
+			pos @zful_SRC 110 @ncnt_TGT;
+			pos @zful_SRC 20 @zcnt_TGT;
+		} dist_CNT;
+
+		lookup dist_MRR {
+			lookupflag IgnoreMarks;
+			pos @fmrr_SRC 80 @ncnt_TGT;
+			pos @fmrr_SRC 50 @xful_TGT;
+			pos @fmrr_SRC 20 @zcnt_TGT;
+			pos @fmrr_SRC 30 @rful_TGT;
+		} dist_MRR;
+
+		lookup dist_MLP {
+			lookupflag IgnoreMarks;
+			pos @bmlp_SRC 15 @omod_TGT;
+			pos @bmlp_SRC 10 @eful_TGT;
+			pos @bmlp_SRC 30 @nmod_TGT;
+			pos @bmlp_SRC 30 @ncnt_TGT;
+			pos @bmlp_SRC 20 @rful_TGT;
+			pos @fmlp_SRC 90 @ncnt_TGT;
+			pos @fmlp_SRC 20 @rful_TGT;
+			pos @fmlp_SRC 20 @zcnt_TGT;
+			pos @omlp_SRC 25 @omod_TGT;
+			pos @omlp_SRC 25 @nmod_TGT;
+			pos @omlp_SRC 30 @ncnt_TGT;
+			pos @omlp_SRC 8 @fful_TGT;
+			pos @omlp_SRC 20 @rful_TGT;
+		} dist_MLP;
+
+} dist;

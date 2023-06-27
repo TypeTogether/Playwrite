@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="b.ful.ini" format="2">
+	<advance width="483"/>
+	<outline>
+		<contour>
+			<point x="243" y="-15" type="curve" smooth="yes"/>
+			<point x="359" y="-15"/>
+			<point x="415" y="91"/>
+			<point x="415" y="204" type="curve" smooth="yes"/>
+			<point x="415" y="281"/>
+			<point x="379" y="415"/>
+			<point x="336" y="415" type="curve" smooth="yes"/>
+			<point x="323" y="415"/>
+			<point x="315" y="405"/>
+			<point x="315" y="393" type="curve" smooth="yes"/>
+			<point x="315" y="377"/>
+			<point x="328" y="356"/>
+			<point x="358" y="345" type="curve"/>
+			<point x="373" y="310"/>
+			<point x="386" y="265"/>
+			<point x="386" y="198" type="curve" smooth="yes"/>
+			<point x="386" y="87"/>
+			<point x="322" y="12"/>
+			<point x="248" y="12" type="curve" smooth="yes"/>
+			<point x="177" y="12"/>
+			<point x="139" y="65"/>
+			<point x="139" y="160" type="curve" smooth="yes"/>
+			<point x="139" y="701" type="line" smooth="yes"/>
+			<point x="139" y="710"/>
+			<point x="135" y="713"/>
+			<point x="125" y="713" type="curve" smooth="yes"/>
+			<point x="115" y="713"/>
+			<point x="110" y="710"/>
+			<point x="110" y="701" type="curve" smooth="yes"/>
+			<point x="110" y="154" type="line" smooth="yes"/>
+			<point x="110" y="42"/>
+			<point x="167" y="-15"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="261" y="0"/>
+	<anchor name="center" x="261" y="200"/>
+	<anchor name="cnct" x="483" y="0"/>
+	<anchor name="top" x="261" y="400"/>
+</glyph>

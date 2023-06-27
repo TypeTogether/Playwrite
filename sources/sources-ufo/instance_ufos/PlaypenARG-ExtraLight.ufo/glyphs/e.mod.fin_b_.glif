@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="e.mod.fin_b_" format="2">
+  <advance width="421.0"/>
+  <anchor x="233.0" y="0.0" name="bottom"/>
+  <anchor x="327.0" y="10.0" name="ogonek"/>
+  <anchor x="233.0" y="400.0" name="top"/>
+  <outline>
+    <component base="e.mod"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>e.mod</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

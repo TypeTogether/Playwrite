@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="z.ful.fin" format="2">
+	<advance width="372"/>
+	<outline>
+		<component base="z.ful"/>
+	</outline>
+	<anchor name="bottom" x="3" y="-300"/>
+	<anchor name="center" x="155" y="200"/>
+	<anchor name="top" x="210" y="400"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>z.ful</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>
