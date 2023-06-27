@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="f.ful_de.ini" format="2">
+	<advance width="325"/>
+	<outline>
+		<contour>
+			<point x="-39" y="-312" type="curve" smooth="yes"/>
+			<point x="-29" y="-312"/>
+			<point x="-23" y="-309"/>
+			<point x="-20" y="-300" type="curve" smooth="yes"/>
+			<point x="266" y="576" type="line" smooth="yes"/>
+			<point x="289" y="647"/>
+			<point x="314" y="687"/>
+			<point x="354" y="687" type="curve" smooth="yes"/>
+			<point x="378" y="687"/>
+			<point x="389" y="673"/>
+			<point x="389" y="645" type="curve" smooth="yes"/>
+			<point x="389" y="503"/>
+			<point x="-30" y="14"/>
+			<point x="-111" y="14" type="curve" smooth="yes"/>
+			<point x="-127" y="14"/>
+			<point x="-131" y="-14"/>
+			<point x="-116" y="-14" type="curve" smooth="yes"/>
+			<point x="-11" y="-14"/>
+			<point x="420" y="492"/>
+			<point x="420" y="647" type="curve" smooth="yes"/>
+			<point x="420" y="688"/>
+			<point x="396" y="715"/>
+			<point x="357" y="715" type="curve" smooth="yes"/>
+			<point x="300" y="715"/>
+			<point x="266" y="665"/>
+			<point x="237" y="576" type="curve" smooth="yes"/>
+			<point x="-49" y="-300" type="line" smooth="yes"/>
+			<point x="-52" y="-309"/>
+			<point x="-49" y="-312"/>
+		</contour>
+		<contour>
+			<point x="88" y="-14" type="curve" smooth="yes"/>
+			<point x="108" y="-14"/>
+			<point x="113" y="13"/>
+			<point x="93" y="13" type="curve" smooth="yes"/>
+			<point x="70" y="13"/>
+			<point x="43" y="19"/>
+			<point x="22" y="28" type="curve" smooth="yes"/>
+			<point x="10" y="33"/>
+			<point x="-1" y="6"/>
+			<point x="11" y="1" type="curve" smooth="yes"/>
+			<point x="30" y="-7"/>
+			<point x="58" y="-14"/>
+		</contour>
+	</outline>
+	<anchor name="cnct" x="260" y="0"/>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="m.mod.fin" format="2">
+  <advance width="791.0"/>
+  <anchor x="395.0" y="0.0" name="bottom"/>
+  <anchor x="399.0" y="400.0" name="top"/>
+  <outline>
+    <component base="m.mod"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>m.mod</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

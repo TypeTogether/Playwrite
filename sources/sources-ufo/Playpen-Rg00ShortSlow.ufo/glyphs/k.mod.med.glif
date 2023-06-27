@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="k.mod.med" format="2">
+	<advance width="461"/>
+	<outline>
+		<component base="k.mod.ini"/>
+	</outline>
+	<anchor name="cnct" x="461" y="0"/>
+	<anchor name="bottom" x="261" y="0"/>
+	<anchor name="top" x="134" y="670"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>k.mod.ini</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

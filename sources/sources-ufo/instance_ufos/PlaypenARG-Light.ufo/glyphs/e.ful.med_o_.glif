@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="e.ful.med_o_" format="2">
+  <advance width="380.0"/>
+  <anchor x="234.33333333333334" y="0.0" name="bottom"/>
+  <anchor x="380.0" y="0.0" name="cnct"/>
+  <anchor x="328.3333333333333" y="10.0" name="ogonek"/>
+  <anchor x="172.33333333333334" y="400.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="95.0" y="209.33333333333334" type="curve"/>
+      <point x="99.0" y="174.66666666666666" type="line"/>
+      <point x="250.33333333333334" y="153.66666666666666"/>
+      <point x="308.3333333333333" y="239.33333333333334"/>
+      <point x="308.3333333333333" y="310.0" type="curve" smooth="yes"/>
+      <point x="308.3333333333333" y="365.0"/>
+      <point x="274.3333333333333" y="415.0"/>
+      <point x="202.66666666666666" y="415.0" type="curve" smooth="yes"/>
+      <point x="177.33333333333334" y="415.0"/>
+      <point x="173.33333333333334" y="376.0"/>
+      <point x="198.66666666666666" y="376.0" type="curve" smooth="yes"/>
+      <point x="237.66666666666666" y="376.0"/>
+      <point x="264.0" y="350.3333333333333"/>
+      <point x="264.0" y="307.6666666666667" type="curve" smooth="yes"/>
+      <point x="264.0" y="250.66666666666666"/>
+      <point x="214.66666666666666" y="189.33333333333334"/>
+    </contour>
+  </outline>
+</glyph>

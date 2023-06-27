@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="r.mlp" format="2">
+	<advance width="454"/>
+	<outline>
+		<contour>
+			<point x="-145" y="-14" type="curve" smooth="yes"/>
+			<point x="-36" y="-14"/>
+			<point x="35" y="68"/>
+			<point x="177" y="353" type="curve"/>
+			<point x="146" y="349" type="line"/>
+			<point x="3" y="76"/>
+			<point x="-50" y="14"/>
+			<point x="-137" y="14" type="curve" smooth="yes"/>
+			<point x="-156" y="14"/>
+			<point x="-162" y="-14"/>
+		</contour>
+		<component base="r.mlp.fin"/>
+	</outline>
+	<anchor name="bottom" x="112" y="0"/>
+	<anchor name="top" x="271" y="400"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>r.mlp.fin</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

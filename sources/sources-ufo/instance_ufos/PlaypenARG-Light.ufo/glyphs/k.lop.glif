@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k.lop" format="2">
+  <advance width="451.0"/>
+  <anchor x="257.6666666666667" y="0.0" name="bottom"/>
+  <anchor x="198.0" y="670.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="-47.666666666666664" y="-14.0" type="curve" smooth="yes"/>
+      <point x="19.666666666666668" y="-14.0"/>
+      <point x="71.33333333333333" y="48.666666666666664"/>
+      <point x="131.0" y="209.66666666666666" type="curve" smooth="yes"/>
+      <point x="138.33333333333334" y="229.33333333333334"/>
+      <point x="122.33333333333333" y="256.0"/>
+      <point x="113.33333333333333" y="234.66666666666666" type="curve" smooth="yes"/>
+      <point x="44.333333333333336" y="76.0"/>
+      <point x="6.333333333333333" y="24.666666666666664"/>
+      <point x="-47.666666666666664" y="24.666666666666664" type="curve" smooth="yes"/>
+      <point x="-74.33333333333333" y="24.666666666666664"/>
+      <point x="-75.0" y="-14.0"/>
+    </contour>
+    <component base="k.lop.fin"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>k.lop.fin</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

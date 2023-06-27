@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cnct.cnt_e_n" format="2">
+  <anchor x="0.0" y="0.0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-90.33333333333333" y="-14.0" type="curve" smooth="yes"/>
+      <point x="31.333333333333332" y="-14.0"/>
+      <point x="85.66666666666667" y="102.33333333333333"/>
+      <point x="120.33333333333333" y="251.0" type="curve" smooth="yes"/>
+      <point x="139.66666666666666" y="333.3333333333333"/>
+      <point x="159.33333333333334" y="363.0"/>
+      <point x="190.0" y="363.0" type="curve" smooth="yes"/>
+      <point x="216.66666666666666" y="363.0"/>
+      <point x="219.66666666666666" y="412.0"/>
+      <point x="193.0" y="412.0" type="curve" smooth="yes"/>
+      <point x="123.0" y="412.0"/>
+      <point x="97.0" y="363.3333333333333"/>
+      <point x="68.0" y="246.0" type="curve" smooth="yes"/>
+      <point x="36.333333333333336" y="113.33333333333333"/>
+      <point x="-2.0" y="36.666666666666664"/>
+      <point x="-88.66666666666667" y="36.666666666666664" type="curve" smooth="yes"/>
+      <point x="-170.66666666666666" y="36.666666666666664"/>
+      <point x="-255.0" y="127.33333333333333"/>
+      <point x="-255.0" y="258.0" type="curve" smooth="yes"/>
+      <point x="-255.0" y="323.6666666666667"/>
+      <point x="-224.33333333333334" y="364.0"/>
+      <point x="-183.0" y="364.0" type="curve" smooth="yes"/>
+      <point x="-156.33333333333334" y="364.0"/>
+      <point x="-153.33333333333334" y="415.0"/>
+      <point x="-180.0" y="415.0" type="curve" smooth="yes"/>
+      <point x="-257.3333333333333" y="415.0"/>
+      <point x="-312.6666666666667" y="349.0"/>
+      <point x="-312.6666666666667" y="257.0" type="curve" smooth="yes"/>
+      <point x="-312.6666666666667" y="108.0"/>
+      <point x="-212.33333333333334" y="-14.0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>100</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

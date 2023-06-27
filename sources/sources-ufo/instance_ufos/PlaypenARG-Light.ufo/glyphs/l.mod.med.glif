@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.mod.med" format="2">
+  <advance width="259.0"/>
+  <anchor x="259.0" y="0.0" name="cnct"/>
+  <anchor x="180.0" y="0.0" name="bottom"/>
+  <anchor x="124.0" y="350.0" name="center"/>
+  <anchor x="124.0" y="670.0" name="top"/>
+  <anchor x="139.0" y="700.0" name="topright"/>
+  <outline>
+    <component base="l.mod.ini"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>l.mod.ini</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

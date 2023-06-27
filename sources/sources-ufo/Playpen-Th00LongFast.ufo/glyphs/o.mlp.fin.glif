@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="o.mlp.fin" format="2">
+	<advance width="481"/>
+	<outline>
+		<contour>
+			<point x="246" y="-15" type="curve" smooth="yes"/>
+			<point x="354" y="-15"/>
+			<point x="421" y="72"/>
+			<point x="421" y="200" type="curve" smooth="yes"/>
+			<point x="421" y="338"/>
+			<point x="334" y="415"/>
+			<point x="256" y="415" type="curve" smooth="yes"/>
+			<point x="198" y="415"/>
+			<point x="173" y="387"/>
+			<point x="173" y="348" type="curve" smooth="yes"/>
+			<point x="173" y="297"/>
+			<point x="223" y="277"/>
+			<point x="267" y="277" type="curve" smooth="yes"/>
+			<point x="328" y="277"/>
+			<point x="383" y="301"/>
+			<point x="480" y="382" type="curve" smooth="yes"/>
+			<point x="491" y="391"/>
+			<point x="476" y="409"/>
+			<point x="466" y="400" type="curve" smooth="yes"/>
+			<point x="372" y="323"/>
+			<point x="323" y="300"/>
+			<point x="269" y="300" type="curve" smooth="yes"/>
+			<point x="242" y="300"/>
+			<point x="199" y="310"/>
+			<point x="199" y="348" type="curve" smooth="yes"/>
+			<point x="199" y="375"/>
+			<point x="220" y="391"/>
+			<point x="256" y="391" type="curve" smooth="yes"/>
+			<point x="313" y="391"/>
+			<point x="390" y="325"/>
+			<point x="390" y="200" type="curve" smooth="yes"/>
+			<point x="390" y="90"/>
+			<point x="335" y="13"/>
+			<point x="246" y="13" type="curve" smooth="yes"/>
+			<point x="156" y="13"/>
+			<point x="101" y="90"/>
+			<point x="101" y="200" type="curve" smooth="yes"/>
+			<point x="101" y="310"/>
+			<point x="159" y="391"/>
+			<point x="246" y="391" type="curve"/>
+			<point x="246" y="409" type="line"/>
+			<point x="144" y="409"/>
+			<point x="70" y="328"/>
+			<point x="70" y="200" type="curve" smooth="yes"/>
+			<point x="70" y="72"/>
+			<point x="135" y="-15"/>
+		</contour>
+	</outline>
+	<anchor name="bottom" x="246" y="0"/>
+	<anchor name="center" x="246" y="200"/>
+	<anchor name="ogonek" x="318" y="0"/>
+	<anchor name="top" x="246" y="400"/>
+	<anchor name="topright" x="302" y="405"/>
+</glyph>

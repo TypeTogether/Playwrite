@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="v.ful.ini" format="2">
+	<advance width="483"/>
+	<outline>
+		<contour>
+			<point x="226" y="-15" type="curve" smooth="yes"/>
+			<point x="337" y="-15"/>
+			<point x="410" y="138"/>
+			<point x="410" y="257" type="curve" smooth="yes"/>
+			<point x="410" y="303"/>
+			<point x="400" y="343"/>
+			<point x="376" y="368" type="curve"/>
+			<point x="369" y="396"/>
+			<point x="358" y="415"/>
+			<point x="341" y="415" type="curve" smooth="yes"/>
+			<point x="314" y="415"/>
+			<point x="314" y="371"/>
+			<point x="361" y="348" type="curve"/>
+			<point x="375" y="324"/>
+			<point x="382" y="297"/>
+			<point x="382" y="253" type="curve" smooth="yes"/>
+			<point x="382" y="156"/>
+			<point x="317" y="12"/>
+			<point x="230" y="12" type="curve" smooth="yes"/>
+			<point x="175" y="12"/>
+			<point x="144" y="56"/>
+			<point x="144" y="143" type="curve" smooth="yes"/>
+			<point x="144" y="400" type="line" smooth="yes"/>
+			<point x="144" y="409"/>
+			<point x="140" y="412"/>
+			<point x="130" y="412" type="curve" smooth="yes"/>
+			<point x="120" y="412"/>
+			<point x="115" y="409"/>
+			<point x="115" y="400" type="curve" smooth="yes"/>
+			<point x="115" y="143" type="line" smooth="yes"/>
+			<point x="115" y="29"/>
+			<point x="164" y="-15"/>
+		</contour>
+	</outline>
+	<anchor name="cnct" x="483" y="0"/>
+</glyph>

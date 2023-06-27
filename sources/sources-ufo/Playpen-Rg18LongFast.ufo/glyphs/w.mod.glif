@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="w.mod" format="2">
+	<advance width="643"/>
+	<outline>
+		<component base="w"/>
+	</outline>
+	<anchor name="bottom" x="261" y="0"/>
+	<anchor name="top" x="380" y="400"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>w</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

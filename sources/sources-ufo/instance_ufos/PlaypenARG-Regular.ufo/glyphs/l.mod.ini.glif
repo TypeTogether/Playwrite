@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l.mod.ini" format="2">
+  <advance width="259.0"/>
+  <anchor x="180.0" y="0.0" name="bottom"/>
+  <anchor x="124.0" y="350.0" name="center"/>
+  <anchor x="259.0" y="0.0" name="cnct"/>
+  <anchor x="124.0" y="670.0" name="top"/>
+  <anchor x="139.0" y="700.0" name="topright"/>
+  <outline>
+    <contour>
+      <point x="204.66666666666666" y="-14.0" type="curve" smooth="yes"/>
+      <point x="240.33333333333334" y="-14.0"/>
+      <point x="239.33333333333334" y="35.33333333333333"/>
+      <point x="214.66666666666666" y="35.33333333333333" type="curve" smooth="yes"/>
+      <point x="168.0" y="35.33333333333333"/>
+      <point x="155.66666666666666" y="57.0"/>
+      <point x="155.66666666666666" y="111.0" type="curve" smooth="yes"/>
+      <point x="155.66666666666666" y="694.0" type="line" smooth="yes"/>
+      <point x="155.66666666666666" y="706.3333333333334"/>
+      <point x="146.0" y="712.0"/>
+      <point x="127.33333333333333" y="712.0" type="curve" smooth="yes"/>
+      <point x="108.66666666666667" y="712.0"/>
+      <point x="100.0" y="706.3333333333334"/>
+      <point x="100.0" y="694.0" type="curve" smooth="yes"/>
+      <point x="100.0" y="111.0" type="line" smooth="yes"/>
+      <point x="100.0" y="30.0"/>
+      <point x="127.33333333333333" y="-14.0"/>
+    </contour>
+  </outline>
+</glyph>

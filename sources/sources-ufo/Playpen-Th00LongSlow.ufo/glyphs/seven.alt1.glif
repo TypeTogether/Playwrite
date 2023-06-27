@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven.alt1" format="2">
+	<advance width="731"/>
+	<outline>
+		<contour>
+			<point x="229" y="591" type="curve" smooth="yes"/>
+			<point x="669" y="591" type="line" smooth="yes"/>
+			<point x="674" y="591"/>
+			<point x="678" y="596"/>
+			<point x="678" y="605" type="curve" smooth="yes"/>
+			<point x="678" y="614"/>
+			<point x="674" y="617"/>
+			<point x="669" y="617" type="curve" smooth="yes"/>
+			<point x="229" y="617" type="line" smooth="yes"/>
+			<point x="224" y="617"/>
+			<point x="220" y="613"/>
+			<point x="220" y="604" type="curve" smooth="yes"/>
+			<point x="220" y="595"/>
+			<point x="224" y="591"/>
+		</contour>
+		<component base="seven"/>
+	</outline>
+</glyph>

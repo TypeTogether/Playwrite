@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="h.mod.fin" format="2">
+  <advance width="541.0"/>
+  <anchor x="283.6666666666667" y="0.0" name="bottom"/>
+  <anchor x="158.0" y="558.0" name="center"/>
+  <anchor x="133.66666666666666" y="670.0" name="top"/>
+  <outline>
+    <component base="h.mod"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>h.mod</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

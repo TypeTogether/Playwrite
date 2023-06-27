@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="b.jmc.ini" format="2">
+  <advance width="508.0"/>
+  <anchor x="508.0" y="0.0" name="cnct"/>
+  <anchor x="274.6666666666667" y="0.0" name="bottom"/>
+  <anchor x="274.6666666666667" y="200.0" name="center"/>
+  <anchor x="274.6666666666667" y="400.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="458.0" y="-14.0" type="curve" smooth="yes"/>
+      <point x="478.0" y="-14.0"/>
+      <point x="483.0" y="24.666666666666664"/>
+      <point x="463.0" y="24.666666666666664" type="curve" smooth="yes"/>
+      <point x="411.3333333333333" y="24.666666666666664"/>
+      <point x="388.6666666666667" y="33.0"/>
+      <point x="311.3333333333333" y="10.333333333333332" type="curve"/>
+      <point x="291.6666666666667" y="-10.0" type="line"/>
+      <point x="355.0" y="7.0"/>
+      <point x="386.6666666666667" y="-14.0"/>
+    </contour>
+    <component base="b" xOffset="20.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>b</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

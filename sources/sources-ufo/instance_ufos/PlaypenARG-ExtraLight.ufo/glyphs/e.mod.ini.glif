@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="e.mod.ini" format="2">
+  <advance width="390.0"/>
+  <anchor x="233.0" y="0.0" name="bottom"/>
+  <anchor x="390.0" y="0.0" name="cnct"/>
+  <anchor x="327.0" y="0.0" name="ogonek"/>
+  <anchor x="233.0" y="400.0" name="top"/>
+  <outline>
+    <contour>
+      <point x="282.0" y="-14.0" type="curve" smooth="yes"/>
+      <point x="304.0" y="-14.0"/>
+      <point x="303.0" y="14.0"/>
+      <point x="282.0" y="14.0" type="curve" smooth="yes"/>
+      <point x="165.0" y="14.0"/>
+      <point x="91.0" y="88.0"/>
+      <point x="91.0" y="212.0" type="curve" smooth="yes"/>
+      <point x="91.0" y="333.0"/>
+      <point x="166.0" y="388.0"/>
+      <point x="231.0" y="388.0" type="curve" smooth="yes"/>
+      <point x="290.0" y="388.0"/>
+      <point x="317.0" y="363.0"/>
+      <point x="317.0" y="316.0" type="curve" smooth="yes"/>
+      <point x="317.0" y="230.0"/>
+      <point x="211.0" y="193.0"/>
+      <point x="86.0" y="194.0" type="curve"/>
+      <point x="86.0" y="167.0" type="line"/>
+      <point x="236.0" y="167.0"/>
+      <point x="349.0" y="216.0"/>
+      <point x="349.0" y="317.0" type="curve" smooth="yes"/>
+      <point x="349.0" y="365.0"/>
+      <point x="323.0" y="415.0"/>
+      <point x="234.0" y="415.0" type="curve" smooth="yes"/>
+      <point x="130.0" y="415.0"/>
+      <point x="60.0" y="325.0"/>
+      <point x="60.0" y="205.0" type="curve" smooth="yes"/>
+      <point x="60.0" y="91.0"/>
+      <point x="122.0" y="-14.0"/>
+    </contour>
+  </outline>
+</glyph>

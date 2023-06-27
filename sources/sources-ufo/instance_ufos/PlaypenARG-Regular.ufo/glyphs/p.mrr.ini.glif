@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="p.mrr.ini" format="2">
+  <advance width="523.0"/>
+  <anchor x="523.0" y="0.0" name="cnct"/>
+  <outline>
+    <component base="p.mrr.med"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>p.mrr.med</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

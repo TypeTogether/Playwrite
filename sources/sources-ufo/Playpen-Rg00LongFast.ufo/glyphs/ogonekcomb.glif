@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ogonekcomb" format="2">
+	<unicode hex="0328"/>
+	<outline>
+		<contour>
+			<point x="-24" y="-206" type="curve" smooth="yes"/>
+			<point x="12" y="-206"/>
+			<point x="64" y="-186"/>
+			<point x="89" y="-142" type="curve" smooth="yes"/>
+			<point x="95" y="-131"/>
+			<point x="87" y="-115"/>
+			<point x="74" y="-107" type="curve" smooth="yes"/>
+			<point x="61" y="-99"/>
+			<point x="51" y="-104"/>
+			<point x="45" y="-110" type="curve" smooth="yes"/>
+			<point x="28" y="-129"/>
+			<point x="13" y="-146"/>
+			<point x="-5" y="-146" type="curve" smooth="yes"/>
+			<point x="-20" y="-146"/>
+			<point x="-26" y="-136"/>
+			<point x="-26" y="-122" type="curve" smooth="yes"/>
+			<point x="-26" y="-88"/>
+			<point x="19" y="-37"/>
+			<point x="64" y="9" type="curve"/>
+			<point x="64" y="14" type="line"/>
+			<point x="14" y="15" type="line"/>
+			<point x="-57" y="-49"/>
+			<point x="-92" y="-94"/>
+			<point x="-92" y="-142" type="curve" smooth="yes"/>
+			<point x="-92" y="-180"/>
+			<point x="-66" y="-206"/>
+		</contour>
+	</outline>
+	<anchor name="_ogonek" x="53" y="0"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
+			<integer>250</integer>
+		</dict>
+	</lib>
+</glyph>

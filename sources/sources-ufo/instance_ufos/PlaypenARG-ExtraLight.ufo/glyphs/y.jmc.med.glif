@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="y.jmc.med" format="2">
+  <advance width="532.0"/>
+  <anchor x="532.0" y="0.0" name="cnct"/>
+  <anchor x="257.0" y="-300.0" name="bottom"/>
+  <anchor x="266.0" y="400.0" name="top"/>
+  <outline>
+    <component base="y.jmc.ini"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>y.jmc.ini</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
