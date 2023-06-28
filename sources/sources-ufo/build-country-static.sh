@@ -4,11 +4,11 @@ set -e
 
 tag="arg"
 
-otfFontsPath="../fonts-$tag/static/otf"
+otfFontsPath="../fonts-countries/fonts-$tag/static/otf"
 # ttfFontsPath="../fonts/static/ttf"
 # webFontsPath="../fonts/static/web"
 # sourcePath="./source-glyphs"
-scripts="./scripts"
+# scripts="./scripts"
 
 rm -rf $otfFontsPath  # $ttfFontsPath $webFontsPath
 mkdir -p $otfFontsPath # $ttfFontsPath $webFontsPath
