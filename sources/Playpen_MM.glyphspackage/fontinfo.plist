@@ -1988,19 +1988,6 @@ GSCornerRadius = 12;
 instances = (
 {
 axesValues = (
-100,
-0,
-300,
-0
-);
-instanceInterpolations = {
-m01 = 1;
-};
-name = "Th 00 Short Slow";
-weightClass = 100;
-},
-{
-axesValues = (
 300,
 9,
 300,
@@ -2020,28 +2007,6 @@ name = InterpolationTest;
 weightClass = 300;
 }
 );
-kerningLTR = {
-m01 = {
-cnct.mod_o_e = {
-"@MMK_R_e.mod_o_" = 0;
-};
-};
-m005 = {
-cnct.mod_o_e = {
-"@MMK_R_e.mod_o_" = 0;
-};
-};
-m009 = {
-cnct.mod_o_e = {
-"@MMK_R_e.mod_o_" = 0;
-};
-};
-m013 = {
-cnct.mod_o_e = {
-"@MMK_R_e.mod_o_" = 0;
-};
-};
-};
 metrics = (
 {
 type = ascender;
