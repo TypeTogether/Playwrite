@@ -12,7 +12,7 @@
     <axis tag="SPED" name="Speed" minimum="0" maximum="100" default="0"/>
   </axes>
   <sources>
-    <source filename="Playpen-Th00ShortSlow.ufo" name="Playpen Th 00 Short Slow" familyname="Playpen COL" stylename="Th 00 Short Slow">
+    <source filename="../Playpen-Th00ShortSlow.ufo" name="Playpen Th 00 Short Slow" familyname="Playpen COL" stylename="Th 00 Short Slow">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -24,7 +24,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="Playpen-Th18ShortSlow.ufo" name="Playpen Th 18 Short Slow" familyname="Playpen COL" stylename="Th 18 Short Slow">
+    <source filename="../Playpen-Th18ShortSlow.ufo" name="Playpen Th 18 Short Slow" familyname="Playpen COL" stylename="Th 18 Short Slow">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="18"/>
@@ -32,7 +32,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="Playpen-Th00ShortFast.ufo" name="Playpen Th 00 Short Fast" familyname="Playpen COL" stylename="Th 00 Short Fast">
+    <source filename="../Playpen-Th00ShortFast.ufo" name="Playpen Th 00 Short Fast" familyname="Playpen COL" stylename="Th 00 Short Fast">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="0"/>
@@ -40,7 +40,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="Playpen-Th18ShortFast.ufo" name="Playpen Th 18 Short Fast" familyname="Playpen COL" stylename="Th 18 Short Fast">
+    <source filename="../Playpen-Th18ShortFast.ufo" name="Playpen Th 18 Short Fast" familyname="Playpen COL" stylename="Th 18 Short Fast">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="18"/>
@@ -48,7 +48,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="Playpen-Rg00ShortSlow.ufo" name="Playpen Rg 00 Short Slow" familyname="Playpen COL" stylename="Rg 00 Short Slow">
+    <source filename="../Playpen-Rg00ShortSlow.ufo" name="Playpen Rg 00 Short Slow" familyname="Playpen COL" stylename="Rg 00 Short Slow">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Slant" xvalue="0"/>
@@ -56,7 +56,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="Playpen-Rg18ShortSlow.ufo" name="Playpen Rg 18 Short Slow" familyname="Playpen COL" stylename="Rg 18 Short Slow">
+    <source filename="../Playpen-Rg18ShortSlow.ufo" name="Playpen Rg 18 Short Slow" familyname="Playpen COL" stylename="Rg 18 Short Slow">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Slant" xvalue="18"/>
@@ -64,7 +64,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="Playpen-Rg00ShortFast.ufo" name="Playpen Rg 00 Short Fast" familyname="Playpen COL" stylename="Rg 00 Short Fast">
+    <source filename="../Playpen-Rg00ShortFast.ufo" name="Playpen Rg 00 Short Fast" familyname="Playpen COL" stylename="Rg 00 Short Fast">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Slant" xvalue="0"/>
@@ -72,7 +72,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="Playpen-Rg18ShortFast.ufo" name="Playpen Rg 18 Short Fast" familyname="Playpen COL" stylename="Rg 18 Short Fast">
+    <source filename="../Playpen-Rg18ShortFast.ufo" name="Playpen Rg 18 Short Fast" familyname="Playpen COL" stylename="Rg 18 Short Fast">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Slant" xvalue="18"/>
@@ -80,7 +80,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="Playpen-Th00LongSlow.ufo" name="Playpen Th 00 Long Slow" familyname="Playpen COL" stylename="Th 00 Long Slow">
+    <source filename="../Playpen-Th00LongSlow.ufo" name="Playpen Th 00 Long Slow" familyname="Playpen COL" stylename="Th 00 Long Slow">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="0"/>
@@ -88,7 +88,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="Playpen-Th18LongSlow.ufo" name="Playpen Th 18 Long Slow" familyname="Playpen COL" stylename="Th 18 Long Slow">
+    <source filename="../Playpen-Th18LongSlow.ufo" name="Playpen Th 18 Long Slow" familyname="Playpen COL" stylename="Th 18 Long Slow">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="18"/>
@@ -96,7 +96,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="Playpen-Th00LongFast.ufo" name="Playpen Th 00 Long Fast" familyname="Playpen COL" stylename="Th 00 Long Fast">
+    <source filename="../Playpen-Th00LongFast.ufo" name="Playpen Th 00 Long Fast" familyname="Playpen COL" stylename="Th 00 Long Fast">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="0"/>
@@ -104,7 +104,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="Playpen-Th18LongFast.ufo" name="Playpen Th 18 Long Fast" familyname="Playpen COL" stylename="Th 18 Long Fast">
+    <source filename="../Playpen-Th18LongFast.ufo" name="Playpen Th 18 Long Fast" familyname="Playpen COL" stylename="Th 18 Long Fast">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="18"/>
@@ -112,7 +112,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="Playpen-Rg00LongSlow.ufo" name="Playpen Rg 00 Long Slow" familyname="Playpen COL" stylename="Rg 00 Long Slow">
+    <source filename="../Playpen-Rg00LongSlow.ufo" name="Playpen Rg 00 Long Slow" familyname="Playpen COL" stylename="Rg 00 Long Slow">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Slant" xvalue="0"/>
@@ -120,7 +120,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="Playpen-Rg18LongSlow.ufo" name="Playpen Rg 18 Long Slow" familyname="Playpen COL" stylename="Rg 18 Long Slow">
+    <source filename="../Playpen-Rg18LongSlow.ufo" name="Playpen Rg 18 Long Slow" familyname="Playpen COL" stylename="Rg 18 Long Slow">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Slant" xvalue="18"/>
@@ -128,7 +128,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="Playpen-Rg00LongFast.ufo" name="Playpen Rg 00 Long Fast" familyname="Playpen COL" stylename="Rg 00 Long Fast">
+    <source filename="../Playpen-Rg00LongFast.ufo" name="Playpen Rg 00 Long Fast" familyname="Playpen COL" stylename="Rg 00 Long Fast">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Slant" xvalue="0"/>
@@ -136,7 +136,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="Playpen-Rg18LongFast.ufo" name="Playpen Rg 18 Long Fast" familyname="Playpen COL" stylename="Rg 18 Long Fast">
+    <source filename="../Playpen-Rg18LongFast.ufo" name="Playpen Rg 18 Long Fast" familyname="Playpen COL" stylename="Rg 18 Long Fast">
       <location>
         <dimension name="Weight" xvalue="500"/>
         <dimension name="Slant" xvalue="18"/>
@@ -146,7 +146,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playpen COL Thin" familyname="Playpen COL" stylename="Thin" filename="instance_ufo/PlaypenCOL-Thin.ufo" postscriptfontname="PlaypenCOL-Thin" stylemapfamilyname="Playpen COL Thin" stylemapstylename="regular">
+    <instance name="Playpen COL Thin" familyname="Playpen COL" stylename="Thin" filename="../instance_ufo/PlaypenCOL-Thin.ufo" postscriptfontname="PlaypenCOL-Thin" stylemapfamilyname="Playpen COL Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" uservalue="100"/>
         <dimension name="Slant" xvalue="18"/>
@@ -154,7 +154,7 @@
         <dimension name="Speed" xvalue="50"/>
       </location>
     </instance>
-    <instance name="Playpen COL ExtraLight" familyname="Playpen COL" stylename="ExtraLight" filename="instance_ufo/PlaypenCOL-ExtraLight.ufo" postscriptfontname="PlaypenCOL-ExtraLight" stylemapfamilyname="Playpen COL ExtraLight" stylemapstylename="regular">
+    <instance name="Playpen COL ExtraLight" familyname="Playpen COL" stylename="ExtraLight" filename="../instance_ufo/PlaypenCOL-ExtraLight.ufo" postscriptfontname="PlaypenCOL-ExtraLight" stylemapfamilyname="Playpen COL ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" uservalue="200"/>
         <dimension name="Slant" xvalue="18"/>
@@ -162,7 +162,7 @@
         <dimension name="Speed" xvalue="50"/>
       </location>
     </instance>
-    <instance name="Playpen COL Light" familyname="Playpen COL" stylename="Light" filename="instance_ufo/PlaypenCOL-Light.ufo" postscriptfontname="PlaypenCOL-Light" stylemapfamilyname="Playpen COL Light" stylemapstylename="regular">
+    <instance name="Playpen COL Light" familyname="Playpen COL" stylename="Light" filename="../instance_ufo/PlaypenCOL-Light.ufo" postscriptfontname="PlaypenCOL-Light" stylemapfamilyname="Playpen COL Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" uservalue="300"/>
         <dimension name="Slant" xvalue="18"/>
@@ -170,7 +170,7 @@
         <dimension name="Speed" xvalue="50"/>
       </location>
     </instance>
-    <instance name="Playpen COL Regular" familyname="Playpen COL" stylename="Regular" filename="instance_ufo/PlaypenCOL-Regular.ufo" postscriptfontname="PlaypenCOL-Regular" stylemapfamilyname="Playpen COL" stylemapstylename="regular">
+    <instance name="Playpen COL Regular" familyname="Playpen COL" stylename="Regular" filename="../instance_ufo/PlaypenCOL-Regular.ufo" postscriptfontname="PlaypenCOL-Regular" stylemapfamilyname="Playpen COL" stylemapstylename="regular">
       <location>
         <dimension name="Weight" uservalue="400"/>
         <dimension name="Slant" xvalue="18"/>

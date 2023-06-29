@@ -817,7 +817,7 @@ feature locl {
 	script latn;
 	language dflt;
 	# some code?
-	include(../features/fea-countries/col.fea);
+	include(../features/fea-models/col.fea);
 } locl;
 
 
