@@ -1,7 +1,7 @@
 # testing bits of code
 
 tag="col"
-feaFile="../features/Playpen-countries.fea"
+feaFile="../features/Playpen-models.fea"
 
 scripts="../scripts"
 
