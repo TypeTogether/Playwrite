@@ -1,5 +1,9 @@
 # add tag.fea to `locl` include
 
+__doc__ = """
+    Adds 'tag.fea' to include in `locl` feature.
+"""
+
 import sys
 import os
 
@@ -15,5 +19,5 @@ with open(feaFilepath, "r") as fea:
 
 
 with open(feaTagFilepath, "w") as featemp:
-	featemp.write(fea_temp)
-	featemp.close()
+    featemp.write(fea_temp)
+    featemp.close()

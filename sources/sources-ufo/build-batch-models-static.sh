@@ -4,7 +4,7 @@ set -e
 
 
 scripts="../scripts"
-feaFile=../features/Playpen-countries.fea
+feaFile=../features/Playpen-models.fea
 
 
 for i in $@
@@ -15,7 +15,7 @@ do
     python $scripts/add-locl-fea.py $tag $feaFile
 
 
-    otfFontsPath="../fonts-countries/fonts-$tag/static/otf"
+    otfFontsPath="../../fonts-models/fonts-$tag/static/otf"
     # ttfFontsPath="../fonts/static/ttf"
     # webFontsPath="../fonts/static/web"
     # sourcePath="./source-glyphs"
@@ -31,7 +31,7 @@ do
     echo
 
     # Build OTF fonts
-    fontmake -m ./Playpen-$tag.designspace -i -o otf \
+    fontmake -m ./designspace-models/Playpen-$tag.designspace -i -o otf \
                 --output-dir $otfFontsPath \
                 --expand-features-to-instances \
                 --no-check-compatibility
