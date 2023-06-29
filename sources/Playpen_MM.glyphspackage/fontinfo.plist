@@ -19,6 +19,13 @@ name = Speed;
 tag = SPED;
 }
 );
+classes = (
+{
+automatic = 1;
+code = "";
+name = Uppercase;
+}
+);
 customParameters = (
 {
 disabled = 1;
