@@ -2,5 +2,5 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-include(../features/Playpen-countries-temp.fea);
+include(../features/Playpen-models-temp.fea);
 
