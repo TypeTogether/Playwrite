@@ -8,8 +8,8 @@
       <map input="400" output="500"/>
     </axis>
     <axis tag="slnt" name="Slant" minimum="0" maximum="18" default="0"/>
-    <axis tag="EXTD" name="Extenders" minimum="300" maximum="550" default="300"/>
-    <axis tag="SPED" name="Speed" minimum="0" maximum="50" default="0"/>
+    <axis tag="EXTD" name="Extenders" minimum="300" maximum="800" default="300"/>
+    <axis tag="SPED" name="Speed" minimum="0" maximum="100" default="0"/>
   </axes>
   <sources>
     <source filename="Playpen-Th00ShortSlow.ufo" name="Playpen Th 00 Short Slow" familyname="Playpen COL" stylename="Th 00 Short Slow">

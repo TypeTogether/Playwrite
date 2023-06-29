@@ -498,13 +498,6 @@ lookup before_zcnt {
 # FEATURES
 # --------------
 
-feature locl {
-	script DFLT;
-	language dflt;
-	# some code?
-	include(../features/fea-countries/col.fea);
-} locl;
-
 feature ccmp {
 	lookup ccmp_decomp {
 		sub Aacute by A acutecomb ;
@@ -818,6 +811,14 @@ feature ccmp {
 
 	} ccmp_decomp;
 } ccmp;
+
+
+feature locl {
+	script latn;
+	language dflt;
+	# some code?
+	include(../features/fea-countries/col.fea);
+} locl;
 
 
 # ------------------

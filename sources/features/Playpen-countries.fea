@@ -814,7 +814,7 @@ feature ccmp {
 
 
 feature locl {
-	script DFLT;
+	script latn;
 	language dflt;
 	# some code?
 	include(../features/fea-countries/::TAG::.fea);
