@@ -1988,6 +1988,19 @@ GSCornerRadius = 12;
 instances = (
 {
 axesValues = (
+100,
+0,
+300,
+0
+);
+instanceInterpolations = {
+m01 = 1;
+};
+name = "Th 00 Short Slow";
+weightClass = 100;
+},
+{
+axesValues = (
 300,
 9,
 300,
@@ -2067,7 +2080,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The Playpen Project Authors (https://github.com/TypeTogether/Playpen-Sans)";
+value = "Copyright 2023 The Playpen Project Authors (https://github.com/TypeTogether/Playpen)";
 }
 );
 },
