@@ -28,6 +28,11 @@ value = 2000;
 {
 name = glyphOrder;
 value = (
+CR,
+space,
+nbspace,
+.notdef,
+.null,
 A,
 B,
 C,
@@ -59,7 +64,13 @@ W,
 X,
 Y,
 Z,
+AE,
 Eth,
+IJ,
+Eng,
+OE,
+Thorn,
+Germandbls,
 a,
 b,
 c,
@@ -88,6 +99,58 @@ w,
 x,
 y,
 z,
+ae,
+eth,
+ij,
+eng,
+oe,
+thorn,
+germandbls,
+zero,
+one,
+two,
+three,
+four,
+five,
+six,
+seven,
+eight,
+nine,
+one.alt1,
+four.alt1,
+seven.alt1,
+nine.alt1,
+dollar,
+euro,
+cent,
+sterling,
+yen,
+florin,
+liraTurkish,
+bitcoin,
+percent,
+perthousand,
+period,
+comma,
+colon,
+semicolon,
+ellipsis,
+exclam,
+exclamdown,
+question,
+questiondown,
+quotesingle,
+quotedbl,
+quoteleft,
+quoteright,
+quotesinglbase,
+quotedblleft,
+quotedblright,
+quotedblbase,
+guillemetleft,
+guillemetright,
+guilsinglleft,
+guilsinglright,
 idotless,
 jdotless,
 Aacute,
@@ -388,6 +451,135 @@ ytilde,
 zacute,
 zcaron,
 zdotaccent,
+"##accents",
+dieresis,
+dotaccent,
+grave,
+acute,
+hungarumlaut,
+circumflex,
+caron,
+breve,
+ring,
+tilde,
+macron,
+cedilla,
+ogonek,
+brevecomb_acutecomb,
+brevecomb_gravecomb,
+brevecomb_hookabovecomb,
+brevecomb_tildecomb,
+circumflexcomb_acutecomb,
+circumflexcomb_gravecomb,
+circumflexcomb_hookabovecomb,
+circumflexcomb_tildecomb,
+dieresiscomb,
+dotaccentcomb,
+gravecomb,
+acutecomb,
+hungarumlautcomb,
+caroncomb.alt,
+circumflexcomb,
+caroncomb,
+brevecomb,
+ringcomb,
+tildecomb,
+tildeshortcomb,
+macroncomb,
+hookabovecomb,
+commaturnedabovecomb,
+horncomb,
+dotbelowcomb,
+commaaccentcomb,
+cedillacomb,
+ogonekcomb,
+strokeshortcomb,
+strokelongcomb,
+slashshortcomb,
+slashlongcomb,
+strokeshortcomb.case,
+slashshortcomb.case,
+slashlongcomb.case,
+strokeshortcomb.t,
+"##extraSymbols",
+degree,
+minute,
+second,
+asterisk,
+numbersign,
+ampersand,
+at,
+parenleft,
+parenright,
+bracketleft,
+bracketright,
+braceleft,
+braceright,
+slash,
+backslash,
+bar,
+brokenbar,
+periodcentered,
+bullet,
+hyphen,
+softhyphen,
+endash,
+emdash,
+hyphen.case,
+at.case,
+exclamdown.case,
+questiondown.case,
+dagger,
+daggerdbl,
+section,
+paragraph,
+asciicircum,
+asciitilde,
+underscore,
+copyright,
+registered,
+trademark,
+numero,
+currency,
+onesuperior,
+twosuperior,
+threesuperior,
+foursuperior,
+ordfeminine,
+ordmasculine,
+fraction,
+onehalf,
+onequarter,
+threequarters,
+partialdiff,
+Ohm,
+increment,
+product,
+summation,
+Delta,
+Omega,
+mu,
+pi,
+micro,
+divisionslash,
+bulletoperator,
+radical,
+infinity,
+integral,
+approxequal,
+notequal,
+lessequal,
+greaterequal,
+less,
+equal,
+greater,
+lozenge,
+plus,
+minus,
+plusminus,
+divide,
+multiply,
+logicalnot,
 a.mod,
 a.mod.ini,
 a.mod.med,
@@ -842,6 +1034,10 @@ p.mrr,
 p.mrr.ini,
 p.mrr.med,
 p.mrr.fin,
+p.mrr_ca,
+p.mrr_ca.ini,
+p.mrr_ca.med,
+p.mrr_ca.fin,
 q.mrr,
 q.mrr.ini,
 q.mrr.med,
@@ -924,6 +1120,74 @@ cnct.mlp_o_r,
 cnct.mlp_o_s,
 cnct.mlp_o_t,
 cnct.mlp_o_x,
+"##loclLowercase",
+d.lop_cu,
+d.lop_cu.ini,
+d.lop_cu.med,
+d.lop_cu.fin,
+f.ful_de,
+f.ful_de.ini,
+f.ful_de.med,
+f.ful_de.fin,
+t.lop_de,
+t.lop_de.ini,
+t.lop_de.med,
+t.lop_de.fin,
+x.cnt_de,
+x.cnt_de.ini,
+x.cnt_de.med,
+x.cnt_de.fin,
+f.ful_pe,
+f.ful_pe.ini,
+f.ful_pe.med,
+f.ful_pe.fin,
+k.lop_pe,
+k.lop_pe.ini,
+k.lop_pe.med,
+k.lop_pe.fin,
+f.ful_pl,
+f.ful_pl.ini,
+f.ful_pl.med,
+f.ful_pl.fin,
+"##CNCTloclLowercase",
+"##locl_t_SRC",
+cnct.mod_t.lop_de_b,
+cnct.mod_t.lop_de_e,
+cnct.mod_t.lop_de_n,
+cnct.mod_t.lop_de_o,
+cnct.mod_t.lop_de_s,
+cnct.mod_t.lop_de_v,
+cnct.mod_t.lop_de_x,
+cnct.mod_t.lop_de_z,
+cnct.jmc_t.lop_de_f,
+cnct.ful_t.lop_de_e,
+cnct.ful_t.lop_de_f,
+cnct.ful_t.lop_de_r,
+cnct.ful_t.lop_de_s,
+cnct.ful_t.lop_de_x,
+cnct.ful_t.lop_de_z,
+cnct.ful_t.lop_de_t.lop_de,
+cnct.lop_t.lop_de_h,
+cnct.cnt_t.lop_de_n,
+cnct.cnt_t.lop_de_z,
+"##locl_t_TGT",
+cnct.mod_c_t.lop_de,
+cnct.mod_e_t.lop_de,
+cnct.mod_n_t.lop_de,
+cnct.mod_o_t.lop_de,
+cnct.mod_r_t.lop_de,
+cnct.mod_v_t.lop_de,
+cnct.jmc_f_t.lop_de,
+cnct.jmc_g_t.lop_de,
+cnct.ful_b_t.lop_de,
+cnct.ful_e_t.lop_de,
+cnct.ful_f_t.lop_de,
+cnct.ful_z_t.lop_de,
+cnct.cnt_r_t.lop_de,
+cnct.mrr_f_t.lop_de,
+cnct.mlp_b_t.lop_de,
+cnct.mlp_f_t.lop_de,
+cnct.mlp_o_t.lop_de,
 "##CapsCur",
 A.cur,
 A.cur.ini,
@@ -949,9 +1213,9 @@ K.cur.ini,
 L.cur,
 L.cur.ini,
 M.cur,
-M.cur.ini,
 N.cur,
 N.cur.ini,
+M.cur.ini,
 O.cur,
 P.cur,
 Q.cur,
@@ -962,7 +1226,6 @@ R.cur,
 R.cur.ini,
 S.cur,
 T.cur,
-T.cur.ini,
 T.cur_locl,
 T.cur_loc.ini,
 U.cur,
@@ -998,6 +1261,8 @@ O.dec,
 P.dec,
 Q.dec,
 Q.dec.ini,
+Q.dec_pt,
+Q.dec_pt.ini,
 R.dec,
 R.dec.ini,
 S.dec,
@@ -1012,45 +1277,49 @@ Z.dec,
 Z.dec.ini,
 Z.dec_locl,
 Z.dec_locl.ini,
-d.lop_cu,
-d.lop_cu.ini,
-d.lop_cu.med,
-d.lop_cu.fin,
-f.ful_de,
-f.ful_de.ini,
-f.ful_de.med,
-f.ful_de.fin,
-t.lop_de,
-t.lop_de.ini,
-t.lop_de.med,
-t.lop_de.fin,
-x.cnt_de,
-x.cnt_de.ini,
-x.cnt_de.med,
-x.cnt_de.fin,
-f.ful_pe,
-f.ful_pe.ini,
-f.ful_pe.med,
-f.ful_pe.fin,
-k.lop_pe,
-k.lop_pe.ini,
-k.lop_pe.med,
-k.lop_pe.fin,
-f.ful_pl,
-f.ful_pl.ini,
-f.ful_pl.med,
-f.ful_pl.fin
+"#capConnectors",
+cnct.cnt_G_n,
+cnct.cnt_G_z,
+cnct.ful_G_e,
+cnct.ful_G_f,
+cnct.ful_G_r,
+cnct.ful_G_s,
+cnct.ful_G_x,
+cnct.ful_G_z,
+cnct.ful_X_e,
+cnct.ful_X_f,
+cnct.ful_X_r,
+cnct.ful_X_s,
+cnct.ful_X_x,
+cnct.ful_X_z,
+cnct.jmc_G_f,
+cnct.mod_G_b,
+cnct.mod_G_e,
+cnct.mod_G_n,
+cnct.mod_G_o,
+cnct.mod_G_s,
+cnct.mod_G_t,
+cnct.mod_G_v,
+cnct.mod_G_x,
+cnct.mod_G_z
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = fsType;
+value = (
 );
 }
 );
-date = "2023-06-16 16:12:14 +0000";
+date = "2023-06-29 14:12:27 +0000";
 familyName = Playpen;
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
 languagesystem latn dflt;
-
-languagesystem latn ESP;
 
 include(features/Playpen-dev.fea);
 ";
@@ -1060,7 +1329,7 @@ name = Languagesystems;
 fontMaster = (
 {
 axesValues = (
-200,
+100,
 0,
 300,
 0
@@ -1114,7 +1383,7 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
-200,
+100,
 18,
 300,
 0
@@ -1159,7 +1428,7 @@ GSCornerRadius = 12;
 },
 {
 axesValues = (
-200,
+100,
 0,
 300,
 100
@@ -1197,7 +1466,7 @@ GSCornerRadius = 12;
 },
 {
 axesValues = (
-200,
+100,
 18,
 300,
 100
@@ -1235,7 +1504,7 @@ GSCornerRadius = 12;
 },
 {
 axesValues = (
-500,
+400,
 0,
 300,
 0
@@ -1278,7 +1547,7 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
-500,
+400,
 18,
 300,
 0
@@ -1316,7 +1585,7 @@ GSCornerRadius = 12;
 },
 {
 axesValues = (
-500,
+400,
 0,
 300,
 100
@@ -1354,7 +1623,7 @@ GSCornerRadius = 12;
 },
 {
 axesValues = (
-500,
+400,
 18,
 300,
 100
@@ -1392,7 +1661,7 @@ GSCornerRadius = 12;
 },
 {
 axesValues = (
-200,
+100,
 0,
 800,
 0
@@ -1436,7 +1705,7 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
-200,
+100,
 18,
 800,
 0
@@ -1474,26 +1743,10 @@ GSCornerRadius = 12;
 },
 {
 axesValues = (
-200,
+100,
 0,
 800,
 100
-);
-guides = (
-{
-orientation = center;
-pos = (262,-119);
-},
-{
-pos = (-17,0);
-},
-{
-orientation = center;
-pos = (218,1139);
-},
-{
-pos = (471,-127);
-}
 );
 iconName = Light;
 id = m011;
@@ -1528,7 +1781,7 @@ GSCornerRadius = 12;
 },
 {
 axesValues = (
-200,
+100,
 18,
 800,
 100
@@ -1566,7 +1819,7 @@ GSCornerRadius = 12;
 },
 {
 axesValues = (
-500,
+400,
 0,
 800,
 0
@@ -1610,7 +1863,7 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
-500,
+400,
 18,
 800,
 0
@@ -1648,7 +1901,7 @@ GSCornerRadius = 12;
 },
 {
 axesValues = (
-500,
+400,
 0,
 800,
 100
@@ -1686,7 +1939,7 @@ GSCornerRadius = 12;
 },
 {
 axesValues = (
-500,
+400,
 18,
 800,
 100
@@ -1726,65 +1979,7 @@ GSCornerRadius = 12;
 instances = (
 {
 axesValues = (
-300,
-9,
-550,
-50
-);
-exports = 0;
-instanceInterpolations = {
-m002 = 0.08333;
-m003 = 0.08333;
-m004 = 0.08333;
-m005 = 0.04167;
-m006 = 0.04167;
-m007 = 0.04167;
-m008 = 0.04167;
-m009 = 0.08333;
-m01 = 0.08333;
-m010 = 0.08333;
-m011 = 0.08333;
-m012 = 0.08333;
-m013 = 0.04167;
-m014 = 0.04167;
-m015 = 0.04167;
-m016 = 0.04167;
-};
-name = TestInt;
-},
-{
-axesValues = (
-200,
-0,
-452,
-0
-);
-exports = 0;
-instanceInterpolations = {
-m009 = 0.304;
-m01 = 0.696;
-};
-name = SpanishARG;
-},
-{
-axesValues = (
-200,
-18,
-416,
-50
-);
-exports = 0;
-instanceInterpolations = {
-m002 = 0.384;
-m004 = 0.384;
-m010 = 0.116;
-m012 = 0.116;
-};
-name = SpanishCOL;
-},
-{
-axesValues = (
-200,
+100,
 0,
 300,
 0
@@ -1793,18 +1988,27 @@ instanceInterpolations = {
 m01 = 1;
 };
 name = "Th 00 Short Slow";
+weightClass = 100;
 },
 {
 axesValues = (
-200,
-18,
 300,
-0
+9,
+300,
+50
 );
 instanceInterpolations = {
-m002 = 1;
+m002 = 0.08333;
+m003 = 0.08333;
+m004 = 0.08333;
+m005 = 0.16667;
+m006 = 0.16667;
+m007 = 0.16667;
+m008 = 0.16667;
+m01 = 0.08333;
 };
-name = "Th 18 Short Slow";
+name = InterpolationTest;
+weightClass = 300;
 }
 );
 metrics = (
@@ -1831,10 +2035,77 @@ note = "G.cur J.cur Y.cur conectan?
 
 Las conexiones en las másters rápidos son un poco forzadas
 y capaz la velocidad y tensión no están del todo bien resueltas.";
+properties = (
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturerURL;
+value = "www.type-together.com";
+},
+{
+key = designerURL;
+value = "www.type-together.com";
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "First Release";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2023 The Playpen Project Authors (https://github.com/TypeTogether/Playpen)";
+}
+);
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = TypeTogether;
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Veronika Burian, José Scaglione";
+}
+);
+},
+{
+key = vendorID;
+value = TT;
+},
+{
+key = versionString;
+value = "Version 0.200";
+}
+);
 settings = {
 disablesNiceNames = 1;
 };
-unitsPerEm = 2000;
+unitsPerEm = 1000;
 userData = {
 GSDontShowVersionAlert = 1;
 "com.hugojourdan.ColorFlow-Report_Data" = {
@@ -6181,5 +6452,5 @@ GSCornerRadius = 12;
 };
 };
 versionMajor = 0;
-versionMinor = 100;
+versionMinor = 200;
 }
