@@ -255,6 +255,7 @@ lookup before_n {
 	sub @fful_SRC by @fful_SRC cnct.jmc_f_n;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_n;
 	#
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_i;
 } before_n;
 
 lookup before_ncnt {
@@ -1152,6 +1153,7 @@ feature calt {
 		sub @omlp_SRC' lookup before_eful @eful_TGT;
 		sub @omlp_SRC' lookup before_h @hlop_TGT;
 		sub @omlp_SRC' lookup before_imrr @imrr_TGT;
+		sub @omlp_SRC' lookup before_n @nmod_TGT;
 		sub @omlp_SRC' lookup before_ncnt @ncnt_TGT;
 		sub @omlp_SRC' lookup before_fful @fful_TGT;
 		sub @omlp_SRC' lookup before_rful @rful_TGT;
