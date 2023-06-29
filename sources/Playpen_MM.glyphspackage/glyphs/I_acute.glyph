@@ -411,12 +411,10 @@ width = 418;
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = I;
 },
 {
-alignment = -1;
-pos = (135,270);
+pos = (209,739);
 ref = acutecomb;
 }
 );
@@ -436,7 +434,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 270;
+width = 418;
 },
 {
 layerId = m016;

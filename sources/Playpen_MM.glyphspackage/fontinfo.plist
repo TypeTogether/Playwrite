@@ -22,7 +22,8 @@ tag = SPED;
 classes = (
 {
 automatic = 1;
-code = "";
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z G.alt1 I.alt1 M.alt1 Eth Aacute Abreve Acaron Acircumflex Adieresis AEacute Agrave Amacron Aogonek Aring Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adotbelow Ahookabove Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edotbelow Ehookabove Etilde Gbreve Gcircumflex Gcommaaccent Gdotaccent Hbar Hcircumflex Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Idotbelow Ihookabove Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Ncaron Ncommaaccent Ntilde Oacute Obreve Ocaron Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odotbelow Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Tcommaaccent Uacute Ubreve Ucaron Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Ydotbelow Yhookabove Ytilde Zacute Zcaron Zdotaccent A.cur B.cur C.cur D.cur E.cur F.cur G.cur H.cur I.cur J.cur K.cur L.cur M.cur N.cur O.cur P.cur Q.cur R.cur S.cur T.cur U.cur V.cur W.cur X.cur Y.cur Z.cur A.cur.ini H.cur.ini K.cur.ini L.cur.ini M.cur.ini N.cur.ini Q.cur.ini R.cur.ini U.cur.ini X.cur.ini Z.cur.ini";
+disabled = 1;
 name = Uppercase;
 }
 );
@@ -35,6 +36,11 @@ value = 2000;
 {
 name = glyphOrder;
 value = (
+CR,
+space,
+nbspace,
+.notdef,
+.null,
 A,
 B,
 C,
@@ -66,7 +72,13 @@ W,
 X,
 Y,
 Z,
+AE,
 Eth,
+IJ,
+Eng,
+OE,
+Thorn,
+Germandbls,
 a,
 b,
 c,
@@ -95,6 +107,58 @@ w,
 x,
 y,
 z,
+ae,
+eth,
+ij,
+eng,
+oe,
+thorn,
+germandbls,
+zero,
+one,
+two,
+three,
+four,
+five,
+six,
+seven,
+eight,
+nine,
+one.alt1,
+four.alt1,
+seven.alt1,
+nine.alt1,
+dollar,
+euro,
+cent,
+sterling,
+yen,
+florin,
+liraTurkish,
+bitcoin,
+percent,
+perthousand,
+period,
+comma,
+colon,
+semicolon,
+ellipsis,
+exclam,
+exclamdown,
+question,
+questiondown,
+quotesingle,
+quotedbl,
+quoteleft,
+quoteright,
+quotesinglbase,
+quotedblleft,
+quotedblright,
+quotedblbase,
+guillemetleft,
+guillemetright,
+guilsinglleft,
+guilsinglright,
 idotless,
 jdotless,
 Aacute,
@@ -395,6 +459,135 @@ ytilde,
 zacute,
 zcaron,
 zdotaccent,
+"##accents",
+dieresis,
+dotaccent,
+grave,
+acute,
+hungarumlaut,
+circumflex,
+caron,
+breve,
+ring,
+tilde,
+macron,
+cedilla,
+ogonek,
+brevecomb_acutecomb,
+brevecomb_gravecomb,
+brevecomb_hookabovecomb,
+brevecomb_tildecomb,
+circumflexcomb_acutecomb,
+circumflexcomb_gravecomb,
+circumflexcomb_hookabovecomb,
+circumflexcomb_tildecomb,
+dieresiscomb,
+dotaccentcomb,
+gravecomb,
+acutecomb,
+hungarumlautcomb,
+caroncomb.alt,
+circumflexcomb,
+caroncomb,
+brevecomb,
+ringcomb,
+tildecomb,
+tildeshortcomb,
+macroncomb,
+hookabovecomb,
+commaturnedabovecomb,
+horncomb,
+dotbelowcomb,
+commaaccentcomb,
+cedillacomb,
+ogonekcomb,
+strokeshortcomb,
+strokelongcomb,
+slashshortcomb,
+slashlongcomb,
+strokeshortcomb.case,
+slashshortcomb.case,
+slashlongcomb.case,
+strokeshortcomb.t,
+"##extraSymbols",
+degree,
+minute,
+second,
+asterisk,
+numbersign,
+ampersand,
+at,
+parenleft,
+parenright,
+bracketleft,
+bracketright,
+braceleft,
+braceright,
+slash,
+backslash,
+bar,
+brokenbar,
+periodcentered,
+bullet,
+hyphen,
+softhyphen,
+endash,
+emdash,
+hyphen.case,
+at.case,
+exclamdown.case,
+questiondown.case,
+dagger,
+daggerdbl,
+section,
+paragraph,
+asciicircum,
+asciitilde,
+underscore,
+copyright,
+registered,
+trademark,
+numero,
+currency,
+onesuperior,
+twosuperior,
+threesuperior,
+foursuperior,
+ordfeminine,
+ordmasculine,
+fraction,
+onehalf,
+onequarter,
+threequarters,
+partialdiff,
+Ohm,
+increment,
+product,
+summation,
+Delta,
+Omega,
+mu,
+pi,
+micro,
+divisionslash,
+bulletoperator,
+radical,
+infinity,
+integral,
+approxequal,
+notequal,
+lessequal,
+greaterequal,
+less,
+equal,
+greater,
+lozenge,
+plus,
+minus,
+plusminus,
+divide,
+multiply,
+logicalnot,
 a.mod,
 a.mod.ini,
 a.mod.med,
@@ -849,6 +1042,10 @@ p.mrr,
 p.mrr.ini,
 p.mrr.med,
 p.mrr.fin,
+p.mrr_ca,
+p.mrr_ca.ini,
+p.mrr_ca.med,
+p.mrr_ca.fin,
 q.mrr,
 q.mrr.ini,
 q.mrr.med,
@@ -931,6 +1128,74 @@ cnct.mlp_o_r,
 cnct.mlp_o_s,
 cnct.mlp_o_t,
 cnct.mlp_o_x,
+"##loclLowercase",
+d.lop_cu,
+d.lop_cu.ini,
+d.lop_cu.med,
+d.lop_cu.fin,
+f.ful_de,
+f.ful_de.ini,
+f.ful_de.med,
+f.ful_de.fin,
+t.lop_de,
+t.lop_de.ini,
+t.lop_de.med,
+t.lop_de.fin,
+x.cnt_de,
+x.cnt_de.ini,
+x.cnt_de.med,
+x.cnt_de.fin,
+f.ful_pe,
+f.ful_pe.ini,
+f.ful_pe.med,
+f.ful_pe.fin,
+k.lop_pe,
+k.lop_pe.ini,
+k.lop_pe.med,
+k.lop_pe.fin,
+f.ful_pl,
+f.ful_pl.ini,
+f.ful_pl.med,
+f.ful_pl.fin,
+"##CNCTloclLowercase",
+"##locl_t_SRC",
+cnct.mod_t.lop_de_b,
+cnct.mod_t.lop_de_e,
+cnct.mod_t.lop_de_n,
+cnct.mod_t.lop_de_o,
+cnct.mod_t.lop_de_s,
+cnct.mod_t.lop_de_v,
+cnct.mod_t.lop_de_x,
+cnct.mod_t.lop_de_z,
+cnct.jmc_t.lop_de_f,
+cnct.ful_t.lop_de_e,
+cnct.ful_t.lop_de_f,
+cnct.ful_t.lop_de_r,
+cnct.ful_t.lop_de_s,
+cnct.ful_t.lop_de_x,
+cnct.ful_t.lop_de_z,
+cnct.ful_t.lop_de_t.lop_de,
+cnct.lop_t.lop_de_h,
+cnct.cnt_t.lop_de_n,
+cnct.cnt_t.lop_de_z,
+"##locl_t_TGT",
+cnct.mod_c_t.lop_de,
+cnct.mod_e_t.lop_de,
+cnct.mod_n_t.lop_de,
+cnct.mod_o_t.lop_de,
+cnct.mod_r_t.lop_de,
+cnct.mod_v_t.lop_de,
+cnct.jmc_f_t.lop_de,
+cnct.jmc_g_t.lop_de,
+cnct.ful_b_t.lop_de,
+cnct.ful_e_t.lop_de,
+cnct.ful_f_t.lop_de,
+cnct.ful_z_t.lop_de,
+cnct.cnt_r_t.lop_de,
+cnct.mrr_f_t.lop_de,
+cnct.mlp_b_t.lop_de,
+cnct.mlp_f_t.lop_de,
+cnct.mlp_o_t.lop_de,
 "##CapsCur",
 A.cur,
 A.cur.ini,
@@ -956,9 +1221,9 @@ K.cur.ini,
 L.cur,
 L.cur.ini,
 M.cur,
-M.cur.ini,
 N.cur,
 N.cur.ini,
+M.cur.ini,
 O.cur,
 P.cur,
 Q.cur,
@@ -969,7 +1234,6 @@ R.cur,
 R.cur.ini,
 S.cur,
 T.cur,
-T.cur.ini,
 T.cur_locl,
 T.cur_loc.ini,
 U.cur,
@@ -1005,6 +1269,8 @@ O.dec,
 P.dec,
 Q.dec,
 Q.dec.ini,
+Q.dec_pt,
+Q.dec_pt.ini,
 R.dec,
 R.dec.ini,
 S.dec,
@@ -1019,49 +1285,148 @@ Z.dec,
 Z.dec.ini,
 Z.dec_locl,
 Z.dec_locl.ini,
-d.lop_cu,
-d.lop_cu.ini,
-d.lop_cu.med,
-d.lop_cu.fin,
-f.ful_de,
-f.ful_de.ini,
-f.ful_de.med,
-f.ful_de.fin,
-t.lop_de,
-t.lop_de.ini,
-t.lop_de.med,
-t.lop_de.fin,
-x.cnt_de,
-x.cnt_de.ini,
-x.cnt_de.med,
-x.cnt_de.fin,
-f.ful_pe,
-f.ful_pe.ini,
-f.ful_pe.med,
-f.ful_pe.fin,
-k.lop_pe,
-k.lop_pe.ini,
-k.lop_pe.med,
-k.lop_pe.fin,
-f.ful_pl,
-f.ful_pl.ini,
-f.ful_pl.med,
-f.ful_pl.fin
+"#capConnectors",
+cnct.cnt_G_n,
+cnct.cnt_G_z,
+cnct.ful_G_e,
+cnct.ful_G_f,
+cnct.ful_G_r,
+cnct.ful_G_s,
+cnct.ful_G_x,
+cnct.ful_G_z,
+cnct.ful_X_e,
+cnct.ful_X_f,
+cnct.ful_X_r,
+cnct.ful_X_s,
+cnct.ful_X_x,
+cnct.ful_X_z,
+cnct.jmc_G_f,
+cnct.mod_G_b,
+cnct.mod_G_e,
+cnct.mod_G_n,
+cnct.mod_G_o,
+cnct.mod_G_s,
+cnct.mod_G_t,
+cnct.mod_G_v,
+cnct.mod_G_x,
+cnct.mod_G_z
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = fsType;
+value = (
 );
 }
 );
-date = "2023-06-16 16:12:14 +0000";
+date = "2023-06-29 14:12:27 +0000";
 familyName = Playpen;
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-languagesystem latn ESP;
-
-include(features/Playpen-dev.fea);
+include(../../03_Engineering/GOOGLE-Github-Playpen-repo/sources/features/Playpen-dev.fea);
 ";
 name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature case;
+";
+disabled = 1;
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	@Markscomb = [strokeshortcomb slashshortcomb slashlongcomb];
+	@MarkscombCase = [strokeshortcomb.case slashshortcomb.case slashlongcomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub brevecomb acutecomb by brevecomb_acutecomb;
+	sub brevecomb gravecomb by brevecomb_gravecomb;
+	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
+	sub brevecomb tildecomb by brevecomb_tildecomb;
+	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
+	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
+	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
+	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+disabled = 1;
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language CAT;
+	sub  l' periodcentered' l by ldot;
+	sub  L' periodcentered' L by Ldot;
+} locl_latn_2;
+";
+disabled = 1;
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub strokeshortcomb by strokeshortcomb.case;
+sub slashshortcomb by slashshortcomb.case;
+sub slashlongcomb by slashlongcomb.case;
+";
+disabled = 1;
+tag = case;
 }
 );
 fontMaster = (
@@ -1486,22 +1851,6 @@ axesValues = (
 800,
 100
 );
-guides = (
-{
-orientation = center;
-pos = (262,-119);
-},
-{
-pos = (-17,0);
-},
-{
-orientation = center;
-pos = (218,1139);
-},
-{
-pos = (471,-127);
-}
-);
 iconName = Light;
 id = m011;
 metricValues = (
@@ -1814,6 +2163,28 @@ m002 = 1;
 name = "Th 18 Short Slow";
 }
 );
+kerningLTR = {
+m01 = {
+cnct.mod_o_e = {
+"@MMK_R_e.mod_o_" = 0;
+};
+};
+m005 = {
+cnct.mod_o_e = {
+"@MMK_R_e.mod_o_" = 0;
+};
+};
+m009 = {
+cnct.mod_o_e = {
+"@MMK_R_e.mod_o_" = 0;
+};
+};
+m013 = {
+cnct.mod_o_e = {
+"@MMK_R_e.mod_o_" = 0;
+};
+};
+};
 metrics = (
 {
 type = ascender;
@@ -1838,10 +2209,77 @@ note = "G.cur J.cur Y.cur conectan?
 
 Las conexiones en las másters rápidos son un poco forzadas
 y capaz la velocidad y tensión no están del todo bien resueltas.";
+properties = (
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = manufacturerURL;
+value = "www.type-together.com";
+},
+{
+key = designerURL;
+value = "www.type-together.com";
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "First Release";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2023 The Playpen Project Authors (https://github.com/TypeTogether/Playpen-Sans)";
+}
+);
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = TypeTogether;
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Veronika Burian, José Scaglione";
+}
+);
+},
+{
+key = vendorID;
+value = TT;
+},
+{
+key = versionString;
+value = "Version 0.200";
+}
+);
 settings = {
 disablesNiceNames = 1;
 };
-unitsPerEm = 2000;
+unitsPerEm = 1000;
 userData = {
 GSDontShowVersionAlert = 1;
 "com.hugojourdan.ColorFlow-Report_Data" = {
@@ -6188,5 +6626,5 @@ GSCornerRadius = 12;
 };
 };
 versionMajor = 0;
-versionMinor = 100;
+versionMinor = 200;
 }
