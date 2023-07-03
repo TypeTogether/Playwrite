@@ -38,7 +38,7 @@
 
 # UPPERCASE
 @Gcur_SRC = [G.cur.ini G.cur_locl.ini J.cur.ini J.dec.ini Y.cur.ini Z.cur.ini];
-@Tdec_SRC = [T.cur.ini T.cur_loc.ini Z.dec.ini X.dec_locl.ini Z.dec_locl.ini];
+@Tdec_SRC = [T.cur.ini T.cur_locl.ini Z.dec.ini X.dec_locl.ini Z.dec_locl.ini];
 @Xdec_SRC = [X.dec.ini];
 # SOURCE CLASSES (INI and MED)
 @bful_SRC = [b.ful.ini b.ful.med v.ful.ini v.ful.med w.ful.ini w.ful.med b.lop.ini b.lop.med v.cnt.ini v.cnt.med v.cnt.med_n_ w.cnt.ini w.cnt.med w.cnt.med_n_];
@@ -255,6 +255,7 @@ lookup before_n {
 	sub @fful_SRC by @fful_SRC cnct.jmc_f_n;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_n;
 	#
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_i;
 } before_n;
 
 lookup before_ncnt {
@@ -1152,6 +1153,7 @@ feature calt {
 		sub @omlp_SRC' lookup before_eful @eful_TGT;
 		sub @omlp_SRC' lookup before_h @hlop_TGT;
 		sub @omlp_SRC' lookup before_imrr @imrr_TGT;
+		sub @omlp_SRC' lookup before_n @nmod_TGT;
 		sub @omlp_SRC' lookup before_ncnt @ncnt_TGT;
 		sub @omlp_SRC' lookup before_fful @fful_TGT;
 		sub @omlp_SRC' lookup before_rful @rful_TGT;
