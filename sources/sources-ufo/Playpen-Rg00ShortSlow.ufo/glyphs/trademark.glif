@@ -11,4 +11,10 @@
 	<anchor name="center" x="276" y="350"/>
 	<anchor name="top_1" x="276" y="670"/>
 	<anchor name="top_2" x="972" y="670"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.65,0.48,0.2,1</string>
+		</dict>
+	</lib>
 </glyph>

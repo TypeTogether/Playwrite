@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="cnct.jmc_f_b" format="2">
+	<advance width="10"/>
 	<outline>
 		<contour>
 			<point x="-292" y="-315" type="curve" smooth="yes"/>
@@ -23,14 +24,41 @@
 		</contour>
 	</outline>
 	<anchor name="_cnct" x="0" y="0"/>
+	<guideline x="126" y="207" angle="331.39"/>
+	<guideline x="-324" y="-199" angle="187.65"/>
+	<guideline x="50" y="-43" angle="75.43"/>
+	<guideline x="157" y="192" angle="254.08"/>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.category</key>
-			<string>Mark</string>
-			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
-			<integer>10</integer>
-			<key>com.schriftgestaltung.Glyphs.subCategory</key>
-			<string>Nonspacing</string>
+			<key>com.hugojourdan.ColorFlow</key>
+			<dict>
+				<key>0</key>
+				<integer>0</integer>
+				<key>1</key>
+				<integer>0</integer>
+				<key>10</key>
+				<integer>0</integer>
+				<key>11</key>
+				<integer>0</integer>
+				<key>2</key>
+				<integer>0</integer>
+				<key>3</key>
+				<integer>0</integer>
+				<key>4</key>
+				<integer>0</integer>
+				<key>5</key>
+				<integer>0</integer>
+				<key>6</key>
+				<integer>0</integer>
+				<key>7</key>
+				<integer>0</integer>
+				<key>8</key>
+				<integer>0</integer>
+				<key>9</key>
+				<integer>0</integer>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
 		</dict>
 	</lib>
 </glyph>

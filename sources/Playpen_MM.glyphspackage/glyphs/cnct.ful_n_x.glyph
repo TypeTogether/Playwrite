@@ -216,19 +216,6 @@ anchors = (
 name = _cnct;
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-45,46,l),
-(-90,46,o),
-(-90,-14,o),
-(-60,-14,c)
-);
-}
-);
-};
 guides = (
 {
 angle = 354.09;
@@ -490,60 +477,6 @@ com.hugojourdan.ColorFlow = {
 width = 50;
 },
 {
-associatedMasterId = m01;
-layerId = "9B8D0B73-99DB-4AD1-AAED-BF83939DB5D2";
-name = public.background;
-shapes = (
-{
-closed = 1;
-nodes = (
-(-45,-14,l),
-(140,-14,o),
-(44,388,o),
-(196,388,cs),
-(245,388,o),
-(289,317,o),
-(289,194,c),
-(309,285,l),
-(290,357,o),
-(256,415,o),
-(196,415,cs),
-(9,415,o),
-(110,14,o),
-(-45,14,c)
-);
-}
-);
-width = 50;
-},
-{
-associatedMasterId = m01;
-layerId = "DC938D62-9A4E-4E07-9904-24D7F0949B32";
-name = public.background;
-shapes = (
-{
-closed = 1;
-nodes = (
-(-45,-14,l),
-(140,-14,o),
-(44,388,o),
-(196,388,cs),
-(245,388,o),
-(289,317,o),
-(289,194,c),
-(309,285,l),
-(290,357,o),
-(256,415,o),
-(196,415,cs),
-(9,415,o),
-(110,14,o),
-(-45,14,c)
-);
-}
-);
-width = 50;
-},
-{
 anchors = (
 {
 name = _cnct;
@@ -591,60 +524,6 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 50;
-},
-{
-associatedMasterId = m009;
-layerId = "876C8BFC-147B-4125-85A0-3B603DF91CA9";
-name = public.background;
-shapes = (
-{
-closed = 1;
-nodes = (
-(-45,-14,l),
-(140,-14,o),
-(44,388,o),
-(196,388,cs),
-(245,388,o),
-(289,317,o),
-(289,194,c),
-(309,285,l),
-(290,357,o),
-(256,415,o),
-(196,415,cs),
-(9,415,o),
-(110,14,o),
-(-45,14,c)
-);
-}
-);
-width = 50;
-},
-{
-associatedMasterId = m009;
-layerId = "F58734B1-90E8-419E-B487-C8ED27C13399";
-name = public.background;
-shapes = (
-{
-closed = 1;
-nodes = (
-(-45,-14,l),
-(140,-14,o),
-(44,388,o),
-(196,388,cs),
-(245,388,o),
-(289,317,o),
-(289,194,c),
-(309,285,l),
-(290,357,o),
-(256,415,o),
-(196,415,cs),
-(9,415,o),
-(110,14,o),
-(-45,14,c)
-);
-}
-);
 width = 50;
 },
 {
@@ -811,19 +690,6 @@ anchors = (
 name = _cnct;
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-45,46,l),
-(-90,46,o),
-(-90,-14,o),
-(-60,-14,c)
-);
-}
-);
-};
 guides = (
 {
 angle = 354.09;

@@ -25,10 +25,41 @@
 	</outline>
 	<anchor name="_top" x="65" y="400"/>
 	<anchor name="top" x="147" y="654"/>
+	<guideline x="187" y="669" angle="0"/>
+	<guideline x="160" y="504" angle="0"/>
 	<lib>
 		<dict>
+			<key>com.hugojourdan.ColorFlow</key>
+			<dict>
+				<key>0</key>
+				<integer>0</integer>
+				<key>1</key>
+				<integer>0</integer>
+				<key>10</key>
+				<integer>0</integer>
+				<key>11</key>
+				<integer>0</integer>
+				<key>2</key>
+				<integer>0</integer>
+				<key>3</key>
+				<integer>0</integer>
+				<key>4</key>
+				<integer>0</integer>
+				<key>5</key>
+				<integer>0</integer>
+				<key>6</key>
+				<integer>0</integer>
+				<key>7</key>
+				<integer>0</integer>
+				<key>8</key>
+				<integer>0</integer>
+				<key>9</key>
+				<integer>0</integer>
+			</dict>
 			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
 			<integer>250</integer>
+			<key>public.markColor</key>
+			<string>0,0.67,0.91,1</string>
 		</dict>
 	</lib>
 </glyph>

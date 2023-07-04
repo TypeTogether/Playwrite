@@ -1,5 +1,5 @@
 {
-.appVersion = "3202";
+.appVersion = "3203";
 .formatVersion = 3;
 axes = (
 {
@@ -1748,6 +1748,7 @@ name = "Th 18 Long Slow";
 userData = {
 GSCornerRadius = 12;
 };
+visible = 1;
 },
 {
 axesValues = (

@@ -16,13 +16,6 @@ text = cnct.mod_c_n;
 type = Text;
 }
 );
-background = {
-shapes = (
-{
-ref = f.ful_de.med;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -68,13 +61,6 @@ name = cnct;
 pos = (260,0);
 }
 );
-background = {
-shapes = (
-{
-ref = f.ful_de.med;
-}
-);
-};
 layerId = m002;
 shapes = (
 {
@@ -195,13 +181,6 @@ name = cnct;
 pos = (260,0);
 }
 );
-background = {
-shapes = (
-{
-ref = f.ful_de.med;
-}
-);
-};
 layerId = m004;
 shapes = (
 {
@@ -247,13 +226,6 @@ name = cnct;
 pos = (325,0);
 }
 );
-background = {
-shapes = (
-{
-ref = f.ful_de.med;
-}
-);
-};
 layerId = m003;
 shapes = (
 {

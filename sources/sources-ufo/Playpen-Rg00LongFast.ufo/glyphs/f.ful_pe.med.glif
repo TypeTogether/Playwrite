@@ -5,4 +5,10 @@
 		<component base="f.ful_de.med"/>
 	</outline>
 	<anchor name="cnct" x="325" y="0"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.97,1,0,1</string>
+		</dict>
+	</lib>
 </glyph>

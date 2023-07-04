@@ -359,56 +359,6 @@ com.hugojourdan.ColorFlow = {
 width = 110;
 },
 {
-associatedMasterId = m01;
-layerId = "35CA2468-A790-4331-9794-2C33D7C5231A";
-name = public.background;
-shapes = (
-{
-closed = 1;
-nodes = (
-(43,-14,o),
-(94,89,o),
-(177,397,cs),
-(180,407,o),
-(157,412,o),
-(155,401,c),
-(74,111,o),
-(19,14,o),
-(-48,14,cs),
-(-68,14,o),
-(-68,-14,o),
-(-48,-14,cs)
-);
-}
-);
-width = 110;
-},
-{
-associatedMasterId = m01;
-layerId = "DC938D62-9A4E-4E07-9904-24D7F0949B32";
-name = public.background;
-shapes = (
-{
-closed = 1;
-nodes = (
-(43,-14,o),
-(94,89,o),
-(177,397,cs),
-(180,407,o),
-(157,412,o),
-(155,401,c),
-(74,111,o),
-(19,14,o),
-(-48,14,cs),
-(-68,14,o),
-(-68,-14,o),
-(-48,-14,cs)
-);
-}
-);
-width = 110;
-},
-{
 anchors = (
 {
 name = _cnct;
@@ -450,56 +400,6 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 110;
-},
-{
-associatedMasterId = m009;
-layerId = "8E614A29-3B6A-4EA6-8584-35CBF758584E";
-name = public.background;
-shapes = (
-{
-closed = 1;
-nodes = (
-(43,-14,o),
-(94,89,o),
-(177,397,cs),
-(180,407,o),
-(157,412,o),
-(155,401,c),
-(74,111,o),
-(19,14,o),
-(-48,14,cs),
-(-68,14,o),
-(-68,-14,o),
-(-48,-14,cs)
-);
-}
-);
-width = 110;
-},
-{
-associatedMasterId = m009;
-layerId = "61510EF1-B00D-4DBD-918F-3A8C4D7A5D65";
-name = public.background;
-shapes = (
-{
-closed = 1;
-nodes = (
-(43,-14,o),
-(94,89,o),
-(177,397,cs),
-(180,407,o),
-(157,412,o),
-(155,401,c),
-(74,111,o),
-(19,14,o),
-(-48,14,cs),
-(-68,14,o),
-(-68,-14,o),
-(-48,-14,cs)
-);
-}
-);
 width = 110;
 },
 {

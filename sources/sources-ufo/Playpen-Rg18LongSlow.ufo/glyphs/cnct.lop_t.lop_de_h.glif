@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cnct.lop_t.lop_de_h" format="2">
+	<outline>
+		<contour>
+			<point x="-256" y="29" type="curve" smooth="yes"/>
+			<point x="-84" y="29"/>
+			<point x="87" y="141"/>
+			<point x="180" y="281" type="curve" smooth="yes"/>
+			<point x="193" y="299"/>
+			<point x="163" y="338"/>
+			<point x="138" y="301" type="curve" smooth="yes"/>
+			<point x="56" y="180"/>
+			<point x="-95" y="79"/>
+			<point x="-247" y="79" type="curve" smooth="yes"/>
+			<point x="-280" y="79"/>
+			<point x="-295" y="88"/>
+			<point x="-295" y="99" type="curve" smooth="yes"/>
+			<point x="-295" y="105"/>
+			<point x="-291" y="108"/>
+			<point x="-286" y="108" type="curve" smooth="yes"/>
+			<point x="-272" y="108"/>
+			<point x="-258" y="93"/>
+			<point x="-265" y="71" type="curve"/>
+			<point x="-233" y="84" type="line"/>
+			<point x="-223" y="118"/>
+			<point x="-249" y="156"/>
+			<point x="-294" y="156" type="curve" smooth="yes"/>
+			<point x="-330" y="156"/>
+			<point x="-352" y="130"/>
+			<point x="-352" y="100" type="curve" smooth="yes"/>
+			<point x="-352" y="55"/>
+			<point x="-307" y="29"/>
+		</contour>
+	</outline>
+	<anchor name="_cnct" x="-65" y="0"/>
+	<lib>
+		<dict>
+			<key>com.hugojourdan.ColorFlow</key>
+			<dict>
+				<key>0</key>
+				<integer>0</integer>
+				<key>1</key>
+				<integer>0</integer>
+				<key>10</key>
+				<integer>0</integer>
+				<key>11</key>
+				<integer>0</integer>
+				<key>2</key>
+				<integer>0</integer>
+				<key>3</key>
+				<integer>0</integer>
+				<key>4</key>
+				<integer>0</integer>
+				<key>5</key>
+				<integer>0</integer>
+				<key>6</key>
+				<integer>0</integer>
+				<key>7</key>
+				<integer>0</integer>
+				<key>8</key>
+				<integer>0</integer>
+				<key>9</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</lib>
+</glyph>

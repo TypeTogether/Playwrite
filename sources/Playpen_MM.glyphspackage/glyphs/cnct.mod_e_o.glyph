@@ -185,19 +185,6 @@ anchors = (
 name = _cnct;
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-106,-14,l),
-(-76,-14,o),
-(-76,45,o),
-(-106,45,c)
-);
-}
-);
-};
 guides = (
 {
 angle = 343.19;
@@ -249,19 +236,6 @@ name = _cnct;
 pos = (-65,0);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-157,-15,l),
-(-127,-15,o),
-(-119,47,o),
-(-149,47,c)
-);
-}
-);
-};
 guides = (
 {
 angle = 259.59;
@@ -316,19 +290,6 @@ anchors = (
 name = _cnct;
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-161,-14,l),
-(-131,-14,o),
-(-131,46,o),
-(-161,46,c)
-);
-}
-);
-};
 guides = (
 {
 angle = 331.89;
@@ -384,19 +345,6 @@ name = _cnct;
 pos = (-65,0);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-209,-14,l),
-(-179,-14,o),
-(-171,48,o),
-(-201,48,c)
-);
-}
-);
-};
 guides = (
 {
 angle = 77.91;
@@ -629,19 +577,6 @@ anchors = (
 name = _cnct;
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-106,-14,l),
-(-76,-14,o),
-(-76,45,o),
-(-106,45,c)
-);
-}
-);
-};
 guides = (
 {
 angle = 343.19;
@@ -693,19 +628,6 @@ name = _cnct;
 pos = (-65,0);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-157,-15,l),
-(-127,-15,o),
-(-119,47,o),
-(-149,47,c)
-);
-}
-);
-};
 guides = (
 {
 angle = 259.59;
@@ -760,19 +682,6 @@ anchors = (
 name = _cnct;
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-161,-14,l),
-(-131,-14,o),
-(-131,46,o),
-(-161,46,c)
-);
-}
-);
-};
 guides = (
 {
 angle = 331.89;
@@ -828,19 +737,6 @@ name = _cnct;
 pos = (-65,0);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-209,-14,l),
-(-179,-14,o),
-(-171,48,o),
-(-201,48,c)
-);
-}
-);
-};
 guides = (
 {
 angle = 77.91;

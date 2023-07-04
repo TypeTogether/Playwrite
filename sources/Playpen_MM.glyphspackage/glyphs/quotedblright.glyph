@@ -3,14 +3,6 @@ color = 4;
 glyphname = quotedblright;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (20,0);
-ref = quoteright;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -119,14 +111,6 @@ com.hugojourdan.ColorFlow = {
 width = 265;
 },
 {
-background = {
-shapes = (
-{
-pos = (20,0);
-ref = quoteright;
-}
-);
-};
 layerId = m005;
 shapes = (
 {
@@ -235,14 +219,6 @@ com.hugojourdan.ColorFlow = {
 width = 265;
 },
 {
-background = {
-shapes = (
-{
-pos = (20,0);
-ref = quoteright;
-}
-);
-};
 layerId = m009;
 shapes = (
 {
@@ -351,14 +327,6 @@ com.hugojourdan.ColorFlow = {
 width = 265;
 },
 {
-background = {
-shapes = (
-{
-pos = (20,0);
-ref = quoteright;
-}
-);
-};
 layerId = m013;
 shapes = (
 {

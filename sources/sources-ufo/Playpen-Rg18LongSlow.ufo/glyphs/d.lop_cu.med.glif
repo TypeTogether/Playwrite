@@ -9,4 +9,10 @@
 	<anchor name="center" x="632" y="758"/>
 	<anchor name="top" x="268" y="400"/>
 	<anchor name="topright" x="859" y="1200"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.97,1,0,1</string>
+		</dict>
+	</lib>
 </glyph>

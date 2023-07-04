@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cnct.mod_r_t.lop_de" format="2">
+	<outline>
+		<contour>
+			<point x="45" y="330" type="curve" smooth="yes"/>
+			<point x="156" y="330"/>
+			<point x="232" y="469"/>
+			<point x="232" y="688" type="curve" smooth="yes"/>
+			<point x="232" y="700"/>
+			<point x="223" y="708"/>
+			<point x="207" y="708" type="curve" smooth="yes"/>
+			<point x="192" y="708"/>
+			<point x="182" y="700"/>
+			<point x="182" y="688" type="curve" smooth="yes"/>
+			<point x="182" y="494"/>
+			<point x="125" y="388"/>
+			<point x="49" y="388" type="curve" smooth="yes"/>
+			<point x="12" y="388"/>
+			<point x="-8" y="415"/>
+			<point x="-58" y="415" type="curve" smooth="yes"/>
+			<point x="-96" y="415"/>
+			<point x="-96" y="351"/>
+			<point x="-58" y="351" type="curve" smooth="yes"/>
+			<point x="-22" y="351"/>
+			<point x="-6" y="330"/>
+		</contour>
+	</outline>
+	<anchor name="_cnct" x="0" y="0"/>
+</glyph>

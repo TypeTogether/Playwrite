@@ -3,13 +3,6 @@ color = 3;
 glyphname = f.ful_pl.fin;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = f.ful_de.fin;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -37,13 +30,6 @@ ref = f.ful_de.fin;
 width = 346;
 },
 {
-background = {
-shapes = (
-{
-ref = f.ful_de.fin;
-}
-);
-};
 layerId = m002;
 shapes = (
 {
@@ -116,13 +102,6 @@ ref = f.ful_de.fin;
 width = 346;
 },
 {
-background = {
-shapes = (
-{
-ref = f.ful_de.fin;
-}
-);
-};
 layerId = m004;
 shapes = (
 {
@@ -150,13 +129,6 @@ ref = f.ful_de.fin;
 width = 346;
 },
 {
-background = {
-shapes = (
-{
-ref = f.ful_de.fin;
-}
-);
-};
 layerId = m003;
 shapes = (
 {
