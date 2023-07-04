@@ -28,7 +28,7 @@ do
     ==================================
      Generating STATIC **$tag** fonts
     ==================================
-     $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
+    $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
     echo
 
     # Build OTF fonts
