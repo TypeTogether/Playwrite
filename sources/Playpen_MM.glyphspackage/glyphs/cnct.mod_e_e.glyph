@@ -409,30 +409,6 @@ width = 0;
 anchors = (
 {
 name = _cnct;
-pos = (-108,14);
-}
-);
-associatedMasterId = m01;
-layerId = "E467B490-13A8-4603-93C9-20977068FBCE";
-name = public.background;
-width = 0;
-},
-{
-anchors = (
-{
-name = _cnct;
-pos = (-108,14);
-}
-);
-associatedMasterId = m01;
-layerId = "DC938D62-9A4E-4E07-9904-24D7F0949B32";
-name = public.background;
-width = 0;
-},
-{
-anchors = (
-{
-name = _cnct;
 }
 );
 layerId = m009;
@@ -469,30 +445,6 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 0;
-},
-{
-anchors = (
-{
-name = _cnct;
-pos = (-108,14);
-}
-);
-associatedMasterId = m009;
-layerId = "708D3EB0-CF49-4437-A8B3-79D11F535D9B";
-name = public.background;
-width = 0;
-},
-{
-anchors = (
-{
-name = _cnct;
-pos = (-108,14);
-}
-);
-associatedMasterId = m009;
-layerId = "8DC3B0F9-60AE-4CF3-8E53-8243A575AFB4";
-name = public.background;
 width = 0;
 },
 {

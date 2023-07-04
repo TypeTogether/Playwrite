@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
-		<key>color</key>
-		<string>0.5,0,0.5,0.7</string>
 		<key>lib</key>
 		<dict>
 			<key>com.schriftgestaltung.layerId</key>
@@ -103,7 +101,7 @@
 			<key>com.schriftgestaltung.layerOrderInGlyph.D</key>
 			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.D.cur</key>
-			<integer>5</integer>
+			<integer>3</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.D.dec</key>
 			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.Dcaron</key>
@@ -162,8 +160,6 @@
 			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.G</key>
 			<integer>0</integer>
-			<key>com.schriftgestaltung.layerOrderInGlyph.G.alt1</key>
-			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.G.cur</key>
 			<integer>3</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.G.cur.ini</key>
@@ -173,6 +169,8 @@
 			<key>com.schriftgestaltung.layerOrderInGlyph.G.cur_locl.ini</key>
 			<integer>14</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.G.dec</key>
+			<integer>0</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.G_locl</key>
 			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.Gbreve</key>
 			<integer>0</integer>
@@ -278,8 +276,6 @@
 			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.M</key>
 			<integer>0</integer>
-			<key>com.schriftgestaltung.layerOrderInGlyph.M.alt1</key>
-			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.M.cur</key>
 			<integer>3</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.M.cur.ini</key>
@@ -288,6 +284,8 @@
 			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.M.dec.ini</key>
 			<integer>14</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.M_locl</key>
+			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.N</key>
 			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.N.cur</key>
@@ -370,9 +368,9 @@
 			<integer>3</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.Q.cur.ini</key>
 			<integer>3</integer>
-			<key>com.schriftgestaltung.layerOrderInGlyph.Q.cur_loc.ini</key>
-			<integer>3</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.Q.cur_locl</key>
+			<integer>3</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.Q.cur_locl.ini</key>
 			<integer>3</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.Q.dec</key>
 			<integer>0</integer>
@@ -420,10 +418,10 @@
 			<integer>3</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.T.cur.ini</key>
 			<integer>3</integer>
-			<key>com.schriftgestaltung.layerOrderInGlyph.T.cur_loc.ini</key>
-			<integer>14</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.T.cur_locl</key>
 			<integer>0</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.T.cur_locl.ini</key>
+			<integer>14</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.T.dec</key>
 			<integer>3</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.Tbar</key>
@@ -952,6 +950,8 @@
 			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_t.lop_de_s</key>
 			<integer>0</integer>
+			<key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_t.lop_de_t.lop_de</key>
+			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_t.lop_de_x</key>
 			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_t.lop_de_z</key>
@@ -1037,8 +1037,6 @@
 			<key>com.schriftgestaltung.layerOrderInGlyph.cnct.jmc_t.lop_de_f</key>
 			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.cnct.jmc_v_f</key>
-			<integer>0</integer>
-			<key>com.schriftgestaltung.layerOrderInGlyph.cnct.locl_t.lop_de_t.lop_de</key>
 			<integer>0</integer>
 			<key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_b_h</key>
 			<integer>0</integer>

@@ -69,4 +69,40 @@
 		</contour>
 	</outline>
 	<anchor name="cnct" x="447" y="0"/>
+	<guideline x="397" y="-127" angle="71.96"/>
+	<guideline x="-68" y="-127" angle="71.96"/>
+	<guideline x="242" y="388" angle="254.12"/>
+	<guideline x="22"/>
+	<guideline x="516"/>
+	<lib>
+		<dict>
+			<key>com.hugojourdan.ColorFlow</key>
+			<dict>
+				<key>0</key>
+				<integer>0</integer>
+				<key>1</key>
+				<integer>0</integer>
+				<key>10</key>
+				<integer>0</integer>
+				<key>11</key>
+				<integer>0</integer>
+				<key>2</key>
+				<integer>0</integer>
+				<key>3</key>
+				<integer>0</integer>
+				<key>4</key>
+				<integer>0</integer>
+				<key>5</key>
+				<integer>0</integer>
+				<key>6</key>
+				<integer>0</integer>
+				<key>7</key>
+				<integer>0</integer>
+				<key>8</key>
+				<integer>0</integer>
+				<key>9</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

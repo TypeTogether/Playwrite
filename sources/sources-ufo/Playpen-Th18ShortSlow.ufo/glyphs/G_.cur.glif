@@ -69,4 +69,41 @@
 	</outline>
 	<anchor name="bottom" x="327" y="-325"/>
 	<anchor name="top" x="495" y="670"/>
+	<guideline x="306" y="15" angle="72.99"/>
+	<guideline x="510" y="-134" angle="72.43"/>
+	<guideline x="624" y="326" angle="252.58"/>
+	<guideline y="597"/>
+	<guideline x="503" y="-88" angle="219.505"/>
+	<guideline x="276" y="-315" angle="40.409"/>
+	<lib>
+		<dict>
+			<key>com.hugojourdan.ColorFlow</key>
+			<dict>
+				<key>0</key>
+				<integer>0</integer>
+				<key>1</key>
+				<integer>0</integer>
+				<key>10</key>
+				<integer>0</integer>
+				<key>11</key>
+				<integer>0</integer>
+				<key>2</key>
+				<integer>0</integer>
+				<key>3</key>
+				<integer>0</integer>
+				<key>4</key>
+				<integer>0</integer>
+				<key>5</key>
+				<integer>0</integer>
+				<key>6</key>
+				<integer>0</integer>
+				<key>7</key>
+				<integer>0</integer>
+				<key>8</key>
+				<integer>0</integer>
+				<key>9</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

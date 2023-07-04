@@ -2,15 +2,6 @@
 glyphname = nine;
 layers = (
 {
-background = {
-shapes = (
-{
-angle = 180;
-pos = (667,700);
-ref = six;
-}
-);
-};
 layerId = m004;
 shapes = (
 {
@@ -38,16 +29,6 @@ com.hugojourdan.ColorFlow = {
 width = 570;
 },
 {
-background = {
-shapes = (
-{
-alignment = 1;
-angle = 180;
-pos = (570,700);
-ref = six;
-}
-);
-};
 layerId = m003;
 shapes = (
 {
@@ -76,15 +57,6 @@ com.hugojourdan.ColorFlow = {
 width = 570;
 },
 {
-background = {
-shapes = (
-{
-angle = 180;
-pos = (667,700);
-ref = six;
-}
-);
-};
 layerId = m002;
 shapes = (
 {
@@ -112,16 +84,6 @@ com.hugojourdan.ColorFlow = {
 width = 570;
 },
 {
-background = {
-shapes = (
-{
-alignment = 1;
-angle = 180;
-pos = (570,700);
-ref = six;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -150,16 +112,6 @@ com.hugojourdan.ColorFlow = {
 width = 570;
 },
 {
-background = {
-shapes = (
-{
-alignment = 1;
-angle = 180;
-pos = (570,700);
-ref = six;
-}
-);
-};
 guides = (
 {
 angle = 90;
@@ -198,15 +150,6 @@ com.hugojourdan.ColorFlow = {
 width = 570;
 },
 {
-background = {
-shapes = (
-{
-angle = 180;
-pos = (667,700);
-ref = six;
-}
-);
-};
 layerId = m006;
 shapes = (
 {
@@ -234,16 +177,6 @@ com.hugojourdan.ColorFlow = {
 width = 570;
 },
 {
-background = {
-shapes = (
-{
-alignment = 1;
-angle = 180;
-pos = (570,700);
-ref = six;
-}
-);
-};
 layerId = m007;
 shapes = (
 {
@@ -272,15 +205,6 @@ com.hugojourdan.ColorFlow = {
 width = 570;
 },
 {
-background = {
-shapes = (
-{
-angle = 180;
-pos = (667,700);
-ref = six;
-}
-);
-};
 layerId = m008;
 shapes = (
 {
@@ -308,16 +232,6 @@ com.hugojourdan.ColorFlow = {
 width = 570;
 },
 {
-background = {
-shapes = (
-{
-alignment = 1;
-angle = 180;
-pos = (570,700);
-ref = six;
-}
-);
-};
 layerId = m009;
 shapes = (
 {
@@ -346,15 +260,6 @@ com.hugojourdan.ColorFlow = {
 width = 968;
 },
 {
-background = {
-shapes = (
-{
-angle = 180;
-pos = (667,700);
-ref = six;
-}
-);
-};
 layerId = m010;
 shapes = (
 {
@@ -382,16 +287,6 @@ com.hugojourdan.ColorFlow = {
 width = 968;
 },
 {
-background = {
-shapes = (
-{
-alignment = 1;
-angle = 180;
-pos = (570,700);
-ref = six;
-}
-);
-};
 layerId = m011;
 shapes = (
 {
@@ -420,15 +315,6 @@ com.hugojourdan.ColorFlow = {
 width = 968;
 },
 {
-background = {
-shapes = (
-{
-angle = 180;
-pos = (667,700);
-ref = six;
-}
-);
-};
 layerId = m012;
 shapes = (
 {
@@ -456,16 +342,6 @@ com.hugojourdan.ColorFlow = {
 width = 968;
 },
 {
-background = {
-shapes = (
-{
-alignment = 1;
-angle = 180;
-pos = (570,700);
-ref = six;
-}
-);
-};
 guides = (
 {
 angle = 90;
@@ -504,15 +380,6 @@ com.hugojourdan.ColorFlow = {
 width = 968;
 },
 {
-background = {
-shapes = (
-{
-angle = 180;
-pos = (667,700);
-ref = six;
-}
-);
-};
 layerId = m014;
 shapes = (
 {
@@ -540,16 +407,6 @@ com.hugojourdan.ColorFlow = {
 width = 968;
 },
 {
-background = {
-shapes = (
-{
-alignment = 1;
-angle = 180;
-pos = (570,700);
-ref = six;
-}
-);
-};
 layerId = m015;
 shapes = (
 {
@@ -578,15 +435,6 @@ com.hugojourdan.ColorFlow = {
 width = 968;
 },
 {
-background = {
-shapes = (
-{
-angle = 180;
-pos = (667,700);
-ref = six;
-}
-);
-};
 layerId = m016;
 shapes = (
 {

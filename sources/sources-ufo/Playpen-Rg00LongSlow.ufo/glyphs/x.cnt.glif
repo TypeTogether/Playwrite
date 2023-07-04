@@ -77,4 +77,47 @@
 			<point x="117" y="-14"/>
 		</contour>
 	</outline>
+	<guideline x="489"/>
+	<guideline x="915"/>
+	<guideline x="40"/>
+	<guideline x="510" y="69" angle="149.036"/>
+	<guideline y="103"/>
+	<guideline x="36"/>
+	<guideline x="525"/>
+	<guideline x="166" y="415" angle="276.34"/>
+	<guideline x="404"/>
+	<guideline x="516" y="299" angle="188.673"/>
+	<guideline x="106" y="267" angle="176.186"/>
+	<guideline x="42" y="62" angle="32.471"/>
+	<lib>
+		<dict>
+			<key>com.hugojourdan.ColorFlow</key>
+			<dict>
+				<key>0</key>
+				<integer>0</integer>
+				<key>1</key>
+				<integer>0</integer>
+				<key>10</key>
+				<integer>0</integer>
+				<key>11</key>
+				<integer>0</integer>
+				<key>2</key>
+				<integer>0</integer>
+				<key>3</key>
+				<integer>0</integer>
+				<key>4</key>
+				<integer>0</integer>
+				<key>5</key>
+				<integer>0</integer>
+				<key>6</key>
+				<integer>0</integer>
+				<key>7</key>
+				<integer>0</integer>
+				<key>8</key>
+				<integer>0</integer>
+				<key>9</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</lib>
 </glyph>

@@ -10,4 +10,10 @@
 	<anchor name="ogonek" x="280" y="10"/>
 	<anchor name="top" x="281" y="400"/>
 	<anchor name="topright" x="348" y="405"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.65,0.48,0.2,1</string>
+		</dict>
+	</lib>
 </glyph>

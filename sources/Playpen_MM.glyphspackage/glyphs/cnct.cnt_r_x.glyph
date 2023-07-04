@@ -213,19 +213,6 @@ anchors = (
 name = _cnct;
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(161,415,l),
-(121,415,o),
-(118,355,o),
-(146,355,c)
-);
-}
-);
-};
 layerId = m005;
 shapes = (
 {
@@ -278,19 +265,6 @@ name = _cnct;
 pos = (-65,0);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(209,415,l),
-(169,415,o),
-(159,355,o),
-(199,355,c)
-);
-}
-);
-};
 layerId = m006;
 shapes = (
 {
@@ -342,19 +316,6 @@ anchors = (
 name = _cnct;
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,415,l),
-(105,415,o),
-(91,355,o),
-(126,355,c)
-);
-}
-);
-};
 layerId = m007;
 shapes = (
 {
@@ -407,19 +368,6 @@ name = _cnct;
 pos = (-65,0);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(196,415,l),
-(156,415,o),
-(146,355,o),
-(186,355,c)
-);
-}
-);
-};
 layerId = m008;
 shapes = (
 {
@@ -677,19 +625,6 @@ anchors = (
 name = _cnct;
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(161,415,l),
-(121,415,o),
-(118,355,o),
-(146,355,c)
-);
-}
-);
-};
 layerId = m013;
 shapes = (
 {
@@ -742,19 +677,6 @@ name = _cnct;
 pos = (-65,0);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(209,415,l),
-(169,415,o),
-(159,355,o),
-(199,355,c)
-);
-}
-);
-};
 layerId = m014;
 shapes = (
 {
@@ -806,19 +728,6 @@ anchors = (
 name = _cnct;
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(140,415,l),
-(105,415,o),
-(91,355,o),
-(126,355,c)
-);
-}
-);
-};
 layerId = m015;
 shapes = (
 {
@@ -871,19 +780,6 @@ name = _cnct;
 pos = (-65,0);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(196,415,l),
-(156,415,o),
-(146,355,o),
-(186,355,c)
-);
-}
-);
-};
 layerId = m016;
 shapes = (
 {

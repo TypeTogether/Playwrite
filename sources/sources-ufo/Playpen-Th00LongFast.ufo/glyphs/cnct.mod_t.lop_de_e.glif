@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cnct.mod_t.lop_de_e" format="2">
+	<outline>
+		<contour>
+			<point x="-150" y="7" type="curve" smooth="yes"/>
+			<point x="-64" y="7"/>
+			<point x="33" y="44"/>
+			<point x="93" y="84" type="curve" smooth="yes"/>
+			<point x="98" y="87"/>
+			<point x="101" y="95"/>
+			<point x="97" y="103" type="curve" smooth="yes"/>
+			<point x="93" y="111"/>
+			<point x="84" y="112"/>
+			<point x="79" y="109" type="curve" smooth="yes"/>
+			<point x="23" y="70"/>
+			<point x="-73" y="35"/>
+			<point x="-149" y="35" type="curve" smooth="yes"/>
+			<point x="-216" y="35"/>
+			<point x="-265" y="57"/>
+			<point x="-265" y="80" type="curve" smooth="yes"/>
+			<point x="-265" y="88"/>
+			<point x="-260" y="93"/>
+			<point x="-251" y="93" type="curve" smooth="yes"/>
+			<point x="-226" y="93"/>
+			<point x="-187" y="71"/>
+			<point x="-187" y="19" type="curve"/>
+			<point x="-168" y="29" type="line"/>
+			<point x="-168" y="87"/>
+			<point x="-213" y="121"/>
+			<point x="-254" y="121" type="curve" smooth="yes"/>
+			<point x="-279" y="121"/>
+			<point x="-295" y="104"/>
+			<point x="-295" y="80" type="curve" smooth="yes"/>
+			<point x="-295" y="37"/>
+			<point x="-228" y="7"/>
+		</contour>
+	</outline>
+	<anchor name="_cnct" x="0" y="0"/>
+</glyph>

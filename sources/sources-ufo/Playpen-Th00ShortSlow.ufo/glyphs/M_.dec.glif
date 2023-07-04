@@ -78,4 +78,24 @@
 	</outline>
 	<anchor name="bottom" x="576" y="0"/>
 	<anchor name="top" x="599" y="670"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.annotations</key>
+			<array>
+				<dict>
+					<key>position</key>
+					<array>
+						<integer>930</integer>
+						<integer>634</integer>
+					</array>
+					<key>text</key>
+					<string>Poland</string>
+					<key>type</key>
+					<string>Text</string>
+					<key>width</key>
+					<integer>100</integer>
+				</dict>
+			</array>
+		</dict>
+	</lib>
 </glyph>

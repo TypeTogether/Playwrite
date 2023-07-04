@@ -231,27 +231,6 @@ name = _cnct;
 pos = (-65,0);
 }
 );
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(19,-14,o),
-(100,126,o),
-(183,327,cs),
-(190,344,o),
-(151,366,o),
-(140,342,cs),
-(45,132,o),
-(-29,46,o),
-(-90,46,cs),
-(-134,46,o),
-(-140,-14,o),
-(-110,-14,cs)
-);
-}
-);
-};
 layerId = m006;
 shapes = (
 {
@@ -380,56 +359,6 @@ com.hugojourdan.ColorFlow = {
 width = 40;
 },
 {
-associatedMasterId = m01;
-layerId = "35CA2468-A790-4331-9794-2C33D7C5231A";
-name = public.background;
-shapes = (
-{
-closed = 1;
-nodes = (
-(67,-14,o),
-(100,167,o),
-(139,321,cs),
-(143,335,o),
-(120,339,o),
-(117,326,cs),
-(78,179,o),
-(48,14,o),
-(-48,14,cs),
-(-68,14,o),
-(-68,-14,o),
-(-48,-14,cs)
-);
-}
-);
-width = 40;
-},
-{
-associatedMasterId = m01;
-layerId = "DC938D62-9A4E-4E07-9904-24D7F0949B32";
-name = public.background;
-shapes = (
-{
-closed = 1;
-nodes = (
-(67,-14,o),
-(100,167,o),
-(139,321,cs),
-(143,335,o),
-(120,339,o),
-(117,326,cs),
-(78,179,o),
-(48,14,o),
-(-48,14,cs),
-(-68,14,o),
-(-68,-14,o),
-(-48,-14,cs)
-);
-}
-);
-width = 40;
-},
-{
 anchors = (
 {
 name = _cnct;
@@ -471,56 +400,6 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 40;
-},
-{
-associatedMasterId = m009;
-layerId = "42F06649-3D26-4EEB-BD3C-24DF09DDB818";
-name = public.background;
-shapes = (
-{
-closed = 1;
-nodes = (
-(67,-14,o),
-(100,167,o),
-(139,321,cs),
-(143,335,o),
-(120,339,o),
-(117,326,cs),
-(78,179,o),
-(48,14,o),
-(-48,14,cs),
-(-68,14,o),
-(-68,-14,o),
-(-48,-14,cs)
-);
-}
-);
-width = 40;
-},
-{
-associatedMasterId = m009;
-layerId = "6AD12F26-01B8-4011-B5EB-65AD2DF7A2AC";
-name = public.background;
-shapes = (
-{
-closed = 1;
-nodes = (
-(67,-14,o),
-(100,167,o),
-(139,321,cs),
-(143,335,o),
-(120,339,o),
-(117,326,cs),
-(78,179,o),
-(48,14,o),
-(-48,14,cs),
-(-68,14,o),
-(-68,-14,o),
-(-48,-14,cs)
-);
-}
-);
 width = 40;
 },
 {
@@ -708,27 +587,6 @@ name = _cnct;
 pos = (-65,0);
 }
 );
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(19,-14,o),
-(100,126,o),
-(183,327,cs),
-(190,344,o),
-(151,366,o),
-(140,342,cs),
-(45,132,o),
-(-29,46,o),
-(-90,46,cs),
-(-134,46,o),
-(-140,-14,o),
-(-110,-14,cs)
-);
-}
-);
-};
 layerId = m014;
 shapes = (
 {
