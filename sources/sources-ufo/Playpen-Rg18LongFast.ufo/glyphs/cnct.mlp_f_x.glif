@@ -29,12 +29,42 @@
 		</contour>
 	</outline>
 	<anchor name="_cnct" x="-65" y="0"/>
+	<guideline x="-149" y="56" angle="76.504"/>
+	<guideline x="69" y="218" angle="144.462"/>
+	<guideline x="196" y="415" angle="260.538"/>
+	<guideline y="109"/>
+	<guideline y="338"/>
+	<guideline y="216"/>
+	<guideline x="-52" y="70" angle="56.146"/>
 	<lib>
 		<dict>
-			<key>com.schriftgestaltung.Glyphs.category</key>
-			<string>Mark</string>
-			<key>com.schriftgestaltung.Glyphs.subCategory</key>
-			<string>Nonspacing</string>
+			<key>com.hugojourdan.ColorFlow</key>
+			<dict>
+				<key>0</key>
+				<integer>0</integer>
+				<key>1</key>
+				<integer>0</integer>
+				<key>10</key>
+				<integer>0</integer>
+				<key>11</key>
+				<integer>0</integer>
+				<key>2</key>
+				<integer>0</integer>
+				<key>3</key>
+				<integer>0</integer>
+				<key>4</key>
+				<integer>0</integer>
+				<key>5</key>
+				<integer>0</integer>
+				<key>6</key>
+				<integer>0</integer>
+				<key>7</key>
+				<integer>0</integer>
+				<key>8</key>
+				<integer>0</integer>
+				<key>9</key>
+				<integer>0</integer>
+			</dict>
 		</dict>
 	</lib>
 </glyph>

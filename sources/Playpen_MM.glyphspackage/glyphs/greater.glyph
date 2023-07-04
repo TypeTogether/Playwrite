@@ -590,15 +590,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-pos = (610,0);
-ref = less;
-scale = (-1,1);
-}
-);
-};
 layerId = m013;
 shapes = (
 {
@@ -648,15 +639,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-angle = 180;
-pos = (714,719);
-ref = less;
-}
-);
-};
 layerId = m014;
 shapes = (
 {

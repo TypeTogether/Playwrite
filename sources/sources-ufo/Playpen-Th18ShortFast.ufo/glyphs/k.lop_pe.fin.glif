@@ -72,4 +72,10 @@
 	</outline>
 	<anchor name="bottom" x="206" y="0"/>
 	<anchor name="top" x="364" y="670"/>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.85,0.26,0.06,1</string>
+		</dict>
+	</lib>
 </glyph>

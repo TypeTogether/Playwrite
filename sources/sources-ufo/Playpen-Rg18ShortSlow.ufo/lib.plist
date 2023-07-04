@@ -15,11 +15,8 @@
 				<true/>
 			</dict>
 		</array>
-		<key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-		<array>
-			<string>̈</string>
-			<string>/cnct.ful_G_e</string>
-		</array>
+		<key>com.schriftgestaltung.appVersion</key>
+		<string>3203</string>
 		<key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
 		<integer>2000</integer>
 		<key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -37,7 +34,7 @@
 		<key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
 		<string>Bold</string>
 		<key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-		<integer>500</integer>
+		<integer>400</integer>
 		<key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
 		<integer>18</integer>
 		<key>com.schriftgestaltung.customValue</key>
@@ -46,12 +43,23 @@
 		<string>m006</string>
 		<key>com.schriftgestaltung.fontMasterOrder</key>
 		<integer>5</integer>
+		<key>com.schriftgestaltung.keyboardIncrement</key>
+		<integer>1</integer>
+		<key>com.schriftgestaltung.weight</key>
+		<string>Regular</string>
 		<key>com.schriftgestaltung.weightValue</key>
-		<integer>500</integer>
+		<integer>400</integer>
+		<key>com.schriftgestaltung.width</key>
+		<string>Regular</string>
 		<key>com.schriftgestaltung.widthValue</key>
 		<integer>18</integer>
 		<key>public.glyphOrder</key>
 		<array>
+			<string>CR</string>
+			<string>space</string>
+			<string>nbspace</string>
+			<string>.notdef</string>
+			<string>.null</string>
 			<string>A</string>
 			<string>B</string>
 			<string>C</string>
@@ -62,7 +70,6 @@
 			<string>G.alt1</string>
 			<string>H</string>
 			<string>I</string>
-			<string>I_locl</string>
 			<string>J</string>
 			<string>K</string>
 			<string>L</string>
@@ -72,8 +79,6 @@
 			<string>O</string>
 			<string>P</string>
 			<string>Q</string>
-			<string>Q_locl</string>
-			<string>Q_locl.ini</string>
 			<string>R</string>
 			<string>S</string>
 			<string>T</string>
@@ -83,7 +88,13 @@
 			<string>X</string>
 			<string>Y</string>
 			<string>Z</string>
+			<string>AE</string>
 			<string>Eth</string>
+			<string>IJ</string>
+			<string>Eng</string>
+			<string>OE</string>
+			<string>Thorn</string>
+			<string>Germandbls</string>
 			<string>a</string>
 			<string>b</string>
 			<string>c</string>
@@ -112,11 +123,66 @@
 			<string>x</string>
 			<string>y</string>
 			<string>z</string>
+			<string>ae</string>
+			<string>eth</string>
+			<string>ij</string>
+			<string>eng</string>
+			<string>oe</string>
+			<string>thorn</string>
+			<string>germandbls</string>
+			<string>zero</string>
+			<string>one</string>
+			<string>two</string>
+			<string>three</string>
+			<string>four</string>
+			<string>five</string>
+			<string>six</string>
+			<string>seven</string>
+			<string>eight</string>
+			<string>nine</string>
+			<string>one.alt1</string>
+			<string>four.alt1</string>
+			<string>seven.alt1</string>
+			<string>nine.alt1</string>
+			<string>dollar</string>
+			<string>euro</string>
+			<string>cent</string>
+			<string>sterling</string>
+			<string>yen</string>
+			<string>florin</string>
+			<string>liraTurkish</string>
+			<string>bitcoin</string>
+			<string>percent</string>
+			<string>perthousand</string>
+			<string>period</string>
+			<string>comma</string>
+			<string>colon</string>
+			<string>semicolon</string>
+			<string>ellipsis</string>
+			<string>exclam</string>
+			<string>exclamdown</string>
+			<string>question</string>
+			<string>questiondown</string>
+			<string>quotesingle</string>
+			<string>quotedbl</string>
+			<string>quoteleft</string>
+			<string>quoteright</string>
+			<string>quotesinglbase</string>
+			<string>quotedblleft</string>
+			<string>quotedblright</string>
+			<string>quotedblbase</string>
+			<string>guillemetleft</string>
+			<string>guillemetright</string>
+			<string>guilsinglleft</string>
+			<string>guilsinglright</string>
+			<string>idotless</string>
+			<string>jdotless</string>
 			<string>Aacute</string>
 			<string>Abreve</string>
 			<string>Acaron</string>
 			<string>Acircumflex</string>
 			<string>Adieresis</string>
+			<string>AEacute</string>
 			<string>Agrave</string>
 			<string>Amacron</string>
 			<string>Aogonek</string>
@@ -265,6 +331,7 @@
 			<string>acaron</string>
 			<string>acircumflex</string>
 			<string>adieresis</string>
+			<string>aeacute</string>
 			<string>agrave</string>
 			<string>amacron</string>
 			<string>aogonek</string>
@@ -408,6 +475,135 @@
 			<string>zacute</string>
 			<string>zcaron</string>
 			<string>zdotaccent</string>
+			<string>##accents</string>
+			<string>dieresis</string>
+			<string>dotaccent</string>
+			<string>grave</string>
+			<string>acute</string>
+			<string>hungarumlaut</string>
+			<string>circumflex</string>
+			<string>caron</string>
+			<string>breve</string>
+			<string>ring</string>
+			<string>tilde</string>
+			<string>macron</string>
+			<string>cedilla</string>
+			<string>ogonek</string>
+			<string>brevecomb_acutecomb</string>
+			<string>brevecomb_gravecomb</string>
+			<string>brevecomb_hookabovecomb</string>
+			<string>brevecomb_tildecomb</string>
+			<string>circumflexcomb_acutecomb</string>
+			<string>circumflexcomb_gravecomb</string>
+			<string>circumflexcomb_hookabovecomb</string>
+			<string>circumflexcomb_tildecomb</string>
+			<string>dieresiscomb</string>
+			<string>dotaccentcomb</string>
+			<string>gravecomb</string>
+			<string>acutecomb</string>
+			<string>hungarumlautcomb</string>
+			<string>caroncomb.alt</string>
+			<string>circumflexcomb</string>
+			<string>caroncomb</string>
+			<string>brevecomb</string>
+			<string>ringcomb</string>
+			<string>tildecomb</string>
+			<string>tildeshortcomb</string>
+			<string>macroncomb</string>
+			<string>hookabovecomb</string>
+			<string>commaturnedabovecomb</string>
+			<string>horncomb</string>
+			<string>dotbelowcomb</string>
+			<string>commaaccentcomb</string>
+			<string>cedillacomb</string>
+			<string>ogonekcomb</string>
+			<string>strokeshortcomb</string>
+			<string>strokelongcomb</string>
+			<string>slashshortcomb</string>
+			<string>slashlongcomb</string>
+			<string>strokeshortcomb.case</string>
+			<string>slashshortcomb.case</string>
+			<string>slashlongcomb.case</string>
+			<string>strokeshortcomb.t</string>
+			<string>##extraSymbols</string>
+			<string>degree</string>
+			<string>minute</string>
+			<string>second</string>
+			<string>asterisk</string>
+			<string>numbersign</string>
+			<string>ampersand</string>
+			<string>at</string>
+			<string>parenleft</string>
+			<string>parenright</string>
+			<string>bracketleft</string>
+			<string>bracketright</string>
+			<string>braceleft</string>
+			<string>braceright</string>
+			<string>slash</string>
+			<string>backslash</string>
+			<string>bar</string>
+			<string>brokenbar</string>
+			<string>periodcentered</string>
+			<string>bullet</string>
+			<string>hyphen</string>
+			<string>softhyphen</string>
+			<string>endash</string>
+			<string>emdash</string>
+			<string>hyphen.case</string>
+			<string>at.case</string>
+			<string>exclamdown.case</string>
+			<string>questiondown.case</string>
+			<string>dagger</string>
+			<string>daggerdbl</string>
+			<string>section</string>
+			<string>paragraph</string>
+			<string>asciicircum</string>
+			<string>asciitilde</string>
+			<string>underscore</string>
+			<string>copyright</string>
+			<string>registered</string>
+			<string>trademark</string>
+			<string>numero</string>
+			<string>currency</string>
+			<string>onesuperior</string>
+			<string>twosuperior</string>
+			<string>threesuperior</string>
+			<string>foursuperior</string>
+			<string>ordfeminine</string>
+			<string>ordmasculine</string>
+			<string>fraction</string>
+			<string>onehalf</string>
+			<string>onequarter</string>
+			<string>threequarters</string>
+			<string>partialdiff</string>
+			<string>Ohm</string>
+			<string>increment</string>
+			<string>product</string>
+			<string>summation</string>
+			<string>Delta</string>
+			<string>Omega</string>
+			<string>mu</string>
+			<string>pi</string>
+			<string>micro</string>
+			<string>divisionslash</string>
+			<string>bulletoperator</string>
+			<string>radical</string>
+			<string>infinity</string>
+			<string>integral</string>
+			<string>approxequal</string>
+			<string>notequal</string>
+			<string>lessequal</string>
+			<string>greaterequal</string>
+			<string>less</string>
+			<string>equal</string>
+			<string>greater</string>
+			<string>lozenge</string>
+			<string>plus</string>
+			<string>minus</string>
+			<string>plusminus</string>
+			<string>divide</string>
+			<string>multiply</string>
+			<string>logicalnot</string>
 			<string>a.mod</string>
 			<string>a.mod.ini</string>
 			<string>a.mod.med</string>
@@ -862,6 +1058,10 @@
 			<string>p.mrr.ini</string>
 			<string>p.mrr.med</string>
 			<string>p.mrr.fin</string>
+			<string>p.mrr_ca</string>
+			<string>p.mrr_ca.ini</string>
+			<string>p.mrr_ca.med</string>
+			<string>p.mrr_ca.fin</string>
 			<string>q.mrr</string>
 			<string>q.mrr.ini</string>
 			<string>q.mrr.med</string>
@@ -944,21 +1144,84 @@
 			<string>cnct.mlp_o_s</string>
 			<string>cnct.mlp_o_t</string>
 			<string>cnct.mlp_o_x</string>
+			<string>##loclLowercase</string>
+			<string>d.lop_cu</string>
+			<string>d.lop_cu.ini</string>
+			<string>d.lop_cu.med</string>
+			<string>d.lop_cu.fin</string>
+			<string>f.ful_de</string>
+			<string>f.ful_de.ini</string>
+			<string>f.ful_de.med</string>
+			<string>f.ful_de.fin</string>
+			<string>t.lop_de</string>
+			<string>t.lop_de.ini</string>
+			<string>t.lop_de.med</string>
+			<string>t.lop_de.fin</string>
+			<string>x.cnt_de</string>
+			<string>x.cnt_de.ini</string>
+			<string>x.cnt_de.med</string>
+			<string>x.cnt_de.fin</string>
+			<string>f.ful_pe</string>
+			<string>f.ful_pe.ini</string>
+			<string>f.ful_pe.med</string>
+			<string>f.ful_pe.fin</string>
+			<string>k.lop_pe</string>
+			<string>k.lop_pe.ini</string>
+			<string>k.lop_pe.med</string>
+			<string>k.lop_pe.fin</string>
+			<string>f.ful_pl</string>
+			<string>f.ful_pl.ini</string>
+			<string>f.ful_pl.med</string>
+			<string>f.ful_pl.fin</string>
+			<string>##CNCTloclLowercase</string>
+			<string>##locl_t_SRC</string>
+			<string>cnct.mod_t.lop_de_b</string>
+			<string>cnct.mod_t.lop_de_e</string>
+			<string>cnct.mod_t.lop_de_n</string>
+			<string>cnct.mod_t.lop_de_o</string>
+			<string>cnct.mod_t.lop_de_s</string>
+			<string>cnct.mod_t.lop_de_v</string>
+			<string>cnct.mod_t.lop_de_x</string>
+			<string>cnct.mod_t.lop_de_z</string>
+			<string>cnct.jmc_t.lop_de_f</string>
+			<string>cnct.ful_t.lop_de_e</string>
+			<string>cnct.ful_t.lop_de_f</string>
+			<string>cnct.ful_t.lop_de_r</string>
+			<string>cnct.ful_t.lop_de_s</string>
+			<string>cnct.ful_t.lop_de_x</string>
+			<string>cnct.ful_t.lop_de_z</string>
+			<string>cnct.ful_t.lop_de_t.lop_de</string>
+			<string>cnct.lop_t.lop_de_h</string>
+			<string>cnct.cnt_t.lop_de_n</string>
+			<string>cnct.cnt_t.lop_de_z</string>
+			<string>##locl_t_TGT</string>
+			<string>cnct.mod_c_t.lop_de</string>
+			<string>cnct.mod_e_t.lop_de</string>
+			<string>cnct.mod_n_t.lop_de</string>
+			<string>cnct.mod_o_t.lop_de</string>
+			<string>cnct.mod_r_t.lop_de</string>
+			<string>cnct.mod_v_t.lop_de</string>
+			<string>cnct.jmc_f_t.lop_de</string>
+			<string>cnct.jmc_g_t.lop_de</string>
+			<string>cnct.ful_b_t.lop_de</string>
+			<string>cnct.ful_e_t.lop_de</string>
+			<string>cnct.ful_f_t.lop_de</string>
+			<string>cnct.ful_z_t.lop_de</string>
+			<string>cnct.cnt_r_t.lop_de</string>
+			<string>cnct.mrr_f_t.lop_de</string>
+			<string>cnct.mlp_b_t.lop_de</string>
+			<string>cnct.mlp_f_t.lop_de</string>
+			<string>cnct.mlp_o_t.lop_de</string>
 			<string>##CapsCur</string>
 			<string>A.cur</string>
 			<string>A.cur.ini</string>
-			<string>A.cur_locl</string>
-			<string>A.cur_locl.ini</string>
 			<string>B.cur</string>
 			<string>C.cur</string>
 			<string>D.cur</string>
 			<string>E.cur</string>
 			<string>F.cur</string>
-			<string>F.cur_locl</string>
 			<string>G.cur</string>
 			<string>G.cur.ini</string>
-			<string>G.cur_locl</string>
-			<string>G.cur_locl.ini</string>
 			<string>H.cur</string>
 			<string>H.cur.ini</string>
 			<string>I.cur</string>
@@ -969,22 +1232,18 @@
 			<string>L.cur</string>
 			<string>L.cur.ini</string>
 			<string>M.cur</string>
-			<string>M.cur.ini</string>
 			<string>N.cur</string>
 			<string>N.cur.ini</string>
+			<string>M.cur.ini</string>
 			<string>O.cur</string>
 			<string>P.cur</string>
 			<string>Q.cur</string>
 			<string>Q.cur.ini</string>
-			<string>Q.cur_locl</string>
-			<string>Q.cur_loc.ini</string>
 			<string>R.cur</string>
 			<string>R.cur.ini</string>
 			<string>S.cur</string>
 			<string>T.cur</string>
 			<string>T.cur.ini</string>
-			<string>T.cur_locl</string>
-			<string>T.cur_loc.ini</string>
 			<string>U.cur</string>
 			<string>U.cur.ini</string>
 			<string>V.cur</string>
@@ -1018,6 +1277,8 @@
 			<string>P.dec</string>
 			<string>Q.dec</string>
 			<string>Q.dec.ini</string>
+			<string>Q.dec_pt</string>
+			<string>Q.dec_pt.ini</string>
 			<string>R.dec</string>
 			<string>R.dec.ini</string>
 			<string>S.dec</string>
@@ -1030,167 +1291,28 @@
 			<string>X.dec_locl.ini</string>
 			<string>Z.dec</string>
 			<string>Z.dec.ini</string>
+			<string>LocalizedCaps</string>
+			<string>I_locl</string>
+			<string>G_locl</string>
+			<string>M_locl</string>
+			<string>Q_locl</string>
+			<string>Q_locl.ini</string>
+			<string>A.cur_locl</string>
+			<string>A.cur_locl.ini</string>
+			<string>F.cur_locl</string>
+			<string>G.cur_locl</string>
+			<string>G.cur_locl.ini</string>
+			<string>Q.cur_locl</string>
+			<string>Q.cur_locl.ini</string>
+			<string>T.cur_locl</string>
+			<string>T.cur_locl.ini</string>
+			<string>A.dec_locl</string>
+			<string>A.dec_locl.ini</string>
+			<string>X.dec_locl</string>
+			<string>X.dec_locl.ini</string>
 			<string>Z.dec_locl</string>
 			<string>Z.dec_locl.ini</string>
-			<string>d.lop_cu</string>
-			<string>d.lop_cu.ini</string>
-			<string>d.lop_cu.med</string>
-			<string>d.lop_cu.fin</string>
-			<string>f.ful_de</string>
-			<string>f.ful_de.ini</string>
-			<string>f.ful_de.med</string>
-			<string>f.ful_de.fin</string>
-			<string>t.lop_de</string>
-			<string>t.lop_de.ini</string>
-			<string>t.lop_de.med</string>
-			<string>t.lop_de.fin</string>
-			<string>f.ful_pe</string>
-			<string>f.ful_pe.ini</string>
-			<string>f.ful_pe.med</string>
-			<string>f.ful_pe.fin</string>
-			<string>k.lop_pe</string>
-			<string>k.lop_pe.ini</string>
-			<string>k.lop_pe.med</string>
-			<string>k.lop_pe.fin</string>
-			<string>f.ful_pl</string>
-			<string>f.ful_pl.ini</string>
-			<string>f.ful_pl.med</string>
-			<string>f.ful_pl.fin</string>
-			<string>IJ</string>
-			<string>Eng</string>
-			<string>Thorn</string>
-			<string>Germandbls</string>
-			<string>A.dec2.ini</string>
-			<string>Z.cur.ini.001</string>
-			<string>ij</string>
-			<string>eng</string>
-			<string>thorn</string>
-			<string>ordfeminine</string>
-			<string>ordmasculine</string>
-			<string>zero</string>
-			<string>one</string>
-			<string>two</string>
-			<string>three</string>
-			<string>four</string>
-			<string>five</string>
-			<string>six</string>
-			<string>seven</string>
-			<string>eight</string>
-			<string>nine</string>
-			<string>one.alt1</string>
-			<string>four.alt1</string>
-			<string>seven.alt1</string>
-			<string>nine.alt1</string>
-			<string>space</string>
-			<string>nbspace</string>
-			<string>CR</string>
-			<string>.notdef</string>
-			<string>.null</string>
-			<string>period</string>
-			<string>comma</string>
-			<string>colon</string>
-			<string>semicolon</string>
-			<string>ellipsis</string>
-			<string>exclam</string>
-			<string>exclamdown</string>
-			<string>question</string>
-			<string>questiondown</string>
-			<string>periodcentered</string>
-			<string>bullet</string>
-			<string>asterisk</string>
-			<string>numbersign</string>
-			<string>slash</string>
-			<string>backslash</string>
-			<string>periodcentered.loclCAT</string>
-			<string>periodcentered.loclCAT.case</string>
-			<string>hyphen</string>
-			<string>endash</string>
-			<string>emdash</string>
-			<string>underscore</string>
-			<string>parenleft</string>
-			<string>parenright</string>
-			<string>braceleft</string>
-			<string>braceright</string>
-			<string>bracketleft</string>
-			<string>bracketright</string>
-			<string>quotesinglbase</string>
-			<string>quotedblbase</string>
-			<string>quotedblleft</string>
-			<string>quotedblright</string>
-			<string>quoteleft</string>
-			<string>quoteright</string>
-			<string>quotedbl</string>
-			<string>quotesingle</string>
-			<string>guillemetleft</string>
-			<string>guillemetright</string>
-			<string>guilsinglleft</string>
-			<string>guilsinglright</string>
-			<string>at</string>
-			<string>ampersand</string>
-			<string>paragraph</string>
-			<string>section</string>
-			<string>copyright</string>
-			<string>registered</string>
-			<string>trademark</string>
-			<string>degree</string>
-			<string>bar</string>
-			<string>cent</string>
-			<string>dollar</string>
-			<string>euro</string>
-			<string>sterling</string>
-			<string>yen</string>
-			<string>plus</string>
-			<string>minus</string>
-			<string>multiply</string>
-			<string>divide</string>
-			<string>equal</string>
-			<string>notequal</string>
-			<string>greater</string>
-			<string>less</string>
-			<string>greaterequal</string>
-			<string>lessequal</string>
-			<string>plusminus</string>
-			<string>approxequal</string>
-			<string>asciitilde</string>
-			<string>logicalnot</string>
-			<string>asciicircum</string>
-			<string>integral</string>
-			<string>product</string>
-			<string>percent</string>
-			<string>dieresiscomb</string>
-			<string>dotaccentcomb</string>
-			<string>gravecomb</string>
-			<string>acutecomb</string>
-			<string>hungarumlautcomb</string>
-			<string>caroncomb.alt</string>
-			<string>circumflexcomb</string>
-			<string>caroncomb</string>
-			<string>brevecomb</string>
-			<string>ringcomb</string>
-			<string>tildecomb</string>
-			<string>macroncomb</string>
-			<string>hookabovecomb</string>
-			<string>commaturnedabovecomb</string>
-			<string>horncomb</string>
-			<string>dotbelowcomb</string>
-			<string>commaaccentcomb</string>
-			<string>cedillacomb</string>
-			<string>ogonekcomb</string>
-			<string>strokeshortcomb</string>
-			<string>strokelongcomb</string>
-			<string>slashshortcomb</string>
-			<string>slashlongcomb</string>
-			<string>brevecomb_acutecomb</string>
-			<string>brevecomb_gravecomb</string>
-			<string>brevecomb_hookabovecomb</string>
-			<string>brevecomb_tildecomb</string>
-			<string>circumflexcomb_acutecomb</string>
-			<string>circumflexcomb_gravecomb</string>
-			<string>circumflexcomb_hookabovecomb</string>
-			<string>circumflexcomb_tildecomb</string>
-			<string>strokeshortcomb.case</string>
-			<string>slashshortcomb.case</string>
-			<string>slashlongcomb.case</string>
+			<string>#capConnectors</string>
 			<string>cnct.cnt_G_n</string>
 			<string>cnct.cnt_G_z</string>
 			<string>cnct.ful_G_e</string>
@@ -1215,25 +1337,11 @@
 			<string>cnct.mod_G_v</string>
 			<string>cnct.mod_G_x</string>
 			<string>cnct.mod_G_z</string>
-			<string>strokeshortcomb.t</string>
-			<string>cnct.cnt_t.lop_de_n</string>
-			<string>cnct.cnt_t.lop_de_z</string>
-			<string>cnct.ful_t.lop_de_f</string>
-			<string>cnct.mod_n_t.lop_de</string>
-			<string>dieresis</string>
-			<string>dotaccent</string>
-			<string>grave</string>
-			<string>acute</string>
-			<string>hungarumlaut</string>
-			<string>circumflex</string>
-			<string>caron</string>
-			<string>breve</string>
-			<string>ring</string>
-			<string>tilde</string>
-			<string>macron</string>
-			<string>cedilla</string>
-			<string>ogonek</string>
-			<string>tildeshortcomb</string>
+			<string>A.dec2.ini</string>
+			<string>Z.cur.ini.001</string>
+			<string>periodcentered.loclCAT</string>
+			<string>periodcentered.loclCAT.case</string>
+			<string>_circle</string>
 		</array>
 		<key>public.postscriptNames</key>
 		<dict>
@@ -1554,5 +1662,29 @@
 			<key>ytilde</key>
 			<string>uni1EF9</string>
 		</dict>
+		<key>public.skipExportGlyphs</key>
+		<array>
+			<string>A.dec2.ini</string>
+			<string>Eng</string>
+			<string>Germandbls</string>
+			<string>Z.cur.ini.001</string>
+			<string>_circle</string>
+			<string>ampersand</string>
+			<string>asciicircum</string>
+			<string>at</string>
+			<string>bar</string>
+			<string>cent</string>
+			<string>copyright</string>
+			<string>degree</string>
+			<string>dollar</string>
+			<string>eng</string>
+			<string>euro</string>
+			<string>paragraph</string>
+			<string>percent</string>
+			<string>registered</string>
+			<string>section</string>
+			<string>sterling</string>
+			<string>yen</string>
+		</array>
 	</dict>
 </plist>

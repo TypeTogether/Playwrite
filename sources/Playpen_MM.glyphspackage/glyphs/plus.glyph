@@ -46,15 +46,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-angle = 73.00001;
-pos = (585,-91);
-ref = minus;
-}
-);
-};
 layerId = m002;
 shapes = (
 {
@@ -187,29 +178,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(271,145,ls),
-(271,131,o),
-(282,124,o),
-(305,124,cs),
-(328,124,o),
-(340,131,o),
-(340,145,cs),
-(340,553,ls),
-(340,567,o),
-(328,574,o),
-(305,574,cs),
-(282,574,o),
-(271,567,o),
-(271,553,cs)
-);
-}
-);
-};
 layerId = m005;
 shapes = (
 {
@@ -254,29 +222,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(308,131,o),
-(316,135,o),
-(323,157,cs),
-(446,538,ls),
-(453,559,o),
-(446,569,o),
-(413,569,cs),
-(392,569,o),
-(384,565,o),
-(377,543,cs),
-(254,162,ls),
-(247,141,o),
-(254,131,o),
-(287,131,cs)
-);
-}
-);
-};
 layerId = m006;
 shapes = (
 {
@@ -453,15 +398,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-angle = 73.00001;
-pos = (585,-91);
-ref = minus;
-}
-);
-};
 layerId = m010;
 shapes = (
 {
@@ -594,29 +530,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(271,145,ls),
-(271,131,o),
-(282,124,o),
-(305,124,cs),
-(328,124,o),
-(340,131,o),
-(340,145,cs),
-(340,553,ls),
-(340,567,o),
-(328,574,o),
-(305,574,cs),
-(282,574,o),
-(271,567,o),
-(271,553,cs)
-);
-}
-);
-};
 layerId = m013;
 shapes = (
 {
@@ -661,29 +574,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(308,131,o),
-(316,135,o),
-(323,157,cs),
-(446,538,ls),
-(453,559,o),
-(446,569,o),
-(413,569,cs),
-(392,569,o),
-(384,565,o),
-(377,543,cs),
-(254,162,ls),
-(247,141,o),
-(254,131,o),
-(287,131,cs)
-);
-}
-);
-};
 layerId = m014;
 shapes = (
 {

@@ -3,15 +3,6 @@ color = 4;
 glyphname = guillemetright;
 layers = (
 {
-background = {
-shapes = (
-{
-pos = (580,0);
-ref = guilsinglleft;
-scale = (-1,1);
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -41,15 +32,6 @@ com.hugojourdan.ColorFlow = {
 width = 580;
 },
 {
-background = {
-shapes = (
-{
-angle = 180;
-pos = (580,400);
-ref = guilsinglleft;
-}
-);
-};
 layerId = m002;
 shapes = (
 {

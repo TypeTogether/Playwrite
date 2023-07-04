@@ -2,17 +2,6 @@
 glyphname = aacute;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (247,0);
-ref = acutecomb.null;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -42,17 +31,6 @@ com.hugojourdan.ColorFlow = {
 width = 498;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (239,0);
-ref = acutecomb.null;
-}
-);
-};
 layerId = m002;
 shapes = (
 {
@@ -82,17 +60,6 @@ com.hugojourdan.ColorFlow = {
 width = 498;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (247,0);
-ref = acutecomb.null;
-}
-);
-};
 layerId = m003;
 shapes = (
 {
@@ -122,17 +89,6 @@ com.hugojourdan.ColorFlow = {
 width = 498;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (244,0);
-ref = acutecomb.null;
-}
-);
-};
 layerId = m004;
 shapes = (
 {
@@ -162,17 +118,6 @@ com.hugojourdan.ColorFlow = {
 width = 498;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (235,0);
-ref = acutecomb;
-}
-);
-};
 layerId = m005;
 shapes = (
 {
@@ -202,19 +147,6 @@ com.hugojourdan.ColorFlow = {
 width = 499;
 },
 {
-background = {
-shapes = (
-{
-alignment = -1;
-ref = a;
-},
-{
-alignment = -1;
-pos = (228,0);
-ref = acutecomb;
-}
-);
-};
 layerId = m006;
 shapes = (
 {
@@ -244,17 +176,6 @@ com.hugojourdan.ColorFlow = {
 width = 498;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (247,0);
-ref = acutecomb.null;
-}
-);
-};
 layerId = m007;
 shapes = (
 {
@@ -284,17 +205,6 @@ com.hugojourdan.ColorFlow = {
 width = 499;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (244,0);
-ref = acutecomb.null;
-}
-);
-};
 layerId = m008;
 shapes = (
 {
@@ -324,17 +234,6 @@ com.hugojourdan.ColorFlow = {
 width = 498;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (247,0);
-ref = acutecomb.null;
-}
-);
-};
 layerId = m009;
 shapes = (
 {
@@ -364,17 +263,6 @@ com.hugojourdan.ColorFlow = {
 width = 498;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (239,0);
-ref = acutecomb.null;
-}
-);
-};
 layerId = m010;
 shapes = (
 {
@@ -404,17 +292,6 @@ com.hugojourdan.ColorFlow = {
 width = 498;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (247,0);
-ref = acutecomb.null;
-}
-);
-};
 layerId = m011;
 shapes = (
 {
@@ -444,17 +321,6 @@ com.hugojourdan.ColorFlow = {
 width = 498;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (244,0);
-ref = acutecomb.null;
-}
-);
-};
 layerId = m012;
 shapes = (
 {
@@ -484,17 +350,6 @@ com.hugojourdan.ColorFlow = {
 width = 498;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (235,0);
-ref = acutecomb;
-}
-);
-};
 layerId = m013;
 shapes = (
 {
@@ -524,19 +379,6 @@ com.hugojourdan.ColorFlow = {
 width = 499;
 },
 {
-background = {
-shapes = (
-{
-alignment = -1;
-ref = a;
-},
-{
-alignment = -1;
-pos = (228,0);
-ref = acutecomb;
-}
-);
-};
 layerId = m014;
 shapes = (
 {
@@ -566,17 +408,6 @@ com.hugojourdan.ColorFlow = {
 width = 498;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (247,0);
-ref = acutecomb.null;
-}
-);
-};
 layerId = m015;
 shapes = (
 {
@@ -606,17 +437,6 @@ com.hugojourdan.ColorFlow = {
 width = 499;
 },
 {
-background = {
-shapes = (
-{
-ref = a;
-},
-{
-pos = (244,0);
-ref = acutecomb.null;
-}
-);
-};
 layerId = m016;
 shapes = (
 {

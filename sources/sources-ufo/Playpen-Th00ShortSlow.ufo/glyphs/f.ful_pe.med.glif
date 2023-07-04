@@ -5,4 +5,26 @@
 		<component base="f.ful_de.med"/>
 	</outline>
 	<anchor name="cnct" x="325" y="0"/>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.annotations</key>
+			<array>
+				<dict>
+					<key>position</key>
+					<array>
+						<integer>341</integer>
+						<integer>461</integer>
+					</array>
+					<key>text</key>
+					<string>cnct.mod_c_n</string>
+					<key>type</key>
+					<string>Text</string>
+					<key>width</key>
+					<integer>100</integer>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.97,1,0,1</string>
+		</dict>
+	</lib>
 </glyph>

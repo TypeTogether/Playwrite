@@ -2,13 +2,6 @@
 glyphname = approxequal;
 layers = (
 {
-background = {
-shapes = (
-{
-ref = equal;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -39,13 +32,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-ref = equal;
-}
-);
-};
 layerId = m002;
 shapes = (
 {
@@ -136,13 +122,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-ref = equal;
-}
-);
-};
 layerId = m005;
 shapes = (
 {
@@ -173,13 +152,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-ref = equal;
-}
-);
-};
 layerId = m006;
 shapes = (
 {
@@ -270,13 +242,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-ref = equal;
-}
-);
-};
 layerId = m009;
 shapes = (
 {
@@ -307,13 +272,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-ref = equal;
-}
-);
-};
 layerId = m010;
 shapes = (
 {
@@ -404,13 +362,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-ref = equal;
-}
-);
-};
 layerId = m013;
 shapes = (
 {
@@ -441,13 +392,6 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
-background = {
-shapes = (
-{
-ref = equal;
-}
-);
-};
 layerId = m014;
 shapes = (
 {

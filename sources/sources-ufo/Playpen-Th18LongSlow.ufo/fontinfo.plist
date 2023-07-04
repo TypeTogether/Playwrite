@@ -6,6 +6,8 @@
 		<integer>1200</integer>
 		<key>capHeight</key>
 		<integer>1200</integer>
+		<key>copyright</key>
+		<string>Copyright 2023 The Playpen Project Authors (https://github.com/TypeTogether/Playpen)</string>
 		<key>descender</key>
 		<integer>-800</integer>
 		<key>familyName</key>
@@ -16,11 +18,32 @@
 		<key>italicAngle</key>
 		<integer>-18</integer>
 		<key>openTypeHeadCreated</key>
-		<string>2023/06/16 16:12:14</string>
+		<string>2023/06/29 14:12:27</string>
+		<key>openTypeNameDescription</key>
+		<string>First Release</string>
+		<key>openTypeNameDesigner</key>
+		<string>Veronika Burian, José Scaglione</string>
+		<key>openTypeNameDesignerURL</key>
+		<string>www.type-together.com</string>
+		<key>openTypeNameLicense</key>
+		<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+		<key>openTypeNameLicenseURL</key>
+		<string>https://scripts.sil.org/OFL</string>
+		<key>openTypeNameManufacturer</key>
+		<string>TypeTogether</string>
+		<key>openTypeNameManufacturerURL</key>
+		<string>www.type-together.com</string>
+		<key>openTypeNameVersion</key>
+		<string>Version 0.200</string>
+		<key>openTypeOS2Selection</key>
+		<array>
+			<integer>7</integer>
+		</array>
 		<key>openTypeOS2Type</key>
 		<array>
-			<integer>3</integer>
 		</array>
+		<key>openTypeOS2VendorID</key>
+		<string>TT</string>
 		<key>postscriptBlueValues</key>
 		<array>
 			<integer>-15</integer>
@@ -56,11 +79,11 @@
 		<key>styleName</key>
 		<string>Th 18 Long Slow</string>
 		<key>unitsPerEm</key>
-		<integer>2000</integer>
+		<integer>1000</integer>
 		<key>versionMajor</key>
 		<integer>0</integer>
 		<key>versionMinor</key>
-		<integer>100</integer>
+		<integer>200</integer>
 		<key>xHeight</key>
 		<integer>400</integer>
 	</dict>

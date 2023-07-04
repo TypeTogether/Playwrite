@@ -24,6 +24,10 @@
 		<string>A_.dec_locl.glif</string>
 		<key>A.dec_locl.ini</key>
 		<string>A_.dec_locl.ini.glif</string>
+		<key>AE</key>
+		<string>A_E_.glif</string>
+		<key>AEacute</key>
+		<string>A_E_acute.glif</string>
 		<key>Aacute</key>
 		<string>A_acute.glif</string>
 		<key>Abreve</key>
@@ -152,8 +156,6 @@
 		<string>F_.dec.glif</string>
 		<key>G</key>
 		<string>G_.glif</string>
-		<key>G.alt1</key>
-		<string>G_.alt1.glif</string>
 		<key>G.cur</key>
 		<string>G_.cur.glif</string>
 		<key>G.cur.ini</key>
@@ -164,6 +166,8 @@
 		<string>G_.cur_locl.ini.glif</string>
 		<key>G.dec</key>
 		<string>G_.dec.glif</string>
+		<key>G_locl</key>
+		<string>G__locl.glif</string>
 		<key>Gbreve</key>
 		<string>G_breve.glif</string>
 		<key>Gcircumflex</key>
@@ -268,8 +272,6 @@
 		<string>L_slash.glif</string>
 		<key>M</key>
 		<string>M_.glif</string>
-		<key>M.alt1</key>
-		<string>M_.alt1.glif</string>
 		<key>M.cur</key>
 		<string>M_.cur.glif</string>
 		<key>M.cur.ini</key>
@@ -278,6 +280,8 @@
 		<string>M_.dec.glif</string>
 		<key>M.dec.ini</key>
 		<string>M_.dec.ini.glif</string>
+		<key>M_locl</key>
+		<string>M__locl.glif</string>
 		<key>N</key>
 		<string>N_.glif</string>
 		<key>N.cur</key>
@@ -300,6 +304,8 @@
 		<string>O_.cur.glif</string>
 		<key>O.dec</key>
 		<string>O_.dec.glif</string>
+		<key>OE</key>
+		<string>O_E_.glif</string>
 		<key>Oacute</key>
 		<string>O_acute.glif</string>
 		<key>Obreve</key>
@@ -358,10 +364,10 @@
 		<string>Q_.cur.glif</string>
 		<key>Q.cur.ini</key>
 		<string>Q_.cur.ini.glif</string>
-		<key>Q.cur_loc.ini</key>
-		<string>Q_.cur_loc.ini.glif</string>
 		<key>Q.cur_locl</key>
 		<string>Q_.cur_locl.glif</string>
+		<key>Q.cur_locl.ini</key>
+		<string>Q_.cur_locl.ini.glif</string>
 		<key>Q.dec</key>
 		<string>Q_.dec.glif</string>
 		<key>Q.dec.ini</key>
@@ -408,10 +414,10 @@
 		<string>T_.cur.glif</string>
 		<key>T.cur.ini</key>
 		<string>T_.cur.ini.glif</string>
-		<key>T.cur_loc.ini</key>
-		<string>T_.cur_loc.ini.glif</string>
 		<key>T.cur_locl</key>
 		<string>T_.cur_locl.glif</string>
+		<key>T.cur_locl.ini</key>
+		<string>T_.cur_locl.ini.glif</string>
 		<key>T.dec</key>
 		<string>T_.dec.glif</string>
 		<key>Tbar</key>
@@ -552,6 +558,8 @@
 		<string>Z_caron.glif</string>
 		<key>Zdotaccent</key>
 		<string>Z_dotaccent.glif</string>
+		<key>_circle</key>
+		<string>_circle.glif</string>
 		<key>a</key>
 		<string>a.glif</string>
 		<key>a.mod</key>
@@ -598,6 +606,10 @@
 		<string>adieresis.glif</string>
 		<key>adotbelow</key>
 		<string>adotbelow.glif</string>
+		<key>ae</key>
+		<string>ae.glif</string>
+		<key>aeacute</key>
+		<string>aeacute.glif</string>
 		<key>agrave</key>
 		<string>agrave.glif</string>
 		<key>ahookabove</key>
@@ -782,6 +794,8 @@
 		<string>cnct.cnt_r_s.glif</string>
 		<key>cnct.cnt_r_t</key>
 		<string>cnct.cnt_r_t.glif</string>
+		<key>cnct.cnt_r_t.lop_de</key>
+		<string>cnct.cnt_r_t.lop_de.glif</string>
 		<key>cnct.cnt_r_x</key>
 		<string>cnct.cnt_r_x.glif</string>
 		<key>cnct.cnt_r_z</key>
@@ -834,6 +848,8 @@
 		<string>cnct.ful_b_s.glif</string>
 		<key>cnct.ful_b_t</key>
 		<string>cnct.ful_b_t.glif</string>
+		<key>cnct.ful_b_t.lop_de</key>
+		<string>cnct.ful_b_t.lop_de.glif</string>
 		<key>cnct.ful_b_x</key>
 		<string>cnct.ful_b_x.glif</string>
 		<key>cnct.ful_b_z</key>
@@ -866,6 +882,8 @@
 		<string>cnct.ful_e_s.glif</string>
 		<key>cnct.ful_e_t</key>
 		<string>cnct.ful_e_t.glif</string>
+		<key>cnct.ful_e_t.lop_de</key>
+		<string>cnct.ful_e_t.lop_de.glif</string>
 		<key>cnct.ful_e_x</key>
 		<string>cnct.ful_e_x.glif</string>
 		<key>cnct.ful_e_z</key>
@@ -878,6 +896,8 @@
 		<string>cnct.ful_f_r.glif</string>
 		<key>cnct.ful_f_s</key>
 		<string>cnct.ful_f_s.glif</string>
+		<key>cnct.ful_f_t.lop_de</key>
+		<string>cnct.ful_f_t.lop_de.glif</string>
 		<key>cnct.ful_f_x</key>
 		<string>cnct.ful_f_x.glif</string>
 		<key>cnct.ful_f_z</key>
@@ -918,8 +938,20 @@
 		<string>cnct.ful_o_x.glif</string>
 		<key>cnct.ful_o_z</key>
 		<string>cnct.ful_o_z.glif</string>
+		<key>cnct.ful_t.lop_de_e</key>
+		<string>cnct.ful_t.lop_de_e.glif</string>
 		<key>cnct.ful_t.lop_de_f</key>
 		<string>cnct.ful_t.lop_de_f.glif</string>
+		<key>cnct.ful_t.lop_de_r</key>
+		<string>cnct.ful_t.lop_de_r.glif</string>
+		<key>cnct.ful_t.lop_de_s</key>
+		<string>cnct.ful_t.lop_de_s.glif</string>
+		<key>cnct.ful_t.lop_de_t.lop_de</key>
+		<string>cnct.ful_t.lop_de_t.lop_de.glif</string>
+		<key>cnct.ful_t.lop_de_x</key>
+		<string>cnct.ful_t.lop_de_x.glif</string>
+		<key>cnct.ful_t.lop_de_z</key>
+		<string>cnct.ful_t.lop_de_z.glif</string>
 		<key>cnct.ful_z_b</key>
 		<string>cnct.ful_z_b.glif</string>
 		<key>cnct.ful_z_e</key>
@@ -936,6 +968,8 @@
 		<string>cnct.ful_z_s.glif</string>
 		<key>cnct.ful_z_t</key>
 		<string>cnct.ful_z_t.glif</string>
+		<key>cnct.ful_z_t.lop_de</key>
+		<string>cnct.ful_z_t.lop_de.glif</string>
 		<key>cnct.ful_z_x</key>
 		<string>cnct.ful_z_x.glif</string>
 		<key>cnct.ful_z_z</key>
@@ -960,6 +994,8 @@
 		<string>cnct.jmc_f_s.glif</string>
 		<key>cnct.jmc_f_t</key>
 		<string>cnct.jmc_f_t.glif</string>
+		<key>cnct.jmc_f_t.lop_de</key>
+		<string>cnct.jmc_f_t.lop_de.glif</string>
 		<key>cnct.jmc_f_v</key>
 		<string>cnct.jmc_f_v.glif</string>
 		<key>cnct.jmc_f_x</key>
@@ -980,6 +1016,8 @@
 		<string>cnct.jmc_g_s.glif</string>
 		<key>cnct.jmc_g_t</key>
 		<string>cnct.jmc_g_t.glif</string>
+		<key>cnct.jmc_g_t.lop_de</key>
+		<string>cnct.jmc_g_t.lop_de.glif</string>
 		<key>cnct.jmc_g_v</key>
 		<string>cnct.jmc_g_v.glif</string>
 		<key>cnct.jmc_g_x</key>
@@ -992,6 +1030,8 @@
 		<string>cnct.jmc_o_f.glif</string>
 		<key>cnct.jmc_r_f</key>
 		<string>cnct.jmc_r_f.glif</string>
+		<key>cnct.jmc_t.lop_de_f</key>
+		<string>cnct.jmc_t.lop_de_f.glif</string>
 		<key>cnct.jmc_v_f</key>
 		<string>cnct.jmc_v_f.glif</string>
 		<key>cnct.lop_b_h</key>
@@ -1008,6 +1048,8 @@
 		<string>cnct.lop_n_h.glif</string>
 		<key>cnct.lop_o_h</key>
 		<string>cnct.lop_o_h.glif</string>
+		<key>cnct.lop_t.lop_de_h</key>
+		<string>cnct.lop_t.lop_de_h.glif</string>
 		<key>cnct.lop_z_h</key>
 		<string>cnct.lop_z_h.glif</string>
 		<key>cnct.mlp_b_e</key>
@@ -1028,6 +1070,8 @@
 		<string>cnct.mlp_b_s.glif</string>
 		<key>cnct.mlp_b_t</key>
 		<string>cnct.mlp_b_t.glif</string>
+		<key>cnct.mlp_b_t.lop_de</key>
+		<string>cnct.mlp_b_t.lop_de.glif</string>
 		<key>cnct.mlp_b_x</key>
 		<string>cnct.mlp_b_x.glif</string>
 		<key>cnct.mlp_f_e</key>
@@ -1048,6 +1092,8 @@
 		<string>cnct.mlp_f_s.glif</string>
 		<key>cnct.mlp_f_t</key>
 		<string>cnct.mlp_f_t.glif</string>
+		<key>cnct.mlp_f_t.lop_de</key>
+		<string>cnct.mlp_f_t.lop_de.glif</string>
 		<key>cnct.mlp_f_x</key>
 		<string>cnct.mlp_f_x.glif</string>
 		<key>cnct.mlp_f_z.cnt</key>
@@ -1070,6 +1116,8 @@
 		<string>cnct.mlp_o_s.glif</string>
 		<key>cnct.mlp_o_t</key>
 		<string>cnct.mlp_o_t.glif</string>
+		<key>cnct.mlp_o_t.lop_de</key>
+		<string>cnct.mlp_o_t.lop_de.glif</string>
 		<key>cnct.mlp_o_x</key>
 		<string>cnct.mlp_o_x.glif</string>
 		<key>cnct.mod_G_b</key>
@@ -1102,6 +1150,8 @@
 		<string>cnct.mod_c_s.glif</string>
 		<key>cnct.mod_c_t</key>
 		<string>cnct.mod_c_t.glif</string>
+		<key>cnct.mod_c_t.lop_de</key>
+		<string>cnct.mod_c_t.lop_de.glif</string>
 		<key>cnct.mod_c_v</key>
 		<string>cnct.mod_c_v.glif</string>
 		<key>cnct.mod_c_x</key>
@@ -1120,6 +1170,8 @@
 		<string>cnct.mod_e_s.glif</string>
 		<key>cnct.mod_e_t</key>
 		<string>cnct.mod_e_t.glif</string>
+		<key>cnct.mod_e_t.lop_de</key>
+		<string>cnct.mod_e_t.lop_de.glif</string>
 		<key>cnct.mod_e_v</key>
 		<string>cnct.mod_e_v.glif</string>
 		<key>cnct.mod_e_x</key>
@@ -1158,6 +1210,8 @@
 		<string>cnct.mod_o_s.glif</string>
 		<key>cnct.mod_o_t</key>
 		<string>cnct.mod_o_t.glif</string>
+		<key>cnct.mod_o_t.lop_de</key>
+		<string>cnct.mod_o_t.lop_de.glif</string>
 		<key>cnct.mod_o_v</key>
 		<string>cnct.mod_o_v.glif</string>
 		<key>cnct.mod_o_x</key>
@@ -1176,12 +1230,30 @@
 		<string>cnct.mod_r_s.glif</string>
 		<key>cnct.mod_r_t</key>
 		<string>cnct.mod_r_t.glif</string>
+		<key>cnct.mod_r_t.lop_de</key>
+		<string>cnct.mod_r_t.lop_de.glif</string>
 		<key>cnct.mod_r_v</key>
 		<string>cnct.mod_r_v.glif</string>
 		<key>cnct.mod_r_x</key>
 		<string>cnct.mod_r_x.glif</string>
 		<key>cnct.mod_r_z</key>
 		<string>cnct.mod_r_z.glif</string>
+		<key>cnct.mod_t.lop_de_b</key>
+		<string>cnct.mod_t.lop_de_b.glif</string>
+		<key>cnct.mod_t.lop_de_e</key>
+		<string>cnct.mod_t.lop_de_e.glif</string>
+		<key>cnct.mod_t.lop_de_n</key>
+		<string>cnct.mod_t.lop_de_n.glif</string>
+		<key>cnct.mod_t.lop_de_o</key>
+		<string>cnct.mod_t.lop_de_o.glif</string>
+		<key>cnct.mod_t.lop_de_s</key>
+		<string>cnct.mod_t.lop_de_s.glif</string>
+		<key>cnct.mod_t.lop_de_v</key>
+		<string>cnct.mod_t.lop_de_v.glif</string>
+		<key>cnct.mod_t.lop_de_x</key>
+		<string>cnct.mod_t.lop_de_x.glif</string>
+		<key>cnct.mod_t.lop_de_z</key>
+		<string>cnct.mod_t.lop_de_z.glif</string>
 		<key>cnct.mod_v_b</key>
 		<string>cnct.mod_v_b.glif</string>
 		<key>cnct.mod_v_e</key>
@@ -1194,6 +1266,8 @@
 		<string>cnct.mod_v_s.glif</string>
 		<key>cnct.mod_v_t</key>
 		<string>cnct.mod_v_t.glif</string>
+		<key>cnct.mod_v_t.lop_de</key>
+		<string>cnct.mod_v_t.lop_de.glif</string>
 		<key>cnct.mod_v_v</key>
 		<string>cnct.mod_v_v.glif</string>
 		<key>cnct.mod_v_x</key>
@@ -1218,6 +1292,8 @@
 		<string>cnct.mrr_f_s.glif</string>
 		<key>cnct.mrr_f_t</key>
 		<string>cnct.mrr_f_t.glif</string>
+		<key>cnct.mrr_f_t.lop_de</key>
+		<string>cnct.mrr_f_t.lop_de.glif</string>
 		<key>cnct.mrr_f_x</key>
 		<string>cnct.mrr_f_x.glif</string>
 		<key>cnct.mrr_f_z</key>
@@ -1352,6 +1428,8 @@
 		<string>eogonek.glif</string>
 		<key>equal</key>
 		<string>equal.glif</string>
+		<key>eth</key>
+		<string>eth.glif</string>
 		<key>etilde</key>
 		<string>etilde.glif</string>
 		<key>euro</key>
@@ -1474,6 +1552,8 @@
 		<string>gcommaaccent.glif</string>
 		<key>gdotaccent</key>
 		<string>gdotaccent.glif</string>
+		<key>germandbls</key>
+		<string>germandbls.glif</string>
 		<key>grave</key>
 		<string>grave.glif</string>
 		<key>gravecomb</key>
@@ -1774,6 +1854,8 @@
 		<string>odieresis.glif</string>
 		<key>odotbelow</key>
 		<string>odotbelow.glif</string>
+		<key>oe</key>
+		<string>oe.glif</string>
 		<key>ogonek</key>
 		<string>ogonek.glif</string>
 		<key>ogonekcomb</key>
@@ -2250,6 +2332,14 @@
 		<string>x.cnt.ini.glif</string>
 		<key>x.cnt.med</key>
 		<string>x.cnt.med.glif</string>
+		<key>x.cnt_de</key>
+		<string>x.cnt_de.glif</string>
+		<key>x.cnt_de.fin</key>
+		<string>x.cnt_de.fin.glif</string>
+		<key>x.cnt_de.ini</key>
+		<string>x.cnt_de.ini.glif</string>
+		<key>x.cnt_de.med</key>
+		<string>x.cnt_de.med.glif</string>
 		<key>x.ful</key>
 		<string>x.ful.glif</string>
 		<key>x.ful.fin</key>

@@ -2,19 +2,6 @@
 glyphname = k.ful.fin;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-48,14,l),
-(-64,14,o),
-(-64,-14,o),
-(-48,-14,c)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -41,19 +28,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-99,14,l),
-(-117,14,o),
-(-121,-14,o),
-(-108,-14,c)
-);
-}
-);
-};
 layerId = m002;
 shapes = (
 {
@@ -80,19 +54,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-86,14,l),
-(-104,14,o),
-(-104,-14,o),
-(-86,-14,c)
-);
-}
-);
-};
 layerId = m003;
 shapes = (
 {
@@ -119,19 +80,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-138,14,l),
-(-158,14,o),
-(-162,-14,o),
-(-147,-14,c)
-);
-}
-);
-};
 layerId = m004;
 shapes = (
 {
@@ -158,19 +106,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-48,14,l),
-(-64,14,o),
-(-64,-14,o),
-(-48,-14,c)
-);
-}
-);
-};
 layerId = m005;
 shapes = (
 {
@@ -197,19 +132,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-99,14,l),
-(-117,14,o),
-(-121,-14,o),
-(-108,-14,c)
-);
-}
-);
-};
 layerId = m006;
 shapes = (
 {
@@ -236,19 +158,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-86,14,l),
-(-104,14,o),
-(-104,-14,o),
-(-86,-14,c)
-);
-}
-);
-};
 layerId = m007;
 shapes = (
 {
@@ -275,19 +184,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-138,14,l),
-(-158,14,o),
-(-162,-14,o),
-(-147,-14,c)
-);
-}
-);
-};
 layerId = m008;
 shapes = (
 {
@@ -314,19 +210,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-48,14,l),
-(-64,14,o),
-(-64,-14,o),
-(-48,-14,c)
-);
-}
-);
-};
 layerId = m009;
 shapes = (
 {
@@ -353,19 +236,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-99,14,l),
-(-117,14,o),
-(-121,-14,o),
-(-108,-14,c)
-);
-}
-);
-};
 layerId = m010;
 shapes = (
 {
@@ -392,19 +262,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-86,14,l),
-(-104,14,o),
-(-104,-14,o),
-(-86,-14,c)
-);
-}
-);
-};
 layerId = m011;
 shapes = (
 {
@@ -431,19 +288,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-138,14,l),
-(-158,14,o),
-(-162,-14,o),
-(-147,-14,c)
-);
-}
-);
-};
 layerId = m012;
 shapes = (
 {
@@ -470,19 +314,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-48,14,l),
-(-64,14,o),
-(-64,-14,o),
-(-48,-14,c)
-);
-}
-);
-};
 layerId = m013;
 shapes = (
 {
@@ -509,19 +340,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-99,14,l),
-(-117,14,o),
-(-121,-14,o),
-(-108,-14,c)
-);
-}
-);
-};
 layerId = m014;
 shapes = (
 {
@@ -548,19 +366,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-86,14,l),
-(-104,14,o),
-(-104,-14,o),
-(-86,-14,c)
-);
-}
-);
-};
 layerId = m015;
 shapes = (
 {
@@ -587,19 +392,6 @@ com.hugojourdan.ColorFlow = {
 width = 451;
 },
 {
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(-138,14,l),
-(-158,14,o),
-(-162,-14,o),
-(-147,-14,c)
-);
-}
-);
-};
 layerId = m016;
 shapes = (
 {

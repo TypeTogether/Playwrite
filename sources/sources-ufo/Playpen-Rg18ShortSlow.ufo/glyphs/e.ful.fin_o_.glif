@@ -45,4 +45,41 @@
 	<anchor name="bottom" x="192" y="0"/>
 	<anchor name="ogonek" x="302" y="10"/>
 	<anchor name="top" x="211" y="400"/>
+	<guideline x="245" y="388" angle="81.57"/>
+	<guideline y="149"/>
+	<guideline x="209" y="-15" angle="83.66"/>
+	<guideline x="305" y="313" angle="7.13"/>
+	<lib>
+		<dict>
+			<key>com.hugojourdan.ColorFlow</key>
+			<dict>
+				<key>0</key>
+				<integer>0</integer>
+				<key>1</key>
+				<integer>0</integer>
+				<key>10</key>
+				<integer>0</integer>
+				<key>11</key>
+				<integer>0</integer>
+				<key>2</key>
+				<integer>0</integer>
+				<key>3</key>
+				<integer>0</integer>
+				<key>4</key>
+				<integer>0</integer>
+				<key>5</key>
+				<integer>0</integer>
+				<key>6</key>
+				<integer>0</integer>
+				<key>7</key>
+				<integer>0</integer>
+				<key>8</key>
+				<integer>0</integer>
+				<key>9</key>
+				<integer>0</integer>
+			</dict>
+			<key>public.markColor</key>
+			<string>0.98,0.36,0.67,1</string>
+		</dict>
+	</lib>
 </glyph>
