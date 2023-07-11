@@ -1,6 +1,7 @@
+# COL
 @UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
 @lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
 @UC_COL = [A.cur B.dec C.cur D.dec E.cur F.cur G.dec H.cur I.cur J.cur K.cur L.dec M.cur N.cur O.cur P.dec Q.cur R.dec S.cur T.dec U.cur V.cur W.cur X.cur Y.cur Z.cur];
-@lc_COL = [a.mod b.mlp c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.jmc q.mrr r.ful s.ful t.mod u.mod v.cnt w.ful x.ful y.cnt z.mlp];
-
+@lc_COL = [a.mod b.mlp c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.jmc q.mrr r.ful s.ful t.mod u.mod v.cnt w.ful x.ful y.cnt z.mlp
+];
 sub [@UC_src @lc_src] by [@UC_COL @lc_COL];
