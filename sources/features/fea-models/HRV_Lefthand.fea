@@ -1,0 +1,7 @@
+# HRV_Lefthand
+@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
+@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+@UC_HRV_Lefthand = [A.dec_locl B.cur C.cur D.dec E F.cur G.cur H.cur I.dec J.dec K.cur L.cur M.dec N.dec O P.cur Q R.cur S T.dec U.cur V.dec W.dec X.cur Y Z.dec];
+@lc_HRV_Lefthand = [a.mod b.lop c.mod d.mod e.mod f.ful g.jmc h.lop i.mod j.jmc k.lop l.lop m.mod n.mod o.mod p.ful q.jmc r.cnt s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.mod
+];
+sub [@UC_src @lc_src] by [@UC_HRV_Lefthand @lc_HRV_Lefthand];

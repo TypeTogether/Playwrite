@@ -1,0 +1,7 @@
+# ISL
+@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
+@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+@UC_ISL = [A B C D E F G H I J K L M_locl N O P Q R S T U V W X Y Z];
+@lc_ISL = [a.mod b.jmc c.mod d.mod e.mod f.mod g.mod h.mod i.mod j.mod k.ful l.mod m.mod n.mod o.mod p.jmc q.mod r.mod s.jmc t.mod u.mod v.ful w.ful x.ful y.mod z.mod
+];
+sub [@UC_src @lc_src] by [@UC_ISL @lc_ISL];

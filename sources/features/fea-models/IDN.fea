@@ -1,0 +1,7 @@
+# IDN
+@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
+@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+@UC_IDN = [A.dec_locl B C D E.cur F G.cur H.cur I.dec J.dec K.dec L.cur M.cur N.cur O P Q.dec R S T.dec U.cur V.cur W.cur X.cur Y.cur Z.dec];
+@lc_IDN = [a.mod b.mlp c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.ful q.jmc r.ful s.jmc t.mod u.mod v.cnt w.cnt x.cnt y.jmc z.cnt
+];
+sub [@UC_src @lc_src] by [@UC_IDN @lc_IDN];

@@ -1,0 +1,7 @@
+# CZE
+@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
+@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+@UC_CZE = [A.cur B.cur C.cur D.dec E.cur F.cur G.cur H.cur I.dec J.dec K.cur L.dec M.cur N.cur O.cur P.cur Q_locl R.cur S.dec T.dec U.cur V.cur W.cur X.cur Y.cur Z.dec];
+@lc_CZE = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.ful s.ful t.lop_de u.mod v.cnt w.cnt x.ful y.cnt z.mod
+];
+sub [@UC_src @lc_src] by [@UC_CZE @lc_CZE];
