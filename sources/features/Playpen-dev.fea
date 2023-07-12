@@ -1,4 +1,4 @@
-# 230626_1708
+# 230712_1127
 
 # --------------
 # CLASSES
@@ -1284,4 +1284,29 @@ feature dist {
 			pos @omlp_SRC 20 @rful_TGT;
 		} dist_MLP;
 
+		lookup dist_CUR {
+			lookupflag IgnoreMarks;
+			pos @Gcur_SRC 145 @ncnt_TGT;
+			pos @Gcur_SRC 70 @zcnt_TGT;
+			pos @Gcur_SRC 70 @eful_TGT;
+			pos @Gcur_SRC 90 @fful_TGT;
+			pos @Gcur_SRC 70 @rful_TGT;
+			pos @Gcur_SRC 60 @sful_TGT;
+			pos @Gcur_SRC 70 @xful_TGT;
+			pos @Gcur_SRC 100 @zful_TGT;
+			pos @Gcur_SRC 100 @fjmc_TGT;
+			pos @Gcur_SRC 40 @bmod_TGT;
+			pos @Gcur_SRC 40 @emod_TGT;
+			# pos @Gcur_SRC 40 @gmod_TGT;
+			pos @Gcur_SRC 40 @omod_TGT;
+			pos @Gcur_SRC 50 @smod_TGT;
+			pos @Gcur_SRC 40 @tmod_TGT;
+			pos @Gcur_SRC 100 @vmod_TGT;
+			pos @Gcur_SRC 100 @xmod_TGT;
+			pos @Gcur_SRC 70 @zmod_TGT;
+			pos @Xdec_SRC 30 @fful_TGT;
+			pos @Xdec_SRC 10 @rful_TGT;
+			pos @Xdec_SRC 50 @xful_TGT;
+			pos @Xdec_SRC 60 @zful_TGT;
+		} dist_CUR;
 } dist;
