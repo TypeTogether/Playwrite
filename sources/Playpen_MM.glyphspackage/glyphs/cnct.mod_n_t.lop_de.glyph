@@ -1,4 +1,5 @@
 {
+category = Mark;
 color = 5;
 glyphname = cnct.mod_n_t.lop_de;
 layers = (
@@ -465,4 +466,5 @@ nodes = (
 width = 20;
 }
 );
+subCategory = Nonspacing;
 }
