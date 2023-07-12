@@ -1,4 +1,5 @@
 {
+category = Mark;
 glyphname = cnct.cnt_f_z;
 layers = (
 {
@@ -906,4 +907,5 @@ com.hugojourdan.ColorFlow = {
 width = 0;
 }
 );
+subCategory = Nonspacing;
 }
