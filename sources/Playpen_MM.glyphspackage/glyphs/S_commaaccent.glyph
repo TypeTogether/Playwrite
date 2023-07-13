@@ -9,7 +9,7 @@ ref = S;
 },
 {
 pos = (275,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -38,7 +38,7 @@ ref = S;
 },
 {
 pos = (294,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -67,7 +67,7 @@ ref = S;
 },
 {
 pos = (275,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -96,7 +96,7 @@ ref = S;
 },
 {
 pos = (294,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -125,7 +125,7 @@ ref = S;
 },
 {
 pos = (270,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -154,7 +154,7 @@ ref = S;
 },
 {
 pos = (294,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -183,7 +183,7 @@ ref = S;
 },
 {
 pos = (275,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -212,7 +212,7 @@ ref = S;
 },
 {
 pos = (294,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -241,7 +241,7 @@ ref = S;
 },
 {
 pos = (428,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -266,13 +266,11 @@ width = 853;
 layerId = m010;
 shapes = (
 {
-alignment = -1;
 ref = S;
 },
 {
-alignment = -1;
-pos = (294,0);
-ref = commaaccentcomb;
+pos = (456,0);
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -291,19 +289,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 550;
+width = 853;
 },
 {
 layerId = m011;
 shapes = (
 {
-alignment = -1;
 ref = S;
 },
 {
-alignment = -1;
-pos = (275,0);
-ref = commaaccentcomb;
+pos = (426,0);
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -322,19 +318,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 550;
+width = 852;
 },
 {
 layerId = m012;
 shapes = (
 {
-alignment = -1;
 ref = S;
 },
 {
-alignment = -1;
-pos = (294,0);
-ref = commaaccentcomb;
+pos = (456,0);
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -353,7 +347,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 550;
+width = 853;
 },
 {
 layerId = m013;
@@ -363,7 +357,7 @@ ref = S;
 },
 {
 pos = (423,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -388,13 +382,11 @@ width = 853;
 layerId = m014;
 shapes = (
 {
-alignment = -1;
 ref = S;
 },
 {
-alignment = -1;
-pos = (294,0);
-ref = commaaccentcomb;
+pos = (456,0);
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -413,19 +405,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 550;
+width = 853;
 },
 {
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = S;
 },
 {
-alignment = -1;
-pos = (275,0);
-ref = commaaccentcomb;
+pos = (427,0);
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -444,7 +434,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 550;
+width = 853;
 },
 {
 layerId = m016;
@@ -454,7 +444,7 @@ ref = S;
 },
 {
 pos = (456,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {

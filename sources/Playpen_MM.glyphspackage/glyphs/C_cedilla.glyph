@@ -9,7 +9,7 @@ ref = C;
 },
 {
 pos = (352,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -38,7 +38,7 @@ ref = C;
 },
 {
 pos = (350,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -67,7 +67,7 @@ ref = C;
 },
 {
 pos = (352,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -96,7 +96,7 @@ ref = C;
 },
 {
 pos = (350,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -125,7 +125,7 @@ ref = C;
 },
 {
 pos = (352,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -153,8 +153,8 @@ shapes = (
 ref = C;
 },
 {
-pos = (350,0);
-ref = cedillacomb;
+pos = (377,0);
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -183,7 +183,7 @@ ref = C;
 },
 {
 pos = (352,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -212,7 +212,7 @@ ref = C;
 },
 {
 pos = (350,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -241,7 +241,7 @@ ref = C;
 },
 {
 pos = (546,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -270,7 +270,7 @@ ref = C;
 },
 {
 pos = (541,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -299,7 +299,7 @@ ref = C;
 },
 {
 pos = (546,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -328,7 +328,7 @@ ref = C;
 },
 {
 pos = (539,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -357,7 +357,7 @@ ref = C;
 },
 {
 pos = (546,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -386,7 +386,7 @@ ref = C;
 },
 {
 pos = (540,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -415,7 +415,7 @@ ref = C;
 },
 {
 pos = (546,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {
@@ -444,7 +444,7 @@ ref = C;
 },
 {
 pos = (539,0);
-ref = cedillacomb;
+ref = cedillacomb.case;
 }
 );
 userData = {

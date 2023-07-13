@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = D;
 layers = (
 {
@@ -14,7 +13,7 @@ pos = (186,350);
 },
 {
 name = top;
-pos = (326,670);
+pos = (316,670);
 }
 );
 layerId = m01;
@@ -570,7 +569,7 @@ pos = (491,0);
 },
 {
 name = center;
-pos = (238,593);
+pos = (268,593);
 },
 {
 name = top;

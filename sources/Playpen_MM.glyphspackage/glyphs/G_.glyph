@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = G;
 layers = (
 {
@@ -396,11 +395,11 @@ width = 700;
 anchors = (
 {
 name = bottom;
-pos = (295,0);
+pos = (310,0);
 },
 {
 name = top;
-pos = (495,670);
+pos = (493,670);
 }
 );
 layerId = m006;

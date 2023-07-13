@@ -273,6 +273,7 @@ width = 240;
 layerId = m009;
 shapes = (
 {
+alignment = -1;
 ref = idotless;
 },
 {
@@ -280,6 +281,7 @@ pos = (104,0);
 ref = dotaccentcomb;
 },
 {
+alignment = -1;
 pos = (149,0);
 ref = ogonekcomb;
 }

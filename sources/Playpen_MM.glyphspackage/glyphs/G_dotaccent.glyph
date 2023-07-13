@@ -8,8 +8,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (360,270);
-ref = dotaccentcomb;
+pos = (360,0);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -37,8 +37,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (430,270);
-ref = dotaccentcomb;
+pos = (343,0);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -66,8 +66,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (360,270);
-ref = dotaccentcomb;
+pos = (360,0);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -95,8 +95,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (430,270);
-ref = dotaccentcomb;
+pos = (343,0);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -124,8 +124,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (360,270);
-ref = dotaccentcomb;
+pos = (360,0);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -153,8 +153,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (430,270);
-ref = dotaccentcomb;
+pos = (342,0);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -182,8 +182,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (360,270);
-ref = dotaccentcomb;
+pos = (360,0);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -211,8 +211,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (430,270);
-ref = dotaccentcomb;
+pos = (344,0);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -240,8 +240,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (558,739);
-ref = dotaccentcomb;
+pos = (558,-1);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -269,8 +269,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (770,739);
-ref = dotaccentcomb;
+pos = (531,-1);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -298,8 +298,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (558,739);
-ref = dotaccentcomb;
+pos = (558,-1);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -327,8 +327,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (771,739);
-ref = dotaccentcomb;
+pos = (532,-1);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -356,8 +356,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (558,739);
-ref = dotaccentcomb;
+pos = (558,-1);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -385,8 +385,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (767,739);
-ref = dotaccentcomb;
+pos = (527,-1);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -411,13 +411,11 @@ width = 1085;
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = G;
 },
 {
-alignment = -1;
-pos = (360,270);
-ref = dotaccentcomb;
+pos = (558,-1);
+ref = dotaccentcomb.case;
 }
 );
 userData = {
@@ -436,7 +434,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 700;
+width = 1085;
 },
 {
 layerId = m016;
@@ -445,8 +443,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (769,739);
-ref = dotaccentcomb;
+pos = (529,-1);
+ref = dotaccentcomb.case;
 }
 );
 userData = {

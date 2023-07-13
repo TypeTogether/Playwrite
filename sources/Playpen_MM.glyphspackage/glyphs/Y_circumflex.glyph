@@ -8,8 +8,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (245,270);
-ref = circumflexcomb;
+pos = (245,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -37,8 +37,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (311,270);
-ref = circumflexcomb;
+pos = (225,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -66,8 +66,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (245,270);
-ref = circumflexcomb;
+pos = (245,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -95,8 +95,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (311,270);
-ref = circumflexcomb;
+pos = (225,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -124,8 +124,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (245,270);
-ref = circumflexcomb;
+pos = (245,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -153,8 +153,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (311,270);
-ref = circumflexcomb;
+pos = (225,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -182,8 +182,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (245,270);
-ref = circumflexcomb;
+pos = (245,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -211,8 +211,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (311,270);
-ref = circumflexcomb;
+pos = (225,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -240,8 +240,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (400,739);
-ref = circumflexcomb;
+pos = (400,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -269,8 +269,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (605,739);
-ref = circumflexcomb;
+pos = (366,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -298,8 +298,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (400,739);
-ref = circumflexcomb;
+pos = (400,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -327,8 +327,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (605,739);
-ref = circumflexcomb;
+pos = (366,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -353,13 +353,11 @@ width = 800;
 layerId = m013;
 shapes = (
 {
-alignment = -1;
 ref = Y;
 },
 {
-alignment = -1;
-pos = (380,739);
-ref = circumflexcomb;
+pos = (400,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -378,7 +376,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 761;
+width = 800;
 },
 {
 layerId = m014;
@@ -387,8 +385,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (605,739);
-ref = circumflexcomb;
+pos = (365,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -413,13 +411,11 @@ width = 800;
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = Y;
 },
 {
-alignment = -1;
-pos = (245,270);
-ref = circumflexcomb;
+pos = (400,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -438,7 +434,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 490;
+width = 800;
 },
 {
 layerId = m016;
@@ -447,8 +443,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (605,739);
-ref = circumflexcomb;
+pos = (365,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {

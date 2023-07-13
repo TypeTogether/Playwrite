@@ -1,0 +1,246 @@
+{
+color = 3;
+glyphname = z.ful_au.med;
+layers = (
+{
+anchors = (
+{
+name = cnct;
+pos = (525,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (460,0);
+}
+);
+layerId = m002;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (525,0);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (460,0);
+}
+);
+layerId = m004;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (525,0);
+}
+);
+layerId = m005;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (460,0);
+}
+);
+layerId = m006;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (525,0);
+}
+);
+layerId = m007;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (460,0);
+}
+);
+layerId = m008;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (525,0);
+}
+);
+layerId = m009;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 523;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (460,0);
+}
+);
+layerId = m010;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (525,0);
+}
+);
+layerId = m011;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (460,0);
+}
+);
+layerId = m012;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (525,0);
+}
+);
+layerId = m013;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (460,0);
+}
+);
+layerId = m014;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (525,0);
+}
+);
+layerId = m015;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (460,0);
+}
+);
+layerId = m016;
+shapes = (
+{
+ref = z.ful_au.fin;
+}
+);
+width = 525;
+}
+);
+}
