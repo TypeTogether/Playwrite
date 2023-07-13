@@ -9,7 +9,7 @@ ref = E;
 },
 {
 pos = (294,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -38,7 +38,7 @@ ref = E;
 },
 {
 pos = (318,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -67,7 +67,7 @@ ref = E;
 },
 {
 pos = (294,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -96,7 +96,7 @@ ref = E;
 },
 {
 pos = (318,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -125,7 +125,7 @@ ref = E;
 },
 {
 pos = (294,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -154,7 +154,7 @@ ref = E;
 },
 {
 pos = (318,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -183,7 +183,7 @@ ref = E;
 },
 {
 pos = (294,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -212,7 +212,7 @@ ref = E;
 },
 {
 pos = (318,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -240,8 +240,8 @@ shapes = (
 ref = E;
 },
 {
-pos = (455,0);
-ref = dotbelowcomb;
+pos = (472,0);
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -270,7 +270,7 @@ ref = E;
 },
 {
 pos = (493,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -299,7 +299,7 @@ ref = E;
 },
 {
 pos = (455,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -328,7 +328,7 @@ ref = E;
 },
 {
 pos = (493,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -357,7 +357,7 @@ ref = E;
 },
 {
 pos = (455,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -386,7 +386,7 @@ ref = E;
 },
 {
 pos = (493,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -411,13 +411,11 @@ width = 821;
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = E;
 },
 {
-alignment = -1;
-pos = (294,0);
-ref = dotbelowcomb;
+pos = (455,0);
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -436,7 +434,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 530;
+width = 821;
 },
 {
 layerId = m016;
@@ -446,7 +444,7 @@ ref = E;
 },
 {
 pos = (493,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {

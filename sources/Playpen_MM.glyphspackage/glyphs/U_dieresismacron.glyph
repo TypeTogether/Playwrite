@@ -8,12 +8,12 @@ shapes = (
 ref = U;
 },
 {
-pos = (345,270);
-ref = dieresiscomb;
+pos = (345,0);
+ref = dieresiscomb.case;
 },
 {
-pos = (345,459);
-ref = macroncomb;
+pos = (345,149);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -41,12 +41,12 @@ shapes = (
 ref = U;
 },
 {
-pos = (416,270);
-ref = dieresiscomb;
+pos = (328,0);
+ref = dieresiscomb.case;
 },
 {
-pos = (478,459);
-ref = macroncomb;
+pos = (378,149);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -71,17 +71,15 @@ width = 690;
 layerId = m003;
 shapes = (
 {
-alignment = -1;
 ref = U;
 },
 {
-alignment = -1;
-ref = dieresiscomb;
+pos = (345,0);
+ref = dieresiscomb.case;
 },
 {
-alignment = -1;
-pos = (0,189);
-ref = macroncomb;
+pos = (345,149);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -109,12 +107,12 @@ shapes = (
 ref = U;
 },
 {
-pos = (416,270);
-ref = dieresiscomb;
+pos = (329,0);
+ref = dieresiscomb.case;
 },
 {
-pos = (478,459);
-ref = macroncomb;
+pos = (378,149);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -142,12 +140,12 @@ shapes = (
 ref = U;
 },
 {
-pos = (345,270);
-ref = dieresiscomb;
+pos = (345,0);
+ref = dieresiscomb.case;
 },
 {
-pos = (345,479);
-ref = macroncomb;
+pos = (345,179);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -175,12 +173,12 @@ shapes = (
 ref = U;
 },
 {
-pos = (413,270);
-ref = dieresiscomb;
+pos = (327,0);
+ref = dieresiscomb.case;
 },
 {
-pos = (475,459);
-ref = macroncomb;
+pos = (385,179);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -205,17 +203,15 @@ width = 690;
 layerId = m007;
 shapes = (
 {
-alignment = -1;
 ref = U;
 },
 {
-alignment = -1;
-ref = dieresiscomb;
+pos = (345,0);
+ref = dieresiscomb.case;
 },
 {
-alignment = -1;
-pos = (0,189);
-ref = macroncomb;
+pos = (345,179);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -243,12 +239,12 @@ shapes = (
 ref = U;
 },
 {
-pos = (416,270);
-ref = dieresiscomb;
+pos = (330,0);
+ref = dieresiscomb.case;
 },
 {
-pos = (478,459);
-ref = macroncomb;
+pos = (388,179);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -276,12 +272,12 @@ shapes = (
 ref = U;
 },
 {
-pos = (535,739);
-ref = dieresiscomb;
+pos = (535,-1);
+ref = dieresiscomb.case;
 },
 {
-pos = (535,928);
-ref = macroncomb;
+pos = (535,218);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -309,12 +305,12 @@ shapes = (
 ref = U;
 },
 {
-pos = (750,739);
-ref = dieresiscomb;
+pos = (510,-1);
+ref = dieresiscomb.case;
 },
 {
-pos = (812,928);
-ref = macroncomb;
+pos = (573,188);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -339,17 +335,15 @@ width = 1069;
 layerId = m011;
 shapes = (
 {
-alignment = -1;
 ref = U;
 },
 {
-alignment = -1;
-ref = dieresiscomb;
+pos = (535,-1);
+ref = dieresiscomb.case;
 },
 {
-alignment = -1;
-pos = (0,189);
-ref = macroncomb;
+pos = (535,218);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -368,7 +362,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 1069;
 },
 {
 layerId = m012;
@@ -377,12 +371,12 @@ shapes = (
 ref = U;
 },
 {
-pos = (749,739);
-ref = dieresiscomb;
+pos = (509,-1);
+ref = dieresiscomb.case;
 },
 {
-pos = (811,928);
-ref = macroncomb;
+pos = (572,188);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -410,12 +404,12 @@ shapes = (
 ref = U;
 },
 {
-pos = (535,739);
-ref = dieresiscomb;
+pos = (535,-1);
+ref = dieresiscomb.case;
 },
 {
-pos = (535,948);
-ref = macroncomb;
+pos = (535,188);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -443,12 +437,12 @@ shapes = (
 ref = U;
 },
 {
-pos = (747,739);
-ref = dieresiscomb;
+pos = (506,-1);
+ref = dieresiscomb.case;
 },
 {
-pos = (809,928);
-ref = macroncomb;
+pos = (566,188);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -473,17 +467,15 @@ width = 1069;
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = U;
 },
 {
-alignment = -1;
-ref = dieresiscomb;
+pos = (535,-1);
+ref = dieresiscomb.case;
 },
 {
-alignment = -1;
-pos = (0,189);
-ref = macroncomb;
+pos = (535,188);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -502,7 +494,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 1069;
 },
 {
 layerId = m016;
@@ -511,12 +503,12 @@ shapes = (
 ref = U;
 },
 {
-pos = (749,739);
-ref = dieresiscomb;
+pos = (508,-1);
+ref = dieresiscomb.case;
 },
 {
-pos = (811,928);
-ref = macroncomb;
+pos = (568,188);
+ref = macroncomb.case;
 }
 );
 userData = {

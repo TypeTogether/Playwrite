@@ -8,8 +8,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (370,270);
-ref = macroncomb;
+pos = (370,0);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -37,8 +37,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (439,270);
-ref = macroncomb;
+pos = (354,0);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -66,8 +66,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (370,270);
-ref = macroncomb;
+pos = (370,0);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -95,8 +95,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (439,270);
-ref = macroncomb;
+pos = (354,0);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -124,8 +124,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (370,270);
-ref = macroncomb;
+pos = (370,0);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -153,8 +153,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (439,270);
-ref = macroncomb;
+pos = (353,0);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -182,8 +182,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (370,270);
-ref = macroncomb;
+pos = (370,0);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -211,8 +211,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (439,270);
-ref = macroncomb;
+pos = (353,0);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -240,8 +240,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (574,739);
-ref = macroncomb;
+pos = (574,-1);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -269,8 +269,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (785,739);
-ref = macroncomb;
+pos = (546,-1);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -298,8 +298,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (574,739);
-ref = macroncomb;
+pos = (574,-1);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -327,8 +327,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (785,739);
-ref = macroncomb;
+pos = (546,-1);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -356,8 +356,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (574,739);
-ref = macroncomb;
+pos = (574,-1);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -385,8 +385,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (785,739);
-ref = macroncomb;
+pos = (545,-1);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -414,8 +414,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (574,739);
-ref = macroncomb;
+pos = (574,-1);
+ref = macroncomb.case;
 }
 );
 userData = {
@@ -443,8 +443,8 @@ shapes = (
 ref = O;
 },
 {
-pos = (785,739);
-ref = macroncomb;
+pos = (545,-1);
+ref = macroncomb.case;
 }
 );
 userData = {

@@ -1,18 +1,15 @@
 {
-color = 9;
 glyphname = AEacute;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (535,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -31,7 +28,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 769;
+width = 771;
 },
 {
 layerId = m002;
@@ -40,8 +37,8 @@ shapes = (
 ref = AE;
 },
 {
-pos = (532,270);
-ref = acutecomb;
+pos = (515,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -66,13 +63,11 @@ width = 771;
 layerId = m003;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (535,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -91,7 +86,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 769;
+width = 771;
 },
 {
 layerId = m004;
@@ -100,8 +95,8 @@ shapes = (
 ref = AE;
 },
 {
-pos = (532,270);
-ref = acutecomb;
+pos = (515,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -126,13 +121,11 @@ width = 771;
 layerId = m005;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (535,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -151,19 +144,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1200;
+width = 771;
 },
 {
 layerId = m006;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (524,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -182,19 +173,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1200;
+width = 771;
 },
 {
 layerId = m007;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (535,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -213,19 +202,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1200;
+width = 771;
 },
 {
 layerId = m008;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (524,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -244,19 +231,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1200;
+width = 771;
 },
 {
 layerId = m009;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (860,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -275,19 +260,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1200;
+width = 1195;
 },
 {
 layerId = m010;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (836,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -306,19 +289,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1200;
+width = 1195;
 },
 {
 layerId = m011;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (860,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -337,19 +318,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1200;
+width = 1195;
 },
 {
 layerId = m012;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (836,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -368,19 +347,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1200;
+width = 1195;
 },
 {
 layerId = m013;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (860,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -399,19 +376,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1200;
+width = 1195;
 },
 {
 layerId = m014;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (836,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -430,19 +405,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1200;
+width = 1195;
 },
 {
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (860,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -461,19 +434,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1200;
+width = 1195;
 },
 {
 layerId = m016;
 shapes = (
 {
-alignment = -1;
 ref = AE;
 },
 {
-alignment = -1;
-pos = (532,270);
-ref = acutecomb;
+pos = (1075,739);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -492,7 +463,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1200;
+width = 1195;
 }
 );
 unicode = 508;

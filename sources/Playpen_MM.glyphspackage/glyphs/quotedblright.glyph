@@ -1,5 +1,4 @@
 {
-color = 4;
 glyphname = quotedblright;
 layers = (
 {
@@ -115,7 +114,7 @@ layerId = m005;
 shapes = (
 {
 angle = 180;
-pos = (265,1254);
+pos = (285,1254);
 ref = quotedblleft;
 }
 );
@@ -135,14 +134,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 265;
+width = 285;
 },
 {
 layerId = m006;
 shapes = (
 {
 angle = 180;
-pos = (543,1256);
+pos = (563,1256);
 ref = quotedblleft;
 }
 );
@@ -162,14 +161,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 265;
+width = 285;
 },
 {
 layerId = m007;
 shapes = (
 {
 angle = 180;
-pos = (265,1254);
+pos = (285,1254);
 ref = quotedblleft;
 }
 );
@@ -189,14 +188,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 265;
+width = 285;
 },
 {
 layerId = m008;
 shapes = (
 {
 angle = 180;
-pos = (543,1256);
+pos = (563,1256);
 ref = quotedblleft;
 }
 );
@@ -216,14 +215,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 265;
+width = 285;
 },
 {
 layerId = m009;
 shapes = (
 {
 angle = 180;
-pos = (265,2203);
+pos = (285,2203);
 ref = quotedblleft;
 }
 );
@@ -243,14 +242,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 265;
+width = 285;
 },
 {
 layerId = m010;
 shapes = (
 {
 angle = 180;
-pos = (851,2203);
+pos = (871,2203);
 ref = quotedblleft;
 }
 );
@@ -270,14 +269,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 265;
+width = 285;
 },
 {
 layerId = m011;
 shapes = (
 {
 angle = 180;
-pos = (265,2203);
+pos = (285,2203);
 ref = quotedblleft;
 }
 );
@@ -297,14 +296,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 265;
+width = 285;
 },
 {
 layerId = m012;
 shapes = (
 {
 angle = 180;
-pos = (851,2203);
+pos = (871,2203);
 ref = quotedblleft;
 }
 );
@@ -324,14 +323,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 265;
+width = 285;
 },
 {
 layerId = m013;
 shapes = (
 {
 angle = 180;
-pos = (265,2214);
+pos = (295,2214);
 ref = quotedblleft;
 }
 );
@@ -351,14 +350,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 265;
+width = 295;
 },
 {
 layerId = m014;
 shapes = (
 {
 angle = 180;
-pos = (855,2216);
+pos = (885,2216);
 ref = quotedblleft;
 }
 );
@@ -378,14 +377,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 265;
+width = 295;
 },
 {
 layerId = m015;
 shapes = (
 {
 angle = 180;
-pos = (265,2254);
+pos = (285,2214);
 ref = quotedblleft;
 }
 );
@@ -405,14 +404,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 265;
+width = 285;
 },
 {
 layerId = m016;
 shapes = (
 {
 angle = 180;
-pos = (855,2216);
+pos = (885,2216);
 ref = quotedblleft;
 }
 );
@@ -432,7 +431,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 265;
+width = 295;
 }
 );
 unicode = 8221;

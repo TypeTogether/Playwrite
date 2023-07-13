@@ -9,7 +9,7 @@ ref = U;
 },
 {
 pos = (345,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -38,7 +38,7 @@ ref = U;
 },
 {
 pos = (345,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -63,12 +63,11 @@ width = 690;
 layerId = m003;
 shapes = (
 {
-alignment = -1;
 ref = U;
 },
 {
-alignment = -1;
-ref = dotbelowcomb;
+pos = (345,0);
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -97,7 +96,7 @@ ref = U;
 },
 {
 pos = (345,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -126,7 +125,7 @@ ref = U;
 },
 {
 pos = (345,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -155,7 +154,7 @@ ref = U;
 },
 {
 pos = (342,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -180,12 +179,11 @@ width = 690;
 layerId = m007;
 shapes = (
 {
-alignment = -1;
 ref = U;
 },
 {
-alignment = -1;
-ref = dotbelowcomb;
+pos = (345,0);
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -214,7 +212,7 @@ ref = U;
 },
 {
 pos = (345,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -243,7 +241,7 @@ ref = U;
 },
 {
 pos = (535,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -272,7 +270,7 @@ ref = U;
 },
 {
 pos = (536,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -297,12 +295,11 @@ width = 1069;
 layerId = m011;
 shapes = (
 {
-alignment = -1;
 ref = U;
 },
 {
-alignment = -1;
-ref = dotbelowcomb;
+pos = (535,0);
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -321,7 +318,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 1069;
 },
 {
 layerId = m012;
@@ -331,7 +328,7 @@ ref = U;
 },
 {
 pos = (535,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -360,7 +357,7 @@ ref = U;
 },
 {
 pos = (535,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -389,7 +386,7 @@ ref = U;
 },
 {
 pos = (533,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -414,12 +411,11 @@ width = 1069;
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = U;
 },
 {
-alignment = -1;
-ref = dotbelowcomb;
+pos = (535,0);
+ref = dotbelowcomb.case;
 }
 );
 userData = {
@@ -438,7 +434,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 1069;
 },
 {
 layerId = m016;
@@ -448,7 +444,7 @@ ref = U;
 },
 {
 pos = (535,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 }
 );
 userData = {

@@ -8,8 +8,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (345,270);
-ref = tildecomb;
+pos = (345,0);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -37,8 +37,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (416,270);
-ref = tildecomb;
+pos = (330,0);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -66,8 +66,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (345,270);
-ref = tildecomb;
+pos = (345,0);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -95,8 +95,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (416,270);
-ref = tildecomb;
+pos = (330,0);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -124,8 +124,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (345,270);
-ref = tildecomb;
+pos = (345,0);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -153,8 +153,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (413,270);
-ref = tildecomb;
+pos = (328,0);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -182,8 +182,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (345,270);
-ref = tildecomb;
+pos = (345,0);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -211,8 +211,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (416,270);
-ref = tildecomb;
+pos = (331,0);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -240,8 +240,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (535,739);
-ref = tildecomb;
+pos = (535,-1);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -269,8 +269,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (750,739);
-ref = tildecomb;
+pos = (511,-1);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -298,8 +298,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (535,739);
-ref = tildecomb;
+pos = (535,-1);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -327,8 +327,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (749,739);
-ref = tildecomb;
+pos = (510,-1);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -356,8 +356,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (535,739);
-ref = tildecomb;
+pos = (535,-1);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -385,8 +385,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (747,739);
-ref = tildecomb;
+pos = (507,-1);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -414,8 +414,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (535,739);
-ref = tildecomb;
+pos = (535,-1);
+ref = tildecomb.case;
 }
 );
 userData = {
@@ -443,8 +443,8 @@ shapes = (
 ref = Uhorn;
 },
 {
-pos = (749,739);
-ref = tildecomb;
+pos = (509,-1);
+ref = tildecomb.case;
 }
 );
 userData = {

@@ -8,8 +8,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (345,270);
-ref = gravecomb;
+pos = (345,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -37,8 +37,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (416,270);
-ref = gravecomb;
+pos = (330,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -63,12 +63,11 @@ width = 690;
 layerId = m003;
 shapes = (
 {
-alignment = -1;
 ref = U;
 },
 {
-alignment = -1;
-ref = gravecomb;
+pos = (345,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -96,8 +95,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (416,270);
-ref = gravecomb;
+pos = (330,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -125,8 +124,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (345,270);
-ref = gravecomb;
+pos = (345,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -154,8 +153,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (413,270);
-ref = gravecomb;
+pos = (327,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -180,12 +179,11 @@ width = 690;
 layerId = m007;
 shapes = (
 {
-alignment = -1;
 ref = U;
 },
 {
-alignment = -1;
-ref = gravecomb;
+pos = (345,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -213,8 +211,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (416,270);
-ref = gravecomb;
+pos = (330,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -242,8 +240,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (535,739);
-ref = gravecomb;
+pos = (535,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -271,8 +269,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (750,739);
-ref = gravecomb;
+pos = (511,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -297,12 +295,11 @@ width = 1069;
 layerId = m011;
 shapes = (
 {
-alignment = -1;
 ref = U;
 },
 {
-alignment = -1;
-ref = gravecomb;
+pos = (535,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -321,7 +318,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 1069;
 },
 {
 layerId = m012;
@@ -330,8 +327,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (749,739);
-ref = gravecomb;
+pos = (510,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -359,8 +356,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (535,739);
-ref = gravecomb;
+pos = (535,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -388,8 +385,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (747,739);
-ref = gravecomb;
+pos = (508,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -414,12 +411,11 @@ width = 1069;
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = U;
 },
 {
-alignment = -1;
-ref = gravecomb;
+pos = (535,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -438,7 +434,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 1069;
 },
 {
 layerId = m016;
@@ -448,7 +444,7 @@ ref = U;
 },
 {
 pos = (749,739);
-ref = gravecomb;
+ref = gravecomb.case;
 }
 );
 userData = {

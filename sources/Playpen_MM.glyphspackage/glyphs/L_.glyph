@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = L;
 layers = (
 {
@@ -14,7 +13,7 @@ pos = (135,360);
 },
 {
 name = centerCase;
-pos = (150,360);
+pos = (157,360);
 },
 {
 name = top;
@@ -558,7 +557,7 @@ pos = (209,612);
 },
 {
 name = centerCase;
-pos = (232,612);
+pos = (352,612);
 },
 {
 name = top;
@@ -566,7 +565,7 @@ pos = (209,1139);
 },
 {
 name = topright;
-pos = (263,1190);
+pos = (303,1190);
 }
 );
 layerId = m009;
@@ -626,7 +625,7 @@ pos = (339,612);
 },
 {
 name = centerCase;
-pos = (370,612);
+pos = (480,612);
 },
 {
 name = top;
@@ -694,7 +693,7 @@ pos = (209,612);
 },
 {
 name = centerCase;
-pos = (232,612);
+pos = (352,612);
 },
 {
 name = top;
@@ -762,7 +761,7 @@ pos = (339,612);
 },
 {
 name = centerCase;
-pos = (370,612);
+pos = (480,612);
 },
 {
 name = top;
@@ -830,7 +829,7 @@ pos = (209,612);
 },
 {
 name = centerCase;
-pos = (232,612);
+pos = (342,612);
 },
 {
 name = top;
@@ -838,7 +837,7 @@ pos = (209,1139);
 },
 {
 name = topright;
-pos = (263,1190);
+pos = (293,1190);
 }
 );
 layerId = m013;
@@ -898,7 +897,7 @@ pos = (339,612);
 },
 {
 name = centerCase;
-pos = (370,612);
+pos = (480,612);
 },
 {
 name = top;
@@ -906,7 +905,7 @@ pos = (514,1139);
 },
 {
 name = topright;
-pos = (586,1190);
+pos = (606,1190);
 }
 );
 layerId = m014;
@@ -966,7 +965,7 @@ pos = (209,612);
 },
 {
 name = centerCase;
-pos = (232,612);
+pos = (342,612);
 },
 {
 name = top;
@@ -1034,7 +1033,7 @@ pos = (339,612);
 },
 {
 name = centerCase;
-pos = (370,612);
+pos = (480,612);
 },
 {
 name = top;
@@ -1042,7 +1041,7 @@ pos = (514,1139);
 },
 {
 name = topright;
-pos = (586,1190);
+pos = (606,1190);
 }
 );
 layerId = m016;

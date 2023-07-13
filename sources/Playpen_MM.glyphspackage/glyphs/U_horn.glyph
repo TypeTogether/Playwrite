@@ -8,8 +8,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (566,298);
-ref = horncomb;
+pos = (566,4);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -37,8 +37,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (661,298);
-ref = horncomb;
+pos = (565,0);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -66,8 +66,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (566,299);
-ref = horncomb;
+pos = (566,4);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -95,8 +95,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (661,298);
-ref = horncomb;
+pos = (565,0);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -124,8 +124,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (566,298);
-ref = horncomb;
+pos = (566,-2);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -153,8 +153,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (658,298);
-ref = horncomb;
+pos = (561,-2);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -182,8 +182,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (566,299);
-ref = horncomb;
+pos = (566,-1);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -211,8 +211,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (661,298);
-ref = horncomb;
+pos = (564,-2);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -240,8 +240,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (877,795);
-ref = horncomb;
+pos = (877,1);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -269,8 +269,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (1134,795);
-ref = horncomb;
+pos = (872,1);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -298,8 +298,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (877,796);
-ref = horncomb;
+pos = (877,1);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -327,8 +327,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (1133,795);
-ref = horncomb;
+pos = (871,1);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -356,8 +356,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (877,795);
-ref = horncomb;
+pos = (877,-5);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -385,8 +385,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (1131,795);
-ref = horncomb;
+pos = (872,-5);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -414,8 +414,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (877,795);
-ref = horncomb;
+pos = (877,-4);
+ref = horncomb.case;
 }
 );
 userData = {
@@ -443,8 +443,8 @@ shapes = (
 ref = U;
 },
 {
-pos = (1133,795);
-ref = horncomb;
+pos = (873,-5);
+ref = horncomb.case;
 }
 );
 userData = {

@@ -9,11 +9,11 @@ ref = O;
 },
 {
 pos = (370,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (370,270);
-ref = circumflexcomb;
+pos = (370,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -42,11 +42,11 @@ ref = O;
 },
 {
 pos = (370,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (439,270);
-ref = circumflexcomb;
+pos = (353,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -75,11 +75,11 @@ ref = O;
 },
 {
 pos = (370,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (370,270);
-ref = circumflexcomb;
+pos = (370,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -108,11 +108,11 @@ ref = O;
 },
 {
 pos = (370,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (439,270);
-ref = circumflexcomb;
+pos = (353,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -141,11 +141,11 @@ ref = O;
 },
 {
 pos = (370,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (370,270);
-ref = circumflexcomb;
+pos = (370,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -174,11 +174,11 @@ ref = O;
 },
 {
 pos = (370,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (439,270);
-ref = circumflexcomb;
+pos = (353,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -207,11 +207,11 @@ ref = O;
 },
 {
 pos = (370,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (370,270);
-ref = circumflexcomb;
+pos = (370,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -240,11 +240,11 @@ ref = O;
 },
 {
 pos = (370,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (439,270);
-ref = circumflexcomb;
+pos = (353,0);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -273,11 +273,11 @@ ref = O;
 },
 {
 pos = (574,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (574,739);
-ref = circumflexcomb;
+pos = (574,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -306,11 +306,11 @@ ref = O;
 },
 {
 pos = (573,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (785,739);
-ref = circumflexcomb;
+pos = (546,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -339,11 +339,11 @@ ref = O;
 },
 {
 pos = (574,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (574,739);
-ref = circumflexcomb;
+pos = (574,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -372,11 +372,11 @@ ref = O;
 },
 {
 pos = (573,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (785,739);
-ref = circumflexcomb;
+pos = (546,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -405,11 +405,11 @@ ref = O;
 },
 {
 pos = (574,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (574,739);
-ref = circumflexcomb;
+pos = (574,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -438,11 +438,11 @@ ref = O;
 },
 {
 pos = (573,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (785,739);
-ref = circumflexcomb;
+pos = (545,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -471,11 +471,11 @@ ref = O;
 },
 {
 pos = (574,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (574,739);
-ref = circumflexcomb;
+pos = (574,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
@@ -504,11 +504,11 @@ ref = O;
 },
 {
 pos = (573,0);
-ref = dotbelowcomb;
+ref = dotbelowcomb.case;
 },
 {
-pos = (785,739);
-ref = circumflexcomb;
+pos = (545,-1);
+ref = circumflexcomb.case;
 }
 );
 userData = {
