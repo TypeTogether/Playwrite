@@ -8,8 +8,8 @@ shapes = (
 ref = Z;
 },
 {
-pos = (245,270);
-ref = caroncomb;
+pos = (245,0);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -37,8 +37,8 @@ shapes = (
 ref = Z;
 },
 {
-pos = (302,270);
-ref = caroncomb;
+pos = (216,0);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -63,13 +63,11 @@ width = 490;
 layerId = m003;
 shapes = (
 {
-alignment = -1;
 ref = Z;
 },
 {
-alignment = -1;
-pos = (245,300);
-ref = caroncomb;
+pos = (245,0);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -97,8 +95,8 @@ shapes = (
 ref = Z;
 },
 {
-pos = (302,270);
-ref = caroncomb;
+pos = (216,0);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -126,8 +124,8 @@ shapes = (
 ref = Z;
 },
 {
-pos = (245,270);
-ref = caroncomb;
+pos = (245,0);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -155,8 +153,8 @@ shapes = (
 ref = Z;
 },
 {
-pos = (302,270);
-ref = caroncomb;
+pos = (216,0);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -181,13 +179,11 @@ width = 490;
 layerId = m007;
 shapes = (
 {
-alignment = -1;
 ref = Z;
 },
 {
-alignment = -1;
-pos = (245,300);
-ref = caroncomb;
+pos = (245,0);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -215,8 +211,8 @@ shapes = (
 ref = Z;
 },
 {
-pos = (302,270);
-ref = caroncomb;
+pos = (216,0);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -244,8 +240,8 @@ shapes = (
 ref = Z;
 },
 {
-pos = (380,739);
-ref = caroncomb;
+pos = (380,-1);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -273,8 +269,8 @@ shapes = (
 ref = Z;
 },
 {
-pos = (572,739);
-ref = caroncomb;
+pos = (333,-1);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -299,13 +295,11 @@ width = 760;
 layerId = m011;
 shapes = (
 {
-alignment = -1;
 ref = Z;
 },
 {
-alignment = -1;
-pos = (245,300);
-ref = caroncomb;
+pos = (380,-1);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -324,7 +318,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 490;
+width = 759;
 },
 {
 layerId = m012;
@@ -333,8 +327,8 @@ shapes = (
 ref = Z;
 },
 {
-pos = (572,739);
-ref = caroncomb;
+pos = (333,-1);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -362,8 +356,8 @@ shapes = (
 ref = Z;
 },
 {
-pos = (380,739);
-ref = caroncomb;
+pos = (380,-1);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -391,8 +385,8 @@ shapes = (
 ref = Z;
 },
 {
-pos = (572,739);
-ref = caroncomb;
+pos = (332,-1);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -417,13 +411,11 @@ width = 760;
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = Z;
 },
 {
-alignment = -1;
-pos = (245,300);
-ref = caroncomb;
+pos = (380,-1);
+ref = caroncomb.case;
 }
 );
 userData = {
@@ -442,7 +434,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 490;
+width = 759;
 },
 {
 layerId = m016;
@@ -452,7 +444,7 @@ ref = Z;
 },
 {
 pos = (572,739);
-ref = caroncomb;
+ref = caroncomb.case;
 }
 );
 userData = {

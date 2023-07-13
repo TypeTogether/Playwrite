@@ -1,5 +1,4 @@
 {
-color = 9;
 glyphname = IJacute;
 layers = (
 {
@@ -13,8 +12,8 @@ pos = (270,0);
 ref = J;
 },
 {
-pos = (670,270);
-ref = acutecomb;
+pos = (670,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -46,8 +45,8 @@ pos = (270,0);
 ref = J;
 },
 {
-pos = (751,270);
-ref = acutecomb;
+pos = (664,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -79,8 +78,8 @@ pos = (270,0);
 ref = J;
 },
 {
-pos = (670,270);
-ref = acutecomb;
+pos = (670,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -112,8 +111,8 @@ pos = (270,0);
 ref = J;
 },
 {
-pos = (751,270);
-ref = acutecomb;
+pos = (664,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -145,8 +144,8 @@ pos = (270,0);
 ref = J;
 },
 {
-pos = (670,270);
-ref = acutecomb;
+pos = (670,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -178,8 +177,8 @@ pos = (270,0);
 ref = J;
 },
 {
-pos = (751,270);
-ref = acutecomb;
+pos = (665,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -211,8 +210,8 @@ pos = (270,0);
 ref = J;
 },
 {
-pos = (670,270);
-ref = acutecomb;
+pos = (670,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -244,8 +243,8 @@ pos = (270,0);
 ref = J;
 },
 {
-pos = (751,270);
-ref = acutecomb;
+pos = (665,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -277,8 +276,8 @@ pos = (418,0);
 ref = J;
 },
 {
-pos = (1038,739);
-ref = acutecomb;
+pos = (1038,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -310,8 +309,8 @@ pos = (418,0);
 ref = J;
 },
 {
-pos = (1268,739);
-ref = acutecomb;
+pos = (1029,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -343,8 +342,8 @@ pos = (418,0);
 ref = J;
 },
 {
-pos = (1038,739);
-ref = acutecomb;
+pos = (1038,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -376,8 +375,8 @@ pos = (418,0);
 ref = J;
 },
 {
-pos = (1267,739);
-ref = acutecomb;
+pos = (1028,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -409,8 +408,8 @@ pos = (418,0);
 ref = J;
 },
 {
-pos = (1038,739);
-ref = acutecomb;
+pos = (1038,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -442,8 +441,8 @@ pos = (418,0);
 ref = J;
 },
 {
-pos = (1268,739);
-ref = acutecomb;
+pos = (1029,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -475,8 +474,8 @@ pos = (418,0);
 ref = J;
 },
 {
-pos = (1038,739);
-ref = acutecomb;
+pos = (1038,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -509,7 +508,7 @@ ref = J;
 },
 {
 pos = (1267,739);
-ref = acutecomb;
+ref = acutecomb.case;
 }
 );
 userData = {

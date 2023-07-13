@@ -9,7 +9,7 @@ ref = I;
 },
 {
 pos = (97,-4);
-ref = ogonekcomb;
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -38,7 +38,7 @@ ref = I;
 },
 {
 pos = (77,-5);
-ref = ogonekcomb;
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -67,7 +67,7 @@ ref = I;
 },
 {
 pos = (97,-4);
-ref = ogonekcomb;
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -96,7 +96,7 @@ ref = I;
 },
 {
 pos = (77,-5);
-ref = ogonekcomb;
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -125,7 +125,7 @@ ref = I;
 },
 {
 pos = (97,-4);
-ref = ogonekcomb;
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -154,7 +154,7 @@ ref = I;
 },
 {
 pos = (74,-5);
-ref = ogonekcomb;
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -183,7 +183,7 @@ ref = I;
 },
 {
 pos = (97,-4);
-ref = ogonekcomb;
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -212,7 +212,7 @@ ref = I;
 },
 {
 pos = (61,-5);
-ref = ogonekcomb;
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -241,7 +241,7 @@ ref = I;
 },
 {
 pos = (179,-7);
-ref = ogonekcomb;
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -269,8 +269,8 @@ shapes = (
 ref = I;
 },
 {
-pos = (159,-9);
-ref = ogonekcomb;
+pos = (154,0);
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -299,7 +299,7 @@ ref = I;
 },
 {
 pos = (179,-7);
-ref = ogonekcomb;
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -327,8 +327,8 @@ shapes = (
 ref = I;
 },
 {
-pos = (159,-9);
-ref = ogonekcomb;
+pos = (154,0);
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -356,8 +356,8 @@ shapes = (
 ref = I;
 },
 {
-pos = (179,-7);
-ref = ogonekcomb;
+pos = (175,0);
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -386,7 +386,7 @@ ref = I;
 },
 {
 pos = (156,-9);
-ref = ogonekcomb;
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -411,13 +411,11 @@ width = 418;
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = I;
 },
 {
-alignment = -1;
-pos = (97,-4);
-ref = ogonekcomb;
+pos = (175,0);
+ref = ogonekcomb.case;
 }
 );
 userData = {
@@ -436,7 +434,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 270;
+width = 418;
 },
 {
 layerId = m016;
@@ -446,7 +444,7 @@ ref = I;
 },
 {
 pos = (143,-9);
-ref = ogonekcomb;
+ref = ogonekcomb.case;
 }
 );
 userData = {

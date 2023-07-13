@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = E;
 layers = (
 {
@@ -598,7 +597,7 @@ width = 530;
 anchors = (
 {
 name = bottom;
-pos = (455,0);
+pos = (472,0);
 },
 {
 name = ogonek;
@@ -676,7 +675,7 @@ pos = (428,0);
 },
 {
 name = ogonek;
-pos = (699,17);
+pos = (681,0);
 },
 {
 name = top;
@@ -824,7 +823,7 @@ pos = (428,0);
 },
 {
 name = ogonek;
-pos = (699,17);
+pos = (681,0);
 },
 {
 name = top;
@@ -898,7 +897,7 @@ pos = (455,0);
 },
 {
 name = ogonek;
-pos = (755,17);
+pos = (746,0);
 },
 {
 name = top;
@@ -1046,7 +1045,7 @@ pos = (455,0);
 },
 {
 name = ogonek;
-pos = (755,17);
+pos = (746,0);
 },
 {
 name = top;

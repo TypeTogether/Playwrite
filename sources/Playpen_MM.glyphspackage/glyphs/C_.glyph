@@ -1,5 +1,4 @@
 {
-color = 11;
 glyphname = C;
 layers = (
 {
@@ -371,7 +370,7 @@ width = 620;
 anchors = (
 {
 name = bottom;
-pos = (285,0);
+pos = (312,0);
 },
 {
 name = top;

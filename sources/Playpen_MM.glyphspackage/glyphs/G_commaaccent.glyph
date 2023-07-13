@@ -9,7 +9,7 @@ ref = G;
 },
 {
 pos = (350,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -38,7 +38,7 @@ ref = G;
 },
 {
 pos = (360,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -67,7 +67,7 @@ ref = G;
 },
 {
 pos = (350,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -96,7 +96,7 @@ ref = G;
 },
 {
 pos = (360,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -125,7 +125,7 @@ ref = G;
 },
 {
 pos = (350,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -153,8 +153,8 @@ shapes = (
 ref = G;
 },
 {
-pos = (360,0);
-ref = commaaccentcomb;
+pos = (375,0);
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -183,7 +183,7 @@ ref = G;
 },
 {
 pos = (350,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -212,7 +212,7 @@ ref = G;
 },
 {
 pos = (360,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -241,7 +241,7 @@ ref = G;
 },
 {
 pos = (543,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -270,7 +270,7 @@ ref = G;
 },
 {
 pos = (558,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -299,7 +299,7 @@ ref = G;
 },
 {
 pos = (543,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -328,7 +328,7 @@ ref = G;
 },
 {
 pos = (558,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -357,7 +357,7 @@ ref = G;
 },
 {
 pos = (543,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -386,7 +386,7 @@ ref = G;
 },
 {
 pos = (555,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -411,13 +411,11 @@ width = 1085;
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = G;
 },
 {
-alignment = -1;
-pos = (350,0);
-ref = commaaccentcomb;
+pos = (543,0);
+ref = commaaccentcomb.case;
 }
 );
 userData = {
@@ -436,7 +434,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 700;
+width = 1085;
 },
 {
 layerId = m016;
@@ -446,7 +444,7 @@ ref = G;
 },
 {
 pos = (556,0);
-ref = commaaccentcomb;
+ref = commaaccentcomb.case;
 }
 );
 userData = {

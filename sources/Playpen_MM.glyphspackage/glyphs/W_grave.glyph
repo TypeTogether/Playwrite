@@ -8,8 +8,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (480,270);
-ref = gravecomb;
+pos = (480,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -37,8 +37,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (557,270);
-ref = gravecomb;
+pos = (471,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -66,8 +66,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (480,270);
-ref = gravecomb;
+pos = (480,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -95,8 +95,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (557,270);
-ref = gravecomb;
+pos = (471,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -124,8 +124,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (480,270);
-ref = gravecomb;
+pos = (480,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -153,8 +153,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (557,270);
-ref = gravecomb;
+pos = (471,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -182,8 +182,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (480,270);
-ref = gravecomb;
+pos = (480,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -211,8 +211,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (557,270);
-ref = gravecomb;
+pos = (471,0);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -240,8 +240,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (725,739);
-ref = gravecomb;
+pos = (725,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -269,8 +269,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (949,739);
-ref = gravecomb;
+pos = (710,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -295,13 +295,11 @@ width = 1450;
 layerId = m011;
 shapes = (
 {
-alignment = -1;
 ref = W;
 },
 {
-alignment = -1;
-pos = (744,739);
-ref = gravecomb;
+pos = (725,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -320,7 +318,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1489;
+width = 1450;
 },
 {
 layerId = m012;
@@ -329,8 +327,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (949,739);
-ref = gravecomb;
+pos = (710,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -358,8 +356,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (725,739);
-ref = gravecomb;
+pos = (725,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -387,8 +385,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (948,739);
-ref = gravecomb;
+pos = (709,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -416,8 +414,8 @@ shapes = (
 ref = W;
 },
 {
-pos = (725,739);
-ref = gravecomb;
+pos = (725,-1);
+ref = gravecomb.case;
 }
 );
 userData = {
@@ -446,7 +444,7 @@ ref = W;
 },
 {
 pos = (948,739);
-ref = gravecomb;
+ref = gravecomb.case;
 }
 );
 userData = {

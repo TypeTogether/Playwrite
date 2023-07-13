@@ -8,8 +8,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (135,270);
-ref = acutecomb;
+pos = (135,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -37,8 +37,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (222,270);
-ref = acutecomb;
+pos = (135,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -66,8 +66,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (135,270);
-ref = acutecomb;
+pos = (135,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -95,8 +95,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (222,270);
-ref = acutecomb;
+pos = (135,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -124,8 +124,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (135,270);
-ref = acutecomb;
+pos = (135,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -153,8 +153,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (222,270);
-ref = acutecomb;
+pos = (136,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -182,8 +182,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (135,270);
-ref = acutecomb;
+pos = (135,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -211,8 +211,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (222,270);
-ref = acutecomb;
+pos = (136,0);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -240,8 +240,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (209,739);
-ref = acutecomb;
+pos = (209,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -269,8 +269,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (449,739);
-ref = acutecomb;
+pos = (210,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -298,8 +298,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (209,739);
-ref = acutecomb;
+pos = (209,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -327,8 +327,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (449,739);
-ref = acutecomb;
+pos = (210,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -356,8 +356,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (209,739);
-ref = acutecomb;
+pos = (209,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -385,8 +385,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (449,739);
-ref = acutecomb;
+pos = (210,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -414,8 +414,8 @@ shapes = (
 ref = L;
 },
 {
-pos = (209,739);
-ref = acutecomb;
+pos = (209,-1);
+ref = acutecomb.case;
 }
 );
 userData = {
@@ -444,7 +444,7 @@ ref = L;
 },
 {
 pos = (449,739);
-ref = acutecomb;
+ref = acutecomb.case;
 }
 );
 userData = {

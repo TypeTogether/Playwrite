@@ -8,8 +8,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (245,270);
-ref = hookabovecomb;
+pos = (245,0);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -37,8 +37,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (311,270);
-ref = hookabovecomb;
+pos = (224,0);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -66,8 +66,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (245,270);
-ref = hookabovecomb;
+pos = (245,0);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -95,8 +95,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (311,270);
-ref = hookabovecomb;
+pos = (224,0);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -124,8 +124,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (245,270);
-ref = hookabovecomb;
+pos = (245,0);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -153,8 +153,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (311,270);
-ref = hookabovecomb;
+pos = (226,0);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -182,8 +182,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (245,270);
-ref = hookabovecomb;
+pos = (245,0);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -211,8 +211,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (311,270);
-ref = hookabovecomb;
+pos = (226,0);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -240,8 +240,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (400,739);
-ref = hookabovecomb;
+pos = (400,-1);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -269,8 +269,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (605,739);
-ref = hookabovecomb;
+pos = (366,-1);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -298,8 +298,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (400,739);
-ref = hookabovecomb;
+pos = (400,-1);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -327,8 +327,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (605,739);
-ref = hookabovecomb;
+pos = (366,-1);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -356,8 +356,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (400,739);
-ref = hookabovecomb;
+pos = (400,-1);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -385,8 +385,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (605,739);
-ref = hookabovecomb;
+pos = (365,-1);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -411,13 +411,11 @@ width = 800;
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = Y;
 },
 {
-alignment = -1;
-pos = (245,270);
-ref = hookabovecomb;
+pos = (400,-1);
+ref = hookabovecomb.case;
 }
 );
 userData = {
@@ -436,7 +434,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 490;
+width = 800;
 },
 {
 layerId = m016;
@@ -445,8 +443,8 @@ shapes = (
 ref = Y;
 },
 {
-pos = (605,739);
-ref = hookabovecomb;
+pos = (365,-1);
+ref = hookabovecomb.case;
 }
 );
 userData = {

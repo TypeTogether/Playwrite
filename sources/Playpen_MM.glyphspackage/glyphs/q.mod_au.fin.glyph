@@ -1,0 +1,150 @@
+{
+color = 3;
+glyphname = q.mod_au.fin;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m006;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m007;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m008;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m009;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m010;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m011;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m012;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m013;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m014;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m015;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+},
+{
+layerId = m016;
+shapes = (
+{
+ref = q.mod_au;
+}
+);
+width = 498;
+}
+);
+}
