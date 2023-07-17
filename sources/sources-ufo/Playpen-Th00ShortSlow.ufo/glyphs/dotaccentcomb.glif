@@ -1,57 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccentcomb" format="2">
-	<unicode hex="0307"/>
-	<outline>
-		<contour>
-			<point x="0" y="552" type="curve" smooth="yes"/>
-			<point x="20" y="552"/>
-			<point x="30" y="563"/>
-			<point x="30" y="586" type="curve" smooth="yes"/>
-			<point x="30" y="609"/>
-			<point x="20" y="620"/>
-			<point x="0" y="620" type="curve" smooth="yes"/>
-			<point x="-20" y="620"/>
-			<point x="-30" y="609"/>
-			<point x="-30" y="586" type="curve" smooth="yes"/>
-			<point x="-30" y="563"/>
-			<point x="-20" y="552"/>
-		</contour>
-	</outline>
-	<anchor name="_top" x="0" y="400"/>
-	<anchor name="top" x="0" y="620"/>
-	<lib>
-		<dict>
-			<key>com.hugojourdan.ColorFlow</key>
-			<dict>
-				<key>0</key>
-				<integer>0</integer>
-				<key>1</key>
-				<integer>0</integer>
-				<key>10</key>
-				<integer>0</integer>
-				<key>11</key>
-				<integer>0</integer>
-				<key>2</key>
-				<integer>0</integer>
-				<key>3</key>
-				<integer>0</integer>
-				<key>4</key>
-				<integer>0</integer>
-				<key>5</key>
-				<integer>0</integer>
-				<key>6</key>
-				<integer>0</integer>
-				<key>7</key>
-				<integer>0</integer>
-				<key>8</key>
-				<integer>0</integer>
-				<key>9</key>
-				<integer>0</integer>
-			</dict>
-			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
-			<integer>250</integer>
-			<key>public.markColor</key>
-			<string>0,0.67,0.91,1</string>
-		</dict>
-	</lib>
+  <unicode hex="0307"/>
+  <anchor x="0" y="400" name="_top"/>
+  <anchor x="0" y="620" name="top"/>
+  <outline>
+    <contour>
+      <point x="0" y="552" type="curve" smooth="yes"/>
+      <point x="20" y="552"/>
+      <point x="30" y="563"/>
+      <point x="30" y="586" type="curve" smooth="yes"/>
+      <point x="30" y="609"/>
+      <point x="20" y="620"/>
+      <point x="0" y="620" type="curve" smooth="yes"/>
+      <point x="-20" y="620"/>
+      <point x="-30" y="609"/>
+      <point x="-30" y="586" type="curve" smooth="yes"/>
+      <point x="-30" y="563"/>
+      <point x="-20" y="552"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>250</integer>
+    </dict>
+  </lib>
 </glyph>

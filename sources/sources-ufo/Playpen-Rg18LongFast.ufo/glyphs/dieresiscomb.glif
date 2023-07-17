@@ -1,71 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresiscomb" format="2">
-	<unicode hex="0308"/>
-	<outline>
-		<contour>
-			<point x="17" y="535" type="curve" smooth="yes"/>
-			<point x="57" y="535"/>
-			<point x="75" y="566"/>
-			<point x="75" y="595" type="curve" smooth="yes"/>
-			<point x="75" y="622"/>
-			<point x="58" y="636"/>
-			<point x="36" y="636" type="curve" smooth="yes"/>
-			<point x="-4" y="636"/>
-			<point x="-22" y="605"/>
-			<point x="-22" y="576" type="curve" smooth="yes"/>
-			<point x="-22" y="549"/>
-			<point x="-5" y="535"/>
-		</contour>
-		<contour>
-			<point x="214" y="535" type="curve" smooth="yes"/>
-			<point x="254" y="535"/>
-			<point x="272" y="566"/>
-			<point x="272" y="595" type="curve" smooth="yes"/>
-			<point x="272" y="622"/>
-			<point x="255" y="636"/>
-			<point x="233" y="636" type="curve" smooth="yes"/>
-			<point x="193" y="636"/>
-			<point x="175" y="605"/>
-			<point x="175" y="576" type="curve" smooth="yes"/>
-			<point x="175" y="549"/>
-			<point x="192" y="535"/>
-		</contour>
-	</outline>
-	<anchor name="_top" x="65" y="400"/>
-	<anchor name="top" x="127" y="589"/>
-	<lib>
-		<dict>
-			<key>com.hugojourdan.ColorFlow</key>
-			<dict>
-				<key>0</key>
-				<integer>0</integer>
-				<key>1</key>
-				<integer>0</integer>
-				<key>10</key>
-				<integer>0</integer>
-				<key>11</key>
-				<integer>0</integer>
-				<key>2</key>
-				<integer>0</integer>
-				<key>3</key>
-				<integer>0</integer>
-				<key>4</key>
-				<integer>0</integer>
-				<key>5</key>
-				<integer>0</integer>
-				<key>6</key>
-				<integer>0</integer>
-				<key>7</key>
-				<integer>0</integer>
-				<key>8</key>
-				<integer>0</integer>
-				<key>9</key>
-				<integer>0</integer>
-			</dict>
-			<key>com.schriftgestaltung.Glyphs.originalWidth</key>
-			<integer>250</integer>
-			<key>public.markColor</key>
-			<string>0,0.67,0.91,1</string>
-		</dict>
-	</lib>
+  <unicode hex="0308"/>
+  <anchor x="65" y="400" name="_top"/>
+  <anchor x="127" y="589" name="top"/>
+  <outline>
+    <contour>
+      <point x="17" y="535" type="curve" smooth="yes"/>
+      <point x="57" y="535"/>
+      <point x="75" y="566"/>
+      <point x="75" y="595" type="curve" smooth="yes"/>
+      <point x="75" y="622"/>
+      <point x="58" y="636"/>
+      <point x="36" y="636" type="curve" smooth="yes"/>
+      <point x="-4" y="636"/>
+      <point x="-22" y="605"/>
+      <point x="-22" y="576" type="curve" smooth="yes"/>
+      <point x="-22" y="549"/>
+      <point x="-5" y="535"/>
+    </contour>
+    <contour>
+      <point x="214" y="535" type="curve" smooth="yes"/>
+      <point x="254" y="535"/>
+      <point x="272" y="566"/>
+      <point x="272" y="595" type="curve" smooth="yes"/>
+      <point x="272" y="622"/>
+      <point x="255" y="636"/>
+      <point x="233" y="636" type="curve" smooth="yes"/>
+      <point x="193" y="636"/>
+      <point x="175" y="605"/>
+      <point x="175" y="576" type="curve" smooth="yes"/>
+      <point x="175" y="549"/>
+      <point x="192" y="535"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>250</integer>
+    </dict>
+  </lib>
 </glyph>

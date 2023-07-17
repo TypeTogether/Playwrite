@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="M_locl.au" format="2">
+  <advance width="840"/>
+  <anchor x="420" y="0" name="bottom"/>
+  <anchor x="420" y="670" name="top"/>
+  <outline>
+    <contour>
+      <point x="135" y="-11" type="curve" smooth="yes"/>
+      <point x="158" y="-11"/>
+      <point x="170" y="-4"/>
+      <point x="170" y="11" type="curve" smooth="yes"/>
+      <point x="170" y="531" type="line"/>
+      <point x="379" y="20" type="line" smooth="yes"/>
+      <point x="385" y="5"/>
+      <point x="400" y="0"/>
+      <point x="421" y="0" type="curve" smooth="yes"/>
+      <point x="441" y="0"/>
+      <point x="455" y="7"/>
+      <point x="461" y="21" type="curve" smooth="yes"/>
+      <point x="670" y="531" type="line"/>
+      <point x="670" y="11" type="line" smooth="yes"/>
+      <point x="670" y="-4"/>
+      <point x="682" y="-11"/>
+      <point x="705" y="-11" type="curve" smooth="yes"/>
+      <point x="728" y="-11"/>
+      <point x="740" y="-4"/>
+      <point x="740" y="11" type="curve" smooth="yes"/>
+      <point x="740" y="688" type="line" smooth="yes"/>
+      <point x="740" y="703"/>
+      <point x="726" y="712"/>
+      <point x="701" y="712" type="curve" smooth="yes"/>
+      <point x="678" y="712"/>
+      <point x="667" y="701"/>
+      <point x="662" y="688" type="curve" smooth="yes"/>
+      <point x="420" y="90" type="line"/>
+      <point x="178" y="688" type="line" smooth="yes"/>
+      <point x="173" y="701"/>
+      <point x="162" y="712"/>
+      <point x="139" y="712" type="curve" smooth="yes"/>
+      <point x="114" y="712"/>
+      <point x="100" y="703"/>
+      <point x="100" y="688" type="curve" smooth="yes"/>
+      <point x="100" y="11" type="line" smooth="yes"/>
+      <point x="100" y="-4"/>
+      <point x="112" y="-11"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=M</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=M</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

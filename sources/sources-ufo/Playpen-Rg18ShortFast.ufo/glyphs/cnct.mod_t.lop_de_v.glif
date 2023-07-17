@@ -1,43 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.mod_t.lop_de_v" format="2">
-	<advance width="20"/>
-	<outline>
-		<contour>
-			<point x="-256" y="29" type="curve" smooth="yes"/>
-			<point x="-90" y="29"/>
-			<point x="6" y="145"/>
-			<point x="143" y="374" type="curve" smooth="yes"/>
-			<point x="160" y="403"/>
-			<point x="117" y="424"/>
-			<point x="100" y="395" type="curve" smooth="yes"/>
-			<point x="-30" y="178"/>
-			<point x="-118" y="79"/>
-			<point x="-247" y="79" type="curve" smooth="yes"/>
-			<point x="-280" y="79"/>
-			<point x="-299" y="85"/>
-			<point x="-299" y="96" type="curve" smooth="yes"/>
-			<point x="-299" y="102"/>
-			<point x="-295" y="105"/>
-			<point x="-288" y="105" type="curve" smooth="yes"/>
-			<point x="-274" y="105"/>
-			<point x="-258" y="93"/>
-			<point x="-265" y="71" type="curve"/>
-			<point x="-233" y="84" type="line"/>
-			<point x="-223" y="118"/>
-			<point x="-255" y="151"/>
-			<point x="-297" y="151" type="curve" smooth="yes"/>
-			<point x="-333" y="151"/>
-			<point x="-355" y="125"/>
-			<point x="-355" y="95" type="curve" smooth="yes"/>
-			<point x="-355" y="50"/>
-			<point x="-307" y="29"/>
-		</contour>
-	</outline>
-	<anchor name="_cnct" x="-65" y="0"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.04,0.57,0.04,1</string>
-		</dict>
-	</lib>
+  <anchor x="-65" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-256" y="29" type="curve" smooth="yes"/>
+      <point x="-90" y="29"/>
+      <point x="6" y="145"/>
+      <point x="143" y="374" type="curve" smooth="yes"/>
+      <point x="160" y="403"/>
+      <point x="117" y="424"/>
+      <point x="100" y="395" type="curve" smooth="yes"/>
+      <point x="-30" y="178"/>
+      <point x="-118" y="79"/>
+      <point x="-247" y="79" type="curve" smooth="yes"/>
+      <point x="-280" y="79"/>
+      <point x="-299" y="85"/>
+      <point x="-299" y="96" type="curve" smooth="yes"/>
+      <point x="-299" y="102"/>
+      <point x="-295" y="105"/>
+      <point x="-288" y="105" type="curve" smooth="yes"/>
+      <point x="-274" y="105"/>
+      <point x="-258" y="93"/>
+      <point x="-265" y="71" type="curve"/>
+      <point x="-233" y="84" type="line"/>
+      <point x="-223" y="118"/>
+      <point x="-255" y="151"/>
+      <point x="-297" y="151" type="curve" smooth="yes"/>
+      <point x="-333" y="151"/>
+      <point x="-355" y="125"/>
+      <point x="-355" y="95" type="curve" smooth="yes"/>
+      <point x="-355" y="50"/>
+      <point x="-307" y="29"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>20</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

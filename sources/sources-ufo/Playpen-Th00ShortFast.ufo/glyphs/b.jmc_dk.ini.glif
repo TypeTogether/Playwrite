@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="b.jmc_dk.ini" format="2">
+  <advance width="531"/>
+  <anchor x="531" y="0" name="cnct"/>
+  <anchor x="228" y="0" name="bottom"/>
+  <anchor x="298" y="200" name="center"/>
+  <anchor x="360" y="400" name="top"/>
+  <outline>
+    <contour>
+      <point x="446" y="-14" type="curve" smooth="yes"/>
+      <point x="466" y="-14"/>
+      <point x="466" y="14"/>
+      <point x="446" y="14" type="curve" smooth="yes"/>
+      <point x="381" y="14"/>
+      <point x="338" y="38"/>
+      <point x="244" y="10" type="curve"/>
+      <point x="227" y="-4" type="line"/>
+      <point x="309" y="17"/>
+      <point x="357" y="-14"/>
+    </contour>
+    <component base="b.jmc_dk"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

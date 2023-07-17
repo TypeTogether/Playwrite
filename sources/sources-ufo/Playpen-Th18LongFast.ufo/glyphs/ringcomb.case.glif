@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcomb.case" format="2">
+  <anchor x="304" y="1140" name="_top"/>
+  <anchor x="385" y="1394" name="top"/>
+  <outline>
+    <contour>
+      <point x="358" y="1251" type="curve" smooth="yes"/>
+      <point x="429" y="1251"/>
+      <point x="476" y="1295"/>
+      <point x="476" y="1356" type="curve" smooth="yes"/>
+      <point x="476" y="1411"/>
+      <point x="429" y="1436"/>
+      <point x="384" y="1436" type="curve" smooth="yes"/>
+      <point x="311" y="1436"/>
+      <point x="266" y="1393"/>
+      <point x="266" y="1332" type="curve" smooth="yes"/>
+      <point x="266" y="1278"/>
+      <point x="313" y="1251"/>
+    </contour>
+    <contour>
+      <point x="358" y="1279" type="curve" smooth="yes"/>
+      <point x="331" y="1279"/>
+      <point x="298" y="1296"/>
+      <point x="298" y="1332" type="curve" smooth="yes"/>
+      <point x="298" y="1377"/>
+      <point x="327" y="1408"/>
+      <point x="384" y="1408" type="curve" smooth="yes"/>
+      <point x="413" y="1408"/>
+      <point x="444" y="1394"/>
+      <point x="444" y="1356" type="curve" smooth="yes"/>
+      <point x="444" y="1312"/>
+      <point x="412" y="1279"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>250</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="z.ful_au.ini" format="2">
+  <advance width="525"/>
+  <anchor x="525" y="0" name="cnct"/>
+  <anchor x="299" y="-300" name="bottom"/>
+  <anchor x="280" y="400" name="top"/>
+  <outline>
+    <component base="z.ful_au"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

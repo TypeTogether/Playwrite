@@ -1,75 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="O" format="2">
-	<unicode hex="004F"/>
-	<advance width="740"/>
-	<outline>
-		<contour>
-			<point x="345" y="-15" type="curve" smooth="yes"/>
-			<point x="596" y="-15"/>
-			<point x="733" y="240"/>
-			<point x="733" y="445" type="curve" smooth="yes"/>
-			<point x="733" y="607"/>
-			<point x="637" y="712"/>
-			<point x="492" y="712" type="curve" smooth="yes"/>
-			<point x="228" y="712"/>
-			<point x="102" y="436"/>
-			<point x="102" y="252" type="curve" smooth="yes"/>
-			<point x="102" y="90"/>
-			<point x="199" y="-15"/>
-		</contour>
-		<contour>
-			<point x="357" y="53" type="curve" smooth="yes"/>
-			<point x="236" y="53"/>
-			<point x="177" y="128"/>
-			<point x="177" y="265" type="curve" smooth="yes"/>
-			<point x="177" y="417"/>
-			<point x="286" y="644"/>
-			<point x="480" y="644" type="curve" smooth="yes"/>
-			<point x="598" y="644"/>
-			<point x="659" y="570"/>
-			<point x="659" y="432" type="curve" smooth="yes"/>
-			<point x="659" y="276"/>
-			<point x="555" y="53"/>
-		</contour>
-	</outline>
-	<anchor name="bottom" x="305" y="0"/>
-	<anchor name="center" x="419" y="350"/>
-	<anchor name="ogonek" x="604" y="10"/>
-	<anchor name="top" x="504" y="670"/>
-	<anchor name="topright" x="570" y="700"/>
-	<lib>
-		<dict>
-			<key>com.hugojourdan.ColorFlow</key>
-			<dict>
-				<key>0</key>
-				<integer>0</integer>
-				<key>1</key>
-				<integer>0</integer>
-				<key>10</key>
-				<integer>0</integer>
-				<key>11</key>
-				<integer>0</integer>
-				<key>2</key>
-				<integer>0</integer>
-				<key>3</key>
-				<integer>0</integer>
-				<key>4</key>
-				<integer>0</integer>
-				<key>5</key>
-				<integer>0</integer>
-				<key>6</key>
-				<integer>0</integer>
-				<key>7</key>
-				<integer>0</integer>
-				<key>8</key>
-				<integer>0</integer>
-				<key>9</key>
-				<integer>0</integer>
-			</dict>
-			<key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-			<string>=|</string>
-			<key>public.markColor</key>
-			<string>0.25,0.25,0.25,1</string>
-		</dict>
-	</lib>
+  <advance width="740"/>
+  <unicode hex="004F"/>
+  <anchor x="305" y="0" name="bottom"/>
+  <anchor x="419" y="350" name="center"/>
+  <anchor x="604" y="10" name="ogonek"/>
+  <anchor x="504" y="670" name="top"/>
+  <anchor x="570" y="700" name="topright"/>
+  <outline>
+    <contour>
+      <point x="345" y="-15" type="curve" smooth="yes"/>
+      <point x="596" y="-15"/>
+      <point x="733" y="240"/>
+      <point x="733" y="445" type="curve" smooth="yes"/>
+      <point x="733" y="607"/>
+      <point x="637" y="712"/>
+      <point x="492" y="712" type="curve" smooth="yes"/>
+      <point x="228" y="712"/>
+      <point x="102" y="436"/>
+      <point x="102" y="252" type="curve" smooth="yes"/>
+      <point x="102" y="90"/>
+      <point x="199" y="-15"/>
+    </contour>
+    <contour>
+      <point x="357" y="53" type="curve" smooth="yes"/>
+      <point x="236" y="53"/>
+      <point x="177" y="128"/>
+      <point x="177" y="265" type="curve" smooth="yes"/>
+      <point x="177" y="417"/>
+      <point x="286" y="644"/>
+      <point x="480" y="644" type="curve" smooth="yes"/>
+      <point x="598" y="644"/>
+      <point x="659" y="570"/>
+      <point x="659" y="432" type="curve" smooth="yes"/>
+      <point x="659" y="276"/>
+      <point x="555" y="53"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="b.jmc_dk" format="2">
+  <advance width="531"/>
+  <anchor x="228" y="0" name="bottom"/>
+  <anchor x="298" y="200" name="center"/>
+  <anchor x="330" y="400" name="top"/>
+  <outline>
+    <contour>
+      <point x="-82" y="-14" type="curve" smooth="yes"/>
+      <point x="-4" y="-14"/>
+      <point x="51" y="118"/>
+      <point x="126" y="314" type="curve" smooth="yes"/>
+      <point x="132" y="329"/>
+      <point x="127" y="377"/>
+      <point x="119" y="357" type="curve" smooth="yes"/>
+      <point x="26" y="116"/>
+      <point x="-22" y="14"/>
+      <point x="-82" y="14" type="curve" smooth="yes"/>
+      <point x="-100" y="14"/>
+      <point x="-100" y="-14"/>
+    </contour>
+    <component base="b.jmc_dk.fin"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>
