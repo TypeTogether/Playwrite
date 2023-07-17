@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_acutecomb.case" format="2">
+  <anchor x="0" y="670" name="_top"/>
+  <anchor x="0" y="904" name="top"/>
+  <outline>
+    <contour>
+      <point x="114" y="872" type="curve" smooth="yes"/>
+      <point x="117" y="872"/>
+      <point x="119" y="874"/>
+      <point x="123" y="877" type="curve" smooth="yes"/>
+      <point x="241" y="982" type="line" smooth="yes"/>
+      <point x="244" y="985"/>
+      <point x="244" y="987"/>
+      <point x="244" y="990" type="curve" smooth="yes"/>
+      <point x="244" y="998"/>
+      <point x="234" y="1009"/>
+      <point x="226" y="1009" type="curve" smooth="yes"/>
+      <point x="222" y="1009"/>
+      <point x="220" y="1006"/>
+      <point x="216" y="1003" type="curve" smooth="yes"/>
+      <point x="102" y="895" type="line" smooth="yes"/>
+      <point x="99" y="892"/>
+      <point x="99" y="889"/>
+      <point x="99" y="887" type="curve" smooth="yes"/>
+      <point x="99" y="881"/>
+      <point x="108" y="872"/>
+    </contour>
+    <component base="circumflexcomb.case"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>circumflexcomb.case</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>250</integer>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

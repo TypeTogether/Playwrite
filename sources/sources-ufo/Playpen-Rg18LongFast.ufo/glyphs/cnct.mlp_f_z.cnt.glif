@@ -1,71 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.mlp_f_z.cnt" format="2">
-	<advance width="20"/>
-	<outline>
-		<contour>
-			<point x="-144" y="-2" type="curve" smooth="yes"/>
-			<point x="-71" y="-2"/>
-			<point x="-16" y="53"/>
-			<point x="78" y="195" type="curve" smooth="yes"/>
-			<point x="159" y="317"/>
-			<point x="198" y="352"/>
-			<point x="262" y="352" type="curve" smooth="yes"/>
-			<point x="292" y="352"/>
-			<point x="292" y="415"/>
-			<point x="262" y="415" type="curve" smooth="yes"/>
-			<point x="193" y="415"/>
-			<point x="123" y="373"/>
-			<point x="39" y="239" type="curve" smooth="yes"/>
-			<point x="-44" y="107"/>
-			<point x="-90" y="58"/>
-			<point x="-137" y="58" type="curve" smooth="yes"/>
-			<point x="-198" y="58"/>
-			<point x="-215" y="80"/>
-			<point x="-215" y="109" type="curve" smooth="yes"/>
-			<point x="-215" y="129"/>
-			<point x="-256" y="129"/>
-			<point x="-256" y="109" type="curve" smooth="yes"/>
-			<point x="-256" y="42"/>
-			<point x="-228" y="-2"/>
-		</contour>
-	</outline>
-	<anchor name="_cnct" x="-65" y="0"/>
-	<guideline x="-136" y="66" angle="83.157"/>
-	<guideline x="81" y="244" angle="155.376"/>
-	<guideline y="109"/>
-	<guideline x="262"/>
-	<guideline y="330"/>
-	<lib>
-		<dict>
-			<key>com.hugojourdan.ColorFlow</key>
-			<dict>
-				<key>0</key>
-				<integer>0</integer>
-				<key>1</key>
-				<integer>0</integer>
-				<key>10</key>
-				<integer>0</integer>
-				<key>11</key>
-				<integer>0</integer>
-				<key>2</key>
-				<integer>0</integer>
-				<key>3</key>
-				<integer>0</integer>
-				<key>4</key>
-				<integer>0</integer>
-				<key>5</key>
-				<integer>0</integer>
-				<key>6</key>
-				<integer>0</integer>
-				<key>7</key>
-				<integer>0</integer>
-				<key>8</key>
-				<integer>0</integer>
-				<key>9</key>
-				<integer>0</integer>
-			</dict>
-			<key>public.markColor</key>
-			<string>0.04,0.57,0.04,1</string>
-		</dict>
-	</lib>
+  <guideline x="-136" y="66" angle="83.157"/>
+  <guideline x="81" y="244" angle="155.376"/>
+  <guideline y="109"/>
+  <guideline x="262"/>
+  <guideline y="330"/>
+  <anchor x="-65" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-144" y="-2" type="curve" smooth="yes"/>
+      <point x="-71" y="-2"/>
+      <point x="-16" y="53"/>
+      <point x="78" y="195" type="curve" smooth="yes"/>
+      <point x="159" y="317"/>
+      <point x="198" y="352"/>
+      <point x="262" y="352" type="curve" smooth="yes"/>
+      <point x="292" y="352"/>
+      <point x="292" y="415"/>
+      <point x="262" y="415" type="curve" smooth="yes"/>
+      <point x="193" y="415"/>
+      <point x="123" y="373"/>
+      <point x="39" y="239" type="curve" smooth="yes"/>
+      <point x="-44" y="107"/>
+      <point x="-90" y="58"/>
+      <point x="-137" y="58" type="curve" smooth="yes"/>
+      <point x="-198" y="58"/>
+      <point x="-215" y="80"/>
+      <point x="-215" y="109" type="curve" smooth="yes"/>
+      <point x="-215" y="129"/>
+      <point x="-256" y="129"/>
+      <point x="-256" y="109" type="curve" smooth="yes"/>
+      <point x="-256" y="42"/>
+      <point x="-228" y="-2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>20</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

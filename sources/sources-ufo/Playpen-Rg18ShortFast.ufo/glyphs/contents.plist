@@ -18,8 +18,6 @@
     <string>A_.cur_locl.ini.glif</string>
     <key>A.dec</key>
     <string>A_.dec.glif</string>
-    <key>A.dec2.ini</key>
-    <string>A_.dec2.ini.glif</string>
     <key>A.dec_locl</key>
     <string>A_.dec_locl.glif</string>
     <key>A.dec_locl.ini</key>
@@ -168,6 +166,8 @@
     <string>G_.dec.glif</string>
     <key>G_locl</key>
     <string>G__locl.glif</string>
+    <key>G_locl.au</key>
+    <string>G__locl.au.glif</string>
     <key>Gbreve</key>
     <string>G_breve.glif</string>
     <key>Gcircumflex</key>
@@ -282,6 +282,8 @@
     <string>M_.dec.ini.glif</string>
     <key>M_locl</key>
     <string>M__locl.glif</string>
+    <key>M_locl.au</key>
+    <string>M__locl.au.glif</string>
     <key>N</key>
     <string>N_.glif</string>
     <key>N.cur</key>
@@ -372,6 +374,10 @@
     <string>Q_.dec.glif</string>
     <key>Q.dec.ini</key>
     <string>Q_.dec.ini.glif</string>
+    <key>Q.dec_pt</key>
+    <string>Q_.dec_pt.glif</string>
+    <key>Q.dec_pt.ini</key>
+    <string>Q_.dec_pt.ini.glif</string>
     <key>Q_locl</key>
     <string>Q__locl.glif</string>
     <key>Q_locl.ini</key>
@@ -436,6 +442,8 @@
     <string>U_.cur.glif</string>
     <key>U.cur.ini</key>
     <string>U_.cur.ini.glif</string>
+    <key>U_locl.au</key>
+    <string>U__locl.au.glif</string>
     <key>Uacute</key>
     <string>U_acute.glif</string>
     <key>Ubreve</key>
@@ -522,6 +530,8 @@
     <string>Y_.cur.glif</string>
     <key>Y.cur.ini</key>
     <string>Y_.cur.ini.glif</string>
+    <key>Y_locl</key>
+    <string>Y__locl.glif</string>
     <key>Yacute</key>
     <string>Y_acute.glif</string>
     <key>Ycircumflex</key>
@@ -542,8 +552,6 @@
     <string>Z_.cur.glif</string>
     <key>Z.cur.ini</key>
     <string>Z_.cur.ini.glif</string>
-    <key>Z.cur.ini.001</key>
-    <string>Z_.cur.ini.001.glif</string>
     <key>Z.dec</key>
     <string>Z_.dec.glif</string>
     <key>Z.dec.ini</key>
@@ -602,6 +610,8 @@
     <string>acute.glif</string>
     <key>acutecomb</key>
     <string>acutecomb.glif</string>
+    <key>acutecomb.case</key>
+    <string>acutecomb.case.glif</string>
     <key>adieresis</key>
     <string>adieresis.glif</string>
     <key>adotbelow</key>
@@ -652,6 +662,14 @@
     <string>b.jmc.ini.glif</string>
     <key>b.jmc.med</key>
     <string>b.jmc.med.glif</string>
+    <key>b.jmc_dk</key>
+    <string>b.jmc_dk.glif</string>
+    <key>b.jmc_dk.fin</key>
+    <string>b.jmc_dk.fin.glif</string>
+    <key>b.jmc_dk.ini</key>
+    <string>b.jmc_dk.ini.glif</string>
+    <key>b.jmc_dk.med</key>
+    <string>b.jmc_dk.med.glif</string>
     <key>b.lop</key>
     <string>b.lop.glif</string>
     <key>b.lop.fin</key>
@@ -692,14 +710,24 @@
     <string>breve.glif</string>
     <key>brevecomb</key>
     <string>brevecomb.glif</string>
+    <key>brevecomb.case</key>
+    <string>brevecomb.case.glif</string>
     <key>brevecomb_acutecomb</key>
     <string>brevecomb_acutecomb.glif</string>
+    <key>brevecomb_acutecomb.case</key>
+    <string>brevecomb_acutecomb.case.glif</string>
     <key>brevecomb_gravecomb</key>
     <string>brevecomb_gravecomb.glif</string>
+    <key>brevecomb_gravecomb.case</key>
+    <string>brevecomb_gravecomb.case.glif</string>
     <key>brevecomb_hookabovecomb</key>
     <string>brevecomb_hookabovecomb.glif</string>
+    <key>brevecomb_hookabovecomb.case</key>
+    <string>brevecomb_hookabovecomb.case.glif</string>
     <key>brevecomb_tildecomb</key>
     <string>brevecomb_tildecomb.glif</string>
+    <key>brevecomb_tildecomb.case</key>
+    <string>brevecomb_tildecomb.case.glif</string>
     <key>bullet</key>
     <string>bullet.glif</string>
     <key>c</key>
@@ -720,6 +748,8 @@
     <string>caroncomb.glif</string>
     <key>caroncomb.alt</key>
     <string>caroncomb.alt.glif</string>
+    <key>caroncomb.case</key>
+    <string>caroncomb.case.glif</string>
     <key>ccaron</key>
     <string>ccaron.glif</string>
     <key>ccedilla</key>
@@ -732,20 +762,32 @@
     <string>cedilla.glif</string>
     <key>cedillacomb</key>
     <string>cedillacomb.glif</string>
+    <key>cedillacomb.case</key>
+    <string>cedillacomb.case.glif</string>
     <key>cent</key>
     <string>cent.glif</string>
     <key>circumflex</key>
     <string>circumflex.glif</string>
     <key>circumflexcomb</key>
     <string>circumflexcomb.glif</string>
+    <key>circumflexcomb.case</key>
+    <string>circumflexcomb.case.glif</string>
     <key>circumflexcomb_acutecomb</key>
     <string>circumflexcomb_acutecomb.glif</string>
+    <key>circumflexcomb_acutecomb.case</key>
+    <string>circumflexcomb_acutecomb.case.glif</string>
     <key>circumflexcomb_gravecomb</key>
     <string>circumflexcomb_gravecomb.glif</string>
+    <key>circumflexcomb_gravecomb.case</key>
+    <string>circumflexcomb_gravecomb.case.glif</string>
     <key>circumflexcomb_hookabovecomb</key>
     <string>circumflexcomb_hookabovecomb.glif</string>
+    <key>circumflexcomb_hookabovecomb.case</key>
+    <string>circumflexcomb_hookabovecomb.case.glif</string>
     <key>circumflexcomb_tildecomb</key>
     <string>circumflexcomb_tildecomb.glif</string>
+    <key>circumflexcomb_tildecomb.case</key>
+    <string>circumflexcomb_tildecomb.case.glif</string>
     <key>cnct.cnt_G_n</key>
     <string>cnct.cnt_G__n.glif</string>
     <key>cnct.cnt_G_z</key>
@@ -1304,8 +1346,12 @@
     <string>comma.glif</string>
     <key>commaaccentcomb</key>
     <string>commaaccentcomb.glif</string>
+    <key>commaaccentcomb.case</key>
+    <string>commaaccentcomb.case.glif</string>
     <key>commaturnedabovecomb</key>
     <string>commaturnedabovecomb.glif</string>
+    <key>commaturnedabovecomb.case</key>
+    <string>commaturnedabovecomb.case.glif</string>
     <key>copyright</key>
     <string>copyright.glif</string>
     <key>d</key>
@@ -1336,6 +1382,8 @@
     <string>dieresis.glif</string>
     <key>dieresiscomb</key>
     <string>dieresiscomb.glif</string>
+    <key>dieresiscomb.case</key>
+    <string>dieresiscomb.case.glif</string>
     <key>divide</key>
     <string>divide.glif</string>
     <key>dollar</key>
@@ -1344,8 +1392,12 @@
     <string>dotaccent.glif</string>
     <key>dotaccentcomb</key>
     <string>dotaccentcomb.glif</string>
+    <key>dotaccentcomb.case</key>
+    <string>dotaccentcomb.case.glif</string>
     <key>dotbelowcomb</key>
     <string>dotbelowcomb.glif</string>
+    <key>dotbelowcomb.case</key>
+    <string>dotbelowcomb.case.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>e.ful</key>
@@ -1430,6 +1482,14 @@
     <string>equal.glif</string>
     <key>eth</key>
     <string>eth.glif</string>
+    <key>eth.mod</key>
+    <string>eth.mod.glif</string>
+    <key>eth.mod.fin</key>
+    <string>eth.mod.fin.glif</string>
+    <key>eth.mod.ini</key>
+    <string>eth.mod.ini.glif</string>
+    <key>eth.mod.med</key>
+    <string>eth.mod.med.glif</string>
     <key>etilde</key>
     <string>etilde.glif</string>
     <key>euro</key>
@@ -1512,6 +1572,14 @@
     <string>f.mod.med.glif</string>
     <key>f.mod.med_o_</key>
     <string>f.mod.med_o_.glif</string>
+    <key>f.mod_au</key>
+    <string>f.mod_au.glif</string>
+    <key>f.mod_au.fin</key>
+    <string>f.mod_au.fin.glif</string>
+    <key>f.mod_au.ini</key>
+    <string>f.mod_au.ini.glif</string>
+    <key>f.mod_au.med</key>
+    <string>f.mod_au.med.glif</string>
     <key>f.mrr</key>
     <string>f.mrr.glif</string>
     <key>f.mrr.fin</key>
@@ -1554,10 +1622,20 @@
     <string>gdotaccent.glif</string>
     <key>germandbls</key>
     <string>germandbls.glif</string>
+    <key>germandbls.jmc</key>
+    <string>germandbls.jmc.glif</string>
+    <key>germandbls.jmc.fin</key>
+    <string>germandbls.jmc.fin.glif</string>
+    <key>germandbls.jmc.ini</key>
+    <string>germandbls.jmc.ini.glif</string>
+    <key>germandbls.jmc.med</key>
+    <string>germandbls.jmc.med.glif</string>
     <key>grave</key>
     <string>grave.glif</string>
     <key>gravecomb</key>
     <string>gravecomb.glif</string>
+    <key>gravecomb.case</key>
+    <string>gravecomb.case.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
     <key>greaterequal</key>
@@ -1594,12 +1672,18 @@
     <string>hcircumflex.glif</string>
     <key>hookabovecomb</key>
     <string>hookabovecomb.glif</string>
+    <key>hookabovecomb.case</key>
+    <string>hookabovecomb.case.glif</string>
     <key>horncomb</key>
     <string>horncomb.glif</string>
+    <key>horncomb.case</key>
+    <string>horncomb.case.glif</string>
     <key>hungarumlaut</key>
     <string>hungarumlaut.glif</string>
     <key>hungarumlautcomb</key>
     <string>hungarumlautcomb.glif</string>
+    <key>hungarumlautcomb.case</key>
+    <string>hungarumlautcomb.case.glif</string>
     <key>hyphen</key>
     <string>hyphen.glif</string>
     <key>i</key>
@@ -1770,6 +1854,8 @@
     <string>macron.glif</string>
     <key>macroncomb</key>
     <string>macroncomb.glif</string>
+    <key>macroncomb.case</key>
+    <string>macroncomb.case.glif</string>
     <key>minus</key>
     <string>minus.glif</string>
     <key>multiply</key>
@@ -1860,6 +1946,8 @@
     <string>ogonek.glif</string>
     <key>ogonekcomb</key>
     <string>ogonekcomb.glif</string>
+    <key>ogonekcomb.case</key>
+    <string>ogonekcomb.case.glif</string>
     <key>ograve</key>
     <string>ograve.glif</string>
     <key>ohookabove</key>
@@ -1926,6 +2014,14 @@
     <string>p.mrr.ini.glif</string>
     <key>p.mrr.med</key>
     <string>p.mrr.med.glif</string>
+    <key>p.mrr_ca</key>
+    <string>p.mrr_ca.glif</string>
+    <key>p.mrr_ca.fin</key>
+    <string>p.mrr_ca.fin.glif</string>
+    <key>p.mrr_ca.ini</key>
+    <string>p.mrr_ca.ini.glif</string>
+    <key>p.mrr_ca.med</key>
+    <string>p.mrr_ca.med.glif</string>
     <key>paragraph</key>
     <string>paragraph.glif</string>
     <key>parenleft</key>
@@ -1938,10 +2034,6 @@
     <string>period.glif</string>
     <key>periodcentered</key>
     <string>periodcentered.glif</string>
-    <key>periodcentered.loclCAT</key>
-    <string>periodcentered.loclC_A_T_.glif</string>
-    <key>periodcentered.loclCAT.case</key>
-    <string>periodcentered.loclC_A_T_.case.glif</string>
     <key>plus</key>
     <string>plus.glif</string>
     <key>plusminus</key>
@@ -1974,6 +2066,14 @@
     <string>q.mod.ini.glif</string>
     <key>q.mod.med</key>
     <string>q.mod.med.glif</string>
+    <key>q.mod_au</key>
+    <string>q.mod_au.glif</string>
+    <key>q.mod_au.fin</key>
+    <string>q.mod_au.fin.glif</string>
+    <key>q.mod_au.ini</key>
+    <string>q.mod_au.ini.glif</string>
+    <key>q.mod_au.med</key>
+    <string>q.mod_au.med.glif</string>
     <key>q.mrr</key>
     <string>q.mrr.glif</string>
     <key>q.mrr.fin</key>
@@ -2052,6 +2152,8 @@
     <string>ring.glif</string>
     <key>ringcomb</key>
     <string>ringcomb.glif</string>
+    <key>ringcomb.case</key>
+    <string>ringcomb.case.glif</string>
     <key>s</key>
     <string>s.glif</string>
     <key>s.ful</key>
@@ -2166,6 +2268,8 @@
     <string>tilde.glif</string>
     <key>tildecomb</key>
     <string>tildecomb.glif</string>
+    <key>tildecomb.case</key>
+    <string>tildecomb.case.glif</string>
     <key>tildeshortcomb</key>
     <string>tildeshortcomb.glif</string>
     <key>trademark</key>
@@ -2386,6 +2490,8 @@
     <string>y.mod.ini.glif</string>
     <key>y.mod.med</key>
     <string>y.mod.med.glif</string>
+    <key>y_de</key>
+    <string>y_de.glif</string>
     <key>yacute</key>
     <string>yacute.glif</string>
     <key>ycircumflex</key>
@@ -2420,6 +2526,14 @@
     <string>z.ful.ini.glif</string>
     <key>z.ful.med</key>
     <string>z.ful.med.glif</string>
+    <key>z.ful_au</key>
+    <string>z.ful_au.glif</string>
+    <key>z.ful_au.fin</key>
+    <string>z.ful_au.fin.glif</string>
+    <key>z.ful_au.ini</key>
+    <string>z.ful_au.ini.glif</string>
+    <key>z.ful_au.med</key>
+    <string>z.ful_au.med.glif</string>
     <key>z.mlp</key>
     <string>z.mlp.glif</string>
     <key>z.mlp.fin</key>

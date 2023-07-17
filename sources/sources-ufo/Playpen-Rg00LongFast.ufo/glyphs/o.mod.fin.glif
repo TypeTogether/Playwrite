@@ -1,55 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="o.mod.fin" format="2">
-	<advance width="481"/>
-	<outline>
-		<component base="o.mod"/>
-	</outline>
-	<anchor name="bottom" x="246" y="0"/>
-	<anchor name="center" x="246" y="200"/>
-	<anchor name="cnct" x="363" y="366"/>
-	<anchor name="ogonek" x="318" y="0"/>
-	<anchor name="top" x="246" y="400"/>
-	<anchor name="topright" x="302" y="405"/>
-	<lib>
-		<dict>
-			<key>com.hugojourdan.ColorFlow</key>
-			<dict>
-				<key>0</key>
-				<integer>0</integer>
-				<key>1</key>
-				<integer>0</integer>
-				<key>10</key>
-				<integer>0</integer>
-				<key>11</key>
-				<integer>0</integer>
-				<key>2</key>
-				<integer>0</integer>
-				<key>3</key>
-				<integer>0</integer>
-				<key>4</key>
-				<integer>0</integer>
-				<key>5</key>
-				<integer>0</integer>
-				<key>6</key>
-				<integer>0</integer>
-				<key>7</key>
-				<integer>0</integer>
-				<key>8</key>
-				<integer>0</integer>
-				<key>9</key>
-				<integer>0</integer>
-			</dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>o.mod</string>
-				</dict>
-			</array>
-		</dict>
-	</lib>
+  <advance width="481"/>
+  <anchor x="246" y="0" name="bottom"/>
+  <anchor x="246" y="200" name="center"/>
+  <anchor x="363" y="366" name="cnct"/>
+  <anchor x="318" y="0" name="ogonek"/>
+  <anchor x="246" y="400" name="top"/>
+  <anchor x="302" y="405" name="topright"/>
+  <outline>
+    <component base="o.mod"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>o.mod</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

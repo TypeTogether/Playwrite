@@ -1,72 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="v.mlp.med" format="2">
-	<advance width="483"/>
-	<outline>
-		<contour>
-			<point x="226" y="-15" type="curve" smooth="yes"/>
-			<point x="348" y="-15"/>
-			<point x="418" y="134"/>
-			<point x="418" y="271" type="curve" smooth="yes"/>
-			<point x="418" y="353"/>
-			<point x="378" y="429"/>
-			<point x="299" y="429" type="curve" smooth="yes"/>
-			<point x="262" y="429"/>
-			<point x="265" y="382"/>
-			<point x="296" y="382" type="curve" smooth="yes"/>
-			<point x="327" y="382"/>
-			<point x="348" y="346"/>
-			<point x="348" y="255" type="curve" smooth="yes"/>
-			<point x="348" y="172"/>
-			<point x="303" y="49"/>
-			<point x="231" y="49" type="curve" smooth="yes"/>
-			<point x="184" y="49"/>
-			<point x="164" y="81"/>
-			<point x="164" y="151" type="curve" smooth="yes"/>
-			<point x="164" y="316" type="line" smooth="yes"/>
-			<point x="164" y="372"/>
-			<point x="148" y="415"/>
-			<point x="77" y="415" type="curve" smooth="yes"/>
-			<point x="52" y="415"/>
-			<point x="54" y="355"/>
-			<point x="74" y="355" type="curve" smooth="yes"/>
-			<point x="93" y="355"/>
-			<point x="95" y="338"/>
-			<point x="95" y="316" type="curve" smooth="yes"/>
-			<point x="95" y="151" type="line" smooth="yes"/>
-			<point x="95" y="37"/>
-			<point x="140" y="-15"/>
-		</contour>
-	</outline>
-	<anchor name="cnct" x="483" y="0"/>
-	<lib>
-		<dict>
-			<key>com.hugojourdan.ColorFlow</key>
-			<dict>
-				<key>0</key>
-				<integer>0</integer>
-				<key>1</key>
-				<integer>0</integer>
-				<key>10</key>
-				<integer>0</integer>
-				<key>11</key>
-				<integer>0</integer>
-				<key>2</key>
-				<integer>0</integer>
-				<key>3</key>
-				<integer>0</integer>
-				<key>4</key>
-				<integer>0</integer>
-				<key>5</key>
-				<integer>0</integer>
-				<key>6</key>
-				<integer>0</integer>
-				<key>7</key>
-				<integer>0</integer>
-				<key>8</key>
-				<integer>0</integer>
-				<key>9</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="483"/>
+  <anchor x="483" y="0" name="cnct"/>
+  <outline>
+    <contour>
+      <point x="226" y="-15" type="curve" smooth="yes"/>
+      <point x="348" y="-15"/>
+      <point x="418" y="134"/>
+      <point x="418" y="271" type="curve" smooth="yes"/>
+      <point x="418" y="353"/>
+      <point x="378" y="429"/>
+      <point x="299" y="429" type="curve" smooth="yes"/>
+      <point x="262" y="429"/>
+      <point x="265" y="382"/>
+      <point x="296" y="382" type="curve" smooth="yes"/>
+      <point x="327" y="382"/>
+      <point x="348" y="346"/>
+      <point x="348" y="255" type="curve" smooth="yes"/>
+      <point x="348" y="172"/>
+      <point x="303" y="49"/>
+      <point x="231" y="49" type="curve" smooth="yes"/>
+      <point x="184" y="49"/>
+      <point x="164" y="81"/>
+      <point x="164" y="151" type="curve" smooth="yes"/>
+      <point x="164" y="316" type="line" smooth="yes"/>
+      <point x="164" y="372"/>
+      <point x="148" y="415"/>
+      <point x="77" y="415" type="curve" smooth="yes"/>
+      <point x="52" y="415"/>
+      <point x="54" y="355"/>
+      <point x="74" y="355" type="curve" smooth="yes"/>
+      <point x="93" y="355"/>
+      <point x="95" y="338"/>
+      <point x="95" y="316" type="curve" smooth="yes"/>
+      <point x="95" y="151" type="line" smooth="yes"/>
+      <point x="95" y="37"/>
+      <point x="140" y="-15"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

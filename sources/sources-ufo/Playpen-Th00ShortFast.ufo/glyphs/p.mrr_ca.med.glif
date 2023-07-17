@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="p.mrr_ca.med" format="2">
+  <advance width="507"/>
+  <anchor x="507" y="0" name="cnct"/>
+  <outline>
+    <contour>
+      <point x="426" y="-14" type="curve" smooth="yes"/>
+      <point x="446" y="-14"/>
+      <point x="446" y="14"/>
+      <point x="426" y="14" type="curve" smooth="yes"/>
+      <point x="396" y="14"/>
+      <point x="365" y="24"/>
+      <point x="284" y="4" type="curve"/>
+      <point x="267" y="-10" type="line"/>
+      <point x="337" y="3"/>
+      <point x="372" y="-14"/>
+    </contour>
+    <component base="p.mrr_ca.fin"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,70 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="multiply" format="2">
-	<unicode hex="00D7"/>
-	<advance width="610"/>
-	<outline>
-		<contour>
-			<point x="457" y="175" type="curve" smooth="yes"/>
-			<point x="477" y="189"/>
-			<point x="477" y="204"/>
-			<point x="465" y="221" type="curve" smooth="yes"/>
-			<point x="262" y="521" type="line" smooth="yes"/>
-			<point x="252" y="536"/>
-			<point x="236" y="537"/>
-			<point x="215" y="522" type="curve" smooth="yes"/>
-			<point x="198" y="510"/>
-			<point x="197" y="497"/>
-			<point x="206" y="484" type="curve" smooth="yes"/>
-			<point x="409" y="183" type="line" smooth="yes"/>
-			<point x="423" y="162"/>
-			<point x="437" y="161"/>
-		</contour>
-		<contour>
-			<point x="109" y="181" type="curve" smooth="yes"/>
-			<point x="123" y="162"/>
-			<point x="136" y="160"/>
-			<point x="152" y="172" type="curve" smooth="yes"/>
-			<point x="559" y="477" type="line" smooth="yes"/>
-			<point x="576" y="490"/>
-			<point x="577" y="503"/>
-			<point x="563" y="522" type="curve" smooth="yes"/>
-			<point x="548" y="539"/>
-			<point x="535" y="540"/>
-			<point x="520" y="529" type="curve" smooth="yes"/>
-			<point x="118" y="226" type="line" smooth="yes"/>
-			<point x="100" y="212"/>
-			<point x="97" y="199"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.hugojourdan.ColorFlow</key>
-			<dict>
-				<key>0</key>
-				<integer>0</integer>
-				<key>1</key>
-				<integer>0</integer>
-				<key>10</key>
-				<integer>0</integer>
-				<key>11</key>
-				<integer>0</integer>
-				<key>2</key>
-				<integer>0</integer>
-				<key>3</key>
-				<integer>0</integer>
-				<key>4</key>
-				<integer>0</integer>
-				<key>5</key>
-				<integer>0</integer>
-				<key>6</key>
-				<integer>0</integer>
-				<key>7</key>
-				<integer>0</integer>
-				<key>8</key>
-				<integer>0</integer>
-				<key>9</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="610"/>
+  <unicode hex="00D7"/>
+  <outline>
+    <contour>
+      <point x="457" y="175" type="curve" smooth="yes"/>
+      <point x="477" y="189"/>
+      <point x="477" y="204"/>
+      <point x="465" y="221" type="curve" smooth="yes"/>
+      <point x="262" y="521" type="line" smooth="yes"/>
+      <point x="252" y="536"/>
+      <point x="236" y="537"/>
+      <point x="215" y="522" type="curve" smooth="yes"/>
+      <point x="198" y="510"/>
+      <point x="197" y="497"/>
+      <point x="206" y="484" type="curve" smooth="yes"/>
+      <point x="409" y="183" type="line" smooth="yes"/>
+      <point x="423" y="162"/>
+      <point x="437" y="161"/>
+    </contour>
+    <contour>
+      <point x="109" y="181" type="curve" smooth="yes"/>
+      <point x="123" y="162"/>
+      <point x="136" y="160"/>
+      <point x="152" y="172" type="curve" smooth="yes"/>
+      <point x="559" y="477" type="line" smooth="yes"/>
+      <point x="576" y="490"/>
+      <point x="577" y="503"/>
+      <point x="563" y="522" type="curve" smooth="yes"/>
+      <point x="548" y="539"/>
+      <point x="535" y="540"/>
+      <point x="520" y="529" type="curve" smooth="yes"/>
+      <point x="118" y="226" type="line" smooth="yes"/>
+      <point x="100" y="212"/>
+      <point x="97" y="199"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

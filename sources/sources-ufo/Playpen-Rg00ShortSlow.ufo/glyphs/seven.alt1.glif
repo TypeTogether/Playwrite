@@ -1,56 +1,58 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.alt1" format="2">
-	<advance width="430"/>
-	<outline>
-		<contour>
-			<point x="109" y="346" type="curve" smooth="yes"/>
-			<point x="384" y="346" type="line" smooth="yes"/>
-			<point x="400" y="346"/>
-			<point x="406" y="354"/>
-			<point x="406" y="376" type="curve" smooth="yes"/>
-			<point x="406" y="399"/>
-			<point x="400" y="406"/>
-			<point x="384" y="406" type="curve" smooth="yes"/>
-			<point x="109" y="406" type="line" smooth="yes"/>
-			<point x="93" y="406"/>
-			<point x="87" y="399"/>
-			<point x="87" y="376" type="curve" smooth="yes"/>
-			<point x="87" y="354"/>
-			<point x="93" y="346"/>
-		</contour>
-		<component base="seven"/>
-	</outline>
-	<guideline x="16"/>
-	<guideline x="414"/>
-	<lib>
-		<dict>
-			<key>com.hugojourdan.ColorFlow</key>
-			<dict>
-				<key>0</key>
-				<integer>0</integer>
-				<key>1</key>
-				<integer>0</integer>
-				<key>10</key>
-				<integer>0</integer>
-				<key>11</key>
-				<integer>0</integer>
-				<key>2</key>
-				<integer>0</integer>
-				<key>3</key>
-				<integer>0</integer>
-				<key>4</key>
-				<integer>0</integer>
-				<key>5</key>
-				<integer>0</integer>
-				<key>6</key>
-				<integer>0</integer>
-				<key>7</key>
-				<integer>0</integer>
-				<key>8</key>
-				<integer>0</integer>
-				<key>9</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="430"/>
+  <guideline x="16"/>
+  <guideline x="414"/>
+  <outline>
+    <contour>
+      <point x="109" y="346" type="curve" smooth="yes"/>
+      <point x="384" y="346" type="line" smooth="yes"/>
+      <point x="400" y="346"/>
+      <point x="406" y="354"/>
+      <point x="406" y="376" type="curve" smooth="yes"/>
+      <point x="406" y="399"/>
+      <point x="400" y="406"/>
+      <point x="384" y="406" type="curve" smooth="yes"/>
+      <point x="109" y="406" type="line" smooth="yes"/>
+      <point x="93" y="406"/>
+      <point x="87" y="399"/>
+      <point x="87" y="376" type="curve" smooth="yes"/>
+      <point x="87" y="354"/>
+      <point x="93" y="346"/>
+    </contour>
+    <component base="seven"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
 </glyph>
