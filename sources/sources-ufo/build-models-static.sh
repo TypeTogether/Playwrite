@@ -32,10 +32,10 @@ do
     echo
 
     # Build OTF fonts
-    fontmake -m ./designspace-models/Playpen-$tag.designspace -i -o otf \
+    fontmake -m ./designspace-models/$tag.designspace -i -o otf \
                 --output-dir $otfFontsPath \
-                --expand-features-to-instances \
-                --no-check-compatibility
+                --expand-features-to-instances
+                # --no-check-compatibility
 
     # # Build TTF fonts
     # fontmake -g ./Playpen_MM.glyphs -i -o ttf --output-dir $ttfFontsPath \
