@@ -1,7 +1,18 @@
 from fontTools.designspaceLib import (DesignSpaceDocument, AxisDescriptor,
                                       SourceDescriptor, InstanceDescriptor)
+
+# designspace sources
 doc = DesignSpaceDocument.fromfile(
     "../sources-ufo/designspace-models/Playpen-SOURCES.designspace")
+# models data
+
+
+weightStyles = {
+    100: "Thin",
+    200: "ExtraLight",
+    300: "Light",
+    400: "Regular",
+}
 
 # print(doc.formatVersion)
 # print(doc.elidedFallbackName)
@@ -15,45 +26,37 @@ doc = DesignSpaceDocument.fromfile(
 # print(doc.instances)
 # print(doc.lib)
 
-# <instance name="Playpen COL Light" familyname="Playpen COL" stylename="Light" filename="../instance_ufo/PlaypenCOL-Light.ufo" postscriptfontname="PlaypenCOL-Light" stylemapfamilyname="Playpen COL Light" stylemapstylename="regular">
-#   <location>
-#     <dimension name="Weight" uservalue="300"/>
-#     <dimension name="Slant" xvalue="18"/>
-#     <dimension name="Extenders" xvalue="416"/>
-#     <dimension name="Speed" xvalue="50"/>
-#   </location>
-# </instance>
-
 # -------------------------
 # variables
-mTag = "COL"
-mFamilyName = f"Playpen {mTag}"
-# weight styles dict {"Thin": 100, "ExtraLight": 200, "Light": 300,
-# "Regular": 400}
-iStyleName = "Light"  # (from weight style-value)
-iWeight = "Light"
-f = mFamilyName.replace(" ", "")
-iPostscriptFontName = f"{f}-{iStyleName}"
+mTag = "FRA_Modern"
 # values will come from csv
-weight = 300
-slant = 18
-extend = 416
-speed = 50
+# weight = 300
+slant = 0
+extend = 480
+speed = 100
 
-# make instance
-i = InstanceDescriptor()
-i.familyName = mFamilyName
-i.styleName = iStyleName
-i.name = f"{mFamilyName} {iStyleName}"
-i.designLocation = dict(Weight=weight, Slant=slant,
-                        Extenders=extend, Speed=speed)
-i.postScriptFontName = iPostscriptFontName
-# unless Regular (should be removed)
-i.styleMapFamilyName = f"{mFamilyName} {iStyleName}"
-i.styleMapStyleName = "regular"
-i.path = f"../instance_ufo/{iPostscriptFontName}.ufo"
-# i.lib['com.coolDesignspaceApp.specimenText'] = 'Hamburgerwhatever'
-doc.addInstance(i)
+# make weight instances
+for w_value in weightStyles.keys():
+    mFamilyName = f"Playpen {mTag}"
+    iStyleName = weightStyles[w_value]  # (from weight style-value)
+    fam_nospace = mFamilyName.replace(" ", "")
+    iPostscriptFontName = f"{fam_nospace}-{iStyleName}"
+    # make instance
+    i = InstanceDescriptor()
+    i.familyName = mFamilyName
+    i.styleName = iStyleName
+    i.name = f"{mFamilyName} {iStyleName}"
+    i.designLocation = dict(Weight=w_value, Slant=slant,
+                            Extenders=extend, Speed=speed)
+    i.postScriptFontName = iPostscriptFontName
+    if iStyleName != "Regular":
+        i.styleMapFamilyName = f"{mFamilyName} {iStyleName}"
+    else:
+        i.styleMapFamilyName = f"{mFamilyName}"
+    i.styleMapStyleName = "regular"
+    i.path = f"../sources-ufo/instance_ufo/{iPostscriptFontName}.ufo"
+    doc.addInstance(i)
 
-outputPath = "../sources-ufo/designspace-models/myprototype.designspace"
+outputPath = f"../sources-ufo/designspace-models/{mTag}.designspace"
 doc.write(outputPath)
+print(f"Written {mTag}.designspace")

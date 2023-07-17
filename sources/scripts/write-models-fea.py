@@ -42,11 +42,12 @@ class langModel(object):
             fea.close()
 
 
-with open("../data/models-all.csv", "r") as csv:
-    lines = csv.readlines()
-    models_fea_folder = "../features/fea-models/"
-    for l in lines:
-        lang_mod = langModel(l)
-        lang_mod.writeFeaFile(models_fea_folder)
+if __name__ == '__main__':
+    with open("../data/models-all.csv", "r") as csv:
+        lines = csv.readlines()
+        models_fea_folder = "../features/fea-models/"
+        for l in lines:
+            lang_mod = langModel(l)
+            lang_mod.writeFeaFile(models_fea_folder)
 
-print(" ✅ Done writing models feature")
+    print(" ✅ Done writing models feature")
