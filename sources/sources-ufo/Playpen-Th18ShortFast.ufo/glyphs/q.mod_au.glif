@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="q.mod_au" format="2">
+  <advance width="498"/>
+  <outline>
+    <contour>
+      <point x="231" y="-307" type="curve" smooth="yes"/>
+      <point x="277" y="-257"/>
+      <point x="335" y="-187"/>
+      <point x="398" y="-140" type="curve" smooth="yes"/>
+      <point x="405" y="-135"/>
+      <point x="406" y="-128"/>
+      <point x="400" y="-121" type="curve" smooth="yes"/>
+      <point x="394" y="-114"/>
+      <point x="389" y="-114"/>
+      <point x="382" y="-119" type="curve" smooth="yes"/>
+      <point x="322" y="-166"/>
+      <point x="262" y="-232"/>
+      <point x="213" y="-288" type="curve" smooth="yes"/>
+      <point x="201" y="-302"/>
+      <point x="221" y="-318"/>
+    </contour>
+    <component base="q.mod"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

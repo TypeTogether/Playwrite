@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="horncomb.case" format="2">
+  <anchor x="331" y="1206" name="_topright"/>
+  <outline>
+    <contour>
+      <point x="458" y="1381" type="curve" smooth="yes"/>
+      <point x="451" y="1394"/>
+      <point x="423" y="1384"/>
+      <point x="430" y="1370" type="curve" smooth="yes"/>
+      <point x="470" y="1287"/>
+      <point x="452" y="1205"/>
+      <point x="331" y="1206" type="curve"/>
+      <point x="324" y="1185" type="line"/>
+      <point x="467" y="1172"/>
+      <point x="513" y="1281"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>250</integer>
+    </dict>
+  </lib>
+</glyph>

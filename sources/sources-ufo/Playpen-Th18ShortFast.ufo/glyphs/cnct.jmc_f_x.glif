@@ -1,60 +1,65 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.jmc_f_x" format="2">
-	<advance width="40"/>
-	<outline>
-		<contour>
-			<point x="-446" y="-315" type="curve"/>
-			<point x="-426" y="-315"/>
-			<point x="-421" y="-287"/>
-			<point x="-441" y="-287" type="curve"/>
-			<point x="-471" y="-287"/>
-			<point x="-482" y="-266"/>
-			<point x="-482" y="-245" type="curve" smooth="yes"/>
-			<point x="-482" y="-66"/>
-			<point x="61" y="6"/>
-			<point x="178" y="396" type="curve" smooth="yes"/>
-			<point x="181" y="406"/>
-			<point x="155" y="413"/>
-			<point x="152" y="403" type="curve" smooth="yes"/>
-			<point x="39" y="26"/>
-			<point x="-515" y="-38"/>
-			<point x="-515" y="-249" type="curve" smooth="yes"/>
-			<point x="-515" y="-284"/>
-			<point x="-491" y="-315"/>
-		</contour>
-	</outline>
-	<anchor name="_cnct" x="-65" y="0"/>
-	<lib>
-		<dict>
-			<key>com.hugojourdan.ColorFlow</key>
-			<dict>
-				<key>0</key>
-				<integer>0</integer>
-				<key>1</key>
-				<integer>0</integer>
-				<key>10</key>
-				<integer>0</integer>
-				<key>11</key>
-				<integer>0</integer>
-				<key>2</key>
-				<integer>0</integer>
-				<key>3</key>
-				<integer>0</integer>
-				<key>4</key>
-				<integer>0</integer>
-				<key>5</key>
-				<integer>0</integer>
-				<key>6</key>
-				<integer>0</integer>
-				<key>7</key>
-				<integer>0</integer>
-				<key>8</key>
-				<integer>0</integer>
-				<key>9</key>
-				<integer>0</integer>
-			</dict>
-			<key>public.markColor</key>
-			<string>0.04,0.57,0.04,1</string>
-		</dict>
-	</lib>
+  <anchor x="-65" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-446" y="-315" type="curve"/>
+      <point x="-426" y="-315"/>
+      <point x="-421" y="-287"/>
+      <point x="-441" y="-287" type="curve"/>
+      <point x="-471" y="-287"/>
+      <point x="-482" y="-266"/>
+      <point x="-482" y="-245" type="curve" smooth="yes"/>
+      <point x="-482" y="-66"/>
+      <point x="61" y="6"/>
+      <point x="178" y="396" type="curve" smooth="yes"/>
+      <point x="181" y="406"/>
+      <point x="155" y="413"/>
+      <point x="152" y="403" type="curve" smooth="yes"/>
+      <point x="39" y="26"/>
+      <point x="-515" y="-38"/>
+      <point x="-515" y="-249" type="curve" smooth="yes"/>
+      <point x="-515" y="-284"/>
+      <point x="-491" y="-315"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>40</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

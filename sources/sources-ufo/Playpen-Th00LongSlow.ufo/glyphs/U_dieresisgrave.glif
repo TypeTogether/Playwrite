@@ -1,45 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udieresisgrave" format="2">
-	<unicode hex="01DB"/>
-	<advance width="1069"/>
-	<outline>
-		<component base="U"/>
-		<component base="dieresiscomb" xOffset="535" yOffset="739"/>
-		<component base="gravecomb" xOffset="535" yOffset="928"/>
-	</outline>
-	<anchor name="bottom" x="535" y="0"/>
-	<anchor name="ogonek" x="728" y="17"/>
-	<anchor name="top" x="535" y="1582"/>
-	<anchor name="topright" x="877" y="1207"/>
-	<lib>
-		<dict>
-			<key>com.hugojourdan.ColorFlow</key>
-			<dict>
-				<key>0</key>
-				<integer>0</integer>
-				<key>1</key>
-				<integer>0</integer>
-				<key>10</key>
-				<integer>0</integer>
-				<key>11</key>
-				<integer>0</integer>
-				<key>2</key>
-				<integer>0</integer>
-				<key>3</key>
-				<integer>0</integer>
-				<key>4</key>
-				<integer>0</integer>
-				<key>5</key>
-				<integer>0</integer>
-				<key>6</key>
-				<integer>0</integer>
-				<key>7</key>
-				<integer>0</integer>
-				<key>8</key>
-				<integer>0</integer>
-				<key>9</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-	</lib>
+  <advance width="1069"/>
+  <unicode hex="01DB"/>
+  <anchor x="535" y="0" name="bottom"/>
+  <anchor x="728" y="17" name="ogonek"/>
+  <anchor x="535" y="1632" name="top"/>
+  <anchor x="877" y="1207" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="dieresiscomb.case" xOffset="535" yOffset="-1"/>
+    <component base="gravecomb.case" xOffset="535" yOffset="218"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

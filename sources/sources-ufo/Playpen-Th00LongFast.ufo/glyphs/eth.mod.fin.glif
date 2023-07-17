@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eth.mod.fin" format="2">
+  <advance width="482"/>
+  <anchor x="482" y="0" name="cnct"/>
+  <outline>
+    <component base="eth.mod.med"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

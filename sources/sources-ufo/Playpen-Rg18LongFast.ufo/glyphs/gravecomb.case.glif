@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecomb.case" format="2">
+  <anchor x="65" y="400" name="_top"/>
+  <anchor x="136" y="619" name="top"/>
+  <outline>
+    <contour>
+      <point x="120" y="498" type="curve" smooth="yes"/>
+      <point x="133" y="498"/>
+      <point x="148" y="506"/>
+      <point x="148" y="522" type="curve" smooth="yes"/>
+      <point x="148" y="526"/>
+      <point x="147" y="531"/>
+      <point x="145" y="536" type="curve" smooth="yes"/>
+      <point x="99" y="658" type="line" smooth="yes"/>
+      <point x="93" y="675"/>
+      <point x="84" y="684"/>
+      <point x="71" y="684" type="curve" smooth="yes"/>
+      <point x="50" y="684"/>
+      <point x="25" y="668"/>
+      <point x="25" y="650" type="curve" smooth="yes"/>
+      <point x="25" y="644"/>
+      <point x="28" y="639"/>
+      <point x="31" y="633" type="curve" smooth="yes"/>
+      <point x="96" y="517" type="line" smooth="yes"/>
+      <point x="104" y="503"/>
+      <point x="113" y="498"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>250</integer>
+    </dict>
+  </lib>
+</glyph>

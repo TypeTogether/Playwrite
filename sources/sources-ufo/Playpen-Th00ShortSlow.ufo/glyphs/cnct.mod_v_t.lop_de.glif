@@ -1,29 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.mod_v_t.lop_de" format="2">
-	<outline>
-		<contour>
-			<point x="33" y="362" type="curve" smooth="yes"/>
-			<point x="156" y="362"/>
-			<point x="235" y="571"/>
-			<point x="235" y="698" type="curve" smooth="yes"/>
-			<point x="235" y="704"/>
-			<point x="232" y="708"/>
-			<point x="224" y="708" type="curve" smooth="yes"/>
-			<point x="217" y="708"/>
-			<point x="213" y="704"/>
-			<point x="213" y="698" type="curve" smooth="yes"/>
-			<point x="213" y="595"/>
-			<point x="138" y="386"/>
-			<point x="32" y="386" type="curve" smooth="yes"/>
-			<point x="5" y="386"/>
-			<point x="-15" y="396"/>
-			<point x="-34" y="409" type="curve" smooth="yes"/>
-			<point x="-44" y="416"/>
-			<point x="-59" y="396"/>
-			<point x="-45" y="387" type="curve" smooth="yes"/>
-			<point x="-26" y="375"/>
-			<point x="1" y="362"/>
-		</contour>
-	</outline>
-	<anchor name="_cnct" x="0" y="0"/>
+  <anchor x="0" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="33" y="362" type="curve" smooth="yes"/>
+      <point x="156" y="362"/>
+      <point x="235" y="571"/>
+      <point x="235" y="698" type="curve" smooth="yes"/>
+      <point x="235" y="704"/>
+      <point x="232" y="708"/>
+      <point x="224" y="708" type="curve" smooth="yes"/>
+      <point x="217" y="708"/>
+      <point x="213" y="704"/>
+      <point x="213" y="698" type="curve" smooth="yes"/>
+      <point x="213" y="595"/>
+      <point x="138" y="386"/>
+      <point x="32" y="386" type="curve" smooth="yes"/>
+      <point x="5" y="386"/>
+      <point x="-15" y="396"/>
+      <point x="-34" y="409" type="curve" smooth="yes"/>
+      <point x="-44" y="416"/>
+      <point x="-59" y="396"/>
+      <point x="-45" y="387" type="curve" smooth="yes"/>
+      <point x="-26" y="375"/>
+      <point x="1" y="362"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
 </glyph>

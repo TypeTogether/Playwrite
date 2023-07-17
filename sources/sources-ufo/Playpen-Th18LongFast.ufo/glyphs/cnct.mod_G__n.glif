@@ -1,33 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.mod_G_n" format="2">
-	<advance width="40"/>
-	<outline>
-		<contour>
-			<point x="-691" y="-703" type="curve" smooth="yes"/>
-			<point x="-691" y="-723"/>
-			<point x="-658" y="-723"/>
-			<point x="-658" y="-703" type="curve" smooth="yes"/>
-			<point x="-658" y="-557"/>
-			<point x="-455" y="-323"/>
-			<point x="-236" y="-158" type="curve" smooth="yes"/>
-			<point x="8" y="27"/>
-			<point x="129" y="166"/>
-			<point x="232" y="385" type="curve" smooth="yes"/>
-			<point x="238" y="397"/>
-			<point x="222" y="407"/>
-			<point x="215" y="393" type="curve" smooth="yes"/>
-			<point x="105" y="179"/>
-			<point x="-5" y="46"/>
-			<point x="-240" y="-126" type="curve" smooth="yes"/>
-			<point x="-475" y="-298"/>
-			<point x="-691" y="-545"/>
-		</contour>
-	</outline>
-	<anchor name="_cnct" x="-65" y="0"/>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.04,0.57,0.04,1</string>
-		</dict>
-	</lib>
+  <anchor x="-65" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-691" y="-703" type="curve" smooth="yes"/>
+      <point x="-691" y="-723"/>
+      <point x="-658" y="-723"/>
+      <point x="-658" y="-703" type="curve" smooth="yes"/>
+      <point x="-658" y="-557"/>
+      <point x="-455" y="-323"/>
+      <point x="-236" y="-158" type="curve" smooth="yes"/>
+      <point x="8" y="27"/>
+      <point x="129" y="166"/>
+      <point x="232" y="385" type="curve" smooth="yes"/>
+      <point x="238" y="397"/>
+      <point x="222" y="407"/>
+      <point x="215" y="393" type="curve" smooth="yes"/>
+      <point x="105" y="179"/>
+      <point x="-5" y="46"/>
+      <point x="-240" y="-126" type="curve" smooth="yes"/>
+      <point x="-475" y="-298"/>
+      <point x="-691" y="-545"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>40</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
 </glyph>

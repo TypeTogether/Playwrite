@@ -1,52 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.ful_X_s" format="2">
-	<outline>
-		<contour>
-			<point x="-201" y="-14" type="curve" smooth="yes"/>
-			<point x="-77" y="-14"/>
-			<point x="84" y="135"/>
-			<point x="224" y="379" type="curve" smooth="yes"/>
-			<point x="232" y="394"/>
-			<point x="194" y="418"/>
-			<point x="186" y="405" type="curve" smooth="yes"/>
-			<point x="50" y="183"/>
-			<point x="-93" y="48"/>
-			<point x="-191" y="48" type="curve" smooth="yes"/>
-			<point x="-231" y="48"/>
-			<point x="-241" y="-14"/>
-		</contour>
-	</outline>
-	<anchor name="_cnct" x="-65" y="0"/>
-	<guideline y="157"/>
-	<lib>
-		<dict>
-			<key>com.hugojourdan.ColorFlow</key>
-			<dict>
-				<key>0</key>
-				<integer>0</integer>
-				<key>1</key>
-				<integer>0</integer>
-				<key>10</key>
-				<integer>0</integer>
-				<key>11</key>
-				<integer>0</integer>
-				<key>2</key>
-				<integer>0</integer>
-				<key>3</key>
-				<integer>0</integer>
-				<key>4</key>
-				<integer>0</integer>
-				<key>5</key>
-				<integer>0</integer>
-				<key>6</key>
-				<integer>0</integer>
-				<key>7</key>
-				<integer>0</integer>
-				<key>8</key>
-				<integer>0</integer>
-				<key>9</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-	</lib>
+  <guideline y="157"/>
+  <anchor x="-65" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-201" y="-14" type="curve" smooth="yes"/>
+      <point x="-77" y="-14"/>
+      <point x="84" y="135"/>
+      <point x="224" y="379" type="curve" smooth="yes"/>
+      <point x="232" y="394"/>
+      <point x="194" y="418"/>
+      <point x="186" y="405" type="curve" smooth="yes"/>
+      <point x="50" y="183"/>
+      <point x="-93" y="48"/>
+      <point x="-191" y="48" type="curve" smooth="yes"/>
+      <point x="-231" y="48"/>
+      <point x="-241" y="-14"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
 </glyph>
