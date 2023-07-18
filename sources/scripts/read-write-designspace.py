@@ -1,12 +1,12 @@
 from fontTools.designspaceLib import (DesignSpaceDocument, AxisDescriptor,
                                       SourceDescriptor, InstanceDescriptor)
+from modelsData import modelsDataDict
 
-# designspace sources
+
+# designspace with the sources
 doc = DesignSpaceDocument.fromfile(
     "../sources-ufo/designspace-models/Playpen-SOURCES.designspace")
-# models data
-
-
+# weights
 weightStyles = {
     100: "Thin",
     200: "ExtraLight",
@@ -14,17 +14,8 @@ weightStyles = {
     400: "Regular",
 }
 
-# print(doc.formatVersion)
-# print(doc.elidedFallbackName)
-# print(doc.axes)
-# print(doc.axisMappings)
-# print(doc.locationLabels)
-# print(doc.rules)
-# print(doc.rulesProcessingLast)
-# print(doc.sources)
-# print(doc.variableFonts)
-# print(doc.instances)
-# print(doc.lib)
+# models data
+
 
 # -------------------------
 # variables

@@ -1,4 +1,10 @@
-# Make specific features for all models from the csv database
+# write-models-fea
+
+__doc__ = """
+    Write specific features for all models with the UC-lc substitutions.
+    Data is read from "../data/models-all.csv" which should be up to date.
+    Files are written in "../features/fea-models" folder with TAG.fea name scheme.
+"""
 
 
 UC_src = "@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];"
@@ -44,10 +50,11 @@ class langModel(object):
 
 if __name__ == '__main__':
     with open("../data/models-all.csv", "r") as csv:
-        lines = csv.readlines()
+        lines = csv.readlines()[1:]
         models_fea_folder = "../features/fea-models/"
         for l in lines:
             lang_mod = langModel(l)
             lang_mod.writeFeaFile(models_fea_folder)
+        csv.close()
 
     print(" ✅ Done writing models feature")

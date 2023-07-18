@@ -25,10 +25,10 @@ do
     mkdir -p $otfFontsPath # $ttfFontsPath $webFontsPath
 
     echo "
-    ==================================
-     Generating STATIC **$tag** fonts
-    ==================================
-    $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
+==================================
+ Generating STATIC **$tag** fonts
+==================================
+$(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
     echo
 
     # Build OTF fonts
