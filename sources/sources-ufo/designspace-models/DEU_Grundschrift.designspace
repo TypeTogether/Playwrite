@@ -141,36 +141,36 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playpen COL Thin" familyname="Playpen COL" stylename="Thin" filename="../instance_ufo/PlaypenCOL-Thin.ufo" postscriptfontname="PlaypenCOL-Thin" stylemapfamilyname="Playpen COL Thin" stylemapstylename="regular">
+    <instance name="Playpen DEU_Grundschrift Thin" familyname="Playpen DEU_Grundschrift" stylename="Thin" filename="../instance_ufo/PlaypenDEU_Grundschrift-Thin.ufo" postscriptfontname="PlaypenDEU_Grundschrift-Thin" stylemapfamilyname="Playpen DEU_Grundschrift Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="Slant" xvalue="18"/>
-        <dimension name="Extenders" xvalue="416"/>
-        <dimension name="Speed" xvalue="25"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Extenders" xvalue="336"/>
+        <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
-    <instance name="Playpen COL ExtraLight" familyname="Playpen COL" stylename="ExtraLight" filename="../instance_ufo/PlaypenCOL-ExtraLight.ufo" postscriptfontname="PlaypenCOL-ExtraLight" stylemapfamilyname="Playpen COL ExtraLight" stylemapstylename="regular">
+    <instance name="Playpen DEU_Grundschrift ExtraLight" familyname="Playpen DEU_Grundschrift" stylename="ExtraLight" filename="../instance_ufo/PlaypenDEU_Grundschrift-ExtraLight.ufo" postscriptfontname="PlaypenDEU_Grundschrift-ExtraLight" stylemapfamilyname="Playpen DEU_Grundschrift ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
-        <dimension name="Slant" xvalue="18"/>
-        <dimension name="Extenders" xvalue="416"/>
-        <dimension name="Speed" xvalue="25"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Extenders" xvalue="336"/>
+        <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
-    <instance name="Playpen COL Light" familyname="Playpen COL" stylename="Light" filename="../instance_ufo/PlaypenCOL-Light.ufo" postscriptfontname="PlaypenCOL-Light" stylemapfamilyname="Playpen COL Light" stylemapstylename="regular">
+    <instance name="Playpen DEU_Grundschrift Light" familyname="Playpen DEU_Grundschrift" stylename="Light" filename="../instance_ufo/PlaypenDEU_Grundschrift-Light.ufo" postscriptfontname="PlaypenDEU_Grundschrift-Light" stylemapfamilyname="Playpen DEU_Grundschrift Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Slant" xvalue="18"/>
-        <dimension name="Extenders" xvalue="416"/>
-        <dimension name="Speed" xvalue="25"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Extenders" xvalue="336"/>
+        <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
-    <instance name="Playpen COL Regular" familyname="Playpen COL" stylename="Regular" filename="../instance_ufo/PlaypenCOL-Regular.ufo" postscriptfontname="PlaypenCOL-Regular" stylemapfamilyname="Playpen COL" stylemapstylename="regular">
+    <instance name="Playpen DEU_Grundschrift Regular" familyname="Playpen DEU_Grundschrift" stylename="Regular" filename="../instance_ufo/PlaypenDEU_Grundschrift-Regular.ufo" postscriptfontname="PlaypenDEU_Grundschrift-Regular" stylemapfamilyname="Playpen DEU_Grundschrift" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Slant" xvalue="18"/>
-        <dimension name="Extenders" xvalue="416"/>
-        <dimension name="Speed" xvalue="25"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Extenders" xvalue="336"/>
+        <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
   </instances>

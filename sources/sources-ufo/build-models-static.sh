@@ -15,7 +15,6 @@ do
     # set locl code in features
     python $scripts/add-locl-fea.py $tag $feaFile
 
-
     otfFontsPath="../../fonts-models/fonts-$tag/static/otf"
     # ttfFontsPath="../fonts/static/ttf"
     # webFontsPath="../fonts/static/web"

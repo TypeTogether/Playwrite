@@ -141,36 +141,36 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playpen COL Thin" familyname="Playpen COL" stylename="Thin" filename="../instance_ufo/PlaypenCOL-Thin.ufo" postscriptfontname="PlaypenCOL-Thin" stylemapfamilyname="Playpen COL Thin" stylemapstylename="regular">
+    <instance name="Playpen AUS_SA Thin" familyname="Playpen AUS_SA" stylename="Thin" filename="../instance_ufo/PlaypenAUS_SA-Thin.ufo" postscriptfontname="PlaypenAUS_SA-Thin" stylemapfamilyname="Playpen AUS_SA Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="Slant" xvalue="18"/>
-        <dimension name="Extenders" xvalue="416"/>
-        <dimension name="Speed" xvalue="25"/>
+        <dimension name="Slant" xvalue="16"/>
+        <dimension name="Extenders" xvalue="390"/>
+        <dimension name="Speed" xvalue="100"/>
       </location>
     </instance>
-    <instance name="Playpen COL ExtraLight" familyname="Playpen COL" stylename="ExtraLight" filename="../instance_ufo/PlaypenCOL-ExtraLight.ufo" postscriptfontname="PlaypenCOL-ExtraLight" stylemapfamilyname="Playpen COL ExtraLight" stylemapstylename="regular">
+    <instance name="Playpen AUS_SA ExtraLight" familyname="Playpen AUS_SA" stylename="ExtraLight" filename="../instance_ufo/PlaypenAUS_SA-ExtraLight.ufo" postscriptfontname="PlaypenAUS_SA-ExtraLight" stylemapfamilyname="Playpen AUS_SA ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
-        <dimension name="Slant" xvalue="18"/>
-        <dimension name="Extenders" xvalue="416"/>
-        <dimension name="Speed" xvalue="25"/>
+        <dimension name="Slant" xvalue="16"/>
+        <dimension name="Extenders" xvalue="390"/>
+        <dimension name="Speed" xvalue="100"/>
       </location>
     </instance>
-    <instance name="Playpen COL Light" familyname="Playpen COL" stylename="Light" filename="../instance_ufo/PlaypenCOL-Light.ufo" postscriptfontname="PlaypenCOL-Light" stylemapfamilyname="Playpen COL Light" stylemapstylename="regular">
+    <instance name="Playpen AUS_SA Light" familyname="Playpen AUS_SA" stylename="Light" filename="../instance_ufo/PlaypenAUS_SA-Light.ufo" postscriptfontname="PlaypenAUS_SA-Light" stylemapfamilyname="Playpen AUS_SA Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Slant" xvalue="18"/>
-        <dimension name="Extenders" xvalue="416"/>
-        <dimension name="Speed" xvalue="25"/>
+        <dimension name="Slant" xvalue="16"/>
+        <dimension name="Extenders" xvalue="390"/>
+        <dimension name="Speed" xvalue="100"/>
       </location>
     </instance>
-    <instance name="Playpen COL Regular" familyname="Playpen COL" stylename="Regular" filename="../instance_ufo/PlaypenCOL-Regular.ufo" postscriptfontname="PlaypenCOL-Regular" stylemapfamilyname="Playpen COL" stylemapstylename="regular">
+    <instance name="Playpen AUS_SA Regular" familyname="Playpen AUS_SA" stylename="Regular" filename="../instance_ufo/PlaypenAUS_SA-Regular.ufo" postscriptfontname="PlaypenAUS_SA-Regular" stylemapfamilyname="Playpen AUS_SA" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Slant" xvalue="18"/>
-        <dimension name="Extenders" xvalue="416"/>
-        <dimension name="Speed" xvalue="25"/>
+        <dimension name="Slant" xvalue="16"/>
+        <dimension name="Extenders" xvalue="390"/>
+        <dimension name="Speed" xvalue="100"/>
       </location>
     </instance>
   </instances>
