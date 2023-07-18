@@ -860,7 +860,8 @@ feature ccmp {
 feature locl {
 	script latn;
 	language dflt;
-	include(../features/fea-models/FRA_Modern.fea);
+	# some code?
+	include(../features/fea-models/POR.fea);
 } locl;
 
 
