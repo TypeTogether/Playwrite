@@ -141,36 +141,36 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playpen COL Thin" familyname="Playpen COL" stylename="Thin" filename="../instance_ufo/PlaypenCOL-Thin.ufo" postscriptfontname="PlaypenCOL-Thin" stylemapfamilyname="Playpen COL Thin" stylemapstylename="regular">
+    <instance name="Playpen DEU_LA Thin" familyname="Playpen DEU_LA" stylename="Thin" filename="../instance_ufo/PlaypenDEU_LA-Thin.ufo" postscriptfontname="PlaypenDEU_LA-Thin" stylemapfamilyname="Playpen DEU_LA Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="18"/>
-        <dimension name="Extenders" xvalue="416"/>
-        <dimension name="Speed" xvalue="25"/>
+        <dimension name="Extenders" xvalue="336"/>
+        <dimension name="Speed" xvalue="75"/>
       </location>
     </instance>
-    <instance name="Playpen COL ExtraLight" familyname="Playpen COL" stylename="ExtraLight" filename="../instance_ufo/PlaypenCOL-ExtraLight.ufo" postscriptfontname="PlaypenCOL-ExtraLight" stylemapfamilyname="Playpen COL ExtraLight" stylemapstylename="regular">
+    <instance name="Playpen DEU_LA ExtraLight" familyname="Playpen DEU_LA" stylename="ExtraLight" filename="../instance_ufo/PlaypenDEU_LA-ExtraLight.ufo" postscriptfontname="PlaypenDEU_LA-ExtraLight" stylemapfamilyname="Playpen DEU_LA ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="18"/>
-        <dimension name="Extenders" xvalue="416"/>
-        <dimension name="Speed" xvalue="25"/>
+        <dimension name="Extenders" xvalue="336"/>
+        <dimension name="Speed" xvalue="75"/>
       </location>
     </instance>
-    <instance name="Playpen COL Light" familyname="Playpen COL" stylename="Light" filename="../instance_ufo/PlaypenCOL-Light.ufo" postscriptfontname="PlaypenCOL-Light" stylemapfamilyname="Playpen COL Light" stylemapstylename="regular">
+    <instance name="Playpen DEU_LA Light" familyname="Playpen DEU_LA" stylename="Light" filename="../instance_ufo/PlaypenDEU_LA-Light.ufo" postscriptfontname="PlaypenDEU_LA-Light" stylemapfamilyname="Playpen DEU_LA Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Slant" xvalue="18"/>
-        <dimension name="Extenders" xvalue="416"/>
-        <dimension name="Speed" xvalue="25"/>
+        <dimension name="Extenders" xvalue="336"/>
+        <dimension name="Speed" xvalue="75"/>
       </location>
     </instance>
-    <instance name="Playpen COL Regular" familyname="Playpen COL" stylename="Regular" filename="../instance_ufo/PlaypenCOL-Regular.ufo" postscriptfontname="PlaypenCOL-Regular" stylemapfamilyname="Playpen COL" stylemapstylename="regular">
+    <instance name="Playpen DEU_LA Regular" familyname="Playpen DEU_LA" stylename="Regular" filename="../instance_ufo/PlaypenDEU_LA-Regular.ufo" postscriptfontname="PlaypenDEU_LA-Regular" stylemapfamilyname="Playpen DEU_LA" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="18"/>
-        <dimension name="Extenders" xvalue="416"/>
-        <dimension name="Speed" xvalue="25"/>
+        <dimension name="Extenders" xvalue="336"/>
+        <dimension name="Speed" xvalue="75"/>
       </location>
     </instance>
   </instances>

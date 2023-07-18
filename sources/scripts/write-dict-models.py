@@ -20,14 +20,17 @@ with open("../data/models-all.csv", "r") as csv:
         # remove newline
         line = line[:-1]
         c, t, sl, e, sp, u, l, = line.split(";")
-        models_dict[t] = {
-            country: c,
-            slnt: sl,
-            extd: e,
-            sped: sp,
-            uppercase: u,
-            lowercase: l,
-        }
+        try:
+            models_dict[t] = {
+                country: c,
+                slnt: int(sl),
+                extd: int(e),
+                sped: int(sp),
+                uppercase: u,
+                lowercase: l,
+            }
+        except ValueError:
+            print(f"🔥 {t} has some not valid data in the .csv file")
     csv.close()
 
 with open("modelsData.py", "w") as d:

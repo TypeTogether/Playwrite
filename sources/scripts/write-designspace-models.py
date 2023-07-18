@@ -3,9 +3,6 @@ from fontTools.designspaceLib import (DesignSpaceDocument, AxisDescriptor,
 from modelsData import modelsDataDict
 
 
-# designspace with the sources
-doc = DesignSpaceDocument.fromfile(
-    "../sources-ufo/designspace-models/Playpen-SOURCES.designspace")
 # weights
 weightStyles = {
     100: "Thin",
@@ -16,7 +13,9 @@ weightStyles = {
 
 # models data
 for mTag, val in modelsDataDict.items():
-    print(mTag)
+    # designspace with the sources
+    doc = DesignSpaceDocument.fromfile(
+    "../sources-ufo/designspace-models/_Playpen-SOURCES.designspace")
     slant = val["slnt"]
     extend = val["EXTD"]
     speed = val["SPED"]
