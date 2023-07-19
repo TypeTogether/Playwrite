@@ -4,4 +4,5 @@
 @UC_ITA_Modern = [A B C D E F G H I_locl J K L M_locl N O P Q R S T U V W X Y Z];
 @lc_ITA_Modern = [a.mod b.jmc c.mod d.mod e.mod f.jmc g.jmc h.mod i.mod j.jmc k.mod l.mod m.mod n.mod o.mod p.jmc q.jmc r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.jmc z.mod
 ];
+
 sub [@UC_src @lc_src] by [@UC_ITA_Modern @lc_ITA_Modern];

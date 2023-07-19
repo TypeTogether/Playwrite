@@ -4,4 +4,5 @@
 @UC_IDN = [A.dec_locl B C D E.cur F G.cur H.cur I.dec J.dec K.dec L.cur M.cur N.cur O P Q.dec R S T.dec U.cur V.cur W.cur X.cur Y.cur Z.dec];
 @lc_IDN = [a.mod b.mlp c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.ful q.jmc r.ful s.jmc t.mod u.mod v.cnt w.cnt x.cnt y.jmc z.cnt
 ];
+
 sub [@UC_src @lc_src] by [@UC_IDN @lc_IDN];
