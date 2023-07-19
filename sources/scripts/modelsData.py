@@ -3,10 +3,9 @@ modelsDataDict = {'AUS_NSW': {'Country': 'Australia',
              'SPED': 100,
              'UC': 'A B C D E F G_locl.au H I J K L M_locl.au N O P Q R S T '
                    'U_locl.au V W X Y_locl Z',
-             'lc': 'a.mod b.mod c.mod d.mod e.mod f.mod_au g.mod g.jmc h.mod '
-                   'i.mod j.mod k.ful l.mod m.mod n.mod o.mod p.mod q.jmc '
-                   'r.mod s.mod t.mod u.mod v.ful w.ful x.mod y.mod y.jmc '
-                   'z.mod',
+             'lc': 'a.mod b.mod c.mod d.mod e.mod f.mod_au g.jmc h.mod i.mod '
+                   'j.mod k.ful l.mod m.mod n.mod o.mod p.mod q.jmc r.mod '
+                   's.mod t.mod u.mod v.ful w.ful x.mod y.jmc z.mod',
              'slnt': 16},
  'AUS_QLD': {'Country': 'Australia',
              'EXTD': 400,
