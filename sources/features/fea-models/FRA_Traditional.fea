@@ -4,4 +4,5 @@
 @UC_FRA_Traditional = [A.dec_locl B.cur C.cur D.dec E.cur F.cur G.cur_locl H.cur I.dec J.dec K.dec L.dec M.dec N.dec O.cur P.cur Q.cur_locl R.cur S.dec T.cur_locl U.cur V.cur W.cur X.dec_locl Y.cur Z.dec_locl];
 @lc_FRA_Traditional = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.ful s.ful t.mod u.mod v.cnt w.cnt x.cnt y.jmc z.cnt
 ];
+
 sub [@UC_src @lc_src] by [@UC_FRA_Traditional @lc_FRA_Traditional];

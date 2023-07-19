@@ -4,4 +4,5 @@
 @UC_DEU_LA = [A.dec B.dec C.cur D.dec E.cur F.cur G.cur H.cur I.dec J.dec K.dec L.cur M.dec N.dec O P.cur Q.cur_locl R.cur S.dec T.dec U.cur V.cur W.cur X.dec_locl Y.cur Z.dec];
 @lc_DEU_LA = [a.mod b.lop c.mod d.mod e.ful f.ful_de g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.cnt s.ful t.mod u.mod v.cnt w.cnt x.cnt_de y.jmc z.mod
 ];
+
 sub [@UC_src @lc_src] by [@UC_DEU_LA @lc_DEU_LA];

@@ -39,7 +39,7 @@ class langModel(object):
 
     def makeFeaText(self):
         self.fea_code.append(f"\nsub [@UC_src @lc_src] by [@UC_{self.lang_tag} @lc_{self.lang_tag}];")
-        return "\n".join(self.fea_code)
+        return "\n".join(self.fea_code) + "\n"
 
     def writeFeaFile(self, folder):
         with open(f"{folder}{self.lang_tag}.fea", "w") as fea:
