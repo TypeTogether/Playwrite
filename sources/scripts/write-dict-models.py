@@ -15,10 +15,11 @@ with open("../data/models-all.csv", "r") as csv:
     models_dict = {}
     headers = csv.readline()[:-1].split(";")
     country, tag, slnt, extd, sped, uppercase, lowercase = headers
-    lines = csv.readlines()[1:]
+    lines = csv.readlines()
     for line in lines:
         # remove newline
         line = line[:-1]
+        # print(line)
         c, t, sl, e, sp, u, l, = line.split(";")
         try:
             models_dict[t] = {
