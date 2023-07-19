@@ -1,4 +1,14 @@
-modelsDataDict = {'AUS_NSW': {'Country': 'Australia',
+modelsDataDict = {'ARG': {'Country': 'Argentina',
+         'EXTD': 452,
+         'SPED': 0,
+         'UC': 'A.cur B.cur C.cur D.dec E.cur F.dec G.cur H.dec I.cur J.cur '
+               'K.cur L.cur M.cur N.cur O.cur P.dec Q.cur R.dec S.cur T.dec '
+               'U.cur V.cur W.cur X.dec Y.cur Z.cur',
+         'lc': 'a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc '
+               'k.lop l.lop m.cnt n.cnt o.mlp p.ful q.jmc_ar r.ful s.ful t.mod '
+               'u.mod v.cnt w.cnt x.ful y.cnt z.cnt',
+         'slnt': 0},
+ 'AUS_NSW': {'Country': 'Australia',
              'EXTD': 400,
              'SPED': 100,
              'UC': 'A B C D E F G_locl.au H I J K L M_locl.au N O P Q R S T '
