@@ -1,4 +1,4 @@
-# 230717_1611
+# 230720_1612
 
 # --------------
 # CLASSES
@@ -1340,7 +1340,7 @@ feature dist {
 			pos @rcnt_SRC 50 @hlop_TGT;
 			pos @rcnt_SRC 18 @nmod_TGT;
 			pos @rcnt_SRC 90 @ncnt_TGT;
-			pos @rcnt_SRC 50 @fjmc_TGT;
+			pos @rcnt_SRC 50 @fful_TGT;
 			pos @rcnt_SRC 20 @tmod_TGT;
 			pos @zful_SRC 110 @ncnt_TGT;
 			pos @zful_SRC 20 @zcnt_TGT;
