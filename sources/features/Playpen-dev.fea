@@ -8,8 +8,8 @@
 # UC CURSIVE
 @UC = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
 @UC_Cursive = [A.cur B.cur C.cur D.cur E.cur F.cur G.cur H.cur I.cur J.cur K.cur L.cur M.cur N.cur O.cur P.cur Q.cur R.cur S.cur T.cur U.cur V.cur W.cur X.cur Y.cur Z.cur];
-@UC_CursiveHasIni = [ A.cur G.cur H.cur J.cur K.cur L.cur M.cur N.cur Q.cur R.cur T.cur U.cur X.cur Y.cur Z.cur];
-@UC_CursiveIni = [A.cur.ini G.cur.ini H.cur.ini J.cur.ini K.cur.ini L.cur.ini M.cur.ini N.cur.ini Q.cur.ini R.cur.ini T.cur.ini U.cur.ini X.cur.ini Y.cur.ini Z.cur.ini];
+@UC_CursiveHasIni = [A.cur A.cur_locl G.cur H.cur J.cur K.cur L.cur M.cur N.cur Q.cur R.cur T.cur U.cur X.cur Y.cur Z.cur];
+@UC_CursiveIni = [A.cur.ini A.cur_locl.ini G.cur.ini H.cur.ini J.cur.ini K.cur.ini L.cur.ini M.cur.ini N.cur.ini Q.cur.ini R.cur.ini T.cur.ini U.cur.ini X.cur.ini Y.cur.ini Z.cur.ini];
 
 @UC_Decorative = [A.dec B.dec C.cur D.dec E.cur F.dec G.dec H.dec I.dec J.dec K.dec L.dec M.dec N.dec O.dec P.dec Q.dec R.dec S.dec T.dec U.cur V.dec W.dec X.dec Y.cur Z.dec];
 @UC_DecorativeHasIni = [J.dec K.dec L.dec M.dec Q.dec R.dec X.dec Z.dec A.dec_locl X.dec_locl Z.dec_locl];
@@ -43,7 +43,7 @@
 # SOURCE CLASSES (INI and MED)
 @bful_SRC = [b.ful.ini b.ful.med v.ful.ini v.ful.med w.ful.ini w.ful.med b.lop.ini b.lop.med v.cnt.ini v.cnt.med v.cnt.med_n_ w.cnt.ini w.cnt.med w.cnt.med_n_];
 @bmlp_SRC = [b.mlp.ini b.mlp.med v.mlp.ini v.mlp.med w.mlp.ini w.mlp.med v.mlp.med_n_ w.mlp.med_n_];
-@cmod_SRC = [c.mod.ini c.mod.med];
+@cmod_SRC = [c.mod.ini c.mod.med f.ful_de.ini f.ful_de.med f.ful_pe.ini f.ful_pe.med f.ful_pl.ini f.ful_pl.med];
 @emod_SRC = [e.mod.ini e.mod.med e.mod.med_b_ e.mod.med_n_ e.jmc.med_g_];
 @eful_SRC = [e.ful.ini e.ful.med e.ful.med_g_ e.ful.fin_g_ e.ful.med_o_ e.ful.fin_o_];
 @fful_SRC = [f.ful.ini f.ful.med];
@@ -51,7 +51,7 @@
 @fmlp_SRC = [f.mlp.ini f.mlp.med];
 @fmrr_SRC = [f.mrr.ini f.mrr.med];
 @gjmc_SRC = [g.jmc.ini g.jmc.med j.jmc.ini j.jmc.med y.jmc.ini y.jmc.med y.cnt.ini y.cnt.med y.cnt.med_n_ ];
-@nmod_SRC = [A.cur.ini H.cur.ini K.cur.ini L.cur.ini M.cur.ini N.cur.ini Q.cur.ini R.cur.ini U.cur.ini X.cur.ini K.dec.ini L.dec.ini M.dec.ini Q.dec.ini R.dec.ini A.cur_locl.ini A.dec_locl.ini a.mod.ini a.mod.med b.jmc.ini b.jmc.med d.mod.ini d.mod.med h.lop.ini h.lop.med h.mod.ini h.mod.med i.mod.ini i.mod.med k.ful.ini k.ful.med k.lop.ini k.lop.med k.mod.ini k.mod.med l.lop.ini l.lop.med l.mod.ini l.mod.med m.cnt.ini m.cnt.med m.cnt.med_n_ m.mod.ini m.mod.med n.cnt.ini n.cnt.med n.cnt.med_n_ n.mod.ini n.mod.med p.ful.ini p.ful.med p.jmc.ini p.jmc.med p.mrr.ini p.mrr.med q.jmc.ini q.jmc.med q.jmc_ar.ini q.jmc_ar.med q.mrr.ini q.mrr.med r.ful.ini r.ful.med r.mlp.ini r.mlp.med s.ful.ini s.ful.med s.jmc.ini s.jmc.med s.mlp.ini s.mlp.med t.mod.ini t.mod.med t.mod.med_o_ u.mod.ini u.mod.med x.cnt.ini x.cnt.med x.ful.ini x.ful.med x.mod.ini x.mod.med z.mod.ini z.mod.med b.jmc_dk.ini b.jmc_dk.med f.ful_de.ini f.ful_de.med f.ful_pe.ini f.ful_pe.med f.ful_pl.ini f.ful_pl.med k.lop_pe.ini k.lop_pe.med p.mrr_ca.ini p.mrr_ca.med x.cnt_de.ini x.cnt_de.med];
+@nmod_SRC = [A.cur.ini H.cur.ini K.cur.ini L.cur.ini M.cur.ini N.cur.ini Q.cur.ini R.cur.ini U.cur.ini X.cur.ini K.dec.ini L.dec.ini M.dec.ini Q.dec.ini R.dec.ini A.cur_locl.ini A.dec_locl.ini a.mod.ini a.mod.med b.jmc.ini b.jmc.med d.mod.ini d.mod.med h.lop.ini h.lop.med h.mod.ini h.mod.med i.mod.ini i.mod.med k.ful.ini k.ful.med k.lop.ini k.lop.med k.mod.ini k.mod.med l.lop.ini l.lop.med l.mod.ini l.mod.med m.cnt.ini m.cnt.med m.cnt.med_n_ m.mod.ini m.mod.med n.cnt.ini n.cnt.med n.cnt.med_n_ n.mod.ini n.mod.med p.ful.ini p.ful.med p.jmc.ini p.jmc.med p.mrr.ini p.mrr.med q.jmc.ini q.jmc.med q.jmc_ar.ini q.jmc_ar.med q.mrr.ini q.mrr.med r.ful.ini r.ful.med r.mlp.ini r.mlp.med s.ful.ini s.ful.med s.jmc.ini s.jmc.med s.mlp.ini s.mlp.med t.mod.ini t.mod.med t.mod.med_o_ u.mod.ini u.mod.med x.cnt.ini x.cnt.med x.ful.ini x.ful.med x.mod.ini x.mod.med z.mod.ini z.mod.med b.jmc_dk.ini b.jmc_dk.med k.lop_pe.ini k.lop_pe.med p.mrr_ca.ini p.mrr_ca.med x.cnt_de.ini x.cnt_de.med];
 @omod_SRC = [o.mod.ini o.mod.med];
 @omlp_SRC = [o.mlp.ini o.mlp.med];
 @rmod_SRC = [r.mod.ini r.mod.med];
