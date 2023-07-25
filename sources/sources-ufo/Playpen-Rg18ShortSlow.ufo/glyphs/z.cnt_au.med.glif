@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="z.cnt_au.med" format="2">
+  <advance width="525"/>
+  <anchor x="460" y="0" name="cnct"/>
+  <anchor x="180" y="-300" name="bottom"/>
+  <anchor x="346" y="400" name="top"/>
+  <outline>
+    <component base="z.cnt_au.fin"/>
+  </outline>
+</glyph>

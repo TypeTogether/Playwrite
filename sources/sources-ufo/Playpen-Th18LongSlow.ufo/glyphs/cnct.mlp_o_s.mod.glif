@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cnct.mlp_o_s.mod" format="2">
+  <guideline y="271"/>
+  <anchor x="-65" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-118" y="225" type="curve" smooth="yes"/>
+      <point x="5" y="225"/>
+      <point x="124" y="300"/>
+      <point x="182" y="361" type="curve" smooth="yes"/>
+      <point x="192" y="372"/>
+      <point x="176" y="391"/>
+      <point x="164" y="378" type="curve" smooth="yes"/>
+      <point x="112" y="322"/>
+      <point x="0" y="250"/>
+      <point x="-120" y="250" type="curve" smooth="yes"/>
+      <point x="-168" y="250"/>
+      <point x="-235" y="271"/>
+      <point x="-235" y="342" type="curve" smooth="yes"/>
+      <point x="-235" y="364"/>
+      <point x="-223" y="391"/>
+      <point x="-168" y="391" type="curve" smooth="yes"/>
+      <point x="-148" y="391"/>
+      <point x="-149" y="415"/>
+      <point x="-169" y="415" type="curve" smooth="yes"/>
+      <point x="-242" y="415"/>
+      <point x="-260" y="375"/>
+      <point x="-260" y="340" type="curve" smooth="yes"/>
+      <point x="-260" y="271"/>
+      <point x="-208" y="225"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>20</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>
