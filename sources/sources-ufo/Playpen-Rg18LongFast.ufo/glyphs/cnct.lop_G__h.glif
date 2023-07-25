@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cnct.lop_G_h" format="2">
+  <anchor x="-65" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-746" y="-672" type="curve" smooth="yes"/>
+      <point x="-746" y="-712"/>
+      <point x="-673" y="-708"/>
+      <point x="-673" y="-668" type="curve" smooth="yes"/>
+      <point x="-673" y="-537"/>
+      <point x="-509" y="-353"/>
+      <point x="-241" y="-157" type="curve" smooth="yes"/>
+      <point x="52" y="58"/>
+      <point x="119" y="154"/>
+      <point x="246" y="361" type="curve" smooth="yes"/>
+      <point x="263" y="388"/>
+      <point x="224" y="408"/>
+      <point x="207" y="382" type="curve" smooth="yes"/>
+      <point x="80" y="187"/>
+      <point x="26" y="102"/>
+      <point x="-259" y="-97" type="curve" smooth="yes"/>
+      <point x="-562" y="-310"/>
+      <point x="-746" y="-517"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>40</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

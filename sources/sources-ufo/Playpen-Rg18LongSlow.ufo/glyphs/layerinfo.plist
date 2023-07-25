@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>color</key>
-    <string>0.5,0,0.5,0.7</string>
     <key>lib</key>
     <dict>
       <key>com.schriftgestaltung.layerId</key>
@@ -828,6 +826,8 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_e</key>
       <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_e.mod</key>
+      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_f</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_h</key>
@@ -839,6 +839,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_o</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_s</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_s.mod</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_t</key>
       <integer>13</integer>
@@ -884,6 +886,8 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_b_e</key>
       <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_b_e.mod</key>
+      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_b_f</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_b_n</key>
@@ -893,6 +897,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_b_r</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_b_s</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_b_s.mod</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_b_t</key>
       <integer>13</integer>
@@ -928,6 +934,8 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_e_s</key>
       <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_e_s.mod</key>
+      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_e_t</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_e_t.lop_de</key>
@@ -938,11 +946,15 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_f_e</key>
       <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_f_e.mod</key>
+      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_f_f</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_f_r</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_f_s</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_f_s.mod</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_f_t.lop_de</key>
       <integer>13</integer>
@@ -1004,6 +1016,8 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_z_e</key>
       <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_z_e.mod</key>
+      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_z_f</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_z_n</key>
@@ -1013,6 +1027,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_z_r</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_z_s</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_z_s.mod</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_z_t</key>
       <integer>13</integer>
@@ -1082,6 +1098,8 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.jmc_v_f</key>
       <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_G_h</key>
+      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_b_h</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_c_h</key>
@@ -1101,6 +1119,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_z_h</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_b_e</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_b_e.mod</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_b_f</key>
       <integer>13</integer>
@@ -1124,6 +1144,8 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_f_e</key>
       <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_f_e.mod</key>
+      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_f_f</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_f_h</key>
@@ -1138,6 +1160,8 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_f_s</key>
       <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_f_s.mod</key>
+      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_f_t</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_f_t.lop_de</key>
@@ -1147,6 +1171,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_f_z.cnt</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_e</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_e.mod</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_f</key>
       <integer>13</integer>
@@ -1162,11 +1188,15 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_s</key>
       <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_s.mod</key>
+      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_t</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_t.lop_de</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_x</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_z.cnt</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_G_b</key>
       <integer>13</integer>
@@ -1324,6 +1354,8 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_e</key>
       <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_e.mod</key>
+      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_f</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_h</key>
@@ -1337,6 +1369,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_r.ful</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_s</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_s.mod</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_t</key>
       <integer>13</integer>
@@ -1718,6 +1752,14 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.idotless</key>
       <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.idotless.mod</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.idotless.mod.fin</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.idotless.mod.ini</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.idotless.mod.med</key>
+      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.igrave</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ihookabove</key>
@@ -1755,6 +1797,22 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.jcircumflex</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.jdotless</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.jdotless.jmc</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.jdotless.jmc.fin</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.jdotless.jmc.ini</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.jdotless.jmc.med</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.jdotless.mod</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.jdotless.mod.fin</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.jdotless.mod.ini</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.jdotless.mod.med</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.k</key>
       <integer>13</integer>
@@ -2524,6 +2582,14 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt.med</key>
       <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt_au</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt_au.fin</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt_au.ini</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt_au.med</key>
+      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.z.ful</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.z.ful.fin</key>
@@ -2531,14 +2597,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.z.ful.ini</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.z.ful.med</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.z.ful_au</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.z.ful_au.fin</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.z.ful_au.ini</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.z.ful_au.med</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.z.mlp</key>
       <integer>13</integer>
