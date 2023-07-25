@@ -1,4 +1,4 @@
-# 230725_1418
+# 230725_1501
 
 # --------------
 # CLASSES
@@ -97,8 +97,9 @@
 @xful_TGT = [@xful_TGT_CUR x.cnt.fin x.cnt.med x.ful.fin x.ful.med x.cnt_de.fin x.cnt_de.med];
 @zmod_TGT = [z.mod.fin z.mod.med];
 
-@zcnt_TGT_CUR = [z.cnt];
-@zcnt_TGT = [@zcnt_TGT_CUR z.cnt.fin z.cnt.med];
+# NOTE: is next class really needed (they should be switched for .ini ...)
+@zcnt_TGT_CUR = [z.cnt z.cnt_au];
+@zcnt_TGT = [@zcnt_TGT_CUR z.cnt.fin z.cnt.med z.cnt_au.fin z.cnt_au.med];
 @zful_TGT = [z.ful.fin z.ful.med];
 #
 @tlop_de_TGT = [t.lop_de.fin t.lop_de.med];
@@ -233,7 +234,7 @@ lookup before_fmrr {
 
 
 lookup before_h {
-	sub @Gcur_SRC by @Gcur_SRC cnct.lop_g_h;
+	sub @Gcur_SRC by @Gcur_SRC cnct.lop_G_h;
 	sub @Tcur_SRC by @Tcur_SRC cnct.lop_c_h;
 	sub @Xdec_SRC by @Xdec_SRC cnct.lop_e_h;
 	#
