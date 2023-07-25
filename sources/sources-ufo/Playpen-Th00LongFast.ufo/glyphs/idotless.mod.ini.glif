@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless.mod.ini" format="2">
+  <advance width="260"/>
+  <anchor x="173" y="0" name="bottom"/>
+  <anchor x="260" y="0" name="cnct"/>
+  <anchor x="222" y="0" name="ogonek"/>
+  <anchor x="125" y="400" name="top"/>
+  <outline>
+    <contour>
+      <point x="174" y="-14" type="curve" smooth="yes"/>
+      <point x="189" y="-14"/>
+      <point x="189" y="14"/>
+      <point x="174" y="14" type="curve" smooth="yes"/>
+      <point x="147" y="14"/>
+      <point x="140" y="33"/>
+      <point x="140" y="66" type="curve" smooth="yes"/>
+      <point x="140" y="400" type="line" smooth="yes"/>
+      <point x="140" y="409"/>
+      <point x="135" y="412"/>
+      <point x="125" y="412" type="curve" smooth="yes"/>
+      <point x="115" y="412"/>
+      <point x="110" y="409"/>
+      <point x="110" y="400" type="curve" smooth="yes"/>
+      <point x="110" y="65" type="line" smooth="yes"/>
+      <point x="110" y="7"/>
+      <point x="131" y="-14"/>
+    </contour>
+  </outline>
+</glyph>

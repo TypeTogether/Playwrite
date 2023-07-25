@@ -672,10 +672,18 @@
       <string>i.mod.ini</string>
       <string>i.mod.med</string>
       <string>i.mod.fin</string>
+      <string>idotless.mod</string>
+      <string>idotless.mod.ini</string>
+      <string>idotless.mod.med</string>
+      <string>idotless.mod.fin</string>
       <string>j.mod</string>
       <string>j.mod.ini</string>
       <string>j.mod.med</string>
       <string>j.mod.fin</string>
+      <string>jdotless.mod</string>
+      <string>jdotless.mod.ini</string>
+      <string>jdotless.mod.med</string>
+      <string>jdotless.mod.fin</string>
       <string>k.mod</string>
       <string>k.mod.ini</string>
       <string>k.mod.med</string>
@@ -820,6 +828,10 @@
       <string>j.jmc.ini</string>
       <string>j.jmc.med</string>
       <string>j.jmc.fin</string>
+      <string>jdotless.jmc</string>
+      <string>jdotless.jmc.ini</string>
+      <string>jdotless.jmc.med</string>
+      <string>jdotless.jmc.fin</string>
       <string>p.jmc</string>
       <string>p.jmc.ini</string>
       <string>p.jmc.med</string>
@@ -928,6 +940,8 @@
       <string>cnct.ful_b_s</string>
       <string>cnct.ful_b_x</string>
       <string>cnct.ful_b_z</string>
+      <string>cnct.ful_b_e.mod</string>
+      <string>cnct.ful_b_s.mod</string>
       <string>cnct.ful_c_e</string>
       <string>cnct.ful_c_f</string>
       <string>cnct.ful_c_r</string>
@@ -944,12 +958,15 @@
       <string>cnct.ful_e_s</string>
       <string>cnct.ful_e_x</string>
       <string>cnct.ful_e_z</string>
+      <string>cnct.ful_e_s.mod</string>
       <string>cnct.ful_f_e</string>
       <string>cnct.ful_f_f</string>
       <string>cnct.ful_f_r</string>
       <string>cnct.ful_f_s</string>
       <string>cnct.ful_f_x</string>
       <string>cnct.ful_f_z</string>
+      <string>cnct.ful_f_e.mod</string>
+      <string>cnct.ful_f_s.mod</string>
       <string>cnct.ful_g_e</string>
       <string>cnct.ful_g_f</string>
       <string>cnct.ful_g_r</string>
@@ -978,6 +995,8 @@
       <string>cnct.ful_z_s</string>
       <string>cnct.ful_z_x</string>
       <string>cnct.ful_z_z</string>
+      <string>cnct.ful_z_e.mod</string>
+      <string>cnct.ful_z_s.mod</string>
       <string>b.lop</string>
       <string>b.lop.ini</string>
       <string>b.lop.med</string>
@@ -1078,24 +1097,18 @@
       <string>cnct.cnt_r_s</string>
       <string>cnct.cnt_r_x</string>
       <string>cnct.cnt_r_z</string>
+      <string>cnct.cnt_r_e.mod</string>
+      <string>cnct.cnt_r_s.mod</string>
       <string>cnct.cnt_z_n</string>
       <string>cnct.cnt_z_z</string>
       <string>f.mrr</string>
       <string>f.mrr.ini</string>
       <string>f.mrr.med</string>
       <string>f.mrr.fin</string>
-      <string>f.alt1.mrr</string>
-      <string>f.alt1.mrr.ini</string>
-      <string>f.alt1.mrr.med</string>
-      <string>f.alt1.mrr.fin</string>
       <string>p.mrr</string>
       <string>p.mrr.ini</string>
       <string>p.mrr.med</string>
       <string>p.mrr.fin</string>
-      <string>p.mrr_ca</string>
-      <string>p.mrr_ca.ini</string>
-      <string>p.mrr_ca.med</string>
-      <string>p.mrr_ca.fin</string>
       <string>q.mrr</string>
       <string>q.mrr.ini</string>
       <string>q.mrr.med</string>
@@ -1110,6 +1123,8 @@
       <string>cnct.mrr_f_t</string>
       <string>cnct.mrr_f_x</string>
       <string>cnct.mrr_f_z</string>
+      <string>cnct.mrr_f_e.mod</string>
+      <string>cnct.mrr_f_s.mod</string>
       <string>cnct.mrr_f_r.ful</string>
       <string>b.mlp</string>
       <string>b.mlp.ini</string>
@@ -1157,6 +1172,7 @@
       <string>cnct.mlp_b_s</string>
       <string>cnct.mlp_b_t</string>
       <string>cnct.mlp_b_x</string>
+      <string>cnct.mlp_b_e.mod</string>
       <string>cnct.mlp_f_o</string>
       <string>cnct.mlp_f_e</string>
       <string>cnct.mlp_f_h</string>
@@ -1167,6 +1183,8 @@
       <string>cnct.mlp_f_s</string>
       <string>cnct.mlp_f_t</string>
       <string>cnct.mlp_f_x</string>
+      <string>cnct.mlp_f_e.mod</string>
+      <string>cnct.mlp_f_s.mod</string>
       <string>cnct.mlp_f_z.cnt</string>
       <string>cnct.mlp_o_o</string>
       <string>cnct.mlp_o_e</string>
@@ -1178,6 +1196,9 @@
       <string>cnct.mlp_o_s</string>
       <string>cnct.mlp_o_t</string>
       <string>cnct.mlp_o_x</string>
+      <string>cnct.mlp_o_e.mod</string>
+      <string>cnct.mlp_o_s.mod</string>
+      <string>cnct.mlp_o_z.cnt</string>
       <string>##loclLowercase</string>
       <string>b.jmc_dk</string>
       <string>b.jmc_dk.ini</string>
@@ -1203,10 +1224,18 @@
       <string>f.ful_pl.ini</string>
       <string>f.ful_pl.med</string>
       <string>f.ful_pl.fin</string>
+      <string>f.alt1.mrr</string>
+      <string>f.alt1.mrr.ini</string>
+      <string>f.alt1.mrr.med</string>
+      <string>f.alt1.mrr.fin</string>
       <string>k.lop_pe</string>
       <string>k.lop_pe.ini</string>
       <string>k.lop_pe.med</string>
       <string>k.lop_pe.fin</string>
+      <string>p.mrr_ca</string>
+      <string>p.mrr_ca.ini</string>
+      <string>p.mrr_ca.med</string>
+      <string>p.mrr_ca.fin</string>
       <string>q.mod_au</string>
       <string>q.mod_au.ini</string>
       <string>q.mod_au.med</string>
@@ -1223,10 +1252,10 @@
       <string>y_de.ini</string>
       <string>y_de.med</string>
       <string>y_de.fin</string>
-      <string>z.ful_au</string>
-      <string>z.ful_au.ini</string>
-      <string>z.ful_au.med</string>
-      <string>z.ful_au.fin</string>
+      <string>z.cnt_au</string>
+      <string>z.cnt_au.ini</string>
+      <string>z.cnt_au.med</string>
+      <string>z.cnt_au.fin</string>
       <string>##CNCTloclLowercase</string>
       <string>##locl_t_SRC</string>
       <string>cnct.mod_t.lop_de_b</string>
@@ -1369,6 +1398,7 @@
       <string>##capConnectors</string>
       <string>cnct.cnt_G_n</string>
       <string>cnct.cnt_G_z</string>
+      <string>cnct.lop_G_h</string>
       <string>cnct.ful_G_e</string>
       <string>cnct.ful_G_f</string>
       <string>cnct.ful_G_r</string>
@@ -1649,10 +1679,34 @@
       <string>uni1ECB</string>
       <key>idotless</key>
       <string>dotlessi</string>
+      <key>idotless.mod</key>
+      <string>dotlessi.mod</string>
+      <key>idotless.mod.fin</key>
+      <string>dotlessi.mod.fin</string>
+      <key>idotless.mod.ini</key>
+      <string>dotlessi.mod.ini</string>
+      <key>idotless.mod.med</key>
+      <string>dotlessi.mod.med</string>
       <key>ihookabove</key>
       <string>uni1EC9</string>
       <key>jdotless</key>
       <string>uni0237</string>
+      <key>jdotless.jmc</key>
+      <string>uni0237.jmc</string>
+      <key>jdotless.jmc.fin</key>
+      <string>uni0237.jmc.fin</string>
+      <key>jdotless.jmc.ini</key>
+      <string>uni0237.jmc.ini</string>
+      <key>jdotless.jmc.med</key>
+      <string>uni0237.jmc.med</string>
+      <key>jdotless.mod</key>
+      <string>uni0237.mod</string>
+      <key>jdotless.mod.fin</key>
+      <string>uni0237.mod.fin</string>
+      <key>jdotless.mod.ini</key>
+      <string>uni0237.mod.ini</string>
+      <key>jdotless.mod.med</key>
+      <string>uni0237.mod.med</string>
       <key>kcommaaccent</key>
       <string>uni0137</string>
       <key>lcommaaccent</key>

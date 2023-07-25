@@ -822,6 +822,8 @@
     <string>cnct.cnt_o_z.glif</string>
     <key>cnct.cnt_r_e</key>
     <string>cnct.cnt_r_e.glif</string>
+    <key>cnct.cnt_r_e.mod</key>
+    <string>cnct.cnt_r_e.mod.glif</string>
     <key>cnct.cnt_r_f</key>
     <string>cnct.cnt_r_f.glif</string>
     <key>cnct.cnt_r_h</key>
@@ -834,6 +836,8 @@
     <string>cnct.cnt_r_o.glif</string>
     <key>cnct.cnt_r_s</key>
     <string>cnct.cnt_r_s.glif</string>
+    <key>cnct.cnt_r_s.mod</key>
+    <string>cnct.cnt_r_s.mod.glif</string>
     <key>cnct.cnt_r_t</key>
     <string>cnct.cnt_r_t.glif</string>
     <key>cnct.cnt_r_t.lop_de</key>
@@ -878,6 +882,8 @@
     <string>cnct.ful_b_b.glif</string>
     <key>cnct.ful_b_e</key>
     <string>cnct.ful_b_e.glif</string>
+    <key>cnct.ful_b_e.mod</key>
+    <string>cnct.ful_b_e.mod.glif</string>
     <key>cnct.ful_b_f</key>
     <string>cnct.ful_b_f.glif</string>
     <key>cnct.ful_b_n</key>
@@ -888,6 +894,8 @@
     <string>cnct.ful_b_r.glif</string>
     <key>cnct.ful_b_s</key>
     <string>cnct.ful_b_s.glif</string>
+    <key>cnct.ful_b_s.mod</key>
+    <string>cnct.ful_b_s.mod.glif</string>
     <key>cnct.ful_b_t</key>
     <string>cnct.ful_b_t.glif</string>
     <key>cnct.ful_b_t.lop_de</key>
@@ -922,6 +930,8 @@
     <string>cnct.ful_e_r.glif</string>
     <key>cnct.ful_e_s</key>
     <string>cnct.ful_e_s.glif</string>
+    <key>cnct.ful_e_s.mod</key>
+    <string>cnct.ful_e_s.mod.glif</string>
     <key>cnct.ful_e_t</key>
     <string>cnct.ful_e_t.glif</string>
     <key>cnct.ful_e_t.lop_de</key>
@@ -932,12 +942,16 @@
     <string>cnct.ful_e_z.glif</string>
     <key>cnct.ful_f_e</key>
     <string>cnct.ful_f_e.glif</string>
+    <key>cnct.ful_f_e.mod</key>
+    <string>cnct.ful_f_e.mod.glif</string>
     <key>cnct.ful_f_f</key>
     <string>cnct.ful_f_f.glif</string>
     <key>cnct.ful_f_r</key>
     <string>cnct.ful_f_r.glif</string>
     <key>cnct.ful_f_s</key>
     <string>cnct.ful_f_s.glif</string>
+    <key>cnct.ful_f_s.mod</key>
+    <string>cnct.ful_f_s.mod.glif</string>
     <key>cnct.ful_f_t.lop_de</key>
     <string>cnct.ful_f_t.lop_de.glif</string>
     <key>cnct.ful_f_x</key>
@@ -998,6 +1012,8 @@
     <string>cnct.ful_z_b.glif</string>
     <key>cnct.ful_z_e</key>
     <string>cnct.ful_z_e.glif</string>
+    <key>cnct.ful_z_e.mod</key>
+    <string>cnct.ful_z_e.mod.glif</string>
     <key>cnct.ful_z_f</key>
     <string>cnct.ful_z_f.glif</string>
     <key>cnct.ful_z_n</key>
@@ -1008,6 +1024,8 @@
     <string>cnct.ful_z_r.glif</string>
     <key>cnct.ful_z_s</key>
     <string>cnct.ful_z_s.glif</string>
+    <key>cnct.ful_z_s.mod</key>
+    <string>cnct.ful_z_s.mod.glif</string>
     <key>cnct.ful_z_t</key>
     <string>cnct.ful_z_t.glif</string>
     <key>cnct.ful_z_t.lop_de</key>
@@ -1076,6 +1094,8 @@
     <string>cnct.jmc_t.lop_de_f.glif</string>
     <key>cnct.jmc_v_f</key>
     <string>cnct.jmc_v_f.glif</string>
+    <key>cnct.lop_G_h</key>
+    <string>cnct.lop_G__h.glif</string>
     <key>cnct.lop_b_h</key>
     <string>cnct.lop_b_h.glif</string>
     <key>cnct.lop_c_h</key>
@@ -1096,6 +1116,8 @@
     <string>cnct.lop_z_h.glif</string>
     <key>cnct.mlp_b_e</key>
     <string>cnct.mlp_b_e.glif</string>
+    <key>cnct.mlp_b_e.mod</key>
+    <string>cnct.mlp_b_e.mod.glif</string>
     <key>cnct.mlp_b_f</key>
     <string>cnct.mlp_b_f.glif</string>
     <key>cnct.mlp_b_h</key>
@@ -1118,6 +1140,8 @@
     <string>cnct.mlp_b_x.glif</string>
     <key>cnct.mlp_f_e</key>
     <string>cnct.mlp_f_e.glif</string>
+    <key>cnct.mlp_f_e.mod</key>
+    <string>cnct.mlp_f_e.mod.glif</string>
     <key>cnct.mlp_f_f</key>
     <string>cnct.mlp_f_f.glif</string>
     <key>cnct.mlp_f_h</key>
@@ -1132,6 +1156,8 @@
     <string>cnct.mlp_f_r.glif</string>
     <key>cnct.mlp_f_s</key>
     <string>cnct.mlp_f_s.glif</string>
+    <key>cnct.mlp_f_s.mod</key>
+    <string>cnct.mlp_f_s.mod.glif</string>
     <key>cnct.mlp_f_t</key>
     <string>cnct.mlp_f_t.glif</string>
     <key>cnct.mlp_f_t.lop_de</key>
@@ -1142,6 +1168,8 @@
     <string>cnct.mlp_f_z.cnt.glif</string>
     <key>cnct.mlp_o_e</key>
     <string>cnct.mlp_o_e.glif</string>
+    <key>cnct.mlp_o_e.mod</key>
+    <string>cnct.mlp_o_e.mod.glif</string>
     <key>cnct.mlp_o_f</key>
     <string>cnct.mlp_o_f.glif</string>
     <key>cnct.mlp_o_h</key>
@@ -1156,12 +1184,16 @@
     <string>cnct.mlp_o_r.glif</string>
     <key>cnct.mlp_o_s</key>
     <string>cnct.mlp_o_s.glif</string>
+    <key>cnct.mlp_o_s.mod</key>
+    <string>cnct.mlp_o_s.mod.glif</string>
     <key>cnct.mlp_o_t</key>
     <string>cnct.mlp_o_t.glif</string>
     <key>cnct.mlp_o_t.lop_de</key>
     <string>cnct.mlp_o_t.lop_de.glif</string>
     <key>cnct.mlp_o_x</key>
     <string>cnct.mlp_o_x.glif</string>
+    <key>cnct.mlp_o_z.cnt</key>
+    <string>cnct.mlp_o_z.cnt.glif</string>
     <key>cnct.mod_G_b</key>
     <string>cnct.mod_G__b.glif</string>
     <key>cnct.mod_G_e</key>
@@ -1318,6 +1350,8 @@
     <string>cnct.mod_v_z.glif</string>
     <key>cnct.mrr_f_e</key>
     <string>cnct.mrr_f_e.glif</string>
+    <key>cnct.mrr_f_e.mod</key>
+    <string>cnct.mrr_f_e.mod.glif</string>
     <key>cnct.mrr_f_f</key>
     <string>cnct.mrr_f_f.glif</string>
     <key>cnct.mrr_f_h</key>
@@ -1332,6 +1366,8 @@
     <string>cnct.mrr_f_r.ful.glif</string>
     <key>cnct.mrr_f_s</key>
     <string>cnct.mrr_f_s.glif</string>
+    <key>cnct.mrr_f_s.mod</key>
+    <string>cnct.mrr_f_s.mod.glif</string>
     <key>cnct.mrr_f_t</key>
     <string>cnct.mrr_f_t.glif</string>
     <key>cnct.mrr_f_t.lop_de</key>
@@ -1712,6 +1748,14 @@
     <string>idotbelow.glif</string>
     <key>idotless</key>
     <string>idotless.glif</string>
+    <key>idotless.mod</key>
+    <string>idotless.mod.glif</string>
+    <key>idotless.mod.fin</key>
+    <string>idotless.mod.fin.glif</string>
+    <key>idotless.mod.ini</key>
+    <string>idotless.mod.ini.glif</string>
+    <key>idotless.mod.med</key>
+    <string>idotless.mod.med.glif</string>
     <key>igrave</key>
     <string>igrave.glif</string>
     <key>ihookabove</key>
@@ -1750,6 +1794,22 @@
     <string>jcircumflex.glif</string>
     <key>jdotless</key>
     <string>jdotless.glif</string>
+    <key>jdotless.jmc</key>
+    <string>jdotless.jmc.glif</string>
+    <key>jdotless.jmc.fin</key>
+    <string>jdotless.jmc.fin.glif</string>
+    <key>jdotless.jmc.ini</key>
+    <string>jdotless.jmc.ini.glif</string>
+    <key>jdotless.jmc.med</key>
+    <string>jdotless.jmc.med.glif</string>
+    <key>jdotless.mod</key>
+    <string>jdotless.mod.glif</string>
+    <key>jdotless.mod.fin</key>
+    <string>jdotless.mod.fin.glif</string>
+    <key>jdotless.mod.ini</key>
+    <string>jdotless.mod.ini.glif</string>
+    <key>jdotless.mod.med</key>
+    <string>jdotless.mod.med.glif</string>
     <key>k</key>
     <string>k.glif</string>
     <key>k.ful</key>
@@ -2518,6 +2578,14 @@
     <string>z.cnt.ini.glif</string>
     <key>z.cnt.med</key>
     <string>z.cnt.med.glif</string>
+    <key>z.cnt_au</key>
+    <string>z.cnt_au.glif</string>
+    <key>z.cnt_au.fin</key>
+    <string>z.cnt_au.fin.glif</string>
+    <key>z.cnt_au.ini</key>
+    <string>z.cnt_au.ini.glif</string>
+    <key>z.cnt_au.med</key>
+    <string>z.cnt_au.med.glif</string>
     <key>z.ful</key>
     <string>z.ful.glif</string>
     <key>z.ful.fin</key>
@@ -2526,14 +2594,6 @@
     <string>z.ful.ini.glif</string>
     <key>z.ful.med</key>
     <string>z.ful.med.glif</string>
-    <key>z.ful_au</key>
-    <string>z.ful_au.glif</string>
-    <key>z.ful_au.fin</key>
-    <string>z.ful_au.fin.glif</string>
-    <key>z.ful_au.ini</key>
-    <string>z.ful_au.ini.glif</string>
-    <key>z.ful_au.med</key>
-    <string>z.ful_au.med.glif</string>
     <key>z.mlp</key>
     <string>z.mlp.glif</string>
     <key>z.mlp.fin</key>
