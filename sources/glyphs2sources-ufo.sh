@@ -16,3 +16,5 @@ python -m glyphsLib glyphs2ufo Playpen_MM.glyphs -m $ufoFolder \
 		--no-store-editor-state
 		# --normalize-ufos \
 		# --ufo-module defcon
+
+python ./scripts/write-fea-to-ufo-models.py
