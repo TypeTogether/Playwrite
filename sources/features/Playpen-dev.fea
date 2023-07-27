@@ -387,11 +387,23 @@ lookup before_s {
 	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_s;
 	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_s;
 	#
-	sub @bful_SRC by @bful_SRC cnct.ful_b_s;
-	sub @fful_SRC by @fful_SRC cnct.ful_f_s;
+	# sub @bful_SRC by @bful_SRC cnct.ful_b_s;
+	# sub @fful_SRC by @fful_SRC cnct.ful_f_s;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_s;
-	} before_s;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_s.mod;
+	sub @fful_SRC by @fful_SRC cnct.ful_f_s.mod;
+	#
+	# TODO: sort later
+	# DOESN'T EXIST: # sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_s.mod;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_s.mod;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_s.mod;
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_s.mod;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_s.mod;
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_s.mod;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_s.mod;
+} before_s;
 
 lookup before_sful {
 	sub @Gcur_SRC by @Gcur_SRC cnct.ful_G_s;
@@ -564,6 +576,7 @@ lookup before_zcnt {
 	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_z;
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_z;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_z.cnt;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_z.cnt;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.cnt_t.lop_de_z;
 } before_zcnt;
@@ -592,6 +605,18 @@ lookup before_tlop_de {
 # --------------
 # FEATURES
 # --------------
+
+feature aalt {
+	feature ss01;
+	feature ss02;
+	feature ss03;
+	feature ss04;
+	feature ss05;
+	feature ss06;
+	feature ss07;
+	feature ss19;
+	feature ss20;
+} aalt;
 
 feature ccmp {
 	lookup ccmp_decomp {
@@ -902,10 +927,6 @@ feature ccmp {
 # ------------------
 # Stylistic sets
 # ------------------
-# Model classes
-@lc_ARG = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.ful q.jmc_ar r.ful s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.cnt];
-@lc_CHILE = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.ful q.mrr r.ful s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.cnt];
-@lc_COLOMBIA = [a.mod b.mlp c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.ful q.mrr r.ful s.ful t.mod u.mod v.cnt w.ful x.ful y.cnt z.mlp];
 
 feature ss01 {
 	featureNames {
@@ -1262,6 +1283,7 @@ feature calt {
 		sub @omlp_SRC' lookup before_sful @sful_TGT;
 		sub @omlp_SRC' lookup before_t @tmod_TGT;
 		sub @omlp_SRC' lookup before_xful @xful_TGT;
+		sub @omlp_SRC' lookup before_zcnt @zcnt_TGT;
 		#
 		sub @tlop_de_SRC' lookup before_b @bmod_TGT;
 		sub @tlop_de_SRC' lookup before_e @emod_TGT;
@@ -1300,6 +1322,14 @@ feature calt {
 		sub @rmod_SRC' lookup before_tlop_de @tlop_de_TGT;
 		sub @vmod_SRC' lookup before_tlop_de @tlop_de_TGT;
 		sub @zful_SRC' lookup before_tlop_de @tlop_de_TGT;
+		#
+		# LATEST ADDITIONS TO SORT:
+		sub @eful_SRC' lookup before_s @smod_TGT;
+		sub @fmlp_SRC' lookup before_s @smod_TGT;
+		sub @fmrr_SRC' lookup before_s @smod_TGT;
+		sub @omlp_SRC' lookup before_s @smod_TGT;
+		sub @rcnt_SRC' lookup before_s @smod_TGT;
+		sub @zful_SRC' lookup before_s @smod_TGT;
 	} SENSEI_MAGIC;
 } calt;
 
@@ -1343,14 +1373,17 @@ feature dist {
 		lookup dist_FUL {
 			lookupflag IgnoreMarks;
 			pos @bful_SRC 20 @eful_TGT;
+			pos @bful_SRC 20 @emod_TGT;
 			pos @bful_SRC 20 @fful_TGT;
 			pos @cmod_SRC 15 @xful_TGT;
 			pos @cmod_SRC 60 @zful_TGT;
 			pos @eful_SRC 10 @rful_TGT;
+			pos @eful_SRC 20 @smod_TGT;
 			pos @eful_SRC 30 @xful_TGT;
 			pos @eful_SRC 60 @zful_TGT;
 			pos @fful_SRC 10 @omod_TGT;
 			pos @fful_SRC 20 @rful_TGT;
+			pos @fful_SRC 20 @smod_TGT;
 			pos @fful_SRC 40 @xful_TGT;
 			pos @fful_SRC 50 @zful_TGT;
 			pos @gjmc_SRC 10 @fful_TGT;
@@ -1360,14 +1393,15 @@ feature dist {
 			pos @nmod_SRC 30 @rful_TGT;
 			pos @nmod_SRC 50 @xful_TGT;
 			pos @nmod_SRC 70 @zful_TGT;
-			pos @omod_SRC 30 @eful_TGT;
-			pos @omod_SRC 20 @fful_TGT;
 			pos @omod_SRC 10 @zful_TGT;
-			pos @zful_SRC 60 @fful_TGT;
+			pos @omod_SRC 20 @fful_TGT;
+			pos @omod_SRC 30 @eful_TGT;
 			pos @zful_SRC 10 @nmod_TGT;
-			pos @zful_SRC 30 @fful_TGT;
+			pos @zful_SRC 10 @smod_TGT;
 			pos @zful_SRC 10 @tmod_TGT;
 			pos @zful_SRC 20 @xful_TGT;
+			pos @zful_SRC 30 @fful_TGT;
+			pos @zful_SRC 60 @fful_TGT;
 			pos @zful_SRC 60 @zful_TGT;
 		} dist_FUL;
 
@@ -1426,27 +1460,39 @@ feature dist {
 		lookup dist_CUR {
 			lookupflag IgnoreMarks;
 			pos @Gcur_SRC 145 @ncnt_TGT;
-			pos @Gcur_SRC 70 @zcnt_TGT;
-			pos @Gcur_SRC 70 @eful_TGT;
-			pos @Gcur_SRC 90 @fful_TGT;
-			pos @Gcur_SRC 70 @rful_TGT;
-			pos @Gcur_SRC 60 @sful_TGT;
-			pos @Gcur_SRC 70 @xful_TGT;
+			pos @Gcur_SRC  70 @zcnt_TGT;
+			pos @Gcur_SRC  70 @eful_TGT;
+			pos @Gcur_SRC  90 @fful_TGT;
+			pos @Gcur_SRC  70 @rful_TGT;
+			pos @Gcur_SRC  60 @sful_TGT;
+			pos @Gcur_SRC  70 @xful_TGT;
 			pos @Gcur_SRC 100 @zful_TGT;
 			pos @Gcur_SRC 100 @fjmc_TGT;
-			pos @Gcur_SRC 40 @bmod_TGT;
-			pos @Gcur_SRC 40 @emod_TGT;
-			pos @Gcur_SRC 40 @nmod_TGT;
-			pos @Gcur_SRC 40 @omod_TGT;
-			pos @Gcur_SRC 50 @smod_TGT;
-			pos @Gcur_SRC 40 @tmod_TGT;
+			pos @Gcur_SRC  40 @bmod_TGT;
+			pos @Gcur_SRC  40 @emod_TGT;
+			pos @Gcur_SRC  40 @nmod_TGT;
+			pos @Gcur_SRC  40 @omod_TGT;
+			pos @Gcur_SRC  40 @tmod_TGT;
+			pos @Gcur_SRC  50 @smod_TGT;
 			pos @Gcur_SRC 100 @vmod_TGT;
 			pos @Gcur_SRC 100 @xmod_TGT;
-			pos @Gcur_SRC 70 @zmod_TGT;
-			pos @Xdec_SRC 30 @fful_TGT;
-			pos @Xdec_SRC 10 @rful_TGT;
-			pos @Xdec_SRC 50 @xful_TGT;
-			pos @Xdec_SRC 60 @zful_TGT;
+			pos @Gcur_SRC  70 @zmod_TGT;
+			pos @Tcur_SRC 100 @ncnt_TGT;
+			pos @Tcur_SRC  10 @smod_TGT;
+			pos @Tcur_SRC  80 @vmod_TGT;
+			pos @Tcur_SRC  80 @xmod_TGT;
+			pos @Tcur_SRC  30 @zmod_TGT;
+			pos @Tcur_SRC  20 @tlop_de_TGT;
+			pos @Xdec_SRC 100 @ncnt_TGT;
+			pos @Xdec_SRC  30 @zcnt_TGT;
+			pos @Xdec_SRC  10 @rful_TGT;
+			pos @Xdec_SRC  30 @xful_TGT;
+			pos @Xdec_SRC  60 @zful_TGT;
+			pos @Xdec_SRC  40 @smod_TGT;
+			pos @Xdec_SRC  90 @vmod_TGT;
+			pos @Xdec_SRC  80 @xmod_TGT;
+			pos @Xdec_SRC  80 @zmod_TGT;
+			pos @Xdec_SRC  20 @tlop_de_TGT;
 		} dist_CUR;
 
 		lookup dist_tlopDE {

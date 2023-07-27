@@ -33,11 +33,11 @@ do
     python $scripts/add-locl-fea.py $tag $feaFile
 
     echo "
-==================================
+================================================
  Generating STATIC **$tag** fonts
-==================================
-$(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
-    echo
+================================================
+ $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
+echo
 
     # Build OTF fonts
     fontmake -m ./designspace-models/$tag.designspace -i -o otf \
@@ -86,4 +86,3 @@ $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
     # Clean up for each model
     rm -rf ./master_ufo/ ./instance_ufo/
 done
-
