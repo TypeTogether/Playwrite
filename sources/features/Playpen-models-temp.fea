@@ -1,4 +1,4 @@
-# 230725_1823
+# 230727_1820
 
 # --------------
 # CLASSES
@@ -148,6 +148,15 @@ lookup before_e {
 	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_e;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_e;
+	# TODO: Sort in the lookup
+	sub @bful_SRC by @bful_SRC cnct.ful_b_e.mod;
+	# sub @bmlp_SRC by @bmlp_SRC cnct.mlp.b_e.mod;
+	sub @fful_SRC by @fful_SRC cnct.ful_f_e.mod;
+	# sub @fmlp_SRC by @fmlp_SRC cnct.mlp.f_e.mod;
+	# sub @fmrr_SRC by @fmrr_SRC cnct.mrr.f_e.mod;
+	# sub @omlp_SRC by @omlp_SRC cnct.mlp.o_e.mod;
+	# sub @rcnt_SRC by @rcnt_SRC cnct.cnt.r_e.mod;
+	# sub @zful_SRC by @zful_SRC cnct.ful.z_e.mod;
 	} before_e;
 
 
@@ -928,7 +937,7 @@ feature locl {
 	script latn;
 	language dflt;
 	# some code?
-	include(../features/fea-models/ARG.fea);
+	include(../features/fea-models/AUS_NSW.fea);
 } locl;
 
 
@@ -1035,7 +1044,7 @@ feature calt {
 		lookupflag IgnoreMarks;
 		# MOD
 		sub [b.mod.ini b.mod.med f.mod.ini f.mod.med g.mod.ini g.mod.med j.mod.ini j.mod.med p.mod.ini p.mod.med q.mod.ini q.mod.med s.mod.ini s.mod.med y.mod.ini y.mod.med] [e.mod.med e.mod.fin]' by [e.mod.med_b_ e.mod.fin_b_];
-		sub [a.mod.ini a.mod.med c.mod.ini c.mod.med d.mod.ini d.mod.med e.mod.ini e.mod.med e.mod.med_b_ e.mod.med_n_ e.jmc.med_g_ h.mod.ini h.mod.med i.mod.ini i.mod.med k.mod.ini k.mod.med l.mod.ini l.mod.med m.mod.ini m.mod.med n.mod.ini n.mod.med t.mod.ini t.mod.med u.mod.ini u.mod.med x.mod.ini x.mod.med z.mod.ini z.mod.med A.cur.ini A.cur_locl.ini A.dec_locl.ini G.cur.ini N.cur.ini Q.cur.ini Q.cur_locl.ini T.cur.ini T.cur_locl.ini X.cur.ini X.dec.ini X.dec_locl.ini Z.cur.ini Z.dec.ini] [e.mod.med e.mod.fin]' by [e.mod.med_n_ e.mod.fin_n_];
+		sub [a.mod.ini a.mod.med c.mod.ini c.mod.med d.mod.ini d.mod.med e.mod.ini e.mod.med e.mod.med_b_ e.mod.med_n_ e.jmc.med_g_ h.mod.ini h.mod.med i.mod.ini i.mod.med k.mod.ini k.mod.med k.ful.ini k.ful.med l.mod.ini l.mod.med m.mod.ini m.mod.med n.mod.ini n.mod.med t.mod.ini t.mod.med u.mod.ini u.mod.med x.mod.ini x.mod.med z.mod.ini z.mod.med A.cur.ini A.cur_locl.ini A.dec_locl.ini G.cur.ini N.cur.ini Q.cur.ini Q.cur_locl.ini T.cur.ini T.cur_locl.ini X.cur.ini X.dec.ini X.dec_locl.ini Z.cur.ini Z.dec.ini] [e.mod.med e.mod.fin]' by [e.mod.med_n_ e.mod.fin_n_];
 		sub [o.mod.ini o.mod.med r.mod.ini r.mod.med v.mod.ini v.mod.med w.mod.ini w.mod.med] [f.mod.med f.mod.fin f.jmc.med f.jmc.fin t.mod.med t.mod.fin]' by [f.mod.med_o_ f.mod.fin_o_ f.jmc.med_o_	f.jmc.fin_o_ t.mod.med_o_ t.mod.fin_o_];
 		# JMC
 		sub [b.jmc.ini b.jmc.med f.jmc.ini f.jmc.med p.jmc.ini p.jmc.med q.jmc.ini q.jmc.med s.jmc.ini s.jmc.med] [e.mod.med e.mod.fin]' by [e.mod.med_n_ e.mod.fin_n_];
@@ -1338,6 +1347,15 @@ feature calt {
 		sub @omlp_SRC' lookup before_s @smod_TGT;
 		sub @rcnt_SRC' lookup before_s @smod_TGT;
 		sub @zful_SRC' lookup before_s @smod_TGT;
+		#
+		sub @bful_SRC' lookup before_e @emod_TGT;
+		sub @bmlp_SRC' lookup before_e @emod_TGT;
+		sub @fful_SRC' lookup before_e @emod_TGT;
+		sub @fmlp_SRC' lookup before_e @emod_TGT;
+		sub @fmrr_SRC' lookup before_e @emod_TGT;
+		sub @omlp_SRC' lookup before_e @emod_TGT;
+		sub @rcnt_SRC' lookup before_e @emod_TGT;
+		sub @zful_SRC' lookup before_e @emod_TGT;
 	} SENSEI_MAGIC;
 } calt;
 
