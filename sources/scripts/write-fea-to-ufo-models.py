@@ -8,6 +8,7 @@ __doc__ = """
 import os
 from fontParts.world import *
 
+# this path is related to the .sh script that converts glyphs2ufo in "sources"
 folder_ufos = "./sources-ufo"
 fea_code = """languagesystem DFLT dflt;
 languagesystem latn dflt;
@@ -24,4 +25,4 @@ for ufo_path in ufo_files:
     font.save()
     font.close()
 
-print("Written .fea include code to source ufos")
+print("\nWritten .fea include code to models source ufos")
