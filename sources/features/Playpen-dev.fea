@@ -1044,7 +1044,7 @@ feature calt {
 		sub [g.jmc.ini g.jmc.med j.jmc.ini j.jmc.med y.jmc.ini y.jmc.med] [e.mod.med e.mod.fin]' by [e.jmc.med_g_ e.jmc.fin_g_];
 		# FUL
 		sub [o.mod.ini o.mod.med b.ful.ini b.ful.med v.ful.ini v.ful.med w.ful.ini w.ful.med b.lop.ini b.lop.med r.cnt.ini r.cnt.med r.cnt.med_n_ v.cnt.ini v.cnt.med w.cnt.ini w.cnt.med v.cnt.med_n_ w.cnt.med_n_ @bmlp_SRC o.mlp.ini o.mlp.med] [e.ful.med e.ful.fin]' by [e.ful.med_o_ e.ful.fin_o_];
-		sub [c.mod.ini c.mod.med g.jmc.ini g.jmc.med j.jmc.ini j.jmc.med y.jmc.ini y.jmc.med y.cnt.ini y.cnt.med y.cnt.med_n_ z.cnt.ini z.cnt.med z.ful.ini z.ful.med z.mlp.ini z.mlp.med T.cur.ini T.cur_locl.ini] [e.ful.med e.ful.fin]' by [e.ful.med_g_ e.ful.fin_g_];
+		sub [c.mod.ini c.mod.med f.ful_de.ini f.ful_de.med g.jmc.ini g.jmc.med j.jmc.ini j.jmc.med y.jmc.ini y.jmc.med y.cnt.ini y.cnt.med y.cnt.med_n_ z.cnt.ini z.cnt.med z.ful.ini z.ful.med z.mlp.ini z.mlp.med T.cur.ini T.cur_locl.ini] [e.ful.med e.ful.fin]' by [e.ful.med_g_ e.ful.fin_g_];
 		sub [@bmlp_SRC b.ful.ini b.ful.med b.lop.ini b.lop.med o.mod.ini o.mod.med r.cnt.ini r.cnt.med r.cnt.med_n_ v.cnt.ini v.cnt.med v.cnt.med_n_ v.ful.ini v.ful.med w.cnt.ini w.cnt.med w.cnt.med_n_ w.ful.ini w.ful.med] [t.mod.med t.mod.fin]' by [t.mod.med_o_ t.mod.fin_o_];
 		# CNT
 		@cStroke_SRC = [m.cnt.fin m.cnt.med n.cnt.fin n.cnt.med r.cnt.fin r.cnt.med v.cnt.fin v.cnt.med w.cnt.fin w.cnt.med y.cnt.fin y.cnt.med];
