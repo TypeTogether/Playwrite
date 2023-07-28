@@ -49,18 +49,18 @@ echo
     #           --filter DecomposeTransformedComponentsFilter \
     #           --flatten-components
 
-    # echo "
-    # ======================
-    #  Post processing OTFs 
-    # ======================
-    # "
-    # otfs=$(ls $otfFontsPath/*.otf)
-    # for otf in $otfs
-    # do
-    #   echo $otf
-    #   python $scripts/fix-usWeightClass-otf.py $otf
-    #   psautohint --no-zones-stems -a $otf
-    # done
+    echo "
+    ======================
+     Post processing OTFs 
+    ======================
+    "
+    otfs=$(ls $otfFontsPath/*.otf)
+    for otf in $otfs
+    do
+      echo $otf
+      python $scripts/fix-usWeightClass-otf.py $otf
+      # psautohint --no-zones-stems -a $otf
+    done
 
     # echo "
     # ======================
