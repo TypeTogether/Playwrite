@@ -5,11 +5,11 @@
   <anchor x="400" y="0" name="bottom"/>
   <anchor x="339" y="612" name="center"/>
   <anchor x="480" y="612" name="centerCase"/>
-  <anchor x="585" y="1359" name="top"/>
+  <anchor x="580" y="1343" name="top"/>
   <anchor x="606" y="1190" name="topright"/>
   <outline>
     <component base="L"/>
-    <component base="acutecomb.case" xOffset="449" yOffset="739"/>
+    <component base="acutecomb.case" xOffset="210" yOffset="-1"/>
   </outline>
   <lib>
     <dict>

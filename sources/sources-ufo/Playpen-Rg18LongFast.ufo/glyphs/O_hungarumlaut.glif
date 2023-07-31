@@ -5,11 +5,11 @@
   <anchor x="508" y="0" name="bottom"/>
   <anchor x="702" y="595" name="center"/>
   <anchor x="972" y="17" name="ogonek"/>
-  <anchor x="932" y="1393" name="top"/>
+  <anchor x="991" y="1373" name="top"/>
   <anchor x="1069" y="1139" name="topright"/>
   <outline>
     <component base="O"/>
-    <component base="hungarumlautcomb.case" xOffset="785" yOffset="739"/>
+    <component base="hungarumlautcomb.case" xOffset="545" yOffset="-1"/>
   </outline>
   <lib>
     <dict>

@@ -4,11 +4,11 @@
   <unicode hex="013A"/>
   <anchor x="94" y="0" name="bottom"/>
   <anchor x="162" y="350" name="center"/>
-  <anchor x="331" y="890" name="top"/>
+  <anchor x="331" y="884" name="top"/>
   <anchor x="284" y="699" name="topright"/>
   <outline>
     <component base="l"/>
-    <component base="acutecomb" xOffset="195" yOffset="270"/>
+    <component base="acutecomb.case" xOffset="110"/>
   </outline>
   <lib>
     <dict>
@@ -39,25 +39,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>l</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>acutecomb</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

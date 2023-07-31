@@ -758,10 +758,22 @@
       <string>z.mod.ini</string>
       <string>z.mod.med</string>
       <string>z.mod.fin</string>
+      <string>ae.mod</string>
+      <string>ae.mod.ini</string>
+      <string>ae.mod.med</string>
+      <string>ae.mod.fin</string>
+      <string>oe.mod</string>
+      <string>oe.mod.ini</string>
+      <string>oe.mod.med</string>
+      <string>oe.mod.fin</string>
       <string>eth.mod</string>
       <string>eth.mod.ini</string>
       <string>eth.mod.med</string>
       <string>eth.mod.fin</string>
+      <string>ij.mod</string>
+      <string>ij.mod.ini</string>
+      <string>ij.mod.med</string>
+      <string>ij.mod.fin</string>
       <string>cnct.mod_n_o</string>
       <string>cnct.mod_n_b</string>
       <string>cnct.mod_n_e</string>
@@ -864,6 +876,14 @@
       <string>germandbls.jmc.ini</string>
       <string>germandbls.jmc.med</string>
       <string>germandbls.jmc.fin</string>
+      <string>ij.jmc</string>
+      <string>ij.jmc.ini</string>
+      <string>ij.jmc.med</string>
+      <string>ij.jmc.fin</string>
+      <string>thorn.jmc</string>
+      <string>thorn.jmc.ini</string>
+      <string>thorn.jmc.med</string>
+      <string>thorn.jmc.fin</string>
       <string>cnct.jmc_n_f</string>
       <string>cnct.jmc_g_o</string>
       <string>cnct.jmc_g_b</string>
@@ -938,6 +958,14 @@
       <string>z.ful.ini</string>
       <string>z.ful.med</string>
       <string>z.ful.fin</string>
+      <string>ae.ful</string>
+      <string>ae.ful.ini</string>
+      <string>ae.ful.med</string>
+      <string>ae.ful.fin</string>
+      <string>oe.ful</string>
+      <string>oe.ful.ini</string>
+      <string>oe.ful.med</string>
+      <string>oe.ful.fin</string>
       <string>cnct.ful_b_o</string>
       <string>cnct.ful_b_b</string>
       <string>cnct.ful_b_e</string>
@@ -1181,6 +1209,8 @@
       <string>cnct.mlp_b_t</string>
       <string>cnct.mlp_b_x</string>
       <string>cnct.mlp_b_e.mod</string>
+      <string>cnct.mlp_b_s.mod</string>
+      <string>cnct.mlp_b_z.cnt</string>
       <string>cnct.mlp_f_o</string>
       <string>cnct.mlp_f_e</string>
       <string>cnct.mlp_f_h</string>
@@ -1220,6 +1250,8 @@
       <string>f.mod_au.ini</string>
       <string>f.mod_au.med</string>
       <string>f.mod_au.fin</string>
+      <string>f.mod_au.fin_o_</string>
+      <string>f.mod_au.med_o_</string>
       <string>f.ful_de</string>
       <string>f.ful_de.ini</string>
       <string>f.ful_de.med</string>
@@ -1429,6 +1461,17 @@
       <string>cnct.mod_G_v</string>
       <string>cnct.mod_G_x</string>
       <string>cnct.mod_G_z</string>
+      <string>entr_rful</string>
+      <string>entr_sful</string>
+      <string>entr_xful</string>
+      <string>entr.eful</string>
+      <string>entr.fful</string>
+      <string>entr.fmrr</string>
+      <string>entr.hlop</string>
+      <string>entr.ncnt</string>
+      <string>entr.zcnt</string>
+      <string>cnct.mod_e_n.cnt</string>
+      <string>cnct.mod_e_z.cnt</string>
       <string>_circle</string>
     </array>
     <key>public.postscriptNames</key>

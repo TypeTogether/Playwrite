@@ -622,6 +622,22 @@
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ae</key>
       <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ae.ful</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ae.ful.fin</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ae.ful.ini</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ae.ful.med</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ae.mod</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ae.mod.fin</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ae.mod.ini</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ae.mod.med</key>
+      <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.aeacute</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.agrave</key>
@@ -1136,11 +1152,15 @@
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_b_s</key>
       <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_b_s.mod</key>
+      <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_b_t</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_b_t.lop_de</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_b_x</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_b_z.cnt</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_f_e</key>
       <integer>0</integer>
@@ -1242,6 +1262,8 @@
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_e_n</key>
       <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_e_n.cnt</key>
+      <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_e_o</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_e_s</key>
@@ -1255,6 +1277,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_e_x</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_e_z</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_e_z.cnt</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_n_b</key>
       <integer>0</integer>
@@ -1516,6 +1540,24 @@
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.eng</key>
       <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr.eful</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr.fful</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr.fmrr</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr.hlop</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr.ncnt</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr.zcnt</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr_rful</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr_sful</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr_xful</key>
+      <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.eogonek</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.equal</key>
@@ -1616,9 +1658,13 @@
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.f.mod_au.fin</key>
       <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.f.mod_au.fin_o_</key>
+      <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.f.mod_au.ini</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.f.mod_au.med</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.f.mod_au.med_o_</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.f.mrr</key>
       <integer>0</integer>
@@ -1766,6 +1812,14 @@
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ij</key>
       <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ij.mod</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ij.mod.fin</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ij.mod.ini</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ij.mod.med</key>
+      <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ijacute</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.imacron</key>
@@ -2006,6 +2060,14 @@
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.oe</key>
       <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.oe.mod</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.oe.mod.fin</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.oe.mod.ini</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.oe.mod.med</key>
+      <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ogonek</key>
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ogonekcomb</key>
@@ -2326,6 +2388,14 @@
       <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.thorn</key>
       <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.thorn.jmc</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.thorn.jmc.fin</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.thorn.jmc.ini</key>
+      <integer>0</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.thorn.jmc.med</key>
+      <integer>0</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.three</key>
       <integer>3</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tilde</key>

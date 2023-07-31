@@ -141,7 +141,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playpen Minimum" familyname="Playpen" stylename="Minimum" filename="instance_ufos/Playpen-Minimum.ufo">
+    <instance name="Playpen Thin" familyname="Playpen" stylename="Thin" filename="instance_ufos/Playpen-Thin.ufo">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="0"/>
@@ -161,6 +161,189 @@
           <false/>
           <key>com.schriftgestaltung.weight</key>
           <integer>100</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Playpen Thin Italic" familyname="Playpen" stylename="Thin Italic" filename="instance_ufos/Playpen-ThinItalic.ufo" stylemapfamilyname="Playpen Thin" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Extenders" xvalue="300"/>
+        <dimension name="Speed" xvalue="0"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m002</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>100</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Playpen ExtraLight" familyname="Playpen" stylename="ExtraLight" filename="instance_ufos/Playpen-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Extenders" xvalue="300"/>
+        <dimension name="Speed" xvalue="0"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m005</key>
+            <real>0.33333</real>
+            <key>m01</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>200</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Playpen ExtraLight Italic" familyname="Playpen" stylename="ExtraLight Italic" filename="instance_ufos/Playpen-ExtraLightItalic.ufo" stylemapfamilyname="Playpen Extralight" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Extenders" xvalue="300"/>
+        <dimension name="Speed" xvalue="0"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m002</key>
+            <real>0.66667</real>
+            <key>m006</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>200</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Playpen Light" familyname="Playpen" stylename="Light" filename="instance_ufos/Playpen-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Extenders" xvalue="300"/>
+        <dimension name="Speed" xvalue="0"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m005</key>
+            <real>0.66667</real>
+            <key>m01</key>
+            <real>0.33333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>300</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Playpen Light Italic" familyname="Playpen" stylename="Light Italic" filename="instance_ufos/Playpen-LightItalic.ufo" stylemapfamilyname="Playpen Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Extenders" xvalue="300"/>
+        <dimension name="Speed" xvalue="0"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m002</key>
+            <real>0.33333</real>
+            <key>m006</key>
+            <real>0.66667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <integer>300</integer>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Playpen Regular" familyname="Playpen" stylename="Regular" filename="instance_ufos/Playpen-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="0"/>
+        <dimension name="Extenders" xvalue="300"/>
+        <dimension name="Speed" xvalue="0"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m005</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Playpen Italic" familyname="Playpen" stylename="Italic" filename="instance_ufos/Playpen-Italic.ufo" stylemapfamilyname="Playpen" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Extenders" xvalue="300"/>
+        <dimension name="Speed" xvalue="0"/>
+      </location>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>m006</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
           <key>com.schriftgestaltung.width</key>
           <string>Medium (normal)</string>
         </dict>
