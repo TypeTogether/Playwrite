@@ -3,18 +3,18 @@
   <anchor x="0" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="91" y="137" type="curve" smooth="yes"/>
-      <point x="108" y="136"/>
-      <point x="108" y="163"/>
-      <point x="91" y="163" type="curve" smooth="yes"/>
-      <point x="2" y="164"/>
-      <point x="-58" y="224"/>
+      <point x="87" y="177" type="curve" smooth="yes"/>
+      <point x="104" y="175"/>
+      <point x="104" y="201"/>
+      <point x="87" y="203" type="curve" smooth="yes"/>
+      <point x="3" y="214"/>
+      <point x="-53" y="234"/>
       <point x="-94" y="353" type="curve" smooth="yes"/>
-      <point x="-97" y="365"/>
-      <point x="-119" y="366"/>
+      <point x="-98" y="365"/>
+      <point x="-120" y="366"/>
       <point x="-114" y="348" type="curve" smooth="yes"/>
-      <point x="-76" y="204"/>
-      <point x="-10" y="140"/>
+      <point x="-71" y="214"/>
+      <point x="-9" y="190"/>
     </contour>
   </outline>
   <lib>
@@ -53,7 +53,7 @@
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>
-      <string>0.18,0.16,0.78,1</string>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

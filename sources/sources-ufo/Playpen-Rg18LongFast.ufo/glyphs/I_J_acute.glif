@@ -4,12 +4,12 @@
   <anchor x="145" y="0" name="bottom_1"/>
   <anchor x="756" y="0" name="bottom_2"/>
   <anchor x="165" y="-9" name="ogonek"/>
-  <anchor x="577" y="1359" name="top_1"/>
+  <anchor x="572" y="1343" name="top_1"/>
   <anchor x="1332" y="1139" name="top_2"/>
   <outline>
     <component base="Iacute"/>
     <component base="J" xOffset="418"/>
-    <component base="acutecomb.case" xOffset="1267" yOffset="739"/>
+    <component base="acutecomb.case" xOffset="1028" yOffset="-1"/>
   </outline>
   <lib>
     <dict>

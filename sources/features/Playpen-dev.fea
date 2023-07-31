@@ -89,7 +89,7 @@
 @sful_TGT = [s.ful.fin s.ful.med s.mlp.fin s.mlp.med];
 
 @tmod_TGT_CUR = [t.mod];
-@tmod_TGT = [@tmod_TGT_CUR f.mod.fin f.mod.fin_o_ f.mod.med f.mod.med_o_ t.mod.fin t.mod.fin_o_ t.mod.med t.mod.med_o_ f.mod_au.fin f.mod_au.med];
+@tmod_TGT = [@tmod_TGT_CUR f.mod.fin f.mod.fin_o_ f.mod.med f.mod.med_o_ t.mod.fin t.mod.fin_o_ t.mod.med t.mod.med_o_ f.mod_au.fin f.mod_au.med f.mod_au.med_o_ f.mod_au.fin_o_];
 @vmod_TGT = [v.mod.fin v.mod.med w.mod.fin w.mod.med];
 @xmod_TGT = [x.mod.fin x.mod.med];
 
@@ -302,7 +302,7 @@ lookup before_n {
 lookup before_ncnt {
 	sub @Gcur_SRC by @Gcur_SRC cnct.cnt_G_n;
 	sub @Tcur_SRC by @Tcur_SRC cnct.cnt_c_n;
-	sub @Xdec_SRC by @Xdec_SRC cnct.cnt_e_n;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_n;
 	#
 	sub @bful_SRC by @bful_SRC cnct.cnt_b_n;
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_n;
@@ -571,7 +571,7 @@ lookup before_zful {
 lookup before_zcnt {
 	sub @Gcur_SRC by @Gcur_SRC cnct.cnt_G_z;
 	sub @Tcur_SRC by @Tcur_SRC cnct.cnt_c_z;
-	sub @Xdec_SRC by @Xdec_SRC cnct.cnt_e_z;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_z;
 	#
 	sub @bful_SRC by @bful_SRC cnct.cnt_b_z;
 	sub @cmod_SRC by @cmod_SRC cnct.cnt_c_z;
@@ -1352,6 +1352,7 @@ feature calt {
 } calt;
 
 
+# TODO: Sort DIST by TARGET CLASS OR SRC CLASS (ask Jose):
 feature dist {
 		lookup dist_MOD {
 			lookupflag IgnoreMarks;
@@ -1370,6 +1371,12 @@ feature dist {
 			pos @rmod_SRC 50 @emod_TGT;
 			pos @rmod_SRC 5 @zmod_TGT;
 			pos @vmod_SRC 30 @emod_TGT;
+			pos @rcnt_SRC 20 @emod_TGT;
+			pos @fmrr_SRC 20 @smod_TGT;
+			pos @bmlp_SRC 10 @emod_TGT;
+			pos @bmlp_SRC 20 @smod_TGT;
+			pos @fmlp_SRC 20 @smod_TGT;
+			pos @omlp_SRC 20 @smod_TGT;
 		} dist_MOD;
 		#
 		# JMC:
@@ -1495,12 +1502,15 @@ feature dist {
 			pos @Gcur_SRC 100 @vmod_TGT;
 			pos @Gcur_SRC 100 @xmod_TGT;
 			pos @Gcur_SRC  70 @zmod_TGT;
-			pos @Tcur_SRC 100 @ncnt_TGT;
+			pos @Gcur_SRC  40 @hlop_TGT;
 			pos @Tcur_SRC  10 @smod_TGT;
+			pos @Tcur_SRC  20 @tlop_de_TGT;
+			pos @Tcur_SRC  30 @zmod_TGT;
 			pos @Tcur_SRC  80 @vmod_TGT;
 			pos @Tcur_SRC  80 @xmod_TGT;
-			pos @Tcur_SRC  30 @zmod_TGT;
-			pos @Tcur_SRC  20 @tlop_de_TGT;
+			pos @Tcur_SRC 100 @ncnt_TGT;
+			pos @Tcur_SRC  15 @xful_TGT;
+			pos @Tcur_SRC  60 @zful_TGT;
 			pos @Xdec_SRC 100 @ncnt_TGT;
 			pos @Xdec_SRC  30 @zcnt_TGT;
 			pos @Xdec_SRC  10 @rful_TGT;

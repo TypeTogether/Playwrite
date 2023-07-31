@@ -4,11 +4,11 @@
   <unicode hex="013A"/>
   <anchor x="158" y="0" name="bottom"/>
   <anchor x="111" y="570" name="center"/>
-  <anchor x="118" y="1393" name="top"/>
+  <anchor x="118" y="1343" name="top"/>
   <anchor x="126" y="1200" name="topright"/>
   <outline>
     <component base="l"/>
-    <component base="acutecomb" xOffset="118" yOffset="739"/>
+    <component base="acutecomb.case" xOffset="118" yOffset="-1"/>
   </outline>
   <lib>
     <dict>
