@@ -618,6 +618,22 @@
     <string>adotbelow.glif</string>
     <key>ae</key>
     <string>ae.glif</string>
+    <key>ae.ful</key>
+    <string>ae.ful.glif</string>
+    <key>ae.ful.fin</key>
+    <string>ae.ful.fin.glif</string>
+    <key>ae.ful.ini</key>
+    <string>ae.ful.ini.glif</string>
+    <key>ae.ful.med</key>
+    <string>ae.ful.med.glif</string>
+    <key>ae.mod</key>
+    <string>ae.mod.glif</string>
+    <key>ae.mod.fin</key>
+    <string>ae.mod.fin.glif</string>
+    <key>ae.mod.ini</key>
+    <string>ae.mod.ini.glif</string>
+    <key>ae.mod.med</key>
+    <string>ae.mod.med.glif</string>
     <key>aeacute</key>
     <string>aeacute.glif</string>
     <key>agrave</key>
@@ -1132,12 +1148,16 @@
     <string>cnct.mlp_b_r.glif</string>
     <key>cnct.mlp_b_s</key>
     <string>cnct.mlp_b_s.glif</string>
+    <key>cnct.mlp_b_s.mod</key>
+    <string>cnct.mlp_b_s.mod.glif</string>
     <key>cnct.mlp_b_t</key>
     <string>cnct.mlp_b_t.glif</string>
     <key>cnct.mlp_b_t.lop_de</key>
     <string>cnct.mlp_b_t.lop_de.glif</string>
     <key>cnct.mlp_b_x</key>
     <string>cnct.mlp_b_x.glif</string>
+    <key>cnct.mlp_b_z.cnt</key>
+    <string>cnct.mlp_b_z.cnt.glif</string>
     <key>cnct.mlp_f_e</key>
     <string>cnct.mlp_f_e.glif</string>
     <key>cnct.mlp_f_e.mod</key>
@@ -1238,6 +1258,8 @@
     <string>cnct.mod_e_e.glif</string>
     <key>cnct.mod_e_n</key>
     <string>cnct.mod_e_n.glif</string>
+    <key>cnct.mod_e_n.cnt</key>
+    <string>cnct.mod_e_n.cnt.glif</string>
     <key>cnct.mod_e_o</key>
     <string>cnct.mod_e_o.glif</string>
     <key>cnct.mod_e_s</key>
@@ -1252,6 +1274,8 @@
     <string>cnct.mod_e_x.glif</string>
     <key>cnct.mod_e_z</key>
     <string>cnct.mod_e_z.glif</string>
+    <key>cnct.mod_e_z.cnt</key>
+    <string>cnct.mod_e_z.cnt.glif</string>
     <key>cnct.mod_n_b</key>
     <string>cnct.mod_n_b.glif</string>
     <key>cnct.mod_n_e</key>
@@ -1512,6 +1536,24 @@
     <string>endash.glif</string>
     <key>eng</key>
     <string>eng.glif</string>
+    <key>entr.eful</key>
+    <string>entr.eful.glif</string>
+    <key>entr.fful</key>
+    <string>entr.fful.glif</string>
+    <key>entr.fmrr</key>
+    <string>entr.fmrr.glif</string>
+    <key>entr.hlop</key>
+    <string>entr.hlop.glif</string>
+    <key>entr.ncnt</key>
+    <string>entr.ncnt.glif</string>
+    <key>entr.zcnt</key>
+    <string>entr.zcnt.glif</string>
+    <key>entr_rful</key>
+    <string>entr_rful.glif</string>
+    <key>entr_sful</key>
+    <string>entr_sful.glif</string>
+    <key>entr_xful</key>
+    <string>entr_xful.glif</string>
     <key>eogonek</key>
     <string>eogonek.glif</string>
     <key>equal</key>
@@ -1612,10 +1654,14 @@
     <string>f.mod_au.glif</string>
     <key>f.mod_au.fin</key>
     <string>f.mod_au.fin.glif</string>
+    <key>f.mod_au.fin_o_</key>
+    <string>f.mod_au.fin_o_.glif</string>
     <key>f.mod_au.ini</key>
     <string>f.mod_au.ini.glif</string>
     <key>f.mod_au.med</key>
     <string>f.mod_au.med.glif</string>
+    <key>f.mod_au.med_o_</key>
+    <string>f.mod_au.med_o_.glif</string>
     <key>f.mrr</key>
     <string>f.mrr.glif</string>
     <key>f.mrr.fin</key>
@@ -1762,6 +1808,14 @@
     <string>ihookabove.glif</string>
     <key>ij</key>
     <string>ij.glif</string>
+    <key>ij.mod</key>
+    <string>ij.mod.glif</string>
+    <key>ij.mod.fin</key>
+    <string>ij.mod.fin.glif</string>
+    <key>ij.mod.ini</key>
+    <string>ij.mod.ini.glif</string>
+    <key>ij.mod.med</key>
+    <string>ij.mod.med.glif</string>
     <key>ijacute</key>
     <string>ijacute.glif</string>
     <key>imacron</key>
@@ -2002,6 +2056,14 @@
     <string>odotbelow.glif</string>
     <key>oe</key>
     <string>oe.glif</string>
+    <key>oe.mod</key>
+    <string>oe.mod.glif</string>
+    <key>oe.mod.fin</key>
+    <string>oe.mod.fin.glif</string>
+    <key>oe.mod.ini</key>
+    <string>oe.mod.ini.glif</string>
+    <key>oe.mod.med</key>
+    <string>oe.mod.med.glif</string>
     <key>ogonek</key>
     <string>ogonek.glif</string>
     <key>ogonekcomb</key>
@@ -2322,6 +2384,14 @@
     <string>tcommaaccent.glif</string>
     <key>thorn</key>
     <string>thorn.glif</string>
+    <key>thorn.jmc</key>
+    <string>thorn.jmc.glif</string>
+    <key>thorn.jmc.fin</key>
+    <string>thorn.jmc.fin.glif</string>
+    <key>thorn.jmc.ini</key>
+    <string>thorn.jmc.ini.glif</string>
+    <key>thorn.jmc.med</key>
+    <string>thorn.jmc.med.glif</string>
     <key>three</key>
     <string>three.glif</string>
     <key>tilde</key>

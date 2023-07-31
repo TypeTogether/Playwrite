@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="X.dec.ini" format="2">
-  <advance width="701"/>
-  <anchor x="636" y="0" name="cnct"/>
+  <advance width="721"/>
+  <anchor x="656" y="0" name="cnct"/>
   <outline>
     <contour>
       <point x="149" y="-14" type="curve"/>
@@ -42,15 +42,15 @@
       <point x="89" y="-14"/>
     </contour>
     <contour>
-      <point x="542" y="-15" type="curve" smooth="yes"/>
-      <point x="558" y="-15"/>
-      <point x="562" y="12"/>
-      <point x="546" y="12" type="curve" smooth="yes"/>
-      <point x="443" y="12"/>
-      <point x="410" y="104"/>
-      <point x="410" y="197" type="curve" smooth="yes"/>
-      <point x="410" y="342"/>
-      <point x="522" y="682"/>
+      <point x="562" y="-15" type="curve" smooth="yes"/>
+      <point x="578" y="-15"/>
+      <point x="583" y="12"/>
+      <point x="567" y="12" type="curve" smooth="yes"/>
+      <point x="446" y="12"/>
+      <point x="409" y="83"/>
+      <point x="409" y="185" type="curve" smooth="yes"/>
+      <point x="409" y="319"/>
+      <point x="518" y="682"/>
       <point x="685" y="682" type="curve" smooth="yes"/>
       <point x="731" y="682"/>
       <point x="759" y="659"/>
@@ -64,11 +64,11 @@
       <point x="783" y="683"/>
       <point x="744" y="712"/>
       <point x="687" y="712" type="curve" smooth="yes"/>
-      <point x="504" y="712"/>
-      <point x="384" y="353"/>
-      <point x="384" y="195" type="curve" smooth="yes"/>
-      <point x="384" y="81"/>
-      <point x="428" y="-15"/>
+      <point x="501" y="712"/>
+      <point x="382" y="333"/>
+      <point x="382" y="183" type="curve" smooth="yes"/>
+      <point x="382" y="75"/>
+      <point x="421" y="-15"/>
     </contour>
   </outline>
 </glyph>

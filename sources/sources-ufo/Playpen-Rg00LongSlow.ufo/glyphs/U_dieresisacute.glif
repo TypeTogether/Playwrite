@@ -4,12 +4,12 @@
   <unicode hex="01D7"/>
   <anchor x="535" y="0" name="bottom"/>
   <anchor x="717" y="17" name="ogonek"/>
-  <anchor x="535" y="1532" name="top"/>
+  <anchor x="535" y="1503" name="top"/>
   <anchor x="877" y="1207" name="topright"/>
   <outline>
     <component base="U"/>
     <component base="dieresiscomb.case" xOffset="535" yOffset="-1"/>
-    <component base="acutecomb.case" xOffset="535" yOffset="188"/>
+    <component base="acutecomb.case" xOffset="535" yOffset="159"/>
   </outline>
   <lib>
     <dict>
