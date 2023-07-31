@@ -1,8 +1,8 @@
 # DNK_Looped
 @UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
-@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+@lc_src = [a b c d e f g h i idotless j jdotless k l m n o p q r s t u v w x y z];
 @UC_DNK_Looped = [A B C D E F G_locl.au H I J K L M.dec N.dec O P Q.cur_locl R S T U V W X Y Z];
-@lc_DNK_Looped = [a.mod b.jmc_dk c.mod d.mod e.ful f.ful_de g.jmc h.lop i.mod j.jmc k.lop l.lop m.mod n.mod o.mod p.jmc q.mod r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.jmc z.mod
+@lc_DNK_Looped = [a.mod b.jmc_dk c.mod d.mod e.ful f.ful_de g.jmc h.lop i.mod idotless.mod j.jmc jdotless.jmc k.lop l.lop m.mod n.mod o.mod p.jmc q.mod r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.jmc z.mod
 ];
 
 sub [@UC_src @lc_src] by [@UC_DNK_Looped @lc_DNK_Looped];

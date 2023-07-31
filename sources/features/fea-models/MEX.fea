@@ -1,8 +1,8 @@
 # MEX
 @UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
-@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+@lc_src = [a b c d e f g h i idotless j jdotless k l m n o p q r s t u v w x y z];
 @UC_MEX = [A.cur B.dec C.cur D.dec E.cur F.cur_locl G.dec H.dec I.cur J.cur K.cur L.cur M.cur N.cur O.dec P.dec Q.cur R.dec S.cur T.cur U.cur V.cur W.cur X.cur Y.cur Z.cur];
-@lc_MEX = [a.mod b.mlp c.mod d.mod e.ful f.mlp g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.jmc q.mrr r.cnt s.ful t.mod u.mod v.mlp w.mlp x.cnt y.cnt z.cnt
+@lc_MEX = [a.mod b.mlp c.mod d.mod e.ful f.mlp g.jmc h.lop i.mod idotless.mod j.jmc jdotless.jmc k.lop l.lop m.cnt n.cnt o.mod p.jmc q.mrr r.cnt s.ful t.mod u.mod v.mlp w.mlp x.cnt y.cnt z.cnt
 ];
 
 sub [@UC_src @lc_src] by [@UC_MEX @lc_MEX];
