@@ -1,8 +1,8 @@
 # NOR
 @UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
-@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+@lc_src = [a b c d e f g h i idotless j jdotless k l m n o p q r s t u v w x y z];
 @UC_NOR = [A.dec_locl B.cur C.cur D.cur E.cur F.cur G.cur H I.dec J.dec K.dec L.cur M.dec N.dec O P.cur Q.cur_locl R.cur S T.dec U.cur V.dec W.dec X.cur Y.cur Z.dec];
-@lc_NOR = [a.mod b.ful c.mod d.mod e.mod f.mod_au g.mod h.lop i.mod j.mod k.ful l.mod m.mod n.mod o.mod p.ful q.jmc r.ful s.ful t.mod u.mod v.ful w.ful x.ful y.jmc z.cnt
+@lc_NOR = [a.mod b.ful c.mod d.mod e.mod f.mod_au g.mod h.lop i.mod idotless.mod j.mod jdotless.mod k.ful l.mod m.mod n.mod o.mod p.ful q.jmc r.ful s.ful t.mod u.mod v.ful w.ful x.ful y.jmc z.cnt
 ];
 
 sub [@UC_src @lc_src] by [@UC_NOR @lc_NOR];
