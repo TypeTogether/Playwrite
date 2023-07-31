@@ -1,0 +1,149 @@
+{
+glyphname = thorn.jmc.med;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 488;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 486;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 488;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 486;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 488;
+},
+{
+layerId = m006;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 476;
+},
+{
+layerId = m007;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 508;
+},
+{
+layerId = m008;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 506;
+},
+{
+layerId = m009;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 488;
+},
+{
+layerId = m010;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 486;
+},
+{
+layerId = m011;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 488;
+},
+{
+layerId = m012;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 486;
+},
+{
+layerId = m013;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 488;
+},
+{
+layerId = m014;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 493;
+},
+{
+layerId = m015;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 508;
+},
+{
+layerId = m016;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 506;
+}
+);
+}

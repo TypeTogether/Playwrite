@@ -721,10 +721,22 @@ z.mod,
 z.mod.ini,
 z.mod.med,
 z.mod.fin,
+ae.mod,
+ae.mod.ini,
+ae.mod.med,
+ae.mod.fin,
+oe.mod,
+oe.mod.ini,
+oe.mod.med,
+oe.mod.fin,
 eth.mod,
 eth.mod.ini,
 eth.mod.med,
 eth.mod.fin,
+ij.mod,
+ij.mod.ini,
+ij.mod.med,
+ij.mod.fin,
 cnct.mod_n_o,
 cnct.mod_n_b,
 cnct.mod_n_e,
@@ -827,6 +839,14 @@ germandbls.jmc,
 germandbls.jmc.ini,
 germandbls.jmc.med,
 germandbls.jmc.fin,
+ij.jmc,
+ij.jmc.ini,
+ij.jmc.med,
+ij.jmc.fin,
+thorn.jmc,
+thorn.jmc.ini,
+thorn.jmc.med,
+thorn.jmc.fin,
 cnct.jmc_n_f,
 cnct.jmc_g_o,
 cnct.jmc_g_b,
@@ -901,6 +921,14 @@ z.ful,
 z.ful.ini,
 z.ful.med,
 z.ful.fin,
+ae.ful,
+ae.ful.ini,
+ae.ful.med,
+ae.ful.fin,
+oe.ful,
+oe.ful.ini,
+oe.ful.med,
+oe.ful.fin,
 cnct.ful_b_o,
 cnct.ful_b_b,
 cnct.ful_b_e,
@@ -1144,6 +1172,8 @@ cnct.mlp_b_s,
 cnct.mlp_b_t,
 cnct.mlp_b_x,
 cnct.mlp_b_e.mod,
+cnct.mlp_b_s.mod,
+cnct.mlp_b_z.cnt,
 cnct.mlp_f_o,
 cnct.mlp_f_e,
 cnct.mlp_f_h,
@@ -1183,6 +1213,8 @@ f.mod_au,
 f.mod_au.ini,
 f.mod_au.med,
 f.mod_au.fin,
+f.mod_au.fin_o_,
+f.mod_au.med_o_,
 f.ful_de,
 f.ful_de.ini,
 f.ful_de.med,
@@ -2077,8 +2109,109 @@ axesValues = (
 instanceInterpolations = {
 m01 = 1;
 };
-name = Minimum;
+name = Thin;
 weightClass = 100;
+},
+{
+axesValues = (
+100,
+18,
+300,
+0
+);
+instanceInterpolations = {
+m002 = 1;
+};
+isItalic = 1;
+linkStyle = Thin;
+name = "Thin Italic";
+weightClass = 100;
+},
+{
+axesValues = (
+200,
+0,
+300,
+0
+);
+instanceInterpolations = {
+m005 = 0.33333;
+m01 = 0.66667;
+};
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+200,
+18,
+300,
+0
+);
+instanceInterpolations = {
+m002 = 0.66667;
+m006 = 0.33333;
+};
+isItalic = 1;
+linkStyle = Extralight;
+name = "ExtraLight Italic";
+weightClass = 200;
+},
+{
+axesValues = (
+300,
+0,
+300,
+0
+);
+instanceInterpolations = {
+m005 = 0.66667;
+m01 = 0.33333;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+300,
+18,
+300,
+0
+);
+instanceInterpolations = {
+m002 = 0.33333;
+m006 = 0.66667;
+};
+isItalic = 1;
+linkStyle = Light;
+name = "Light Italic";
+weightClass = 300;
+},
+{
+axesValues = (
+400,
+0,
+300,
+0
+);
+instanceInterpolations = {
+m005 = 1;
+};
+name = Regular;
+},
+{
+axesValues = (
+400,
+18,
+300,
+0
+);
+instanceInterpolations = {
+m006 = 1;
+};
+isItalic = 1;
+linkStyle = Regular;
+name = Italic;
 },
 {
 axesValues = (
