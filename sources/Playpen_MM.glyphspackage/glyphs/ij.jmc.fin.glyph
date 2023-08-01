@@ -1,0 +1,214 @@
+{
+color = 0;
+glyphname = ij.jmc.fin;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (240,0);
+ref = j.jmc.fin;
+}
+);
+width = 493;
+},
+{
+layerId = m002;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (240,0);
+ref = j.jmc.fin;
+}
+);
+width = 493;
+},
+{
+layerId = m003;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (240,0);
+ref = j.jmc.fin;
+}
+);
+width = 493;
+},
+{
+layerId = m004;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (240,0);
+ref = j.jmc.fin;
+}
+);
+width = 493;
+},
+{
+layerId = m005;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (244,0);
+ref = j.jmc.fin;
+}
+);
+width = 497;
+},
+{
+layerId = m006;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (244,0);
+ref = j.jmc.fin;
+}
+);
+width = 497;
+},
+{
+layerId = m007;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (244,0);
+ref = j.jmc.fin;
+}
+);
+width = 497;
+},
+{
+layerId = m008;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (244,0);
+ref = j.jmc.fin;
+}
+);
+width = 497;
+},
+{
+layerId = m009;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (240,0);
+ref = j.jmc.fin;
+}
+);
+width = 493;
+},
+{
+layerId = m010;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (240,0);
+ref = j.jmc.fin;
+}
+);
+width = 493;
+},
+{
+layerId = m011;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (240,0);
+ref = j.jmc.fin;
+}
+);
+width = 493;
+},
+{
+layerId = m012;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (240,0);
+ref = j.jmc.fin;
+}
+);
+width = 493;
+},
+{
+layerId = m013;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (244,0);
+ref = j.jmc.fin;
+}
+);
+width = 497;
+},
+{
+layerId = m014;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (244,0);
+ref = j.jmc.fin;
+}
+);
+width = 497;
+},
+{
+layerId = m015;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (244,0);
+ref = j.jmc.fin;
+}
+);
+width = 497;
+},
+{
+layerId = m016;
+shapes = (
+{
+ref = i;
+},
+{
+pos = (244,0);
+ref = j.jmc.fin;
+}
+);
+width = 497;
+}
+);
+}

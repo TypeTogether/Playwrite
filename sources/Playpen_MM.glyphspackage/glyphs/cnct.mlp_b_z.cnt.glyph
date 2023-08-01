@@ -65,19 +65,6 @@ name = _cnct;
 pos = (-65,0);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(238,415,ls),
-(218,415,o),
-(215,388,o),
-(235,388,cs)
-);
-}
-);
-};
 layerId = m002;
 shapes = (
 {
