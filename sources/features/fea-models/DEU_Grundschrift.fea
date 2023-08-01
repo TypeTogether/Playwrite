@@ -1,8 +1,8 @@
 # DEU_Grundschrift
-@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
-@lc_src = [a b c d e f g h i idotless j jdotless k l m n o p q r s t u v w x y z];
-@UC_DEU_Grundschrift = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
-@lc_DEU_Grundschrift = [a b c d e f.mod_au g h i idotless j jdotless k l m n o p q r s t u v w x y_de z
+@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE Eth IJ Eng OE Thorn Germandbls];
+@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z ae eth ij eng oe thorn germandbls idotless jdotless];
+@UC_DEU_Grundschrift = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE Eth IJ Eng OE Thorn Germandbls];
+@lc_DEU_Grundschrift = [a b c d e f.mod_au g h i j k l m n o p q r s t u v w x y_de z ae eth ij eng oe thorn germandbls idotless jdotless 
 ];
 
 sub [@UC_src @lc_src] by [@UC_DEU_Grundschrift @lc_DEU_Grundschrift];

@@ -7,8 +7,8 @@ __doc__ = """
 """
 
 
-UC_src = "@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];"
-lc_src = "@lc_src = [a b c d e f g h i idotless j jdotless k l m n o p q r s t u v w x y z];"
+UC_src = "@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE Eth IJ Eng OE Thorn Germandbls];"
+lc_src = "@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z ae eth ij eng oe thorn germandbls idotless jdotless];"
 
 
 class langModel(object):
