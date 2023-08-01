@@ -1,8 +1,8 @@
 # AUS_TAS
-@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
-@lc_src = [a b c d e f g h i idotless j jdotless k l m n o p q r s t u v w x y z];
-@UC_AUS_TAS = [A B C D E F G_locl.au H I J K L M_locl.au N O P Q R S T U_locl.au V W X Y_locl Z];
-@lc_AUS_TAS = [a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod idotless.mod j.mod jdotless.mod k.ful l.mod m.mod n.mod o.mod p.mod q.mod_au r.mod s.mod t.mod u.mod v.mod w.mod x.mod y.mod z.mod
+@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE Eth IJ Eng OE Thorn Germandbls];
+@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z ae eth ij eng oe thorn germandbls idotless jdotless];
+@UC_AUS_TAS = [A B C D E F G_locl.au H I J K L M_locl.au N O P Q R S T U_locl.au V W X Y_locl Z AE Eth IJ Eng OE Thorn Germandbls];
+@lc_AUS_TAS = [a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod j.mod k.ful l.mod m.mod n.mod o.mod p.mod q.mod_au r.mod s.mod t.mod u.mod v.mod w.mod x.mod y.mod z.mod ae.mod eth.mod ij.mod eng oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.mod 
 ];
 
 sub [@UC_src @lc_src] by [@UC_AUS_TAS @lc_AUS_TAS];
