@@ -797,7 +797,7 @@ pos = (232,0);
 },
 {
 name = center;
-pos = (360,558);
+pos = (350,758);
 },
 {
 name = cnct;
@@ -809,7 +809,7 @@ pos = (232,400);
 },
 {
 name = topright;
-pos = (393,700);
+pos = (383,1200);
 }
 );
 layerId = m009;
@@ -894,7 +894,7 @@ pos = (167,0);
 },
 {
 name = center;
-pos = (476,558);
+pos = (528,758);
 },
 {
 name = cnct;
@@ -902,11 +902,11 @@ pos = (448,0);
 },
 {
 name = top;
-pos = (394,700);
+pos = (272,400);
 },
 {
 name = topright;
-pos = (557,700);
+pos = (710,1195);
 }
 );
 layerId = m010;
@@ -991,7 +991,7 @@ pos = (232,0);
 },
 {
 name = center;
-pos = (360,558);
+pos = (350,758);
 },
 {
 name = cnct;
@@ -999,11 +999,11 @@ pos = (513,0);
 },
 {
 name = top;
-pos = (232,700);
+pos = (232,400);
 },
 {
 name = topright;
-pos = (393,700);
+pos = (383,1200);
 }
 );
 layerId = m011;
@@ -1088,7 +1088,7 @@ pos = (147,0);
 },
 {
 name = center;
-pos = (476,558);
+pos = (528,758);
 },
 {
 name = cnct;
@@ -1096,11 +1096,11 @@ pos = (448,0);
 },
 {
 name = top;
-pos = (374,700);
+pos = (272,400);
 },
 {
 name = topright;
-pos = (557,700);
+pos = (710,1195);
 }
 );
 guides = (
@@ -1191,7 +1191,7 @@ pos = (232,0);
 },
 {
 name = center;
-pos = (360,558);
+pos = (350,758);
 },
 {
 name = cnct;
@@ -1199,11 +1199,11 @@ pos = (513,0);
 },
 {
 name = top;
-pos = (232,400);
+pos = (222,400);
 },
 {
 name = topright;
-pos = (393,700);
+pos = (383,1200);
 }
 );
 layerId = m013;
@@ -1288,7 +1288,7 @@ pos = (167,0);
 },
 {
 name = center;
-pos = (476,558);
+pos = (534,758);
 },
 {
 name = cnct;
@@ -1296,11 +1296,11 @@ pos = (448,0);
 },
 {
 name = top;
-pos = (394,700);
+pos = (257,400);
 },
 {
 name = topright;
-pos = (557,700);
+pos = (706,1200);
 }
 );
 layerId = m014;
@@ -1385,7 +1385,7 @@ pos = (232,0);
 },
 {
 name = center;
-pos = (360,558);
+pos = (350,758);
 },
 {
 name = cnct;
@@ -1393,11 +1393,11 @@ pos = (513,0);
 },
 {
 name = top;
-pos = (232,700);
+pos = (222,400);
 },
 {
 name = topright;
-pos = (393,700);
+pos = (383,1200);
 }
 );
 layerId = m015;
@@ -1482,7 +1482,7 @@ pos = (147,0);
 },
 {
 name = center;
-pos = (476,558);
+pos = (534,758);
 },
 {
 name = cnct;
@@ -1490,11 +1490,11 @@ pos = (448,0);
 },
 {
 name = top;
-pos = (374,700);
+pos = (257,400);
 },
 {
 name = topright;
-pos = (557,700);
+pos = (706,1200);
 }
 );
 guides = (
