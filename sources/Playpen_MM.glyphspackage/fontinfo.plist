@@ -1,5 +1,5 @@
 {
-.appVersion = "3207";
+.appVersion = "3208";
 .formatVersion = 3;
 axes = (
 {
@@ -17,6 +17,13 @@ tag = EXTD;
 {
 name = Speed;
 tag = SPED;
+}
+);
+classes = (
+{
+automatic = 1;
+code = "";
+name = Uppercase;
 }
 );
 customParameters = (
