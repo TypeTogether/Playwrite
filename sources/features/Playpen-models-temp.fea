@@ -937,7 +937,7 @@ feature locl {
 	script latn;
 	language dflt;
 	# some code?
-	include(../features/fea-models/VNM.fea);
+	include(../features/fea-models/ARG.fea);
 } locl;
 
 
