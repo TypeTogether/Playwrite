@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="IJ.cur.ini" format="2">
+  <advance width="1265"/>
+  <anchor x="472" y="0" name="bottom_1"/>
+  <anchor x="885" y="-325" name="bottom_2"/>
+  <anchor x="1200" y="0" name="cnct"/>
+  <anchor x="555" y="-5" name="ogonek"/>
+  <anchor x="581" y="670" name="top_1"/>
+  <anchor x="1136" y="670" name="top_2"/>
+  <outline>
+    <component base="I.cur"/>
+    <component base="J.cur.ini" xOffset="724"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>
