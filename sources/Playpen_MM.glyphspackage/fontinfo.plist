@@ -19,13 +19,6 @@ name = Speed;
 tag = SPED;
 }
 );
-classes = (
-{
-automatic = 1;
-code = "";
-name = Uppercase;
-}
-);
 customParameters = (
 {
 disabled = 1;
@@ -1450,7 +1443,7 @@ featurePrefixes = (
 code = "languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-include(features/Playpen-dev.fea);
+include(../../03_Engineering/GOOGLE-Github-Playpen-repo/sources/features/Playpen-dev.fea);
 ";
 name = Languagesystems;
 }
