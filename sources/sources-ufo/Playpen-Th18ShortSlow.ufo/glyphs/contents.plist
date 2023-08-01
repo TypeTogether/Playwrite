@@ -24,6 +24,8 @@
     <string>A_.dec_locl.ini.glif</string>
     <key>AE</key>
     <string>A_E_.glif</string>
+    <key>AE.cur</key>
+    <string>A_E_.cur.glif</string>
     <key>AEacute</key>
     <string>A_E_acute.glif</string>
     <key>Aacute</key>
@@ -198,6 +200,10 @@
     <string>I_.dec.glif</string>
     <key>IJ</key>
     <string>I_J_.glif</string>
+    <key>IJ.cur</key>
+    <string>I_J_.cur.glif</string>
+    <key>IJ.cur.ini</key>
+    <string>I_J_.cur.ini.glif</string>
     <key>IJacute</key>
     <string>I_J_acute.glif</string>
     <key>I_locl</key>
@@ -308,6 +314,8 @@
     <string>O_.dec.glif</string>
     <key>OE</key>
     <string>O_E_.glif</string>
+    <key>OE.cur</key>
+    <string>O_E_.cur.glif</string>
     <key>Oacute</key>
     <string>O_acute.glif</string>
     <key>Obreve</key>
@@ -1808,6 +1816,14 @@
     <string>ihookabove.glif</string>
     <key>ij</key>
     <string>ij.glif</string>
+    <key>ij.jmc</key>
+    <string>ij.jmc.glif</string>
+    <key>ij.jmc.fin</key>
+    <string>ij.jmc.fin.glif</string>
+    <key>ij.jmc.ini</key>
+    <string>ij.jmc.ini.glif</string>
+    <key>ij.jmc.med</key>
+    <string>ij.jmc.med.glif</string>
     <key>ij.mod</key>
     <string>ij.mod.glif</string>
     <key>ij.mod.fin</key>
@@ -2056,6 +2072,14 @@
     <string>odotbelow.glif</string>
     <key>oe</key>
     <string>oe.glif</string>
+    <key>oe.ful</key>
+    <string>oe.ful.glif</string>
+    <key>oe.ful.fin</key>
+    <string>oe.ful.fin.glif</string>
+    <key>oe.ful.ini</key>
+    <string>oe.ful.ini.glif</string>
+    <key>oe.ful.med</key>
+    <string>oe.ful.med.glif</string>
     <key>oe.mod</key>
     <string>oe.mod.glif</string>
     <key>oe.mod.fin</key>

@@ -16,7 +16,7 @@
       </dict>
     </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>3207</string>
+    <string>3208</string>
     <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
     <integer>2000</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -1451,6 +1451,10 @@
       <string>cnct.mod_G_v</string>
       <string>cnct.mod_G_x</string>
       <string>cnct.mod_G_z</string>
+      <string>AE.cur</string>
+      <string>IJ.cur</string>
+      <string>OE.cur</string>
+      <string>IJ.cur.ini</string>
       <string>entr_rful</string>
       <string>entr_sful</string>
       <string>entr_xful</string>

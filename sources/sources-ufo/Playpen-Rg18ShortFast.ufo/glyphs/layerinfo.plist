@@ -28,6 +28,8 @@
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.AE</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.AE.cur</key>
+      <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.AEacute</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Aacute</key>
@@ -202,6 +204,10 @@
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.IJ</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.IJ.cur</key>
+      <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.IJ.cur.ini</key>
+      <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.IJacute</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.I_locl</key>
@@ -312,6 +318,8 @@
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.OE</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.OE.cur</key>
+      <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Oacute</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Obreve</key>
@@ -1812,6 +1820,14 @@
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ij</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ij.jmc</key>
+      <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ij.jmc.fin</key>
+      <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ij.jmc.ini</key>
+      <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.ij.jmc.med</key>
+      <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ij.mod</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ij.mod.fin</key>
@@ -2060,6 +2076,14 @@
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.oe</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.oe.ful</key>
+      <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.oe.ful.fin</key>
+      <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.oe.ful.ini</key>
+      <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.oe.ful.med</key>
+      <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.oe.mod</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.oe.mod.fin</key>
