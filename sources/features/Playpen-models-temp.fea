@@ -1,4 +1,4 @@
-# 230731_1448
+# 230801_1845
 
 # --------------
 # CLASSES
@@ -937,7 +937,7 @@ feature locl {
 	script latn;
 	language dflt;
 	# some code?
-	include(../features/fea-models/AUS_NSW.fea);
+	include(../features/fea-models/VNM.fea);
 } locl;
 
 
