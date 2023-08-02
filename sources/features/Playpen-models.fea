@@ -60,7 +60,7 @@
 @vmod_SRC = [v.mod.ini v.mod.med w.mod.ini w.mod.med];
 @zful_SRC = [z.ful.ini z.ful.med z.mlp.ini z.mlp.med z.cnt.ini z.cnt.med];
 #
-# @needsEntry_SRC = [b.mod.ini b.mod.med f.mod.ini f.mod.med f.mod_au.ini f.mod_au.med g.mod.ini g.mod.med j.mod.ini j.mod.med p.mod.ini p.mod.med q.mod.ini q.mod.med q.mod_au.ini q.mod_au.med s.mod.ini s.mod.med y.mod.ini y.mod.med];
+@needsEntry_SRC = [b.mod.ini b.mod.med f.mod.ini f.mod.med f.mod_au.ini f.mod_au.med g.mod.ini g.mod.med j.mod.ini j.mod.med p.mod.ini p.mod.med q.mod.ini q.mod.med q.mod_au.ini q.mod_au.med s.mod.ini s.mod.med y.mod.ini y.mod.med];
 #
 @cenorvfg_SRC = [@cmod_SRC @emod_SRC @nmod_SRC @omod_SRC @rmod_SRC @vmod_SRC @fjmc_SRC @gjmc_SRC];
 
@@ -188,6 +188,7 @@ lookup before_eful {
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_e;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_e;
+	sub @needsEntry_SRC by @needsEntry_SRC entr_eful;
 } before_eful;
 
 
@@ -210,6 +211,7 @@ lookup before_fjmc {
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.jmc_t.lop_de_f;
 } before_fjmc;
+
 
 lookup before_fful {
 	sub @Gcur_SRC by @Gcur_SRC cnct.ful_G_f;
@@ -236,12 +238,8 @@ lookup before_fful {
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_f;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_f;
+	sub @needsEntry_SRC by @needsEntry_SRC entr_fful;
 } before_fful;
-
-# lookup before_fmrr {
-# 	sub @nmod_SRC by @nmod_SRC cnct.ful_n_f;
-# 	sub @Tcur_SRC by @Tcur_SRC cnct.ful_c_f;
-# } before_fmrr;
 
 
 lookup before_h {
@@ -263,6 +261,7 @@ lookup before_h {
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_h;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_h;
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.lop_t.lop_de_h;
+	sub @needsEntry_SRC by @needsEntry_SRC entr_hlop;
 } before_h;
 
 
@@ -300,6 +299,7 @@ lookup before_n {
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_n;
 } before_n;
 
+
 lookup before_ncnt {
 	sub @Gcur_SRC by @Gcur_SRC cnct.cnt_G_n;
 	sub @Tcur_SRC by @Tcur_SRC cnct.cnt_c_n;
@@ -322,6 +322,7 @@ lookup before_ncnt {
 	sub @zful_SRC by @zful_SRC cnct.cnt_z_n;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.cnt_t.lop_de_n;
+	sub @needsEntry_SRC by @needsEntry_SRC entr_ncnt;
 } before_ncnt;
 
 
@@ -380,6 +381,7 @@ lookup before_rful {
 	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_r.ful;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_r;
+	sub @needsEntry_SRC by @needsEntry_SRC entr_rful;
 } before_rful;
 
 
@@ -416,6 +418,7 @@ lookup before_s {
 	sub @zful_SRC by @zful_SRC cnct.ful_z_s.mod;
 	} before_s;
 
+
 lookup before_sful {
 	sub @Gcur_SRC by @Gcur_SRC cnct.ful_G_s;
 	sub @Tcur_SRC by @Tcur_SRC cnct.ful_c_s;
@@ -438,6 +441,7 @@ lookup before_sful {
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_s;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_s;
+	sub @needsEntry_SRC by @needsEntry_SRC entr_sful;
 } before_sful;
 
 
@@ -513,6 +517,7 @@ lookup before_x {
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_x;
 } before_x;
 
+
 lookup before_xful {
 	sub @Gcur_SRC by @Gcur_SRC cnct.ful_G_x;
 	sub @Tcur_SRC by @Tcur_SRC cnct.ful_c_x;
@@ -533,6 +538,7 @@ lookup before_xful {
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_x;
 	sub @emod_SRC by @emod_SRC cnct.mod_e_x.ful;
+	sub @needsEntry_SRC by @needsEntry_SRC entr_xful;
 } before_xful;
 
 
@@ -554,6 +560,7 @@ lookup before_z {
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_z;
 } before_z;
 
+
 lookup before_zful {
 	sub @Gcur_SRC by @Gcur_SRC cnct.ful_G_z;
 	sub @Tcur_SRC by @Tcur_SRC cnct.ful_c_z;
@@ -570,6 +577,7 @@ lookup before_zful {
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_z;
 } before_zful;
+
 
 lookup before_zcnt {
 	sub @Gcur_SRC by @Gcur_SRC cnct.cnt_G_z;
@@ -592,7 +600,9 @@ lookup before_zcnt {
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_z.cnt;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.cnt_t.lop_de_z;
+	sub @needsEntry_SRC by @needsEntry_SRC entr_zcnt;
 } before_zcnt;
+
 
 lookup before_tlop_de {
 	sub @bful_SRC by @bful_SRC cnct.ful_b_t.lop_de;
@@ -615,17 +625,6 @@ lookup before_tlop_de {
 	sub @zful_SRC by @zful_SRC cnct.ful_z_t.lop_de;
 } before_tlop_de;
 
-# lookup entry_add {
-# 	sub @needsEntry_SRC by @needsEntry_SRC entr_rful;
-# 	sub @needsEntry_SRC by @needsEntry_SRC entr_sful;
-# 	sub @needsEntry_SRC by @needsEntry_SRC entr_xful;
-# 	sub @needsEntry_SRC by @needsEntry_SRC entr.eful;
-# 	sub @needsEntry_SRC by @needsEntry_SRC entr.fful;
-# 	sub @needsEntry_SRC by @needsEntry_SRC entr.fmrr;
-# 	sub @needsEntry_SRC by @needsEntry_SRC entr.hlop;
-# 	sub @needsEntry_SRC by @needsEntry_SRC entr.ncnt;
-# 	sub @needsEntry_SRC by @needsEntry_SRC entr.zcnt;
-# } entry_add;
 
 # --------------
 # FEATURES
@@ -1018,7 +1017,6 @@ feature ss07 {
 	sub @lc by @lcMLP;
 } ss07;
 
-
 feature ss19 {
 	featureNames {
 		name "Cursive Uppercase"; # Windows English
@@ -1026,7 +1024,6 @@ feature ss19 {
 	};
 	sub @UC by @UC_Cursive;
 } ss19;
-
 
 feature ss20 {
 	featureNames {
@@ -1377,15 +1374,14 @@ feature calt {
 		sub @emod_SRC' lookup before_zcnt @zcnt_TGT;
 		sub @emod_SRC' lookup before_xful @xful_TGT;
 		#
-		# sub @needsEntry_SRC' lookup entry_add @rful_TGT;
-		# sub @needsEntry_SRC' lookup entry_add @sful_TGT;
-		# sub @needsEntry_SRC' lookup entry_add @xful_TGT;
-		# sub @needsEntry_SRC' lookup entry_add @eful_TGT;
-		# sub @needsEntry_SRC' lookup entry_add @fful_TGT;
-		# # sub @needsEntry_SRC' lookup entry_add @fmrr_TGT;
-		# sub @needsEntry_SRC' lookup entry_add @hlop_TGT;
-		# sub @needsEntry_SRC' lookup entry_add @ncnt_TGT;
-		# sub @needsEntry_SRC' lookup entry_add @zcnt_TGT;
+		sub @needsEntry_SRC' lookup before_rful @rful_TGT;
+		sub @needsEntry_SRC' lookup before_sful @sful_TGT;
+		sub @needsEntry_SRC' lookup before_xful @xful_TGT;
+		sub @needsEntry_SRC' lookup before_eful @eful_TGT;
+		sub @needsEntry_SRC' lookup before_fful @fful_TGT;
+		sub @needsEntry_SRC' lookup before_h @hlop_TGT;
+		sub @needsEntry_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @needsEntry_SRC' lookup before_zcnt @zcnt_TGT;
 	} SENSEI_MAGIC;
 } calt;
 
@@ -1394,27 +1390,30 @@ feature calt {
 feature dist {
 		lookup dist_MOD {
 			lookupflag IgnoreMarks;
-			pos @cmod_SRC 80 @vmod_TGT;
-			pos @cmod_SRC 80 @xmod_TGT;
-			pos @cmod_SRC 30 @zmod_TGT;
-			pos @emod_SRC 40 @smod_TGT;
-			pos @emod_SRC 90 @vmod_TGT;
-			pos @emod_SRC 80 @xmod_TGT;
-			pos @emod_SRC 80 @zmod_TGT;
-			pos @nmod_SRC 40 @smod_TGT;
-			pos @nmod_SRC 94 @vmod_TGT;
-			pos @nmod_SRC 110 @xmod_TGT;
-			pos @nmod_SRC 66 @zmod_TGT;
-			pos @omod_SRC 20 @emod_TGT;
-			pos @rmod_SRC 50 @emod_TGT;
-			pos @rmod_SRC 5 @zmod_TGT;
-			pos @vmod_SRC 30 @emod_TGT;
-			pos @rcnt_SRC 20 @emod_TGT;
-			pos @fmrr_SRC 20 @smod_TGT;
 			pos @bmlp_SRC 10 @emod_TGT;
 			pos @bmlp_SRC 20 @smod_TGT;
+			pos @cmod_SRC 30 @zmod_TGT;
+			pos @cmod_SRC 80 @vmod_TGT;
+			pos @cmod_SRC 80 @xmod_TGT;
+			pos @emod_SRC 30 @xful_TGT;
+			pos @emod_SRC 30 @zcnt_TGT;
+			pos @emod_SRC 40 @smod_TGT;
+			pos @emod_SRC 80 @ncnt_TGT;
+			pos @emod_SRC 80 @xmod_TGT;
+			pos @emod_SRC 80 @zmod_TGT;
+			pos @emod_SRC 90 @vmod_TGT;
 			pos @fmlp_SRC 20 @smod_TGT;
+			pos @fmrr_SRC 20 @smod_TGT;
+			pos @nmod_SRC 110 @xmod_TGT;
+			pos @nmod_SRC 40 @smod_TGT;
+			pos @nmod_SRC 66 @zmod_TGT;
+			pos @nmod_SRC 94 @vmod_TGT;
 			pos @omlp_SRC 20 @smod_TGT;
+			pos @omod_SRC 20 @emod_TGT;
+			pos @rcnt_SRC 20 @emod_TGT;
+			pos @rmod_SRC 5 @zmod_TGT;
+			pos @rmod_SRC 50 @emod_TGT;
+			pos @vmod_SRC 30 @emod_TGT;
 		} dist_MOD;
 		#
 		# JMC:
@@ -1464,7 +1463,6 @@ feature dist {
 			pos @zful_SRC 10 @tmod_TGT;
 			pos @zful_SRC 20 @xful_TGT;
 			pos @zful_SRC 30 @fful_TGT;
-			pos @zful_SRC 60 @fful_TGT;
 			pos @zful_SRC 60 @zful_TGT;
 		} dist_FUL;
 
@@ -1576,13 +1574,12 @@ feature dist {
 			pos @fmrr_SRC 20 @tlop_de_TGT;
 		} dist_tlopDE;
 
-		# lookup dist_entry {
-		# 	pos @needsEntry_SRC 30 @rful_TGT;
-		# 	pos @needsEntry_SRC 30 @sful_TGT;
-		# 	pos @needsEntry_SRC 20 @eful_TGT;
-		# 	pos @needsEntry_SRC 20 @fful_TGT;
-		# 	# pos @needsEntry_SRC 20 @fmrr_TGT;
-		# 	pos @needsEntry_SRC 20 @hlop_TGT;
-		# 	pos @needsEntry_SRC 40 @ncnt_TGT;
-		# } dist_entry;
+		lookup dist_entry {
+			pos @needsEntry_SRC 30 @rful_TGT;
+			pos @needsEntry_SRC 30 @sful_TGT;
+			pos @needsEntry_SRC 20 @eful_TGT;
+			pos @needsEntry_SRC 20 @fful_TGT;
+			pos @needsEntry_SRC 20 @hlop_TGT;
+			pos @needsEntry_SRC 40 @ncnt_TGT;
+		} dist_entry;
 } dist;
