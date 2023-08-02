@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>AE.cur</key>
+    <string>A_E_.cur.glif</string>
+    <key>OE.cur</key>
+    <string>O_E_.cur.glif</string>
     <key>Q.dec_pt</key>
     <string>Q_.dec_pt.glif</string>
     <key>U_locl.au</key>
@@ -12,8 +16,12 @@
     <string>cnct.cnt_r_s.mod.glif</string>
     <key>cnct.ful_b_e.mod</key>
     <string>cnct.ful_b_e.mod.glif</string>
+    <key>cnct.ful_b_z.mod</key>
+    <string>cnct.ful_b_z.mod.glif</string>
     <key>cnct.ful_e_s.mod</key>
     <string>cnct.ful_e_s.mod.glif</string>
+    <key>cnct.ful_e_z.mod</key>
+    <string>cnct.ful_e_z.mod.glif</string>
     <key>cnct.ful_f_e.mod</key>
     <string>cnct.ful_f_e.mod.glif</string>
     <key>cnct.ful_f_s.mod</key>
@@ -24,6 +32,8 @@
     <string>cnct.ful_z_s.mod.glif</string>
     <key>cnct.lop_G_h</key>
     <string>cnct.lop_G__h.glif</string>
+    <key>cnct.lop_G_t.lop_de</key>
+    <string>cnct.lop_G__t.lop_de.glif</string>
     <key>cnct.mlp_b_e.mod</key>
     <string>cnct.mlp_b_e.mod.glif</string>
     <key>cnct.mlp_b_s.mod</key>
@@ -46,6 +56,8 @@
     <string>entr_rful.glif</string>
     <key>f.mod_au.med_o_</key>
     <string>f.mod_au.med_o_.glif</string>
+    <key>jdotless</key>
+    <string>jdotless.glif</string>
     <key>oe.mod.ini</key>
     <string>oe.mod.ini.glif</string>
   </dict>

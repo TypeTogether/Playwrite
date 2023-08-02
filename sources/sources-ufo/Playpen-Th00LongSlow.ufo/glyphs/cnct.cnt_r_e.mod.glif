@@ -3,19 +3,19 @@
   <anchor x="0" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="95" y="168" type="curve" smooth="yes"/>
-      <point x="112" y="165"/>
-      <point x="118" y="191"/>
-      <point x="95" y="195" type="curve" smooth="yes"/>
-      <point x="13" y="210"/>
-      <point x="-37" y="257"/>
+      <point x="95" y="207" type="curve" smooth="yes"/>
+      <point x="115" y="203"/>
+      <point x="117" y="228"/>
+      <point x="100" y="232" type="curve" smooth="yes"/>
+      <point x="14" y="252"/>
+      <point x="-42" y="283"/>
       <point x="-62" y="403" type="curve" smooth="yes"/>
       <point x="-63" y="411"/>
       <point x="-69" y="415"/>
       <point x="-85" y="415" type="curve"/>
       <point x="-86" y="387" type="line"/>
-      <point x="-58" y="220"/>
-      <point x="22" y="179"/>
+      <point x="-58" y="250"/>
+      <point x="22" y="222"/>
     </contour>
   </outline>
   <lib>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quoteright" format="2">
-  <advance width="145"/>
+  <advance width="185"/>
   <unicode hex="2019"/>
   <outline>
-    <component base="quoteleft" xScale="-1.0" yScale="-1.0" xOffset="735" yOffset="2216"/>
+    <component base="quoteleft" xScale="-1.0" yScale="-1.0" xOffset="775" yOffset="2216"/>
   </outline>
   <lib>
     <dict>
@@ -34,6 +34,8 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>quotedblright</string>
     </dict>
   </lib>
 </glyph>
