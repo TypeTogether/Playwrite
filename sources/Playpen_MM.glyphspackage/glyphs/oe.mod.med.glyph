@@ -2,7 +2,103 @@
 glyphname = oe.mod.med;
 layers = (
 {
+anchors = (
+{
+name = cnct;
+pos = (713,0);
+}
+);
 layerId = m01;
+shapes = (
+{
+ref = oe.mod.ini;
+}
+);
+width = 713;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (653,0);
+}
+);
+layerId = m002;
+shapes = (
+{
+ref = oe.mod.ini;
+}
+);
+width = 718;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (713,0);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = oe.mod.ini;
+}
+);
+width = 713;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (647,0);
+}
+);
+layerId = m004;
+shapes = (
+{
+ref = oe.mod.ini;
+}
+);
+width = 712;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (702,0);
+}
+);
+layerId = m005;
+shapes = (
+{
+ref = oe.mod.ini;
+}
+);
+width = 702;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (640,0);
+}
+);
+layerId = m006;
+shapes = (
+{
+ref = oe.mod.ini;
+}
+);
+width = 705;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (703,0);
+}
+);
+layerId = m007;
 shapes = (
 {
 ref = oe.mod.ini;
@@ -11,7 +107,28 @@ ref = oe.mod.ini;
 width = 703;
 },
 {
-layerId = m002;
+anchors = (
+{
+name = cnct;
+pos = (637,0);
+}
+);
+layerId = m008;
+shapes = (
+{
+ref = oe.mod.ini;
+}
+);
+width = 702;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (708,0);
+}
+);
+layerId = m009;
 shapes = (
 {
 ref = oe.mod.ini;
@@ -20,79 +137,58 @@ ref = oe.mod.ini;
 width = 708;
 },
 {
-layerId = m003;
-shapes = (
+anchors = (
 {
-ref = oe.mod.ini;
+name = cnct;
+pos = (646,0);
 }
 );
-width = 703;
-},
-{
-layerId = m004;
-shapes = (
-{
-ref = oe.mod.ini;
-}
-);
-width = 702;
-},
-{
-layerId = m005;
-shapes = (
-{
-ref = oe.mod.ini;
-}
-);
-width = 692;
-},
-{
-layerId = m006;
-shapes = (
-{
-ref = oe.mod.ini;
-}
-);
-width = 695;
-},
-{
-layerId = m007;
-shapes = (
-{
-ref = oe.mod.ini;
-}
-);
-width = 693;
-},
-{
-layerId = m008;
-shapes = (
-{
-ref = oe.mod.ini;
-}
-);
-width = 692;
-},
-{
-layerId = m009;
-shapes = (
-{
-ref = oe.mod.ini;
-}
-);
-width = 698;
-},
-{
 layerId = m010;
 shapes = (
 {
 ref = oe.mod.ini;
 }
 );
-width = 701;
+width = 711;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (713,0);
+}
+);
 layerId = m011;
+shapes = (
+{
+ref = oe.mod.ini;
+}
+);
+width = 713;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (647,0);
+}
+);
+layerId = m012;
+shapes = (
+{
+ref = oe.mod.ini;
+}
+);
+width = 712;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (703,0);
+}
+);
+layerId = m013;
 shapes = (
 {
 ref = oe.mod.ini;
@@ -101,49 +197,49 @@ ref = oe.mod.ini;
 width = 703;
 },
 {
-layerId = m012;
-shapes = (
+anchors = (
 {
-ref = oe.mod.ini;
+name = cnct;
+pos = (640,0);
 }
 );
-width = 702;
-},
-{
-layerId = m013;
-shapes = (
-{
-ref = oe.mod.ini;
-}
-);
-width = 693;
-},
-{
 layerId = m014;
 shapes = (
 {
 ref = oe.mod.ini;
 }
 );
-width = 695;
+width = 705;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (703,0);
+}
+);
 layerId = m015;
 shapes = (
 {
 ref = oe.mod.ini;
 }
 );
-width = 693;
+width = 703;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (637,0);
+}
+);
 layerId = m016;
 shapes = (
 {
 ref = oe.mod.ini;
 }
 );
-width = 692;
+width = 702;
 }
 );
 }
