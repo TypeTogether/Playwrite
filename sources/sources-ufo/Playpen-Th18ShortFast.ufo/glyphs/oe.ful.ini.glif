@@ -1,12 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oe.ful.ini" format="2">
-  <advance width="600"/>
+  <advance width="682"/>
+  <anchor x="617" y="0" name="cnct"/>
+  <anchor x="396" y="400" name="top"/>
   <outline>
+    <component base="oe.ful.med"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

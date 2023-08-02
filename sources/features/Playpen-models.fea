@@ -532,6 +532,7 @@ lookup before_xful {
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_x;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_x;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_x.ful;
 } before_xful;
 
 
@@ -1374,6 +1375,7 @@ feature calt {
 		#
 		sub @emod_SRC' lookup before_ncnt @ncnt_TGT;
 		sub @emod_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @emod_SRC' lookup before_xful @xful_TGT;
 		#
 		# sub @needsEntry_SRC' lookup entry_add @rful_TGT;
 		# sub @needsEntry_SRC' lookup entry_add @sful_TGT;

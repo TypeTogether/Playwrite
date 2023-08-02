@@ -932,6 +932,8 @@
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_b_z</key>
       <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_b_z.mod</key>
+      <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_c_e</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_c_f</key>
@@ -968,6 +970,8 @@
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_e_z</key>
       <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_e_z.mod</key>
+      <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_f_e</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_f_e.mod</key>
@@ -985,6 +989,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_f_x</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_f_z</key>
+      <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_f_z.mod</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_g_e</key>
       <integer>7</integer>
@@ -1124,6 +1130,8 @@
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_G_h</key>
       <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_G_t.lop_de</key>
+      <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_b_h</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_c_h</key>
@@ -1169,6 +1177,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_b_x</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_b_z.cnt</key>
+      <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_b_z.mod</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_f_e</key>
       <integer>7</integer>
@@ -1283,6 +1293,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_e_v</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_e_x</key>
+      <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_e_x.ful</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_e_z</key>
       <integer>7</integer>
@@ -1411,6 +1423,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_x</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_z</key>
+      <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_z.mod</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.colon</key>
       <integer>7</integer>
@@ -1548,23 +1562,23 @@
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.eng</key>
       <integer>7</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.entr.eful</key>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr_eful</key>
       <integer>7</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.entr.fful</key>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr_fful</key>
       <integer>7</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.entr.fmrr</key>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr_fmrr</key>
       <integer>7</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.entr.hlop</key>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr_hlop</key>
       <integer>7</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.entr.ncnt</key>
-      <integer>7</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.entr.zcnt</key>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr_ncnt</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.entr_rful</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.entr_sful</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.entr_xful</key>
+      <integer>7</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.entr_zcnt</key>
       <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.eogonek</key>
       <integer>7</integer>

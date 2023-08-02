@@ -1,8 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oe.mod" format="2">
-  <advance width="721"/>
-  <anchor x="422" y="400" name="top"/>
+  <advance width="741"/>
+  <anchor x="432" y="400" name="top"/>
   <outline>
-    <component base="oe"/>
+    <component base="oe" xOffset="10"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>oe</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>
