@@ -1,8 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ae.mod" format="2">
-  <advance width="715"/>
-  <anchor x="405" y="400" name="top"/>
+  <advance width="725"/>
+  <anchor x="415" y="400" name="top"/>
   <outline>
-    <component base="ae"/>
+    <component base="ae" xOffset="10"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ae</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

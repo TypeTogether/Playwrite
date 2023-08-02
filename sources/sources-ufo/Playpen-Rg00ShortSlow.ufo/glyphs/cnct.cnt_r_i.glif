@@ -4,14 +4,14 @@
   <outline>
     <contour>
       <point x="18" y="275" type="curve" smooth="yes"/>
-      <point x="77" y="275"/>
-      <point x="133" y="318"/>
-      <point x="148" y="377" type="curve" smooth="yes"/>
-      <point x="152" y="393"/>
-      <point x="118" y="411"/>
-      <point x="114" y="398" type="curve" smooth="yes"/>
-      <point x="102" y="358"/>
-      <point x="66" y="329"/>
+      <point x="79" y="275"/>
+      <point x="138" y="318"/>
+      <point x="153" y="377" type="curve" smooth="yes"/>
+      <point x="157" y="393"/>
+      <point x="123" y="411"/>
+      <point x="119" y="398" type="curve" smooth="yes"/>
+      <point x="107" y="358"/>
+      <point x="68" y="329"/>
       <point x="28" y="329" type="curve" smooth="yes"/>
       <point x="-4" y="329"/>
       <point x="-19" y="345"/>
@@ -60,7 +60,7 @@
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>
-      <string>0.04,0.57,0.04,1</string>
+      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,17 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ij.jmc.ini" format="2">
-  <advance width="493"/>
-  <anchor x="158" y="0" name="bottom"/>
-  <anchor x="493" y="0" name="cnct"/>
-  <anchor x="202" y="0" name="ogonek"/>
+  <advance width="513"/>
+  <anchor x="513" y="0" name="cnct"/>
+  <anchor x="178" y="0" name="bottom"/>
+  <anchor x="222" y="0" name="ogonek"/>
   <outline>
-    <component base="i"/>
-    <component base="j.jmc.ini" xOffset="240"/>
+    <component base="ij.jmc.med"/>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

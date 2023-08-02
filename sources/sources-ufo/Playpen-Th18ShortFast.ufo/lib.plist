@@ -820,6 +820,9 @@
       <string>cnct.mod_v_v</string>
       <string>cnct.mod_v_x</string>
       <string>cnct.mod_v_z</string>
+      <string>cnct.mod_e_x.ful</string>
+      <string>cnct.mod_e_n.cnt</string>
+      <string>cnct.mod_e_z.cnt</string>
       <string>b.jmc</string>
       <string>b.jmc.ini</string>
       <string>b.jmc.med</string>
@@ -970,6 +973,7 @@
       <string>cnct.ful_b_z</string>
       <string>cnct.ful_b_e.mod</string>
       <string>cnct.ful_b_s.mod</string>
+      <string>cnct.ful_b_z.mod</string>
       <string>cnct.ful_c_e</string>
       <string>cnct.ful_c_f</string>
       <string>cnct.ful_c_r</string>
@@ -987,6 +991,7 @@
       <string>cnct.ful_e_x</string>
       <string>cnct.ful_e_z</string>
       <string>cnct.ful_e_s.mod</string>
+      <string>cnct.ful_e_z.mod</string>
       <string>cnct.ful_f_e</string>
       <string>cnct.ful_f_f</string>
       <string>cnct.ful_f_r</string>
@@ -995,6 +1000,7 @@
       <string>cnct.ful_f_z</string>
       <string>cnct.ful_f_e.mod</string>
       <string>cnct.ful_f_s.mod</string>
+      <string>cnct.ful_f_z.mod</string>
       <string>cnct.ful_g_e</string>
       <string>cnct.ful_g_f</string>
       <string>cnct.ful_g_r</string>
@@ -1154,6 +1160,7 @@
       <string>cnct.mrr_f_e.mod</string>
       <string>cnct.mrr_f_s.mod</string>
       <string>cnct.mrr_f_r.ful</string>
+      <string>cnct.mrr_f_z.mod</string>
       <string>b.mlp</string>
       <string>b.mlp.ini</string>
       <string>b.mlp.med</string>
@@ -1202,6 +1209,7 @@
       <string>cnct.mlp_b_x</string>
       <string>cnct.mlp_b_e.mod</string>
       <string>cnct.mlp_b_s.mod</string>
+      <string>cnct.mlp_b_z.mod</string>
       <string>cnct.mlp_b_z.cnt</string>
       <string>cnct.mlp_f_o</string>
       <string>cnct.mlp_f_e</string>
@@ -1369,6 +1377,10 @@
       <string>Y.cur.ini</string>
       <string>Z.cur</string>
       <string>Z.cur.ini</string>
+      <string>AE.cur</string>
+      <string>IJ.cur</string>
+      <string>IJ.cur.ini</string>
+      <string>OE.cur</string>
       <string>##CapsDEC</string>
       <string>A.dec</string>
       <string>A.dec_locl</string>
@@ -1431,6 +1443,7 @@
       <string>cnct.cnt_G_n</string>
       <string>cnct.cnt_G_z</string>
       <string>cnct.lop_G_h</string>
+      <string>cnct.lop_G_t.lop_de</string>
       <string>cnct.ful_G_e</string>
       <string>cnct.ful_G_f</string>
       <string>cnct.ful_G_r</string>
@@ -1453,21 +1466,16 @@
       <string>cnct.mod_G_v</string>
       <string>cnct.mod_G_x</string>
       <string>cnct.mod_G_z</string>
-      <string>AE.cur</string>
-      <string>IJ.cur</string>
-      <string>OE.cur</string>
-      <string>IJ.cur.ini</string>
+      <string>##EntryStrokes</string>
       <string>entr_rful</string>
       <string>entr_sful</string>
       <string>entr_xful</string>
-      <string>entr.eful</string>
-      <string>entr.fful</string>
-      <string>entr.fmrr</string>
-      <string>entr.hlop</string>
-      <string>entr.ncnt</string>
-      <string>entr.zcnt</string>
-      <string>cnct.mod_e_n.cnt</string>
-      <string>cnct.mod_e_z.cnt</string>
+      <string>entr_eful</string>
+      <string>entr_fful</string>
+      <string>entr_fmrr</string>
+      <string>entr_hlop</string>
+      <string>entr_ncnt</string>
+      <string>entr_zcnt</string>
       <string>_circle</string>
     </array>
     <key>public.postscriptNames</key>

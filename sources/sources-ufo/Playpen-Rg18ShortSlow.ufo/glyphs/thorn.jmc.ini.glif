@@ -1,26 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="thorn.jmc.ini" format="2">
-  <advance width="476"/>
-  <anchor x="411" y="0" name="cnct"/>
+  <advance width="508"/>
+  <anchor x="443" y="0" name="cnct"/>
   <outline>
     <contour>
-      <point x="366" y="-14" type="curve" smooth="yes"/>
-      <point x="392" y="-14"/>
-      <point x="406" y="46"/>
-      <point x="386" y="46" type="curve" smooth="yes"/>
-      <point x="352" y="46"/>
-      <point x="282" y="33"/>
-      <point x="219" y="16" type="curve"/>
-      <point x="188" y="-10" type="line"/>
-      <point x="273" y="0"/>
-      <point x="322" y="-14"/>
+      <point x="398" y="-14" type="curve" smooth="yes"/>
+      <point x="424" y="-14"/>
+      <point x="438" y="46"/>
+      <point x="418" y="46" type="curve" smooth="yes"/>
+      <point x="384" y="46"/>
+      <point x="314" y="33"/>
+      <point x="251" y="16" type="curve"/>
+      <point x="220" y="-10" type="line"/>
+      <point x="305" y="0"/>
+      <point x="354" y="-14"/>
     </contour>
-    <component base="thorn"/>
+    <component base="thorn" xOffset="20"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>
