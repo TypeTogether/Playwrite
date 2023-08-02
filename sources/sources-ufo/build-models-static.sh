@@ -79,3 +79,6 @@ echo
     # Clean up for each model
     rm -rf ./master_ufo/ ./instance_ufo/
 done
+
+#
+open "../../test/test-models.gggls"
