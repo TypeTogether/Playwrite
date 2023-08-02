@@ -1,4 +1,5 @@
 {
+color = 3;
 glyphname = thorn.jmc.fin;
 layers = (
 {
@@ -8,7 +9,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m002;
@@ -17,7 +18,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m003;
@@ -26,7 +27,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m004;
@@ -35,7 +36,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m005;
@@ -44,7 +45,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m006;
@@ -53,7 +54,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m007;
@@ -62,7 +63,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m008;
@@ -71,7 +72,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m009;
@@ -80,7 +81,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m010;
@@ -89,7 +90,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m011;
@@ -98,7 +99,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m012;
@@ -107,7 +108,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m013;
@@ -116,7 +117,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m014;
@@ -125,7 +126,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m015;
@@ -134,7 +135,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 },
 {
 layerId = m016;
@@ -143,7 +144,7 @@ shapes = (
 ref = thorn.jmc;
 }
 );
-width = 478;
+width = 508;
 }
 );
 }
