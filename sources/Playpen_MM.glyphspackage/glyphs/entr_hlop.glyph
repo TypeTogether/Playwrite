@@ -1,7 +1,7 @@
 {
 category = Mark;
 color = 5;
-glyphname = entr.hlop;
+glyphname = entr_hlop;
 layers = (
 {
 anchors = (
@@ -9,6 +9,27 @@ anchors = (
 name = _cnct;
 }
 );
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(27,-14,o),
+(75,46,o),
+(139,203,cs),
+(146,220,o),
+(137,253,o),
+(129,234,cs),
+(57,69,o),
+(17,14,o),
+(-35,14,cs),
+(-55,14,o),
+(-56,-14,o),
+(-35,-14,cs)
+);
+}
+);
+};
 layerId = m01;
 shapes = (
 {
@@ -38,6 +59,27 @@ name = _cnct;
 pos = (-65,0);
 }
 );
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(-38,-14,o),
+(23,43,o),
+(144,212,cs),
+(155,227,o),
+(151,254,o),
+(137,235,cs),
+(12,69,o),
+(-45,14,o),
+(-90,14,cs),
+(-110,14,o),
+(-120,-14,o),
+(-99,-14,cs)
+);
+}
+);
+};
 layerId = m002;
 shapes = (
 {

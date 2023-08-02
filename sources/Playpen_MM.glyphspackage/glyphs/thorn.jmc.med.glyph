@@ -1,134 +1,135 @@
 {
+color = 3;
 glyphname = thorn.jmc.med;
 layers = (
 {
+anchors = (
+{
+name = cnct;
+pos = (508,0);
+}
+);
 layerId = m01;
 shapes = (
 {
 ref = thorn.jmc.ini;
 }
 );
-width = 488;
+width = 508;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (443,0);
+}
+);
 layerId = m002;
 shapes = (
 {
 ref = thorn.jmc.ini;
 }
 );
-width = 486;
+width = 508;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (508,0);
+}
+);
 layerId = m003;
 shapes = (
 {
 ref = thorn.jmc.ini;
 }
 );
-width = 488;
+width = 508;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (443,0);
+}
+);
 layerId = m004;
 shapes = (
 {
 ref = thorn.jmc.ini;
 }
 );
-width = 486;
+width = 508;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (508,0);
+}
+);
 layerId = m005;
 shapes = (
 {
 ref = thorn.jmc.ini;
 }
 );
-width = 488;
+width = 508;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (443,0);
+}
+);
 layerId = m006;
 shapes = (
 {
 ref = thorn.jmc.ini;
 }
 );
-width = 476;
+width = 508;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (528,0);
+}
+);
 layerId = m007;
 shapes = (
 {
 ref = thorn.jmc.ini;
 }
 );
-width = 508;
+width = 528;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (463,0);
+}
+);
 layerId = m008;
 shapes = (
 {
 ref = thorn.jmc.ini;
 }
 );
-width = 506;
+width = 528;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (508,0);
+}
+);
 layerId = m009;
-shapes = (
-{
-ref = thorn.jmc.ini;
-}
-);
-width = 488;
-},
-{
-layerId = m010;
-shapes = (
-{
-ref = thorn.jmc.ini;
-}
-);
-width = 486;
-},
-{
-layerId = m011;
-shapes = (
-{
-ref = thorn.jmc.ini;
-}
-);
-width = 488;
-},
-{
-layerId = m012;
-shapes = (
-{
-ref = thorn.jmc.ini;
-}
-);
-width = 486;
-},
-{
-layerId = m013;
-shapes = (
-{
-ref = thorn.jmc.ini;
-}
-);
-width = 488;
-},
-{
-layerId = m014;
-shapes = (
-{
-ref = thorn.jmc.ini;
-}
-);
-width = 493;
-},
-{
-layerId = m015;
 shapes = (
 {
 ref = thorn.jmc.ini;
@@ -137,13 +138,109 @@ ref = thorn.jmc.ini;
 width = 508;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (443,0);
+}
+);
+layerId = m010;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 508;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (508,0);
+}
+);
+layerId = m011;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 508;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (443,0);
+}
+);
+layerId = m012;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 508;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (508,0);
+}
+);
+layerId = m013;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 508;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (443,0);
+}
+);
+layerId = m014;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 508;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (528,0);
+}
+);
+layerId = m015;
+shapes = (
+{
+ref = thorn.jmc.ini;
+}
+);
+width = 528;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (463,0);
+}
+);
 layerId = m016;
 shapes = (
 {
 ref = thorn.jmc.ini;
 }
 );
-width = 506;
+width = 528;
 }
 );
 }
