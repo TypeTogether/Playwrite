@@ -8,19 +8,6 @@ anchors = (
 name = _cnct;
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(205,415,ls),
-(185,415,o),
-(179,387,o),
-(199,387,cs)
-);
-}
-);
-};
 layerId = m01;
 shapes = (
 {
