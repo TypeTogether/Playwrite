@@ -246,7 +246,8 @@ lookup before_fful {
 lookup before_h {
 	sub @Gcur_SRC by @Gcur_SRC cnct.lop_G_h;
 	sub @Tcur_SRC by @Tcur_SRC cnct.lop_c_h;
-	sub @Xdec_SRC by @Xdec_SRC cnct.lop_e_h;
+	# sub @Xdec_SRC by @Xdec_SRC cnct.lop_e_h;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_h.lop;
 	#
 	sub @bful_SRC by @bful_SRC cnct.lop_b_h;
 	sub @nmod_SRC by @nmod_SRC cnct.lop_n_h;
