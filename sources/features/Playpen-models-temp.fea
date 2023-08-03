@@ -223,7 +223,6 @@ lookup before_fful {
 	sub @nmod_SRC by @nmod_SRC cnct.ful_n_f;
 	sub @omod_SRC by @omod_SRC cnct.ful_o_f;
 	#
-	sub @emod_SRC by @emod_SRC cnct.mod_e_f.ful;
 	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_f;
 	#
 	sub @bful_SRC by @bful_SRC cnct.ful_b_f;
@@ -964,7 +963,7 @@ feature locl {
 	script latn;
 	language dflt;
 	# some code?
-	include(../features/fea-models/DNK_Unlooped.fea);
+	include(../features/fea-models/AUS_VIC.fea);
 } locl;
 
 
