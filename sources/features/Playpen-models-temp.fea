@@ -45,7 +45,7 @@
 @bmlp_SRC = [b.mlp.ini b.mlp.med v.mlp.ini v.mlp.med w.mlp.ini w.mlp.med v.mlp.med_n_ w.mlp.med_n_];
 @cmod_SRC = [c.mod.ini c.mod.med f.ful_de.ini f.ful_de.med f.ful_pe.ini f.ful_pe.med f.ful_pl.ini f.ful_pl.med];
 @emod_SRC = [e.mod.ini e.mod.med e.mod.med_b_ e.mod.med_n_ e.jmc.med_g_ ae.mod.ini ae.mod.med oe.mod.ini oe.mod.med];
-@eful_SRC = [e.ful.ini e.ful.med e.ful.med_g_ e.ful.fin_g_ e.ful.med_o_ e.ful.fin_o_];
+@eful_SRC = [e.ful.ini e.ful.med e.ful.med_g_ e.ful.med_o_];
 @fful_SRC = [f.ful.ini f.ful.med];
 @fjmc_SRC = [f.jmc.ini f.jmc.med f.jmc.med_o_];
 @fmlp_SRC = [f.mlp.ini f.mlp.med];
@@ -246,7 +246,8 @@ lookup before_fful {
 lookup before_h {
 	sub @Gcur_SRC by @Gcur_SRC cnct.lop_G_h;
 	sub @Tcur_SRC by @Tcur_SRC cnct.lop_c_h;
-	sub @Xdec_SRC by @Xdec_SRC cnct.lop_e_h;
+	# sub @Xdec_SRC by @Xdec_SRC cnct.lop_e_h;
+	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_h.lop;
 	#
 	sub @bful_SRC by @bful_SRC cnct.lop_b_h;
 	sub @nmod_SRC by @nmod_SRC cnct.lop_n_h;
@@ -953,7 +954,7 @@ feature locl {
 	script latn;
 	language dflt;
 	# some code?
-	include(../features/fea-models/AUS_VIC.fea);
+	include(../features/fea-models/FRA_Traditional.fea);
 } locl;
 
 
