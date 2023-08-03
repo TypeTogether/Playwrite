@@ -240,7 +240,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (303,490);
+pos = (303,-10);
 ref = caroncomb.alt;
 }
 );
@@ -266,9 +266,11 @@ width = 775;
 layerId = m010;
 shapes = (
 {
+alignment = -1;
 ref = L;
 },
 {
+alignment = -1;
 pos = (422,490);
 ref = caroncomb.alt;
 }
@@ -295,9 +297,11 @@ width = 775;
 layerId = m011;
 shapes = (
 {
+alignment = -1;
 ref = L;
 },
 {
+alignment = -1;
 pos = (263,490);
 ref = caroncomb.alt;
 }
@@ -324,9 +328,11 @@ width = 775;
 layerId = m012;
 shapes = (
 {
+alignment = -1;
 ref = L;
 },
 {
+alignment = -1;
 pos = (422,490);
 ref = caroncomb.alt;
 }
@@ -353,9 +359,11 @@ width = 775;
 layerId = m013;
 shapes = (
 {
+alignment = -1;
 ref = L;
 },
 {
+alignment = -1;
 pos = (293,490);
 ref = caroncomb.alt;
 }
@@ -382,9 +390,11 @@ width = 775;
 layerId = m014;
 shapes = (
 {
+alignment = -1;
 ref = L;
 },
 {
+alignment = -1;
 pos = (442,490);
 ref = caroncomb.alt;
 }
@@ -411,9 +421,11 @@ width = 775;
 layerId = m015;
 shapes = (
 {
+alignment = -1;
 ref = L;
 },
 {
+alignment = -1;
 pos = (263,490);
 ref = caroncomb.alt;
 }
@@ -443,7 +455,7 @@ shapes = (
 ref = L;
 },
 {
-pos = (442,490);
+pos = (281,-10);
 ref = caroncomb.alt;
 }
 );
