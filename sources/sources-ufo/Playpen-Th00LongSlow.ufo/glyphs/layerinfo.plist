@@ -30,6 +30,8 @@
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.AE.cur</key>
       <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.AE.cur.locl</key>
+      <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.AEacute</key>
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Aacute</key>
@@ -319,6 +321,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.OE</key>
       <integer>5</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.OE.cur</key>
+      <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.OE.cur.locl</key>
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Oacute</key>
       <integer>8</integer>
@@ -776,7 +780,7 @@
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.caroncomb.alt</key>
       <integer>8</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.caroncomb.alt.001</key>
+      <key>com.schriftgestaltung.layerOrderInGlyph.caroncomb.alt_locl</key>
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.caroncomb.case</key>
       <integer>8</integer>
@@ -876,6 +880,8 @@
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_z</key>
       <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_z.mod</key>
+      <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_t.lop_de_n</key>
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_t.lop_de_z</key>
@@ -968,7 +974,11 @@
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_e_t.lop_de</key>
       <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_e_v.mod</key>
+      <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_e_x</key>
+      <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_e_x.mod</key>
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_e_z</key>
       <integer>8</integer>
@@ -1238,6 +1248,8 @@
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_z.cnt</key>
       <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_z.mod</key>
+      <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_G_b</key>
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_G_e</key>
@@ -1356,6 +1368,12 @@
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_r_e</key>
       <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_r_e.ful</key>
+      <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_r_f.ful</key>
+      <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_r_h.lop</key>
+      <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_r_n</key>
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_r_o</key>
@@ -1391,6 +1409,12 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_v_b</key>
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_v_e</key>
+      <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_v_e.ful</key>
+      <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_v_f.ful</key>
+      <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_v_h.lop</key>
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_v_n</key>
       <integer>8</integer>
@@ -1490,6 +1514,8 @@
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.dotaccentcomb</key>
       <integer>8</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.dotaccentcomb.CAT</key>
+      <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.dotaccentcomb.case</key>
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.dotbelowcomb</key>
@@ -1577,8 +1603,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.entr_eful</key>
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.entr_fful</key>
-      <integer>8</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.entr_fmrr</key>
       <integer>8</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.entr_hlop</key>
       <integer>8</integer>

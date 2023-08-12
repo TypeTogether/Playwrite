@@ -2,13 +2,14 @@
 <glyph name="lslash" format="2">
   <advance width="245"/>
   <unicode hex="0142"/>
+  <anchor x="110" y="350" name="CAT"/>
   <anchor x="160" y="0" name="bottom"/>
-  <anchor x="110" y="350" name="center"/>
+  <anchor x="107" y="350" name="center"/>
   <anchor x="104" y="670" name="top"/>
   <anchor x="119" y="700" name="topright"/>
   <outline>
     <component base="l"/>
-    <component base="slashshortcomb" xOffset="110" yOffset="76"/>
+    <component base="slashshortcomb" xOffset="107" yOffset="76"/>
   </outline>
   <lib>
     <dict>

@@ -2,14 +2,14 @@
 <glyph name="Lcaron" format="2">
   <advance width="775"/>
   <unicode hex="013D"/>
+  <anchor x="475" y="611" name="CAT"/>
   <anchor x="465" y="0" name="bottom"/>
   <anchor x="209" y="612" name="center"/>
-  <anchor x="342" y="612" name="centerCase"/>
   <anchor x="209" y="1139" name="top"/>
   <anchor x="293" y="1190" name="topright"/>
   <outline>
     <component base="L"/>
-    <component base="caroncomb.alt" xOffset="293" yOffset="490"/>
+    <component base="caroncomb.alt" xOffset="293" yOffset="-10"/>
   </outline>
   <lib>
     <dict>
@@ -40,25 +40,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>L</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>caroncomb.alt</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>
