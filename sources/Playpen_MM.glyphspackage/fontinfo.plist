@@ -474,6 +474,7 @@ gravecomb,
 acutecomb,
 hungarumlautcomb,
 caroncomb.alt,
+caroncomb.alt_locl,
 circumflexcomb,
 caroncomb,
 brevecomb,
@@ -518,6 +519,7 @@ dotbelowcomb.case,
 commaaccentcomb.case,
 cedillacomb.case,
 ogonekcomb.case,
+dotaccentcomb.CAT,
 strokeshortcomb.case,
 slashshortcomb.case,
 slashlongcomb.case,
@@ -764,6 +766,14 @@ cnct.mod_e_t,
 cnct.mod_e_v,
 cnct.mod_e_x,
 cnct.mod_e_z,
+cnct.mod_e_f.ful,
+cnct.mod_e_h.lop,
+cnct.mod_e_r.ful,
+cnct.mod_e_s.ful,
+cnct.mod_e_x.ful,
+cnct.mod_e_z.ful,
+cnct.mod_e_n.cnt,
+cnct.mod_e_z.cnt,
 cnct.mod_o_o,
 cnct.mod_o_b,
 cnct.mod_o_e,
@@ -782,6 +792,9 @@ cnct.mod_r_t,
 cnct.mod_r_v,
 cnct.mod_r_x,
 cnct.mod_r_z,
+cnct.mod_r_e.ful,
+cnct.mod_r_f.ful,
+cnct.mod_r_h.lop,
 cnct.mod_v_o,
 cnct.mod_v_b,
 cnct.mod_v_e,
@@ -791,9 +804,9 @@ cnct.mod_v_t,
 cnct.mod_v_v,
 cnct.mod_v_x,
 cnct.mod_v_z,
-cnct.mod_e_x.ful,
-cnct.mod_e_n.cnt,
-cnct.mod_e_z.cnt,
+cnct.mod_v_e.ful,
+cnct.mod_v_f.ful,
+cnct.mod_v_h.lop,
 b.jmc,
 b.jmc.ini,
 b.jmc.med,
@@ -962,6 +975,8 @@ cnct.ful_e_s,
 cnct.ful_e_x,
 cnct.ful_e_z,
 cnct.ful_e_s.mod,
+cnct.ful_e_v.mod,
+cnct.ful_e_x.mod,
 cnct.ful_e_z.mod,
 cnct.ful_f_e,
 cnct.ful_f_f,
@@ -1104,6 +1119,7 @@ cnct.cnt_r_x,
 cnct.cnt_r_z,
 cnct.cnt_r_e.mod,
 cnct.cnt_r_s.mod,
+cnct.cnt_r_z.mod,
 cnct.cnt_z_n,
 cnct.cnt_z_z,
 f.mrr,
@@ -1207,6 +1223,7 @@ cnct.mlp_o_t,
 cnct.mlp_o_x,
 cnct.mlp_o_e.mod,
 cnct.mlp_o_s.mod,
+cnct.mlp_o_z.mod,
 cnct.mlp_o_z.cnt,
 "##loclLowercase",
 b.jmc_dk,
@@ -1443,7 +1460,6 @@ entr_sful,
 entr_xful,
 entr_eful,
 entr_fful,
-entr_fmrr,
 entr_hlop,
 entr_ncnt,
 entr_zcnt
@@ -1570,7 +1586,6 @@ name = "Th 18 Short Slow";
 userData = {
 GSCornerRadius = 12;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -2248,6 +2263,33 @@ instanceInterpolations = {
 m016 = 1;
 };
 name = Maximum;
+},
+{
+axesValues = (
+300,
+9,
+500,
+50
+);
+instanceInterpolations = {
+m002 = 0.05;
+m003 = 0.05;
+m004 = 0.05;
+m005 = 0.1;
+m006 = 0.1;
+m007 = 0.1;
+m008 = 0.1;
+m009 = 0.03333;
+m01 = 0.05;
+m010 = 0.03333;
+m011 = 0.03333;
+m012 = 0.03333;
+m013 = 0.06667;
+m014 = 0.06667;
+m015 = 0.06667;
+m016 = 0.06667;
+};
+name = "Test Interpolation";
 }
 );
 metrics = (

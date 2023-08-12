@@ -2,6 +2,16 @@
 glyphname = t.lop_de;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (305,670);
+},
+{
+name = topright;
+pos = (329,698);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -80,6 +90,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (605,1139);
+},
+{
+name = topright;
+pos = (644,1242);
+}
+);
 layerId = m016;
 shapes = (
 {
@@ -158,6 +178,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (616,1138);
+},
+{
+name = topright;
+pos = (647,1200);
+}
+);
 layerId = m012;
 shapes = (
 {
@@ -236,6 +266,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (459,670);
+},
+{
+name = topright;
+pos = (494,698);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -314,6 +354,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (447,670);
+},
+{
+name = topright;
+pos = (477,726);
+}
+);
 layerId = m006;
 shapes = (
 {
@@ -392,6 +442,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (301,1137);
+},
+{
+name = topright;
+pos = (316,1200);
+}
+);
 layerId = m009;
 shapes = (
 {
@@ -470,6 +530,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (291,670);
+},
+{
+name = topright;
+pos = (313,726);
+}
+);
 layerId = m005;
 shapes = (
 {
@@ -548,6 +618,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (301,1137);
+},
+{
+name = topright;
+pos = (316,1200);
+}
+);
 layerId = m011;
 shapes = (
 {
@@ -626,6 +706,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (299,1139);
+},
+{
+name = topright;
+pos = (294,1242);
+}
+);
 layerId = m015;
 shapes = (
 {
@@ -704,6 +794,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (445,670);
+},
+{
+name = topright;
+pos = (478,726);
+}
+);
 layerId = m008;
 shapes = (
 {
@@ -782,6 +882,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (616,1138);
+},
+{
+name = topright;
+pos = (647,1200);
+}
+);
 layerId = m010;
 shapes = (
 {
@@ -860,6 +970,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (459,670);
+},
+{
+name = topright;
+pos = (494,698);
+}
+);
 layerId = m004;
 shapes = (
 {
@@ -938,6 +1058,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (618,1139);
+},
+{
+name = topright;
+pos = (657,1242);
+}
+);
 layerId = m014;
 shapes = (
 {
@@ -1016,6 +1146,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (286,670);
+},
+{
+name = topright;
+pos = (299,726);
+}
+);
 layerId = m007;
 shapes = (
 {
@@ -1094,6 +1234,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (305,670);
+},
+{
+name = topright;
+pos = (329,698);
+}
+);
 layerId = m003;
 shapes = (
 {
@@ -1172,6 +1322,16 @@ nodes = (
 width = 504;
 },
 {
+anchors = (
+{
+name = top;
+pos = (306,1139);
+},
+{
+name = topright;
+pos = (304,1242);
+}
+);
 layerId = m013;
 shapes = (
 {
