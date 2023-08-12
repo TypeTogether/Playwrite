@@ -2,9 +2,9 @@
 <glyph name="Lcaron" format="2">
   <advance width="500"/>
   <unicode hex="013D"/>
+  <anchor x="249" y="360" name="CAT"/>
   <anchor x="300" y="0" name="bottom"/>
   <anchor x="135" y="360" name="center"/>
-  <anchor x="150" y="360" name="centerCase"/>
   <anchor x="135" y="670" name="top"/>
   <anchor x="170" y="700" name="topright"/>
   <outline>

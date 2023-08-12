@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>AE.cur</key>
+    <string>A_E_.cur.glif</string>
     <key>OE.cur</key>
     <string>O_E_.cur.glif</string>
+    <key>OE.cur.locl</key>
+    <string>O_E_.cur.locl.glif</string>
     <key>Q.dec_pt</key>
     <string>Q_.dec_pt.glif</string>
     <key>Q.dec_pt.ini</key>
@@ -14,14 +18,22 @@
     <string>X_.dec.ini.glif</string>
     <key>ae.ful.med</key>
     <string>ae.ful.med.glif</string>
+    <key>caroncomb.alt</key>
+    <string>caroncomb.alt.glif</string>
     <key>cnct.cnt_r_e.mod</key>
     <string>cnct.cnt_r_e.mod.glif</string>
     <key>cnct.cnt_r_s.mod</key>
     <string>cnct.cnt_r_s.mod.glif</string>
+    <key>cnct.cnt_r_z.mod</key>
+    <string>cnct.cnt_r_z.mod.glif</string>
     <key>cnct.ful_b_e.mod</key>
     <string>cnct.ful_b_e.mod.glif</string>
     <key>cnct.ful_e_s.mod</key>
     <string>cnct.ful_e_s.mod.glif</string>
+    <key>cnct.ful_e_v.mod</key>
+    <string>cnct.ful_e_v.mod.glif</string>
+    <key>cnct.ful_e_x.mod</key>
+    <string>cnct.ful_e_x.mod.glif</string>
     <key>cnct.ful_f_e.mod</key>
     <string>cnct.ful_f_e.mod.glif</string>
     <key>cnct.ful_f_s.mod</key>
@@ -44,14 +56,30 @@
     <string>cnct.mlp_o_s.mod.glif</string>
     <key>cnct.mlp_o_z.cnt</key>
     <string>cnct.mlp_o_z.cnt.glif</string>
+    <key>cnct.mlp_o_z.mod</key>
+    <string>cnct.mlp_o_z.mod.glif</string>
     <key>cnct.mod_e_f.ful</key>
     <string>cnct.mod_e_f.ful.glif</string>
     <key>cnct.mod_e_h.lop</key>
     <string>cnct.mod_e_h.lop.glif</string>
+    <key>cnct.mod_e_r.ful</key>
+    <string>cnct.mod_e_r.ful.glif</string>
+    <key>cnct.mod_e_s.ful</key>
+    <string>cnct.mod_e_s.ful.glif</string>
     <key>cnct.mod_e_x.ful</key>
     <string>cnct.mod_e_x.ful.glif</string>
     <key>cnct.mod_e_z.cnt</key>
     <string>cnct.mod_e_z.cnt.glif</string>
+    <key>cnct.mod_r_e.ful</key>
+    <string>cnct.mod_r_e.ful.glif</string>
+    <key>cnct.mod_r_f.ful</key>
+    <string>cnct.mod_r_f.ful.glif</string>
+    <key>cnct.mod_r_h.lop</key>
+    <string>cnct.mod_r_h.lop.glif</string>
+    <key>cnct.mod_v_e.ful</key>
+    <string>cnct.mod_v_e.ful.glif</string>
+    <key>cnct.mod_v_h.lop</key>
+    <string>cnct.mod_v_h.lop.glif</string>
     <key>cnct.mrr_f_e.mod</key>
     <string>cnct.mrr_f_e.mod.glif</string>
     <key>cnct.mrr_f_s.mod</key>

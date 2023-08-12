@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="t.lop_de.fin" format="2">
   <advance width="423"/>
+  <anchor x="538" y="1138" name="top"/>
+  <anchor x="569" y="1200" name="topright"/>
   <outline>
     <contour>
       <point x="165" y="40" type="curve" smooth="yes"/>

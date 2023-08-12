@@ -8,7 +8,7 @@
   <anchor x="383" y="1200" name="topright"/>
   <outline>
     <component base="d"/>
-    <component base="caroncomb.alt" xOffset="383" yOffset="500"/>
+    <component base="caroncomb.alt" xOffset="383"/>
   </outline>
   <lib>
     <dict>
@@ -39,25 +39,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>d</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>caroncomb.alt</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

@@ -2,9 +2,9 @@
 <glyph name="Lcommaaccent" format="2">
   <advance width="775"/>
   <unicode hex="013B"/>
+  <anchor x="600" y="611" name="CAT"/>
   <anchor x="400" y="0" name="bottom"/>
   <anchor x="339" y="612" name="center"/>
-  <anchor x="480" y="612" name="centerCase"/>
   <anchor x="514" y="1139" name="top"/>
   <anchor x="606" y="1190" name="topright"/>
   <outline>

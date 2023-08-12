@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.lop" format="2">
   <advance width="315"/>
+  <anchor x="316" y="460" name="CAT"/>
   <anchor x="133" y="0" name="bottom"/>
-  <anchor x="175" y="350" name="center"/>
-  <anchor x="351" y="670" name="top"/>
-  <anchor x="445" y="699" name="topright"/>
+  <anchor x="255" y="570" name="center"/>
+  <anchor x="489" y="1139" name="top"/>
+  <anchor x="596" y="1242" name="topright"/>
   <outline>
     <contour>
       <point x="-108" y="-14" type="curve" smooth="yes"/>

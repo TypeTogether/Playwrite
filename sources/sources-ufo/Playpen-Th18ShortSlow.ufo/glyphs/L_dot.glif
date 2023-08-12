@@ -2,14 +2,14 @@
 <glyph name="Ldot" format="2">
   <advance width="500"/>
   <unicode hex="013F"/>
+  <anchor x="326" y="370" name="CAT"/>
   <anchor x="235" y="0" name="bottom"/>
   <anchor x="184" y="360" name="center"/>
-  <anchor x="204" y="360" name="centerCase"/>
   <anchor x="287" y="670" name="top"/>
   <anchor x="333" y="700" name="topright"/>
   <outline>
     <component base="L"/>
-    <component base="periodcentered" xOffset="298" yOffset="147"/>
+    <component base="periodcentered" xOffset="173" yOffset="144"/>
   </outline>
   <lib>
     <dict>

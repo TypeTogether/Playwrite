@@ -3,10 +3,10 @@
   <advance width="513"/>
   <guideline x="360" y="96" angle="72"/>
   <anchor x="147" y="0" name="bottom"/>
-  <anchor x="476" y="558" name="center"/>
+  <anchor x="466" y="558" name="center"/>
   <anchor x="448" y="0" name="cnct"/>
-  <anchor x="374" y="700" name="top"/>
-  <anchor x="557" y="700" name="topright"/>
+  <anchor x="268" y="400" name="top"/>
+  <anchor x="551" y="726" name="topright"/>
   <outline>
     <contour>
       <point x="379" y="-14" type="curve" smooth="yes"/>
