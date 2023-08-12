@@ -3,9 +3,9 @@
   <advance width="513"/>
   <anchor x="448" y="0" name="cnct"/>
   <anchor x="167" y="0" name="bottom"/>
-  <anchor x="476" y="558" name="center"/>
-  <anchor x="394" y="700" name="top"/>
-  <anchor x="557" y="700" name="topright"/>
+  <anchor x="474" y="558" name="center"/>
+  <anchor x="280" y="400" name="top"/>
+  <anchor x="555" y="700" name="topright"/>
   <outline>
     <component base="d.mod.ini"/>
   </outline>

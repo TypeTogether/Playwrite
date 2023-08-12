@@ -3,9 +3,9 @@
   <advance width="259"/>
   <anchor x="259" y="0" name="cnct"/>
   <anchor x="178" y="0" name="bottom"/>
-  <anchor x="124" y="350" name="center"/>
-  <anchor x="124" y="670" name="top"/>
-  <anchor x="139" y="700" name="topright"/>
+  <anchor x="124" y="580" name="center"/>
+  <anchor x="124" y="1137" name="top"/>
+  <anchor x="139" y="1200" name="topright"/>
   <outline>
     <component base="l.mod.ini"/>
   </outline>

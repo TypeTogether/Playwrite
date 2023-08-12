@@ -2,13 +2,14 @@
 <glyph name="ldot" format="2">
   <advance width="245"/>
   <unicode hex="0140"/>
+  <anchor x="253" y="597" name="CAT"/>
   <anchor x="94" y="0" name="bottom"/>
   <anchor x="235" y="570" name="center"/>
   <anchor x="417" y="1139" name="top"/>
   <anchor x="452" y="1200" name="topright"/>
   <outline>
     <component base="l"/>
-    <component base="periodcentered" xOffset="224" yOffset="354"/>
+    <component base="dotaccentcomb.CAT" xOffset="123"/>
   </outline>
   <lib>
     <dict>

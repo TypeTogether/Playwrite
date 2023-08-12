@@ -2,9 +2,11 @@
 <glyph name="l.lop.ini" format="2">
   <advance width="315"/>
   <anchor x="250" y="0" name="cnct"/>
-  <anchor x="417" y="726" name="topright"/>
+  <anchor x="256" y="280" name="CAT"/>
   <anchor x="143" y="0" name="bottom"/>
-  <anchor x="174" y="350" name="center"/>
+  <anchor x="179" y="350" name="center"/>
+  <anchor x="361" y="670" name="top"/>
+  <anchor x="417" y="726" name="topright"/>
   <outline>
     <contour>
       <point x="-147" y="-14" type="curve" smooth="yes"/>

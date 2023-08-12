@@ -4,6 +4,27 @@
   <dict>
     <key>GSCornerRadius</key>
     <integer>12</integer>
+    <key>com.github.googlei18n.ufo2ft.featureWriters</key>
+    <array>
+      <dict>
+        <key>class</key>
+        <string>KernFeatureWriter</string>
+      </dict>
+      <dict>
+        <key>class</key>
+        <string>ContextualMarkFeatureWriter</string>
+        <key>module</key>
+        <string>glyphsLib.featureWriters.markFeatureWriter</string>
+      </dict>
+      <dict>
+        <key>class</key>
+        <string>GdefFeatureWriter</string>
+      </dict>
+      <dict>
+        <key>class</key>
+        <string>CursFeatureWriter</string>
+      </dict>
+    </array>
     <key>com.github.googlei18n.ufo2ft.filters</key>
     <array>
       <dict>
@@ -501,6 +522,7 @@
       <string>acutecomb</string>
       <string>hungarumlautcomb</string>
       <string>caroncomb.alt</string>
+      <string>caroncomb.alt_locl</string>
       <string>circumflexcomb</string>
       <string>caroncomb</string>
       <string>brevecomb</string>
@@ -545,6 +567,7 @@
       <string>commaaccentcomb.case</string>
       <string>cedillacomb.case</string>
       <string>ogonekcomb.case</string>
+      <string>dotaccentcomb.CAT</string>
       <string>strokeshortcomb.case</string>
       <string>slashshortcomb.case</string>
       <string>slashlongcomb.case</string>
@@ -791,6 +814,14 @@
       <string>cnct.mod_e_v</string>
       <string>cnct.mod_e_x</string>
       <string>cnct.mod_e_z</string>
+      <string>cnct.mod_e_f.ful</string>
+      <string>cnct.mod_e_h.lop</string>
+      <string>cnct.mod_e_r.ful</string>
+      <string>cnct.mod_e_s.ful</string>
+      <string>cnct.mod_e_x.ful</string>
+      <string>cnct.mod_e_z.ful</string>
+      <string>cnct.mod_e_n.cnt</string>
+      <string>cnct.mod_e_z.cnt</string>
       <string>cnct.mod_o_o</string>
       <string>cnct.mod_o_b</string>
       <string>cnct.mod_o_e</string>
@@ -809,6 +840,9 @@
       <string>cnct.mod_r_v</string>
       <string>cnct.mod_r_x</string>
       <string>cnct.mod_r_z</string>
+      <string>cnct.mod_r_e.ful</string>
+      <string>cnct.mod_r_f.ful</string>
+      <string>cnct.mod_r_h.lop</string>
       <string>cnct.mod_v_o</string>
       <string>cnct.mod_v_b</string>
       <string>cnct.mod_v_e</string>
@@ -818,9 +852,9 @@
       <string>cnct.mod_v_v</string>
       <string>cnct.mod_v_x</string>
       <string>cnct.mod_v_z</string>
-      <string>cnct.mod_e_x.ful</string>
-      <string>cnct.mod_e_n.cnt</string>
-      <string>cnct.mod_e_z.cnt</string>
+      <string>cnct.mod_v_e.ful</string>
+      <string>cnct.mod_v_f.ful</string>
+      <string>cnct.mod_v_h.lop</string>
       <string>b.jmc</string>
       <string>b.jmc.ini</string>
       <string>b.jmc.med</string>
@@ -989,6 +1023,8 @@
       <string>cnct.ful_e_x</string>
       <string>cnct.ful_e_z</string>
       <string>cnct.ful_e_s.mod</string>
+      <string>cnct.ful_e_v.mod</string>
+      <string>cnct.ful_e_x.mod</string>
       <string>cnct.ful_e_z.mod</string>
       <string>cnct.ful_f_e</string>
       <string>cnct.ful_f_f</string>
@@ -1131,6 +1167,7 @@
       <string>cnct.cnt_r_z</string>
       <string>cnct.cnt_r_e.mod</string>
       <string>cnct.cnt_r_s.mod</string>
+      <string>cnct.cnt_r_z.mod</string>
       <string>cnct.cnt_z_n</string>
       <string>cnct.cnt_z_z</string>
       <string>f.mrr</string>
@@ -1234,6 +1271,7 @@
       <string>cnct.mlp_o_x</string>
       <string>cnct.mlp_o_e.mod</string>
       <string>cnct.mlp_o_s.mod</string>
+      <string>cnct.mlp_o_z.mod</string>
       <string>cnct.mlp_o_z.cnt</string>
       <string>##loclLowercase</string>
       <string>b.jmc_dk</string>
@@ -1470,17 +1508,12 @@
       <string>entr_xful</string>
       <string>entr_eful</string>
       <string>entr_fful</string>
-      <string>entr_fmrr</string>
       <string>entr_hlop</string>
       <string>entr_ncnt</string>
       <string>entr_zcnt</string>
-      <string>caroncomb.alt.001</string>
-      <string>cnct.mod_e_f.ful</string>
-      <string>cnct.mod_e_h.lop</string>
-      <string>cnct.mod_e_s.ful</string>
-      <string>cnct.mod_e_z.ful</string>
+      <string>AE.cur.locl</string>
+      <string>OE.cur.locl</string>
       <string>_circle</string>
-      <string>cnct.mod_e_r.ful</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
@@ -1656,8 +1689,8 @@
       <string>uni030C</string>
       <key>caroncomb.alt</key>
       <string>uni030C.alt</string>
-      <key>caroncomb.alt.001</key>
-      <string>uni030C.alt.001</string>
+      <key>caroncomb.alt_locl</key>
+      <string>uni030C.alt_locl</string>
       <key>caroncomb.case</key>
       <string>uni030C.case</string>
       <key>cedillacomb</key>
@@ -1698,6 +1731,8 @@
       <string>uni0308.case</string>
       <key>dotaccentcomb</key>
       <string>uni0307</string>
+      <key>dotaccentcomb.CAT</key>
+      <string>uni0307.CAT</string>
       <key>dotaccentcomb.case</key>
       <string>uni0307.case</string>
       <key>ecircumflexacute</key>
