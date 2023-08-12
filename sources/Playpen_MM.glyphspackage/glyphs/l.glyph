@@ -4,12 +4,16 @@ layers = (
 {
 anchors = (
 {
+name = CAT;
+pos = (126,350);
+},
+{
 name = bottom;
 pos = (160,0);
 },
 {
 name = center;
-pos = (104,350);
+pos = (102,350);
 },
 {
 name = top;
@@ -74,6 +78,10 @@ width = 239;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (171,350);
+},
 {
 name = bottom;
 pos = (101,0);
@@ -152,6 +160,10 @@ width = 239;
 {
 anchors = (
 {
+name = CAT;
+pos = (126,350);
+},
+{
 name = bottom;
 pos = (158,0);
 },
@@ -222,6 +234,10 @@ width = 239;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (171,350);
+},
 {
 name = bottom;
 pos = (93,0);
@@ -294,12 +310,16 @@ width = 239;
 {
 anchors = (
 {
+name = CAT;
+pos = (110,350);
+},
+{
 name = bottom;
 pos = (160,0);
 },
 {
 name = center;
-pos = (110,350);
+pos = (107,350);
 },
 {
 name = top;
@@ -364,6 +384,10 @@ width = 245;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (179,349);
+},
 {
 name = bottom;
 pos = (101,0);
@@ -442,6 +466,10 @@ width = 247;
 {
 anchors = (
 {
+name = CAT;
+pos = (108,350);
+},
+{
 name = bottom;
 pos = (158,0);
 },
@@ -512,6 +540,10 @@ width = 244;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (179,349);
+},
 {
 name = bottom;
 pos = (94,0);
@@ -584,6 +616,10 @@ width = 244;
 {
 anchors = (
 {
+name = CAT;
+pos = (124,590);
+},
+{
 name = bottom;
 pos = (160,0);
 },
@@ -654,6 +690,10 @@ width = 239;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (255,600);
+},
 {
 name = bottom;
 pos = (101,0);
@@ -732,6 +772,10 @@ width = 239;
 {
 anchors = (
 {
+name = CAT;
+pos = (124,590);
+},
+{
 name = bottom;
 pos = (158,0);
 },
@@ -802,6 +846,10 @@ width = 239;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (255,600);
+},
 {
 name = bottom;
 pos = (93,0);
@@ -874,6 +922,10 @@ width = 239;
 {
 anchors = (
 {
+name = CAT;
+pos = (131,597);
+},
+{
 name = bottom;
 pos = (160,0);
 },
@@ -944,6 +996,10 @@ width = 245;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (251,597);
+},
 {
 name = bottom;
 pos = (100,0);
@@ -1022,6 +1078,10 @@ width = 244;
 {
 anchors = (
 {
+name = CAT;
+pos = (131,597);
+},
+{
 name = bottom;
 pos = (158,0);
 },
@@ -1092,6 +1152,10 @@ width = 246;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (253,597);
+},
 {
 name = bottom;
 pos = (94,0);

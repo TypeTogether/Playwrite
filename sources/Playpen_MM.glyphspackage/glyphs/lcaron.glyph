@@ -326,12 +326,10 @@ width = 239;
 layerId = m012;
 shapes = (
 {
-alignment = -1;
 ref = l;
 },
 {
-alignment = -1;
-pos = (279,500);
+pos = (117,0);
 ref = caroncomb.alt;
 }
 );

@@ -6,10 +6,6 @@ anchors = (
 {
 name = cnct;
 pos = (315,0);
-},
-{
-name = topright;
-pos = (269,700);
 }
 );
 layerId = m01;
@@ -59,10 +55,6 @@ anchors = (
 {
 name = cnct;
 pos = (250,0);
-},
-{
-name = topright;
-pos = (420,700);
 }
 );
 layerId = m002;
@@ -112,10 +104,6 @@ anchors = (
 {
 name = cnct;
 pos = (315,0);
-},
-{
-name = topright;
-pos = (272,700);
 }
 );
 layerId = m003;
@@ -165,10 +153,6 @@ anchors = (
 {
 name = cnct;
 pos = (250,0);
-},
-{
-name = topright;
-pos = (426,700);
 }
 );
 layerId = m004;
@@ -218,10 +202,6 @@ anchors = (
 {
 name = cnct;
 pos = (315,0);
-},
-{
-name = topright;
-pos = (244,726);
 }
 );
 layerId = m005;
@@ -271,10 +251,6 @@ anchors = (
 {
 name = cnct;
 pos = (250,0);
-},
-{
-name = topright;
-pos = (410,726);
 }
 );
 layerId = m006;
@@ -324,10 +300,6 @@ anchors = (
 {
 name = cnct;
 pos = (315,0);
-},
-{
-name = topright;
-pos = (244,726);
 }
 );
 layerId = m007;
@@ -377,10 +349,6 @@ anchors = (
 {
 name = cnct;
 pos = (250,0);
-},
-{
-name = topright;
-pos = (417,726);
 }
 );
 layerId = m008;
@@ -430,10 +398,6 @@ anchors = (
 {
 name = cnct;
 pos = (315,0);
-},
-{
-name = topright;
-pos = (265,1200);
 }
 );
 layerId = m009;
@@ -483,10 +447,6 @@ anchors = (
 {
 name = cnct;
 pos = (250,0);
-},
-{
-name = topright;
-pos = (587,1200);
 }
 );
 layerId = m010;
@@ -536,10 +496,6 @@ anchors = (
 {
 name = cnct;
 pos = (315,0);
-},
-{
-name = topright;
-pos = (265,1200);
 }
 );
 layerId = m011;
@@ -589,10 +545,6 @@ anchors = (
 {
 name = cnct;
 pos = (250,0);
-},
-{
-name = topright;
-pos = (589,1200);
 }
 );
 layerId = m012;
@@ -642,10 +594,6 @@ anchors = (
 {
 name = cnct;
 pos = (315,0);
-},
-{
-name = topright;
-pos = (256,1242);
 }
 );
 layerId = m013;
@@ -695,10 +643,6 @@ anchors = (
 {
 name = cnct;
 pos = (250,0);
-},
-{
-name = topright;
-pos = (596,1242);
 }
 );
 layerId = m014;
@@ -748,10 +692,6 @@ anchors = (
 {
 name = cnct;
 pos = (315,0);
-},
-{
-name = topright;
-pos = (255,1242);
 }
 );
 layerId = m015;
@@ -801,10 +741,6 @@ anchors = (
 {
 name = cnct;
 pos = (250,0);
-},
-{
-name = topright;
-pos = (597,1242);
 }
 );
 layerId = m016;

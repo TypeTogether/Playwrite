@@ -106,7 +106,7 @@ pos = (167,0);
 },
 {
 name = center;
-pos = (476,558);
+pos = (474,558);
 },
 {
 name = cnct;
@@ -114,11 +114,11 @@ pos = (448,0);
 },
 {
 name = top;
-pos = (394,700);
+pos = (280,400);
 },
 {
 name = topright;
-pos = (557,700);
+pos = (555,700);
 }
 );
 layerId = m002;
@@ -211,7 +211,7 @@ pos = (513,0);
 },
 {
 name = top;
-pos = (232,700);
+pos = (232,400);
 },
 {
 name = topright;
@@ -300,7 +300,7 @@ pos = (147,0);
 },
 {
 name = center;
-pos = (476,558);
+pos = (474,558);
 },
 {
 name = cnct;
@@ -308,11 +308,11 @@ pos = (448,0);
 },
 {
 name = top;
-pos = (374,700);
+pos = (280,400);
 },
 {
 name = topright;
-pos = (557,700);
+pos = (555,700);
 }
 );
 guides = (
@@ -403,7 +403,7 @@ pos = (232,0);
 },
 {
 name = center;
-pos = (360,558);
+pos = (362,558);
 },
 {
 name = cnct;
@@ -411,11 +411,11 @@ pos = (513,0);
 },
 {
 name = top;
-pos = (232,400);
+pos = (216,400);
 },
 {
 name = topright;
-pos = (393,700);
+pos = (387,726);
 }
 );
 layerId = m005;
@@ -500,7 +500,7 @@ pos = (167,0);
 },
 {
 name = center;
-pos = (476,558);
+pos = (467,558);
 },
 {
 name = cnct;
@@ -508,11 +508,11 @@ pos = (448,0);
 },
 {
 name = top;
-pos = (394,700);
+pos = (269,400);
 },
 {
 name = topright;
-pos = (557,700);
+pos = (546,726);
 }
 );
 layerId = m006;
@@ -597,7 +597,7 @@ pos = (232,0);
 },
 {
 name = center;
-pos = (360,558);
+pos = (352,558);
 },
 {
 name = cnct;
@@ -605,11 +605,11 @@ pos = (513,0);
 },
 {
 name = top;
-pos = (232,700);
+pos = (206,400);
 },
 {
 name = topright;
-pos = (393,700);
+pos = (375,726);
 }
 );
 layerId = m007;
@@ -694,7 +694,7 @@ pos = (147,0);
 },
 {
 name = center;
-pos = (476,558);
+pos = (466,558);
 },
 {
 name = cnct;
@@ -702,11 +702,11 @@ pos = (448,0);
 },
 {
 name = top;
-pos = (374,700);
+pos = (268,400);
 },
 {
 name = topright;
-pos = (557,700);
+pos = (551,726);
 }
 );
 guides = (
@@ -1203,7 +1203,7 @@ pos = (222,400);
 },
 {
 name = topright;
-pos = (383,1200);
+pos = (381,1242);
 }
 );
 layerId = m013;
@@ -1300,7 +1300,7 @@ pos = (257,400);
 },
 {
 name = topright;
-pos = (706,1200);
+pos = (721,1242);
 }
 );
 layerId = m014;
@@ -1397,7 +1397,7 @@ pos = (222,400);
 },
 {
 name = topright;
-pos = (383,1200);
+pos = (372,1242);
 }
 );
 layerId = m015;
@@ -1494,7 +1494,7 @@ pos = (257,400);
 },
 {
 name = topright;
-pos = (706,1200);
+pos = (717,1242);
 }
 );
 guides = (
