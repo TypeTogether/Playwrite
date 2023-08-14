@@ -1,12 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.0">
   <axes>
-    <axis tag="wght" name="Weight" minimum="100" maximum="400" default="100">
-      <map input="100" output="100"/>
-      <map input="200" output="200"/>
-      <map input="300" output="300"/>
-      <map input="400" output="300"/>
-    </axis>
+    <axis tag="wght" name="Weight" minimum="100" maximum="400" default="100"/>
     <axis tag="slnt" name="Slant" minimum="0" maximum="18" default="0"/>
     <axis tag="EXTD" name="Extenders" minimum="300" maximum="800" default="300"/>
     <axis tag="SPED" name="Speed" minimum="0" maximum="100" default="0"/>
@@ -369,61 +364,6 @@
           <dict>
             <key>m016</key>
             <integer>1</integer>
-          </dict>
-          <key>com.schriftgestaltung.manualInterpolation</key>
-          <false/>
-          <key>com.schriftgestaltung.weight</key>
-          <string>Regular</string>
-          <key>com.schriftgestaltung.width</key>
-          <string>Medium (normal)</string>
-        </dict>
-      </lib>
-    </instance>
-    <instance name="Playpen Test Interpolation" familyname="Playpen" stylename="Test Interpolation" filename="instance_ufos/Playpen-TestInterpolation.ufo">
-      <location>
-        <dimension name="Weight" xvalue="300"/>
-        <dimension name="Slant" xvalue="9"/>
-        <dimension name="Extenders" xvalue="500"/>
-        <dimension name="Speed" xvalue="50"/>
-      </location>
-      <lib>
-        <dict>
-          <key>com.schriftgestaltung.export</key>
-          <true/>
-          <key>com.schriftgestaltung.intanceInterpolations</key>
-          <dict>
-            <key>m002</key>
-            <real>0.05</real>
-            <key>m003</key>
-            <real>0.05</real>
-            <key>m004</key>
-            <real>0.05</real>
-            <key>m005</key>
-            <real>0.1</real>
-            <key>m006</key>
-            <real>0.1</real>
-            <key>m007</key>
-            <real>0.1</real>
-            <key>m008</key>
-            <real>0.1</real>
-            <key>m009</key>
-            <real>0.03333</real>
-            <key>m01</key>
-            <real>0.05</real>
-            <key>m010</key>
-            <real>0.03333</real>
-            <key>m011</key>
-            <real>0.03333</real>
-            <key>m012</key>
-            <real>0.03333</real>
-            <key>m013</key>
-            <real>0.06667</real>
-            <key>m014</key>
-            <real>0.06667</real>
-            <key>m015</key>
-            <real>0.06667</real>
-            <key>m016</key>
-            <real>0.06667</real>
           </dict>
           <key>com.schriftgestaltung.manualInterpolation</key>
           <false/>
