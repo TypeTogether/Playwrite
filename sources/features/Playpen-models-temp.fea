@@ -177,7 +177,6 @@ lookup before_eful {
 	sub @fful_SRC by @fful_SRC cnct.ful_f_e;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_e;
 	#
-	sub @rmod_SRC by @rmod_SRC cnct.ful_n_e;
 	#
 	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_e;
 	#
@@ -189,6 +188,10 @@ lookup before_eful {
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_e;
 	sub @needsEntry_SRC by @needsEntry_SRC entr_eful;
+	#
+	# [BUG] Repeated!
+	# sub @rmod_SRC by @rmod_SRC cnct.ful_n_e;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_e.ful;
 } before_eful;
 
 
@@ -240,6 +243,8 @@ lookup before_fful {
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_f;
 	sub @needsEntry_SRC by @needsEntry_SRC entr_fful;
+	#
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_f.ful;
 } before_fful;
 
 
@@ -265,6 +270,8 @@ lookup before_h {
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_h;
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.lop_t.lop_de_h;
 	sub @needsEntry_SRC by @needsEntry_SRC entr_hlop;
+	#
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_h.lop;
 } before_h;
 
 
@@ -965,7 +972,7 @@ feature locl {
 	script latn;
 	language dflt;
 	# some code?
-	include(../features/fea-models/DEU_VA.fea);
+	include(../features/fea-models/DNK_Looped.fea);
 } locl;
 
 
@@ -1077,7 +1084,7 @@ feature calt {
 		sub [f.jmc.ini f.jmc.med] [e.mod.med e.mod.fin]' by [e.mod.med_b_ e.mod.fin_b_];
 		sub [g.jmc.ini g.jmc.med j.jmc.ini j.jmc.med y.jmc.ini y.jmc.med] [e.mod.med e.mod.fin]' by [e.jmc.med_g_ e.jmc.fin_g_];
 		# FUL
-		sub [o.mod.ini o.mod.med b.ful.ini b.ful.med v.ful.ini v.ful.med w.ful.ini w.ful.med b.lop.ini b.lop.med r.cnt.ini r.cnt.med r.cnt.med_n_ v.cnt.ini v.cnt.med w.cnt.ini w.cnt.med v.cnt.med_n_ w.cnt.med_n_ @bmlp_SRC o.mlp.ini o.mlp.med] [e.ful.med e.ful.fin]' by [e.ful.med_o_ e.ful.fin_o_];
+		sub [o.mod.ini o.mod.med b.ful.ini b.ful.med v.ful.ini v.ful.med w.ful.ini w.ful.med b.lop.ini b.lop.med r.cnt.ini r.cnt.med r.cnt.med_n_ v.cnt.ini v.cnt.med w.cnt.ini w.cnt.med v.cnt.med_n_ w.cnt.med_n_ @bmlp_SRC o.mlp.ini o.mlp.med v.mod.ini v.mod.med w.mod.ini w.mod.med r.mod.ini r.mod.med] [e.ful.med e.ful.fin]' by [e.ful.med_o_ e.ful.fin_o_];
 		sub [c.mod.ini c.mod.med f.ful_de.ini f.ful_de.med g.jmc.ini g.jmc.med j.jmc.ini j.jmc.med y.jmc.ini y.jmc.med y.cnt.ini y.cnt.med y.cnt.med_n_ z.cnt.ini z.cnt.med z.ful.ini z.ful.med z.mlp.ini z.mlp.med T.cur.ini T.cur_locl.ini] [e.ful.med e.ful.fin]' by [e.ful.med_g_ e.ful.fin_g_];
 		sub [@bmlp_SRC b.ful.ini b.ful.med b.lop.ini b.lop.med o.mod.ini o.mod.med r.cnt.ini r.cnt.med r.cnt.med_n_ v.cnt.ini v.cnt.med v.cnt.med_n_ v.ful.ini v.ful.med w.cnt.ini w.cnt.med w.cnt.med_n_ w.ful.ini w.ful.med] [f.mod_au.med f.mod_au.fin t.mod.med t.mod.fin]' by [f.mod_au.med_o_ f.mod_au.fin_o_ t.mod.med_o_ t.mod.fin_o_ ];
 		# CNT
@@ -1403,6 +1410,10 @@ feature calt {
 		sub @needsEntry_SRC' lookup before_h @hlop_TGT;
 		sub @needsEntry_SRC' lookup before_ncnt @ncnt_TGT;
 		sub @needsEntry_SRC' lookup before_zcnt @zcnt_TGT;
+		#
+		sub @rmod_SRC' lookup before_eful @eful_TGT;
+		sub @rmod_SRC' lookup before_fful @fful_TGT;
+		sub @rmod_SRC' lookup before_h @hlop_TGT;
 	} SENSEI_MAGIC;
 } calt;
 
@@ -1434,7 +1445,13 @@ feature dist {
 			pos @rcnt_SRC 20 @emod_TGT;
 			pos @rmod_SRC 5 @zmod_TGT;
 			pos @rmod_SRC 50 @emod_TGT;
+			pos @rmod_SRC 50 @fful_TGT;
+			pos @rmod_SRC 60 @eful_TGT;
+			pos @rmod_SRC 70 @hlop_TGT;
 			pos @vmod_SRC 30 @emod_TGT;
+			pos @vmod_SRC 40 @eful_TGT;
+			pos @vmod_SRC 50 @fful_TGT;
+			pos @vmod_SRC 50 @hlop_TGT;
 		} dist_MOD;
 		#
 		# JMC:
@@ -1464,6 +1481,8 @@ feature dist {
 			pos @eful_SRC 20 @smod_TGT;
 			pos @eful_SRC 30 @xful_TGT;
 			pos @eful_SRC 60 @zful_TGT;
+			pos @eful_SRC 70 @vmod_TGT;
+			pos @eful_SRC 70 @xmod_TGT;
 			pos @fful_SRC 10 @omod_TGT;
 			pos @fful_SRC 20 @rful_TGT;
 			pos @fful_SRC 20 @smod_TGT;
@@ -1610,3 +1629,4 @@ feature dist {
 			pos @needsEntry_SRC 40 @ncnt_TGT;
 		} dist_entry;
 } dist;
+
