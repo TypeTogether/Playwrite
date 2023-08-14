@@ -1,5 +1,5 @@
 {
-.appVersion = "3208";
+.appVersion = "3211";
 .formatVersion = 3;
 axes = (
 {
@@ -1481,6 +1481,7 @@ featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
 languagesystem latn dflt;
+languagesystem latn CAT;
 
 include(features/Playpen-dev.fea);
 ";
