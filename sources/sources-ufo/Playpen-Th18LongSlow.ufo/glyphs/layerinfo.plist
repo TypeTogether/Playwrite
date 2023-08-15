@@ -84,6 +84,8 @@
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.B.dec</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Bhook</key>
+      <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.C</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.C.cur</key>
@@ -100,6 +102,8 @@
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Cdotaccent</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Chook</key>
+      <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.D</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.D.cur</key>
@@ -109,6 +113,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.Dcaron</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Dcroat</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Dhook</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.E</key>
       <integer>9</integer>
@@ -376,6 +382,8 @@
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.P.dec</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Phook</key>
+      <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Q</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Q.cur</key>
@@ -449,6 +457,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.Tcedilla</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Tcommaaccent</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Thook</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Thorn</key>
       <integer>10</integer>
@@ -557,6 +567,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.Ydotbelow</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Ygrave</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.Yhook</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Yhookabove</key>
       <integer>9</integer>
@@ -730,6 +742,10 @@
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.bar</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.bhook</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.bhook.jmc</key>
+      <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.braceleft</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.braceright</key>
@@ -800,6 +816,8 @@
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cent</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.chook</key>
+      <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.circumflex</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.circumflexcomb</key>
@@ -865,6 +883,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_i</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_n</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_n.mod</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_r_o</key>
       <integer>9</integer>
@@ -1041,6 +1061,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_o_z</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_t.lop_de_e</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_t.lop_de_e.mod</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_t.lop_de_f</key>
       <integer>9</integer>
@@ -1499,6 +1521,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.dcroat</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.degree</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.dhook</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.dieresis</key>
       <integer>9</integer>
@@ -2234,6 +2258,8 @@
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.periodcentered</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.phook</key>
+      <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.plus</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.plusminus</key>
@@ -2459,6 +2485,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.tcedilla</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tcommaaccent</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.thook</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.thorn</key>
       <integer>10</integer>
@@ -2712,6 +2740,8 @@
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ygrave</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.yhook</key>
+      <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yhookabove</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ytilde</key>
@@ -2722,9 +2752,15 @@
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt.fin</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt.fin_no</key>
+      <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt.ini</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt.ini_no</key>
+      <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt.med</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt.med_no</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt_au</key>
       <integer>9</integer>
@@ -2733,6 +2769,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt_au.ini</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt_au.med</key>
+      <integer>9</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.z.cnt_no</key>
       <integer>9</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.z.ful</key>
       <integer>9</integer>

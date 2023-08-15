@@ -37,7 +37,7 @@
       </dict>
     </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>3208</string>
+    <string>3211</string>
     <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
     <integer>2000</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -1511,8 +1511,27 @@
       <string>entr_hlop</string>
       <string>entr_ncnt</string>
       <string>entr_zcnt</string>
+      <string>Bhook</string>
+      <string>Chook</string>
+      <string>Dhook</string>
+      <string>Phook</string>
+      <string>Thook</string>
+      <string>Yhook</string>
       <string>AE.cur.locl</string>
       <string>OE.cur.locl</string>
+      <string>bhook</string>
+      <string>chook</string>
+      <string>dhook</string>
+      <string>phook</string>
+      <string>thook</string>
+      <string>yhook</string>
+      <string>z.cnt_no</string>
+      <string>z.cnt.fin_no</string>
+      <string>z.cnt.ini_no</string>
+      <string>bhook.jmc</string>
+      <string>z.cnt.med_no</string>
+      <string>cnct.cnt_r_n.mod</string>
+      <string>cnct.ful_t.lop_de_e.mod</string>
       <string>_circle</string>
     </array>
     <key>public.postscriptNames</key>
@@ -1543,6 +1562,12 @@
       <string>uni1EA0</string>
       <key>Ahookabove</key>
       <string>uni1EA2</string>
+      <key>Bhook</key>
+      <string>uni0181</string>
+      <key>Chook</key>
+      <string>uni0187</string>
+      <key>Dhook</key>
+      <string>uni018A</string>
       <key>Ecircumflexacute</key>
       <string>uni1EBE</string>
       <key>Ecircumflexdotbelow</key>
@@ -1601,6 +1626,8 @@
       <string>uni1EDE</string>
       <key>Ohorntilde</key>
       <string>uni1EE0</string>
+      <key>Phook</key>
+      <string>uni01A4</string>
       <key>Rcommaaccent</key>
       <string>uni0156</string>
       <key>Scommaaccent</key>
@@ -1609,6 +1636,8 @@
       <string>uni0162</string>
       <key>Tcommaaccent</key>
       <string>uni021A</string>
+      <key>Thook</key>
+      <string>uni01AC</string>
       <key>Ucaron</key>
       <string>uni01D3</string>
       <key>Udieresisacute</key>
@@ -1635,6 +1664,8 @@
       <string>uni1EEE</string>
       <key>Ydotbelow</key>
       <string>uni1EF4</string>
+      <key>Yhook</key>
+      <string>uni01B3</string>
       <key>Yhookabove</key>
       <string>uni1EF6</string>
       <key>Ytilde</key>
@@ -1665,6 +1696,10 @@
       <string>uni1EA1</string>
       <key>ahookabove</key>
       <string>uni1EA3</string>
+      <key>bhook</key>
+      <string>uni0253</string>
+      <key>bhook.jmc</key>
+      <string>uni0253.jmc</string>
       <key>brevecomb</key>
       <string>uni0306</string>
       <key>brevecomb.case</key>
@@ -1697,6 +1732,8 @@
       <string>uni0327</string>
       <key>cedillacomb.case</key>
       <string>uni0327.case</string>
+      <key>chook</key>
+      <string>uni0188</string>
       <key>circumflexcomb</key>
       <string>uni0302</string>
       <key>circumflexcomb.case</key>
@@ -1725,6 +1762,8 @@
       <string>uni0312</string>
       <key>commaturnedabovecomb.case</key>
       <string>uni0312.case</string>
+      <key>dhook</key>
+      <string>uni0257</string>
       <key>dieresiscomb</key>
       <string>uni0308</string>
       <key>dieresiscomb.case</key>
@@ -1845,6 +1884,8 @@
       <string>uni1EDF</string>
       <key>ohorntilde</key>
       <string>uni1EE1</string>
+      <key>phook</key>
+      <string>uni01A5</string>
       <key>rcommaaccent</key>
       <string>uni0157</string>
       <key>ringcomb</key>
@@ -1873,6 +1914,8 @@
       <string>uni0163</string>
       <key>tcommaaccent</key>
       <string>uni021B</string>
+      <key>thook</key>
+      <string>uni01AD</string>
       <key>ucaron</key>
       <string>uni01D4</string>
       <key>udieresisacute</key>
@@ -1899,6 +1942,8 @@
       <string>uni1EEF</string>
       <key>ydotbelow</key>
       <string>uni1EF5</string>
+      <key>yhook</key>
+      <string>uni01B4</string>
       <key>yhookabove</key>
       <string>uni1EF7</string>
       <key>ytilde</key>
