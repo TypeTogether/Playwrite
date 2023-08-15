@@ -84,8 +84,6 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.B.dec</key>
       <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Bhook</key>
-      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.C</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.C.cur</key>
@@ -102,8 +100,6 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Cdotaccent</key>
       <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Chook</key>
-      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.D</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.D.cur</key>
@@ -113,8 +109,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.Dcaron</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Dcroat</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Dhook</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.E</key>
       <integer>13</integer>
@@ -382,8 +376,6 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.P.dec</key>
       <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Phook</key>
-      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Q</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Q.cur</key>
@@ -457,8 +449,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.Tcedilla</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Tcommaaccent</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Thook</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Thorn</key>
       <integer>11</integer>
@@ -567,8 +557,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.Ydotbelow</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Ygrave</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.Yhook</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Yhookabove</key>
       <integer>13</integer>
@@ -742,10 +730,6 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.bar</key>
       <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.bhook</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.bhook.jmc</key>
-      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.braceleft</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.braceright</key>
@@ -815,8 +799,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cedillacomb.case</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cent</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.chook</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.circumflex</key>
       <integer>13</integer>
@@ -1521,8 +1503,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.dcroat</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.degree</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.dhook</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.dieresis</key>
       <integer>13</integer>
@@ -2258,8 +2238,6 @@
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.periodcentered</key>
       <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.phook</key>
-      <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.plus</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.plusminus</key>
@@ -2485,8 +2463,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.tcedilla</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tcommaaccent</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.thook</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.thorn</key>
       <integer>11</integer>
@@ -2739,8 +2715,6 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.yen</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.ygrave</key>
-      <integer>13</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph.yhook</key>
       <integer>13</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.yhookabove</key>
       <integer>13</integer>
