@@ -2264,6 +2264,33 @@ instanceInterpolations = {
 m016 = 1;
 };
 name = Maximum;
+},
+{
+axesValues = (
+300,
+9,
+500,
+50
+);
+instanceInterpolations = {
+m002 = 0.05;
+m003 = 0.05;
+m004 = 0.05;
+m005 = 0.1;
+m006 = 0.1;
+m007 = 0.1;
+m008 = 0.1;
+m009 = 0.03333;
+m01 = 0.05;
+m010 = 0.03333;
+m011 = 0.03333;
+m012 = 0.03333;
+m013 = 0.06667;
+m014 = 0.06667;
+m015 = 0.06667;
+m016 = 0.06667;
+};
+name = "Test Interpolation";
 }
 );
 metrics = (
