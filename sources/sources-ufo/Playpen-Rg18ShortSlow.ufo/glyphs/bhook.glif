@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bhook" format="2">
+  <advance width="483"/>
+  <unicode hex="0253"/>
+  <anchor x="200" y="0" name="bottom"/>
+  <anchor x="265" y="200" name="center"/>
+  <anchor x="330" y="400" name="top"/>
+  <outline>
+    <component base="b.ful"/>
+  </outline>
+</glyph>

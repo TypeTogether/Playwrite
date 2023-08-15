@@ -80,6 +80,8 @@
     <string>B_.cur.glif</string>
     <key>B.dec</key>
     <string>B_.dec.glif</string>
+    <key>Bhook</key>
+    <string>B_hook.glif</string>
     <key>C</key>
     <string>C_.glif</string>
     <key>C.cur</key>
@@ -96,6 +98,8 @@
     <string>C_circumflex.glif</string>
     <key>Cdotaccent</key>
     <string>C_dotaccent.glif</string>
+    <key>Chook</key>
+    <string>C_hook.glif</string>
     <key>D</key>
     <string>D_.glif</string>
     <key>D.cur</key>
@@ -106,6 +110,8 @@
     <string>D_caron.glif</string>
     <key>Dcroat</key>
     <string>D_croat.glif</string>
+    <key>Dhook</key>
+    <string>D_hook.glif</string>
     <key>E</key>
     <string>E_.glif</string>
     <key>E.cur</key>
@@ -372,6 +378,8 @@
     <string>P_.cur.glif</string>
     <key>P.dec</key>
     <string>P_.dec.glif</string>
+    <key>Phook</key>
+    <string>P_hook.glif</string>
     <key>Q</key>
     <string>Q_.glif</string>
     <key>Q.cur</key>
@@ -446,6 +454,8 @@
     <string>T_cedilla.glif</string>
     <key>Tcommaaccent</key>
     <string>T_commaaccent.glif</string>
+    <key>Thook</key>
+    <string>T_hook.glif</string>
     <key>Thorn</key>
     <string>T_horn.glif</string>
     <key>U</key>
@@ -554,6 +564,8 @@
     <string>Y_dotbelow.glif</string>
     <key>Ygrave</key>
     <string>Y_grave.glif</string>
+    <key>Yhook</key>
+    <string>Y_hook.glif</string>
     <key>Yhookabove</key>
     <string>Y_hookabove.glif</string>
     <key>Ytilde</key>
@@ -726,6 +738,10 @@
     <string>backslash.glif</string>
     <key>bar</key>
     <string>bar.glif</string>
+    <key>bhook</key>
+    <string>bhook.glif</string>
+    <key>bhook.jmc</key>
+    <string>bhook.jmc.glif</string>
     <key>braceleft</key>
     <string>braceleft.glif</string>
     <key>braceright</key>
@@ -796,6 +812,8 @@
     <string>cedillacomb.case.glif</string>
     <key>cent</key>
     <string>cent.glif</string>
+    <key>chook</key>
+    <string>chook.glif</string>
     <key>circumflex</key>
     <string>circumflex.glif</string>
     <key>circumflexcomb</key>
@@ -862,6 +880,8 @@
     <string>cnct.cnt_r_i.glif</string>
     <key>cnct.cnt_r_n</key>
     <string>cnct.cnt_r_n.glif</string>
+    <key>cnct.cnt_r_n.mod</key>
+    <string>cnct.cnt_r_n.mod.glif</string>
     <key>cnct.cnt_r_o</key>
     <string>cnct.cnt_r_o.glif</string>
     <key>cnct.cnt_r_s</key>
@@ -1038,6 +1058,8 @@
     <string>cnct.ful_o_z.glif</string>
     <key>cnct.ful_t.lop_de_e</key>
     <string>cnct.ful_t.lop_de_e.glif</string>
+    <key>cnct.ful_t.lop_de_e.mod</key>
+    <string>cnct.ful_t.lop_de_e.mod.glif</string>
     <key>cnct.ful_t.lop_de_f</key>
     <string>cnct.ful_t.lop_de_f.glif</string>
     <key>cnct.ful_t.lop_de_r</key>
@@ -1496,6 +1518,8 @@
     <string>dcroat.glif</string>
     <key>degree</key>
     <string>degree.glif</string>
+    <key>dhook</key>
+    <string>dhook.glif</string>
     <key>dieresis</key>
     <string>dieresis.glif</string>
     <key>dieresiscomb</key>
@@ -2230,6 +2254,8 @@
     <string>period.glif</string>
     <key>periodcentered</key>
     <string>periodcentered.glif</string>
+    <key>phook</key>
+    <string>phook.glif</string>
     <key>plus</key>
     <string>plus.glif</string>
     <key>plusminus</key>
@@ -2456,6 +2482,8 @@
     <string>tcedilla.glif</string>
     <key>tcommaaccent</key>
     <string>tcommaaccent.glif</string>
+    <key>thook</key>
+    <string>thook.glif</string>
     <key>thorn</key>
     <string>thorn.glif</string>
     <key>thorn.jmc</key>
@@ -2708,6 +2736,8 @@
     <string>yen.glif</string>
     <key>ygrave</key>
     <string>ygrave.glif</string>
+    <key>yhook</key>
+    <string>yhook.glif</string>
     <key>yhookabove</key>
     <string>yhookabove.glif</string>
     <key>ytilde</key>
@@ -2718,10 +2748,16 @@
     <string>z.cnt.glif</string>
     <key>z.cnt.fin</key>
     <string>z.cnt.fin.glif</string>
+    <key>z.cnt.fin_no</key>
+    <string>z.cnt.fin_no.glif</string>
     <key>z.cnt.ini</key>
     <string>z.cnt.ini.glif</string>
+    <key>z.cnt.ini_no</key>
+    <string>z.cnt.ini_no.glif</string>
     <key>z.cnt.med</key>
     <string>z.cnt.med.glif</string>
+    <key>z.cnt.med_no</key>
+    <string>z.cnt.med_no.glif</string>
     <key>z.cnt_au</key>
     <string>z.cnt_au.glif</string>
     <key>z.cnt_au.fin</key>
@@ -2730,6 +2766,8 @@
     <string>z.cnt_au.ini.glif</string>
     <key>z.cnt_au.med</key>
     <string>z.cnt_au.med.glif</string>
+    <key>z.cnt_no</key>
+    <string>z.cnt_no.glif</string>
     <key>z.ful</key>
     <string>z.ful.glif</string>
     <key>z.ful.fin</key>
