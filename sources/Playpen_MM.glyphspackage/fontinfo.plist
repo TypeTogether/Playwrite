@@ -1481,9 +1481,8 @@ featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
 languagesystem latn dflt;
-languagesystem latn CAT;
 
-include(features/Playpen-dev.fea);
+include(../../03_Engineering/GOOGLE-Github-Playpen-repo/sources/features/Playpen-dev.fea);
 ";
 name = Languagesystems;
 }

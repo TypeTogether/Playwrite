@@ -979,7 +979,7 @@ feature ccmp {
 feature locl {
 	script latn;
 		language dflt;
-		include(../features/fea-models/IRL.fea);
+		include(../features/fea-models/DEU_VA.fea);
 		language CAT;
 			sub L' periodcentered' by Ldot;
 			sub l' periodcentered' by ldot;
