@@ -9,7 +9,7 @@ scripts="../scripts"
 feaFile=../features/Playpen-models.fea
 
 if [ $1 = "ALL" ]; then
-    models=( ARG AUS_NSW AUS_QLD AUS_SA AUS_TAS AUS_VIC BRA CAN CHI COL CUB CZE DEU_Grundschrift DEU_LA DEU_SAS DEU_VA DNK_Looped DNK_Unlooped ZAF ESP ESP_OrnateUC FRA_Modern FRA_Traditional HRV HRV_Lefthand IDN IRL ISL ITA_Modern ITA_Traditional MEX NLD NOR PER POL POR SVK USA_Modern USA_Traditional VNM )
+    models=( ARG AUS_NSW AUS_QLD AUS_SA AUS_TAS AUS_VIC BRA CAN CHI COL CUB CZE DEU_Grundschrift DEU_LA DEU_SAS DEU_VA DNK_Looped DNK_Unlooped ZAF ESP ESP_OrnateUC FRA_Modern FRA_Traditional HRV HRV_Lefthand IDN IRL ISL ITA_Modern ITA_Traditional MEX NLD NZL NOR PER POL POR SVK USA_Modern USA_Traditional VNM )
 else
     models=( "$@" )
 fi

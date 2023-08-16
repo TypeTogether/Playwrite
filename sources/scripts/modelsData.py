@@ -378,6 +378,16 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
                'u.mod v.ful w.ful x.ful y.mod z.cnt_no ae.mod eth.mod ij.mod '
                'eng oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.jmc ',
          'slnt': 18},
+ 'NZL': {'Country': 'New Zealand',
+         'EXTD': 400,
+         'SPED': 100,
+         'UC': 'A B C D E F G_locl.au H I_locl J K L M_locl N O P Q R S T '
+               'U_locl.au V W X Y_locl Z AE Eth IJ Eng OE Thorn Germandbls',
+         'lc': 'a.mod b.mod c.mod d.mod e.mod f.mod_au g.mod h.mod i.mod j.mod '
+               'k.ful l.mod m.mod n.mod o.mod p.mod q.mod_au r.mod s.mod t.mod '
+               'u.mod v.mod w.mod x.mod y.mod z.mod ae.mod eth.mod ij.mod eng '
+               'oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.mod ',
+         'slnt': 18},
  'PER': {'Country': 'Peru',
          'EXTD': 400,
          'SPED': 50,
