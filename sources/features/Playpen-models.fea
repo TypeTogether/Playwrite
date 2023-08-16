@@ -12,8 +12,8 @@
 @UC_CursiveIni = [A.cur.ini A.cur_locl.ini G.cur.ini G.cur_locl.ini H.cur.ini J.cur.ini K.cur.ini L.cur.ini M.cur.ini N.cur.ini Q.cur.ini R.cur.ini T.cur.ini U.cur.ini X.cur.ini Y.cur.ini Z.cur.ini T.cur_locl.ini IJ.cur.ini];
 
 @UC_Decorative = [A.dec B.dec C.cur D.dec E.cur F.dec G.dec H.dec I.dec J.dec K.dec L.dec M.dec N.dec O.dec P.dec Q.dec R.dec S.dec T.dec U.cur V.dec W.dec X.dec Y.cur Z.dec];
-@UC_DecorativeHasIni = [A.dec_locl J.dec K.dec L.dec M.dec Q.dec R.dec X.dec X.dec_locl Z.dec Z.dec Z.dec_locl];
-@UC_DecorativeIni = [A.dec_locl.ini J.dec.ini K.dec.ini L.dec.ini M.dec.ini Q.dec.ini R.dec.ini X.dec.ini X.dec_locl.ini Z.dec.ini Z.dec.ini Z.dec_locl.ini];
+@UC_DecorativeHasIni = [A.dec_locl J.dec K.dec L.dec M.dec Q.dec Q.dec_pt R.dec X.dec X.dec_locl Z.dec Z.dec Z.dec_locl];
+@UC_DecorativeIni = [A.dec_locl.ini J.dec.ini K.dec.ini L.dec.ini M.dec.ini Q.dec.ini Q.dec_pt.ini R.dec.ini X.dec.ini X.dec_locl.ini Z.dec.ini Z.dec.ini Z.dec_locl.ini];
 
 # --------------
 # STYLES
@@ -51,7 +51,7 @@
 @fmlp_SRC = [f.mlp.ini f.mlp.med];
 @fmrr_SRC = [f.mrr.ini f.mrr.med];
 @gjmc_SRC = [g.jmc.ini g.jmc.med j.jmc.ini j.jmc.med y.jmc.ini y.jmc.med y.cnt.ini y.cnt.med y.cnt.med_n_ jdotless.jmc.ini jdotless.jmc.med ij.jmc.ini ij.jmc.med];
-@nmod_SRC = [A.cur.ini H.cur.ini K.cur.ini L.cur.ini M.cur.ini N.cur.ini Q.cur.ini R.cur.ini U.cur.ini X.cur.ini K.dec.ini L.dec.ini M.dec.ini Q.dec.ini R.dec.ini A.cur_locl.ini A.dec_locl.ini a.mod.ini a.mod.med b.jmc.ini b.jmc.med d.mod.ini d.mod.med h.lop.ini h.lop.med h.mod.ini h.mod.med i.mod.ini i.mod.med k.ful.ini k.ful.med k.lop.ini k.lop.med k.mod.ini k.mod.med l.lop.ini l.lop.med l.mod.ini l.mod.med m.cnt.ini m.cnt.med m.cnt.med_n_ m.mod.ini m.mod.med n.cnt.ini n.cnt.med n.cnt.med_n_ n.mod.ini n.mod.med p.ful.ini p.ful.med p.jmc.ini p.jmc.med p.mrr.ini p.mrr.med q.jmc.ini q.jmc.med q.jmc_ar.ini q.jmc_ar.med q.mrr.ini q.mrr.med r.ful.ini r.ful.med r.mlp.ini r.mlp.med s.ful.ini s.ful.med s.jmc.ini s.jmc.med s.mlp.ini s.mlp.med t.mod.ini t.mod.med t.mod.med_o_ u.mod.ini u.mod.med x.cnt.ini x.cnt.med x.ful.ini x.ful.med x.mod.ini x.mod.med z.mod.ini z.mod.med b.jmc_dk.ini b.jmc_dk.med k.lop_pe.ini k.lop_pe.med p.mrr_ca.ini p.mrr_ca.med x.cnt_de.ini x.cnt_de.med idotless.mod.ini idotless.mod.med jdotless.mod.ini jdotless.mod.med d.lop_cu.ini d.lop_cu.med germandbls.jmc.ini germandbls.jmc.med thorn.jmc.ini thorn.jmc.med];
+@nmod_SRC = [A.cur.ini A.cur_locl.ini A.dec_locl.ini H.cur.ini K.cur.ini K.dec.ini L.cur.ini L.dec.ini M.cur.ini M.dec.ini N.cur.ini Q.cur.ini Q.dec.ini Q.dec_pt.ini R.cur.ini R.dec.ini U.cur.ini X.cur.ini a.mod.ini a.mod.med b.jmc.ini b.jmc.med b.jmc_dk.ini b.jmc_dk.med d.lop_cu.ini d.lop_cu.med d.mod.ini d.mod.med germandbls.jmc.ini germandbls.jmc.med h.lop.ini h.lop.med h.mod.ini h.mod.med i.mod.ini i.mod.med idotless.mod.ini idotless.mod.med jdotless.mod.ini jdotless.mod.med k.ful.ini k.ful.med k.lop.ini k.lop.med k.lop_pe.ini k.lop_pe.med k.mod.ini k.mod.med l.lop.ini l.lop.med l.mod.ini l.mod.med m.cnt.ini m.cnt.med m.cnt.med_n_ m.mod.ini m.mod.med n.cnt.ini n.cnt.med n.cnt.med_n_ n.mod.ini n.mod.med p.ful.ini p.ful.med p.jmc.ini p.jmc.med p.mrr.ini p.mrr.med p.mrr_ca.ini p.mrr_ca.med q.jmc.ini q.jmc.med q.jmc_ar.ini q.jmc_ar.med q.mrr.ini q.mrr.med r.ful.ini r.ful.med r.mlp.ini r.mlp.med s.ful.ini s.ful.med s.jmc.ini s.jmc.med s.mlp.ini s.mlp.med t.mod.ini t.mod.med t.mod.med_o_ thorn.jmc.ini thorn.jmc.med u.mod.ini u.mod.med x.cnt.ini x.cnt.med x.cnt_de.ini x.cnt_de.med x.ful.ini x.ful.med x.mod.ini x.mod.med z.mod.ini z.mod.med];
 @omod_SRC = [o.mod.ini o.mod.med];
 @omlp_SRC = [o.mlp.ini o.mlp.med];
 @rmod_SRC = [r.mod.ini r.mod.med];
@@ -68,10 +68,10 @@
 @bmod_TGT = [b.ful.fin b.ful.med b.jmc.fin b.jmc.med b.mod.fin b.mod.med h.mod.fin h.mod.med k.ful.fin k.ful.med k.mod.fin k.mod.med l.mod.fin l.mod.med germandbls.jmc.fin germandbls.jmc.med];
 @emod_TGT = [e.mod.fin e.mod.fin_b_ e.mod.fin_n_ e.mod.med e.mod.med_b_ e.mod.med_n_ e.jmc.fin_g_ e.jmc.med_g_];
 @eful_TGT = [e.ful.fin e.ful.fin_g_ e.ful.fin_o_ e.ful.med e.ful.med_g_ e.ful.med_o_];
-@fful_TGT = [b.lop.fin b.lop.med b.mlp.fin b.mlp.med f.ful.fin f.ful.med f.mlp.fin f.mlp.med f.mrr.fin f.mrr.med l.lop.fin l.lop.med f.ful_de.fin f.ful_de.med f.ful_pe.fin f.ful_pl.fin f.ful_pe.med f.ful_pl.med];
+@fful_TGT = [b.lop.fin b.lop.med b.mlp.fin b.mlp.med f.ful.fin f.ful.med f.ful_de.fin f.ful_de.med f.ful_pe.fin f.ful_pe.med f.ful_pl.fin f.ful_pl.med f.mlp.fin f.mlp.med f.mrr.fin f.mrr.med k.lop_pe.fin k.lop_pe.med l.lop.fin l.lop.med];
 # @fmrr_TGT = [b.lop.fin b.lop.med f.ful.fin f.ful.med f.mrr.fin f.mrr.med l.lop.fin l.lop.med];
 @fjmc_TGT = [f.jmc.fin f.jmc.fin_o_ f.jmc.med f.jmc.med_o_];
-@hlop_TGT = [h.lop.fin h.lop.med k.lop.fin k.lop.med b.jmc_dk.med b.jmc_dk.fin k.lop_pe.med k.lop_pe.fin];
+@hlop_TGT = [h.lop.fin h.lop.med k.lop.fin k.lop.med b.jmc_dk.med b.jmc_dk.fin];
 @imrr_TGT = [i.mod.fin i.mod.med idotless.mod.fin idotless.mod.med ij.mod.fin ij.mod.med j.jmc.fin j.jmc.med j.mod.fin j.mod.med jdotless.jmc.fin jdotless.jmc.med jdotless.mod.fin jdotless.mod.med p.ful.fin p.ful.med p.jmc.fin p.jmc.med p.mod.fin p.mod.med p.mrr.fin p.mrr.med u.mod.fin u.mod.med v.ful.fin v.ful.med w.ful.fin w.ful.med y.jmc.fin y.jmc.med y.mod.fin y.mod.med thorn.jmc.fin thorn.jmc.med ij.jmc.fin ij.jmc.med];
 
 @nmod_TGT_CUR = [i.mod j.jmc p.ful u.mod idotless.mod jdotless.mod jdotless.jmc];
