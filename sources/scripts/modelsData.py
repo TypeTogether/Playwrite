@@ -60,7 +60,7 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
              'SPED': 75,
              'UC': 'A B C D E F G_locl.au H I J K L M_locl N O P Q R S T '
                    'U_locl.au V W X Y Z AE Eth IJ Eng OE Thorn Germandbls',
-             'lc': 'a.mod b.ful c.mod d.mod e.ful f.ful_de g.mod h.mod i.mod '
+             'lc': 'a.mod b.ful c.mod d.mod e.mod f.ful_de g.mod h.mod i.mod '
                    'j.mod k.ful l.mod m.cnt n.cnt o.mod p.ful q.mod_au r.cnt '
                    's.mod t.mod u.mod v.ful w.ful x.cnt y.mod z.cnt_au ae.ful '
                    'eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc '
@@ -152,8 +152,8 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
             'SPED': 75,
             'UC': 'A.dec B.dec C.cur D.dec E.cur F.cur G.cur H.cur I.dec J.dec '
                   'K.dec L.cur M.dec N.dec O P.cur Q.cur_locl R.cur S.dec '
-                  'T.dec U.cur V.cur W.cur X.dec_locl Y.cur Z.dec AE.cur Eth '
-                  'IJ.cur Eng OE.cur Thorn Germandbls',
+                  'T.dec U.cur V.cur W.cur X.dec_locl Y.cur Z.dec_locl AE.cur '
+                  'Eth IJ.cur Eng OE.cur Thorn Germandbls',
             'lc': 'a.mod b.lop c.mod d.mod e.ful f.ful_de g.jmc h.lop i.mod '
                   'j.jmc k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.cnt s.ful '
                   't.mod u.mod v.cnt w.cnt x.cnt_de y.jmc z.mod ae.ful eth.mod '
@@ -179,8 +179,8 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
                   'Q.cur_locl R S T U.cur V W X Y.cur Z AE Eth IJ Eng OE Thorn '
                   'Germandbls',
             'lc': 'a.mod b.lop c.mod d.mod e.mod f.ful_de g.jmc h.lop i.mod '
-                  'j.jmc k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.cnt s.mlp '
-                  't.lop_de u.mod v.ful w.ful x.ful y.jmc z.cnt ae.mod eth.mod '
+                  'j.jmc k.lop l.lop m.mod n.mod o.mod p.ful q.jmc r.mod s.mlp '
+                  't.lop_de u.mod v.ful w.ful x.mod y.jmc z.cnt ae.mod eth.mod '
                   'ij.mod eng oe.mod thorn.jmc germandbls.jmc idotless.mod '
                   'jdotless.jmc ',
             'slnt': 10},
@@ -373,10 +373,10 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
                'K.dec L.cur M.dec N.dec O P.cur Q.cur_locl R.cur S T.dec U.cur '
                'V.dec W.dec X.cur Y.cur Z.dec AE.cur Eth IJ.cur Eng OE.cur '
                'Thorn Germandbls',
-         'lc': 'a.mod b.ful c.mod d.mod e.mod f.mod_au g.mod h.lop i.mod j.mod '
-               'k.ful l.mod m.mod n.mod o.mod p.ful q.jmc r.ful s.ful t.mod '
-               'u.mod v.ful w.ful x.ful y.jmc z.cnt ae.mod eth.mod ij.mod eng '
-               'oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.jmc ',
+         'lc': 'a.mod b.ful c.mod d.mod e.mod f.mod_au g.mod h.mod i.mod j.mod '
+               'k.ful l.mod m.mod n.mod o.mod p.ful q.jmc r.mod s.ful t.mod '
+               'u.mod v.ful w.ful x.ful y.mod z.cnt_no ae.mod eth.mod ij.mod '
+               'eng oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.jmc ',
          'slnt': 18},
  'PER': {'Country': 'Peru',
          'EXTD': 400,
@@ -469,7 +469,7 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
          'SPED': 50,
          'UC': 'A.cur_locl B.cur C D.cur E.cur F.dec G.cur_locl H.dec I.dec '
                'J.cur K.dec L.dec M.cur N.cur O.cur P.dec Q.cur_locl R.cur '
-               'S_dec T.dec U.cur V.cur W.cur X.dec Y.cur Z.cur AE.cur Eth '
+               'S.dec T.dec U.cur V.cur W.cur X.dec Y.cur Z.cur AE.cur Eth '
                'IJ.cur Eng OE.cur Thorn Germandbls',
          'lc': 'a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc '
                'k.lop l.lop m.mod n.mod o.mod p.ful q.jmc r.mod s.ful t.mod '

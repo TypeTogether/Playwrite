@@ -6,8 +6,8 @@
   <anchor x="239" y="400" name="top"/>
   <outline>
     <contour>
-      <point x="-120" y="-815" type="curve" smooth="yes"/>
-      <point x="-22" y="-815"/>
+      <point x="-124" y="-815" type="curve" smooth="yes"/>
+      <point x="-11" y="-815"/>
       <point x="27" y="-752"/>
       <point x="154" y="-392" type="curve" smooth="yes"/>
       <point x="281" y="-34"/>
@@ -47,66 +47,26 @@
       <point x="204" y="96"/>
       <point x="235" y="37"/>
       <point x="94" y="-365" type="curve" smooth="yes"/>
-      <point x="-16" y="-679"/>
-      <point x="-46" y="-747"/>
-      <point x="-111" y="-747" type="curve" smooth="yes"/>
-      <point x="-143" y="-747"/>
-      <point x="-158" y="-726"/>
-      <point x="-158" y="-690" type="curve" smooth="yes"/>
-      <point x="-158" y="-527"/>
-      <point x="5" y="-236"/>
-      <point x="225" y="-80" type="curve"/>
-      <point x="212" y="-18" type="line"/>
-      <point x="-22" y="-165"/>
-      <point x="-230" y="-488"/>
-      <point x="-230" y="-695" type="curve" smooth="yes"/>
-      <point x="-230" y="-767"/>
-      <point x="-186" y="-815"/>
-    </contour>
-    <contour>
-      <point x="226" y="-11" type="curve"/>
-      <point x="239" y="-72" type="line"/>
-      <point x="283" y="-40"/>
-      <point x="326" y="-13"/>
-      <point x="368" y="12" type="curve"/>
-      <point x="390" y="23"/>
-      <point x="375" y="74"/>
-      <point x="342" y="56" type="curve" smooth="yes"/>
-      <point x="313" y="40"/>
-      <point x="268" y="17"/>
+      <point x="-24" y="-701"/>
+      <point x="-46" y="-753"/>
+      <point x="-118" y="-753" type="curve" smooth="yes"/>
+      <point x="-143" y="-753"/>
+      <point x="-164" y="-746"/>
+      <point x="-183" y="-708" type="curve" smooth="yes"/>
+      <point x="-191" y="-692"/>
+      <point x="-200" y="-690"/>
+      <point x="-222" y="-701" type="curve" smooth="yes"/>
+      <point x="-246" y="-713"/>
+      <point x="-242" y="-726"/>
+      <point x="-234" y="-743" type="curve" smooth="yes"/>
+      <point x="-216" y="-781"/>
+      <point x="-175" y="-815"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.hugojourdan.ColorFlow</key>
-      <dict>
-        <key>0</key>
-        <integer>0</integer>
-        <key>1</key>
-        <integer>0</integer>
-        <key>10</key>
-        <integer>0</integer>
-        <key>11</key>
-        <integer>0</integer>
-        <key>2</key>
-        <integer>0</integer>
-        <key>3</key>
-        <integer>0</integer>
-        <key>4</key>
-        <integer>0</integer>
-        <key>5</key>
-        <integer>0</integer>
-        <key>6</key>
-        <integer>0</integer>
-        <key>7</key>
-        <integer>0</integer>
-        <key>8</key>
-        <integer>0</integer>
-        <key>9</key>
-        <integer>0</integer>
-      </dict>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>
