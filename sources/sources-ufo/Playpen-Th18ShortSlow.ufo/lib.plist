@@ -1065,6 +1065,7 @@
       <string>cnct.ful_z_z</string>
       <string>cnct.ful_z_e.mod</string>
       <string>cnct.ful_z_s.mod</string>
+      <string>cnct.ful_t.lop_de_e.mod</string>
       <string>b.lop</string>
       <string>b.lop.ini</string>
       <string>b.lop.med</string>
@@ -1166,6 +1167,7 @@
       <string>cnct.cnt_r_x</string>
       <string>cnct.cnt_r_z</string>
       <string>cnct.cnt_r_e.mod</string>
+      <string>cnct.cnt_r_n.mod</string>
       <string>cnct.cnt_r_s.mod</string>
       <string>cnct.cnt_r_z.mod</string>
       <string>cnct.cnt_z_n</string>
@@ -1332,6 +1334,10 @@
       <string>z.cnt_au.ini</string>
       <string>z.cnt_au.med</string>
       <string>z.cnt_au.fin</string>
+      <string>z.cnt_no</string>
+      <string>z.cnt.ini_no</string>
+      <string>z.cnt.med_no</string>
+      <string>z.cnt.fin_no</string>
       <string>##CNCTloclLowercase</string>
       <string>##locl_t_SRC</string>
       <string>cnct.mod_t.lop_de_b</string>
@@ -1475,6 +1481,8 @@
       <string>Y_locl</string>
       <string>Z.dec_locl</string>
       <string>Z.dec_locl.ini</string>
+      <string>AE.cur.locl</string>
+      <string>OE.cur.locl</string>
       <string>##capConnectors</string>
       <string>cnct.cnt_G_n</string>
       <string>cnct.cnt_G_z</string>
@@ -1511,14 +1519,9 @@
       <string>entr_hlop</string>
       <string>entr_ncnt</string>
       <string>entr_zcnt</string>
-      <string>AE.cur.locl</string>
-      <string>OE.cur.locl</string>
-      <string>z.cnt_no</string>
-      <string>z.cnt.fin_no</string>
-      <string>z.cnt.ini_no</string>
-      <string>z.cnt.med_no</string>
-      <string>cnct.cnt_r_n.mod</string>
-      <string>cnct.ful_t.lop_de_e.mod</string>
+      <string>z.cnt_no.fin</string>
+      <string>z.cnt_no.ini</string>
+      <string>z.cnt_no.med</string>
       <string>_circle</string>
     </array>
     <key>public.postscriptNames</key>

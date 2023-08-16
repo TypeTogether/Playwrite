@@ -1017,6 +1017,7 @@ cnct.ful_z_x,
 cnct.ful_z_z,
 cnct.ful_z_e.mod,
 cnct.ful_z_s.mod,
+cnct.ful_t.lop_de_e.mod,
 b.lop,
 b.lop.ini,
 b.lop.med,
@@ -1118,6 +1119,7 @@ cnct.cnt_r_s,
 cnct.cnt_r_x,
 cnct.cnt_r_z,
 cnct.cnt_r_e.mod,
+cnct.cnt_r_n.mod,
 cnct.cnt_r_s.mod,
 cnct.cnt_r_z.mod,
 cnct.cnt_z_n,
@@ -1284,6 +1286,10 @@ z.cnt_au,
 z.cnt_au.ini,
 z.cnt_au.med,
 z.cnt_au.fin,
+z.cnt_no,
+z.cnt.ini_no,
+z.cnt.med_no,
+z.cnt.fin_no,
 "##CNCTloclLowercase",
 "##locl_t_SRC",
 cnct.mod_t.lop_de_b,
@@ -1427,6 +1433,8 @@ U_locl.au,
 Y_locl,
 Z.dec_locl,
 Z.dec_locl.ini,
+AE.cur.locl,
+OE.cur.locl,
 "##capConnectors",
 cnct.cnt_G_n,
 cnct.cnt_G_z,
@@ -6701,6 +6709,6 @@ GSCornerRadius = 12;
 };
 };
 };
-versionMajor = 1;
-versionMinor = 0;
+versionMajor = 0;
+versionMinor = 200;
 }
