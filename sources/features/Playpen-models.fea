@@ -625,6 +625,7 @@ lookup before_zcnt {
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_z;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_z.cnt;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_z.cnt;
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_z.cnt;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.cnt_t.lop_de_z;
 	sub @needsEntry_SRC by @needsEntry_SRC entr_zcnt;
@@ -1322,6 +1323,7 @@ feature calt {
 		sub @bmlp_SRC' lookup before_sful @sful_TGT;
 		sub @bmlp_SRC' lookup before_t @tmod_TGT;
 		sub @bmlp_SRC' lookup before_xful @xful_TGT;
+		sub @bmlp_SRC' lookup before_zcnt @zcnt_TGT;
 		#
 		sub @fmlp_SRC' lookup before_o @omod_TGT;
 		sub @fmlp_SRC' lookup before_eful @eful_TGT;
@@ -1333,6 +1335,7 @@ feature calt {
 		sub @fmlp_SRC' lookup before_sful @sful_TGT;
 		sub @fmlp_SRC' lookup before_t @tmod_TGT;
 		sub @fmlp_SRC' lookup before_xful @xful_TGT;
+		sub @fmlp_SRC' lookup before_zcnt @zcnt_TGT;
 		#
 		sub @omlp_SRC' lookup before_o @omod_TGT;
 		sub @omlp_SRC' lookup before_eful @eful_TGT;
