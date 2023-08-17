@@ -1,5 +1,5 @@
 {
-.appVersion = "3211";
+.appVersion = "3212";
 .formatVersion = 3;
 axes = (
 {
@@ -1287,9 +1287,9 @@ z.cnt_au.ini,
 z.cnt_au.med,
 z.cnt_au.fin,
 z.cnt_no,
-z.cnt.ini_no,
-z.cnt.med_no,
-z.cnt.fin_no,
+z.cnt_no.ini,
+z.cnt_no.med,
+z.cnt_no.fin,
 "##CNCTloclLowercase",
 "##locl_t_SRC",
 cnct.mod_t.lop_de_b,
@@ -6709,6 +6709,6 @@ GSCornerRadius = 12;
 };
 };
 };
-versionMajor = 0;
-versionMinor = 200;
+versionMajor = 1;
+versionMinor = 0;
 }
