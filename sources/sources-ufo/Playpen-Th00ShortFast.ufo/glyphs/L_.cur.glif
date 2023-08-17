@@ -1,9 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L.cur" format="2">
   <advance width="621"/>
-  <anchor x="447" y="370" name="CAT"/>
+  <anchor x="440" y="370" name="CAT"/>
   <anchor x="372" y="0" name="bottom"/>
+  <anchor x="201" y="360" name="center"/>
   <anchor x="332" y="670" name="top"/>
+  <anchor x="475" y="700" name="topright"/>
   <outline>
     <contour>
       <point x="105" y="-17" type="curve" smooth="yes"/>

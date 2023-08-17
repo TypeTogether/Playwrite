@@ -832,6 +832,7 @@
       <string>cnct.mod_e_z.ful</string>
       <string>cnct.mod_e_n.cnt</string>
       <string>cnct.mod_e_z.cnt</string>
+      <string>cnct.mod_r_x.cnt</string>
       <string>cnct.mod_o_o</string>
       <string>cnct.mod_o_b</string>
       <string>cnct.mod_o_e</string>
@@ -1205,6 +1206,7 @@
       <string>cnct.mrr_f_x</string>
       <string>cnct.mrr_f_z</string>
       <string>cnct.mrr_f_e.mod</string>
+      <string>cnct.mrr_f_n.mod</string>
       <string>cnct.mrr_f_s.mod</string>
       <string>cnct.mrr_f_r.ful</string>
       <string>cnct.mrr_f_z.mod</string>
@@ -1328,6 +1330,10 @@
       <string>q.mod_au.ini</string>
       <string>q.mod_au.med</string>
       <string>q.mod_au.fin</string>
+      <string>t.mod_be</string>
+      <string>t.mod_be.ini</string>
+      <string>t.mod_be.med</string>
+      <string>t.mod_be.fin</string>
       <string>t.lop_de</string>
       <string>t.lop_de.ini</string>
       <string>t.lop_de.med</string>
@@ -1529,12 +1535,6 @@
       <string>entr_hlop</string>
       <string>entr_ncnt</string>
       <string>entr_zcnt</string>
-      <string>t.mod_be</string>
-      <string>t.mod_be.fin</string>
-      <string>t.mod_be.ini</string>
-      <string>t.mod_be.med</string>
-      <string>cnct.mod_r_x.cnt</string>
-      <string>cnct.mrr_f_n.mod</string>
       <string>_circle</string>
     </array>
     <key>public.postscriptNames</key>

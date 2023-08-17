@@ -2,9 +2,11 @@
 <glyph name="L.cur" format="2">
   <advance width="962"/>
   <guideline x="102" y="28" angle="72.96"/>
-  <anchor x="657" y="612" name="CAT"/>
+  <anchor x="850" y="612" name="CAT"/>
   <anchor x="478" y="0" name="bottom"/>
+  <anchor x="456" y="612" name="center"/>
   <anchor x="805" y="1139" name="top"/>
+  <anchor x="1050" y="1190" name="topright"/>
   <outline>
     <contour>
       <point x="123" y="-17" type="curve" smooth="yes"/>

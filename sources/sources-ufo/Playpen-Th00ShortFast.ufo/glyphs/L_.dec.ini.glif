@@ -1,10 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L.dec.ini" format="2">
   <advance width="629"/>
-  <anchor x="447" y="370" name="CAT"/>
+  <anchor x="460" y="330" name="CAT"/>
   <anchor x="395" y="0" name="bottom"/>
+  <anchor x="224" y="280" name="center"/>
   <anchor x="629" y="0" name="cnct"/>
   <anchor x="355" y="670" name="top"/>
+  <anchor x="519" y="700" name="topright"/>
   <outline>
     <contour>
       <point x="138" y="-17" type="curve" smooth="yes"/>
