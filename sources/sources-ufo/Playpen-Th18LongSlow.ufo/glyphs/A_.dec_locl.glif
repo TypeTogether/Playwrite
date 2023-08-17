@@ -2,7 +2,7 @@
 <glyph name="A.dec_locl" format="2">
   <advance width="1258"/>
   <anchor x="590" y="0" name="bottom"/>
-  <anchor x="938" y="0" name="ogonek"/>
+  <anchor x="1094" y="0" name="ogonek"/>
   <anchor x="972" y="1139" name="top"/>
   <outline>
     <contour>
@@ -57,10 +57,10 @@
       <point x="89" y="-14"/>
     </contour>
     <contour>
-      <point x="549" y="390" type="line"/>
-      <point x="930" y="390" type="line"/>
-      <point x="938" y="416" type="line"/>
-      <point x="557" y="416" type="line"/>
+      <point x="555" y="390" type="line"/>
+      <point x="924" y="390" type="line"/>
+      <point x="932" y="416" type="line"/>
+      <point x="563" y="416" type="line"/>
     </contour>
   </outline>
 </glyph>

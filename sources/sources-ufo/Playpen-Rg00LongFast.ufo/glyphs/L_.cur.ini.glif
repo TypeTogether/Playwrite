@@ -1,10 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="L.cur.ini" format="2">
   <advance width="908"/>
-  <anchor x="545" y="611" name="CAT"/>
+  <anchor x="700" y="611" name="CAT"/>
   <anchor x="576" y="0" name="bottom"/>
+  <anchor x="311" y="612" name="center"/>
   <anchor x="908" y="0" name="cnct"/>
   <anchor x="514" y="1139" name="top"/>
+  <anchor x="780" y="1190" name="topright"/>
   <outline>
     <contour>
       <point x="149" y="-17" type="curve" smooth="yes"/>

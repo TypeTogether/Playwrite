@@ -531,7 +531,6 @@ lookup before_x {
 	sub @zful_SRC by @zful_SRC cnct.ful_z_x;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_x;
-	# sub @eful_SRC by @eful_SRC cnct.ful_e_x;
 	sub @eful_SRC by @eful_SRC cnct.ful_e_x.mod;
 } before_x;
 
@@ -1475,6 +1474,7 @@ feature dist {
 			pos @omod_SRC  20 @fful_TGT;
 			pos @omod_SRC  30 @eful_TGT;
 			pos @rmod_SRC   5 @zmod_TGT;
+			pos @rmod_SRC  30 @xcnt_TGT;
 			pos @rmod_SRC  50 @emod_TGT;
 			pos @rmod_SRC  50 @fful_TGT;
 			pos @rmod_SRC  60 @eful_TGT;
