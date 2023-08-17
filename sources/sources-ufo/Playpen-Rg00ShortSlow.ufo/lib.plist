@@ -47,7 +47,7 @@
       </dict>
     </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>3211</string>
+    <string>3212</string>
     <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
     <integer>2000</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -1343,9 +1343,9 @@
       <string>z.cnt_au.med</string>
       <string>z.cnt_au.fin</string>
       <string>z.cnt_no</string>
-      <string>z.cnt.ini_no</string>
-      <string>z.cnt.med_no</string>
-      <string>z.cnt.fin_no</string>
+      <string>z.cnt_no.ini</string>
+      <string>z.cnt_no.med</string>
+      <string>z.cnt_no.fin</string>
       <string>##CNCTloclLowercase</string>
       <string>##locl_t_SRC</string>
       <string>cnct.mod_t.lop_de_b</string>
@@ -1527,9 +1527,12 @@
       <string>entr_hlop</string>
       <string>entr_ncnt</string>
       <string>entr_zcnt</string>
-      <string>z.cnt_no.fin</string>
-      <string>z.cnt_no.ini</string>
-      <string>z.cnt_no.med</string>
+      <string>t.mod_be</string>
+      <string>t.mod_be.fin</string>
+      <string>t.mod_be.ini</string>
+      <string>t.mod_be.med</string>
+      <string>cnct.mod_r_x.cnt</string>
+      <string>cnct.mrr_f_n.mod</string>
       <string>_circle</string>
     </array>
     <key>public.postscriptNames</key>
