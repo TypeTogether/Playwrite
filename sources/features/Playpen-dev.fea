@@ -533,7 +533,6 @@ lookup before_x {
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_x;
 	# sub @eful_SRC by @eful_SRC cnct.ful_e_x;
 	sub @eful_SRC by @eful_SRC cnct.ful_e_x.mod;
-	sub @rmod_SRC by @rmod_SRC cnct.mod_r_x.cnt;
 } before_x;
 
 
@@ -554,6 +553,7 @@ lookup before_xful {
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_x;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_x;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_x;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_x.cnt;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_x;
 	sub @emod_SRC by @emod_SRC cnct.mod_e_x.ful;
@@ -1435,7 +1435,7 @@ feature calt {
 		sub @rcnt_SRC' lookup before_n @nmod_TGT;
 		#
 		sub @fmrr_SRC' lookup before_n @nmod_TGT;
-		sub @rmod_SRC' lookup before_x @xful_TGT;
+		sub @rmod_SRC' lookup before_xful @xful_TGT;
 	} SENSEI_MAGIC;
 } calt;
 
