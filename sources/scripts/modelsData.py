@@ -66,6 +66,32 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
                    'eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc '
                    'idotless.mod jdotless.jmc ',
              'slnt': 18},
+ 'BEL_VLG': {'Country': 'Belgium Flanders',
+             'EXTD': 400,
+             'SPED': 25,
+             'UC': 'A.cur_locl B.cur C.cur D.dec E.cur F.cur G.cur_locl H.cur '
+                   'I.dec J.dec K.dec L.dec M.dec N.dec O.cur P.cur Q_locl '
+                   'R.cur S.dec T.cur_locl U.cur V.dec W.dec X.dec_locl Y.cur '
+                   'Z.dec_locl AE.cur Eth IJ.cur Eng OE.cur Thorn Germandbls',
+             'lc': 'a.mod b.lop c.mod d.mod e.ful f.ful_de g.jmc h.lop i.mod '
+                   'j.jmc k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.ful '
+                   's.jmc t.mod_be u.mod v.cnt w.cnt x.cnt y.jmc z.mod ae.ful '
+                   'eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc '
+                   'idotless.mod jdotless.jmc ',
+             'slnt': 18},
+ 'BEL_WAL': {'Country': 'Belgium Walloon',
+             'EXTD': 724,
+             'SPED': 0,
+             'UC': 'A.dec_locl B.cur C.cur D.dec E.cur F.cur G.cur_locl H.cur '
+                   'I.dec J.dec K.dec L.dec M.dec N.dec O.cur P.cur Q.cur_locl '
+                   'R.cur S.dec T.cur_locl U.cur V.cur W.cur X.dec_locl Y.cur '
+                   'Z.dec_locl AE.cur Eth IJ.cur Eng OE.cur Thorn Germandbls',
+             'lc': 'a.mod b.mlp c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod '
+                   'j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.ful q.jmc r.mlp '
+                   's.ful t.mod_be u.mod v.mlp w.mlp x.cnt y.jmc z.mlp ae.ful '
+                   'eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc '
+                   'idotless.mod jdotless.jmc ',
+             'slnt': 0},
  'BRA': {'Country': 'Brazil',
          'EXTD': 505,
          'SPED': 0,
@@ -441,7 +467,7 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
                 'SPED': 0,
                 'UC': 'A B C D E F G H I_locl J K L M N O P Q R S T U V W X Y '
                       'Z AE Eth IJ Eng OE Thorn Germandbls',
-                'lc': 'a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.lop i.mod '
+                'lc': 'a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod '
                       'j.mod k.ful l.mod m.cnt n.cnt o.mod p.mod q.mod_au '
                       'r.cnt s.mod t.mod u.mod v.mod w.mod x.mod y.mod z.mod '
                       'ae.mod eth.mod ij.mod eng oe.mod thorn.jmc '
