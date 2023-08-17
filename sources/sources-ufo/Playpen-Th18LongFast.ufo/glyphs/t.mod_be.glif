@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="t.mod_be" format="2">
+  <advance width="310"/>
+  <anchor x="112" y="0" name="bottom"/>
+  <anchor x="160" y="235" name="center"/>
+  <anchor x="245" y="558" name="top"/>
+  <anchor x="283" y="625" name="topright"/>
+  <outline>
+    <component base="t"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

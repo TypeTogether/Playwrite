@@ -1388,6 +1388,8 @@
     <string>cnct.mod_r_v.glif</string>
     <key>cnct.mod_r_x</key>
     <string>cnct.mod_r_x.glif</string>
+    <key>cnct.mod_r_x.cnt</key>
+    <string>cnct.mod_r_x.cnt.glif</string>
     <key>cnct.mod_r_z</key>
     <string>cnct.mod_r_z.glif</string>
     <key>cnct.mod_t.lop_de_b</key>
@@ -1444,6 +1446,8 @@
     <string>cnct.mrr_f_i.glif</string>
     <key>cnct.mrr_f_n</key>
     <string>cnct.mrr_f_n.glif</string>
+    <key>cnct.mrr_f_n.mod</key>
+    <string>cnct.mrr_f_n.mod.glif</string>
     <key>cnct.mrr_f_o</key>
     <string>cnct.mrr_f_o.glif</string>
     <key>cnct.mrr_f_r.ful</key>
@@ -2452,6 +2456,14 @@
     <string>t.mod.med.glif</string>
     <key>t.mod.med_o_</key>
     <string>t.mod.med_o_.glif</string>
+    <key>t.mod_be</key>
+    <string>t.mod_be.glif</string>
+    <key>t.mod_be.fin</key>
+    <string>t.mod_be.fin.glif</string>
+    <key>t.mod_be.ini</key>
+    <string>t.mod_be.ini.glif</string>
+    <key>t.mod_be.med</key>
+    <string>t.mod_be.med.glif</string>
     <key>tbar</key>
     <string>tbar.glif</string>
     <key>tcaron</key>

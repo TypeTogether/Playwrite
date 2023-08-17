@@ -1392,6 +1392,8 @@
       <integer>4</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_r_x</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_r_x.cnt</key>
+      <integer>4</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_r_z</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_t.lop_de_b</key>
@@ -1447,6 +1449,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_i</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_n</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_n.mod</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_o</key>
       <integer>4</integer>
@@ -2455,6 +2459,14 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.t.mod.med</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.t.mod.med_o_</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.t.mod_be</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.t.mod_be.fin</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.t.mod_be.ini</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.t.mod_be.med</key>
       <integer>4</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.tbar</key>
       <integer>4</integer>
