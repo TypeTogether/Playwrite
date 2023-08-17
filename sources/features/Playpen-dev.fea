@@ -28,10 +28,10 @@
 
 # --------------
 # POSITION
-@posBase = [a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod j.mod k.mod l.mod m.mod n.mod o.mod p.mod q.mod r.mod s.mod t.mod u.mod v.mod w.mod x.mod y.mod z.mod b.jmc f.jmc g.jmc j.jmc p.jmc q.jmc q.jmc_ar s.jmc y.jmc b.ful e.ful f.ful k.ful p.ful r.ful s.ful v.ful w.ful x.ful z.ful b.lop h.lop k.lop l.lop l.alt1.lop m.cnt n.cnt r.cnt v.cnt w.cnt y.cnt z.cnt f.mrr f.alt1.mrr p.mrr q.mrr b.mlp o.mlp r.mlp s.mlp v.mlp w.mlp z.mlp x.cnt f.mlp b.jmc_dk d.lop_cu f.mod_au f.ful_de f.ful_pe f.ful_pl k.lop_pe p.mrr_ca q.mod_au x.cnt_de z.cnt_au z.cnt_no t.lop_de idotless.mod jdotless.mod jdotless.jmc ae.mod oe.mod ae.ful oe.ful ij.mod germandbls.jmc ij.jmc eth.mod thorn.jmc];
-@posIni = [a.mod.ini b.mod.ini c.mod.ini d.mod.ini e.mod.ini f.mod.ini g.mod.ini h.mod.ini i.mod.ini j.mod.ini k.mod.ini l.mod.ini m.mod.ini n.mod.ini o.mod.ini p.mod.ini q.mod.ini r.mod.ini s.mod.ini t.mod.ini u.mod.ini v.mod.ini w.mod.ini x.mod.ini y.mod.ini z.mod.ini b.jmc.ini f.jmc.ini g.jmc.ini j.jmc.ini p.jmc.ini q.jmc.ini q.jmc_ar.ini s.jmc.ini y.jmc.ini b.ful.ini e.ful.ini f.ful.ini k.ful.ini p.ful.ini r.ful.ini s.ful.ini v.ful.ini w.ful.ini x.ful.ini z.ful.ini b.lop.ini h.lop.ini k.lop.ini l.lop.ini l.alt1.lop.ini m.cnt.ini n.cnt.ini r.cnt.ini v.cnt.ini w.cnt.ini y.cnt.ini z.cnt.ini f.mrr.ini f.alt1.mrr.ini p.mrr.ini q.mrr.ini b.mlp.ini o.mlp.ini r.mlp.ini s.mlp.ini v.mlp.ini w.mlp.ini z.mlp.ini x.cnt.ini f.mlp.ini b.jmc_dk.ini d.lop_cu.ini f.mod_au.ini f.ful_de.ini f.ful_pe.ini f.ful_pl.ini k.lop_pe.ini p.mrr_ca.ini q.mod_au.ini x.cnt_de.ini z.cnt_au.ini z.cnt_no.ini t.lop_de.ini idotless.mod.ini jdotless.mod.ini jdotless.jmc.ini ae.mod.ini oe.mod.ini ae.ful.ini oe.ful.ini ij.mod.ini germandbls.jmc.ini ij.jmc.ini eth.mod.ini thorn.jmc.ini];
-@posMed = [a.mod.med b.mod.med c.mod.med d.mod.med e.mod.med f.mod.med g.mod.med h.mod.med i.mod.med j.mod.med k.mod.med l.mod.med m.mod.med n.mod.med o.mod.med p.mod.med q.mod.med r.mod.med s.mod.med t.mod.med u.mod.med v.mod.med w.mod.med x.mod.med y.mod.med z.mod.med b.jmc.med f.jmc.med g.jmc.med j.jmc.med p.jmc.med q.jmc.med q.jmc_ar.med s.jmc.med y.jmc.med b.ful.med e.ful.med f.ful.med k.ful.med p.ful.med r.ful.med s.ful.med v.ful.med w.ful.med x.ful.med z.ful.med b.lop.med h.lop.med k.lop.med l.lop.med l.alt1.lop.med m.cnt.med n.cnt.med r.cnt.med v.cnt.med w.cnt.med y.cnt.med z.cnt.med f.mrr.med f.alt1.mrr.med p.mrr.med q.mrr.med b.mlp.med o.mlp.med r.mlp.med s.mlp.med v.mlp.med w.mlp.med z.mlp.med x.cnt.med f.mlp.med b.jmc_dk.med d.lop_cu.med f.mod_au.med f.ful_de.med f.ful_pe.med f.ful_pl.med k.lop_pe.med p.mrr_ca.med q.mod_au.med x.cnt_de.med z.cnt_au.med z.cnt_no.med t.lop_de.med idotless.mod.med jdotless.mod.med jdotless.jmc.med ae.mod.med oe.mod.med ae.ful.med oe.ful.med ij.mod.med germandbls.jmc.med ij.jmc.med eth.mod.med thorn.jmc.med];
-@posFin = [a.mod.fin b.mod.fin c.mod.fin d.mod.fin e.mod.fin f.mod.fin g.mod.fin h.mod.fin i.mod.fin j.mod.fin k.mod.fin l.mod.fin m.mod.fin n.mod.fin o.mod.fin p.mod.fin q.mod.fin r.mod.fin s.mod.fin t.mod.fin u.mod.fin v.mod.fin w.mod.fin x.mod.fin y.mod.fin z.mod.fin b.jmc.fin f.jmc.fin g.jmc.fin j.jmc.fin p.jmc.fin q.jmc.fin q.jmc_ar.fin s.jmc.fin y.jmc.fin b.ful.fin e.ful.fin f.ful.fin k.ful.fin p.ful.fin r.ful.fin s.ful.fin v.ful.fin w.ful.fin x.ful.fin z.ful.fin b.lop.fin h.lop.fin k.lop.fin l.lop.fin l.alt1.lop.fin m.cnt.fin n.cnt.fin r.cnt.fin v.cnt.fin w.cnt.fin y.cnt.fin z.cnt.fin f.mrr.fin f.alt1.mrr.fin p.mrr.fin q.mrr.fin b.mlp.fin o.mlp.fin r.mlp.fin s.mlp.fin v.mlp.fin w.mlp.fin z.mlp.fin x.cnt.fin f.mlp.fin b.jmc_dk.fin d.lop_cu.fin f.mod_au.fin f.ful_de.fin f.ful_pe.fin f.ful_pl.fin k.lop_pe.fin p.mrr_ca.fin q.mod_au.fin x.cnt_de.fin z.cnt_au.fin z.cnt_no.fin t.lop_de.fin idotless.mod.fin jdotless.mod.fin jdotless.jmc.fin ae.mod.fin oe.mod.fin ae.ful.fin oe.ful.fin ij.mod.fin germandbls.jmc.fin ij.jmc.fin eth.mod.fin thorn.jmc.fin];
+@posBase = [a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod j.mod k.mod l.mod m.mod n.mod o.mod p.mod q.mod r.mod s.mod t.mod u.mod v.mod w.mod x.mod y.mod z.mod b.jmc f.jmc g.jmc j.jmc p.jmc q.jmc q.jmc_ar s.jmc y.jmc b.ful e.ful f.ful k.ful p.ful r.ful s.ful v.ful w.ful x.ful z.ful b.lop h.lop k.lop l.lop l.alt1.lop m.cnt n.cnt r.cnt v.cnt w.cnt y.cnt z.cnt f.mrr f.alt1.mrr p.mrr q.mrr b.mlp o.mlp r.mlp s.mlp v.mlp w.mlp z.mlp x.cnt f.mlp b.jmc_dk d.lop_cu f.mod_au f.ful_de f.ful_pe f.ful_pl k.lop_pe p.mrr_ca q.mod_au x.cnt_de z.cnt_au z.cnt_no t.lop_de idotless.mod jdotless.mod jdotless.jmc ae.mod oe.mod ae.ful oe.ful ij.mod germandbls.jmc ij.jmc eth.mod thorn.jmc t.mod_be];
+@posIni = [a.mod.ini b.mod.ini c.mod.ini d.mod.ini e.mod.ini f.mod.ini g.mod.ini h.mod.ini i.mod.ini j.mod.ini k.mod.ini l.mod.ini m.mod.ini n.mod.ini o.mod.ini p.mod.ini q.mod.ini r.mod.ini s.mod.ini t.mod.ini u.mod.ini v.mod.ini w.mod.ini x.mod.ini y.mod.ini z.mod.ini b.jmc.ini f.jmc.ini g.jmc.ini j.jmc.ini p.jmc.ini q.jmc.ini q.jmc_ar.ini s.jmc.ini y.jmc.ini b.ful.ini e.ful.ini f.ful.ini k.ful.ini p.ful.ini r.ful.ini s.ful.ini v.ful.ini w.ful.ini x.ful.ini z.ful.ini b.lop.ini h.lop.ini k.lop.ini l.lop.ini l.alt1.lop.ini m.cnt.ini n.cnt.ini r.cnt.ini v.cnt.ini w.cnt.ini y.cnt.ini z.cnt.ini f.mrr.ini f.alt1.mrr.ini p.mrr.ini q.mrr.ini b.mlp.ini o.mlp.ini r.mlp.ini s.mlp.ini v.mlp.ini w.mlp.ini z.mlp.ini x.cnt.ini f.mlp.ini b.jmc_dk.ini d.lop_cu.ini f.mod_au.ini f.ful_de.ini f.ful_pe.ini f.ful_pl.ini k.lop_pe.ini p.mrr_ca.ini q.mod_au.ini x.cnt_de.ini z.cnt_au.ini z.cnt_no.ini t.lop_de.ini idotless.mod.ini jdotless.mod.ini jdotless.jmc.ini ae.mod.ini oe.mod.ini ae.ful.ini oe.ful.ini ij.mod.ini germandbls.jmc.ini ij.jmc.ini eth.mod.ini thorn.jmc.ini t.mod_be.ini];
+@posMed = [a.mod.med b.mod.med c.mod.med d.mod.med e.mod.med f.mod.med g.mod.med h.mod.med i.mod.med j.mod.med k.mod.med l.mod.med m.mod.med n.mod.med o.mod.med p.mod.med q.mod.med r.mod.med s.mod.med t.mod.med u.mod.med v.mod.med w.mod.med x.mod.med y.mod.med z.mod.med b.jmc.med f.jmc.med g.jmc.med j.jmc.med p.jmc.med q.jmc.med q.jmc_ar.med s.jmc.med y.jmc.med b.ful.med e.ful.med f.ful.med k.ful.med p.ful.med r.ful.med s.ful.med v.ful.med w.ful.med x.ful.med z.ful.med b.lop.med h.lop.med k.lop.med l.lop.med l.alt1.lop.med m.cnt.med n.cnt.med r.cnt.med v.cnt.med w.cnt.med y.cnt.med z.cnt.med f.mrr.med f.alt1.mrr.med p.mrr.med q.mrr.med b.mlp.med o.mlp.med r.mlp.med s.mlp.med v.mlp.med w.mlp.med z.mlp.med x.cnt.med f.mlp.med b.jmc_dk.med d.lop_cu.med f.mod_au.med f.ful_de.med f.ful_pe.med f.ful_pl.med k.lop_pe.med p.mrr_ca.med q.mod_au.med x.cnt_de.med z.cnt_au.med z.cnt_no.med t.lop_de.med idotless.mod.med jdotless.mod.med jdotless.jmc.med ae.mod.med oe.mod.med ae.ful.med oe.ful.med ij.mod.med germandbls.jmc.med ij.jmc.med eth.mod.med thorn.jmc.med t.mod_be.med];
+@posFin = [a.mod.fin b.mod.fin c.mod.fin d.mod.fin e.mod.fin f.mod.fin g.mod.fin h.mod.fin i.mod.fin j.mod.fin k.mod.fin l.mod.fin m.mod.fin n.mod.fin o.mod.fin p.mod.fin q.mod.fin r.mod.fin s.mod.fin t.mod.fin u.mod.fin v.mod.fin w.mod.fin x.mod.fin y.mod.fin z.mod.fin b.jmc.fin f.jmc.fin g.jmc.fin j.jmc.fin p.jmc.fin q.jmc.fin q.jmc_ar.fin s.jmc.fin y.jmc.fin b.ful.fin e.ful.fin f.ful.fin k.ful.fin p.ful.fin r.ful.fin s.ful.fin v.ful.fin w.ful.fin x.ful.fin z.ful.fin b.lop.fin h.lop.fin k.lop.fin l.lop.fin l.alt1.lop.fin m.cnt.fin n.cnt.fin r.cnt.fin v.cnt.fin w.cnt.fin y.cnt.fin z.cnt.fin f.mrr.fin f.alt1.mrr.fin p.mrr.fin q.mrr.fin b.mlp.fin o.mlp.fin r.mlp.fin s.mlp.fin v.mlp.fin w.mlp.fin z.mlp.fin x.cnt.fin f.mlp.fin b.jmc_dk.fin d.lop_cu.fin f.mod_au.fin f.ful_de.fin f.ful_pe.fin f.ful_pl.fin k.lop_pe.fin p.mrr_ca.fin q.mod_au.fin x.cnt_de.fin z.cnt_au.fin z.cnt_no.fin t.lop_de.fin idotless.mod.fin jdotless.mod.fin jdotless.jmc.fin ae.mod.fin oe.mod.fin ae.ful.fin oe.ful.fin ij.mod.fin germandbls.jmc.fin ij.jmc.fin eth.mod.fin thorn.jmc.fin t.mod_be.fin];
 
 # --------------
 # CONNECTIONS
@@ -51,7 +51,7 @@
 @fmlp_SRC = [f.mlp.ini f.mlp.med];
 @fmrr_SRC = [f.mrr.ini f.mrr.med];
 @gjmc_SRC = [g.jmc.ini g.jmc.med j.jmc.ini j.jmc.med y.jmc.ini y.jmc.med y.cnt.ini y.cnt.med y.cnt.med_n_ jdotless.jmc.ini jdotless.jmc.med ij.jmc.ini ij.jmc.med];
-@nmod_SRC = [A.cur.ini A.cur_locl.ini A.dec_locl.ini H.cur.ini K.cur.ini K.dec.ini L.cur.ini L.dec.ini M.cur.ini M.dec.ini N.cur.ini Q.cur.ini Q.dec.ini Q.dec_pt.ini R.cur.ini R.dec.ini U.cur.ini X.cur.ini a.mod.ini a.mod.med b.jmc.ini b.jmc.med b.jmc_dk.ini b.jmc_dk.med d.lop_cu.ini d.lop_cu.med d.mod.ini d.mod.med germandbls.jmc.ini germandbls.jmc.med h.lop.ini h.lop.med h.mod.ini h.mod.med i.mod.ini i.mod.med idotless.mod.ini idotless.mod.med jdotless.mod.ini jdotless.mod.med k.ful.ini k.ful.med k.lop.ini k.lop.med k.lop_pe.ini k.lop_pe.med k.mod.ini k.mod.med l.lop.ini l.lop.med l.mod.ini l.mod.med m.cnt.ini m.cnt.med m.cnt.med_n_ m.mod.ini m.mod.med n.cnt.ini n.cnt.med n.cnt.med_n_ n.mod.ini n.mod.med p.ful.ini p.ful.med p.jmc.ini p.jmc.med p.mrr.ini p.mrr.med p.mrr_ca.ini p.mrr_ca.med q.jmc.ini q.jmc.med q.jmc_ar.ini q.jmc_ar.med q.mrr.ini q.mrr.med r.ful.ini r.ful.med r.mlp.ini r.mlp.med s.ful.ini s.ful.med s.jmc.ini s.jmc.med s.mlp.ini s.mlp.med t.mod.ini t.mod.med t.mod.med_o_ thorn.jmc.ini thorn.jmc.med u.mod.ini u.mod.med x.cnt.ini x.cnt.med x.cnt_de.ini x.cnt_de.med x.ful.ini x.ful.med x.mod.ini x.mod.med z.mod.ini z.mod.med];
+@nmod_SRC = [A.cur.ini A.cur_locl.ini A.dec_locl.ini H.cur.ini K.cur.ini K.dec.ini L.cur.ini L.dec.ini M.cur.ini M.dec.ini N.cur.ini Q.cur.ini Q.dec.ini Q.dec_pt.ini R.cur.ini R.dec.ini U.cur.ini X.cur.ini a.mod.ini a.mod.med b.jmc.ini b.jmc.med b.jmc_dk.ini b.jmc_dk.med d.lop_cu.ini d.lop_cu.med d.mod.ini d.mod.med germandbls.jmc.ini germandbls.jmc.med h.lop.ini h.lop.med h.mod.ini h.mod.med i.mod.ini i.mod.med idotless.mod.ini idotless.mod.med jdotless.mod.ini jdotless.mod.med k.ful.ini k.ful.med k.lop.ini k.lop.med k.lop_pe.ini k.lop_pe.med k.mod.ini k.mod.med l.lop.ini l.lop.med l.mod.ini l.mod.med m.cnt.ini m.cnt.med m.cnt.med_n_ m.mod.ini m.mod.med n.cnt.ini n.cnt.med n.cnt.med_n_ n.mod.ini n.mod.med p.ful.ini p.ful.med p.jmc.ini p.jmc.med p.mrr.ini p.mrr.med p.mrr_ca.ini p.mrr_ca.med q.jmc.ini q.jmc.med q.jmc_ar.ini q.jmc_ar.med q.mrr.ini q.mrr.med r.ful.ini r.ful.med r.mlp.ini r.mlp.med s.ful.ini s.ful.med s.jmc.ini s.jmc.med s.mlp.ini s.mlp.med t.mod.ini t.mod.med t.mod.med_o_ t.mod_be.ini t.mod_be.med thorn.jmc.ini thorn.jmc.med u.mod.ini u.mod.med x.cnt.ini x.cnt.med x.cnt_de.ini x.cnt_de.med x.ful.ini x.ful.med x.mod.ini x.mod.med z.mod.ini z.mod.med];
 @omod_SRC = [o.mod.ini o.mod.med];
 @omlp_SRC = [o.mlp.ini o.mlp.med];
 @rmod_SRC = [r.mod.ini r.mod.med];
@@ -89,8 +89,8 @@
 @smod_TGT = [s.jmc.fin s.jmc.med s.mod.fin s.mod.med];
 @sful_TGT = [s.ful.fin s.ful.med s.mlp.fin s.mlp.med];
 
-@tmod_TGT_CUR = [t.mod];
-@tmod_TGT = [@tmod_TGT_CUR f.mod.fin f.mod.fin_o_ f.mod.med f.mod.med_o_ t.mod.fin t.mod.fin_o_ t.mod.med t.mod.med_o_ f.mod_au.fin f.mod_au.med f.mod_au.med_o_ f.mod_au.fin_o_];
+@tmod_TGT_CUR = [t.mod t.mod_be];
+@tmod_TGT = [@tmod_TGT_CUR f.mod.fin f.mod.fin_o_ f.mod.med f.mod.med_o_ f.mod_au.fin f.mod_au.fin_o_ f.mod_au.med f.mod_au.med_o_ t.mod.fin t.mod.fin_o_ t.mod.med t.mod.med_o_ t.mod_be.fin t.mod_be.med];
 @vmod_TGT = [v.mod.fin v.mod.med w.mod.fin w.mod.med];
 @xmod_TGT = [x.mod.fin x.mod.med];
 
@@ -310,6 +310,7 @@ lookup before_n {
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_n;
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_n.mod;
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_n.mod;
 } before_n;
 
 
@@ -532,6 +533,7 @@ lookup before_x {
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_x;
 	# sub @eful_SRC by @eful_SRC cnct.ful_e_x;
 	sub @eful_SRC by @eful_SRC cnct.ful_e_x.mod;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_x.cnt;
 } before_x;
 
 
@@ -822,7 +824,7 @@ feature ccmp {
 		sub gcommaaccent by g commaturnedabovecomb;
 		sub gdotaccent by g dotaccentcomb;
 		sub hbar by h strokeshortcomb;
-		sub hcircumflex by h circumflexcomb;
+		sub hcircumflex by h circumflexcomb.case;
 		sub iacute by idotless acutecomb;
 		sub ibreve by idotless brevecomb;
 		sub icaron by idotless caroncomb;
@@ -838,7 +840,7 @@ feature ccmp {
 		sub ijacute by idotless jdotless acutecomb;
 		sub jcircumflex by jdotless circumflexcomb;
 		sub kcommaaccent by k commaaccentcomb;
-		sub lacute by l acutecomb;
+		sub lacute by l acutecomb.case;
 		sub lcaron by l caroncomb.alt;
 		sub lcommaaccent by l commaaccentcomb;
 		sub ldot by l dotaccentcomb.CAT;
@@ -1431,6 +1433,9 @@ feature calt {
 		sub @fful_SRC' lookup before_z @zmod_TGT;
 		#
 		sub @rcnt_SRC' lookup before_n @nmod_TGT;
+		#
+		sub @fmrr_SRC' lookup before_n @nmod_TGT;
+		sub @rmod_SRC' lookup before_x @xful_TGT;
 	} SENSEI_MAGIC;
 } calt;
 
@@ -1438,39 +1443,47 @@ feature calt {
 # TODO: Sort DIST by TARGET CLASS OR SRC CLASS (ask Jose):
 feature dist {
 		lookup dist_MOD {
+			# MOD
 			lookupflag IgnoreMarks;
-			pos @bmlp_SRC 10 @emod_TGT;
-			pos @bmlp_SRC 20 @smod_TGT;
-			pos @cmod_SRC 30 @zmod_TGT;
-			pos @cmod_SRC 80 @vmod_TGT;
-			pos @cmod_SRC 80 @xmod_TGT;
-			pos @emod_SRC 30 @xful_TGT;
-			pos @emod_SRC 30 @zcnt_TGT;
-			pos @emod_SRC 40 @smod_TGT;
-			pos @emod_SRC 80 @ncnt_TGT;
-			pos @emod_SRC 80 @xmod_TGT;
-			pos @emod_SRC 80 @zmod_TGT;
-			pos @emod_SRC 90 @vmod_TGT;
-			pos @fmlp_SRC 20 @smod_TGT;
-			pos @fmrr_SRC 20 @smod_TGT;
+			pos @cmod_SRC 100 @ncnt_TGT;
+			pos @cmod_SRC  15 @xful_TGT;
+			pos @cmod_SRC  20 @tlop_de_TGT;
+			pos @cmod_SRC  30 @zmod_TGT;
+			pos @cmod_SRC  60 @zful_TGT;
+			pos @cmod_SRC  80 @vmod_TGT;
+			pos @cmod_SRC  80 @xmod_TGT;
+			pos @emod_SRC  20 @tlop_de_TGT;
+			pos @emod_SRC  30 @xful_TGT;
+			pos @emod_SRC  30 @zcnt_TGT;
+			pos @emod_SRC  40 @smod_TGT;
+			pos @emod_SRC  80 @ncnt_TGT;
+			pos @emod_SRC  80 @xmod_TGT;
+			pos @emod_SRC  80 @zmod_TGT;
+			pos @emod_SRC  90 @vmod_TGT;
 			pos @nmod_SRC 110 @xmod_TGT;
-			pos @nmod_SRC 40 @smod_TGT;
-			pos @nmod_SRC 66 @zmod_TGT;
-			pos @nmod_SRC 94 @vmod_TGT;
-			pos @omlp_SRC 20 @smod_TGT;
-			pos @omod_SRC 20 @emod_TGT;
-			pos @rcnt_SRC 20 @emod_TGT;
-			pos @rmod_SRC 5 @zmod_TGT;
-			pos @rmod_SRC 50 @emod_TGT;
-			pos @rmod_SRC 50 @fful_TGT;
-			pos @rmod_SRC 60 @eful_TGT;
-			pos @rmod_SRC 70 @hlop_TGT;
-			pos @vmod_SRC 30 @emod_TGT;
-			pos @vmod_SRC 40 @eful_TGT;
-			pos @vmod_SRC 50 @fful_TGT;
-			pos @vmod_SRC 50 @hlop_TGT;
+			pos @nmod_SRC  20 @tlop_de_TGT;
+			pos @nmod_SRC  30 @rful_TGT;
+			pos @nmod_SRC  35 @zcnt_TGT;
+			pos @nmod_SRC  40 @smod_TGT;
+			pos @nmod_SRC  50 @xful_TGT;
+			pos @nmod_SRC  66 @zmod_TGT;
+			pos @nmod_SRC  70 @zful_TGT;
+			pos @nmod_SRC  80 @ncnt_TGT;
+			pos @nmod_SRC  94 @vmod_TGT;
+			pos @omod_SRC  10 @zful_TGT;
+			pos @omod_SRC  20 @emod_TGT;
+			pos @omod_SRC  20 @fful_TGT;
+			pos @omod_SRC  30 @eful_TGT;
+			pos @rmod_SRC   5 @zmod_TGT;
+			pos @rmod_SRC  50 @emod_TGT;
+			pos @rmod_SRC  50 @fful_TGT;
+			pos @rmod_SRC  60 @eful_TGT;
+			pos @rmod_SRC  70 @hlop_TGT;
+			pos @vmod_SRC  30 @emod_TGT;
+			pos @vmod_SRC  40 @eful_TGT;
+			pos @vmod_SRC  50 @fful_TGT;
+			pos @vmod_SRC  50 @hlop_TGT;
 		} dist_MOD;
-		#
 		# JMC:
 		lookup dist_JMC {
 			lookupflag IgnoreMarks;
@@ -1479,108 +1492,110 @@ feature dist {
 			pos @fjmc_SRC 10 @tmod_TGT;
 			pos @fjmc_SRC 30 @vmod_TGT;
 			pos @fjmc_SRC 40 @xmod_TGT;
-			pos @gjmc_SRC 20 @fjmc_TGT;
+			pos @gjmc_SRC 10 @fful_TGT;
+			pos @gjmc_SRC 10 @rful_TGT;
 			pos @gjmc_SRC 10 @smod_TGT;
+			pos @gjmc_SRC 20 @fjmc_TGT;
+			pos @gjmc_SRC 20 @zcnt_TGT;
+			pos @gjmc_SRC 30 @xful_TGT;
+			pos @gjmc_SRC 30 @zmod_TGT;
+			pos @gjmc_SRC 45 @zful_TGT;
 			pos @gjmc_SRC 60 @vmod_TGT;
 			pos @gjmc_SRC 60 @xmod_TGT;
-			pos @gjmc_SRC 30 @zmod_TGT;
+			pos @gjmc_SRC 85 @ncnt_TGT;
 		} dist_JMC;
-
 		# FUL:
 		lookup dist_FUL {
 			lookupflag IgnoreMarks;
-			pos @bful_SRC 20 @eful_TGT;
-			pos @bful_SRC 20 @emod_TGT;
-			pos @bful_SRC 20 @fful_TGT;
-			pos @cmod_SRC 15 @xful_TGT;
-			pos @cmod_SRC 60 @zful_TGT;
-			pos @eful_SRC 10 @rful_TGT;
-			pos @eful_SRC 20 @smod_TGT;
-			pos @eful_SRC 30 @xful_TGT;
-			pos @eful_SRC 60 @zful_TGT;
-			pos @eful_SRC 70 @vmod_TGT;
-			pos @eful_SRC 70 @xmod_TGT;
-			pos @fful_SRC 10 @omod_TGT;
-			pos @fful_SRC 20 @rful_TGT;
-			pos @fful_SRC 20 @smod_TGT;
-			pos @fful_SRC 40 @xful_TGT;
-			pos @fful_SRC 50 @zful_TGT;
-			pos @fful_SRC 50 @zmod_TGT;
-			pos @gjmc_SRC 10 @fful_TGT;
-			pos @gjmc_SRC 10 @rful_TGT;
-			pos @gjmc_SRC 30 @xful_TGT;
-			pos @gjmc_SRC 45 @zful_TGT;
-			pos @nmod_SRC 30 @rful_TGT;
-			pos @nmod_SRC 50 @xful_TGT;
-			pos @nmod_SRC 70 @zful_TGT;
-			pos @omod_SRC 10 @zful_TGT;
-			pos @omod_SRC 20 @fful_TGT;
-			pos @omod_SRC 30 @eful_TGT;
-			pos @zful_SRC 10 @nmod_TGT;
-			pos @zful_SRC 10 @smod_TGT;
-			pos @zful_SRC 10 @tmod_TGT;
-			pos @zful_SRC 20 @xful_TGT;
-			pos @zful_SRC 30 @fful_TGT;
-			pos @zful_SRC 60 @zful_TGT;
+			pos @bful_SRC  20 @eful_TGT;
+			pos @bful_SRC  20 @emod_TGT;
+			pos @bful_SRC  20 @fful_TGT;
+			pos @bful_SRC  20 @hlop_TGT;
+			pos @bful_SRC  20 @ncnt_TGT;
+			pos @eful_SRC  10 @rful_TGT;
+			pos @eful_SRC 100 @ncnt_TGT;
+			pos @eful_SRC  20 @smod_TGT;
+			pos @eful_SRC  30 @xful_TGT;
+			pos @eful_SRC  30 @zcnt_TGT;
+			pos @eful_SRC  60 @zful_TGT;
+			pos @eful_SRC  70 @vmod_TGT;
+			pos @eful_SRC  70 @xmod_TGT;
+			pos @eful_SRC  70 @zmod_TGT;
+			pos @fful_SRC  10 @omod_TGT;
+			pos @fful_SRC  20 @rful_TGT;
+			pos @fful_SRC  20 @smod_TGT;
+			pos @fful_SRC  40 @xful_TGT;
+			pos @fful_SRC  50 @zful_TGT;
+			pos @fful_SRC  50 @zmod_TGT;
+			pos @fful_SRC  60 @ncnt_TGT;
+			pos @zful_SRC  10 @nmod_TGT;
+			pos @zful_SRC  10 @smod_TGT;
+			pos @zful_SRC  10 @tmod_TGT;
+			pos @zful_SRC 110 @ncnt_TGT;
+			pos @zful_SRC  20 @xful_TGT;
+			pos @zful_SRC  20 @zcnt_TGT;
+			pos @zful_SRC  30 @fful_TGT;
+			pos @zful_SRC  60 @zful_TGT;
 		} dist_FUL;
-
+		# LOP
 		lookup dist_LOP {
 			lookupflag IgnoreMarks;
-			pos @bful_SRC 20 @hlop_TGT;
+			pos @tlop_de_SRC 10 @zful_TGT;
+			pos @tlop_de_SRC 15 @zcnt_TGT;
+			pos @tlop_de_SRC 20 @vmod_TGT;
+			pos @tlop_de_SRC 20 @xmod_TGT;
+			pos @tlop_de_SRC 20 @zmod_TGT;
+			pos @tlop_de_SRC 30 @ncnt_TGT;
 		} dist_LOP;
-
+		# CNT
 		lookup dist_CNT {
 			lookupflag IgnoreMarks;
-			pos @bful_SRC 20 @ncnt_TGT;
-			pos @cmod_SRC 100 @ncnt_TGT;
-			pos @eful_SRC 100 @ncnt_TGT;
-			pos @eful_SRC 30 @zcnt_TGT;
-			pos @fful_SRC 60 @ncnt_TGT;
-			pos @gjmc_SRC 85 @ncnt_TGT;
-			pos @gjmc_SRC 20 @zcnt_TGT;
-			pos @nmod_SRC 80 @ncnt_TGT;
-			pos @nmod_SRC 35 @zcnt_TGT;
 			pos @rcnt_SRC 18 @nmod_TGT;
 			pos @rcnt_SRC 20 @eful_TGT;
 			pos @rcnt_SRC 20 @emod_TGT;
+			pos @rcnt_SRC 20 @emod_TGT;
+			pos @rcnt_SRC 20 @tlop_de_TGT;
 			pos @rcnt_SRC 20 @tmod_TGT;
+			pos @rcnt_SRC  5 @zmod_TGT;
 			pos @rcnt_SRC 50 @fful_TGT;
 			pos @rcnt_SRC 50 @hlop_TGT;
 			pos @rcnt_SRC 50 @omod_TGT;
 			pos @rcnt_SRC 90 @ncnt_TGT;
-			pos @zful_SRC 110 @ncnt_TGT;
-			pos @zful_SRC 20 @zcnt_TGT;
-			pos @eful_SRC 70 @zmod_TGT;
-			pos @rcnt_SRC 5 @zmod_TGT;
 		} dist_CNT;
-
+		# MRR
 		lookup dist_MRR {
 			lookupflag IgnoreMarks;
-			pos @fmrr_SRC 80 @ncnt_TGT;
-			pos @fmrr_SRC 50 @xful_TGT;
+			pos @fmrr_SRC 20 @smod_TGT;
+			pos @fmrr_SRC 20 @tlop_de_TGT;
 			pos @fmrr_SRC 20 @zcnt_TGT;
 			pos @fmrr_SRC 30 @rful_TGT;
 			pos @fmrr_SRC 30 @zmod_TGT;
+			pos @fmrr_SRC 50 @xful_TGT;
+			pos @fmrr_SRC 80 @ncnt_TGT;
 		} dist_MRR;
-
+		# MLP
 		lookup dist_MLP {
 			lookupflag IgnoreMarks;
-			pos @bmlp_SRC 15 @omod_TGT;
 			pos @bmlp_SRC 10 @eful_TGT;
-			pos @bmlp_SRC 30 @nmod_TGT;
-			pos @bmlp_SRC 30 @ncnt_TGT;
+			pos @bmlp_SRC 10 @emod_TGT;
+			pos @bmlp_SRC 15 @omod_TGT;
 			pos @bmlp_SRC 20 @rful_TGT;
-			pos @fmlp_SRC 90 @ncnt_TGT;
+			pos @bmlp_SRC 20 @smod_TGT;
+			pos @bmlp_SRC 30 @ncnt_TGT;
+			pos @bmlp_SRC 30 @nmod_TGT;
 			pos @fmlp_SRC 20 @rful_TGT;
+			pos @fmlp_SRC 20 @smod_TGT;
 			pos @fmlp_SRC 20 @zcnt_TGT;
-			pos @omlp_SRC 25 @omod_TGT;
-			pos @omlp_SRC 25 @nmod_TGT;
-			pos @omlp_SRC 30 @ncnt_TGT;
-			pos @omlp_SRC 8 @fful_TGT;
-			pos @omlp_SRC 20 @rful_TGT;
+			pos @fmlp_SRC 90 @ncnt_TGT;
+			pos @omlp_SRC  8 @fful_TGT;
 			pos @omlp_SRC 10 @zmod_TGT;
+			pos @omlp_SRC 20 @rful_TGT;
+			pos @omlp_SRC 20 @smod_TGT;
+			pos @omlp_SRC 25 @nmod_TGT;
+			pos @omlp_SRC 25 @omod_TGT;
+			pos @omlp_SRC 30 @ncnt_TGT;
 		} dist_MLP;
-
+		# CUR
 		lookup dist_CUR {
 			lookupflag IgnoreMarks;
 			pos @Gcur_SRC  40 @bmod_TGT;
@@ -1590,6 +1605,7 @@ feature dist {
 			pos @Gcur_SRC  40 @omod_TGT;
 			pos @Gcur_SRC  40 @tmod_TGT;
 			pos @Gcur_SRC  50 @smod_TGT;
+			pos @Gcur_SRC  50 @tlop_de_TGT;
 			pos @Gcur_SRC  60 @sful_TGT;
 			pos @Gcur_SRC  70 @eful_TGT;
 			pos @Gcur_SRC  70 @rful_TGT;
@@ -1602,50 +1618,37 @@ feature dist {
 			pos @Gcur_SRC 100 @xmod_TGT;
 			pos @Gcur_SRC 100 @zful_TGT;
 			pos @Gcur_SRC 145 @ncnt_TGT;
-			pos @Gcur_SRC  50 @tlop_de_TGT;
 			pos @Tcur_SRC  10 @smod_TGT;
 			pos @Tcur_SRC  15 @xful_TGT;
+			pos @Tcur_SRC  20 @tlop_de_TGT;
 			pos @Tcur_SRC  20 @tlop_de_TGT;
 			pos @Tcur_SRC  30 @zmod_TGT;
 			pos @Tcur_SRC  60 @zful_TGT;
 			pos @Tcur_SRC  80 @vmod_TGT;
 			pos @Tcur_SRC  80 @xmod_TGT;
 			pos @Tcur_SRC 100 @ncnt_TGT;
-			pos @Tcur_SRC  20 @tlop_de_TGT;
-			pos @Xdec_SRC  10 @rful_TGT;
-			pos @Xdec_SRC  20 @tlop_de_TGT;
-			pos @Xdec_SRC  30 @fful_TGT;
-			pos @Xdec_SRC  30 @xful_TGT;
-			pos @Xdec_SRC  30 @zcnt_TGT;
-			pos @Xdec_SRC  40 @smod_TGT;
-			pos @Xdec_SRC  60 @zful_TGT;
-			pos @Xdec_SRC  80 @ncnt_TGT;
-			pos @Xdec_SRC  80 @xmod_TGT;
-			pos @Xdec_SRC  80 @zmod_TGT;
-			pos @Xdec_SRC  90 @vmod_TGT;
 		} dist_CUR;
-
-		lookup dist_tlopDE {
-			pos @tlop_de_SRC 20 @vmod_TGT;
-			pos @tlop_de_SRC 20 @xmod_TGT;
-			pos @tlop_de_SRC 20 @zmod_TGT;
-			pos @tlop_de_SRC 10 @zful_TGT;
-			pos @tlop_de_SRC 30 @ncnt_TGT;
-			pos @tlop_de_SRC 15 @zcnt_TGT;
-			pos @cmod_SRC 20 @tlop_de_TGT;
-			pos @emod_SRC 20 @tlop_de_TGT;
-			pos @nmod_SRC 20 @tlop_de_TGT;
-			pos @rcnt_SRC 20 @tlop_de_TGT;
-			pos @fmrr_SRC 20 @tlop_de_TGT;
-		} dist_tlopDE;
-
+		# DEC
+		lookup dist_DEC {
+			pos @Xdec_SRC 10 @rful_TGT;
+			pos @Xdec_SRC 20 @tlop_de_TGT;
+			pos @Xdec_SRC 30 @fful_TGT;
+			pos @Xdec_SRC 30 @xful_TGT;
+			pos @Xdec_SRC 30 @zcnt_TGT;
+			pos @Xdec_SRC 40 @smod_TGT;
+			pos @Xdec_SRC 60 @zful_TGT;
+			pos @Xdec_SRC 80 @ncnt_TGT;
+			pos @Xdec_SRC 80 @xmod_TGT;
+			pos @Xdec_SRC 80 @zmod_TGT;
+			pos @Xdec_SRC 90 @vmod_TGT;
+		} dist_DEC;
+		# NEEDS ENTRY
 		lookup dist_entry {
-			pos @needsEntry_SRC 30 @rful_TGT;
-			pos @needsEntry_SRC 30 @sful_TGT;
 			pos @needsEntry_SRC 20 @eful_TGT;
 			pos @needsEntry_SRC 20 @fful_TGT;
 			pos @needsEntry_SRC 20 @hlop_TGT;
+			pos @needsEntry_SRC 30 @rful_TGT;
+			pos @needsEntry_SRC 30 @sful_TGT;
 			pos @needsEntry_SRC 40 @ncnt_TGT;
 		} dist_entry;
 } dist;
-
