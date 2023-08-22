@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Uogonek" format="2">
-  <advance width="690"/>
+  <advance width="863"/>
   <unicode hex="0172"/>
-  <anchor x="280" y="0" name="bottom"/>
-  <anchor x="412" y="10" name="ogonek"/>
-  <anchor x="481" y="670" name="top"/>
-  <anchor x="730" y="710" name="topright"/>
+  <anchor x="350" y="0" name="bottom"/>
+  <anchor x="515" y="13" name="ogonek"/>
+  <anchor x="601" y="838" name="top"/>
+  <anchor x="913" y="888" name="topright"/>
   <outline>
     <component base="U"/>
-    <component base="ogonekcomb.case" xOffset="406" yOffset="10"/>
+    <component base="ogonekcomb.case" xOffset="507" yOffset="13"/>
   </outline>
   <lib>
     <dict>

@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.lop" format="2">
-  <advance width="315"/>
-  <anchor x="266" y="278" name="CAT"/>
-  <anchor x="133" y="0" name="bottom"/>
-  <anchor x="181" y="350" name="center"/>
-  <anchor x="351" y="670" name="top"/>
-  <anchor x="410" y="726" name="topright"/>
+  <advance width="394"/>
+  <anchor x="333" y="348" name="CAT"/>
+  <anchor x="166" y="0" name="bottom"/>
+  <anchor x="226" y="438" name="center"/>
+  <anchor x="439" y="838" name="top"/>
+  <anchor x="513" y="908" name="topright"/>
   <outline>
     <contour>
-      <point x="-108" y="-14" type="curve" smooth="yes"/>
-      <point x="89" y="-14"/>
-      <point x="439" y="401"/>
-      <point x="439" y="602" type="curve" smooth="yes"/>
-      <point x="439" y="632"/>
-      <point x="368" y="632"/>
-      <point x="368" y="602" type="curve" smooth="yes"/>
-      <point x="368" y="413"/>
-      <point x="71" y="46"/>
-      <point x="-93" y="46" type="curve" smooth="yes"/>
-      <point x="-132" y="46"/>
-      <point x="-148" y="-14"/>
+      <point x="-135" y="-17" type="curve" smooth="yes"/>
+      <point x="111" y="-17"/>
+      <point x="549" y="501"/>
+      <point x="549" y="753" type="curve" smooth="yes"/>
+      <point x="549" y="790"/>
+      <point x="460" y="790"/>
+      <point x="460" y="753" type="curve" smooth="yes"/>
+      <point x="460" y="516"/>
+      <point x="89" y="58"/>
+      <point x="-116" y="58" type="curve" smooth="yes"/>
+      <point x="-165" y="58"/>
+      <point x="-185" y="-17"/>
     </contour>
     <component base="l.lop.fin"/>
   </outline>

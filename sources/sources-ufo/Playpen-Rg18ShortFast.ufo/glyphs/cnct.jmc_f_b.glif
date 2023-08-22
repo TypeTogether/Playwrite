@@ -5,27 +5,27 @@
   <guideline x="-482" y="-225" angle="186.91"/>
   <guideline x="175" y="384" angle="241.3"/>
   <guideline x="215" y="367" angle="241.79"/>
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-446" y="-315" type="curve" smooth="yes"/>
-      <point x="-426" y="-315"/>
-      <point x="-415" y="-255"/>
-      <point x="-435" y="-255" type="curve" smooth="yes"/>
-      <point x="-449" y="-255"/>
-      <point x="-462" y="-245"/>
-      <point x="-462" y="-223" type="curve" smooth="yes"/>
-      <point x="-462" y="-50"/>
-      <point x="-4" y="-37"/>
-      <point x="215" y="363" type="curve" smooth="yes"/>
-      <point x="221" y="374"/>
-      <point x="181" y="395"/>
-      <point x="175" y="384" type="curve" smooth="yes"/>
-      <point x="-30" y="10"/>
-      <point x="-527" y="4"/>
-      <point x="-527" y="-231" type="curve" smooth="yes"/>
-      <point x="-527" y="-286"/>
-      <point x="-486" y="-315"/>
+      <point x="-557" y="-394" type="curve" smooth="yes"/>
+      <point x="-532" y="-394"/>
+      <point x="-519" y="-319"/>
+      <point x="-544" y="-319" type="curve" smooth="yes"/>
+      <point x="-561" y="-319"/>
+      <point x="-577" y="-306"/>
+      <point x="-577" y="-279" type="curve" smooth="yes"/>
+      <point x="-577" y="-62"/>
+      <point x="-5" y="-46"/>
+      <point x="269" y="454" type="curve" smooth="yes"/>
+      <point x="276" y="468"/>
+      <point x="226" y="494"/>
+      <point x="219" y="480" type="curve" smooth="yes"/>
+      <point x="-37" y="13"/>
+      <point x="-659" y="5"/>
+      <point x="-659" y="-289" type="curve" smooth="yes"/>
+      <point x="-659" y="-357"/>
+      <point x="-607" y="-394"/>
     </contour>
   </outline>
   <lib>
@@ -60,7 +60,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>10</integer>
+      <integer>13</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

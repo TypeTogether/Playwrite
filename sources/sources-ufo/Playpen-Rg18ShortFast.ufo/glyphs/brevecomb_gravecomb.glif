@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevecomb_gravecomb" format="2">
-  <anchor x="65" y="400" name="_top"/>
-  <anchor x="181" y="791" name="top"/>
+  <anchor x="81" y="500" name="_top"/>
+  <anchor x="226" y="989" name="top"/>
   <outline>
     <component base="brevecomb"/>
-    <component base="gravecomb" xOffset="45" yOffset="172"/>
+    <component base="gravecomb" xOffset="56" yOffset="215"/>
   </outline>
   <lib>
     <dict>
@@ -55,7 +55,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

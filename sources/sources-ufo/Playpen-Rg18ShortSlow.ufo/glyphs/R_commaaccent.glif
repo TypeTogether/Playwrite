@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Rcommaaccent" format="2">
-  <advance width="555"/>
+  <advance width="694"/>
   <unicode hex="0156"/>
-  <anchor x="243" y="0" name="bottom"/>
-  <anchor x="430" y="670" name="top"/>
+  <anchor x="304" y="0" name="bottom"/>
+  <anchor x="538" y="838" name="top"/>
   <outline>
     <component base="R"/>
-    <component base="commaaccentcomb.case" xOffset="308"/>
+    <component base="commaaccentcomb.case" xOffset="385"/>
   </outline>
   <lib>
     <dict>

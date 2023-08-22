@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="b.ful.med" format="2">
-  <advance width="483"/>
-  <anchor x="418" y="0" name="cnct"/>
-  <anchor x="200" y="0" name="bottom"/>
-  <anchor x="265" y="200" name="center"/>
-  <anchor x="330" y="400" name="top"/>
+  <advance width="604"/>
+  <anchor x="523" y="0" name="cnct"/>
+  <anchor x="250" y="0" name="bottom"/>
+  <anchor x="331" y="250" name="center"/>
+  <anchor x="413" y="500" name="top"/>
   <outline>
     <component base="b.ful.ini"/>
   </outline>

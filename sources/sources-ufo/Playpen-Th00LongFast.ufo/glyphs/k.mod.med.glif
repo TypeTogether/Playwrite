@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="k.mod.med" format="2">
-  <advance width="461"/>
-  <anchor x="461" y="0" name="cnct"/>
-  <anchor x="251" y="0" name="bottom"/>
-  <anchor x="129" y="670" name="top"/>
+  <advance width="576"/>
+  <anchor x="576" y="0" name="cnct"/>
+  <anchor x="314" y="0" name="bottom"/>
+  <anchor x="161" y="838" name="top"/>
   <outline>
     <component base="k.mod.ini"/>
   </outline>

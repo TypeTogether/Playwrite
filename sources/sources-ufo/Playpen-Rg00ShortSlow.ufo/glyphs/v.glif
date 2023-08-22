@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="v" format="2">
-  <advance width="407"/>
+  <advance width="509"/>
   <unicode hex="0076"/>
   <outline>
     <contour>
-      <point x="203" y="-12" type="curve" smooth="yes"/>
-      <point x="226" y="-12"/>
-      <point x="235" y="-4"/>
-      <point x="240" y="9" type="curve" smooth="yes"/>
-      <point x="386" y="372" type="line" smooth="yes"/>
-      <point x="395" y="395"/>
-      <point x="382" y="412"/>
-      <point x="352" y="412" type="curve" smooth="yes"/>
-      <point x="336" y="412"/>
-      <point x="327" y="406"/>
-      <point x="321" y="391" type="curve" smooth="yes"/>
-      <point x="204" y="87" type="line"/>
-      <point x="85" y="391" type="line" smooth="yes"/>
-      <point x="79" y="406"/>
-      <point x="71" y="412"/>
-      <point x="55" y="412" type="curve" smooth="yes"/>
-      <point x="25" y="412"/>
-      <point x="11" y="393"/>
-      <point x="20" y="372" type="curve" smooth="yes"/>
-      <point x="166" y="9" type="line" smooth="yes"/>
-      <point x="171" y="-4"/>
-      <point x="180" y="-12"/>
+      <point x="254" y="-15" type="curve" smooth="yes"/>
+      <point x="283" y="-15"/>
+      <point x="294" y="-5"/>
+      <point x="300" y="11" type="curve" smooth="yes"/>
+      <point x="483" y="465" type="line" smooth="yes"/>
+      <point x="494" y="494"/>
+      <point x="478" y="515"/>
+      <point x="440" y="515" type="curve" smooth="yes"/>
+      <point x="420" y="515"/>
+      <point x="409" y="508"/>
+      <point x="401" y="489" type="curve" smooth="yes"/>
+      <point x="255" y="109" type="line"/>
+      <point x="106" y="489" type="line" smooth="yes"/>
+      <point x="99" y="508"/>
+      <point x="89" y="515"/>
+      <point x="69" y="515" type="curve" smooth="yes"/>
+      <point x="31" y="515"/>
+      <point x="14" y="491"/>
+      <point x="25" y="465" type="curve" smooth="yes"/>
+      <point x="208" y="11" type="line" smooth="yes"/>
+      <point x="214" y="-5"/>
+      <point x="225" y="-15"/>
     </contour>
   </outline>
   <lib>

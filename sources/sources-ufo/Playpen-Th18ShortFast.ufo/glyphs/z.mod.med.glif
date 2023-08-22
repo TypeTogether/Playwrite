@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="z.mod.med" format="2">
-  <advance width="396"/>
-  <anchor x="331" y="0" name="cnct"/>
-  <anchor x="140" y="0" name="bottom"/>
-  <anchor x="205" y="200" name="center"/>
-  <anchor x="260" y="400" name="top"/>
+  <advance width="495"/>
+  <anchor x="414" y="0" name="cnct"/>
+  <anchor x="175" y="0" name="bottom"/>
+  <anchor x="256" y="250" name="center"/>
+  <anchor x="325" y="500" name="top"/>
   <outline>
     <component base="z.mod.ini"/>
   </outline>

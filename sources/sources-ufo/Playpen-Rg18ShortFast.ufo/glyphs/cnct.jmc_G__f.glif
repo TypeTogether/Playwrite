@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.jmc_G_f" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-467" y="-219" type="curve" smooth="yes"/>
-      <point x="-467" y="-259"/>
-      <point x="-394" y="-258"/>
-      <point x="-394" y="-218" type="curve" smooth="yes"/>
-      <point x="-394" y="-146"/>
-      <point x="-303" y="-98"/>
-      <point x="-157" y="-32" type="curve" smooth="yes"/>
-      <point x="51" y="63"/>
-      <point x="200" y="143"/>
-      <point x="280" y="298" type="curve" smooth="yes"/>
-      <point x="294" y="324"/>
-      <point x="271" y="351"/>
-      <point x="253" y="321" type="curve" smooth="yes"/>
-      <point x="173" y="189"/>
-      <point x="26" y="110"/>
-      <point x="-175" y="21" type="curve" smooth="yes"/>
-      <point x="-359" y="-60"/>
-      <point x="-467" y="-129"/>
+      <point x="-584" y="-274" type="curve" smooth="yes"/>
+      <point x="-584" y="-324"/>
+      <point x="-492" y="-322"/>
+      <point x="-492" y="-272" type="curve" smooth="yes"/>
+      <point x="-492" y="-182"/>
+      <point x="-379" y="-122"/>
+      <point x="-196" y="-40" type="curve" smooth="yes"/>
+      <point x="64" y="79"/>
+      <point x="250" y="179"/>
+      <point x="350" y="373" type="curve" smooth="yes"/>
+      <point x="368" y="405"/>
+      <point x="339" y="439"/>
+      <point x="316" y="401" type="curve" smooth="yes"/>
+      <point x="216" y="236"/>
+      <point x="33" y="138"/>
+      <point x="-219" y="26" type="curve" smooth="yes"/>
+      <point x="-449" y="-75"/>
+      <point x="-584" y="-161"/>
     </contour>
   </outline>
   <lib>
@@ -28,7 +28,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>100</integer>
+      <integer>125</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

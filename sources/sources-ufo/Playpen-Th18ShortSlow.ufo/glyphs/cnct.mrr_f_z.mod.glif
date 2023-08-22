@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.mrr_f_z.mod" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-104" y="46" type="curve" smooth="yes"/>
-      <point x="-12" y="46"/>
-      <point x="91" y="142"/>
-      <point x="174" y="386" type="curve" smooth="yes"/>
-      <point x="179" y="400"/>
-      <point x="153" y="403"/>
-      <point x="147" y="387" type="curve" smooth="yes"/>
-      <point x="65" y="157"/>
-      <point x="-30" y="71"/>
-      <point x="-104" y="71" type="curve" smooth="yes"/>
-      <point x="-148" y="71"/>
-      <point x="-186" y="91"/>
-      <point x="-206" y="160" type="curve" smooth="yes"/>
-      <point x="-210" y="173"/>
-      <point x="-234" y="171"/>
-      <point x="-227" y="154" type="curve" smooth="yes"/>
-      <point x="-194" y="73"/>
-      <point x="-164" y="46"/>
+      <point x="-130" y="58" type="curve" smooth="yes"/>
+      <point x="-15" y="58"/>
+      <point x="114" y="178"/>
+      <point x="218" y="483" type="curve" smooth="yes"/>
+      <point x="224" y="500"/>
+      <point x="191" y="504"/>
+      <point x="184" y="484" type="curve" smooth="yes"/>
+      <point x="81" y="196"/>
+      <point x="-37" y="89"/>
+      <point x="-130" y="89" type="curve" smooth="yes"/>
+      <point x="-185" y="89"/>
+      <point x="-232" y="114"/>
+      <point x="-257" y="200" type="curve" smooth="yes"/>
+      <point x="-262" y="216"/>
+      <point x="-292" y="214"/>
+      <point x="-284" y="193" type="curve" smooth="yes"/>
+      <point x="-242" y="91"/>
+      <point x="-205" y="58"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +55,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>30</integer>
+      <integer>38</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

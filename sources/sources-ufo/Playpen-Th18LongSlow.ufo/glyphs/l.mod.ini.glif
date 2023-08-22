@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.mod.ini" format="2">
-  <advance width="259"/>
+  <advance width="324"/>
   <guideline x="202" y="489" angle="72"/>
-  <anchor x="121" y="0" name="bottom"/>
-  <anchor x="249" y="580" name="center"/>
-  <anchor x="194" y="0" name="cnct"/>
-  <anchor x="432" y="1138" name="top"/>
-  <anchor x="463" y="1200" name="topright"/>
+  <anchor x="151" y="0" name="bottom"/>
+  <anchor x="311" y="725" name="center"/>
+  <anchor x="243" y="0" name="cnct"/>
+  <anchor x="540" y="1423" name="top"/>
+  <anchor x="579" y="1500" name="topright"/>
   <outline>
     <contour>
-      <point x="148" y="-14" type="curve" smooth="yes"/>
-      <point x="171" y="-14"/>
-      <point x="170" y="14"/>
-      <point x="157" y="14" type="curve" smooth="yes"/>
-      <point x="99" y="14"/>
-      <point x="90" y="47"/>
-      <point x="111" y="111" type="curve" smooth="yes"/>
-      <point x="467" y="1199" type="line" smooth="yes"/>
-      <point x="470" y="1207"/>
-      <point x="464" y="1212"/>
-      <point x="454" y="1212" type="curve" smooth="yes"/>
-      <point x="442" y="1212"/>
-      <point x="438" y="1209"/>
-      <point x="435" y="1200" type="curve" smooth="yes"/>
-      <point x="81" y="117" type="line" smooth="yes"/>
-      <point x="52" y="27"/>
-      <point x="80" y="-14"/>
+      <point x="185" y="-17" type="curve" smooth="yes"/>
+      <point x="214" y="-17"/>
+      <point x="213" y="18"/>
+      <point x="196" y="18" type="curve" smooth="yes"/>
+      <point x="124" y="18"/>
+      <point x="113" y="59"/>
+      <point x="139" y="139" type="curve" smooth="yes"/>
+      <point x="584" y="1499" type="line" smooth="yes"/>
+      <point x="588" y="1509"/>
+      <point x="580" y="1515"/>
+      <point x="568" y="1515" type="curve" smooth="yes"/>
+      <point x="553" y="1515"/>
+      <point x="548" y="1511"/>
+      <point x="544" y="1500" type="curve" smooth="yes"/>
+      <point x="101" y="146" type="line" smooth="yes"/>
+      <point x="65" y="34"/>
+      <point x="100" y="-17"/>
     </contour>
   </outline>
   <lib>

@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.mod_e_z.cnt" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-159" y="-15" type="curve" smooth="yes"/>
-      <point x="-68" y="-15"/>
-      <point x="-10" y="50"/>
-      <point x="63" y="199" type="curve" smooth="yes"/>
-      <point x="128" y="332"/>
-      <point x="185" y="388"/>
-      <point x="264" y="388" type="curve" smooth="yes"/>
-      <point x="284" y="388"/>
-      <point x="287" y="415"/>
-      <point x="267" y="415" type="curve" smooth="yes"/>
-      <point x="168" y="415"/>
-      <point x="108" y="356"/>
-      <point x="33" y="203" type="curve" smooth="yes"/>
-      <point x="-34" y="67"/>
-      <point x="-87" y="12"/>
-      <point x="-154" y="12" type="curve" smooth="yes"/>
-      <point x="-174" y="12"/>
-      <point x="-179" y="-15"/>
+      <point x="-199" y="-19" type="curve" smooth="yes"/>
+      <point x="-85" y="-19"/>
+      <point x="-12" y="63"/>
+      <point x="79" y="249" type="curve" smooth="yes"/>
+      <point x="160" y="415"/>
+      <point x="231" y="485"/>
+      <point x="330" y="485" type="curve" smooth="yes"/>
+      <point x="355" y="485"/>
+      <point x="359" y="519"/>
+      <point x="334" y="519" type="curve" smooth="yes"/>
+      <point x="210" y="519"/>
+      <point x="135" y="445"/>
+      <point x="41" y="254" type="curve" smooth="yes"/>
+      <point x="-42" y="84"/>
+      <point x="-109" y="15"/>
+      <point x="-192" y="15" type="curve" smooth="yes"/>
+      <point x="-217" y="15"/>
+      <point x="-224" y="-19"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +55,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>30</integer>
+      <integer>38</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

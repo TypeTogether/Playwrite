@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="g.jmc.fin" format="2">
-  <advance width="508"/>
+  <advance width="635"/>
   <guideline x="319" y="-42" angle="209.967"/>
   <guideline x="323" y="-70" angle="30.222"/>
-  <anchor x="508" y="0" name="cnct"/>
-  <anchor x="236" y="400" name="top"/>
+  <anchor x="635" y="0" name="cnct"/>
+  <anchor x="295" y="500" name="top"/>
   <outline>
     <component base="g.jmc"/>
   </outline>

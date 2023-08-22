@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.jmc_n_f" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-110" y="-14" type="curve" smooth="yes"/>
-      <point x="-1" y="-14"/>
-      <point x="82" y="53"/>
-      <point x="136" y="178" type="curve" smooth="yes"/>
-      <point x="144" y="196"/>
-      <point x="125" y="213"/>
-      <point x="111" y="192" type="curve" smooth="yes"/>
-      <point x="51" y="97"/>
-      <point x="-19" y="46"/>
-      <point x="-90" y="46" type="curve" smooth="yes"/>
-      <point x="-135" y="46"/>
-      <point x="-140" y="-14"/>
+      <point x="-137" y="-17" type="curve" smooth="yes"/>
+      <point x="-1" y="-17"/>
+      <point x="103" y="66"/>
+      <point x="170" y="223" type="curve" smooth="yes"/>
+      <point x="180" y="245"/>
+      <point x="156" y="266"/>
+      <point x="139" y="240" type="curve" smooth="yes"/>
+      <point x="64" y="121"/>
+      <point x="-24" y="58"/>
+      <point x="-112" y="58" type="curve" smooth="yes"/>
+      <point x="-169" y="58"/>
+      <point x="-175" y="-17"/>
     </contour>
   </outline>
   <lib>

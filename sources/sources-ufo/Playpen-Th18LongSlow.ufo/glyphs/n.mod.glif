@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="n.mod" format="2">
-  <advance width="537"/>
-  <anchor x="220" y="0" name="bottom"/>
-  <anchor x="314" y="400" name="top"/>
+  <advance width="671"/>
+  <anchor x="275" y="0" name="bottom"/>
+  <anchor x="393" y="500" name="top"/>
   <outline>
-    <component base="n" xOffset="20"/>
+    <component base="n" xOffset="25"/>
   </outline>
   <lib>
     <dict>

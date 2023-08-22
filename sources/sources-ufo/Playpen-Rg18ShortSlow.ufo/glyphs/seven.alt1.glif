@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.alt1" format="2">
-  <advance width="430"/>
+  <advance width="538"/>
   <outline>
     <contour>
-      <point x="152" y="346" type="curve" smooth="yes"/>
-      <point x="428" y="346" type="line" smooth="yes"/>
-      <point x="444" y="346"/>
-      <point x="460" y="363"/>
-      <point x="460" y="390" type="curve" smooth="yes"/>
-      <point x="460" y="400"/>
-      <point x="455" y="406"/>
-      <point x="445" y="406" type="curve" smooth="yes"/>
-      <point x="169" y="406" type="line" smooth="yes"/>
-      <point x="153" y="406"/>
-      <point x="137" y="389"/>
-      <point x="137" y="362" type="curve" smooth="yes"/>
-      <point x="137" y="352"/>
-      <point x="142" y="346"/>
+      <point x="190" y="433" type="curve" smooth="yes"/>
+      <point x="535" y="433" type="line" smooth="yes"/>
+      <point x="555" y="433"/>
+      <point x="575" y="454"/>
+      <point x="575" y="488" type="curve" smooth="yes"/>
+      <point x="575" y="500"/>
+      <point x="569" y="508"/>
+      <point x="556" y="508" type="curve" smooth="yes"/>
+      <point x="211" y="508" type="line" smooth="yes"/>
+      <point x="191" y="508"/>
+      <point x="171" y="486"/>
+      <point x="171" y="453" type="curve" smooth="yes"/>
+      <point x="171" y="440"/>
+      <point x="178" y="433"/>
     </contour>
     <component base="seven"/>
   </outline>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.mod.fin" format="2">
-  <advance width="259"/>
-  <anchor x="275" y="600" name="CAT"/>
-  <anchor x="113" y="0" name="bottom"/>
-  <anchor x="249" y="580" name="center"/>
-  <anchor x="432" y="1138" name="top"/>
-  <anchor x="463" y="1200" name="topright"/>
+  <advance width="324"/>
+  <anchor x="347" y="750" name="CAT"/>
+  <anchor x="144" y="0" name="bottom"/>
+  <anchor x="314" y="725" name="center"/>
+  <anchor x="543" y="1423" name="top"/>
+  <anchor x="582" y="1500" name="topright"/>
   <outline>
     <component base="l.mod"/>
   </outline>

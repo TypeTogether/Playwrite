@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.ful_g_x" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-183" y="-56" type="curve" smooth="yes"/>
-      <point x="-2" y="14"/>
-      <point x="78" y="147"/>
-      <point x="129" y="243" type="curve" smooth="yes"/>
-      <point x="164" y="308"/>
-      <point x="185" y="355"/>
-      <point x="224" y="355" type="curve" smooth="yes"/>
-      <point x="264" y="355"/>
-      <point x="274" y="415"/>
-      <point x="234" y="415" type="curve" smooth="yes"/>
-      <point x="163" y="415"/>
-      <point x="124" y="351"/>
-      <point x="81" y="270" type="curve" smooth="yes"/>
-      <point x="31" y="176"/>
-      <point x="-40" y="61"/>
-      <point x="-202" y="-4" type="curve" smooth="yes"/>
-      <point x="-228" y="-15"/>
-      <point x="-219" y="-70"/>
+      <point x="-229" y="-70" type="curve" smooth="yes"/>
+      <point x="-2" y="18"/>
+      <point x="98" y="184"/>
+      <point x="161" y="304" type="curve" smooth="yes"/>
+      <point x="205" y="385"/>
+      <point x="231" y="444"/>
+      <point x="280" y="444" type="curve" smooth="yes"/>
+      <point x="330" y="444"/>
+      <point x="343" y="519"/>
+      <point x="293" y="519" type="curve" smooth="yes"/>
+      <point x="204" y="519"/>
+      <point x="155" y="439"/>
+      <point x="101" y="338" type="curve" smooth="yes"/>
+      <point x="39" y="220"/>
+      <point x="-50" y="76"/>
+      <point x="-252" y="-5" type="curve" smooth="yes"/>
+      <point x="-285" y="-19"/>
+      <point x="-274" y="-87"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +55,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>30</integer>
+      <integer>38</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

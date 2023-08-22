@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="s.mod.med" format="2">
-  <advance width="383"/>
-  <anchor x="383" y="0" name="cnct"/>
-  <anchor x="196" y="0" name="bottom"/>
-  <anchor x="208" y="400" name="top"/>
+  <advance width="479"/>
+  <anchor x="479" y="0" name="cnct"/>
+  <anchor x="245" y="0" name="bottom"/>
+  <anchor x="260" y="500" name="top"/>
   <outline>
     <component base="s.mod.fin"/>
   </outline>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="b.jmc.fin" format="2">
-  <advance width="508"/>
-  <anchor x="220" y="0" name="bottom"/>
-  <anchor x="285" y="200" name="center"/>
-  <anchor x="350" y="400" name="top"/>
+  <advance width="635"/>
+  <anchor x="275" y="0" name="bottom"/>
+  <anchor x="356" y="250" name="center"/>
+  <anchor x="438" y="500" name="top"/>
   <outline>
     <component base="b.jmc"/>
   </outline>

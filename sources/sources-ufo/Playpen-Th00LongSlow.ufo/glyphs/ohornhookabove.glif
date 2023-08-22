@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohornhookabove" format="2">
-  <advance width="471"/>
+  <advance width="589"/>
   <unicode hex="1EDF"/>
-  <anchor x="236" y="0" name="bottom"/>
-  <anchor x="236" y="200" name="center"/>
-  <anchor x="308" y="0" name="ogonek"/>
-  <anchor x="236" y="654" name="top"/>
-  <anchor x="292" y="405" name="topright"/>
+  <anchor x="295" y="0" name="bottom"/>
+  <anchor x="295" y="250" name="center"/>
+  <anchor x="385" y="0" name="ogonek"/>
+  <anchor x="295" y="818" name="top"/>
+  <anchor x="365" y="506" name="topright"/>
   <outline>
     <component base="ohorn"/>
-    <component base="hookabovecomb" xOffset="236"/>
+    <component base="hookabovecomb" xOffset="295"/>
   </outline>
   <lib>
     <dict>

@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.ful_z_s.mod" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-403" y="-238" type="curve" smooth="yes"/>
-      <point x="-403" y="-177"/>
-      <point x="-344" y="-100"/>
-      <point x="-153" y="19" type="curve" smooth="yes"/>
-      <point x="40" y="139"/>
-      <point x="100" y="210"/>
-      <point x="142" y="326" type="curve" smooth="yes"/>
-      <point x="148" y="343"/>
-      <point x="126" y="354"/>
-      <point x="119" y="335" type="curve" smooth="yes"/>
-      <point x="77" y="218"/>
-      <point x="18" y="156"/>
-      <point x="-160" y="47" type="curve" smooth="yes"/>
-      <point x="-368" y="-80"/>
-      <point x="-434" y="-167"/>
-      <point x="-434" y="-244" type="curve" smooth="yes"/>
-      <point x="-434" y="-264"/>
-      <point x="-403" y="-258"/>
+      <point x="-504" y="-297" type="curve" smooth="yes"/>
+      <point x="-504" y="-221"/>
+      <point x="-430" y="-125"/>
+      <point x="-191" y="24" type="curve" smooth="yes"/>
+      <point x="50" y="174"/>
+      <point x="125" y="263"/>
+      <point x="178" y="408" type="curve" smooth="yes"/>
+      <point x="185" y="429"/>
+      <point x="158" y="443"/>
+      <point x="149" y="419" type="curve" smooth="yes"/>
+      <point x="96" y="273"/>
+      <point x="23" y="195"/>
+      <point x="-200" y="59" type="curve" smooth="yes"/>
+      <point x="-460" y="-100"/>
+      <point x="-542" y="-209"/>
+      <point x="-542" y="-305" type="curve" smooth="yes"/>
+      <point x="-542" y="-330"/>
+      <point x="-504" y="-322"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +55,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>10</integer>
+      <integer>13</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

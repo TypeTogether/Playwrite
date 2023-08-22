@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lcaron" format="2">
-  <advance width="775"/>
+  <advance width="969"/>
   <unicode hex="013D"/>
-  <anchor x="617" y="612" name="CAT"/>
-  <anchor x="400" y="0" name="bottom"/>
-  <anchor x="339" y="612" name="center"/>
-  <anchor x="514" y="1139" name="top"/>
-  <anchor x="586" y="1190" name="topright"/>
+  <anchor x="771" y="765" name="CAT"/>
+  <anchor x="500" y="0" name="bottom"/>
+  <anchor x="424" y="765" name="center"/>
+  <anchor x="643" y="1424" name="top"/>
+  <anchor x="733" y="1488" name="topright"/>
   <outline>
     <component base="L"/>
-    <component base="caroncomb.alt" xOffset="260" yOffset="-10"/>
+    <component base="caroncomb.alt" xOffset="325" yOffset="-12"/>
   </outline>
   <lib>
     <dict>

@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.alt1" format="2">
-  <advance width="430"/>
+  <advance width="538"/>
   <guideline x="16"/>
   <guideline x="414"/>
   <outline>
     <contour>
-      <point x="134" y="374" type="curve" smooth="yes"/>
-      <point x="396" y="374" type="line" smooth="yes"/>
-      <point x="401" y="374"/>
-      <point x="405" y="379"/>
-      <point x="405" y="388" type="curve" smooth="yes"/>
-      <point x="405" y="397"/>
-      <point x="401" y="400"/>
-      <point x="396" y="400" type="curve" smooth="yes"/>
-      <point x="134" y="400" type="line" smooth="yes"/>
-      <point x="129" y="400"/>
-      <point x="125" y="396"/>
-      <point x="125" y="387" type="curve" smooth="yes"/>
-      <point x="125" y="378"/>
-      <point x="129" y="374"/>
+      <point x="168" y="468" type="curve" smooth="yes"/>
+      <point x="495" y="468" type="line" smooth="yes"/>
+      <point x="501" y="468"/>
+      <point x="506" y="474"/>
+      <point x="506" y="485" type="curve" smooth="yes"/>
+      <point x="506" y="496"/>
+      <point x="501" y="500"/>
+      <point x="495" y="500" type="curve" smooth="yes"/>
+      <point x="168" y="500" type="line" smooth="yes"/>
+      <point x="161" y="500"/>
+      <point x="156" y="495"/>
+      <point x="156" y="484" type="curve" smooth="yes"/>
+      <point x="156" y="473"/>
+      <point x="161" y="468"/>
     </contour>
     <component base="seven"/>
   </outline>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="o.mlp.ini" format="2">
-  <advance width="481"/>
-  <anchor x="481" y="0" name="cnct"/>
-  <anchor x="246" y="0" name="bottom"/>
-  <anchor x="246" y="200" name="center"/>
-  <anchor x="318" y="0" name="ogonek"/>
-  <anchor x="246" y="400" name="top"/>
-  <anchor x="302" y="405" name="topright"/>
+  <advance width="601"/>
+  <anchor x="601" y="0" name="cnct"/>
+  <anchor x="308" y="0" name="bottom"/>
+  <anchor x="308" y="250" name="center"/>
+  <anchor x="398" y="0" name="ogonek"/>
+  <anchor x="308" y="500" name="top"/>
+  <anchor x="378" y="506" name="topright"/>
   <outline>
     <component base="o.mlp.med"/>
   </outline>

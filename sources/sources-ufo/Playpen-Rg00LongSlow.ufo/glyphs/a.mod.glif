@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="a.mod" format="2">
-  <advance width="508"/>
-  <anchor x="234" y="0" name="bottom"/>
-  <anchor x="473" y="0" name="ogonek"/>
-  <anchor x="255" y="400" name="top"/>
+  <advance width="635"/>
+  <anchor x="293" y="0" name="bottom"/>
+  <anchor x="592" y="0" name="ogonek"/>
+  <anchor x="319" y="500" name="top"/>
   <outline>
-    <component base="a" xOffset="10"/>
+    <component base="a" xOffset="13"/>
   </outline>
   <lib>
     <dict>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ij.mod.fin" format="2">
-  <advance width="504"/>
-  <anchor x="176" y="0" name="bottom"/>
-  <anchor x="260" y="0" name="cnct"/>
-  <anchor x="220" y="0" name="ogonek"/>
+  <advance width="630"/>
+  <anchor x="220" y="0" name="bottom"/>
+  <anchor x="325" y="0" name="cnct"/>
+  <anchor x="275" y="0" name="ogonek"/>
   <outline>
     <component base="ij.mod"/>
   </outline>

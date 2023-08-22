@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ydotbelow" format="2">
-  <advance width="492"/>
+  <advance width="616"/>
   <unicode hex="1EF5"/>
-  <anchor x="131" y="-155" name="bottom"/>
-  <anchor x="297" y="400" name="top"/>
+  <anchor x="163" y="-194" name="bottom"/>
+  <anchor x="371" y="500" name="top"/>
   <outline>
     <component base="y"/>
-    <component base="dotbelowcomb" xOffset="246"/>
+    <component base="dotbelowcomb" xOffset="307"/>
   </outline>
   <lib>
     <dict>

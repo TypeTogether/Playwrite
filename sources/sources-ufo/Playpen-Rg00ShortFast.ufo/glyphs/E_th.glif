@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Eth" format="2">
-  <advance width="695"/>
+  <advance width="869"/>
   <unicode hex="00D0"/>
-  <anchor x="317" y="0" name="bottom"/>
-  <anchor x="186" y="355" name="center"/>
-  <anchor x="326" y="670" name="top"/>
+  <anchor x="396" y="0" name="bottom"/>
+  <anchor x="233" y="444" name="center"/>
+  <anchor x="408" y="838" name="top"/>
   <outline>
     <component base="D"/>
-    <component base="strokeshortcomb.case" xOffset="186" yOffset="81"/>
+    <component base="strokeshortcomb.case" xOffset="233" yOffset="101"/>
   </outline>
   <lib>
     <dict>

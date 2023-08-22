@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Zdotaccent" format="2">
-  <advance width="490"/>
+  <advance width="613"/>
   <unicode hex="017B"/>
-  <anchor x="245" y="0" name="bottom"/>
-  <anchor x="245" y="370" name="center"/>
-  <anchor x="245" y="850" name="top"/>
+  <anchor x="306" y="0" name="bottom"/>
+  <anchor x="306" y="463" name="center"/>
+  <anchor x="306" y="1063" name="top"/>
   <outline>
     <component base="Z"/>
-    <component base="dotaccentcomb.case" xOffset="245"/>
+    <component base="dotaccentcomb.case" xOffset="306"/>
   </outline>
   <lib>
     <dict>

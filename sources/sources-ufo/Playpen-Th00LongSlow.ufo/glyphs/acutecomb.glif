@@ -1,30 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutecomb" format="2">
   <unicode hex="0301"/>
-  <anchor x="0" y="400" name="_top"/>
-  <anchor x="0" y="654" name="top"/>
+  <anchor x="0" y="500" name="_top"/>
+  <anchor x="0" y="818" name="top"/>
   <outline>
     <contour>
-      <point x="-36" y="504" type="curve" smooth="yes"/>
-      <point x="-33" y="504"/>
-      <point x="-30" y="505"/>
-      <point x="-27" y="509" type="curve" smooth="yes"/>
-      <point x="80" y="643" type="line" smooth="yes"/>
-      <point x="82" y="646"/>
-      <point x="83" y="648"/>
-      <point x="83" y="651" type="curve" smooth="yes"/>
-      <point x="83" y="659"/>
-      <point x="70" y="669"/>
-      <point x="62" y="669" type="curve" smooth="yes"/>
-      <point x="58" y="669"/>
-      <point x="55" y="667"/>
-      <point x="52" y="663" type="curve" smooth="yes"/>
-      <point x="-48" y="526" type="line" smooth="yes"/>
-      <point x="-50" y="523"/>
-      <point x="-51" y="520"/>
-      <point x="-51" y="518" type="curve" smooth="yes"/>
-      <point x="-51" y="512"/>
-      <point x="-42" y="504"/>
+      <point x="-45" y="630" type="curve" smooth="yes"/>
+      <point x="-41" y="630"/>
+      <point x="-37" y="631"/>
+      <point x="-34" y="636" type="curve" smooth="yes"/>
+      <point x="100" y="804" type="line" smooth="yes"/>
+      <point x="103" y="808"/>
+      <point x="104" y="810"/>
+      <point x="104" y="814" type="curve" smooth="yes"/>
+      <point x="104" y="824"/>
+      <point x="88" y="836"/>
+      <point x="78" y="836" type="curve" smooth="yes"/>
+      <point x="73" y="836"/>
+      <point x="69" y="834"/>
+      <point x="65" y="829" type="curve" smooth="yes"/>
+      <point x="-60" y="658" type="line" smooth="yes"/>
+      <point x="-62" y="654"/>
+      <point x="-64" y="650"/>
+      <point x="-64" y="648" type="curve" smooth="yes"/>
+      <point x="-64" y="640"/>
+      <point x="-52" y="630"/>
     </contour>
   </outline>
   <lib>
@@ -57,7 +57,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

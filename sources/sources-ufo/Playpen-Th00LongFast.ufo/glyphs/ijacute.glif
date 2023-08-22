@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ijacute" format="2">
-  <advance width="454"/>
-  <anchor x="153" y="0" name="bottom"/>
-  <anchor x="202" y="0" name="ogonek"/>
-  <anchor x="104" y="654" name="top_1"/>
-  <anchor x="344" y="400" name="top_2"/>
+  <advance width="568"/>
+  <anchor x="191" y="0" name="bottom"/>
+  <anchor x="253" y="0" name="ogonek"/>
+  <anchor x="130" y="818" name="top_1"/>
+  <anchor x="430" y="500" name="top_2"/>
   <outline>
     <component base="iacute"/>
-    <component base="jdotless" xOffset="240"/>
-    <component base="acutecomb" xOffset="344"/>
+    <component base="jdotless" xOffset="300"/>
+    <component base="acutecomb" xOffset="430"/>
   </outline>
   <lib>
     <dict>

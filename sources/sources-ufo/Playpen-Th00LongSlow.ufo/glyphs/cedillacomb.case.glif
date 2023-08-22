@@ -1,43 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cedillacomb.case" format="2">
   <anchor x="0" y="0" name="_bottom"/>
-  <anchor x="0" y="-210" name="bottom"/>
+  <anchor x="0" y="-262" name="bottom"/>
   <outline>
     <contour>
-      <point x="-15" y="-222" type="curve" smooth="yes"/>
-      <point x="39" y="-222"/>
-      <point x="80" y="-192"/>
-      <point x="80" y="-143" type="curve" smooth="yes"/>
-      <point x="80" y="-84"/>
-      <point x="27" y="-65"/>
-      <point x="-29" y="-78" type="curve"/>
-      <point x="-21" y="-87" type="line"/>
-      <point x="15" y="0" type="line"/>
-      <point x="-11" y="0" type="line"/>
-      <point x="-42" y="-74" type="line" smooth="yes"/>
-      <point x="-46" y="-84"/>
-      <point x="-48" y="-89"/>
-      <point x="-43" y="-96" type="curve" smooth="yes"/>
-      <point x="-40" y="-100"/>
-      <point x="-35" y="-102"/>
-      <point x="-28" y="-101" type="curve" smooth="yes"/>
-      <point x="18" y="-95"/>
-      <point x="47" y="-109"/>
-      <point x="47" y="-143" type="curve" smooth="yes"/>
-      <point x="47" y="-176"/>
-      <point x="22" y="-193"/>
-      <point x="-15" y="-193" type="curve" smooth="yes"/>
-      <point x="-36" y="-193"/>
-      <point x="-55" y="-187"/>
-      <point x="-73" y="-179" type="curve" smooth="yes"/>
-      <point x="-81" y="-176"/>
-      <point x="-86" y="-177"/>
-      <point x="-90" y="-184" type="curve" smooth="yes"/>
-      <point x="-94" y="-191"/>
-      <point x="-94" y="-198"/>
-      <point x="-86" y="-203" type="curve" smooth="yes"/>
-      <point x="-62" y="-218"/>
-      <point x="-33" y="-222"/>
+      <point x="-19" y="-277" type="curve" smooth="yes"/>
+      <point x="49" y="-277"/>
+      <point x="100" y="-240"/>
+      <point x="100" y="-179" type="curve" smooth="yes"/>
+      <point x="100" y="-105"/>
+      <point x="34" y="-81"/>
+      <point x="-36" y="-97" type="curve"/>
+      <point x="-26" y="-109" type="line"/>
+      <point x="19" y="0" type="line"/>
+      <point x="-14" y="0" type="line"/>
+      <point x="-52" y="-92" type="line" smooth="yes"/>
+      <point x="-57" y="-105"/>
+      <point x="-60" y="-111"/>
+      <point x="-54" y="-120" type="curve" smooth="yes"/>
+      <point x="-50" y="-125"/>
+      <point x="-44" y="-127"/>
+      <point x="-35" y="-126" type="curve" smooth="yes"/>
+      <point x="23" y="-119"/>
+      <point x="59" y="-136"/>
+      <point x="59" y="-179" type="curve" smooth="yes"/>
+      <point x="59" y="-220"/>
+      <point x="28" y="-241"/>
+      <point x="-19" y="-241" type="curve" smooth="yes"/>
+      <point x="-45" y="-241"/>
+      <point x="-69" y="-234"/>
+      <point x="-91" y="-224" type="curve" smooth="yes"/>
+      <point x="-101" y="-220"/>
+      <point x="-107" y="-221"/>
+      <point x="-112" y="-230" type="curve" smooth="yes"/>
+      <point x="-117" y="-239"/>
+      <point x="-117" y="-247"/>
+      <point x="-107" y="-254" type="curve" smooth="yes"/>
+      <point x="-77" y="-272"/>
+      <point x="-41" y="-277"/>
     </contour>
   </outline>
   <lib>
@@ -70,7 +70,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

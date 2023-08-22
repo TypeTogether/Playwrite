@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ohungarumlaut" format="2">
-  <advance width="471"/>
+  <advance width="589"/>
   <unicode hex="0151"/>
-  <anchor x="171" y="0" name="bottom"/>
-  <anchor x="236" y="200" name="center"/>
-  <anchor x="261" y="0" name="ogonek"/>
-  <anchor x="346" y="654" name="top"/>
-  <anchor x="348" y="405" name="topright"/>
+  <anchor x="214" y="0" name="bottom"/>
+  <anchor x="295" y="250" name="center"/>
+  <anchor x="326" y="0" name="ogonek"/>
+  <anchor x="433" y="818" name="top"/>
+  <anchor x="435" y="506" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="hungarumlautcomb" xOffset="199"/>
+    <component base="hungarumlautcomb" xOffset="249"/>
   </outline>
   <lib>
     <dict>

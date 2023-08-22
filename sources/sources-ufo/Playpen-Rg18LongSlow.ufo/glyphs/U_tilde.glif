@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Utilde" format="2">
-  <advance width="1069"/>
+  <advance width="1336"/>
   <unicode hex="0168"/>
-  <anchor x="468" y="0" name="bottom"/>
-  <anchor x="673" y="17" name="ogonek"/>
-  <anchor x="879" y="1343" name="top"/>
-  <anchor x="1200" y="1207" name="topright"/>
+  <anchor x="585" y="0" name="bottom"/>
+  <anchor x="841" y="21" name="ogonek"/>
+  <anchor x="1099" y="1679" name="top"/>
+  <anchor x="1500" y="1509" name="topright"/>
   <outline>
     <component base="U"/>
-    <component base="tildecomb.case" xOffset="507" yOffset="-1"/>
+    <component base="tildecomb.case" xOffset="634" yOffset="-1"/>
   </outline>
   <lib>
     <dict>
