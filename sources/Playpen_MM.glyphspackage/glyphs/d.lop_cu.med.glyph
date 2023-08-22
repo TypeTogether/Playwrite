@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = cnct;
-pos = (550,0);
+pos = (688,0);
 }
 );
 layerId = m01;
@@ -14,13 +14,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (485,0);
+pos = (606,0);
 }
 );
 layerId = m016;
@@ -29,13 +29,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (485,0);
+pos = (606,0);
 }
 );
 layerId = m012;
@@ -44,13 +44,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (485,0);
+pos = (606,0);
 }
 );
 layerId = m002;
@@ -59,13 +59,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (485,0);
+pos = (606,0);
 }
 );
 layerId = m006;
@@ -74,13 +74,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (550,0);
+pos = (688,0);
 }
 );
 layerId = m009;
@@ -89,13 +89,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (550,0);
+pos = (688,0);
 }
 );
 layerId = m005;
@@ -104,13 +104,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (550,0);
+pos = (688,0);
 }
 );
 layerId = m011;
@@ -119,13 +119,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (550,0);
+pos = (688,0);
 }
 );
 layerId = m015;
@@ -134,13 +134,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (485,0);
+pos = (606,0);
 }
 );
 layerId = m008;
@@ -149,13 +149,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (485,0);
+pos = (606,0);
 }
 );
 layerId = m010;
@@ -164,13 +164,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (485,0);
+pos = (606,0);
 }
 );
 layerId = m004;
@@ -179,13 +179,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (485,0);
+pos = (606,0);
 }
 );
 layerId = m014;
@@ -194,13 +194,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (550,0);
+pos = (688,0);
 }
 );
 layerId = m007;
@@ -209,13 +209,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (550,0);
+pos = (688,0);
 }
 );
 layerId = m003;
@@ -224,13 +224,13 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (550,0);
+pos = (688,0);
 }
 );
 layerId = m013;
@@ -239,7 +239,7 @@ shapes = (
 ref = d.lop_cu.ini;
 }
 );
-width = 550;
+width = 688;
 }
 );
 }
