@@ -5,7 +5,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (120,0);
+pos = (150,0);
 ref = comma;
 },
 {
@@ -28,13 +28,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 370;
+width = 463;
 },
 {
 layerId = m002;
 shapes = (
 {
-pos = (120,0);
+pos = (150,0);
 ref = comma;
 },
 {
@@ -57,13 +57,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 370;
+width = 463;
 },
 {
 layerId = m003;
 shapes = (
 {
-pos = (120,0);
+pos = (150,0);
 ref = comma;
 },
 {
@@ -86,13 +86,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 370;
+width = 463;
 },
 {
 layerId = m004;
 shapes = (
 {
-pos = (120,0);
+pos = (150,0);
 ref = comma;
 },
 {
@@ -115,13 +115,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 370;
+width = 463;
 },
 {
 layerId = m005;
 shapes = (
 {
-pos = (140,0);
+pos = (175,0);
 ref = comma;
 },
 {
@@ -144,13 +144,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 390;
+width = 488;
 },
 {
 layerId = m006;
 shapes = (
 {
-pos = (140,0);
+pos = (175,0);
 ref = comma;
 },
 {
@@ -173,13 +173,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 390;
+width = 488;
 },
 {
 layerId = m007;
 shapes = (
 {
-pos = (140,0);
+pos = (175,0);
 ref = comma;
 },
 {
@@ -202,13 +202,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 390;
+width = 488;
 },
 {
 layerId = m008;
 shapes = (
 {
-pos = (140,0);
+pos = (175,0);
 ref = comma;
 },
 {
@@ -231,13 +231,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 390;
+width = 488;
 },
 {
 layerId = m009;
 shapes = (
 {
-pos = (140,0);
+pos = (175,0);
 ref = comma;
 },
 {
@@ -260,13 +260,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 390;
+width = 488;
 },
 {
 layerId = m010;
 shapes = (
 {
-pos = (140,0);
+pos = (175,0);
 ref = comma;
 },
 {
@@ -289,13 +289,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 390;
+width = 488;
 },
 {
 layerId = m011;
 shapes = (
 {
-pos = (140,0);
+pos = (175,0);
 ref = comma;
 },
 {
@@ -318,13 +318,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 390;
+width = 488;
 },
 {
 layerId = m012;
 shapes = (
 {
-pos = (140,0);
+pos = (175,0);
 ref = comma;
 },
 {
@@ -347,13 +347,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 390;
+width = 488;
 },
 {
 layerId = m013;
 shapes = (
 {
-pos = (150,0);
+pos = (188,0);
 ref = comma;
 },
 {
@@ -376,13 +376,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 400;
+width = 501;
 },
 {
 layerId = m014;
 shapes = (
 {
-pos = (150,0);
+pos = (188,0);
 ref = comma;
 },
 {
@@ -405,13 +405,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 400;
+width = 501;
 },
 {
 layerId = m015;
 shapes = (
 {
-pos = (150,0);
+pos = (188,0);
 ref = comma;
 },
 {
@@ -434,13 +434,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 400;
+width = 501;
 },
 {
 layerId = m016;
 shapes = (
 {
-pos = (150,0);
+pos = (188,0);
 ref = comma;
 },
 {
@@ -463,7 +463,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 400;
+width = 501;
 }
 );
 metricLeft = comma;

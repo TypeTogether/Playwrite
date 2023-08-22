@@ -8,11 +8,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (345,0);
+pos = (431,0);
 ref = dieresiscomb.case;
 },
 {
-pos = (345,127);
+pos = (431,158);
 ref = acutecomb.case;
 }
 );
@@ -32,7 +32,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 863;
 },
 {
 layerId = m002;
@@ -41,11 +41,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (328,0);
+pos = (410,0);
 ref = dieresiscomb.case;
 },
 {
-pos = (360,127);
+pos = (450,158);
 ref = acutecomb.case;
 }
 );
@@ -65,7 +65,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 863;
 },
 {
 layerId = m003;
@@ -74,11 +74,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (345,0);
+pos = (431,0);
 ref = dieresiscomb.case;
 },
 {
-pos = (345,127);
+pos = (431,158);
 ref = acutecomb.case;
 }
 );
@@ -98,7 +98,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 863;
 },
 {
 layerId = m004;
@@ -107,11 +107,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (329,0);
+pos = (411,0);
 ref = dieresiscomb.case;
 },
 {
-pos = (361,127);
+pos = (451,158);
 ref = acutecomb.case;
 }
 );
@@ -131,7 +131,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 863;
 },
 {
 layerId = m005;
@@ -140,11 +140,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (345,0);
+pos = (431,0);
 ref = dieresiscomb.case;
 },
 {
-pos = (345,148);
+pos = (431,185);
 ref = acutecomb.case;
 }
 );
@@ -164,7 +164,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 863;
 },
 {
 layerId = m006;
@@ -173,11 +173,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (327,0);
+pos = (409,0);
 ref = dieresiscomb.case;
 },
 {
-pos = (368,148);
+pos = (460,185);
 ref = acutecomb.case;
 }
 );
@@ -197,7 +197,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 863;
 },
 {
 layerId = m007;
@@ -206,11 +206,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (345,0);
+pos = (431,0);
 ref = dieresiscomb.case;
 },
 {
-pos = (345,148);
+pos = (431,185);
 ref = acutecomb.case;
 }
 );
@@ -230,7 +230,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 863;
 },
 {
 layerId = m008;
@@ -239,11 +239,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (330,0);
+pos = (412,0);
 ref = dieresiscomb.case;
 },
 {
-pos = (371,148);
+pos = (463,185);
 ref = acutecomb.case;
 }
 );
@@ -263,7 +263,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 863;
 },
 {
 layerId = m009;
@@ -272,11 +272,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (535,-1);
+pos = (669,-1);
 ref = dieresiscomb.case;
 },
 {
-pos = (535,153);
+pos = (669,192);
 ref = acutecomb.case;
 }
 );
@@ -296,7 +296,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1069;
+width = 1337;
 },
 {
 layerId = m010;
@@ -305,11 +305,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (510,-1);
+pos = (638,-1);
 ref = dieresiscomb.case;
 },
 {
-pos = (552,153);
+pos = (691,192);
 ref = acutecomb.case;
 }
 );
@@ -329,7 +329,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1069;
+width = 1337;
 },
 {
 layerId = m011;
@@ -338,11 +338,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (535,-1);
+pos = (669,-1);
 ref = dieresiscomb.case;
 },
 {
-pos = (535,153);
+pos = (669,192);
 ref = acutecomb.case;
 }
 );
@@ -362,7 +362,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1069;
+width = 1337;
 },
 {
 layerId = m012;
@@ -371,11 +371,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (509,-1);
+pos = (637,-1);
 ref = dieresiscomb.case;
 },
 {
-pos = (551,153);
+pos = (690,192);
 ref = acutecomb.case;
 }
 );
@@ -395,7 +395,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1069;
+width = 1337;
 },
 {
 layerId = m013;
@@ -404,11 +404,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (535,-1);
+pos = (669,-1);
 ref = dieresiscomb.case;
 },
 {
-pos = (535,159);
+pos = (669,199);
 ref = acutecomb.case;
 }
 );
@@ -428,7 +428,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1069;
+width = 1336;
 },
 {
 layerId = m014;
@@ -437,11 +437,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (506,-1);
+pos = (632,-1);
 ref = dieresiscomb.case;
 },
 {
-pos = (553,159);
+pos = (691,199);
 ref = acutecomb.case;
 }
 );
@@ -461,7 +461,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1069;
+width = 1336;
 },
 {
 layerId = m015;
@@ -470,11 +470,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (535,-1);
+pos = (669,-1);
 ref = dieresiscomb.case;
 },
 {
-pos = (535,159);
+pos = (669,199);
 ref = acutecomb.case;
 }
 );
@@ -494,7 +494,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1069;
+width = 1336;
 },
 {
 layerId = m016;
@@ -503,11 +503,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (508,-1);
+pos = (635,-1);
 ref = dieresiscomb.case;
 },
 {
-pos = (555,159);
+pos = (694,199);
 ref = acutecomb.case;
 }
 );
@@ -527,7 +527,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1069;
+width = 1336;
 }
 );
 unicode = 471;
