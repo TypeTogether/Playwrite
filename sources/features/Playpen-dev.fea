@@ -1439,7 +1439,6 @@ feature calt {
 } calt;
 
 
-# TODO: Sort DIST by TARGET CLASS OR SRC CLASS (ask Jose):
 feature dist {
 		lookup dist_MOD {
 			# MOD
