@@ -1,36 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresiscomb" format="2">
   <unicode hex="0308"/>
-  <anchor x="0" y="400" name="_top"/>
-  <anchor x="0" y="589" name="top"/>
+  <anchor x="0" y="500" name="_top"/>
+  <anchor x="0" y="736" name="top"/>
   <outline>
     <contour>
-      <point x="-100" y="552" type="curve" smooth="yes"/>
-      <point x="-80" y="552"/>
-      <point x="-70" y="563"/>
-      <point x="-70" y="586" type="curve" smooth="yes"/>
-      <point x="-70" y="609"/>
-      <point x="-80" y="620"/>
-      <point x="-100" y="620" type="curve" smooth="yes"/>
-      <point x="-120" y="620"/>
-      <point x="-130" y="609"/>
-      <point x="-130" y="586" type="curve" smooth="yes"/>
-      <point x="-130" y="563"/>
-      <point x="-120" y="552"/>
+      <point x="-125" y="690" type="curve" smooth="yes"/>
+      <point x="-100" y="690"/>
+      <point x="-87" y="704"/>
+      <point x="-87" y="733" type="curve" smooth="yes"/>
+      <point x="-87" y="761"/>
+      <point x="-100" y="775"/>
+      <point x="-125" y="775" type="curve" smooth="yes"/>
+      <point x="-150" y="775"/>
+      <point x="-162" y="761"/>
+      <point x="-162" y="733" type="curve" smooth="yes"/>
+      <point x="-162" y="704"/>
+      <point x="-150" y="690"/>
     </contour>
     <contour>
-      <point x="100" y="552" type="curve" smooth="yes"/>
-      <point x="120" y="552"/>
-      <point x="130" y="563"/>
-      <point x="130" y="586" type="curve" smooth="yes"/>
-      <point x="130" y="609"/>
-      <point x="120" y="620"/>
-      <point x="100" y="620" type="curve" smooth="yes"/>
-      <point x="80" y="620"/>
-      <point x="70" y="609"/>
-      <point x="70" y="586" type="curve" smooth="yes"/>
-      <point x="70" y="563"/>
-      <point x="80" y="552"/>
+      <point x="125" y="690" type="curve" smooth="yes"/>
+      <point x="150" y="690"/>
+      <point x="163" y="704"/>
+      <point x="163" y="733" type="curve" smooth="yes"/>
+      <point x="163" y="761"/>
+      <point x="150" y="775"/>
+      <point x="125" y="775" type="curve" smooth="yes"/>
+      <point x="100" y="775"/>
+      <point x="88" y="761"/>
+      <point x="88" y="733" type="curve" smooth="yes"/>
+      <point x="88" y="704"/>
+      <point x="100" y="690"/>
     </contour>
   </outline>
   <lib>
@@ -63,7 +63,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

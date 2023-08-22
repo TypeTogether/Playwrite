@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevecomb_hookabovecomb.case" format="2">
-  <anchor x="0" y="1140" name="_top"/>
-  <anchor x="0" y="1554" name="top"/>
+  <anchor x="0" y="1425" name="_top"/>
+  <anchor x="0" y="1943" name="top"/>
   <outline>
     <component base="brevecomb.case"/>
-    <component base="hookabovecomb.case" yOffset="130"/>
+    <component base="hookabovecomb.case" yOffset="163"/>
   </outline>
   <lib>
     <dict>
@@ -55,7 +55,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

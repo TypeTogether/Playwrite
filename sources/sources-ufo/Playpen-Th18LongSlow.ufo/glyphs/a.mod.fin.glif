@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="a.mod.fin" format="2">
-  <advance width="508"/>
-  <anchor x="196" y="0" name="bottom"/>
-  <anchor x="447" y="10" name="ogonek"/>
-  <anchor x="310" y="400" name="top"/>
+  <advance width="635"/>
+  <anchor x="246" y="0" name="bottom"/>
+  <anchor x="559" y="13" name="ogonek"/>
+  <anchor x="388" y="500" name="top"/>
   <outline>
     <component base="a.mod"/>
   </outline>

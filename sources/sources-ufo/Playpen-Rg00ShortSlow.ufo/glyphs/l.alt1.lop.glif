@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.alt1.lop" format="2">
-  <advance width="259"/>
-  <anchor x="98" y="0" name="bottom"/>
-  <anchor x="127" y="350" name="center"/>
-  <anchor x="136" y="670" name="top"/>
-  <anchor x="214" y="700" name="topright"/>
+  <advance width="324"/>
+  <anchor x="123" y="0" name="bottom"/>
+  <anchor x="159" y="438" name="center"/>
+  <anchor x="170" y="838" name="top"/>
+  <anchor x="268" y="875" name="topright"/>
   <outline>
     <component base="l.alt1.lop.fin"/>
   </outline>

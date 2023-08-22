@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="w.mlp.med_n_" format="2">
-  <advance width="750"/>
-  <anchor x="685" y="0" name="cnct"/>
-  <anchor x="352" y="0" name="bottom"/>
-  <anchor x="461" y="400" name="top"/>
+  <advance width="938"/>
+  <anchor x="856" y="0" name="cnct"/>
+  <anchor x="440" y="0" name="bottom"/>
+  <anchor x="576" y="500" name="top"/>
   <outline>
-    <component base="w.mlp.med" xOffset="40"/>
+    <component base="w.mlp.med" xOffset="50"/>
   </outline>
   <lib>
     <dict>

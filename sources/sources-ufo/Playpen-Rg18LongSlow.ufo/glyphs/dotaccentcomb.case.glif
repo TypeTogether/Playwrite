@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccentcomb.case" format="2">
-  <anchor x="305" y="1140" name="_top"/>
-  <anchor x="365" y="1329" name="top"/>
+  <anchor x="381" y="1425" name="_top"/>
+  <anchor x="456" y="1661" name="top"/>
   <outline>
     <contour>
-      <point x="354" y="1288" type="curve" smooth="yes"/>
-      <point x="394" y="1288"/>
-      <point x="412" y="1319"/>
-      <point x="412" y="1348" type="curve" smooth="yes"/>
-      <point x="412" y="1375"/>
-      <point x="395" y="1389"/>
-      <point x="373" y="1389" type="curve" smooth="yes"/>
-      <point x="333" y="1389"/>
-      <point x="315" y="1358"/>
-      <point x="315" y="1329" type="curve" smooth="yes"/>
-      <point x="315" y="1302"/>
-      <point x="332" y="1288"/>
+      <point x="443" y="1610" type="curve" smooth="yes"/>
+      <point x="493" y="1610"/>
+      <point x="515" y="1649"/>
+      <point x="515" y="1685" type="curve" smooth="yes"/>
+      <point x="515" y="1719"/>
+      <point x="494" y="1736"/>
+      <point x="466" y="1736" type="curve" smooth="yes"/>
+      <point x="416" y="1736"/>
+      <point x="394" y="1698"/>
+      <point x="394" y="1661" type="curve" smooth="yes"/>
+      <point x="394" y="1628"/>
+      <point x="415" y="1610"/>
     </contour>
   </outline>
   <lib>
@@ -48,7 +48,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

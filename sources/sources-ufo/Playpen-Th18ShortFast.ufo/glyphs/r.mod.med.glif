@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="r.mod.med" format="2">
-  <advance width="323"/>
-  <anchor x="258" y="0" name="cnct"/>
-  <anchor x="61" y="0" name="bottom"/>
-  <anchor x="288" y="400" name="top"/>
+  <advance width="404"/>
+  <anchor x="323" y="0" name="cnct"/>
+  <anchor x="76" y="0" name="bottom"/>
+  <anchor x="360" y="500" name="top"/>
   <outline>
     <component base="r.mod.ini"/>
   </outline>

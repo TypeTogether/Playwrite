@@ -1,29 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb_acutecomb.case" format="2">
-  <anchor x="304" y="1140" name="_top"/>
-  <anchor x="384" y="1384" name="top"/>
+  <anchor x="380" y="1425" name="_top"/>
+  <anchor x="480" y="1730" name="top"/>
   <outline>
     <contour>
-      <point x="487" y="1383" type="curve" smooth="yes"/>
-      <point x="490" y="1383"/>
-      <point x="492" y="1385"/>
-      <point x="496" y="1388" type="curve" smooth="yes"/>
-      <point x="647" y="1502" type="line" smooth="yes"/>
-      <point x="650" y="1504"/>
-      <point x="650" y="1507"/>
-      <point x="650" y="1510" type="curve" smooth="yes"/>
-      <point x="650" y="1518"/>
-      <point x="641" y="1528"/>
-      <point x="633" y="1528" type="curve" smooth="yes"/>
-      <point x="629" y="1528"/>
-      <point x="627" y="1525"/>
-      <point x="623" y="1522" type="curve" smooth="yes"/>
-      <point x="475" y="1406" type="line" smooth="yes"/>
-      <point x="472" y="1403"/>
-      <point x="472" y="1400"/>
-      <point x="472" y="1398" type="curve" smooth="yes"/>
-      <point x="472" y="1392"/>
-      <point x="481" y="1383"/>
+      <point x="609" y="1729" type="curve" smooth="yes"/>
+      <point x="613" y="1729"/>
+      <point x="615" y="1731"/>
+      <point x="620" y="1735" type="curve" smooth="yes"/>
+      <point x="809" y="1878" type="line" smooth="yes"/>
+      <point x="813" y="1880"/>
+      <point x="813" y="1884"/>
+      <point x="813" y="1888" type="curve" smooth="yes"/>
+      <point x="813" y="1898"/>
+      <point x="801" y="1910"/>
+      <point x="791" y="1910" type="curve" smooth="yes"/>
+      <point x="786" y="1910"/>
+      <point x="784" y="1906"/>
+      <point x="779" y="1903" type="curve" smooth="yes"/>
+      <point x="594" y="1758" type="line" smooth="yes"/>
+      <point x="590" y="1754"/>
+      <point x="590" y="1750"/>
+      <point x="590" y="1748" type="curve" smooth="yes"/>
+      <point x="590" y="1740"/>
+      <point x="601" y="1729"/>
     </contour>
     <component base="circumflexcomb.case"/>
   </outline>
@@ -68,7 +68,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>CP</string>
     </dict>

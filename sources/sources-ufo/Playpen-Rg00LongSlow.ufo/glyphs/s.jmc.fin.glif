@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="s.jmc.fin" format="2">
-  <advance width="425"/>
+  <advance width="531"/>
   <guideline x="45"/>
   <guideline x="71"/>
-  <anchor x="196" y="0" name="bottom"/>
-  <anchor x="208" y="400" name="top"/>
+  <anchor x="245" y="0" name="bottom"/>
+  <anchor x="260" y="500" name="top"/>
   <outline>
     <component base="s.mod.fin"/>
   </outline>

@@ -1,61 +1,61 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="x.ful.ini" format="2">
-  <advance width="532"/>
+  <advance width="665"/>
   <guideline x="489"/>
   <guideline x="915"/>
   <guideline x="40"/>
-  <anchor x="532" y="0" name="cnct"/>
+  <anchor x="665" y="0" name="cnct"/>
   <outline>
     <contour>
-      <point x="488" y="-14" type="curve" smooth="yes"/>
-      <point x="508" y="-14"/>
-      <point x="507" y="14"/>
-      <point x="488" y="14" type="curve" smooth="yes"/>
-      <point x="440" y="14"/>
-      <point x="405" y="72"/>
-      <point x="330" y="214" type="curve" smooth="yes"/>
-      <point x="257" y="352"/>
-      <point x="215" y="415"/>
-      <point x="162" y="415" type="curve" smooth="yes"/>
-      <point x="146" y="415"/>
-      <point x="137" y="413"/>
-      <point x="118" y="406" type="curve" smooth="yes"/>
-      <point x="112" y="404"/>
-      <point x="107" y="399"/>
-      <point x="109" y="390" type="curve" smooth="yes"/>
-      <point x="112" y="381"/>
-      <point x="118" y="376"/>
-      <point x="127" y="379" type="curve" smooth="yes"/>
-      <point x="144" y="385"/>
-      <point x="150" y="386"/>
-      <point x="162" y="386" type="curve" smooth="yes"/>
-      <point x="191" y="386"/>
-      <point x="221" y="355"/>
-      <point x="307" y="196" type="curve" smooth="yes"/>
-      <point x="391" y="41"/>
-      <point x="425" y="-14"/>
+      <point x="610" y="-17" type="curve" smooth="yes"/>
+      <point x="635" y="-17"/>
+      <point x="634" y="18"/>
+      <point x="610" y="18" type="curve" smooth="yes"/>
+      <point x="550" y="18"/>
+      <point x="506" y="90"/>
+      <point x="413" y="268" type="curve" smooth="yes"/>
+      <point x="321" y="440"/>
+      <point x="269" y="519"/>
+      <point x="203" y="519" type="curve" smooth="yes"/>
+      <point x="183" y="519"/>
+      <point x="171" y="516"/>
+      <point x="148" y="508" type="curve" smooth="yes"/>
+      <point x="140" y="505"/>
+      <point x="134" y="499"/>
+      <point x="136" y="488" type="curve" smooth="yes"/>
+      <point x="140" y="476"/>
+      <point x="148" y="470"/>
+      <point x="159" y="474" type="curve" smooth="yes"/>
+      <point x="180" y="481"/>
+      <point x="188" y="483"/>
+      <point x="203" y="483" type="curve" smooth="yes"/>
+      <point x="239" y="483"/>
+      <point x="276" y="444"/>
+      <point x="384" y="245" type="curve" smooth="yes"/>
+      <point x="489" y="51"/>
+      <point x="531" y="-17"/>
     </contour>
     <contour>
-      <point x="166" y="-10" type="curve" smooth="yes"/>
-      <point x="175" y="-10"/>
-      <point x="178" y="-6"/>
-      <point x="186" y="5" type="curve" smooth="yes"/>
-      <point x="327" y="193" type="line"/>
-      <point x="303" y="207" type="line"/>
-      <point x="155" y="10" type="line" smooth="yes"/>
-      <point x="147" y="-1"/>
-      <point x="154" y="-10"/>
+      <point x="208" y="-12" type="curve" smooth="yes"/>
+      <point x="219" y="-12"/>
+      <point x="223" y="-7"/>
+      <point x="233" y="6" type="curve" smooth="yes"/>
+      <point x="409" y="241" type="line"/>
+      <point x="379" y="259" type="line"/>
+      <point x="194" y="13" type="line" smooth="yes"/>
+      <point x="184" y="-1"/>
+      <point x="193" y="-12"/>
     </contour>
     <contour>
-      <point x="329" y="196" type="line"/>
-      <point x="478" y="395" type="line" smooth="yes"/>
-      <point x="487" y="406"/>
-      <point x="479" y="415"/>
-      <point x="467" y="415" type="curve" smooth="yes"/>
-      <point x="458" y="415"/>
-      <point x="455" y="411"/>
-      <point x="447" y="400" type="curve" smooth="yes"/>
-      <point x="304" y="209" type="line"/>
+      <point x="411" y="245" type="line"/>
+      <point x="598" y="494" type="line" smooth="yes"/>
+      <point x="609" y="508"/>
+      <point x="599" y="519"/>
+      <point x="584" y="519" type="curve" smooth="yes"/>
+      <point x="573" y="519"/>
+      <point x="569" y="514"/>
+      <point x="559" y="500" type="curve" smooth="yes"/>
+      <point x="380" y="261" type="line"/>
     </contour>
   </outline>
   <lib>

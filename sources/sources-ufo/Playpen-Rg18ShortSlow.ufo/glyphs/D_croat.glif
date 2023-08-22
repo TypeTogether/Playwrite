@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Dcroat" format="2">
-  <advance width="695"/>
+  <advance width="870"/>
   <unicode hex="0110"/>
-  <anchor x="278" y="0" name="bottom"/>
-  <anchor x="235" y="355" name="center"/>
-  <anchor x="464" y="670" name="top"/>
+  <anchor x="348" y="0" name="bottom"/>
+  <anchor x="294" y="444" name="center"/>
+  <anchor x="580" y="838" name="top"/>
   <outline>
     <component base="Eth"/>
   </outline>

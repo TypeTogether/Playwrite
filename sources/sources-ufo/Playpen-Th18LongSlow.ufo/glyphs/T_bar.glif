@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tbar" format="2">
-  <advance width="856"/>
+  <advance width="1069"/>
   <unicode hex="0166"/>
-  <anchor x="361" y="0" name="bottom"/>
-  <anchor x="565" y="595" name="center"/>
-  <anchor x="729" y="1139" name="top"/>
+  <anchor x="451" y="0" name="bottom"/>
+  <anchor x="706" y="744" name="center"/>
+  <anchor x="911" y="1424" name="top"/>
   <outline>
     <component base="T"/>
-    <component base="strokeshortcomb.case" xOffset="540" yOffset="321"/>
+    <component base="strokeshortcomb.case" xOffset="675" yOffset="401"/>
   </outline>
   <lib>
     <dict>

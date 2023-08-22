@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ibreve" format="2">
-  <advance width="240"/>
+  <advance width="300"/>
   <unicode hex="012D"/>
-  <anchor x="89" y="0" name="bottom"/>
-  <anchor x="142" y="0" name="ogonek"/>
-  <anchor x="253" y="654" name="top"/>
+  <anchor x="111" y="0" name="bottom"/>
+  <anchor x="178" y="0" name="ogonek"/>
+  <anchor x="317" y="818" name="top"/>
   <outline>
     <component base="idotless"/>
-    <component base="brevecomb" xOffset="106"/>
+    <component base="brevecomb" xOffset="133"/>
   </outline>
   <lib>
     <dict>

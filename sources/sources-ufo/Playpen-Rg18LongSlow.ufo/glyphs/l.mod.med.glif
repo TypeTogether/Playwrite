@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.mod.med" format="2">
-  <advance width="259"/>
-  <anchor x="194" y="0" name="cnct"/>
-  <anchor x="121" y="0" name="bottom"/>
-  <anchor x="252" y="570" name="center"/>
-  <anchor x="444" y="1139" name="top"/>
-  <anchor x="479" y="1200" name="topright"/>
+  <advance width="324"/>
+  <anchor x="243" y="0" name="cnct"/>
+  <anchor x="151" y="0" name="bottom"/>
+  <anchor x="315" y="713" name="center"/>
+  <anchor x="555" y="1424" name="top"/>
+  <anchor x="599" y="1500" name="topright"/>
   <outline>
     <component base="l.mod.ini"/>
   </outline>

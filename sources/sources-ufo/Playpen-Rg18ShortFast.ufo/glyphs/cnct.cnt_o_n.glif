@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.cnt_o_n" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-16" y="304" type="curve" smooth="yes"/>
-      <point x="47" y="304"/>
-      <point x="93" y="355"/>
-      <point x="125" y="355" type="curve" smooth="yes"/>
-      <point x="177" y="355"/>
-      <point x="172" y="415"/>
-      <point x="145" y="415" type="curve" smooth="yes"/>
-      <point x="95" y="415"/>
-      <point x="52" y="361"/>
-      <point x="-11" y="361" type="curve" smooth="yes"/>
-      <point x="-34" y="361"/>
-      <point x="-60" y="365"/>
-      <point x="-91" y="385" type="curve" smooth="yes"/>
-      <point x="-117" y="402"/>
-      <point x="-136" y="354"/>
-      <point x="-116" y="339" type="curve" smooth="yes"/>
-      <point x="-93" y="321"/>
-      <point x="-44" y="304"/>
+      <point x="-20" y="380" type="curve" smooth="yes"/>
+      <point x="59" y="380"/>
+      <point x="116" y="444"/>
+      <point x="156" y="444" type="curve" smooth="yes"/>
+      <point x="221" y="444"/>
+      <point x="215" y="519"/>
+      <point x="181" y="519" type="curve" smooth="yes"/>
+      <point x="119" y="519"/>
+      <point x="65" y="451"/>
+      <point x="-14" y="451" type="curve" smooth="yes"/>
+      <point x="-42" y="451"/>
+      <point x="-75" y="456"/>
+      <point x="-114" y="481" type="curve" smooth="yes"/>
+      <point x="-146" y="503"/>
+      <point x="-170" y="443"/>
+      <point x="-145" y="424" type="curve" smooth="yes"/>
+      <point x="-116" y="401"/>
+      <point x="-55" y="380"/>
     </contour>
   </outline>
   <lib>

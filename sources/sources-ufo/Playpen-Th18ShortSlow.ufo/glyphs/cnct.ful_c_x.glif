@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.ful_c_x" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-212" y="-14" type="curve" smooth="yes"/>
-      <point x="-128" y="-14"/>
-      <point x="-58" y="47"/>
-      <point x="43" y="209" type="curve" smooth="yes"/>
-      <point x="128" y="345"/>
-      <point x="173" y="388"/>
-      <point x="212" y="388" type="curve" smooth="yes"/>
-      <point x="232" y="388"/>
-      <point x="232" y="415"/>
-      <point x="218" y="415" type="curve" smooth="yes"/>
-      <point x="162" y="415"/>
-      <point x="112" y="370"/>
-      <point x="22" y="226" type="curve" smooth="yes"/>
-      <point x="-76" y="69"/>
-      <point x="-142" y="13"/>
-      <point x="-209" y="13" type="curve" smooth="yes"/>
-      <point x="-229" y="13"/>
-      <point x="-232" y="-14"/>
+      <point x="-265" y="-17" type="curve" smooth="yes"/>
+      <point x="-160" y="-17"/>
+      <point x="-72" y="59"/>
+      <point x="54" y="261" type="curve" smooth="yes"/>
+      <point x="160" y="431"/>
+      <point x="216" y="485"/>
+      <point x="265" y="485" type="curve" smooth="yes"/>
+      <point x="290" y="485"/>
+      <point x="290" y="519"/>
+      <point x="273" y="519" type="curve" smooth="yes"/>
+      <point x="203" y="519"/>
+      <point x="140" y="463"/>
+      <point x="28" y="283" type="curve" smooth="yes"/>
+      <point x="-95" y="86"/>
+      <point x="-177" y="16"/>
+      <point x="-261" y="16" type="curve" smooth="yes"/>
+      <point x="-286" y="16"/>
+      <point x="-290" y="-17"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +55,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>15</integer>
+      <integer>19</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

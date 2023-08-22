@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="d.lop_cu.fin" format="2">
-  <advance width="540"/>
-  <anchor x="269" y="0" name="bottom"/>
-  <anchor x="540" y="558" name="center"/>
-  <anchor x="272" y="400" name="top"/>
-  <anchor x="665" y="700" name="topright"/>
+  <advance width="675"/>
+  <anchor x="336" y="0" name="bottom"/>
+  <anchor x="675" y="698" name="center"/>
+  <anchor x="340" y="500" name="top"/>
+  <anchor x="831" y="875" name="topright"/>
   <outline>
     <component base="d.lop_cu"/>
   </outline>

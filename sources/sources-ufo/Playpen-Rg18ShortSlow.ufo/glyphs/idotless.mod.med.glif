@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idotless.mod.med" format="2">
-  <advance width="260"/>
-  <anchor x="195" y="0" name="cnct"/>
-  <anchor x="119" y="0" name="bottom"/>
-  <anchor x="162" y="0" name="ogonek"/>
-  <anchor x="192" y="400" name="top"/>
+  <advance width="325"/>
+  <anchor x="244" y="0" name="cnct"/>
+  <anchor x="149" y="0" name="bottom"/>
+  <anchor x="203" y="0" name="ogonek"/>
+  <anchor x="240" y="500" name="top"/>
   <outline>
     <component base="idotless.mod.ini"/>
   </outline>

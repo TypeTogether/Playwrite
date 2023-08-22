@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="abrevehookabove" format="2">
-  <advance width="498"/>
+  <advance width="623"/>
   <unicode hex="1EB3"/>
-  <anchor x="235" y="0" name="bottom"/>
-  <anchor x="457" y="10" name="ogonek"/>
-  <anchor x="243" y="804" name="top"/>
+  <anchor x="294" y="0" name="bottom"/>
+  <anchor x="571" y="13" name="ogonek"/>
+  <anchor x="304" y="1006" name="top"/>
   <outline>
     <component base="a"/>
-    <component base="brevecomb_hookabovecomb" xOffset="243"/>
+    <component base="brevecomb_hookabovecomb" xOffset="304"/>
   </outline>
   <lib>
     <dict>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gcommaaccent" format="2">
-  <advance width="700"/>
+  <advance width="875"/>
   <unicode hex="0122"/>
-  <anchor x="350" y="0" name="bottom"/>
-  <anchor x="360" y="670" name="top"/>
+  <anchor x="438" y="0" name="bottom"/>
+  <anchor x="450" y="838" name="top"/>
   <outline>
     <component base="G"/>
-    <component base="commaaccentcomb.case" xOffset="350"/>
+    <component base="commaaccentcomb.case" xOffset="438"/>
   </outline>
   <lib>
     <dict>

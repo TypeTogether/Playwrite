@@ -1,23 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="macroncomb.case" format="2">
-  <anchor x="305" y="1140" name="_top"/>
-  <anchor x="371" y="1344" name="top"/>
+  <anchor x="381" y="1425" name="_top"/>
+  <anchor x="464" y="1680" name="top"/>
   <outline>
     <contour>
-      <point x="244" y="1303" type="curve" smooth="yes"/>
-      <point x="478" y="1303" type="line" smooth="yes"/>
-      <point x="497" y="1303"/>
-      <point x="505" y="1314"/>
-      <point x="511" y="1336" type="curve" smooth="yes"/>
-      <point x="516" y="1356"/>
-      <point x="513" y="1371"/>
-      <point x="492" y="1371" type="curve" smooth="yes"/>
-      <point x="258" y="1371" type="line" smooth="yes"/>
-      <point x="239" y="1371"/>
-      <point x="231" y="1359"/>
-      <point x="225" y="1336" type="curve" smooth="yes"/>
-      <point x="220" y="1317"/>
-      <point x="223" y="1303"/>
+      <point x="305" y="1629" type="curve" smooth="yes"/>
+      <point x="598" y="1629" type="line" smooth="yes"/>
+      <point x="621" y="1629"/>
+      <point x="631" y="1643"/>
+      <point x="639" y="1670" type="curve" smooth="yes"/>
+      <point x="645" y="1695"/>
+      <point x="641" y="1714"/>
+      <point x="615" y="1714" type="curve" smooth="yes"/>
+      <point x="323" y="1714" type="line" smooth="yes"/>
+      <point x="299" y="1714"/>
+      <point x="289" y="1699"/>
+      <point x="281" y="1670" type="curve" smooth="yes"/>
+      <point x="275" y="1646"/>
+      <point x="279" y="1629"/>
     </contour>
   </outline>
   <lib>
@@ -50,7 +50,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

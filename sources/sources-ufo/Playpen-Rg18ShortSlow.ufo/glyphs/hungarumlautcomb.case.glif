@@ -2,52 +2,52 @@
 <glyph name="hungarumlautcomb.case" format="2">
   <guideline x="105" y="503" angle="0"/>
   <guideline x="237" y="670" angle="0"/>
-  <anchor x="151" y="670" name="_top"/>
-  <anchor x="263" y="884" name="top"/>
+  <anchor x="189" y="838" name="_top"/>
+  <anchor x="329" y="1105" name="top"/>
   <outline>
     <contour>
-      <point x="95" y="745" type="curve" smooth="yes"/>
-      <point x="99" y="745"/>
-      <point x="104" y="748"/>
-      <point x="110" y="753" type="curve" smooth="yes"/>
-      <point x="229" y="850" type="line" smooth="yes"/>
-      <point x="240" y="859"/>
-      <point x="241" y="862"/>
-      <point x="241" y="870" type="curve" smooth="yes"/>
-      <point x="241" y="886"/>
-      <point x="213" y="912"/>
-      <point x="197" y="912" type="curve" smooth="yes"/>
-      <point x="191" y="912"/>
-      <point x="187" y="909"/>
-      <point x="182" y="903" type="curve" smooth="yes"/>
-      <point x="72" y="789" type="line" smooth="yes"/>
-      <point x="65" y="782"/>
-      <point x="65" y="779"/>
-      <point x="65" y="775" type="curve" smooth="yes"/>
-      <point x="65" y="765"/>
-      <point x="84" y="745"/>
+      <point x="119" y="931" type="curve" smooth="yes"/>
+      <point x="124" y="931"/>
+      <point x="130" y="935"/>
+      <point x="138" y="941" type="curve" smooth="yes"/>
+      <point x="286" y="1063" type="line" smooth="yes"/>
+      <point x="300" y="1074"/>
+      <point x="301" y="1078"/>
+      <point x="301" y="1088" type="curve" smooth="yes"/>
+      <point x="301" y="1108"/>
+      <point x="266" y="1140"/>
+      <point x="246" y="1140" type="curve" smooth="yes"/>
+      <point x="239" y="1140"/>
+      <point x="234" y="1136"/>
+      <point x="228" y="1129" type="curve" smooth="yes"/>
+      <point x="90" y="986" type="line" smooth="yes"/>
+      <point x="81" y="978"/>
+      <point x="81" y="974"/>
+      <point x="81" y="969" type="curve" smooth="yes"/>
+      <point x="81" y="956"/>
+      <point x="105" y="931"/>
     </contour>
     <contour>
-      <point x="246" y="745" type="curve" smooth="yes"/>
-      <point x="250" y="745"/>
-      <point x="255" y="748"/>
-      <point x="261" y="753" type="curve" smooth="yes"/>
-      <point x="380" y="850" type="line" smooth="yes"/>
-      <point x="391" y="859"/>
-      <point x="392" y="862"/>
-      <point x="392" y="870" type="curve" smooth="yes"/>
-      <point x="392" y="886"/>
-      <point x="364" y="912"/>
-      <point x="348" y="912" type="curve" smooth="yes"/>
-      <point x="342" y="912"/>
-      <point x="338" y="909"/>
-      <point x="333" y="903" type="curve" smooth="yes"/>
-      <point x="223" y="789" type="line" smooth="yes"/>
-      <point x="216" y="782"/>
-      <point x="216" y="779"/>
-      <point x="216" y="775" type="curve" smooth="yes"/>
-      <point x="216" y="765"/>
-      <point x="235" y="745"/>
+      <point x="308" y="931" type="curve" smooth="yes"/>
+      <point x="313" y="931"/>
+      <point x="319" y="935"/>
+      <point x="326" y="941" type="curve" smooth="yes"/>
+      <point x="475" y="1063" type="line" smooth="yes"/>
+      <point x="489" y="1074"/>
+      <point x="490" y="1078"/>
+      <point x="490" y="1088" type="curve" smooth="yes"/>
+      <point x="490" y="1108"/>
+      <point x="455" y="1140"/>
+      <point x="435" y="1140" type="curve" smooth="yes"/>
+      <point x="428" y="1140"/>
+      <point x="423" y="1136"/>
+      <point x="416" y="1129" type="curve" smooth="yes"/>
+      <point x="279" y="986" type="line" smooth="yes"/>
+      <point x="270" y="978"/>
+      <point x="270" y="974"/>
+      <point x="270" y="969" type="curve" smooth="yes"/>
+      <point x="270" y="956"/>
+      <point x="294" y="931"/>
     </contour>
   </outline>
   <lib>
@@ -80,7 +80,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="horncomb.case" format="2">
-  <anchor x="331" y="1206" name="_topright"/>
+  <anchor x="414" y="1508" name="_topright"/>
   <outline>
     <contour>
-      <point x="474" y="1376" type="curve" smooth="yes"/>
-      <point x="472" y="1392"/>
-      <point x="441" y="1389"/>
-      <point x="443" y="1373" type="curve" smooth="yes"/>
-      <point x="456" y="1248"/>
-      <point x="431" y="1210"/>
-      <point x="331" y="1206" type="curve"/>
-      <point x="324" y="1185" type="line"/>
-      <point x="446" y="1182"/>
-      <point x="492" y="1234"/>
+      <point x="593" y="1720" type="curve" smooth="yes"/>
+      <point x="590" y="1740"/>
+      <point x="551" y="1736"/>
+      <point x="554" y="1716" type="curve" smooth="yes"/>
+      <point x="570" y="1560"/>
+      <point x="539" y="1513"/>
+      <point x="414" y="1508" type="curve"/>
+      <point x="405" y="1481" type="line"/>
+      <point x="558" y="1478"/>
+      <point x="615" y="1543"/>
     </contour>
   </outline>
   <lib>
@@ -45,7 +45,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

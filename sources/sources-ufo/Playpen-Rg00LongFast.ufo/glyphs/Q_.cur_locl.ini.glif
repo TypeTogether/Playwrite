@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Q.cur_locl.ini" format="2">
-  <advance width="1167"/>
-  <anchor x="1168" y="0" name="cnct"/>
-  <anchor x="574" y="0" name="bottom"/>
-  <anchor x="574" y="595" name="center"/>
-  <anchor x="733" y="9" name="ogonek"/>
-  <anchor x="574" y="1139" name="top"/>
-  <anchor x="809" y="1138" name="topright"/>
+  <advance width="1459"/>
+  <anchor x="1460" y="0" name="cnct"/>
+  <anchor x="718" y="0" name="bottom"/>
+  <anchor x="718" y="744" name="center"/>
+  <anchor x="916" y="11" name="ogonek"/>
+  <anchor x="718" y="1424" name="top"/>
+  <anchor x="1011" y="1423" name="topright"/>
   <outline>
     <contour>
-      <point x="1081" y="-14" type="curve" smooth="yes"/>
-      <point x="1121" y="-14"/>
-      <point x="1136" y="46"/>
-      <point x="1096" y="46" type="curve" smooth="yes"/>
-      <point x="978" y="46"/>
-      <point x="750" y="363"/>
-      <point x="509" y="363" type="curve" smooth="yes"/>
-      <point x="467" y="363"/>
-      <point x="468" y="295"/>
-      <point x="510" y="295" type="curve" smooth="yes"/>
-      <point x="722" y="295"/>
-      <point x="942" y="-14"/>
+      <point x="1351" y="-17" type="curve" smooth="yes"/>
+      <point x="1401" y="-17"/>
+      <point x="1420" y="58"/>
+      <point x="1370" y="58" type="curve" smooth="yes"/>
+      <point x="1223" y="58"/>
+      <point x="938" y="454"/>
+      <point x="636" y="454" type="curve" smooth="yes"/>
+      <point x="584" y="454"/>
+      <point x="585" y="369"/>
+      <point x="638" y="369" type="curve" smooth="yes"/>
+      <point x="903" y="369"/>
+      <point x="1178" y="-17"/>
     </contour>
     <component base="O"/>
   </outline>

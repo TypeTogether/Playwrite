@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="s.mlp" format="2">
-  <advance width="440"/>
-  <anchor x="169" y="0" name="bottom"/>
-  <anchor x="375" y="0" name="cnct"/>
-  <anchor x="215" y="415" name="top"/>
+  <advance width="550"/>
+  <anchor x="211" y="0" name="bottom"/>
+  <anchor x="469" y="0" name="cnct"/>
+  <anchor x="269" y="519" name="top"/>
   <outline>
     <contour>
-      <point x="-147" y="-14" type="curve" smooth="yes"/>
-      <point x="-51" y="-14"/>
-      <point x="108" y="158"/>
-      <point x="232" y="385" type="curve"/>
-      <point x="214" y="393" type="line"/>
-      <point x="99" y="189"/>
-      <point x="-60" y="14"/>
-      <point x="-138" y="14" type="curve" smooth="yes"/>
-      <point x="-158" y="14"/>
-      <point x="-162" y="-14"/>
+      <point x="-184" y="-17" type="curve" smooth="yes"/>
+      <point x="-64" y="-17"/>
+      <point x="135" y="198"/>
+      <point x="290" y="481" type="curve"/>
+      <point x="268" y="491" type="line"/>
+      <point x="124" y="236"/>
+      <point x="-75" y="18"/>
+      <point x="-172" y="18" type="curve" smooth="yes"/>
+      <point x="-197" y="18"/>
+      <point x="-202" y="-17"/>
     </contour>
     <component base="s.mlp.fin"/>
   </outline>

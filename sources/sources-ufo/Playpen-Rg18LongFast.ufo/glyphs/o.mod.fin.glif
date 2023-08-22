@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="o.mod.fin" format="2">
-  <advance width="481"/>
-  <anchor x="181" y="0" name="bottom"/>
-  <anchor x="246" y="200" name="center"/>
-  <anchor x="408" y="365" name="cnct"/>
-  <anchor x="290" y="10" name="ogonek"/>
-  <anchor x="291" y="400" name="top"/>
-  <anchor x="358" y="405" name="topright"/>
+  <advance width="601"/>
+  <anchor x="227" y="0" name="bottom"/>
+  <anchor x="308" y="250" name="center"/>
+  <anchor x="510" y="456" name="cnct"/>
+  <anchor x="363" y="13" name="ogonek"/>
+  <anchor x="364" y="500" name="top"/>
+  <anchor x="448" y="506" name="topright"/>
   <outline>
     <component base="o.mod"/>
   </outline>

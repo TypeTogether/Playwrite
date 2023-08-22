@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.cnt_g_n" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-229" y="-169" type="curve" smooth="yes"/>
-      <point x="92" y="16"/>
-      <point x="82" y="352"/>
-      <point x="198" y="352" type="curve" smooth="yes"/>
-      <point x="232" y="352"/>
-      <point x="238" y="412"/>
-      <point x="202" y="412" type="curve" smooth="yes"/>
-      <point x="31" y="412"/>
-      <point x="63" y="78"/>
-      <point x="-240" y="-110" type="curve" smooth="yes"/>
-      <point x="-268" y="-127"/>
-      <point x="-252" y="-182"/>
+      <point x="-286" y="-211" type="curve" smooth="yes"/>
+      <point x="115" y="20"/>
+      <point x="103" y="440"/>
+      <point x="248" y="440" type="curve" smooth="yes"/>
+      <point x="290" y="440"/>
+      <point x="298" y="515"/>
+      <point x="253" y="515" type="curve" smooth="yes"/>
+      <point x="39" y="515"/>
+      <point x="79" y="98"/>
+      <point x="-300" y="-137" type="curve" smooth="yes"/>
+      <point x="-335" y="-159"/>
+      <point x="-315" y="-227"/>
     </contour>
   </outline>
   <lib>
@@ -49,7 +49,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>85</integer>
+      <integer>106</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

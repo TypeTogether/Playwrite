@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="g.jmc" format="2">
-  <advance width="508"/>
-  <anchor x="443" y="0" name="cnct"/>
-  <anchor x="297" y="400" name="top"/>
+  <advance width="635"/>
+  <anchor x="554" y="0" name="cnct"/>
+  <anchor x="371" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="326" y="12" type="curve"/>
-      <point x="315" y="-24" type="line"/>
-      <point x="366" y="8"/>
-      <point x="414" y="38"/>
-      <point x="463" y="62" type="curve" smooth="yes"/>
-      <point x="478" y="69"/>
-      <point x="473" y="94"/>
-      <point x="452" y="84" type="curve" smooth="yes"/>
-      <point x="413" y="65"/>
-      <point x="370" y="41"/>
+      <point x="408" y="15" type="curve"/>
+      <point x="394" y="-30" type="line"/>
+      <point x="458" y="10"/>
+      <point x="518" y="48"/>
+      <point x="579" y="78" type="curve" smooth="yes"/>
+      <point x="598" y="86"/>
+      <point x="591" y="118"/>
+      <point x="565" y="105" type="curve" smooth="yes"/>
+      <point x="516" y="81"/>
+      <point x="463" y="51"/>
     </contour>
     <component base="g.jmc.ini"/>
   </outline>

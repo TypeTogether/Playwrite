@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.lop_o_h" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="15" y="223" type="curve" smooth="yes"/>
-      <point x="57" y="223"/>
-      <point x="105" y="246"/>
-      <point x="174" y="324" type="curve" smooth="yes"/>
-      <point x="200" y="353"/>
-      <point x="182" y="393"/>
-      <point x="157" y="366" type="curve" smooth="yes"/>
-      <point x="98" y="300"/>
-      <point x="57" y="277"/>
-      <point x="20" y="277" type="curve" smooth="yes"/>
-      <point x="-10" y="277"/>
-      <point x="-36" y="284"/>
-      <point x="-48" y="324" type="curve" smooth="yes"/>
-      <point x="-51" y="335"/>
-      <point x="-85" y="331"/>
-      <point x="-79" y="311" type="curve" smooth="yes"/>
-      <point x="-58" y="239"/>
-      <point x="-30" y="223"/>
+      <point x="19" y="279" type="curve" smooth="yes"/>
+      <point x="71" y="279"/>
+      <point x="131" y="308"/>
+      <point x="218" y="405" type="curve" smooth="yes"/>
+      <point x="250" y="441"/>
+      <point x="228" y="491"/>
+      <point x="196" y="458" type="curve" smooth="yes"/>
+      <point x="123" y="375"/>
+      <point x="71" y="346"/>
+      <point x="25" y="346" type="curve" smooth="yes"/>
+      <point x="-12" y="346"/>
+      <point x="-45" y="355"/>
+      <point x="-60" y="405" type="curve" smooth="yes"/>
+      <point x="-64" y="419"/>
+      <point x="-106" y="414"/>
+      <point x="-99" y="389" type="curve" smooth="yes"/>
+      <point x="-72" y="299"/>
+      <point x="-37" y="279"/>
     </contour>
   </outline>
   <lib>

@@ -1,44 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hookabovecomb.case" format="2">
-  <anchor x="0" y="670" name="_top"/>
-  <anchor x="0" y="904" name="top"/>
+  <anchor x="0" y="838" name="_top"/>
+  <anchor x="0" y="1130" name="top"/>
   <outline>
     <contour>
-      <point x="6" y="920" type="curve" smooth="yes"/>
-      <point x="-25" y="920"/>
-      <point x="-47" y="913"/>
-      <point x="-66" y="898" type="curve" smooth="yes"/>
-      <point x="-72" y="893"/>
-      <point x="-73" y="886"/>
-      <point x="-69" y="879" type="curve" smooth="yes"/>
-      <point x="-66" y="872"/>
-      <point x="-59" y="870"/>
-      <point x="-52" y="874" type="curve"/>
-      <point x="-35" y="886"/>
-      <point x="-18" y="892"/>
-      <point x="3" y="892" type="curve" smooth="yes"/>
-      <point x="27" y="892"/>
-      <point x="49" y="880"/>
-      <point x="49" y="862" type="curve" smooth="yes"/>
-      <point x="49" y="846"/>
-      <point x="37" y="835"/>
-      <point x="13" y="820" type="curve" smooth="yes"/>
-      <point x="-13" y="804"/>
-      <point x="-22" y="784"/>
-      <point x="-10" y="757" type="curve" smooth="yes"/>
-      <point x="-4" y="744" type="line" smooth="yes"/>
-      <point x="1" y="732"/>
-      <point x="28" y="742"/>
-      <point x="21" y="757" type="curve" smooth="yes"/>
-      <point x="19" y="761" type="line" smooth="yes"/>
-      <point x="9" y="781"/>
-      <point x="14" y="787"/>
-      <point x="38" y="803" type="curve" smooth="yes"/>
-      <point x="68" y="823"/>
-      <point x="81" y="838"/>
-      <point x="81" y="862" type="curve" smooth="yes"/>
-      <point x="81" y="895"/>
-      <point x="51" y="920"/>
+      <point x="8" y="1150" type="curve" smooth="yes"/>
+      <point x="-31" y="1150"/>
+      <point x="-59" y="1141"/>
+      <point x="-82" y="1123" type="curve" smooth="yes"/>
+      <point x="-90" y="1116"/>
+      <point x="-91" y="1108"/>
+      <point x="-86" y="1099" type="curve" smooth="yes"/>
+      <point x="-82" y="1090"/>
+      <point x="-74" y="1088"/>
+      <point x="-65" y="1093" type="curve"/>
+      <point x="-44" y="1108"/>
+      <point x="-22" y="1115"/>
+      <point x="4" y="1115" type="curve" smooth="yes"/>
+      <point x="34" y="1115"/>
+      <point x="61" y="1100"/>
+      <point x="61" y="1078" type="curve" smooth="yes"/>
+      <point x="61" y="1058"/>
+      <point x="46" y="1044"/>
+      <point x="16" y="1025" type="curve" smooth="yes"/>
+      <point x="-16" y="1005"/>
+      <point x="-27" y="980"/>
+      <point x="-12" y="946" type="curve" smooth="yes"/>
+      <point x="-5" y="930" type="line" smooth="yes"/>
+      <point x="1" y="915"/>
+      <point x="35" y="928"/>
+      <point x="26" y="946" type="curve" smooth="yes"/>
+      <point x="24" y="951" type="line" smooth="yes"/>
+      <point x="11" y="976"/>
+      <point x="18" y="984"/>
+      <point x="48" y="1004" type="curve" smooth="yes"/>
+      <point x="85" y="1029"/>
+      <point x="101" y="1048"/>
+      <point x="101" y="1078" type="curve" smooth="yes"/>
+      <point x="101" y="1119"/>
+      <point x="64" y="1150"/>
     </contour>
   </outline>
   <lib>
@@ -71,7 +71,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

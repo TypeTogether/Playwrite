@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Oacute" format="2">
-  <advance width="1147"/>
+  <advance width="1434"/>
   <unicode hex="00D3"/>
-  <anchor x="574" y="0" name="bottom"/>
-  <anchor x="574" y="595" name="center"/>
-  <anchor x="733" y="9" name="ogonek"/>
-  <anchor x="574" y="1413" name="top"/>
-  <anchor x="803" y="1139" name="topright"/>
+  <anchor x="718" y="0" name="bottom"/>
+  <anchor x="718" y="744" name="center"/>
+  <anchor x="916" y="11" name="ogonek"/>
+  <anchor x="718" y="1767" name="top"/>
+  <anchor x="1004" y="1424" name="topright"/>
   <outline>
     <component base="O"/>
-    <component base="acutecomb.case" xOffset="574" yOffset="-1"/>
+    <component base="acutecomb.case" xOffset="718" yOffset="-1"/>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb_gravecomb" format="2">
-  <anchor x="0" y="400" name="_top"/>
-  <anchor x="127" y="774" name="top"/>
+  <anchor x="0" y="500" name="_top"/>
+  <anchor x="159" y="968" name="top"/>
   <outline>
     <component base="circumflexcomb"/>
-    <component base="gravecomb" xOffset="127" yOffset="120"/>
+    <component base="gravecomb" xOffset="159" yOffset="150"/>
   </outline>
   <lib>
     <dict>
@@ -55,7 +55,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

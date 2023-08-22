@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Oslash" format="2">
-  <advance width="740"/>
+  <advance width="925"/>
   <unicode hex="00D8"/>
-  <anchor x="305" y="0" name="bottom"/>
-  <anchor x="419" y="350" name="center"/>
-  <anchor x="604" y="10" name="ogonek"/>
-  <anchor x="504" y="670" name="top"/>
-  <anchor x="571" y="700" name="topright"/>
+  <anchor x="381" y="0" name="bottom"/>
+  <anchor x="524" y="438" name="center"/>
+  <anchor x="755" y="13" name="ogonek"/>
+  <anchor x="630" y="838" name="top"/>
+  <anchor x="714" y="875" name="topright"/>
   <outline>
     <component base="O"/>
-    <component base="slashlongcomb.case" xOffset="419" yOffset="136"/>
+    <component base="slashlongcomb.case" xOffset="524" yOffset="170"/>
   </outline>
   <lib>
     <dict>
