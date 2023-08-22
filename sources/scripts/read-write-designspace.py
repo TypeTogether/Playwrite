@@ -1,3 +1,4 @@
+# NOTE: this file seems not used anymore
 from fontTools.designspaceLib import (DesignSpaceDocument, AxisDescriptor,
                                       SourceDescriptor, InstanceDescriptor)
 from modelsData import modelsDataDict
@@ -5,7 +6,7 @@ from modelsData import modelsDataDict
 
 # designspace with the sources
 doc = DesignSpaceDocument.fromfile(
-    "../sources-ufo/designspace-models/Playpen-SOURCES.designspace")
+    "../sources-ufo/designspace-models/_Playpen-SOURCES.designspace")
 # weights
 weightStyles = {
     100: "Thin",
