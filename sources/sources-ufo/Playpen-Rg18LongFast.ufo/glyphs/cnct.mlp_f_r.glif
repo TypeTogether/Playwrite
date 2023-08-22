@@ -3,27 +3,27 @@
   <guideline x="-129" y="66" angle="76.504"/>
   <guideline x="224" y="375" angle="71.878"/>
   <guideline x="171" y="365" angle="72.474"/>
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-135" y="-2" type="curve" smooth="yes"/>
+      <point x="-169" y="-2" type="curve" smooth="yes"/>
       <point x="0" y="-2"/>
-      <point x="119" y="115"/>
-      <point x="214" y="350" type="curve" smooth="yes"/>
-      <point x="218" y="360"/>
-      <point x="170" y="369"/>
-      <point x="165" y="357" type="curve" smooth="yes"/>
-      <point x="79" y="157"/>
-      <point x="-31" y="58"/>
-      <point x="-122" y="58" type="curve" smooth="yes"/>
-      <point x="-178" y="58"/>
-      <point x="-215" y="60"/>
-      <point x="-215" y="109" type="curve" smooth="yes"/>
-      <point x="-215" y="128"/>
-      <point x="-256" y="128"/>
-      <point x="-256" y="109" type="curve" smooth="yes"/>
-      <point x="-256" y="23"/>
-      <point x="-212" y="-2"/>
+      <point x="149" y="144"/>
+      <point x="268" y="438" type="curve" smooth="yes"/>
+      <point x="273" y="450"/>
+      <point x="213" y="461"/>
+      <point x="206" y="446" type="curve" smooth="yes"/>
+      <point x="99" y="196"/>
+      <point x="-39" y="73"/>
+      <point x="-152" y="73" type="curve" smooth="yes"/>
+      <point x="-222" y="73"/>
+      <point x="-269" y="75"/>
+      <point x="-269" y="136" type="curve" smooth="yes"/>
+      <point x="-269" y="160"/>
+      <point x="-320" y="160"/>
+      <point x="-320" y="136" type="curve" smooth="yes"/>
+      <point x="-320" y="29"/>
+      <point x="-265" y="-2"/>
     </contour>
   </outline>
   <lib>
@@ -58,7 +58,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>20</integer>
+      <integer>25</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

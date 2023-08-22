@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="y.cnt" format="2">
-  <advance width="532"/>
-  <anchor x="114" y="-300" name="bottom"/>
-  <anchor x="467" y="0" name="cnct"/>
-  <anchor x="317" y="400" name="top"/>
+  <advance width="665"/>
+  <anchor x="143" y="-375" name="bottom"/>
+  <anchor x="584" y="0" name="cnct"/>
+  <anchor x="396" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="344" y="12" type="curve"/>
-      <point x="333" y="-24" type="line"/>
-      <point x="384" y="8"/>
-      <point x="432" y="38"/>
-      <point x="481" y="62" type="curve" smooth="yes"/>
-      <point x="496" y="69"/>
-      <point x="491" y="94"/>
-      <point x="470" y="84" type="curve" smooth="yes"/>
-      <point x="431" y="65"/>
-      <point x="388" y="41"/>
+      <point x="430" y="15" type="curve"/>
+      <point x="416" y="-30" type="line"/>
+      <point x="480" y="10"/>
+      <point x="540" y="48"/>
+      <point x="601" y="78" type="curve" smooth="yes"/>
+      <point x="620" y="86"/>
+      <point x="614" y="118"/>
+      <point x="588" y="105" type="curve" smooth="yes"/>
+      <point x="539" y="81"/>
+      <point x="485" y="51"/>
     </contour>
     <component base="y.cnt.ini"/>
   </outline>

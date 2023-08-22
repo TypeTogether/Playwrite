@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.mrr_f_e.mod" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-100" y="24" type="curve" smooth="yes"/>
-      <point x="-65" y="24"/>
-      <point x="-27" y="34"/>
-      <point x="72" y="91" type="curve" smooth="yes"/>
-      <point x="86" y="99"/>
-      <point x="76" y="126"/>
-      <point x="63" y="117" type="curve"/>
-      <point x="-36" y="59"/>
-      <point x="-70" y="49"/>
-      <point x="-99" y="49" type="curve" smooth="yes"/>
-      <point x="-141" y="49"/>
-      <point x="-174" y="105"/>
-      <point x="-198" y="217" type="curve" smooth="yes"/>
-      <point x="-201" y="229"/>
-      <point x="-215" y="226"/>
-      <point x="-213" y="215" type="curve" smooth="yes"/>
-      <point x="-190" y="76"/>
-      <point x="-156" y="24"/>
+      <point x="-125" y="30" type="curve" smooth="yes"/>
+      <point x="-81" y="30"/>
+      <point x="-34" y="43"/>
+      <point x="90" y="114" type="curve" smooth="yes"/>
+      <point x="108" y="124"/>
+      <point x="95" y="158"/>
+      <point x="79" y="146" type="curve"/>
+      <point x="-45" y="74"/>
+      <point x="-87" y="61"/>
+      <point x="-124" y="61" type="curve" smooth="yes"/>
+      <point x="-176" y="61"/>
+      <point x="-217" y="131"/>
+      <point x="-247" y="271" type="curve" smooth="yes"/>
+      <point x="-251" y="286"/>
+      <point x="-269" y="283"/>
+      <point x="-266" y="269" type="curve" smooth="yes"/>
+      <point x="-237" y="95"/>
+      <point x="-195" y="30"/>
     </contour>
   </outline>
   <lib>

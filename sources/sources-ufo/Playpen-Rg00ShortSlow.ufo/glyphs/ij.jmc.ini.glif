@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ij.jmc.ini" format="2">
-  <advance width="513"/>
-  <anchor x="513" y="0" name="cnct"/>
-  <anchor x="176" y="0" name="bottom"/>
-  <anchor x="220" y="0" name="ogonek"/>
+  <advance width="641"/>
+  <anchor x="641" y="0" name="cnct"/>
+  <anchor x="220" y="0" name="bottom"/>
+  <anchor x="275" y="0" name="ogonek"/>
   <outline>
     <component base="ij.jmc.med"/>
   </outline>

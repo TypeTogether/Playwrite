@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="z.mlp.fin" format="2">
-  <advance width="432"/>
-  <anchor x="223" y="-300" name="bottom"/>
-  <anchor x="223" y="200" name="center"/>
-  <anchor x="432" y="0" name="cnct"/>
-  <anchor x="213" y="400" name="top"/>
+  <advance width="540"/>
+  <anchor x="279" y="-375" name="bottom"/>
+  <anchor x="279" y="250" name="center"/>
+  <anchor x="540" y="0" name="cnct"/>
+  <anchor x="266" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="102" y="-652" type="curve" smooth="yes"/>
-      <point x="102" y="-698"/>
-      <point x="174" y="-690"/>
-      <point x="174" y="-643" type="curve" smooth="yes"/>
-      <point x="174" y="-351"/>
-      <point x="262" y="-174"/>
-      <point x="464" y="14" type="curve" smooth="yes"/>
-      <point x="491" y="40"/>
-      <point x="454" y="82"/>
-      <point x="425" y="58" type="curve" smooth="yes"/>
-      <point x="206" y="-127"/>
-      <point x="102" y="-364"/>
+      <point x="128" y="-815" type="curve" smooth="yes"/>
+      <point x="128" y="-872"/>
+      <point x="218" y="-862"/>
+      <point x="218" y="-804" type="curve" smooth="yes"/>
+      <point x="218" y="-439"/>
+      <point x="328" y="-217"/>
+      <point x="580" y="18" type="curve" smooth="yes"/>
+      <point x="614" y="50"/>
+      <point x="568" y="103"/>
+      <point x="531" y="73" type="curve" smooth="yes"/>
+      <point x="258" y="-159"/>
+      <point x="128" y="-455"/>
     </contour>
     <component base="z.mlp.med"/>
   </outline>

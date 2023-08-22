@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="slashshortcomb.case" format="2">
-  <anchor x="0" y="274" name="_center"/>
+  <anchor x="0" y="343" name="_center"/>
   <outline>
     <contour>
-      <point x="-121" y="167" type="curve" smooth="yes"/>
-      <point x="239" y="377" type="line" smooth="yes"/>
-      <point x="251" y="384"/>
-      <point x="252" y="397"/>
-      <point x="240" y="413" type="curve" smooth="yes"/>
-      <point x="227" y="431"/>
-      <point x="218" y="433"/>
-      <point x="204" y="425" type="curve" smooth="yes"/>
-      <point x="-155" y="219" type="line" smooth="yes"/>
-      <point x="-169" y="211"/>
-      <point x="-167" y="194"/>
-      <point x="-159" y="181" type="curve" smooth="yes"/>
-      <point x="-148" y="165"/>
-      <point x="-136" y="158"/>
+      <point x="-151" y="209" type="curve" smooth="yes"/>
+      <point x="299" y="471" type="line" smooth="yes"/>
+      <point x="314" y="480"/>
+      <point x="315" y="496"/>
+      <point x="300" y="516" type="curve" smooth="yes"/>
+      <point x="284" y="539"/>
+      <point x="273" y="541"/>
+      <point x="255" y="531" type="curve" smooth="yes"/>
+      <point x="-194" y="274" type="line" smooth="yes"/>
+      <point x="-211" y="264"/>
+      <point x="-209" y="243"/>
+      <point x="-199" y="226" type="curve" smooth="yes"/>
+      <point x="-185" y="206"/>
+      <point x="-170" y="198"/>
     </contour>
   </outline>
   <lib>
@@ -49,7 +49,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

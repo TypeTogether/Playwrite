@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uhookabove" format="2">
-  <advance width="517"/>
+  <advance width="646"/>
   <unicode hex="1EE7"/>
-  <anchor x="175" y="0" name="bottom"/>
-  <anchor x="419" y="10" name="ogonek"/>
-  <anchor x="376" y="619" name="top"/>
-  <anchor x="442" y="411" name="topright"/>
+  <anchor x="219" y="0" name="bottom"/>
+  <anchor x="524" y="13" name="ogonek"/>
+  <anchor x="470" y="774" name="top"/>
+  <anchor x="553" y="514" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="hookabovecomb" xOffset="240"/>
+    <component base="hookabovecomb" xOffset="300"/>
   </outline>
   <lib>
     <dict>

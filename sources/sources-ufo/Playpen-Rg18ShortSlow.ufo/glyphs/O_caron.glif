@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ocaron" format="2">
-  <advance width="740"/>
+  <advance width="925"/>
   <unicode hex="01D1"/>
-  <anchor x="305" y="0" name="bottom"/>
-  <anchor x="419" y="350" name="center"/>
-  <anchor x="604" y="10" name="ogonek"/>
-  <anchor x="574" y="884" name="top"/>
-  <anchor x="570" y="700" name="topright"/>
+  <anchor x="381" y="0" name="bottom"/>
+  <anchor x="524" y="438" name="center"/>
+  <anchor x="755" y="13" name="ogonek"/>
+  <anchor x="717" y="1105" name="top"/>
+  <anchor x="713" y="875" name="topright"/>
   <outline>
     <component base="O"/>
-    <component base="caroncomb.case" xOffset="353"/>
+    <component base="caroncomb.case" xOffset="441"/>
   </outline>
   <lib>
     <dict>

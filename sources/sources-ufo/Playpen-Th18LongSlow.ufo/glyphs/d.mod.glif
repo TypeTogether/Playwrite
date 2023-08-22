@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="d.mod" format="2">
-  <advance width="513"/>
-  <anchor x="167" y="0" name="bottom"/>
-  <anchor x="538" y="758" name="center"/>
-  <anchor x="282" y="400" name="top"/>
-  <anchor x="720" y="1195" name="topright"/>
+  <advance width="641"/>
+  <anchor x="209" y="0" name="bottom"/>
+  <anchor x="673" y="948" name="center"/>
+  <anchor x="353" y="500" name="top"/>
+  <anchor x="901" y="1494" name="topright"/>
   <outline>
-    <component base="d" xOffset="10"/>
+    <component base="d" xOffset="13"/>
   </outline>
   <lib>
     <dict>

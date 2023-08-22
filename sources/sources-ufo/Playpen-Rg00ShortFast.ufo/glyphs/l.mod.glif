@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.mod" format="2">
-  <advance width="259"/>
-  <anchor x="128" y="350" name="CAT"/>
-  <anchor x="178" y="0" name="bottom"/>
-  <anchor x="130" y="350" name="center"/>
-  <anchor x="124" y="670" name="top"/>
-  <anchor x="139" y="700" name="topright"/>
+  <advance width="324"/>
+  <anchor x="161" y="438" name="CAT"/>
+  <anchor x="224" y="0" name="bottom"/>
+  <anchor x="164" y="438" name="center"/>
+  <anchor x="156" y="838" name="top"/>
+  <anchor x="175" y="875" name="topright"/>
   <outline>
-    <component base="l" xOffset="20"/>
+    <component base="l" xOffset="25"/>
   </outline>
   <lib>
     <dict>

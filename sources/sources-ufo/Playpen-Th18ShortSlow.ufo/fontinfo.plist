@@ -3,13 +3,13 @@
 <plist version="1.0">
   <dict>
     <key>ascender</key>
-    <integer>700</integer>
+    <integer>875</integer>
     <key>capHeight</key>
-    <integer>700</integer>
+    <integer>875</integer>
     <key>copyright</key>
     <string>Copyright 2023 The Playpen Project Authors (https://github.com/TypeTogether/Playpen)</string>
     <key>descender</key>
-    <integer>-300</integer>
+    <integer>-375</integer>
     <key>familyName</key>
     <string>Playpen</string>
     <key>guidelines</key>
@@ -20,9 +20,9 @@
         <key>name</key>
         <string> [locked]</string>
         <key>x</key>
-        <integer>153</integer>
+        <integer>191</integer>
         <key>y</key>
-        <integer>670</integer>
+        <integer>838</integer>
       </dict>
     </array>
     <key>italicAngle</key>
@@ -55,14 +55,14 @@
     <string>TT</string>
     <key>postscriptBlueValues</key>
     <array>
-      <integer>-15</integer>
+      <integer>-19</integer>
       <integer>0</integer>
-      <integer>400</integer>
-      <integer>415</integer>
-      <integer>700</integer>
-      <integer>715</integer>
-      <integer>700</integer>
-      <integer>715</integer>
+      <integer>500</integer>
+      <integer>519</integer>
+      <integer>875</integer>
+      <integer>894</integer>
+      <integer>875</integer>
+      <integer>894</integer>
     </array>
     <key>postscriptFamilyBlues</key>
     <array/>
@@ -70,8 +70,8 @@
     <array/>
     <key>postscriptOtherBlues</key>
     <array>
-      <integer>-315</integer>
-      <integer>-300</integer>
+      <integer>-394</integer>
+      <integer>-375</integer>
     </array>
     <key>postscriptStemSnapH</key>
     <array/>
@@ -90,6 +90,6 @@
     <key>versionMinor</key>
     <integer>0</integer>
     <key>xHeight</key>
-    <integer>400</integer>
+    <integer>500</integer>
   </dict>
 </plist>

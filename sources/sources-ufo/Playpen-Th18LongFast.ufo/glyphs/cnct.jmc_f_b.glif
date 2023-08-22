@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.jmc_f_b" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-610" y="-815" type="curve" smooth="yes"/>
-      <point x="-590" y="-815"/>
-      <point x="-585" y="-787"/>
-      <point x="-605" y="-787" type="curve" smooth="yes"/>
-      <point x="-638" y="-787"/>
-      <point x="-654" y="-765"/>
-      <point x="-654" y="-720" type="curve" smooth="yes"/>
-      <point x="-654" y="-406"/>
-      <point x="-30" y="-57"/>
-      <point x="205" y="375" type="curve" smooth="yes"/>
-      <point x="211" y="386"/>
-      <point x="191" y="395"/>
-      <point x="185" y="384" type="curve" smooth="yes"/>
-      <point x="-42" y="-33"/>
-      <point x="-687" y="-385"/>
-      <point x="-687" y="-720" type="curve" smooth="yes"/>
-      <point x="-687" y="-778"/>
-      <point x="-661" y="-815"/>
+      <point x="-762" y="-1019" type="curve" smooth="yes"/>
+      <point x="-737" y="-1019"/>
+      <point x="-731" y="-984"/>
+      <point x="-756" y="-984" type="curve" smooth="yes"/>
+      <point x="-797" y="-984"/>
+      <point x="-817" y="-956"/>
+      <point x="-817" y="-900" type="curve" smooth="yes"/>
+      <point x="-817" y="-507"/>
+      <point x="-37" y="-71"/>
+      <point x="256" y="469" type="curve" smooth="yes"/>
+      <point x="264" y="483"/>
+      <point x="239" y="494"/>
+      <point x="231" y="480" type="curve" smooth="yes"/>
+      <point x="-52" y="-41"/>
+      <point x="-859" y="-481"/>
+      <point x="-859" y="-900" type="curve" smooth="yes"/>
+      <point x="-859" y="-972"/>
+      <point x="-826" y="-1019"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +55,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>10</integer>
+      <integer>13</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

@@ -3,30 +3,30 @@
   <anchor x="0" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-137" y="261" type="curve" smooth="yes"/>
-      <point x="-15" y="261"/>
-      <point x="81" y="312"/>
-      <point x="157" y="386" type="curve" smooth="yes"/>
-      <point x="168" y="396"/>
-      <point x="148" y="413"/>
-      <point x="142" y="407" type="curve" smooth="yes"/>
-      <point x="68" y="334"/>
-      <point x="-24" y="286"/>
-      <point x="-135" y="286" type="curve" smooth="yes"/>
-      <point x="-208" y="286"/>
-      <point x="-272" y="308"/>
-      <point x="-272" y="353" type="curve" smooth="yes"/>
-      <point x="-272" y="380"/>
-      <point x="-254" y="391"/>
-      <point x="-223" y="391" type="curve" smooth="yes"/>
-      <point x="-203" y="391"/>
-      <point x="-203" y="415"/>
-      <point x="-223" y="415" type="curve" smooth="yes"/>
-      <point x="-268" y="415"/>
-      <point x="-297" y="392"/>
-      <point x="-297" y="353" type="curve" smooth="yes"/>
-      <point x="-297" y="291"/>
-      <point x="-223" y="261"/>
+      <point x="-171" y="326" type="curve" smooth="yes"/>
+      <point x="-19" y="326"/>
+      <point x="101" y="390"/>
+      <point x="196" y="483" type="curve" smooth="yes"/>
+      <point x="210" y="495"/>
+      <point x="185" y="516"/>
+      <point x="178" y="509" type="curve" smooth="yes"/>
+      <point x="85" y="418"/>
+      <point x="-30" y="358"/>
+      <point x="-169" y="358" type="curve" smooth="yes"/>
+      <point x="-260" y="358"/>
+      <point x="-340" y="385"/>
+      <point x="-340" y="441" type="curve" smooth="yes"/>
+      <point x="-340" y="475"/>
+      <point x="-317" y="489"/>
+      <point x="-279" y="489" type="curve" smooth="yes"/>
+      <point x="-254" y="489"/>
+      <point x="-254" y="519"/>
+      <point x="-279" y="519" type="curve" smooth="yes"/>
+      <point x="-335" y="519"/>
+      <point x="-371" y="490"/>
+      <point x="-371" y="441" type="curve" smooth="yes"/>
+      <point x="-371" y="364"/>
+      <point x="-279" y="326"/>
     </contour>
   </outline>
   <lib>
@@ -61,7 +61,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>25</integer>
+      <integer>31</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

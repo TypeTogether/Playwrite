@@ -3,24 +3,24 @@
   <anchor x="0" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-67" y="336" type="curve" smooth="yes"/>
-      <point x="-8" y="336"/>
-      <point x="8" y="385"/>
-      <point x="50" y="385" type="curve" smooth="yes"/>
-      <point x="67" y="385"/>
-      <point x="66" y="412"/>
-      <point x="53" y="412" type="curve" smooth="yes"/>
-      <point x="-5" y="412"/>
-      <point x="-17" y="360"/>
-      <point x="-68" y="360" type="curve" smooth="yes"/>
-      <point x="-86" y="360"/>
-      <point x="-108" y="368"/>
-      <point x="-140" y="385" type="curve" smooth="yes"/>
-      <point x="-145" y="388"/>
-      <point x="-154" y="372"/>
-      <point x="-146" y="367" type="curve" smooth="yes"/>
-      <point x="-118" y="349"/>
-      <point x="-85" y="336"/>
+      <point x="-84" y="420" type="curve" smooth="yes"/>
+      <point x="-10" y="420"/>
+      <point x="10" y="481"/>
+      <point x="63" y="481" type="curve" smooth="yes"/>
+      <point x="84" y="481"/>
+      <point x="83" y="515"/>
+      <point x="66" y="515" type="curve" smooth="yes"/>
+      <point x="-6" y="515"/>
+      <point x="-21" y="450"/>
+      <point x="-85" y="450" type="curve" smooth="yes"/>
+      <point x="-107" y="450"/>
+      <point x="-135" y="460"/>
+      <point x="-175" y="481" type="curve" smooth="yes"/>
+      <point x="-181" y="485"/>
+      <point x="-192" y="465"/>
+      <point x="-182" y="459" type="curve" smooth="yes"/>
+      <point x="-147" y="436"/>
+      <point x="-106" y="420"/>
     </contour>
   </outline>
   <lib>

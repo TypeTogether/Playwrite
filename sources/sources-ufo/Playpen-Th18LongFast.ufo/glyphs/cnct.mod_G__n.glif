@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.mod_G_n" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-691" y="-703" type="curve" smooth="yes"/>
-      <point x="-691" y="-723"/>
-      <point x="-658" y="-723"/>
-      <point x="-658" y="-703" type="curve" smooth="yes"/>
-      <point x="-658" y="-557"/>
-      <point x="-455" y="-323"/>
-      <point x="-236" y="-158" type="curve" smooth="yes"/>
-      <point x="8" y="27"/>
-      <point x="129" y="166"/>
-      <point x="232" y="385" type="curve" smooth="yes"/>
-      <point x="238" y="397"/>
-      <point x="222" y="407"/>
-      <point x="215" y="393" type="curve" smooth="yes"/>
-      <point x="105" y="179"/>
-      <point x="-5" y="46"/>
-      <point x="-240" y="-126" type="curve" smooth="yes"/>
-      <point x="-475" y="-298"/>
-      <point x="-691" y="-545"/>
+      <point x="-864" y="-879" type="curve" smooth="yes"/>
+      <point x="-864" y="-904"/>
+      <point x="-822" y="-904"/>
+      <point x="-822" y="-879" type="curve" smooth="yes"/>
+      <point x="-822" y="-696"/>
+      <point x="-569" y="-404"/>
+      <point x="-295" y="-197" type="curve" smooth="yes"/>
+      <point x="10" y="34"/>
+      <point x="161" y="208"/>
+      <point x="290" y="481" type="curve" smooth="yes"/>
+      <point x="298" y="496"/>
+      <point x="278" y="509"/>
+      <point x="269" y="491" type="curve" smooth="yes"/>
+      <point x="131" y="224"/>
+      <point x="-6" y="58"/>
+      <point x="-300" y="-157" type="curve" smooth="yes"/>
+      <point x="-594" y="-372"/>
+      <point x="-864" y="-681"/>
     </contour>
   </outline>
   <lib>
@@ -28,7 +28,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>40</integer>
+      <integer>50</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

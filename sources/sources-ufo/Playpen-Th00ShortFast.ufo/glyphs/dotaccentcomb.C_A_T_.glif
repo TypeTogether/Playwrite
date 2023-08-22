@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccentcomb.CAT" format="2">
-  <anchor x="0" y="350" name="_CAT"/>
+  <anchor x="0" y="438" name="_CAT"/>
   <outline>
     <contour>
-      <point x="95" y="316" type="curve" smooth="yes"/>
-      <point x="115" y="316"/>
-      <point x="125" y="327"/>
-      <point x="125" y="350" type="curve" smooth="yes"/>
-      <point x="125" y="373"/>
-      <point x="115" y="384"/>
-      <point x="95" y="384" type="curve" smooth="yes"/>
-      <point x="75" y="384"/>
-      <point x="65" y="373"/>
-      <point x="65" y="350" type="curve" smooth="yes"/>
-      <point x="65" y="327"/>
-      <point x="75" y="316"/>
+      <point x="119" y="395" type="curve" smooth="yes"/>
+      <point x="144" y="395"/>
+      <point x="156" y="409"/>
+      <point x="156" y="438" type="curve" smooth="yes"/>
+      <point x="156" y="466"/>
+      <point x="144" y="480"/>
+      <point x="119" y="480" type="curve" smooth="yes"/>
+      <point x="94" y="480"/>
+      <point x="81" y="466"/>
+      <point x="81" y="438" type="curve" smooth="yes"/>
+      <point x="81" y="409"/>
+      <point x="94" y="395"/>
     </contour>
   </outline>
   <lib>
@@ -47,7 +47,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

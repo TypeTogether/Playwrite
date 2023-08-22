@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udotbelow" format="2">
-  <advance width="690"/>
+  <advance width="863"/>
   <unicode hex="1EE4"/>
-  <anchor x="230" y="-155" name="bottom"/>
-  <anchor x="412" y="10" name="ogonek"/>
-  <anchor x="481" y="670" name="top"/>
-  <anchor x="730" y="710" name="topright"/>
+  <anchor x="287" y="-194" name="bottom"/>
+  <anchor x="515" y="13" name="ogonek"/>
+  <anchor x="601" y="838" name="top"/>
+  <anchor x="913" y="888" name="topright"/>
   <outline>
     <component base="U"/>
-    <component base="dotbelowcomb.case" xOffset="345"/>
+    <component base="dotbelowcomb.case" xOffset="431"/>
   </outline>
   <lib>
     <dict>

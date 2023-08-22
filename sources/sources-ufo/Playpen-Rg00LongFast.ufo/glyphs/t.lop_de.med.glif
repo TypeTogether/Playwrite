@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="t.lop_de.med" format="2">
-  <advance width="411"/>
-  <anchor x="411" y="0" name="cnct"/>
-  <anchor x="229" y="1139" name="top"/>
-  <anchor x="227" y="1242" name="topright"/>
+  <advance width="514"/>
+  <anchor x="514" y="0" name="cnct"/>
+  <anchor x="286" y="1424" name="top"/>
+  <anchor x="284" y="1553" name="topright"/>
   <outline>
     <contour>
-      <point x="218" y="-12" type="curve" smooth="yes"/>
-      <point x="241" y="-12"/>
-      <point x="253" y="-5"/>
-      <point x="253" y="9" type="curve" smooth="yes"/>
-      <point x="253" y="1191" type="line" smooth="yes"/>
-      <point x="253" y="1205"/>
-      <point x="241" y="1212"/>
-      <point x="218" y="1212" type="curve" smooth="yes"/>
-      <point x="195" y="1212"/>
-      <point x="184" y="1205"/>
-      <point x="184" y="1191" type="curve" smooth="yes"/>
-      <point x="184" y="9" type="line" smooth="yes"/>
-      <point x="184" y="-5"/>
-      <point x="195" y="-12"/>
+      <point x="273" y="-15" type="curve" smooth="yes"/>
+      <point x="301" y="-15"/>
+      <point x="316" y="-6"/>
+      <point x="316" y="11" type="curve" smooth="yes"/>
+      <point x="316" y="1489" type="line" smooth="yes"/>
+      <point x="316" y="1506"/>
+      <point x="301" y="1515"/>
+      <point x="273" y="1515" type="curve" smooth="yes"/>
+      <point x="244" y="1515"/>
+      <point x="230" y="1506"/>
+      <point x="230" y="1489" type="curve" smooth="yes"/>
+      <point x="230" y="11" type="line" smooth="yes"/>
+      <point x="230" y="-6"/>
+      <point x="244" y="-15"/>
     </contour>
   </outline>
 </glyph>

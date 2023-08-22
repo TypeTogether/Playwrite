@@ -1,40 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tildecomb" format="2">
   <unicode hex="0303"/>
-  <anchor x="0" y="400" name="_top"/>
-  <anchor x="0" y="604" name="top"/>
+  <anchor x="0" y="500" name="_top"/>
+  <anchor x="0" y="755" name="top"/>
   <outline>
     <contour>
-      <point x="-121" y="512" type="curve" smooth="yes"/>
-      <point x="-103" y="512"/>
-      <point x="-93" y="519"/>
-      <point x="-92" y="533" type="curve" smooth="yes"/>
-      <point x="-90" y="561"/>
-      <point x="-81" y="574"/>
-      <point x="-68" y="574" type="curve" smooth="yes"/>
-      <point x="-37" y="574"/>
-      <point x="-3" y="513"/>
-      <point x="58" y="513" type="curve" smooth="yes"/>
-      <point x="119" y="513"/>
-      <point x="143" y="555"/>
-      <point x="144" y="620" type="curve" smooth="yes"/>
-      <point x="144" y="634"/>
-      <point x="136" y="642"/>
-      <point x="115" y="642" type="curve" smooth="yes"/>
-      <point x="97" y="642"/>
-      <point x="89" y="636"/>
-      <point x="88" y="625" type="curve" smooth="yes"/>
-      <point x="86" y="597"/>
-      <point x="77" y="581"/>
-      <point x="63" y="581" type="curve" smooth="yes"/>
-      <point x="29" y="581"/>
-      <point x="0" y="641"/>
-      <point x="-64" y="641" type="curve" smooth="yes"/>
-      <point x="-113" y="641"/>
-      <point x="-147" y="610"/>
-      <point x="-148" y="533" type="curve" smooth="yes"/>
-      <point x="-148" y="518"/>
-      <point x="-138" y="512"/>
+      <point x="-151" y="640" type="curve" smooth="yes"/>
+      <point x="-129" y="640"/>
+      <point x="-116" y="649"/>
+      <point x="-115" y="666" type="curve" smooth="yes"/>
+      <point x="-112" y="701"/>
+      <point x="-101" y="718"/>
+      <point x="-85" y="718" type="curve" smooth="yes"/>
+      <point x="-46" y="718"/>
+      <point x="-4" y="641"/>
+      <point x="73" y="641" type="curve" smooth="yes"/>
+      <point x="149" y="641"/>
+      <point x="179" y="694"/>
+      <point x="180" y="775" type="curve" smooth="yes"/>
+      <point x="180" y="793"/>
+      <point x="170" y="803"/>
+      <point x="144" y="803" type="curve" smooth="yes"/>
+      <point x="121" y="803"/>
+      <point x="111" y="795"/>
+      <point x="110" y="781" type="curve" smooth="yes"/>
+      <point x="108" y="746"/>
+      <point x="96" y="726"/>
+      <point x="79" y="726" type="curve" smooth="yes"/>
+      <point x="36" y="726"/>
+      <point x="0" y="801"/>
+      <point x="-80" y="801" type="curve" smooth="yes"/>
+      <point x="-141" y="801"/>
+      <point x="-184" y="763"/>
+      <point x="-185" y="666" type="curve" smooth="yes"/>
+      <point x="-185" y="648"/>
+      <point x="-172" y="640"/>
     </contour>
   </outline>
   <lib>
@@ -67,7 +67,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

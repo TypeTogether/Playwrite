@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Icaron" format="2">
-  <advance width="270"/>
+  <advance width="338"/>
   <unicode hex="01CF"/>
-  <anchor x="135" y="0" name="bottom"/>
-  <anchor x="150" y="-4" name="ogonek"/>
-  <anchor x="135" y="904" name="top"/>
+  <anchor x="169" y="0" name="bottom"/>
+  <anchor x="188" y="-5" name="ogonek"/>
+  <anchor x="169" y="1130" name="top"/>
   <outline>
     <component base="I"/>
-    <component base="caroncomb.case" xOffset="135"/>
+    <component base="caroncomb.case" xOffset="169"/>
   </outline>
   <lib>
     <dict>

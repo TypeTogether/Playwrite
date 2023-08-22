@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="i.mod" format="2">
-  <advance width="260"/>
-  <anchor x="119" y="0" name="bottom"/>
-  <anchor x="162" y="0" name="ogonek"/>
+  <advance width="325"/>
+  <anchor x="149" y="0" name="bottom"/>
+  <anchor x="203" y="0" name="ogonek"/>
   <outline>
-    <component base="i" xOffset="20"/>
+    <component base="i" xOffset="25"/>
   </outline>
   <lib>
     <dict>

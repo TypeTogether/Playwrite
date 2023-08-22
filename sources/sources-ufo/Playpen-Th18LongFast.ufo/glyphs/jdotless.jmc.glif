@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jdotless.jmc" format="2">
-  <advance width="253"/>
-  <anchor x="188" y="0" name="cnct"/>
-  <anchor x="191" y="400" name="top"/>
+  <advance width="316"/>
+  <anchor x="235" y="0" name="cnct"/>
+  <anchor x="239" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="19" y="-117" type="curve"/>
-      <point x="13" y="-155" type="line"/>
-      <point x="59" y="-115"/>
-      <point x="142" y="-51"/>
-      <point x="187" y="-21" type="curve" smooth="yes"/>
-      <point x="201" y="-12"/>
-      <point x="193" y="12"/>
-      <point x="173" y="-1" type="curve" smooth="yes"/>
-      <point x="138" y="-25"/>
-      <point x="58" y="-83"/>
+      <point x="24" y="-146" type="curve"/>
+      <point x="16" y="-194" type="line"/>
+      <point x="74" y="-144"/>
+      <point x="178" y="-64"/>
+      <point x="234" y="-26" type="curve" smooth="yes"/>
+      <point x="251" y="-15"/>
+      <point x="241" y="15"/>
+      <point x="216" y="-1" type="curve" smooth="yes"/>
+      <point x="173" y="-31"/>
+      <point x="73" y="-104"/>
     </contour>
     <component base="jdotless.jmc.ini"/>
   </outline>

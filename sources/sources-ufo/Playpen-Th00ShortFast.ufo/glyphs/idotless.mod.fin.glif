@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idotless.mod.fin" format="2">
-  <advance width="260"/>
-  <anchor x="173" y="0" name="bottom"/>
-  <anchor x="222" y="0" name="ogonek"/>
-  <anchor x="125" y="400" name="top"/>
+  <advance width="325"/>
+  <anchor x="216" y="0" name="bottom"/>
+  <anchor x="278" y="0" name="ogonek"/>
+  <anchor x="156" y="500" name="top"/>
   <outline>
     <component base="idotless.mod"/>
   </outline>

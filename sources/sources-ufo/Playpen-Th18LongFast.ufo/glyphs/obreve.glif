@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="obreve" format="2">
-  <advance width="471"/>
+  <advance width="589"/>
   <unicode hex="014F"/>
-  <anchor x="177" y="0" name="bottom"/>
-  <anchor x="236" y="200" name="center"/>
-  <anchor x="280" y="10" name="ogonek"/>
-  <anchor x="371" y="654" name="top"/>
-  <anchor x="348" y="405" name="topright"/>
+  <anchor x="221" y="0" name="bottom"/>
+  <anchor x="295" y="250" name="center"/>
+  <anchor x="350" y="13" name="ogonek"/>
+  <anchor x="464" y="818" name="top"/>
+  <anchor x="435" y="506" name="topright"/>
   <outline>
     <component base="o"/>
-    <component base="brevecomb" xOffset="224"/>
+    <component base="brevecomb" xOffset="280"/>
   </outline>
   <lib>
     <dict>

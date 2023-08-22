@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Scaron" format="2">
-  <advance width="550"/>
+  <advance width="688"/>
   <unicode hex="0160"/>
-  <anchor x="229" y="0" name="bottom"/>
-  <anchor x="457" y="884" name="top"/>
+  <anchor x="286" y="0" name="bottom"/>
+  <anchor x="571" y="1105" name="top"/>
   <outline>
     <component base="S"/>
-    <component base="caroncomb.case" xOffset="236"/>
+    <component base="caroncomb.case" xOffset="295"/>
   </outline>
   <lib>
     <dict>

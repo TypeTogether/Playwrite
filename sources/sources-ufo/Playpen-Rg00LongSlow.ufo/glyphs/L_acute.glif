@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Lacute" format="2">
-  <advance width="775"/>
+  <advance width="969"/>
   <unicode hex="0139"/>
-  <anchor x="475" y="611" name="CAT"/>
-  <anchor x="465" y="0" name="bottom"/>
-  <anchor x="209" y="612" name="center"/>
-  <anchor x="209" y="1343" name="top"/>
-  <anchor x="293" y="1190" name="topright"/>
+  <anchor x="594" y="764" name="CAT"/>
+  <anchor x="581" y="0" name="bottom"/>
+  <anchor x="261" y="765" name="center"/>
+  <anchor x="261" y="1679" name="top"/>
+  <anchor x="366" y="1488" name="topright"/>
   <outline>
     <component base="L"/>
-    <component base="acutecomb.case" xOffset="209" yOffset="-1"/>
+    <component base="acutecomb.case" xOffset="261" yOffset="-1"/>
   </outline>
   <lib>
     <dict>

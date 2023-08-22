@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.jmc_f_s" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-612" y="-815" type="curve" smooth="yes"/>
-      <point x="-592" y="-815"/>
-      <point x="-587" y="-788"/>
-      <point x="-607" y="-788" type="curve" smooth="yes"/>
-      <point x="-647" y="-788"/>
-      <point x="-666" y="-757"/>
-      <point x="-666" y="-702" type="curve" smooth="yes"/>
-      <point x="-666" y="-314"/>
-      <point x="-9" y="-56"/>
-      <point x="142" y="334" type="curve" smooth="yes"/>
-      <point x="148" y="350"/>
-      <point x="129" y="363"/>
-      <point x="122" y="346" type="curve" smooth="yes"/>
-      <point x="-37" y="-44"/>
-      <point x="-698" y="-292"/>
-      <point x="-698" y="-705" type="curve" smooth="yes"/>
-      <point x="-698" y="-774"/>
-      <point x="-667" y="-815"/>
+      <point x="-765" y="-1019" type="curve" smooth="yes"/>
+      <point x="-740" y="-1019"/>
+      <point x="-734" y="-985"/>
+      <point x="-759" y="-985" type="curve" smooth="yes"/>
+      <point x="-809" y="-985"/>
+      <point x="-832" y="-946"/>
+      <point x="-832" y="-877" type="curve" smooth="yes"/>
+      <point x="-832" y="-392"/>
+      <point x="-11" y="-70"/>
+      <point x="178" y="418" type="curve" smooth="yes"/>
+      <point x="185" y="438"/>
+      <point x="161" y="454"/>
+      <point x="153" y="433" type="curve" smooth="yes"/>
+      <point x="-46" y="-55"/>
+      <point x="-872" y="-365"/>
+      <point x="-872" y="-881" type="curve" smooth="yes"/>
+      <point x="-872" y="-967"/>
+      <point x="-834" y="-1019"/>
     </contour>
   </outline>
   <lib>

@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.cnt_c_n" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-198" y="-14" type="curve" smooth="yes"/>
-      <point x="-102" y="-14"/>
-      <point x="-9" y="46"/>
-      <point x="88" y="215" type="curve" smooth="yes"/>
-      <point x="137" y="300"/>
-      <point x="171" y="352"/>
-      <point x="213" y="352" type="curve" smooth="yes"/>
-      <point x="233" y="352"/>
-      <point x="238" y="412"/>
-      <point x="218" y="412" type="curve" smooth="yes"/>
-      <point x="165" y="412"/>
-      <point x="122" y="392"/>
-      <point x="56" y="278" type="curve" smooth="yes"/>
-      <point x="-26" y="136"/>
-      <point x="-101" y="48"/>
-      <point x="-191" y="48" type="curve" smooth="yes"/>
-      <point x="-235" y="48"/>
-      <point x="-233" y="-14"/>
+      <point x="-247" y="-17" type="curve" smooth="yes"/>
+      <point x="-127" y="-17"/>
+      <point x="-11" y="58"/>
+      <point x="110" y="269" type="curve" smooth="yes"/>
+      <point x="171" y="375"/>
+      <point x="214" y="440"/>
+      <point x="266" y="440" type="curve" smooth="yes"/>
+      <point x="291" y="440"/>
+      <point x="298" y="515"/>
+      <point x="273" y="515" type="curve" smooth="yes"/>
+      <point x="206" y="515"/>
+      <point x="153" y="490"/>
+      <point x="70" y="348" type="curve" smooth="yes"/>
+      <point x="-32" y="170"/>
+      <point x="-126" y="60"/>
+      <point x="-239" y="60" type="curve" smooth="yes"/>
+      <point x="-294" y="60"/>
+      <point x="-291" y="-17"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +55,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>100</integer>
+      <integer>125</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

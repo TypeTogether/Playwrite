@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yacute" format="2">
-  <advance width="492"/>
+  <advance width="616"/>
   <unicode hex="00FD"/>
-  <anchor x="181" y="0" name="bottom"/>
-  <anchor x="368" y="620" name="top"/>
+  <anchor x="226" y="0" name="bottom"/>
+  <anchor x="460" y="775" name="top"/>
   <outline>
     <component base="y"/>
-    <component base="acutecomb" xOffset="232"/>
+    <component base="acutecomb" xOffset="290"/>
   </outline>
   <lib>
     <dict>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="periodcentered" format="2">
-  <advance width="250"/>
+  <advance width="313"/>
   <unicode hex="00B7"/>
-  <anchor x="11" y="216" name="_center"/>
-  <anchor x="-94" y="213" name="_centerCase"/>
+  <anchor x="14" y="270" name="_center"/>
+  <anchor x="-117" y="266" name="_centerCase"/>
   <outline>
-    <component base="dotaccentcomb" xOffset="2" yOffset="-370"/>
+    <component base="dotaccentcomb" xOffset="3" yOffset="-462"/>
   </outline>
   <lib>
     <dict>

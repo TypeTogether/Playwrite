@@ -2,21 +2,21 @@
 <glyph name="cnct.mod_c_z" format="2">
   <guideline x="-230" y="13" angle="263.66"/>
   <guideline x="147" y="394" angle="339.44"/>
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-218" y="-14" type="curve" smooth="yes"/>
-      <point x="-81" y="-14"/>
-      <point x="72" y="128"/>
-      <point x="176" y="363" type="curve" smooth="yes"/>
-      <point x="183" y="380"/>
-      <point x="139" y="397"/>
-      <point x="131" y="380" type="curve" smooth="yes"/>
-      <point x="34" y="173"/>
-      <point x="-103" y="48"/>
-      <point x="-211" y="48" type="curve" smooth="yes"/>
-      <point x="-233" y="48"/>
-      <point x="-238" y="-14"/>
+      <point x="-272" y="-17" type="curve" smooth="yes"/>
+      <point x="-101" y="-17"/>
+      <point x="90" y="160"/>
+      <point x="220" y="454" type="curve" smooth="yes"/>
+      <point x="229" y="475"/>
+      <point x="174" y="496"/>
+      <point x="164" y="475" type="curve" smooth="yes"/>
+      <point x="43" y="216"/>
+      <point x="-129" y="60"/>
+      <point x="-264" y="60" type="curve" smooth="yes"/>
+      <point x="-291" y="60"/>
+      <point x="-297" y="-17"/>
     </contour>
   </outline>
   <lib>
@@ -51,7 +51,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>30</integer>
+      <integer>38</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="s.ful.med" format="2">
-  <advance width="440"/>
-  <anchor x="440" y="0" name="cnct"/>
-  <anchor x="230" y="0" name="bottom"/>
-  <anchor x="172" y="415" name="top"/>
+  <advance width="550"/>
+  <anchor x="550" y="0" name="cnct"/>
+  <anchor x="288" y="0" name="bottom"/>
+  <anchor x="215" y="519" name="top"/>
   <outline>
     <contour>
-      <point x="355" y="-14" type="curve" smooth="yes"/>
-      <point x="375" y="-14"/>
-      <point x="390" y="46"/>
-      <point x="370" y="46" type="curve" smooth="yes"/>
-      <point x="342" y="46"/>
-      <point x="301" y="37"/>
-      <point x="258" y="24" type="curve"/>
-      <point x="236" y="-13" type="line"/>
-      <point x="290" y="-2"/>
-      <point x="317" y="-14"/>
+      <point x="444" y="-17" type="curve" smooth="yes"/>
+      <point x="469" y="-17"/>
+      <point x="488" y="58"/>
+      <point x="463" y="58" type="curve" smooth="yes"/>
+      <point x="428" y="58"/>
+      <point x="376" y="46"/>
+      <point x="323" y="30" type="curve"/>
+      <point x="295" y="-16" type="line"/>
+      <point x="363" y="-2"/>
+      <point x="396" y="-17"/>
     </contour>
     <component base="s.ful.fin"/>
   </outline>

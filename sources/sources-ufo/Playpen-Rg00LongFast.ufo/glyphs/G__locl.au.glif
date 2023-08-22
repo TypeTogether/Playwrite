@@ -1,57 +1,54 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="G_locl.au" format="2">
-  <advance width="1085"/>
-  <anchor x="459" y="0" name="bottom"/>
-  <anchor x="587" y="1139" name="top"/>
+  <advance width="1356"/>
+  <anchor x="574" y="0" name="bottom"/>
+  <anchor x="734" y="1424" name="top"/>
   <outline>
     <contour>
-      <point x="462" y="-15" type="curve" smooth="yes"/>
-      <point x="694" y="-15"/>
-      <point x="893" y="236"/>
-      <point x="935" y="584" type="curve"/>
-      <point x="889" y="598" type="line"/>
-      <point x="837" y="282"/>
-      <point x="660" y="53"/>
-      <point x="466" y="53" type="curve" smooth="yes"/>
-      <point x="289" y="53"/>
-      <point x="185" y="231"/>
-      <point x="185" y="532" type="curve" smooth="yes"/>
-      <point x="185" y="902"/>
-      <point x="346" y="1144"/>
-      <point x="589" y="1144" type="curve" smooth="yes"/>
-      <point x="699" y="1144"/>
-      <point x="788" y="1105"/>
-      <point x="867" y="1023" type="curve" smooth="yes"/>
-      <point x="878" y="1012"/>
-      <point x="890" y="1016"/>
-      <point x="905" y="1029" type="curve" smooth="yes"/>
-      <point x="916" y="1039"/>
-      <point x="924" y="1048"/>
-      <point x="913" y="1062" type="curve" smooth="yes"/>
-      <point x="822" y="1181"/>
-      <point x="701" y="1212"/>
-      <point x="591" y="1212" type="curve" smooth="yes"/>
-      <point x="300" y="1212"/>
-      <point x="110" y="943"/>
-      <point x="110" y="532" type="curve" smooth="yes"/>
-      <point x="110" y="188"/>
-      <point x="241" y="-15"/>
-    </contour>
-    <contour>
-      <point x="959" y="11" type="curve" smooth="yes"/>
-      <point x="959" y="598" type="line" smooth="yes"/>
-      <point x="959" y="613"/>
-      <point x="947" y="620"/>
-      <point x="924" y="620" type="curve" smooth="yes"/>
-      <point x="901" y="620"/>
-      <point x="889" y="613"/>
-      <point x="889" y="598" type="curve"/>
-      <point x="889" y="11" type="line" smooth="yes"/>
-      <point x="889" y="-4"/>
-      <point x="901" y="-11"/>
-      <point x="924" y="-11" type="curve" smooth="yes"/>
-      <point x="947" y="-11"/>
-      <point x="959" y="-4"/>
+      <point x="578" y="-17" type="curve" smooth="yes"/>
+      <point x="806" y="-17"/>
+      <point x="1010" y="178"/>
+      <point x="1111" y="474" type="curve"/>
+      <point x="1111" y="14" type="line" smooth="yes"/>
+      <point x="1111" y="-5"/>
+      <point x="1126" y="-14"/>
+      <point x="1155" y="-14" type="curve" smooth="yes"/>
+      <point x="1184" y="-14"/>
+      <point x="1199" y="-5"/>
+      <point x="1199" y="14" type="curve" smooth="yes"/>
+      <point x="1199" y="748" type="line" smooth="yes"/>
+      <point x="1199" y="766"/>
+      <point x="1184" y="775"/>
+      <point x="1155" y="775" type="curve" smooth="yes"/>
+      <point x="1126" y="775"/>
+      <point x="1111" y="766"/>
+      <point x="1111" y="748" type="curve"/>
+      <point x="1046" y="354"/>
+      <point x="825" y="68"/>
+      <point x="583" y="68" type="curve" smooth="yes"/>
+      <point x="361" y="68"/>
+      <point x="231" y="290"/>
+      <point x="231" y="665" type="curve" smooth="yes"/>
+      <point x="231" y="1128"/>
+      <point x="433" y="1430"/>
+      <point x="736" y="1430" type="curve" smooth="yes"/>
+      <point x="874" y="1430"/>
+      <point x="985" y="1381"/>
+      <point x="1084" y="1279" type="curve" smooth="yes"/>
+      <point x="1098" y="1265"/>
+      <point x="1113" y="1270"/>
+      <point x="1131" y="1286" type="curve" smooth="yes"/>
+      <point x="1145" y="1299"/>
+      <point x="1155" y="1310"/>
+      <point x="1141" y="1328" type="curve" smooth="yes"/>
+      <point x="1028" y="1476"/>
+      <point x="876" y="1515"/>
+      <point x="739" y="1515" type="curve" smooth="yes"/>
+      <point x="375" y="1515"/>
+      <point x="138" y="1179"/>
+      <point x="138" y="665" type="curve" smooth="yes"/>
+      <point x="138" y="236"/>
+      <point x="301" y="-17"/>
     </contour>
   </outline>
   <lib>
@@ -60,6 +57,8 @@
       <string>=G_locl</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=G_locl</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

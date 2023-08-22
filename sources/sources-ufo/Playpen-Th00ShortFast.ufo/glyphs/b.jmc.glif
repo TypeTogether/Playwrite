@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="b.jmc" format="2">
-  <advance width="508"/>
-  <anchor x="283" y="0" name="bottom"/>
-  <anchor x="283" y="200" name="center"/>
-  <anchor x="283" y="400" name="top"/>
+  <advance width="635"/>
+  <anchor x="354" y="0" name="bottom"/>
+  <anchor x="354" y="250" name="center"/>
+  <anchor x="354" y="500" name="top"/>
   <outline>
-    <component base="b" xOffset="20"/>
+    <component base="b" xOffset="25"/>
   </outline>
   <lib>
     <dict>

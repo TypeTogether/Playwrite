@@ -5,27 +5,27 @@
   <guideline x="-473" y="-215" angle="186.91"/>
   <guideline x="109" y="303" angle="241.1"/>
   <guideline x="151" y="294" angle="241.97"/>
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-448" y="-315" type="curve" smooth="yes"/>
-      <point x="-429" y="-315"/>
-      <point x="-417" y="-255"/>
-      <point x="-437" y="-255" type="curve" smooth="yes"/>
-      <point x="-458" y="-255"/>
-      <point x="-474" y="-245"/>
-      <point x="-474" y="-216" type="curve" smooth="yes"/>
-      <point x="-474" y="-75"/>
-      <point x="-40" y="-77"/>
-      <point x="154" y="282" type="curve" smooth="yes"/>
-      <point x="160" y="293"/>
-      <point x="119" y="313"/>
-      <point x="112" y="300" type="curve" smooth="yes"/>
-      <point x="-78" y="-43"/>
-      <point x="-539" y="-15"/>
-      <point x="-539" y="-225" type="curve" smooth="yes"/>
-      <point x="-539" y="-270"/>
-      <point x="-510" y="-315"/>
+      <point x="-560" y="-394" type="curve" smooth="yes"/>
+      <point x="-536" y="-394"/>
+      <point x="-521" y="-319"/>
+      <point x="-546" y="-319" type="curve" smooth="yes"/>
+      <point x="-572" y="-319"/>
+      <point x="-592" y="-306"/>
+      <point x="-592" y="-270" type="curve" smooth="yes"/>
+      <point x="-592" y="-94"/>
+      <point x="-50" y="-96"/>
+      <point x="193" y="353" type="curve" smooth="yes"/>
+      <point x="200" y="366"/>
+      <point x="149" y="391"/>
+      <point x="140" y="375" type="curve" smooth="yes"/>
+      <point x="-97" y="-54"/>
+      <point x="-674" y="-19"/>
+      <point x="-674" y="-281" type="curve" smooth="yes"/>
+      <point x="-674" y="-337"/>
+      <point x="-637" y="-394"/>
     </contour>
   </outline>
   <lib>
@@ -60,7 +60,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>10</integer>
+      <integer>13</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

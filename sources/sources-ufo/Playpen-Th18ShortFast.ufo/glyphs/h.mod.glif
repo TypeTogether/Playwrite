@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="h.mod" format="2">
-  <advance width="541"/>
-  <anchor x="223" y="0" name="bottom"/>
-  <anchor x="266" y="558" name="center"/>
-  <anchor x="284" y="670" name="top"/>
+  <advance width="676"/>
+  <anchor x="280" y="0" name="bottom"/>
+  <anchor x="334" y="698" name="center"/>
+  <anchor x="356" y="838" name="top"/>
   <outline>
-    <component base="h" xOffset="20"/>
+    <component base="h" xOffset="25"/>
   </outline>
   <lib>
     <dict>

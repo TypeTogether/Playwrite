@@ -3,18 +3,18 @@
   <anchor x="0" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-119" y="-19" type="curve" smooth="yes"/>
-      <point x="9" y="76"/>
-      <point x="68" y="180"/>
-      <point x="111" y="394" type="curve" smooth="yes"/>
-      <point x="114" y="408"/>
-      <point x="93" y="413"/>
-      <point x="90" y="399" type="curve" smooth="yes"/>
-      <point x="42" y="189"/>
-      <point x="-14" y="90"/>
-      <point x="-133" y="2" type="curve" smooth="yes"/>
-      <point x="-145" y="-7"/>
-      <point x="-132" y="-29"/>
+      <point x="-149" y="-24" type="curve" smooth="yes"/>
+      <point x="11" y="95"/>
+      <point x="85" y="225"/>
+      <point x="139" y="493" type="curve" smooth="yes"/>
+      <point x="143" y="510"/>
+      <point x="116" y="516"/>
+      <point x="113" y="499" type="curve" smooth="yes"/>
+      <point x="53" y="236"/>
+      <point x="-17" y="113"/>
+      <point x="-166" y="3" type="curve" smooth="yes"/>
+      <point x="-181" y="-9"/>
+      <point x="-165" y="-36"/>
     </contour>
   </outline>
   <lib>
@@ -49,7 +49,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>60</integer>
+      <integer>75</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

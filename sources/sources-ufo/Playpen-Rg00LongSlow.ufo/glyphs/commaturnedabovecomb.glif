@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaturnedabovecomb" format="2">
   <unicode hex="0312"/>
-  <anchor x="0" y="400" name="_top"/>
-  <anchor x="0" y="654" name="top"/>
+  <anchor x="0" y="500" name="_top"/>
+  <anchor x="0" y="818" name="top"/>
   <outline>
     <contour>
-      <point x="41" y="676" type="curve" smooth="yes"/>
-      <point x="24" y="682"/>
-      <point x="15" y="680"/>
-      <point x="4" y="663" type="curve" smooth="yes"/>
-      <point x="-21" y="624"/>
-      <point x="-39" y="571"/>
-      <point x="-39" y="530" type="curve" smooth="yes"/>
-      <point x="-39" y="510"/>
-      <point x="-25" y="497"/>
-      <point x="-1" y="497" type="curve" smooth="yes"/>
-      <point x="19" y="497"/>
-      <point x="30" y="504"/>
-      <point x="30" y="522" type="curve" smooth="yes"/>
-      <point x="30" y="570"/>
-      <point x="32" y="598"/>
-      <point x="51" y="647" type="curve" smooth="yes"/>
-      <point x="57" y="663"/>
-      <point x="54" y="671"/>
+      <point x="51" y="845" type="curve" smooth="yes"/>
+      <point x="30" y="853"/>
+      <point x="19" y="850"/>
+      <point x="5" y="829" type="curve" smooth="yes"/>
+      <point x="-26" y="780"/>
+      <point x="-49" y="714"/>
+      <point x="-49" y="663" type="curve" smooth="yes"/>
+      <point x="-49" y="638"/>
+      <point x="-31" y="621"/>
+      <point x="-1" y="621" type="curve" smooth="yes"/>
+      <point x="24" y="621"/>
+      <point x="38" y="630"/>
+      <point x="38" y="653" type="curve" smooth="yes"/>
+      <point x="38" y="713"/>
+      <point x="40" y="748"/>
+      <point x="64" y="809" type="curve" smooth="yes"/>
+      <point x="71" y="829"/>
+      <point x="68" y="839"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +55,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

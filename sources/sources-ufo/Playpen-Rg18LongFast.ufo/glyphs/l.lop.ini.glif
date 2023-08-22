@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.lop.ini" format="2">
-  <advance width="315"/>
-  <anchor x="250" y="0" name="cnct"/>
-  <anchor x="307" y="460" name="CAT"/>
-  <anchor x="143" y="0" name="bottom"/>
-  <anchor x="255" y="570" name="center"/>
-  <anchor x="489" y="1139" name="top"/>
-  <anchor x="596" y="1242" name="topright"/>
+  <advance width="394"/>
+  <anchor x="313" y="0" name="cnct"/>
+  <anchor x="384" y="575" name="CAT"/>
+  <anchor x="179" y="0" name="bottom"/>
+  <anchor x="319" y="713" name="center"/>
+  <anchor x="611" y="1424" name="top"/>
+  <anchor x="745" y="1553" name="topright"/>
   <outline>
     <contour>
-      <point x="-137" y="-14" type="curve" smooth="yes"/>
-      <point x="62" y="-14"/>
-      <point x="615" y="808"/>
-      <point x="615" y="1109" type="curve" smooth="yes"/>
-      <point x="615" y="1149"/>
-      <point x="549" y="1149"/>
-      <point x="549" y="1109" type="curve" smooth="yes"/>
-      <point x="549" y="825"/>
-      <point x="14" y="46"/>
-      <point x="-123" y="46" type="curve" smooth="yes"/>
-      <point x="-158" y="46"/>
-      <point x="-177" y="-14"/>
+      <point x="-171" y="-17" type="curve" smooth="yes"/>
+      <point x="78" y="-17"/>
+      <point x="769" y="1010"/>
+      <point x="769" y="1386" type="curve" smooth="yes"/>
+      <point x="769" y="1436"/>
+      <point x="686" y="1436"/>
+      <point x="686" y="1386" type="curve" smooth="yes"/>
+      <point x="686" y="1031"/>
+      <point x="18" y="58"/>
+      <point x="-154" y="58" type="curve" smooth="yes"/>
+      <point x="-197" y="58"/>
+      <point x="-221" y="-17"/>
     </contour>
     <component base="l.lop.med"/>
   </outline>

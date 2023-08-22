@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevecomb_tildecomb.case" format="2">
-  <anchor x="151" y="670" name="_top"/>
-  <anchor x="253" y="1042" name="top"/>
+  <anchor x="189" y="838" name="_top"/>
+  <anchor x="316" y="1303" name="top"/>
   <outline>
     <component base="brevecomb.case"/>
-    <component base="tildecomb.case" xOffset="36" yOffset="168"/>
+    <component base="tildecomb.case" xOffset="45" yOffset="210"/>
   </outline>
   <lib>
     <dict>
@@ -55,7 +55,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="v.mlp.med_n_" format="2">
-  <advance width="523"/>
-  <anchor x="458" y="0" name="cnct"/>
+  <advance width="654"/>
+  <anchor x="573" y="0" name="cnct"/>
   <outline>
-    <component base="v.mlp.med" xOffset="40"/>
+    <component base="v.mlp.med" xOffset="50"/>
   </outline>
   <lib>
     <dict>

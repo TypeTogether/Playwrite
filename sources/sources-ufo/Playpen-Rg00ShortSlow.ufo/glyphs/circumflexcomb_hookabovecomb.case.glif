@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb_hookabovecomb.case" format="2">
-  <anchor x="0" y="670" name="_top"/>
-  <anchor x="138" y="980" name="top"/>
+  <anchor x="0" y="838" name="_top"/>
+  <anchor x="173" y="1226" name="top"/>
   <outline>
     <component base="circumflexcomb.case"/>
-    <component base="hookabovecomb.case" xOffset="138" yOffset="106"/>
+    <component base="hookabovecomb.case" xOffset="173" yOffset="133"/>
   </outline>
   <lib>
     <dict>
@@ -55,7 +55,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

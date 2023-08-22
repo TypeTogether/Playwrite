@@ -3,24 +3,24 @@
   <anchor x="0" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-83" y="-14" type="curve" smooth="yes"/>
-      <point x="-33" y="-14"/>
-      <point x="41" y="7"/>
-      <point x="76" y="193" type="curve" smooth="yes"/>
-      <point x="101" y="328"/>
-      <point x="129" y="355"/>
-      <point x="155" y="355" type="curve" smooth="yes"/>
-      <point x="171" y="355"/>
-      <point x="189" y="415"/>
-      <point x="158" y="415" type="curve" smooth="yes"/>
-      <point x="113" y="415"/>
-      <point x="54" y="395"/>
-      <point x="17" y="198" type="curve" smooth="yes"/>
-      <point x="-5" y="82"/>
-      <point x="-33" y="46"/>
-      <point x="-71" y="46" type="curve" smooth="yes"/>
-      <point x="-107" y="46"/>
-      <point x="-103" y="-14"/>
+      <point x="-104" y="-17" type="curve" smooth="yes"/>
+      <point x="-41" y="-17"/>
+      <point x="51" y="9"/>
+      <point x="95" y="241" type="curve" smooth="yes"/>
+      <point x="126" y="410"/>
+      <point x="161" y="444"/>
+      <point x="194" y="444" type="curve" smooth="yes"/>
+      <point x="214" y="444"/>
+      <point x="236" y="519"/>
+      <point x="198" y="519" type="curve" smooth="yes"/>
+      <point x="141" y="519"/>
+      <point x="68" y="494"/>
+      <point x="21" y="248" type="curve" smooth="yes"/>
+      <point x="-6" y="103"/>
+      <point x="-41" y="58"/>
+      <point x="-89" y="58" type="curve" smooth="yes"/>
+      <point x="-134" y="58"/>
+      <point x="-129" y="-17"/>
     </contour>
   </outline>
   <lib>
@@ -55,7 +55,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>80</integer>
+      <integer>100</integer>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>

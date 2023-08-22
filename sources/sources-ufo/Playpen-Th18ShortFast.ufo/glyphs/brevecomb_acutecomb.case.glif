@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="brevecomb_acutecomb.case" format="2">
-  <anchor x="151" y="670" name="_top"/>
-  <anchor x="250" y="1030" name="top"/>
+  <anchor x="189" y="838" name="_top"/>
+  <anchor x="313" y="1288" name="top"/>
   <outline>
     <component base="brevecomb.case"/>
-    <component base="acutecomb.case" xOffset="27" yOffset="140"/>
+    <component base="acutecomb.case" xOffset="34" yOffset="175"/>
   </outline>
   <lib>
     <dict>
@@ -55,7 +55,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="d.lop_cu.med" format="2">
-  <advance width="550"/>
-  <anchor x="485" y="0" name="cnct"/>
-  <anchor x="269" y="0" name="bottom"/>
-  <anchor x="614" y="758" name="center"/>
-  <anchor x="272" y="400" name="top"/>
-  <anchor x="854" y="1200" name="topright"/>
+  <advance width="688"/>
+  <anchor x="606" y="0" name="cnct"/>
+  <anchor x="336" y="0" name="bottom"/>
+  <anchor x="768" y="948" name="center"/>
+  <anchor x="340" y="500" name="top"/>
+  <anchor x="1068" y="1500" name="topright"/>
   <outline>
     <component base="d.lop_cu.ini"/>
   </outline>

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ecircumflexhookabove" format="2">
-  <advance width="421"/>
+  <advance width="526"/>
   <unicode hex="1EC3"/>
-  <anchor x="233" y="0" name="bottom"/>
-  <anchor x="297" y="10" name="ogonek"/>
-  <anchor x="367" y="767" name="top"/>
+  <anchor x="291" y="0" name="bottom"/>
+  <anchor x="371" y="13" name="ogonek"/>
+  <anchor x="459" y="959" name="top"/>
   <outline>
     <component base="e"/>
-    <component base="circumflexcomb_hookabovecomb" xOffset="243"/>
+    <component base="circumflexcomb_hookabovecomb" xOffset="304"/>
   </outline>
   <lib>
     <dict>

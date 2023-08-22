@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dieresiscomb.case" format="2">
-  <anchor x="306" y="1140" name="_top"/>
-  <anchor x="351" y="1300" name="top"/>
+  <anchor x="383" y="1425" name="_top"/>
+  <anchor x="439" y="1625" name="top"/>
   <outline>
     <contour>
-      <point x="260" y="1288" type="curve" smooth="yes"/>
-      <point x="300" y="1288"/>
-      <point x="318" y="1319"/>
-      <point x="318" y="1348" type="curve" smooth="yes"/>
-      <point x="318" y="1375"/>
-      <point x="301" y="1389"/>
-      <point x="279" y="1389" type="curve" smooth="yes"/>
-      <point x="239" y="1389"/>
-      <point x="221" y="1358"/>
-      <point x="221" y="1329" type="curve" smooth="yes"/>
-      <point x="221" y="1302"/>
-      <point x="238" y="1288"/>
+      <point x="325" y="1610" type="curve" smooth="yes"/>
+      <point x="375" y="1610"/>
+      <point x="398" y="1649"/>
+      <point x="398" y="1685" type="curve" smooth="yes"/>
+      <point x="398" y="1719"/>
+      <point x="376" y="1736"/>
+      <point x="349" y="1736" type="curve" smooth="yes"/>
+      <point x="299" y="1736"/>
+      <point x="276" y="1698"/>
+      <point x="276" y="1661" type="curve" smooth="yes"/>
+      <point x="276" y="1628"/>
+      <point x="298" y="1610"/>
     </contour>
     <contour>
-      <point x="457" y="1288" type="curve" smooth="yes"/>
-      <point x="497" y="1288"/>
-      <point x="515" y="1319"/>
-      <point x="515" y="1348" type="curve" smooth="yes"/>
-      <point x="515" y="1375"/>
-      <point x="498" y="1389"/>
-      <point x="476" y="1389" type="curve" smooth="yes"/>
-      <point x="436" y="1389"/>
-      <point x="418" y="1358"/>
-      <point x="418" y="1329" type="curve" smooth="yes"/>
-      <point x="418" y="1302"/>
-      <point x="435" y="1288"/>
+      <point x="571" y="1610" type="curve" smooth="yes"/>
+      <point x="621" y="1610"/>
+      <point x="644" y="1649"/>
+      <point x="644" y="1685" type="curve" smooth="yes"/>
+      <point x="644" y="1719"/>
+      <point x="623" y="1736"/>
+      <point x="595" y="1736" type="curve" smooth="yes"/>
+      <point x="545" y="1736"/>
+      <point x="523" y="1698"/>
+      <point x="523" y="1661" type="curve" smooth="yes"/>
+      <point x="523" y="1628"/>
+      <point x="544" y="1610"/>
     </contour>
   </outline>
   <lib>
@@ -62,7 +62,7 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>250</integer>
+      <integer>313</integer>
     </dict>
   </lib>
 </glyph>

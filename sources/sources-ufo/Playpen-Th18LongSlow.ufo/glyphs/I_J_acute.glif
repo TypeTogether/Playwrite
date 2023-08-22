@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="IJacute" format="2">
-  <advance width="1223"/>
-  <anchor x="145" y="0" name="bottom_1"/>
-  <anchor x="756" y="0" name="bottom_2"/>
-  <anchor x="160" y="0" name="ogonek"/>
-  <anchor x="595" y="1413" name="top_1"/>
-  <anchor x="1333" y="1139" name="top_2"/>
+  <advance width="1529"/>
+  <anchor x="181" y="0" name="bottom_1"/>
+  <anchor x="946" y="0" name="bottom_2"/>
+  <anchor x="200" y="0" name="ogonek"/>
+  <anchor x="744" y="1767" name="top_1"/>
+  <anchor x="1667" y="1424" name="top_2"/>
   <outline>
     <component base="Iacute"/>
-    <component base="J" xOffset="418"/>
-    <component base="acutecomb.case" xOffset="1029" yOffset="-1"/>
+    <component base="J" xOffset="523"/>
+    <component base="acutecomb.case" xOffset="1287" yOffset="-1"/>
   </outline>
   <lib>
     <dict>

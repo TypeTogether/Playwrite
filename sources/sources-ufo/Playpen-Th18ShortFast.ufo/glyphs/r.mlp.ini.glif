@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="r.mlp.ini" format="2">
-  <advance width="454"/>
-  <anchor x="389" y="0" name="cnct"/>
-  <anchor x="112" y="0" name="bottom"/>
-  <anchor x="271" y="400" name="top"/>
+  <advance width="568"/>
+  <anchor x="486" y="0" name="cnct"/>
+  <anchor x="140" y="0" name="bottom"/>
+  <anchor x="339" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="-145" y="-14" type="curve" smooth="yes"/>
-      <point x="-36" y="-14"/>
-      <point x="35" y="68"/>
-      <point x="177" y="353" type="curve"/>
-      <point x="146" y="349" type="line"/>
-      <point x="3" y="76"/>
-      <point x="-50" y="14"/>
-      <point x="-137" y="14" type="curve" smooth="yes"/>
-      <point x="-156" y="14"/>
-      <point x="-162" y="-14"/>
+      <point x="-181" y="-17" type="curve" smooth="yes"/>
+      <point x="-45" y="-17"/>
+      <point x="44" y="85"/>
+      <point x="221" y="441" type="curve"/>
+      <point x="183" y="436" type="line"/>
+      <point x="4" y="95"/>
+      <point x="-62" y="18"/>
+      <point x="-171" y="18" type="curve" smooth="yes"/>
+      <point x="-195" y="18"/>
+      <point x="-202" y="-17"/>
     </contour>
     <component base="r.mlp.med"/>
   </outline>

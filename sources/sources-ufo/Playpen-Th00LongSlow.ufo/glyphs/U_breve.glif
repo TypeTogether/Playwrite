@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ubreve" format="2">
-  <advance width="1069"/>
+  <advance width="1337"/>
   <unicode hex="016C"/>
-  <anchor x="535" y="0" name="bottom"/>
-  <anchor x="728" y="17" name="ogonek"/>
-  <anchor x="535" y="1403" name="top"/>
-  <anchor x="877" y="1207" name="topright"/>
+  <anchor x="669" y="0" name="bottom"/>
+  <anchor x="910" y="21" name="ogonek"/>
+  <anchor x="669" y="1754" name="top"/>
+  <anchor x="1096" y="1509" name="topright"/>
   <outline>
     <component base="U"/>
-    <component base="brevecomb.case" xOffset="535" yOffset="-1"/>
+    <component base="brevecomb.case" xOffset="669" yOffset="-1"/>
   </outline>
   <lib>
     <dict>

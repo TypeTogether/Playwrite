@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hbar" format="2">
-  <advance width="522"/>
+  <advance width="651"/>
   <unicode hex="0127"/>
-  <anchor x="265" y="0" name="bottom"/>
-  <anchor x="144" y="759" name="center"/>
-  <anchor x="115" y="1139" name="top"/>
+  <anchor x="331" y="0" name="bottom"/>
+  <anchor x="180" y="949" name="center"/>
+  <anchor x="144" y="1424" name="top"/>
   <outline>
     <component base="h"/>
-    <component base="strokeshortcomb" xOffset="144" yOffset="485"/>
+    <component base="strokeshortcomb" xOffset="180" yOffset="606"/>
   </outline>
   <lib>
     <dict>

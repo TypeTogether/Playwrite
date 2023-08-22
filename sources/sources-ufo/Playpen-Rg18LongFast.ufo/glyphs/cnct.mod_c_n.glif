@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.mod_c_n" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-223" y="-14" type="curve" smooth="yes"/>
-      <point x="-78" y="-14"/>
-      <point x="65" y="120"/>
-      <point x="194" y="363" type="curve" smooth="yes"/>
-      <point x="202" y="377"/>
-      <point x="168" y="399"/>
-      <point x="161" y="388" type="curve" smooth="yes"/>
-      <point x="35" y="178"/>
-      <point x="-89" y="48"/>
-      <point x="-215" y="48" type="curve" smooth="yes"/>
-      <point x="-255" y="48"/>
-      <point x="-263" y="-14"/>
+      <point x="-279" y="-17" type="curve" smooth="yes"/>
+      <point x="-97" y="-17"/>
+      <point x="81" y="150"/>
+      <point x="243" y="454" type="curve" smooth="yes"/>
+      <point x="253" y="471"/>
+      <point x="210" y="499"/>
+      <point x="201" y="485" type="curve" smooth="yes"/>
+      <point x="44" y="223"/>
+      <point x="-111" y="60"/>
+      <point x="-269" y="60" type="curve" smooth="yes"/>
+      <point x="-319" y="60"/>
+      <point x="-329" y="-17"/>
     </contour>
   </outline>
   <lib>

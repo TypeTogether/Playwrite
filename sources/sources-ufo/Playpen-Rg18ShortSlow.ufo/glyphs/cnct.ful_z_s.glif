@@ -1,26 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cnct.ful_z_s" format="2">
-  <anchor x="-65" y="0" name="_cnct"/>
+  <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-381" y="-195" type="curve" smooth="yes"/>
-      <point x="-381" y="-123"/>
-      <point x="-298" y="-53"/>
-      <point x="-140" y="7" type="curve" smooth="yes"/>
-      <point x="35" y="74"/>
-      <point x="163" y="198"/>
-      <point x="228" y="366" type="curve" smooth="yes"/>
-      <point x="241" y="400"/>
-      <point x="200" y="419"/>
-      <point x="186" y="387" type="curve" smooth="yes"/>
-      <point x="118" y="233"/>
-      <point x="1" y="120"/>
-      <point x="-151" y="62" type="curve" smooth="yes"/>
-      <point x="-362" y="-18"/>
-      <point x="-452" y="-101"/>
-      <point x="-452" y="-200" type="curve" smooth="yes"/>
-      <point x="-452" y="-240"/>
-      <point x="-381" y="-235"/>
+      <point x="-476" y="-244" type="curve" smooth="yes"/>
+      <point x="-476" y="-154"/>
+      <point x="-372" y="-66"/>
+      <point x="-175" y="9" type="curve" smooth="yes"/>
+      <point x="44" y="93"/>
+      <point x="204" y="248"/>
+      <point x="285" y="458" type="curve" smooth="yes"/>
+      <point x="301" y="500"/>
+      <point x="250" y="524"/>
+      <point x="233" y="484" type="curve" smooth="yes"/>
+      <point x="148" y="291"/>
+      <point x="1" y="150"/>
+      <point x="-189" y="78" type="curve" smooth="yes"/>
+      <point x="-452" y="-22"/>
+      <point x="-565" y="-126"/>
+      <point x="-565" y="-250" type="curve" smooth="yes"/>
+      <point x="-565" y="-300"/>
+      <point x="-476" y="-294"/>
     </contour>
   </outline>
   <lib>
