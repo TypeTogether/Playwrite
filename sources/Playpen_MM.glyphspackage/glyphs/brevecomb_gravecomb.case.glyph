@@ -1,4 +1,5 @@
 {
+color = 0;
 glyphname = brevecomb_gravecomb.case;
 layers = (
 {
@@ -374,6 +375,11 @@ com.hugojourdan.ColorFlow = {
 width = 313;
 },
 {
+guides = (
+{
+pos = (589,1772);
+}
+);
 layerId = m013;
 shapes = (
 {
@@ -405,6 +411,11 @@ com.hugojourdan.ColorFlow = {
 width = 313;
 },
 {
+guides = (
+{
+pos = (589,1772);
+}
+);
 layerId = m014;
 shapes = (
 {
@@ -413,7 +424,7 @@ ref = brevecomb.case;
 },
 {
 alignment = -1;
-pos = (0,175);
+pos = (35,204);
 ref = gravecomb.case;
 }
 );
@@ -436,6 +447,11 @@ com.hugojourdan.ColorFlow = {
 width = 313;
 },
 {
+guides = (
+{
+pos = (589,1772);
+}
+);
 layerId = m015;
 shapes = (
 {
@@ -467,6 +483,17 @@ com.hugojourdan.ColorFlow = {
 width = 313;
 },
 {
+guides = (
+{
+pos = (20,175);
+},
+{
+pos = (20,175);
+},
+{
+pos = (589,1772);
+}
+);
 layerId = m016;
 shapes = (
 {
@@ -475,7 +502,7 @@ ref = brevecomb.case;
 },
 {
 alignment = -1;
-pos = (0,175);
+pos = (24,203);
 ref = gravecomb.case;
 }
 );
