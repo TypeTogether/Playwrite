@@ -2704,6 +2704,12 @@ axesValues = (
 375,
 0
 );
+customParameters = (
+{
+name = "Keep Transformed Components";
+value = 0;
+}
+);
 instanceInterpolations = {
 m01 = 1;
 };

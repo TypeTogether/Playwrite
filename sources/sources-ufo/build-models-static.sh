@@ -2,9 +2,6 @@
 
 set -e
 
-# # keep running if fontmake has an error
-# fontmake || true
-
 scripts="../scripts"
 feaFile=../features/Playpen-models.fea
 
@@ -22,9 +19,7 @@ do
     echo "tag: $i"
     tag=$i
 
-    # otfFontsPath="../../fonts-models/fonts-$tag/static/otf"
     ttfFontsPath="../../fonts-models/fonts-$tag/static/ttf"
-    # webFontsPath="../fonts/static/web"
 
     rm -rf $ttfFontsPath  # $ttfFontsPath $webFontsPath
     mkdir -p $ttfFontsPath # $ttfFontsPath $webFontsPath
@@ -36,32 +31,14 @@ do
 ================================================
  Generating STATIC **$tag** fonts
 ================================================
- $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
+$(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
 echo
-
-    # # Build OTF fonts
-    # fontmake -m ./designspace-models/$tag.designspace -i -o otf \
-    #             --output-dir $otfFontsPath \
-    #             --expand-features-to-instances
 
     # Build TTF fonts
     fontmake -m ./designspace-models/$tag.designspace -i -o ttf --output-dir $ttfFontsPath \
               --filter DecomposeTransformedComponentsFilter \
               --expand-features-to-instances
               # --flatten-components
-
-    # echo "
-    # ======================
-    #  Post processing OTFs 
-    # ======================
-    # "
-    # otfs=$(ls $otfFontsPath/*.otf)
-    # for otf in $otfs
-    # do
-    #   echo $otf
-    #   python $scripts/fix-usWeightClass-otf.py $otf
-    #   # psautohint --no-zones-stems -a $otf
-    # done
 
     echo "
     ======================
