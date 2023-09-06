@@ -141,7 +141,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playpen USA_Modern Thin" familyname="Playpen USA_Modern" stylename="Thin" filename="../instance_ufo/PlaypenUSA_Modern-Thin.ufo" postscriptfontname="PlaypenUSA_Modern-Thin" stylemapfamilyname="Playpen USA_Modern Thin" stylemapstylename="regular">
+    <instance name="Playpen USA Modern Thin" familyname="Playpen USA Modern" stylename="Thin" filename="../instance_ufo/PlaypenUSAModern-Thin.ufo" postscriptfontname="PlaypenUSAModern-Thin" stylemapfamilyname="Playpen USA Modern Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="0"/>
@@ -149,7 +149,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
-    <instance name="Playpen USA_Modern ExtraLight" familyname="Playpen USA_Modern" stylename="ExtraLight" filename="../instance_ufo/PlaypenUSA_Modern-ExtraLight.ufo" postscriptfontname="PlaypenUSA_Modern-ExtraLight" stylemapfamilyname="Playpen USA_Modern ExtraLight" stylemapstylename="regular">
+    <instance name="Playpen USA Modern ExtraLight" familyname="Playpen USA Modern" stylename="ExtraLight" filename="../instance_ufo/PlaypenUSAModern-ExtraLight.ufo" postscriptfontname="PlaypenUSAModern-ExtraLight" stylemapfamilyname="Playpen USA Modern ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="0"/>
@@ -157,7 +157,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
-    <instance name="Playpen USA_Modern Light" familyname="Playpen USA_Modern" stylename="Light" filename="../instance_ufo/PlaypenUSA_Modern-Light.ufo" postscriptfontname="PlaypenUSA_Modern-Light" stylemapfamilyname="Playpen USA_Modern Light" stylemapstylename="regular">
+    <instance name="Playpen USA Modern Light" familyname="Playpen USA Modern" stylename="Light" filename="../instance_ufo/PlaypenUSAModern-Light.ufo" postscriptfontname="PlaypenUSAModern-Light" stylemapfamilyname="Playpen USA Modern Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Slant" xvalue="0"/>
@@ -165,7 +165,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
-    <instance name="Playpen USA_Modern Regular" familyname="Playpen USA_Modern" stylename="Regular" filename="../instance_ufo/PlaypenUSA_Modern-Regular.ufo" postscriptfontname="PlaypenUSA_Modern-Regular" stylemapfamilyname="Playpen USA_Modern" stylemapstylename="regular">
+    <instance name="Playpen USA Modern Regular" familyname="Playpen USA Modern" stylename="Regular" filename="../instance_ufo/PlaypenUSAModern-Regular.ufo" postscriptfontname="PlaypenUSAModern-Regular" stylemapfamilyname="Playpen USA Modern" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="0"/>

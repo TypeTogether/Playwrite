@@ -141,7 +141,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playpen HRV_Lefthand Thin" familyname="Playpen HRV_Lefthand" stylename="Thin" filename="../instance_ufo/PlaypenHRV_Lefthand-Thin.ufo" postscriptfontname="PlaypenHRV_Lefthand-Thin" stylemapfamilyname="Playpen HRV_Lefthand Thin" stylemapstylename="regular">
+    <instance name="Playpen HRV Lefthand Thin" familyname="Playpen HRV Lefthand" stylename="Thin" filename="../instance_ufo/PlaypenHRVLefthand-Thin.ufo" postscriptfontname="PlaypenHRVLefthand-Thin" stylemapfamilyname="Playpen HRV Lefthand Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="0"/>
@@ -149,7 +149,7 @@
         <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
-    <instance name="Playpen HRV_Lefthand ExtraLight" familyname="Playpen HRV_Lefthand" stylename="ExtraLight" filename="../instance_ufo/PlaypenHRV_Lefthand-ExtraLight.ufo" postscriptfontname="PlaypenHRV_Lefthand-ExtraLight" stylemapfamilyname="Playpen HRV_Lefthand ExtraLight" stylemapstylename="regular">
+    <instance name="Playpen HRV Lefthand ExtraLight" familyname="Playpen HRV Lefthand" stylename="ExtraLight" filename="../instance_ufo/PlaypenHRVLefthand-ExtraLight.ufo" postscriptfontname="PlaypenHRVLefthand-ExtraLight" stylemapfamilyname="Playpen HRV Lefthand ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="0"/>
@@ -157,7 +157,7 @@
         <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
-    <instance name="Playpen HRV_Lefthand Light" familyname="Playpen HRV_Lefthand" stylename="Light" filename="../instance_ufo/PlaypenHRV_Lefthand-Light.ufo" postscriptfontname="PlaypenHRV_Lefthand-Light" stylemapfamilyname="Playpen HRV_Lefthand Light" stylemapstylename="regular">
+    <instance name="Playpen HRV Lefthand Light" familyname="Playpen HRV Lefthand" stylename="Light" filename="../instance_ufo/PlaypenHRVLefthand-Light.ufo" postscriptfontname="PlaypenHRVLefthand-Light" stylemapfamilyname="Playpen HRV Lefthand Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Slant" xvalue="0"/>
@@ -165,7 +165,7 @@
         <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
-    <instance name="Playpen HRV_Lefthand Regular" familyname="Playpen HRV_Lefthand" stylename="Regular" filename="../instance_ufo/PlaypenHRV_Lefthand-Regular.ufo" postscriptfontname="PlaypenHRV_Lefthand-Regular" stylemapfamilyname="Playpen HRV_Lefthand" stylemapstylename="regular">
+    <instance name="Playpen HRV Lefthand Regular" familyname="Playpen HRV Lefthand" stylename="Regular" filename="../instance_ufo/PlaypenHRVLefthand-Regular.ufo" postscriptfontname="PlaypenHRVLefthand-Regular" stylemapfamilyname="Playpen HRV Lefthand" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="0"/>

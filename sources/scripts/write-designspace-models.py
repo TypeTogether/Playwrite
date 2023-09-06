@@ -22,7 +22,7 @@ for mTag, val in modelsDataDict.items():
 
     # make weight instances
     for w_value in weightStyles.keys():
-        mFamilyName = f"Playpen {mTag}"
+        mFamilyName = f"Playpen {mTag.replace('_', ' ')}"
         iStyleName = weightStyles[w_value]  # (from weight style-value)
         fam_nospace = mFamilyName.replace(" ", "")
         iPostscriptFontName = f"{fam_nospace}-{iStyleName}"
