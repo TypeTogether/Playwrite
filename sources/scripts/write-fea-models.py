@@ -1,5 +1,7 @@
 # write-models-fea
 
+from modelsCustomCode import modelsCustomCodeDict as mcc
+
 __doc__ = """
     Write specific features for all models with the UC-lc substitutions.
     Data is read from "../data/models-all.csv" which should be up to date.
@@ -39,6 +41,9 @@ class langModel(object):
 
     def makeFeaText(self):
         self.fea_code.append(f"\nsub [@UC_src @lc_src] by [@UC_{self.lang_tag} @lc_{self.lang_tag}];")
+        # check for custom code
+        if self.lang_tag in mcc.keys():
+            self.fea_code.append(f"\n# Custom code:\n{mcc[self.lang_tag]}")
         return "\n".join(self.fea_code) + "\n"
 
     def writeFeaFile(self, folder):

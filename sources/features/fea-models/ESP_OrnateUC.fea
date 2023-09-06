@@ -6,3 +6,6 @@
 ];
 
 sub [@UC_src @lc_src] by [@UC_ESP_OrnateUC @lc_ESP_OrnateUC];
+
+# Custom code:
+sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
