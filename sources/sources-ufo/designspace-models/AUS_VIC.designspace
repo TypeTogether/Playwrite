@@ -141,7 +141,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playpen AUS_VIC Thin" familyname="Playpen AUS_VIC" stylename="Thin" filename="../instance_ufo/PlaypenAUS_VIC-Thin.ufo" postscriptfontname="PlaypenAUS_VIC-Thin" stylemapfamilyname="Playpen AUS_VIC Thin" stylemapstylename="regular">
+    <instance name="Playpen AUS VIC Thin" familyname="Playpen AUS VIC" stylename="Thin" filename="../instance_ufo/PlaypenAUSVIC-Thin.ufo" postscriptfontname="PlaypenAUSVIC-Thin" stylemapfamilyname="Playpen AUS VIC Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="18"/>
@@ -149,7 +149,7 @@
         <dimension name="Speed" xvalue="75"/>
       </location>
     </instance>
-    <instance name="Playpen AUS_VIC ExtraLight" familyname="Playpen AUS_VIC" stylename="ExtraLight" filename="../instance_ufo/PlaypenAUS_VIC-ExtraLight.ufo" postscriptfontname="PlaypenAUS_VIC-ExtraLight" stylemapfamilyname="Playpen AUS_VIC ExtraLight" stylemapstylename="regular">
+    <instance name="Playpen AUS VIC ExtraLight" familyname="Playpen AUS VIC" stylename="ExtraLight" filename="../instance_ufo/PlaypenAUSVIC-ExtraLight.ufo" postscriptfontname="PlaypenAUSVIC-ExtraLight" stylemapfamilyname="Playpen AUS VIC ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="18"/>
@@ -157,7 +157,7 @@
         <dimension name="Speed" xvalue="75"/>
       </location>
     </instance>
-    <instance name="Playpen AUS_VIC Light" familyname="Playpen AUS_VIC" stylename="Light" filename="../instance_ufo/PlaypenAUS_VIC-Light.ufo" postscriptfontname="PlaypenAUS_VIC-Light" stylemapfamilyname="Playpen AUS_VIC Light" stylemapstylename="regular">
+    <instance name="Playpen AUS VIC Light" familyname="Playpen AUS VIC" stylename="Light" filename="../instance_ufo/PlaypenAUSVIC-Light.ufo" postscriptfontname="PlaypenAUSVIC-Light" stylemapfamilyname="Playpen AUS VIC Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Slant" xvalue="18"/>
@@ -165,7 +165,7 @@
         <dimension name="Speed" xvalue="75"/>
       </location>
     </instance>
-    <instance name="Playpen AUS_VIC Regular" familyname="Playpen AUS_VIC" stylename="Regular" filename="../instance_ufo/PlaypenAUS_VIC-Regular.ufo" postscriptfontname="PlaypenAUS_VIC-Regular" stylemapfamilyname="Playpen AUS_VIC" stylemapstylename="regular">
+    <instance name="Playpen AUS VIC Regular" familyname="Playpen AUS VIC" stylename="Regular" filename="../instance_ufo/PlaypenAUSVIC-Regular.ufo" postscriptfontname="PlaypenAUSVIC-Regular" stylemapfamilyname="Playpen AUS VIC" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="18"/>
