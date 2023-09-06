@@ -37,7 +37,7 @@
       </dict>
     </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>3213</string>
+    <string>3217</string>
     <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
     <integer>2000</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -527,6 +527,7 @@
       <string>caroncomb.alt_locl</string>
       <string>circumflexcomb</string>
       <string>caroncomb</string>
+      <string>caroncomb_locl</string>
       <string>brevecomb</string>
       <string>ringcomb</string>
       <string>tildecomb</string>
@@ -1405,9 +1406,9 @@
       <string>L.cur</string>
       <string>L.cur.ini</string>
       <string>M.cur</string>
+      <string>M.cur.ini</string>
       <string>N.cur</string>
       <string>N.cur.ini</string>
-      <string>M.cur.ini</string>
       <string>O.cur</string>
       <string>P.cur</string>
       <string>Q.cur</string>
@@ -1527,6 +1528,7 @@
       <string>entr_hlop</string>
       <string>entr_ncnt</string>
       <string>entr_zcnt</string>
+      <string>dottedCircle</string>
       <string>_circle</string>
     </array>
     <key>public.postscriptNames</key>
@@ -1749,6 +1751,8 @@
       <string>uni0307.CAT</string>
       <key>dotaccentcomb.case</key>
       <string>uni0307.case</string>
+      <key>dottedCircle</key>
+      <string>uni25CC</string>
       <key>ecircumflexacute</key>
       <string>uni1EBF</string>
       <key>ecircumflexdotbelow</key>

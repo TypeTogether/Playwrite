@@ -4,10 +4,11 @@
   <anchor x="88" y="0" name="bottom_1"/>
   <anchor x="582" y="0" name="bottom_2"/>
   <anchor x="104" y="-6" name="ogonek"/>
-  <anchor x="442" y="1113" name="top_1"/>
+  <anchor x="353" y="838" name="top_1"/>
   <anchor x="1021" y="838" name="top_2"/>
   <outline>
-    <component base="Iacute"/>
+    <component base="I"/>
+    <component base="acutecomb.case" xOffset="163"/>
     <component base="J" xOffset="338"/>
     <component base="acutecomb.case" xOffset="831"/>
   </outline>
@@ -40,6 +41,8 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>
