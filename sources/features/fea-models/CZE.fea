@@ -6,3 +6,6 @@
 ];
 
 sub [@UC_src @lc_src] by [@UC_CZE @lc_CZE];
+
+# Custom code:
+sub XXX;
