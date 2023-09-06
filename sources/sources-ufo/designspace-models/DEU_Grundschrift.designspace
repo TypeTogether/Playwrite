@@ -141,7 +141,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playpen DEU_Grundschrift Thin" familyname="Playpen DEU_Grundschrift" stylename="Thin" filename="../instance_ufo/PlaypenDEU_Grundschrift-Thin.ufo" postscriptfontname="PlaypenDEU_Grundschrift-Thin" stylemapfamilyname="Playpen DEU_Grundschrift Thin" stylemapstylename="regular">
+    <instance name="Playpen DEU Grundschrift Thin" familyname="Playpen DEU Grundschrift" stylename="Thin" filename="../instance_ufo/PlaypenDEUGrundschrift-Thin.ufo" postscriptfontname="PlaypenDEUGrundschrift-Thin" stylemapfamilyname="Playpen DEU Grundschrift Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="0"/>
@@ -149,7 +149,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
-    <instance name="Playpen DEU_Grundschrift ExtraLight" familyname="Playpen DEU_Grundschrift" stylename="ExtraLight" filename="../instance_ufo/PlaypenDEU_Grundschrift-ExtraLight.ufo" postscriptfontname="PlaypenDEU_Grundschrift-ExtraLight" stylemapfamilyname="Playpen DEU_Grundschrift ExtraLight" stylemapstylename="regular">
+    <instance name="Playpen DEU Grundschrift ExtraLight" familyname="Playpen DEU Grundschrift" stylename="ExtraLight" filename="../instance_ufo/PlaypenDEUGrundschrift-ExtraLight.ufo" postscriptfontname="PlaypenDEUGrundschrift-ExtraLight" stylemapfamilyname="Playpen DEU Grundschrift ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="0"/>
@@ -157,7 +157,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
-    <instance name="Playpen DEU_Grundschrift Light" familyname="Playpen DEU_Grundschrift" stylename="Light" filename="../instance_ufo/PlaypenDEU_Grundschrift-Light.ufo" postscriptfontname="PlaypenDEU_Grundschrift-Light" stylemapfamilyname="Playpen DEU_Grundschrift Light" stylemapstylename="regular">
+    <instance name="Playpen DEU Grundschrift Light" familyname="Playpen DEU Grundschrift" stylename="Light" filename="../instance_ufo/PlaypenDEUGrundschrift-Light.ufo" postscriptfontname="PlaypenDEUGrundschrift-Light" stylemapfamilyname="Playpen DEU Grundschrift Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Slant" xvalue="0"/>
@@ -165,7 +165,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
-    <instance name="Playpen DEU_Grundschrift Regular" familyname="Playpen DEU_Grundschrift" stylename="Regular" filename="../instance_ufo/PlaypenDEU_Grundschrift-Regular.ufo" postscriptfontname="PlaypenDEU_Grundschrift-Regular" stylemapfamilyname="Playpen DEU_Grundschrift" stylemapstylename="regular">
+    <instance name="Playpen DEU Grundschrift Regular" familyname="Playpen DEU Grundschrift" stylename="Regular" filename="../instance_ufo/PlaypenDEUGrundschrift-Regular.ufo" postscriptfontname="PlaypenDEUGrundschrift-Regular" stylemapfamilyname="Playpen DEU Grundschrift" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="0"/>

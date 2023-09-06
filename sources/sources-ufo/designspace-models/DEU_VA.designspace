@@ -141,7 +141,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playpen DEU_VA Thin" familyname="Playpen DEU_VA" stylename="Thin" filename="../instance_ufo/PlaypenDEU_VA-Thin.ufo" postscriptfontname="PlaypenDEU_VA-Thin" stylemapfamilyname="Playpen DEU_VA Thin" stylemapstylename="regular">
+    <instance name="Playpen DEU VA Thin" familyname="Playpen DEU VA" stylename="Thin" filename="../instance_ufo/PlaypenDEUVA-Thin.ufo" postscriptfontname="PlaypenDEUVA-Thin" stylemapfamilyname="Playpen DEU VA Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="10"/>
@@ -149,7 +149,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </instance>
-    <instance name="Playpen DEU_VA ExtraLight" familyname="Playpen DEU_VA" stylename="ExtraLight" filename="../instance_ufo/PlaypenDEU_VA-ExtraLight.ufo" postscriptfontname="PlaypenDEU_VA-ExtraLight" stylemapfamilyname="Playpen DEU_VA ExtraLight" stylemapstylename="regular">
+    <instance name="Playpen DEU VA ExtraLight" familyname="Playpen DEU VA" stylename="ExtraLight" filename="../instance_ufo/PlaypenDEUVA-ExtraLight.ufo" postscriptfontname="PlaypenDEUVA-ExtraLight" stylemapfamilyname="Playpen DEU VA ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="10"/>
@@ -157,7 +157,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </instance>
-    <instance name="Playpen DEU_VA Light" familyname="Playpen DEU_VA" stylename="Light" filename="../instance_ufo/PlaypenDEU_VA-Light.ufo" postscriptfontname="PlaypenDEU_VA-Light" stylemapfamilyname="Playpen DEU_VA Light" stylemapstylename="regular">
+    <instance name="Playpen DEU VA Light" familyname="Playpen DEU VA" stylename="Light" filename="../instance_ufo/PlaypenDEUVA-Light.ufo" postscriptfontname="PlaypenDEUVA-Light" stylemapfamilyname="Playpen DEU VA Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Slant" xvalue="10"/>
@@ -165,7 +165,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </instance>
-    <instance name="Playpen DEU_VA Regular" familyname="Playpen DEU_VA" stylename="Regular" filename="../instance_ufo/PlaypenDEU_VA-Regular.ufo" postscriptfontname="PlaypenDEU_VA-Regular" stylemapfamilyname="Playpen DEU_VA" stylemapstylename="regular">
+    <instance name="Playpen DEU VA Regular" familyname="Playpen DEU VA" stylename="Regular" filename="../instance_ufo/PlaypenDEUVA-Regular.ufo" postscriptfontname="PlaypenDEUVA-Regular" stylemapfamilyname="Playpen DEU VA" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="10"/>
