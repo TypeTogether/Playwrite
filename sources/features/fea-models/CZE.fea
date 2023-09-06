@@ -8,4 +8,5 @@
 sub [@UC_src @lc_src] by [@UC_CZE @lc_CZE];
 
 # Custom code:
-sub XXX;
+sub caroncomb.alt by caroncomb.alt_locl;
+sub caroncomb by caroncomb_locl;
