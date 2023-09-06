@@ -53,6 +53,7 @@ for ttf in $ttfs
 do
   python -m ttfautohint $ttf "$ttf.hint"
   mv "$ttf.hint" $ttf
+  gftools fix-hinting $ttf
   echo $ttf
 done
 
