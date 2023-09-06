@@ -1,5 +1,5 @@
 {
-.appVersion = "3214";
+.appVersion = "3217";
 .formatVersion = 3;
 axes = (
 {
@@ -477,6 +477,7 @@ caroncomb.alt,
 caroncomb.alt_locl,
 circumflexcomb,
 caroncomb,
+caroncomb_locl,
 brevecomb,
 ringcomb,
 tildecomb,
@@ -1355,9 +1356,9 @@ K.cur.ini,
 L.cur,
 L.cur.ini,
 M.cur,
+M.cur.ini,
 N.cur,
 N.cur.ini,
-M.cur.ini,
 O.cur,
 P.cur,
 Q.cur,
@@ -1496,7 +1497,7 @@ featurePrefixes = (
 code = "languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-include(features/Playpen-dev.fea);
+include(../../03_Engineering/GOOGLE-Github-Playpen-repo/sources/features/Playpen-dev-resized-dist.fea);
 ";
 name = Languagesystems;
 }
@@ -1782,6 +1783,11 @@ name = winDescent;
 value = 400;
 }
 );
+guides = (
+{
+pos = (463,1080);
+}
+);
 iconName = Light;
 id = m004;
 metricValues = (
@@ -1852,6 +1858,11 @@ value = 1313;
 {
 name = winDescent;
 value = 400;
+}
+);
+guides = (
+{
+pos = (463,1076);
 }
 );
 iconName = Bold;
@@ -1931,6 +1942,11 @@ name = winDescent;
 value = 400;
 }
 );
+guides = (
+{
+pos = (463,1063);
+}
+);
 iconName = Bold;
 id = m006;
 metricValues = (
@@ -2003,6 +2019,11 @@ name = winDescent;
 value = 400;
 }
 );
+guides = (
+{
+pos = (463,1063);
+}
+);
 iconName = Bold;
 id = m007;
 metricValues = (
@@ -2073,6 +2094,11 @@ value = 1313;
 {
 name = winDescent;
 value = 400;
+}
+);
+guides = (
+{
+pos = (463,1063);
 }
 );
 iconName = Bold;
@@ -2621,7 +2647,6 @@ name = "Rg 00 Long Fast";
 userData = {
 GSCornerRadius = 12;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -2703,12 +2728,6 @@ axesValues = (
 0,
 375,
 0
-);
-customParameters = (
-{
-name = "Keep Transformed Components";
-value = 0;
-}
 );
 instanceInterpolations = {
 m01 = 1;

@@ -6,7 +6,8 @@
   <anchor x="233" y="438" name="center"/>
   <anchor x="408" y="838" name="top"/>
   <outline>
-    <component base="Eth"/>
+    <component base="D"/>
+    <component base="strokeshortcomb.case" xOffset="233" yOffset="95"/>
   </outline>
   <lib>
     <dict>
@@ -37,6 +38,8 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

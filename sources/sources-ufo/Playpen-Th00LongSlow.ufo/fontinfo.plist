@@ -18,6 +18,12 @@
     <integer>0</integer>
     <key>openTypeHeadCreated</key>
     <string>2023/07/12 17:42:49</string>
+    <key>openTypeHheaAscender</key>
+    <integer>2040</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-1020</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
     <key>openTypeNameDescription</key>
     <string>First Release</string>
     <key>openTypeNameDesigner</key>
@@ -40,8 +46,18 @@
     </array>
     <key>openTypeOS2Type</key>
     <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>2040</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-1020</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
     <key>openTypeOS2VendorID</key>
     <string>TT</string>
+    <key>openTypeOS2WinAscent</key>
+    <integer>2040</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>1020</integer>
     <key>postscriptBlueValues</key>
     <array>
       <integer>-19</integer>

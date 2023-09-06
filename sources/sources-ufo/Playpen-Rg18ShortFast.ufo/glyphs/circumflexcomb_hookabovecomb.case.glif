@@ -1,10 +1,75 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflexcomb_hookabovecomb.case" format="2">
   <anchor x="189" y="838" name="_top"/>
-  <anchor x="480" y="1250" name="top"/>
+  <anchor x="276" y="1105" name="top"/>
   <outline>
-    <component base="circumflexcomb.case"/>
-    <component base="hookabovecomb.case" xOffset="204" yOffset="139"/>
+    <contour>
+      <point x="84" y="931" type="curve" smooth="yes"/>
+      <point x="95" y="931"/>
+      <point x="105" y="936"/>
+      <point x="114" y="941" type="curve" smooth="yes"/>
+      <point x="265" y="1038" type="line"/>
+      <point x="356" y="948" type="line" smooth="yes"/>
+      <point x="365" y="939"/>
+      <point x="374" y="931"/>
+      <point x="388" y="931" type="curve" smooth="yes"/>
+      <point x="400" y="931"/>
+      <point x="423" y="944"/>
+      <point x="423" y="960" type="curve" smooth="yes"/>
+      <point x="423" y="966"/>
+      <point x="423" y="973"/>
+      <point x="416" y="983" type="curve" smooth="yes"/>
+      <point x="326" y="1113" type="line" smooth="yes"/>
+      <point x="315" y="1130"/>
+      <point x="301" y="1139"/>
+      <point x="284" y="1139" type="curve" smooth="yes"/>
+      <point x="263" y="1139"/>
+      <point x="246" y="1133"/>
+      <point x="226" y="1116" type="curve" smooth="yes"/>
+      <point x="66" y="990" type="line" smooth="yes"/>
+      <point x="60" y="985"/>
+      <point x="55" y="979"/>
+      <point x="55" y="966" type="curve" smooth="yes"/>
+      <point x="55" y="951"/>
+      <point x="68" y="931"/>
+    </contour>
+    <contour>
+      <point x="474" y="1307" type="curve" smooth="yes"/>
+      <point x="435" y="1307"/>
+      <point x="404" y="1299"/>
+      <point x="372" y="1284" type="curve" smooth="yes"/>
+      <point x="352" y="1274"/>
+      <point x="347" y="1262"/>
+      <point x="355" y="1240" type="curve" smooth="yes"/>
+      <point x="364" y="1220"/>
+      <point x="378" y="1214"/>
+      <point x="395" y="1222" type="curve" smooth="yes"/>
+      <point x="417" y="1229"/>
+      <point x="435" y="1234"/>
+      <point x="448" y="1234" type="curve" smooth="yes"/>
+      <point x="464" y="1234"/>
+      <point x="472" y="1229"/>
+      <point x="472" y="1218" type="curve" smooth="yes"/>
+      <point x="472" y="1208"/>
+      <point x="460" y="1194"/>
+      <point x="438" y="1178" type="curve" smooth="yes"/>
+      <point x="412" y="1159"/>
+      <point x="399" y="1139"/>
+      <point x="402" y="1107" type="curve" smooth="yes"/>
+      <point x="403" y="1085" type="line" smooth="yes"/>
+      <point x="405" y="1052"/>
+      <point x="468" y="1048"/>
+      <point x="474" y="1083" type="curve" smooth="yes"/>
+      <point x="477" y="1098" type="line" smooth="yes"/>
+      <point x="479" y="1112"/>
+      <point x="488" y="1122"/>
+      <point x="509" y="1137" type="curve" smooth="yes"/>
+      <point x="550" y="1165"/>
+      <point x="569" y="1195"/>
+      <point x="569" y="1232" type="curve" smooth="yes"/>
+      <point x="569" y="1279"/>
+      <point x="534" y="1307"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -35,27 +100,10 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>circumflexcomb.case</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>hookabovecomb.case</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>313</integer>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

@@ -208,12 +208,10 @@ width = 307;
 layerId = m008;
 shapes = (
 {
-alignment = -1;
 ref = l;
 },
 {
-alignment = -1;
-pos = (149,-1);
+pos = (151,-1);
 ref = caroncomb.alt;
 }
 );
@@ -233,7 +231,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 305;
+width = 306;
 },
 {
 layerId = m009;
@@ -242,7 +240,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (150,0);
+pos = (150,625);
 ref = caroncomb.alt;
 }
 );
@@ -271,7 +269,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (148,0);
+pos = (351,625);
 ref = caroncomb.alt;
 }
 );
@@ -300,7 +298,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (150,0);
+pos = (150,625);
 ref = caroncomb.alt;
 }
 );
@@ -329,7 +327,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (149,0);
+pos = (352,625);
 ref = caroncomb.alt;
 }
 );
@@ -358,7 +356,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (159,0);
+pos = (159,625);
 ref = caroncomb.alt;
 }
 );
@@ -387,7 +385,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (170,0);
+pos = (371,625);
 ref = caroncomb.alt;
 }
 );
@@ -416,7 +414,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (159,0);
+pos = (159,625);
 ref = caroncomb.alt;
 }
 );
@@ -445,7 +443,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (160,0);
+pos = (361,625);
 ref = caroncomb.alt;
 }
 );
