@@ -1,5 +1,4 @@
-# Resized dist feature to 125%
-# 230821_1845
+# 230906_1312
 
 # --------------
 # CLASSES
@@ -18,7 +17,6 @@
 
 # --------------
 # STYLES
-# this: ae.mod ae.ful eth.mod ij.mod ij.jmc eng oe.mod oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.mod jdotless.jmc
 @lc = [a b c d e f g h i j k l m n o p q r s t u v w x y z ae eth ij eng oe thorn germandbls idotless jdotless];
 @lcMOD = [a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod j.mod k.mod l.mod m.mod n.mod o.mod p.mod q.mod r.mod s.mod t.mod u.mod v.mod w.mod x.mod y.mod z.mod ae.mod eth.mod ij.mod eng oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.mod];
 @lcJMC = [a.mod b.jmc c.mod d.mod e.mod f.jmc g.jmc h.mod i.mod j.jmc k.mod l.mod m.mod n.mod o.mod p.jmc q.jmc r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.jmc z.mod ae.mod eth.mod ij.jmc eng oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.jmc];
@@ -76,7 +74,7 @@
 @hlop_TGT = [h.lop.fin h.lop.med k.lop.fin k.lop.med b.jmc_dk.med b.jmc_dk.fin];
 @imrr_TGT = [i.mod.fin i.mod.med idotless.mod.fin idotless.mod.med ij.mod.fin ij.mod.med j.jmc.fin j.jmc.med j.mod.fin j.mod.med jdotless.jmc.fin jdotless.jmc.med jdotless.mod.fin jdotless.mod.med p.ful.fin p.ful.med p.jmc.fin p.jmc.med p.mod.fin p.mod.med p.mrr.fin p.mrr.med u.mod.fin u.mod.med v.ful.fin v.ful.med w.ful.fin w.ful.med y.jmc.fin y.jmc.med y.mod.fin y.mod.med thorn.jmc.fin thorn.jmc.med ij.jmc.fin ij.jmc.med];
 
-@nmod_TGT_CUR = [i.mod j.jmc p.ful u.mod idotless.mod jdotless.jmc];
+@nmod_TGT_CUR = [i.mod j.jmc p.ful u.mod idotless.mod jdotless.mod jdotless.jmc];
 @nmod_TGT = [@nmod_TGT_CUR i.mod.fin i.mod.med j.jmc.fin j.jmc.med j.mod.fin j.mod.med m.mod.fin m.mod.med n.mod.fin n.mod.med p.ful.fin p.ful.med p.jmc.fin p.jmc.med p.mod.fin p.mod.med p.mrr.fin p.mrr.med r.mod.fin r.mod.med u.mod.fin u.mod.med v.ful.fin v.ful.med w.ful.fin w.ful.med y.jmc.fin y.jmc.med y.mod.fin y.mod.med p.mrr_ca.fin p.mrr_ca.med idotless.mod.fin idotless.mod.med jdotless.mod.fin jdotless.mod.med jdotless.jmc.fin jdotless.jmc.med ij.mod.fin ij.mod.med thorn.jmc.fin thorn.jmc.med  ij.jmc.fin ij.jmc.med];
 
 @ncnt_TGT_CUR = [m.cnt n.cnt v.cnt w.cnt y.cnt];
@@ -984,7 +982,7 @@ feature ccmp {
 feature locl {
 	# script latn;
 	# language dflt;
-	include(../features/fea-models/ARG.fea);
+	include(../features/fea-models/ESP_OrnateUC.fea);
 	# language CAT;
 	# sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
 } locl;
@@ -999,7 +997,7 @@ feature ss01 {
 		name "MOD - Modern Cursive"; # Windows English
 		name 1 0 0 "MOD - Modern Cursive"; # Mac English
 	};
-	sub [@UC_ARG @lc_ARG] by [@UC @lcMOD];
+	sub [@UC_ESP_OrnateUC @lc_ESP_OrnateUC] by [@UC @lcMOD];
 	# sub @lc by @lcMOD;
 } ss01;
 
@@ -1008,7 +1006,7 @@ feature ss02 {
 		name "JMC - Joined Modern Cursive"; # Windows English
 		name 1 0 0 "JMC - Joined Modern Cursive"; # Mac English
 	};
-	sub [@UC_ARG @lc_ARG] by [@UC @lcJMC];
+	sub [@UC_ESP_OrnateUC @lc_ESP_OrnateUC] by [@UC @lcJMC];
 	# sub @lc by @lcJMC;
 } ss02;
 
@@ -1017,7 +1015,7 @@ feature ss03 {
 		name "FUL - Full Cursive"; # Windows English
 		name 1 0 0 "FUL - Full Cursive"; # Mac English
 	};
-	sub [@UC_ARG @lc_ARG] by [@UC @lcFUL];
+	sub [@UC_ESP_OrnateUC @lc_ESP_OrnateUC] by [@UC @lcFUL];
 	# sub @lc by @lcFUL;
 } ss03;
 
@@ -1027,7 +1025,7 @@ feature ss04 {
 		name "LOP - Speed Loops"; # Windows English
 		name 1 0 0 "LOP - Speed Loops"; # Mac English
 	};
-	sub [@UC_ARG @lc_ARG] by [@UC @lcLOP];
+	sub [@UC_ESP_OrnateUC @lc_ESP_OrnateUC] by [@UC @lcLOP];
 	# sub @lc by @lcLOP;
 } ss04;
 
@@ -1036,7 +1034,7 @@ feature ss05 {
 		name "CNT - Curved Entry Stroke"; # Windows English
 		name 1 0 0 "CNT - Curved Entry Stroke"; # Mac English
 	};
-	sub [@UC_ARG @lc_ARG] by [@UC @lcCNT];
+	sub [@UC_ESP_OrnateUC @lc_ESP_OrnateUC] by [@UC @lcCNT];
 	# sub @lc by @lcCNT;
 } ss05;
 
@@ -1045,7 +1043,7 @@ feature ss06 {
 		name "MRR - Mirrored Loops"; # Windows English
 		name 1 0 0 "MRR - Mirrored Loops"; # Mac English
 	};
-	sub [@UC_ARG @lc_ARG] by [@UC @lcMRR];
+	sub [@UC_ESP_OrnateUC @lc_ESP_OrnateUC] by [@UC @lcMRR];
 	# sub @lc by @lcMRR;
 } ss06;
 
@@ -1054,7 +1052,7 @@ feature ss07 {
 		name "MLP - Micro Loops"; # Windows English
 		name 1 0 0 "MLP - Micro Loops"; # Mac English
 	};
-	sub [@UC_ARG @lc_ARG] by [@UC @lcMLP];
+	sub [@UC_ESP_OrnateUC @lc_ESP_OrnateUC] by [@UC @lcMLP];
 	# sub @lc by @lcMLP;
 } ss07;
 
