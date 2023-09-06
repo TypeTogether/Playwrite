@@ -7,25 +7,25 @@
 
 # --------------
 # UC CURSIVE
-@UC = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z];
-@UC_Cursive = [A.cur B.cur C.cur D.cur E.cur F.cur G.cur H.cur I.cur J.cur K.cur L.cur M.cur N.cur O.cur P.cur Q.cur R.cur S.cur T.cur U.cur V.cur W.cur X.cur Y.cur Z.cur];
-@UC_CursiveHasIni = [A.cur A.cur_locl G.cur G.cur_locl H.cur J.cur K.cur L.cur M.cur N.cur Q.cur R.cur T.cur U.cur X.cur Y.cur Z.cur T.cur_locl IJ.cur];
-@UC_CursiveIni = [A.cur.ini A.cur_locl.ini G.cur.ini G.cur_locl.ini H.cur.ini J.cur.ini K.cur.ini L.cur.ini M.cur.ini N.cur.ini Q.cur.ini R.cur.ini T.cur.ini U.cur.ini X.cur.ini Y.cur.ini Z.cur.ini T.cur_locl.ini IJ.cur.ini];
+@UC = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE Eth IJ Eng OE Thorn Germandbls];
+@UC_Cursive = [A.cur B.cur C.cur D.cur E.cur F.cur G.cur H.cur I.cur J.cur K.cur L.cur M.cur N.cur O.cur P.cur Q.cur R.cur S.cur T.cur U.cur V.cur W.cur X.cur Y.cur Z.cur AE.cur Eth IJ.cur Eng OE.cur Thorn Germandbls];
+@UC_CursiveHasIni = [A.cur G.cur H.cur J.cur K.cur L.cur N.cur M.cur Q.cur R.cur T.cur U.cur X.cur Y.cur Z.cur IJ.cur A.cur_locl G.cur_locl Q.cur_locl T.cur_locl];
+@UC_CursiveIni = [A.cur.ini G.cur.ini H.cur.ini J.cur.ini K.cur.ini L.cur.ini N.cur.ini M.cur.ini Q.cur.ini R.cur.ini T.cur.ini U.cur.ini X.cur.ini Y.cur.ini Z.cur.ini IJ.cur.ini A.cur_locl.ini G.cur_locl.ini Q.cur_locl.ini T.cur_locl.ini];
 
-@UC_Decorative = [A.dec B.dec C.cur D.dec E.cur F.dec G.dec H.dec I.dec J.dec K.dec L.dec M.dec N.dec O.dec P.dec Q.dec R.dec S.dec T.dec U.cur V.dec W.dec X.dec Y.cur Z.dec];
-@UC_DecorativeHasIni = [A.dec_locl J.dec K.dec L.dec M.dec Q.dec Q.dec_pt R.dec X.dec X.dec_locl Z.dec Z.dec Z.dec_locl];
-@UC_DecorativeIni = [A.dec_locl.ini J.dec.ini K.dec.ini L.dec.ini M.dec.ini Q.dec.ini Q.dec_pt.ini R.dec.ini X.dec.ini X.dec_locl.ini Z.dec.ini Z.dec.ini Z.dec_locl.ini];
+@UC_Decorative = [A.dec B.dec C.cur D.dec E.cur F.dec G.dec H.dec I.dec J.dec K.dec L.dec M.dec N.dec O.dec P.dec Q.dec R.dec S.dec T.dec U.cur V.dec W.dec X.dec Y.cur Z.dec AE Eth IJ Eng OE Thorn Germandbls];
+@UC_DecorativeHasIni = [A.dec_locl J.dec K.dec L.dec M.dec Q.dec Q.dec_pt R.dec X.dec X.dec_locl Z.dec Z.dec_locl];
+@UC_DecorativeIni = [A.dec_locl.ini J.dec.ini K.dec.ini L.dec.ini M.dec.ini Q.dec.ini Q.dec_pt.ini R.dec.ini X.dec.ini X.dec_locl.ini Z.dec.ini Z.dec_locl.ini];
 
 # --------------
 # STYLES
-@lc = [a b c d e f g h i j k l m n o p q r s t u v w x y z idotless jdotless ae oe ij];
-@lcMOD = [a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod j.mod k.mod l.mod m.mod n.mod o.mod p.mod q.mod r.mod s.mod t.mod u.mod v.mod w.mod x.mod y.mod z.mod idotless.mod jdotless.mod ae.mod oe.mod ij.mod];
-@lcJMC = [a.mod b.jmc c.mod d.mod e.mod f.jmc g.jmc h.mod i.mod j.jmc k.mod l.mod m.mod n.mod o.mod p.jmc q.jmc r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.jmc z.mod idotless.mod jdotless.jmc ae.mod oe.mod ij.mod];
-@lcFUL = [a.mod b.ful c.mod d.mod e.ful f.ful g.jmc h.mod i.mod j.jmc k.ful l.mod m.mod n.mod o.mod p.ful q.jmc r.ful s.ful t.mod u.mod v.ful w.ful x.ful y.jmc z.ful idotless.mod jdotless.jmc ae.ful oe.ful ij.mod];
-@lcLOP = [a.mod b.lop c.mod d.mod e.ful f.ful g.jmc h.lop i.mod j.jmc k.lop l.lop m.mod n.mod o.mod p.ful q.jmc r.ful s.ful t.mod u.mod v.ful w.ful x.ful y.jmc z.ful idotless.mod jdotless.jmc ae.ful oe.ful ij.mod];
-@lcCNT = [a.mod b.lop c.mod d.mod e.ful f.ful g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.cnt s.ful t.mod u.mod v.cnt w.cnt x.cnt y.cnt z.cnt idotless.mod jdotless.jmc ae.ful oe.ful ij.mod];
-@lcMRR = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.mrr q.mrr r.cnt s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.cnt idotless.mod jdotless.jmc ae.ful oe.ful ij.mod];
-@lcMLP = [a.mod b.mlp c.mod d.mod e.ful f.mlp g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.mrr q.mrr r.mlp s.mlp t.mod u.mod v.mlp w.mlp x.ful y.cnt z.mlp idotless.mod jdotless.jmc ae.ful oe.ful ij.mod];
+@lc = [a b c d e f g h i j k l m n o p q r s t u v w x y z ae eth ij eng oe thorn germandbls idotless jdotless];
+@lcMOD = [a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod j.mod k.mod l.mod m.mod n.mod o.mod p.mod q.mod r.mod s.mod t.mod u.mod v.mod w.mod x.mod y.mod z.mod ae.mod eth.mod ij.mod eng oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.mod];
+@lcJMC = [a.mod b.jmc c.mod d.mod e.mod f.jmc g.jmc h.mod i.mod j.jmc k.mod l.mod m.mod n.mod o.mod p.jmc q.jmc r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.jmc z.mod ae.mod eth.mod ij.jmc eng oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.jmc];
+@lcFUL = [a.mod b.ful c.mod d.mod e.ful f.ful g.jmc h.mod i.mod j.jmc k.ful l.mod m.mod n.mod o.mod p.ful q.jmc r.ful s.ful t.mod u.mod v.ful w.ful x.ful y.jmc z.ful ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc];
+@lcLOP = [a.mod b.lop c.mod d.mod e.ful f.ful g.jmc h.lop i.mod j.jmc k.lop l.lop m.mod n.mod o.mod p.ful q.jmc r.ful s.ful t.mod u.mod v.ful w.ful x.ful y.jmc z.ful ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc];
+@lcCNT = [a.mod b.lop c.mod d.mod e.ful f.ful g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.cnt s.ful t.mod u.mod v.cnt w.cnt x.cnt y.cnt z.cnt ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc];
+@lcMRR = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.mrr q.mrr r.cnt s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.cnt ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc];
+@lcMLP = [a.mod b.mlp c.mod d.mod e.ful f.mlp g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.mrr q.mrr r.mlp s.mlp t.mod u.mod v.mlp w.mlp x.ful y.cnt z.mlp ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc];
 
 # --------------
 # POSITION
@@ -981,8 +981,8 @@ feature ccmp {
 
 # Models specific locl code
 feature locl {
-	script latn;
-	language dflt;
+	# script latn;
+	# language dflt;
 	include(../features/fea-models/::TAG::.fea);
 	# language CAT;
 	# sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
@@ -998,7 +998,8 @@ feature ss01 {
 		name "MOD - Modern Cursive"; # Windows English
 		name 1 0 0 "MOD - Modern Cursive"; # Mac English
 	};
-	sub @lc by @lcMOD;
+	sub [@UC_::TAG:: @lc_::TAG::] by [@UC @lcMOD];
+	# sub @lc by @lcMOD;
 } ss01;
 
 feature ss02 {
@@ -1006,7 +1007,8 @@ feature ss02 {
 		name "JMC - Joined Modern Cursive"; # Windows English
 		name 1 0 0 "JMC - Joined Modern Cursive"; # Mac English
 	};
-	sub @lc by @lcJMC;
+	sub [@UC_::TAG:: @lc_::TAG::] by [@UC @lcJMC];
+	# sub @lc by @lcJMC;
 } ss02;
 
 feature ss03 {
@@ -1014,7 +1016,8 @@ feature ss03 {
 		name "FUL - Full Cursive"; # Windows English
 		name 1 0 0 "FUL - Full Cursive"; # Mac English
 	};
-	sub @lc by @lcFUL;
+	sub [@UC_::TAG:: @lc_::TAG::] by [@UC @lcFUL];
+	# sub @lc by @lcFUL;
 } ss03;
 
 
@@ -1023,7 +1026,8 @@ feature ss04 {
 		name "LOP - Speed Loops"; # Windows English
 		name 1 0 0 "LOP - Speed Loops"; # Mac English
 	};
-	sub @lc by @lcLOP;
+	sub [@UC_::TAG:: @lc_::TAG::] by [@UC @lcLOP];
+	# sub @lc by @lcLOP;
 } ss04;
 
 feature ss05 {
@@ -1031,7 +1035,8 @@ feature ss05 {
 		name "CNT - Curved Entry Stroke"; # Windows English
 		name 1 0 0 "CNT - Curved Entry Stroke"; # Mac English
 	};
-	sub @lc by @lcCNT;
+	sub [@UC_::TAG:: @lc_::TAG::] by [@UC @lcCNT];
+	# sub @lc by @lcCNT;
 } ss05;
 
 feature ss06 {
@@ -1039,7 +1044,8 @@ feature ss06 {
 		name "MRR - Mirrored Loops"; # Windows English
 		name 1 0 0 "MRR - Mirrored Loops"; # Mac English
 	};
-	sub @lc by @lcMRR;
+	sub [@UC_::TAG:: @lc_::TAG::] by [@UC @lcMRR];
+	# sub @lc by @lcMRR;
 } ss06;
 
 feature ss07 {
@@ -1047,7 +1053,8 @@ feature ss07 {
 		name "MLP - Micro Loops"; # Windows English
 		name 1 0 0 "MLP - Micro Loops"; # Mac English
 	};
-	sub @lc by @lcMLP;
+	sub [@UC_::TAG:: @lc_::TAG::] by [@UC @lcMLP];
+	# sub @lc by @lcMLP;
 } ss07;
 
 feature ss19 {
