@@ -3,10 +3,11 @@
   <advance width="572"/>
   <anchor x="198" y="0" name="bottom"/>
   <anchor x="253" y="0" name="ogonek"/>
-  <anchor x="130" y="818" name="top_1"/>
+  <anchor x="130" y="500" name="top_1"/>
   <anchor x="434" y="500" name="top_2"/>
   <outline>
-    <component base="iacute"/>
+    <component base="idotless"/>
+    <component base="acutecomb" xOffset="130"/>
     <component base="jdotless" xOffset="304"/>
     <component base="acutecomb" xOffset="434"/>
   </outline>
@@ -39,6 +40,8 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

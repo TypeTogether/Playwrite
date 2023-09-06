@@ -1,11 +1,16 @@
 {
+color = 8;
 glyphname = IJacute;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (169,0);
+ref = acutecomb.case;
 },
 {
 pos = (338,0);
@@ -38,7 +43,11 @@ width = 988;
 layerId = m002;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (163,0);
+ref = acutecomb.case;
 },
 {
 pos = (338,0);
@@ -71,7 +80,11 @@ width = 988;
 layerId = m003;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (169,0);
+ref = acutecomb.case;
 },
 {
 pos = (338,0);
@@ -104,7 +117,11 @@ width = 988;
 layerId = m004;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (163,0);
+ref = acutecomb.case;
 },
 {
 pos = (338,0);
@@ -137,7 +154,11 @@ width = 988;
 layerId = m005;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (169,0);
+ref = acutecomb.case;
 },
 {
 pos = (338,0);
@@ -170,7 +191,11 @@ width = 988;
 layerId = m006;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (164,0);
+ref = acutecomb.case;
 },
 {
 pos = (338,0);
@@ -203,7 +228,11 @@ width = 988;
 layerId = m007;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (169,0);
+ref = acutecomb.case;
 },
 {
 pos = (338,0);
@@ -236,7 +265,11 @@ width = 988;
 layerId = m008;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (164,0);
+ref = acutecomb.case;
 },
 {
 pos = (338,0);
@@ -269,7 +302,11 @@ width = 988;
 layerId = m009;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (261,-1);
+ref = acutecomb.case;
 },
 {
 pos = (523,0);
@@ -302,7 +339,11 @@ width = 1529;
 layerId = m010;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (253,-1);
+ref = acutecomb.case;
 },
 {
 pos = (523,0);
@@ -335,7 +376,11 @@ width = 1529;
 layerId = m011;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (261,-1);
+ref = acutecomb.case;
 },
 {
 pos = (523,0);
@@ -368,7 +413,11 @@ width = 1529;
 layerId = m012;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (253,-1);
+ref = acutecomb.case;
 },
 {
 pos = (523,0);
@@ -401,7 +450,11 @@ width = 1529;
 layerId = m013;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (261,-1);
+ref = acutecomb.case;
 },
 {
 pos = (523,0);
@@ -434,7 +487,11 @@ width = 1529;
 layerId = m014;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (253,-1);
+ref = acutecomb.case;
 },
 {
 pos = (523,0);
@@ -467,7 +524,11 @@ width = 1529;
 layerId = m015;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (261,-1);
+ref = acutecomb.case;
 },
 {
 pos = (523,0);
@@ -500,7 +561,11 @@ width = 1529;
 layerId = m016;
 shapes = (
 {
-ref = Iacute;
+ref = I;
+},
+{
+pos = (253,-1);
+ref = acutecomb.case;
 },
 {
 pos = (523,0);
