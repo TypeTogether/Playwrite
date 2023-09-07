@@ -24,7 +24,6 @@ do
 
     rm -rf $varFontsPath
     mkdir -p $varFontsPath
-
     # set locl code in features
     python $scripts/add-locl-fea.py $tag $feaFile
 
@@ -33,8 +32,7 @@ do
  Generating VARIABLE **$tag** font
 ================================================
  $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
-echo
-
+    echo
     # temporal file name (referenced in config.yaml for STAT):
     varFileName="Playpen$tag[wght,EXTD,SPED,slnt].ttf"
     tempVarFileName="var-model-temp.ttf"
@@ -66,6 +64,5 @@ echo
     # Clean up for each model
     rm -rf ./master_ufo/ ./instance_ufo/
 done
-
 #
 open "../../test/test-var-models.gggls"
