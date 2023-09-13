@@ -536,7 +536,7 @@ lookup before_x {
 	sub @bful_SRC by @bful_SRC cnct.ful_b_x.mod;
 	sub @eful_SRC by @eful_SRC cnct.ful_e_x.mod;
 	sub @fful_SRC by @fful_SRC cnct.ful_f_x;
-	sub @zful_SRC by @zful_SRC cnct.ful_z_x;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_x.mod;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_x;
 	#
@@ -549,22 +549,28 @@ lookup before_xful {
 	sub @Tcur_SRC by @Tcur_SRC cnct.ful_c_x;
 	sub @Xdec_SRC by @Xdec_SRC cnct.ful_X_x;
 	#
-	sub @bful_SRC by @bful_SRC cnct.ful_b_x;
 	sub @cmod_SRC by @cmod_SRC cnct.ful_c_x;
-	sub @eful_SRC by @eful_SRC cnct.ful_e_x;
-	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_x;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_x.ful;
 	sub @nmod_SRC by @nmod_SRC cnct.ful_n_x;
 	sub @omod_SRC by @omod_SRC cnct.ful_o_x;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_x.cnt;
+	#
+	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_x;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_x;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_x;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_x;
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_x;
+	#
+	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_x;
+	#
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_x;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_x;
+	#
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_x;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_x;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_x;
-	sub @rmod_SRC by @rmod_SRC cnct.mod_r_x.cnt;
 	#
-	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_x;
-	sub @emod_SRC by @emod_SRC cnct.mod_e_x.ful;
 	sub @needsEntry_SRC by @needsEntry_SRC entr_xful;
 } before_xful;
 
@@ -991,7 +997,7 @@ feature ccmp {
 feature locl {
 	# script latn;
 	# language dflt;
-	include(../features/fea-models/USA_Modern.fea);
+	include(../features/fea-models/ZAF.fea);
 	# language CAT;
 	# sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
 } locl;
@@ -1006,7 +1012,7 @@ feature ss01 {
 		name "MOD - Modern Cursive"; # Windows English
 		name 1 0 0 "MOD - Modern Cursive"; # Mac English
 	};
-	sub [@UC_USA_Modern @lc_USA_Modern] by [@UC @lcMOD];
+	sub [@UC_ZAF @lc_ZAF] by [@UC @lcMOD];
 	# sub @lc by @lcMOD;
 } ss01;
 
@@ -1015,7 +1021,7 @@ feature ss02 {
 		name "JMC - Joined Modern Cursive"; # Windows English
 		name 1 0 0 "JMC - Joined Modern Cursive"; # Mac English
 	};
-	sub [@UC_USA_Modern @lc_USA_Modern] by [@UC @lcJMC];
+	sub [@UC_ZAF @lc_ZAF] by [@UC @lcJMC];
 	# sub @lc by @lcJMC;
 } ss02;
 
@@ -1024,7 +1030,7 @@ feature ss03 {
 		name "FUL - Full Cursive"; # Windows English
 		name 1 0 0 "FUL - Full Cursive"; # Mac English
 	};
-	sub [@UC_USA_Modern @lc_USA_Modern] by [@UC @lcFUL];
+	sub [@UC_ZAF @lc_ZAF] by [@UC @lcFUL];
 	# sub @lc by @lcFUL;
 } ss03;
 
@@ -1034,7 +1040,7 @@ feature ss04 {
 		name "LOP - Speed Loops"; # Windows English
 		name 1 0 0 "LOP - Speed Loops"; # Mac English
 	};
-	sub [@UC_USA_Modern @lc_USA_Modern] by [@UC @lcLOP];
+	sub [@UC_ZAF @lc_ZAF] by [@UC @lcLOP];
 	# sub @lc by @lcLOP;
 } ss04;
 
@@ -1043,7 +1049,7 @@ feature ss05 {
 		name "CNT - Curved Entry Stroke"; # Windows English
 		name 1 0 0 "CNT - Curved Entry Stroke"; # Mac English
 	};
-	sub [@UC_USA_Modern @lc_USA_Modern] by [@UC @lcCNT];
+	sub [@UC_ZAF @lc_ZAF] by [@UC @lcCNT];
 	# sub @lc by @lcCNT;
 } ss05;
 
@@ -1052,7 +1058,7 @@ feature ss06 {
 		name "MRR - Mirrored Loops"; # Windows English
 		name 1 0 0 "MRR - Mirrored Loops"; # Mac English
 	};
-	sub [@UC_USA_Modern @lc_USA_Modern] by [@UC @lcMRR];
+	sub [@UC_ZAF @lc_ZAF] by [@UC @lcMRR];
 	# sub @lc by @lcMRR;
 } ss06;
 
@@ -1061,7 +1067,7 @@ feature ss07 {
 		name "MLP - Micro Loops"; # Windows English
 		name 1 0 0 "MLP - Micro Loops"; # Mac English
 	};
-	sub [@UC_USA_Modern @lc_USA_Modern] by [@UC @lcMLP];
+	sub [@UC_ZAF @lc_ZAF] by [@UC @lcMLP];
 	# sub @lc by @lcMLP;
 } ss07;
 
@@ -1265,6 +1271,7 @@ feature calt {
 		sub @zful_SRC' lookup before_sful @sful_TGT;
 		sub @zful_SRC' lookup before_t @tmod_TGT;
 		sub @zful_SRC' lookup before_x @xmod_TGT;
+		sub @zful_SRC' lookup before_xful @xful_TGT;
 		sub @zful_SRC' lookup before_zful @zful_TGT;
 		#
 		sub @cmod_SRC' lookup before_sful @sful_TGT;
@@ -1516,6 +1523,7 @@ feature dist {
 			pos @vmod_SRC 50 @eful_TGT;
 			pos @vmod_SRC 62 @fful_TGT;
 			pos @vmod_SRC 62 @hlop_TGT;
+			pos @vmod_SRC 30 @ncnt_TGT;
 		} dist_MOD;
 		# JMC:
 		lookup dist_JMC {
@@ -1545,6 +1553,7 @@ feature dist {
 			pos @bful_SRC 25 @fful_TGT;
 			pos @bful_SRC 25 @hlop_TGT;
 			pos @bful_SRC 25 @ncnt_TGT;
+			pos @bful_SRC 20 @xmod_TGT;
 			pos @eful_SRC 12 @rful_TGT;
 			pos @eful_SRC 125 @ncnt_TGT;
 			pos @eful_SRC 25 @smod_TGT;
@@ -1568,6 +1577,7 @@ feature dist {
 			pos @zful_SRC 25 @xful_TGT;
 			pos @zful_SRC 25 @zcnt_TGT;
 			pos @zful_SRC 37 @fful_TGT;
+			pos @zful_SRC 80 @xmod_TGT;
 			pos @zful_SRC 75 @zful_TGT;
 		} dist_FUL;
 		# LOP
@@ -1595,6 +1605,10 @@ feature dist {
 			pos @rcnt_SRC 62 @omod_TGT;
 			pos @rcnt_SRC 112 @ncnt_TGT;
 			pos @rcnt_SRC 25 @smod_TGT;
+			pos @rcnt_SRC 25 @bmod_TGT;
+			pos @rcnt_SRC 80 @vmod_TGT;
+			pos @rcnt_SRC 50 @xmod_TGT;
+			pos @rcnt_SRC 20 @rful_TGT;
 		} dist_CNT;
 		# MRR
 		lookup dist_MRR {

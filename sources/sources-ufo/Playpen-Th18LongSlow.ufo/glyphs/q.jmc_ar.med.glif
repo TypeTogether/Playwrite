@@ -15,8 +15,8 @@
       <point x="424" y="13"/>
       <point x="470" y="-17"/>
     </contour>
-    <component base="q" xOffset="13"/>
     <component base="strokeshortcomb" xOffset="303" yOffset="-529"/>
+    <component base="q" xOffset="13"/>
   </outline>
   <lib>
     <dict>
@@ -55,7 +55,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>q</string>
+          <string>strokeshortcomb</string>
         </dict>
         <dict>
           <key>alignment</key>
@@ -63,11 +63,13 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>strokeshortcomb</string>
+          <string>q</string>
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>PCC</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

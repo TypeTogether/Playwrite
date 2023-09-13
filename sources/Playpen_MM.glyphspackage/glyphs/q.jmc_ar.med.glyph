@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = q.jmc_ar.med;
 layers = (
 {
@@ -27,13 +28,13 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (13,0);
-ref = q;
+pos = (470,-529);
+ref = strokeshortcomb;
 },
 {
 alignment = -1;
-pos = (303,-529);
-ref = strokeshortcomb;
+pos = (13,0);
+ref = q;
 }
 );
 userData = {
@@ -80,13 +81,13 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (13,0);
-ref = q;
+pos = (303,-529);
+ref = strokeshortcomb;
 },
 {
 alignment = -1;
-pos = (303,-529);
-ref = strokeshortcomb;
+pos = (13,0);
+ref = q;
 }
 );
 userData = {
@@ -133,13 +134,13 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (13,0);
-ref = q;
+pos = (470,-529);
+ref = strokeshortcomb;
 },
 {
 alignment = -1;
-pos = (303,-529);
-ref = strokeshortcomb;
+pos = (13,0);
+ref = q;
 }
 );
 userData = {
@@ -186,13 +187,13 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (13,0);
-ref = q;
+pos = (303,-529);
+ref = strokeshortcomb;
 },
 {
 alignment = -1;
-pos = (303,-529);
-ref = strokeshortcomb;
+pos = (13,0);
+ref = q;
 }
 );
 userData = {
@@ -225,27 +226,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(620,-17,o),
-(620,18,o),
-(603,18,cs),
-(534,18,o),
-(501,41,o),
-(475,89,c),
-(456,89,l),
-(476,23,o),
-(523,-17,o),
-(601,-17,cs)
+(610,-17,o),
+(629,58,o),
+(604,58,cs),
+(559,58,o),
+(531,66,o),
+(496,91,c),
+(478,25,l),
+(499,0,o),
+(544,-17,o),
+(585,-17,cs)
 );
+},
+{
+alignment = -1;
+pos = (480,-529);
+ref = strokeshortcomb;
 },
 {
 alignment = -1;
 pos = (13,0);
 ref = q;
-},
-{
-alignment = -1;
-pos = (303,-529);
-ref = strokeshortcomb;
 }
 );
 userData = {
@@ -278,27 +279,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(546,-17,o),
-(554,18,o),
-(536,18,cs),
-(479,18,o),
-(441,48,o),
-(426,104,c),
-(408,69,l),
-(424,13,o),
-(470,-17,o),
-(525,-17,cs)
+(555,-17,o),
+(573,58,o),
+(548,58,cs),
+(514,58,o),
+(479,71,o),
+(460,91,c),
+(419,25,l),
+(435,0,o),
+(479,-17,o),
+(523,-17,cs)
 );
-},
-{
-alignment = -1;
-pos = (13,0);
-ref = q;
 },
 {
 alignment = -1;
 pos = (303,-529);
 ref = strokeshortcomb;
+},
+{
+alignment = -1;
+pos = (13,0);
+ref = q;
 }
 );
 userData = {
@@ -331,27 +332,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(570,-17,o),
-(570,18,o),
-(553,18,cs),
-(521,18,o),
-(491,34,o),
-(478,60,c),
-(478,18,l),
-(491,-7,o),
-(520,-17,o),
-(553,-17,cs)
+(576,-17,o),
+(595,58,o),
+(570,58,cs),
+(548,58,o),
+(515,69,o),
+(496,96,c),
+(485,8,l),
+(510,-11,o),
+(536,-17,o),
+(551,-17,cs)
 );
+},
+{
+alignment = -1;
+pos = (480,-529);
+ref = strokeshortcomb;
 },
 {
 alignment = -1;
 pos = (13,0);
 ref = q;
-},
-{
-alignment = -1;
-pos = (303,-529);
-ref = strokeshortcomb;
 }
 );
 userData = {
@@ -384,27 +385,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(495,-17,o),
-(504,18,o),
-(486,18,cs),
-(456,18,o),
-(430,31,o),
-(424,49,c),
-(410,14,l),
-(418,-4,o),
-(445,-17,o),
-(478,-17,cs)
+(525,-17,o),
+(536,58,o),
+(511,58,cs),
+(478,58,o),
+(459,74,o),
+(454,109,c),
+(410,31,l),
+(424,3,o),
+(459,-17,o),
+(493,-17,cs)
 );
-},
-{
-alignment = -1;
-pos = (13,0);
-ref = q;
 },
 {
 alignment = -1;
 pos = (303,-529);
 ref = strokeshortcomb;
+},
+{
+alignment = -1;
+pos = (13,0);
+ref = q;
 }
 );
 userData = {
@@ -451,13 +452,13 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (13,0);
-ref = q;
+pos = (470,-529);
+ref = strokeshortcomb;
 },
 {
 alignment = -1;
-pos = (303,-529);
-ref = strokeshortcomb;
+pos = (13,0);
+ref = q;
 }
 );
 userData = {
@@ -504,13 +505,13 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (13,0);
-ref = q;
+pos = (303,-529);
+ref = strokeshortcomb;
 },
 {
 alignment = -1;
-pos = (303,-529);
-ref = strokeshortcomb;
+pos = (13,0);
+ref = q;
 }
 );
 userData = {
@@ -557,13 +558,13 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (13,0);
-ref = q;
+pos = (470,-529);
+ref = strokeshortcomb;
 },
 {
 alignment = -1;
-pos = (303,-529);
-ref = strokeshortcomb;
+pos = (13,0);
+ref = q;
 }
 );
 userData = {
@@ -610,13 +611,13 @@ nodes = (
 },
 {
 alignment = -1;
-pos = (13,0);
-ref = q;
+pos = (303,-529);
+ref = strokeshortcomb;
 },
 {
 alignment = -1;
-pos = (303,-529);
-ref = strokeshortcomb;
+pos = (13,0);
+ref = q;
 }
 );
 userData = {
@@ -649,27 +650,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(620,-17,o),
-(620,18,o),
-(603,18,cs),
-(534,18,o),
-(501,41,o),
-(475,89,c),
-(456,89,l),
-(476,23,o),
-(523,-17,o),
-(601,-17,cs)
+(610,-17,o),
+(629,58,o),
+(604,58,cs),
+(559,58,o),
+(531,66,o),
+(496,91,c),
+(478,25,l),
+(499,0,o),
+(544,-17,o),
+(585,-17,cs)
 );
+},
+{
+alignment = -1;
+pos = (480,-529);
+ref = strokeshortcomb;
 },
 {
 alignment = -1;
 pos = (13,0);
 ref = q;
-},
-{
-alignment = -1;
-pos = (303,-529);
-ref = strokeshortcomb;
 }
 );
 userData = {
@@ -702,27 +703,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(546,-17,o),
-(554,18,o),
-(536,18,cs),
-(479,18,o),
-(441,48,o),
-(426,104,c),
-(408,69,l),
-(424,13,o),
-(470,-17,o),
-(525,-17,cs)
+(555,-17,o),
+(573,58,o),
+(548,58,cs),
+(514,58,o),
+(479,71,o),
+(460,91,c),
+(419,25,l),
+(435,0,o),
+(479,-17,o),
+(523,-17,cs)
 );
-},
-{
-alignment = -1;
-pos = (13,0);
-ref = q;
 },
 {
 alignment = -1;
 pos = (303,-529);
 ref = strokeshortcomb;
+},
+{
+alignment = -1;
+pos = (13,0);
+ref = q;
 }
 );
 userData = {
@@ -755,27 +756,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(570,-17,o),
-(570,18,o),
-(553,18,cs),
-(521,18,o),
-(491,34,o),
-(478,60,c),
-(478,18,l),
-(491,-7,o),
-(520,-17,o),
-(553,-17,cs)
+(576,-17,o),
+(595,58,o),
+(570,58,cs),
+(548,58,o),
+(515,69,o),
+(496,96,c),
+(485,8,l),
+(510,-11,o),
+(536,-17,o),
+(551,-17,cs)
 );
+},
+{
+alignment = -1;
+pos = (480,-529);
+ref = strokeshortcomb;
 },
 {
 alignment = -1;
 pos = (13,0);
 ref = q;
-},
-{
-alignment = -1;
-pos = (303,-529);
-ref = strokeshortcomb;
 }
 );
 userData = {
@@ -808,27 +809,27 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(495,-17,o),
-(504,18,o),
-(486,18,cs),
-(456,18,o),
-(430,31,o),
-(424,49,c),
-(410,14,l),
-(418,-4,o),
-(445,-17,o),
-(478,-17,cs)
+(525,-17,o),
+(536,58,o),
+(511,58,cs),
+(478,58,o),
+(459,74,o),
+(454,109,c),
+(410,31,l),
+(424,3,o),
+(459,-17,o),
+(493,-17,cs)
 );
-},
-{
-alignment = -1;
-pos = (13,0);
-ref = q;
 },
 {
 alignment = -1;
 pos = (303,-529);
 ref = strokeshortcomb;
+},
+{
+alignment = -1;
+pos = (13,0);
+ref = q;
 }
 );
 userData = {
