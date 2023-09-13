@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="p.jmc" format="2">
-  <advance width="629"/>
+  <advance width="616"/>
   <outline>
-    <component base="p.mod"/>
+    <component base="p" xOffset="21"/>
   </outline>
   <lib>
     <dict>
@@ -41,7 +41,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>p.mod</string>
+          <string>p</string>
         </dict>
       </array>
     </dict>

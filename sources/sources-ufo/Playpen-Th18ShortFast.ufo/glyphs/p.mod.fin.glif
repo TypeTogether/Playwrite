@@ -2,7 +2,7 @@
 <glyph name="p.mod.fin" format="2">
   <advance width="616"/>
   <outline>
-    <component base="p.mod"/>
+    <component base="p" xOffset="21"/>
   </outline>
   <lib>
     <dict>
@@ -41,7 +41,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>p.mod</string>
+          <string>p</string>
         </dict>
       </array>
     </dict>

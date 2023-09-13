@@ -6,10 +6,47 @@
   <anchor x="718" y="744" name="center"/>
   <anchor x="916" y="11" name="ogonek"/>
   <anchor x="718" y="1424" name="top"/>
-  <anchor x="1005" y="1424" name="topright"/>
   <outline>
-    <component base="O"/>
-    <component base="horncomb.case" xOffset="1005" yOffset="-84"/>
+    <contour>
+      <point x="719" y="-19" type="curve" smooth="yes"/>
+      <point x="1060" y="-19"/>
+      <point x="1284" y="285"/>
+      <point x="1284" y="749" type="curve" smooth="yes"/>
+      <point x="1284" y="1041"/>
+      <point x="1194" y="1270"/>
+      <point x="1042" y="1399" type="curve"/>
+      <point x="1175" y="1419"/>
+      <point x="1232" y="1517"/>
+      <point x="1187" y="1679" type="curve" smooth="yes"/>
+      <point x="1179" y="1708"/>
+      <point x="1136" y="1699"/>
+      <point x="1143" y="1672" type="curve" smooth="yes"/>
+      <point x="1185" y="1504"/>
+      <point x="1138" y="1442"/>
+      <point x="1010" y="1424" type="curve"/>
+      <point x="928" y="1483"/>
+      <point x="830" y="1515"/>
+      <point x="719" y="1515" type="curve" smooth="yes"/>
+      <point x="375" y="1515"/>
+      <point x="150" y="1211"/>
+      <point x="150" y="749" type="curve" smooth="yes"/>
+      <point x="150" y="285"/>
+      <point x="375" y="-19"/>
+    </contour>
+    <contour>
+      <point x="719" y="19" type="curve" smooth="yes"/>
+      <point x="400" y="19"/>
+      <point x="191" y="308"/>
+      <point x="191" y="749" type="curve" smooth="yes"/>
+      <point x="191" y="1189"/>
+      <point x="400" y="1478"/>
+      <point x="719" y="1478" type="curve" smooth="yes"/>
+      <point x="1035" y="1478"/>
+      <point x="1243" y="1189"/>
+      <point x="1243" y="749" type="curve" smooth="yes"/>
+      <point x="1243" y="308"/>
+      <point x="1035" y="19"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -40,8 +77,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
     </dict>
   </lib>
 </glyph>

@@ -3,7 +3,7 @@
   <advance width="509"/>
   <anchor x="540" y="503" name="cnct"/>
   <outline>
-    <component base="v.mod"/>
+    <component base="v"/>
   </outline>
   <lib>
     <dict>
@@ -42,7 +42,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>v.mod</string>
+          <string>v</string>
         </dict>
       </array>
     </dict>

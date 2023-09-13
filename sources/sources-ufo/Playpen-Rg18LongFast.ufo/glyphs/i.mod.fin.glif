@@ -4,7 +4,7 @@
   <anchor x="136" y="0" name="bottom"/>
   <anchor x="203" y="0" name="ogonek"/>
   <outline>
-    <component base="i.mod"/>
+    <component base="i" xOffset="25"/>
   </outline>
   <lib>
     <dict>
@@ -43,7 +43,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>i.mod</string>
+          <string>i</string>
         </dict>
       </array>
     </dict>

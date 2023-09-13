@@ -15,7 +15,7 @@
       <point x="510" y="-11"/>
       <point x="536" y="-17"/>
     </contour>
-    <component base="q.mod"/>
+    <component base="q" xOffset="13"/>
   </outline>
   <lib>
     <dict>
@@ -54,7 +54,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>q.mod</string>
+          <string>q</string>
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>

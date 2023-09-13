@@ -2,6 +2,21 @@
 <glyph name="thorn.jmc.fin" format="2">
   <advance width="635"/>
   <outline>
-    <component base="thorn.jmc"/>
+    <component base="thorn" xOffset="25"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>thorn</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -51,6 +51,7 @@ echo
       python -m ttfautohint $ttf "$ttf.hint"
       mv "$ttf.hint" $ttf
       gftools fix-hinting $ttf
+      mv "$ttf.fix" $ttf
       echo $ttf
     done
 

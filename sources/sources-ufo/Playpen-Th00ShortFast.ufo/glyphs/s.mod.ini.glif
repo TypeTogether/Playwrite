@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="s.mod.ini" format="2">
   <advance width="479"/>
-  <anchor x="479" y="0" name="cnct"/>
   <anchor x="238" y="0" name="bottom"/>
   <anchor x="253" y="500" name="top"/>
   <outline>
-    <component base="s.mod"/>
+    <component base="s"/>
   </outline>
   <lib>
     <dict>
@@ -44,7 +43,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>s.mod</string>
+          <string>s</string>
         </dict>
       </array>
     </dict>

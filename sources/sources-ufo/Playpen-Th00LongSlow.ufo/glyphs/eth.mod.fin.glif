@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eth.mod.fin" format="2">
   <advance width="603"/>
-  <anchor x="603" y="0" name="cnct"/>
   <outline>
-    <component base="eth.mod.med"/>
+    <component base="eth"/>
   </outline>
 </glyph>

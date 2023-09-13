@@ -17,7 +17,7 @@
       <point x="336" y="18"/>
       <point x="284" y="18"/>
     </contour>
-    <component base="s.jmc"/>
+    <component base="s"/>
   </outline>
   <lib>
     <dict>
@@ -56,7 +56,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>s.jmc</string>
+          <string>s</string>
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>

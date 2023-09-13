@@ -5,7 +5,7 @@
   <anchor x="349" y="250" name="center"/>
   <anchor x="430" y="500" name="top"/>
   <outline>
-    <component base="b.jmc"/>
+    <component base="b" xOffset="25"/>
   </outline>
   <lib>
     <dict>
@@ -44,7 +44,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>b.jmc</string>
+          <string>b</string>
         </dict>
       </array>
     </dict>
