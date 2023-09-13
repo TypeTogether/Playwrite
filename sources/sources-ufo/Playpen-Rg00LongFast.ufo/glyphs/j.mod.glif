@@ -2,7 +2,48 @@
 <glyph name="j.mod" format="2">
   <advance width="305"/>
   <outline>
-    <component base="j" xOffset="25"/>
+    <contour>
+      <point x="81" y="-1019" type="curve" smooth="yes"/>
+      <point x="141" y="-1019"/>
+      <point x="200" y="-984"/>
+      <point x="200" y="-872" type="curve" smooth="yes"/>
+      <point x="200" y="489" type="line" smooth="yes"/>
+      <point x="200" y="506"/>
+      <point x="185" y="515"/>
+      <point x="156" y="515" type="curve" smooth="yes"/>
+      <point x="128" y="515"/>
+      <point x="114" y="506"/>
+      <point x="114" y="489" type="curve" smooth="yes"/>
+      <point x="114" y="-876" type="line" smooth="yes"/>
+      <point x="114" y="-919"/>
+      <point x="106" y="-944"/>
+      <point x="78" y="-944" type="curve" smooth="yes"/>
+      <point x="51" y="-944"/>
+      <point x="30" y="-924"/>
+      <point x="11" y="-901" type="curve" smooth="yes"/>
+      <point x="-2" y="-885"/>
+      <point x="-17" y="-884"/>
+      <point x="-40" y="-900" type="curve" smooth="yes"/>
+      <point x="-56" y="-911"/>
+      <point x="-67" y="-930"/>
+      <point x="-54" y="-949" type="curve" smooth="yes"/>
+      <point x="-26" y="-989"/>
+      <point x="24" y="-1019"/>
+    </contour>
+    <contour>
+      <point x="156" y="669" type="curve" smooth="yes"/>
+      <point x="193" y="669"/>
+      <point x="211" y="689"/>
+      <point x="211" y="731" type="curve" smooth="yes"/>
+      <point x="211" y="774"/>
+      <point x="193" y="795"/>
+      <point x="156" y="795" type="curve" smooth="yes"/>
+      <point x="119" y="795"/>
+      <point x="100" y="774"/>
+      <point x="100" y="731" type="curve" smooth="yes"/>
+      <point x="100" y="689"/>
+      <point x="119" y="669"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -33,17 +74,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>j</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

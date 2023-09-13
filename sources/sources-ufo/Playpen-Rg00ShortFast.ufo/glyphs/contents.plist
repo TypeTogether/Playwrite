@@ -852,6 +852,8 @@
     <string>cnct.cnt_o_n.glif</string>
     <key>cnct.cnt_o_z</key>
     <string>cnct.cnt_o_z.glif</string>
+    <key>cnct.cnt_r_b.mod</key>
+    <string>cnct.cnt_r_b.mod.glif</string>
     <key>cnct.cnt_r_e</key>
     <string>cnct.cnt_r_e.glif</string>
     <key>cnct.cnt_r_e.mod</key>
@@ -868,6 +870,8 @@
     <string>cnct.cnt_r_n.mod.glif</string>
     <key>cnct.cnt_r_o</key>
     <string>cnct.cnt_r_o.glif</string>
+    <key>cnct.cnt_r_r.ful</key>
+    <string>cnct.cnt_r_r.ful.glif</string>
     <key>cnct.cnt_r_s</key>
     <string>cnct.cnt_r_s.glif</string>
     <key>cnct.cnt_r_s.mod</key>
@@ -876,8 +880,12 @@
     <string>cnct.cnt_r_t.glif</string>
     <key>cnct.cnt_r_t.lop_de</key>
     <string>cnct.cnt_r_t.lop_de.glif</string>
+    <key>cnct.cnt_r_v.mod</key>
+    <string>cnct.cnt_r_v.mod.glif</string>
     <key>cnct.cnt_r_x</key>
     <string>cnct.cnt_r_x.glif</string>
+    <key>cnct.cnt_r_x.mod</key>
+    <string>cnct.cnt_r_x.mod.glif</string>
     <key>cnct.cnt_r_z</key>
     <string>cnct.cnt_r_z.glif</string>
     <key>cnct.cnt_r_z.mod</key>
@@ -938,6 +946,8 @@
     <string>cnct.ful_b_t.lop_de.glif</string>
     <key>cnct.ful_b_x</key>
     <string>cnct.ful_b_x.glif</string>
+    <key>cnct.ful_b_x.mod</key>
+    <string>cnct.ful_b_x.mod.glif</string>
     <key>cnct.ful_b_z</key>
     <string>cnct.ful_b_z.glif</string>
     <key>cnct.ful_b_z.mod</key>
@@ -1394,6 +1404,8 @@
     <string>cnct.mod_r_x.cnt.glif</string>
     <key>cnct.mod_r_z</key>
     <string>cnct.mod_r_z.glif</string>
+    <key>cnct.mod_r_z.cnt</key>
+    <string>cnct.mod_r_z.cnt.glif</string>
     <key>cnct.mod_t.lop_de_b</key>
     <string>cnct.mod_t.lop_de_b.glif</string>
     <key>cnct.mod_t.lop_de_e</key>
@@ -1422,6 +1434,8 @@
     <string>cnct.mod_v_h.lop.glif</string>
     <key>cnct.mod_v_n</key>
     <string>cnct.mod_v_n.glif</string>
+    <key>cnct.mod_v_n.cnt</key>
+    <string>cnct.mod_v_n.cnt.glif</string>
     <key>cnct.mod_v_o</key>
     <string>cnct.mod_v_o.glif</string>
     <key>cnct.mod_v_s</key>
@@ -2050,6 +2064,8 @@
     <string>macroncomb.case.glif</string>
     <key>minus</key>
     <string>minus.glif</string>
+    <key>minute</key>
+    <string>minute.glif</string>
     <key>multiply</key>
     <string>multiply.glif</string>
     <key>n</key>
@@ -2406,6 +2422,8 @@
     <string>scircumflex.glif</string>
     <key>scommaaccent</key>
     <string>scommaaccent.glif</string>
+    <key>second</key>
+    <string>second.glif</string>
     <key>section</key>
     <string>section.glif</string>
     <key>semicolon</key>

@@ -5,12 +5,12 @@
   <outline>
     <contour>
       <point x="208" y="-17" type="curve" smooth="yes"/>
-      <point x="386" y="-17"/>
-      <point x="504" y="171"/>
-      <point x="1325" y="1445" type="curve"/>
-      <point x="1295" y="1448" type="line"/>
-      <point x="1203" y="1100"/>
-      <point x="1136" y="760"/>
+      <point x="324" y="-17"/>
+      <point x="415" y="63"/>
+      <point x="694" y="476" type="curve"/>
+      <point x="1107" y="476" type="line"/>
+      <point x="1103" y="440"/>
+      <point x="1099" y="404"/>
       <point x="1095" y="368" type="curve" smooth="yes"/>
       <point x="1091" y="331"/>
       <point x="1099" y="316"/>
@@ -43,10 +43,13 @@
       <point x="140" y="-17"/>
     </contour>
     <contour>
-      <point x="655" y="476" type="line"/>
-      <point x="1149" y="476" type="line"/>
-      <point x="1164" y="554" type="line"/>
-      <point x="713" y="554" type="line"/>
+      <point x="746" y="554" type="line"/>
+      <point x="878" y="752"/>
+      <point x="1048" y="1015"/>
+      <point x="1274" y="1365" type="curve"/>
+      <point x="1207" y="1102"/>
+      <point x="1154" y="840"/>
+      <point x="1117" y="554" type="curve"/>
     </contour>
     <contour>
       <point x="1440" y="-19" type="curve" smooth="yes"/>
@@ -111,6 +114,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=E.cur</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>
