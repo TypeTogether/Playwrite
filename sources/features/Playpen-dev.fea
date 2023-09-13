@@ -536,7 +536,7 @@ lookup before_x {
 	sub @bful_SRC by @bful_SRC cnct.ful_b_x.mod;
 	sub @eful_SRC by @eful_SRC cnct.ful_e_x.mod;
 	sub @fful_SRC by @fful_SRC cnct.ful_f_x;
-	sub @zful_SRC by @zful_SRC cnct.ful_z_x;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_x.mod;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_x;
 	#
@@ -549,22 +549,28 @@ lookup before_xful {
 	sub @Tcur_SRC by @Tcur_SRC cnct.ful_c_x;
 	sub @Xdec_SRC by @Xdec_SRC cnct.ful_X_x;
 	#
-	sub @bful_SRC by @bful_SRC cnct.ful_b_x;
 	sub @cmod_SRC by @cmod_SRC cnct.ful_c_x;
-	sub @eful_SRC by @eful_SRC cnct.ful_e_x;
-	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_x;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_x.ful;
 	sub @nmod_SRC by @nmod_SRC cnct.ful_n_x;
 	sub @omod_SRC by @omod_SRC cnct.ful_o_x;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_x.cnt;
+	#
+	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_x;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_x;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_x;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_x;
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_x;
+	#
+	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_x;
+	#
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_x;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_x;
+	#
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_x;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_x;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_x;
-	sub @rmod_SRC by @rmod_SRC cnct.mod_r_x.cnt;
 	#
-	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_x;
-	sub @emod_SRC by @emod_SRC cnct.mod_e_x.ful;
 	sub @needsEntry_SRC by @needsEntry_SRC entr_xful;
 } before_xful;
 
@@ -1249,6 +1255,7 @@ feature calt {
 		sub @zful_SRC' lookup before_sful @sful_TGT;
 		sub @zful_SRC' lookup before_t @tmod_TGT;
 		sub @zful_SRC' lookup before_x @xmod_TGT;
+		sub @zful_SRC' lookup before_xful @xful_TGT;
 		sub @zful_SRC' lookup before_zful @zful_TGT;
 		#
 		sub @cmod_SRC' lookup before_sful @sful_TGT;
@@ -1500,6 +1507,7 @@ feature dist {
 			pos @vmod_SRC 50 @eful_TGT;
 			pos @vmod_SRC 62 @fful_TGT;
 			pos @vmod_SRC 62 @hlop_TGT;
+			pos @vmod_SRC 30 @ncnt_TGT;
 		} dist_MOD;
 		# JMC:
 		lookup dist_JMC {
@@ -1529,6 +1537,7 @@ feature dist {
 			pos @bful_SRC 25 @fful_TGT;
 			pos @bful_SRC 25 @hlop_TGT;
 			pos @bful_SRC 25 @ncnt_TGT;
+			pos @bful_SRC 20 @xmod_TGT;
 			pos @eful_SRC 12 @rful_TGT;
 			pos @eful_SRC 125 @ncnt_TGT;
 			pos @eful_SRC 25 @smod_TGT;
@@ -1552,6 +1561,7 @@ feature dist {
 			pos @zful_SRC 25 @xful_TGT;
 			pos @zful_SRC 25 @zcnt_TGT;
 			pos @zful_SRC 37 @fful_TGT;
+			pos @zful_SRC 80 @xmod_TGT;
 			pos @zful_SRC 75 @zful_TGT;
 		} dist_FUL;
 		# LOP
@@ -1579,6 +1589,10 @@ feature dist {
 			pos @rcnt_SRC 62 @omod_TGT;
 			pos @rcnt_SRC 112 @ncnt_TGT;
 			pos @rcnt_SRC 25 @smod_TGT;
+			pos @rcnt_SRC 25 @bmod_TGT;
+			pos @rcnt_SRC 80 @vmod_TGT;
+			pos @rcnt_SRC 50 @xmod_TGT;
+			pos @rcnt_SRC 20 @rful_TGT;
 		} dist_CNT;
 		# MRR
 		lookup dist_MRR {
