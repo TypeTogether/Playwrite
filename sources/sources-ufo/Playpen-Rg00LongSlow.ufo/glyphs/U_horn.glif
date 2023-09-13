@@ -7,8 +7,19 @@
   <anchor x="669" y="1424" name="top"/>
   <anchor x="1096" y="1509" name="topright"/>
   <outline>
+    <contour>
+      <point x="1283" y="1687" type="curve" smooth="yes"/>
+      <point x="1254" y="1732"/>
+      <point x="1179" y="1690"/>
+      <point x="1207" y="1644" type="curve" smooth="yes"/>
+      <point x="1252" y="1570"/>
+      <point x="1237" y="1514"/>
+      <point x="1096" y="1509" type="curve"/>
+      <point x="1096" y="1447" type="line"/>
+      <point x="1318" y="1455"/>
+      <point x="1354" y="1576"/>
+    </contour>
     <component base="U"/>
-    <component base="horncomb.case" xOffset="1096" yOffset="-6"/>
   </outline>
   <lib>
     <dict>
@@ -39,8 +50,8 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
     </dict>
   </lib>
 </glyph>

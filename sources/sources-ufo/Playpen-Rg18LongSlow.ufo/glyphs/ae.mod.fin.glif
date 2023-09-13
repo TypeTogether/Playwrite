@@ -3,6 +3,21 @@
   <advance width="906"/>
   <anchor x="551" y="500" name="top"/>
   <outline>
-    <component base="ae.mod"/>
+    <component base="ae" xOffset="13"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>ae</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

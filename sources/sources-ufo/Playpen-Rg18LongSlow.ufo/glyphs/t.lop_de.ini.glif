@@ -7,19 +7,12 @@
   <outline>
     <contour>
       <point x="-129" y="-17" type="curve" smooth="yes"/>
-      <point x="50" y="-17"/>
-      <point x="365" y="489"/>
-      <point x="785" y="1483" type="curve" smooth="yes"/>
-      <point x="796" y="1510"/>
-      <point x="739" y="1510"/>
-      <point x="728" y="1483" type="curve" smooth="yes"/>
-      <point x="343" y="598"/>
-      <point x="11" y="58"/>
-      <point x="-112" y="58" type="curve" smooth="yes"/>
-      <point x="-161" y="58"/>
-      <point x="-170" y="-17"/>
-    </contour>
-    <contour>
+      <point x="19" y="-17"/>
+      <point x="259" y="327"/>
+      <point x="574" y="1006" type="curve"/>
+      <point x="256" y="18" type="line" smooth="yes"/>
+      <point x="249" y="-7"/>
+      <point x="273" y="-15"/>
       <point x="294" y="-15" type="curve" smooth="yes"/>
       <point x="324" y="-15"/>
       <point x="335" y="-7"/>
@@ -30,10 +23,18 @@
       <point x="773" y="1515" type="curve" smooth="yes"/>
       <point x="746" y="1515"/>
       <point x="736" y="1510"/>
-      <point x="728" y="1483" type="curve" smooth="yes"/>
-      <point x="256" y="18" type="line" smooth="yes"/>
-      <point x="249" y="-7"/>
-      <point x="273" y="-15"/>
+      <point x="728" y="1483" type="curve"/>
+      <point x="343" y="598"/>
+      <point x="11" y="58"/>
+      <point x="-112" y="58" type="curve" smooth="yes"/>
+      <point x="-161" y="58"/>
+      <point x="-170" y="-17"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
 </glyph>

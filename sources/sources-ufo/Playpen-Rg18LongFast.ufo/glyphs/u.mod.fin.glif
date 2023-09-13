@@ -6,7 +6,7 @@
   <anchor x="406" y="500" name="top"/>
   <anchor x="578" y="514" name="topright"/>
   <outline>
-    <component base="u.mod"/>
+    <component base="u" xOffset="25"/>
   </outline>
   <lib>
     <dict>
@@ -45,7 +45,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>u.mod</string>
+          <string>u</string>
         </dict>
       </array>
     </dict>

@@ -3,23 +3,6 @@
   <advance width="438"/>
   <anchor x="438" y="0" name="cnct"/>
   <outline>
-    <contour>
-      <point x="-107" y="-17" type="curve" smooth="yes"/>
-      <point x="6" y="-17"/>
-      <point x="88" y="168"/>
-      <point x="171" y="468" type="curve" smooth="yes"/>
-      <point x="173" y="474"/>
-      <point x="171" y="479"/>
-      <point x="164" y="480" type="curve" smooth="yes"/>
-      <point x="158" y="481"/>
-      <point x="153" y="481"/>
-      <point x="149" y="471" type="curve" smooth="yes"/>
-      <point x="49" y="164"/>
-      <point x="-26" y="18"/>
-      <point x="-107" y="18" type="curve" smooth="yes"/>
-      <point x="-130" y="18"/>
-      <point x="-130" y="-17"/>
-    </contour>
     <component base="f.alt1.mrr.med"/>
   </outline>
   <lib>
@@ -62,8 +45,8 @@
           <string>f.alt1.mrr.med</string>
         </dict>
       </array>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>PC</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

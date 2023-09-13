@@ -2,17 +2,11 @@
 glyphname = w.mod.med;
 layers = (
 {
-anchors = (
-{
-name = cnct;
-pos = (804,0);
-}
-);
 layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -34,17 +28,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (723,0);
-}
-);
 layerId = m002;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -66,17 +54,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (804,0);
-}
-);
 layerId = m003;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -98,17 +80,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (723,0);
-}
-);
 layerId = m004;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -130,17 +106,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (804,0);
-}
-);
 layerId = m005;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -162,17 +132,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (723,0);
-}
-);
 layerId = m006;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -194,17 +158,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (804,0);
-}
-);
 layerId = m007;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -226,17 +184,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (723,0);
-}
-);
 layerId = m008;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -258,17 +210,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (804,0);
-}
-);
 layerId = m009;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -290,17 +236,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (723,0);
-}
-);
 layerId = m010;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -322,17 +262,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (804,0);
-}
-);
 layerId = m011;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -354,17 +288,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (723,0);
-}
-);
 layerId = m012;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -386,17 +314,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (804,0);
-}
-);
 layerId = m013;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -418,17 +340,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (723,0);
-}
-);
 layerId = m014;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -450,17 +366,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (804,0);
-}
-);
 layerId = m015;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {
@@ -482,17 +392,11 @@ com.hugojourdan.ColorFlow = {
 width = 804;
 },
 {
-anchors = (
-{
-name = cnct;
-pos = (723,0);
-}
-);
 layerId = m016;
 shapes = (
 {
 alignment = -1;
-ref = w.mod;
+ref = w;
 }
 );
 userData = {

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="o.mod.med" format="2">
   <advance width="601"/>
-  <anchor x="521" y="0" name="cnct"/>
+  <anchor x="510" y="456" name="cnct"/>
   <anchor x="227" y="0" name="bottom"/>
   <anchor x="308" y="250" name="center"/>
   <anchor x="363" y="13" name="ogonek"/>
   <anchor x="364" y="500" name="top"/>
   <anchor x="448" y="506" name="topright"/>
   <outline>
-    <component base="o.mod"/>
+    <component base="o" xOffset="13"/>
   </outline>
   <lib>
     <dict>
@@ -47,7 +47,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>o.mod</string>
+          <string>o</string>
         </dict>
       </array>
     </dict>

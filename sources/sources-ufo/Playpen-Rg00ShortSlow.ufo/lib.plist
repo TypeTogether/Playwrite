@@ -853,6 +853,7 @@
       <string>cnct.mod_r_e.ful</string>
       <string>cnct.mod_r_f.ful</string>
       <string>cnct.mod_r_h.lop</string>
+      <string>cnct.mod_r_z.cnt</string>
       <string>cnct.mod_v_o</string>
       <string>cnct.mod_v_b</string>
       <string>cnct.mod_v_e</string>
@@ -865,6 +866,7 @@
       <string>cnct.mod_v_e.ful</string>
       <string>cnct.mod_v_f.ful</string>
       <string>cnct.mod_v_h.lop</string>
+      <string>cnct.mod_v_n.cnt</string>
       <string>b.jmc</string>
       <string>b.jmc.ini</string>
       <string>b.jmc.med</string>
@@ -1015,6 +1017,7 @@
       <string>cnct.ful_b_z</string>
       <string>cnct.ful_b_e.mod</string>
       <string>cnct.ful_b_s.mod</string>
+      <string>cnct.ful_b_x.mod</string>
       <string>cnct.ful_b_z.mod</string>
       <string>cnct.ful_c_e</string>
       <string>cnct.ful_c_f</string>
@@ -1176,10 +1179,14 @@
       <string>cnct.cnt_r_s</string>
       <string>cnct.cnt_r_x</string>
       <string>cnct.cnt_r_z</string>
+      <string>cnct.cnt_r_b.mod</string>
       <string>cnct.cnt_r_e.mod</string>
       <string>cnct.cnt_r_n.mod</string>
       <string>cnct.cnt_r_s.mod</string>
+      <string>cnct.cnt_r_v.mod</string>
+      <string>cnct.cnt_r_x.mod</string>
       <string>cnct.cnt_r_z.mod</string>
+      <string>cnct.cnt_r_r.ful</string>
       <string>cnct.cnt_z_n</string>
       <string>cnct.cnt_z_z</string>
       <string>f.mrr</string>

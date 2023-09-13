@@ -11,7 +11,22 @@ pos = (699,0);
 layerId = m01;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(410,-12,l),
+(486,9,o),
+(556,-17,o),
+(639,-17,cs),
+(664,-17,o),
+(664,18,o),
+(639,18,cs),
+(589,18,o),
+(524,33,o),
+(431,9,c)
+);
 }
 );
 width = 700;
@@ -26,7 +41,22 @@ pos = (619,0);
 layerId = m016;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(383,-15,l),
+(436,-4,o),
+(479,-17,o),
+(530,-17,cs),
+(563,-17,o),
+(576,58,o),
+(551,58,cs),
+(529,58,o),
+(464,39,o),
+(395,8,c)
+);
 }
 );
 width = 700;
@@ -41,7 +71,22 @@ pos = (619,0);
 layerId = m012;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(351,-15,l),
+(423,-4,o),
+(465,-17,o),
+(515,-17,cs),
+(548,-17,o),
+(551,18,o),
+(526,18,cs),
+(501,18,o),
+(434,18,o),
+(376,5,c)
+);
 }
 );
 width = 700;
@@ -56,7 +101,22 @@ pos = (619,0);
 layerId = m002;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(355,-12,l),
+(454,0,o),
+(520,-17,o),
+(565,-17,cs),
+(598,-17,o),
+(601,18,o),
+(576,18,cs),
+(534,18,o),
+(488,26,o),
+(380,5,c)
+);
 }
 );
 width = 700;
@@ -71,7 +131,22 @@ pos = (619,0);
 layerId = m006;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(405,-12,l),
+(473,0,o),
+(523,-17,o),
+(565,-17,cs),
+(598,-17,o),
+(615,58,o),
+(590,58,cs),
+(555,58,o),
+(489,41,o),
+(444,20,c)
+);
 }
 );
 width = 700;
@@ -86,7 +161,22 @@ pos = (699,0);
 layerId = m009;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(410,-12,l),
+(486,9,o),
+(556,-17,o),
+(639,-17,cs),
+(664,-17,o),
+(664,18,o),
+(639,18,cs),
+(589,18,o),
+(524,33,o),
+(431,9,c)
+);
 }
 );
 width = 700;
@@ -95,13 +185,28 @@ width = 700;
 anchors = (
 {
 name = cnct;
-pos = (699,0);
+pos = (700,0);
 }
 );
 layerId = m005;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(435,-12,l),
+(505,8,o),
+(570,-17,o),
+(626,-17,cs),
+(651,-17,o),
+(670,58,o),
+(645,58,cs),
+(599,58,o),
+(550,51,o),
+(456,16,c)
+);
 }
 );
 width = 700;
@@ -110,13 +215,28 @@ width = 700;
 anchors = (
 {
 name = cnct;
-pos = (699,0);
+pos = (700,0);
 }
 );
 layerId = m011;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(408,-16,l),
+(486,-2,o),
+(546,-17,o),
+(595,-17,cs),
+(620,-17,o),
+(620,18,o),
+(595,18,cs),
+(564,18,o),
+(511,18,o),
+(433,1,c)
+);
 }
 );
 width = 700;
@@ -125,13 +245,28 @@ width = 700;
 anchors = (
 {
 name = cnct;
-pos = (699,0);
+pos = (700,0);
 }
 );
 layerId = m015;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(426,-16,l),
+(499,-2,o),
+(543,-17,o),
+(594,-17,cs),
+(619,-17,o),
+(638,58,o),
+(613,58,cs),
+(575,58,o),
+(511,46,o),
+(454,30,c)
+);
 }
 );
 width = 700;
@@ -146,7 +281,22 @@ pos = (619,0);
 layerId = m008;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(383,-15,l),
+(436,-4,o),
+(479,-17,o),
+(530,-17,cs),
+(563,-17,o),
+(576,58,o),
+(551,58,cs),
+(529,58,o),
+(464,39,o),
+(395,8,c)
+);
 }
 );
 width = 700;
@@ -161,7 +311,22 @@ pos = (619,0);
 layerId = m010;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(355,-12,l),
+(454,0,o),
+(520,-17,o),
+(565,-17,cs),
+(598,-17,o),
+(601,18,o),
+(576,18,cs),
+(534,18,o),
+(488,26,o),
+(380,5,c)
+);
 }
 );
 width = 700;
@@ -176,7 +341,22 @@ pos = (619,0);
 layerId = m004;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(351,-15,l),
+(423,-4,o),
+(465,-17,o),
+(515,-17,cs),
+(548,-17,o),
+(551,18,o),
+(526,18,cs),
+(501,18,o),
+(434,18,o),
+(376,5,c)
+);
 }
 );
 width = 700;
@@ -191,7 +371,22 @@ pos = (619,0);
 layerId = m014;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(405,-12,l),
+(471,0,o),
+(523,-17,o),
+(565,-17,cs),
+(598,-17,o),
+(615,58,o),
+(590,58,cs),
+(555,58,o),
+(489,41,o),
+(444,20,c)
+);
 }
 );
 width = 700;
@@ -200,13 +395,28 @@ width = 700;
 anchors = (
 {
 name = cnct;
-pos = (699,0);
+pos = (700,0);
 }
 );
 layerId = m007;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(426,-16,l),
+(499,-2,o),
+(543,-17,o),
+(594,-17,cs),
+(619,-17,o),
+(638,58,o),
+(613,58,cs),
+(575,58,o),
+(511,46,o),
+(454,30,c)
+);
 }
 );
 width = 700;
@@ -215,13 +425,28 @@ width = 700;
 anchors = (
 {
 name = cnct;
-pos = (699,0);
+pos = (700,0);
 }
 );
 layerId = m003;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(408,-16,l),
+(486,-2,o),
+(546,-17,o),
+(595,-17,cs),
+(620,-17,o),
+(620,18,o),
+(595,18,cs),
+(564,18,o),
+(510,18,o),
+(433,1,c)
+);
 }
 );
 width = 700;
@@ -230,13 +455,28 @@ width = 700;
 anchors = (
 {
 name = cnct;
-pos = (699,0);
+pos = (700,0);
 }
 );
 layerId = m013;
 shapes = (
 {
-ref = germandbls.jmc.ini;
+ref = germandbls;
+},
+{
+closed = 1;
+nodes = (
+(435,-12,l),
+(505,8,o),
+(570,-17,o),
+(626,-17,cs),
+(651,-17,o),
+(670,58,o),
+(645,58,cs),
+(599,58,o),
+(550,51,o),
+(456,16,c)
+);
 }
 );
 width = 700;

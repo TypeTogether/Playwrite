@@ -3,6 +3,24 @@
   <advance width="700"/>
   <anchor x="619" y="0" name="cnct"/>
   <outline>
-    <component base="germandbls.jmc.ini"/>
+    <contour>
+      <point x="376" y="5" type="curve"/>
+      <point x="351" y="-15" type="line"/>
+      <point x="423" y="-4"/>
+      <point x="465" y="-17"/>
+      <point x="515" y="-17" type="curve" smooth="yes"/>
+      <point x="548" y="-17"/>
+      <point x="551" y="18"/>
+      <point x="526" y="18" type="curve" smooth="yes"/>
+      <point x="501" y="18"/>
+      <point x="434" y="18"/>
+    </contour>
+    <component base="germandbls"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
 </glyph>

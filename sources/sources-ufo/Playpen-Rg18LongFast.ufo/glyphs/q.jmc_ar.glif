@@ -2,8 +2,8 @@
 <glyph name="q.jmc_ar" format="2">
   <advance width="660"/>
   <outline>
-    <component base="q.mod"/>
-    <component base="strokeshortcomb" xOffset="215" yOffset="-779"/>
+    <component base="q" xOffset="13"/>
+    <component base="strokeshortcomb" xOffset="303" yOffset="-529"/>
   </outline>
   <lib>
     <dict>
@@ -42,7 +42,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>q.mod</string>
+          <string>q</string>
         </dict>
         <dict>
           <key>alignment</key>

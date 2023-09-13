@@ -2,7 +2,7 @@
 <glyph name="f.mod.fin" format="2">
   <advance width="366"/>
   <outline>
-    <component base="f.mod"/>
+    <component base="f"/>
   </outline>
   <lib>
     <dict>
@@ -41,7 +41,7 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>f.mod</string>
+          <string>f</string>
         </dict>
       </array>
     </dict>
