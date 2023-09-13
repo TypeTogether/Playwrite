@@ -1,4 +1,4 @@
-# 230906_1312
+# 230913_1924
 
 # --------------
 # CLASSES
@@ -43,21 +43,31 @@
 # SOURCE CLASSES (INI and MED)
 @bful_SRC = [b.ful.ini b.ful.med v.ful.ini v.ful.med w.ful.ini w.ful.med b.lop.ini b.lop.med v.cnt.ini v.cnt.med v.cnt.med_n_ w.cnt.ini w.cnt.med w.cnt.med_n_];
 @bmlp_SRC = [b.mlp.ini b.mlp.med v.mlp.ini v.mlp.med w.mlp.ini w.mlp.med v.mlp.med_n_ w.mlp.med_n_];
+
 @cmod_SRC = [c.mod.ini c.mod.med f.ful_de.ini f.ful_de.med f.ful_pe.ini f.ful_pe.med f.ful_pl.ini f.ful_pl.med];
+
 @emod_SRC = [e.mod.ini e.mod.med e.mod.med_b_ e.mod.med_n_ e.jmc.med_g_ ae.mod.ini ae.mod.med oe.mod.ini oe.mod.med];
 @eful_SRC = [e.ful.ini e.ful.med e.ful.med_g_ e.ful.med_o_ ae.ful.ini ae.ful.med oe.ful.ini oe.ful.med];
+
 @fful_SRC = [f.ful.ini f.ful.med];
 @fjmc_SRC = [f.jmc.ini f.jmc.med f.jmc.med_o_];
 @fmlp_SRC = [f.mlp.ini f.mlp.med];
 @fmrr_SRC = [f.mrr.ini f.mrr.med];
+
 @gjmc_SRC = [g.jmc.ini g.jmc.med j.jmc.ini j.jmc.med y.jmc.ini y.jmc.med y.cnt.ini y.cnt.med y.cnt.med_n_ jdotless.jmc.ini jdotless.jmc.med ij.jmc.ini ij.jmc.med];
+
 @nmod_SRC = [A.cur.ini A.cur_locl.ini A.dec_locl.ini H.cur.ini K.cur.ini K.dec.ini L.cur.ini L.dec.ini M.cur.ini M.dec.ini N.cur.ini Q.cur.ini Q.dec.ini Q.dec_pt.ini R.cur.ini R.dec.ini U.cur.ini X.cur.ini a.mod.ini a.mod.med b.jmc.ini b.jmc.med b.jmc_dk.ini b.jmc_dk.med d.lop_cu.ini d.lop_cu.med d.mod.ini d.mod.med germandbls.jmc.ini germandbls.jmc.med h.lop.ini h.lop.med h.mod.ini h.mod.med i.mod.ini i.mod.med idotless.mod.ini idotless.mod.med jdotless.mod.ini jdotless.mod.med k.ful.ini k.ful.med k.lop.ini k.lop.med k.lop_pe.ini k.lop_pe.med k.mod.ini k.mod.med l.lop.ini l.lop.med l.mod.ini l.mod.med m.cnt.ini m.cnt.med m.cnt.med_n_ m.mod.ini m.mod.med n.cnt.ini n.cnt.med n.cnt.med_n_ n.mod.ini n.mod.med p.ful.ini p.ful.med p.jmc.ini p.jmc.med p.mrr.ini p.mrr.med p.mrr_ca.ini p.mrr_ca.med q.jmc.ini q.jmc.med q.jmc_ar.ini q.jmc_ar.med q.mrr.ini q.mrr.med r.ful.ini r.ful.med r.mlp.ini r.mlp.med s.ful.ini s.ful.med s.jmc.ini s.jmc.med s.mlp.ini s.mlp.med t.mod.ini t.mod.med t.mod.med_o_ t.mod_be.ini t.mod_be.med thorn.jmc.ini thorn.jmc.med u.mod.ini u.mod.med x.cnt.ini x.cnt.med x.cnt_de.ini x.cnt_de.med x.ful.ini x.ful.med x.mod.ini x.mod.med z.mod.ini z.mod.med];
+
 @omod_SRC = [o.mod.ini o.mod.med];
 @omlp_SRC = [o.mlp.ini o.mlp.med];
+
 @rmod_SRC = [r.mod.ini r.mod.med];
 @rcnt_SRC = [r.cnt.ini r.cnt.med r.cnt.med_n_];
+
 @tlop_de_SRC = [t.lop_de.ini t.lop_de.med];
+
 @vmod_SRC = [v.mod.ini v.mod.med w.mod.ini w.mod.med];
+
 @zful_SRC = [z.ful.ini z.ful.med z.mlp.ini z.mlp.med z.cnt.ini z.cnt.med];
 #
 @needsEntry_SRC = [b.mod.ini b.mod.med f.mod.ini f.mod.med f.mod_au.ini f.mod_au.med g.mod.ini g.mod.med j.mod.ini j.mod.med p.mod.ini p.mod.med q.mod.ini q.mod.med q.mod_au.ini q.mod_au.med s.mod.ini s.mod.med y.mod.ini y.mod.med z.cnt_au.ini z.cnt_au.med z.cnt_no.ini z.cnt_no.med eth.mod.ini eth.mod.med];
@@ -66,17 +76,19 @@
 
 # TARGET CLASSES (MED and FIN)
 @bmod_TGT = [b.ful.fin b.ful.med b.jmc.fin b.jmc.med b.mod.fin b.mod.med h.mod.fin h.mod.med k.ful.fin k.ful.med k.mod.fin k.mod.med l.mod.fin l.mod.med germandbls.jmc.fin germandbls.jmc.med];
+
 @emod_TGT = [e.mod.fin e.mod.fin_b_ e.mod.fin_n_ e.mod.med e.mod.med_b_ e.mod.med_n_ e.jmc.fin_g_ e.jmc.med_g_];
 @eful_TGT = [e.ful.fin e.ful.fin_g_ e.ful.fin_o_ e.ful.med e.ful.med_g_ e.ful.med_o_];
+
 @fful_TGT = [b.lop.fin b.lop.med b.mlp.fin b.mlp.med f.ful.fin f.ful.med f.ful_de.fin f.ful_de.med f.ful_pe.fin f.ful_pe.med f.ful_pl.fin f.ful_pl.med f.mlp.fin f.mlp.med f.mrr.fin f.mrr.med k.lop_pe.fin k.lop_pe.med l.lop.fin l.lop.med];
-# @fmrr_TGT = [b.lop.fin b.lop.med f.ful.fin f.ful.med f.mrr.fin f.mrr.med l.lop.fin l.lop.med];
 @fjmc_TGT = [f.jmc.fin f.jmc.fin_o_ f.jmc.med f.jmc.med_o_];
+
 @hlop_TGT = [h.lop.fin h.lop.med k.lop.fin k.lop.med b.jmc_dk.med b.jmc_dk.fin];
+
 @imrr_TGT = [i.mod.fin i.mod.med idotless.mod.fin idotless.mod.med ij.jmc.fin ij.jmc.med ij.mod.fin ij.mod.med j.jmc.fin j.jmc.med j.mod.fin j.mod.med jdotless.jmc.fin jdotless.jmc.med jdotless.mod.fin jdotless.mod.med m.mod.fin m.mod.med n.mod.fin n.mod.med p.ful.fin p.ful.med p.jmc.fin p.jmc.med p.mod.fin p.mod.med p.mrr.fin p.mrr.med thorn.jmc.fin thorn.jmc.med u.mod.fin u.mod.med v.ful.fin v.ful.med w.ful.fin w.ful.med y.jmc.fin y.jmc.med y.mod.fin y.mod.med];
 
 @nmod_TGT_CUR = [i.mod j.jmc p.ful u.mod idotless.mod jdotless.mod jdotless.jmc];
 @nmod_TGT = [@nmod_TGT_CUR i.mod.fin i.mod.med j.jmc.fin j.jmc.med j.mod.fin j.mod.med m.mod.fin m.mod.med n.mod.fin n.mod.med p.ful.fin p.ful.med p.jmc.fin p.jmc.med p.mod.fin p.mod.med p.mrr.fin p.mrr.med r.mod.fin r.mod.med u.mod.fin u.mod.med v.ful.fin v.ful.med w.ful.fin w.ful.med y.jmc.fin y.jmc.med y.mod.fin y.mod.med p.mrr_ca.fin p.mrr_ca.med idotless.mod.fin idotless.mod.med jdotless.mod.fin jdotless.mod.med jdotless.jmc.fin jdotless.jmc.med ij.mod.fin ij.mod.med thorn.jmc.fin thorn.jmc.med  ij.jmc.fin ij.jmc.med];
-
 @ncnt_TGT_CUR = [m.cnt n.cnt v.cnt w.cnt y.cnt];
 @ncnt_TGT = [@ncnt_TGT_CUR m.cnt.fin m.cnt.fin_n_ m.cnt.med m.cnt.med_n_ n.cnt.fin n.cnt.fin_n_ n.cnt.med n.cnt.med_n_ r.cnt.fin r.cnt.fin_n_ r.cnt.med r.cnt.med_n_ v.cnt.fin v.cnt.fin_n_ v.cnt.med v.cnt.med_n_ w.cnt.fin w.cnt.fin_n_ w.cnt.med w.cnt.med_n_ y.cnt.fin y.cnt.fin_n_ y.cnt.med y.cnt.med_n_ v.mlp.med v.mlp.fin w.mlp.med w.mlp.fin v.mlp.med_n_ v.mlp.fin_n_ w.mlp.med_n_ w.mlp.fin_n_];
 
@@ -86,24 +98,24 @@
 @omlp_TGT = [o.mlp.fin o.mlp.med];
 
 @rful_TGT = [r.ful.fin r.ful.med r.mlp.fin r.mlp.med z.mlp.fin z.mlp.med];
+
 @smod_TGT = [s.jmc.fin s.jmc.med s.mod.fin s.mod.med];
 @sful_TGT = [s.ful.fin s.ful.med s.mlp.fin s.mlp.med];
 
 @tmod_TGT_CUR = [t.mod t.mod_be];
 @tmod_TGT = [@tmod_TGT_CUR f.mod.fin f.mod.fin_o_ f.mod.med f.mod.med_o_ f.mod_au.fin f.mod_au.fin_o_ f.mod_au.med f.mod_au.med_o_ t.mod.fin t.mod.fin_o_ t.mod.med t.mod.med_o_ t.mod_be.fin t.mod_be.med];
-@vmod_TGT = [v.mod.fin v.mod.med w.mod.fin w.mod.med];
-@xmod_TGT = [x.mod.fin x.mod.med];
+@tlop_de_TGT = [t.lop_de.fin t.lop_de.med];
 
+@vmod_TGT = [v.mod.fin v.mod.med w.mod.fin w.mod.med];
+
+@xmod_TGT = [x.mod.fin x.mod.med];
 @xful_TGT_CUR = [x.ful];
 @xful_TGT = [@xful_TGT_CUR x.cnt.fin x.cnt.med x.ful.fin x.ful.med x.cnt_de.fin x.cnt_de.med];
-@zmod_TGT = [z.mod.fin z.mod.med];
 
-# NOTE: is next class really needed (they should be switched for .ini ...)
+@zmod_TGT = [z.mod.fin z.mod.med];
 @zcnt_TGT_CUR = [z.cnt z.cnt_au z.cnt_no];
 @zcnt_TGT = [@zcnt_TGT_CUR z.cnt.fin z.cnt.med z.cnt_au.fin z.cnt_au.med z.cnt_no.med z.cnt_no.fin];
 @zful_TGT = [z.ful.fin z.ful.med];
-#
-@tlop_de_TGT = [t.lop_de.fin t.lop_de.med];
 
 # --------------
 # LOOKUPS
@@ -129,9 +141,9 @@ lookup before_b {
 	sub @fful_SRC by @fful_SRC cnct.jmc_f_b;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_b;
 	#
-	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_b.mod;
-	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_b;
+	#
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_b.mod;
 } before_b;
 
 
@@ -150,16 +162,19 @@ lookup before_e {
 	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_e;
 	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_e;
 	#
-	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_e;
-	# TODO: Sort in the lookup
 	sub @bful_SRC by @bful_SRC cnct.ful_b_e.mod;
-	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_e.mod;
 	sub @fful_SRC by @fful_SRC cnct.ful_f_e.mod;
-	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_e.mod;
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_e.mod;
-	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_e.mod;
-	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_e.mod;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_e.mod;
+	#
+	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_e;
+	#
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_e.mod;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_e.mod;
+	#
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_e.mod;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_e.mod;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_e.mod;
 	} before_e;
 
 
@@ -171,6 +186,8 @@ lookup before_eful {
 	sub @cmod_SRC by @cmod_SRC cnct.ful_c_e;
 	sub @nmod_SRC by @nmod_SRC cnct.ful_n_e;
 	sub @omod_SRC by @omod_SRC cnct.ful_o_e;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_e.ful;
+	sub @vmod_SRC by @vmod_SRC cnct.mod_v_e.ful;
 	#
 	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_e;
 	#
@@ -179,22 +196,18 @@ lookup before_eful {
 	sub @fful_SRC by @fful_SRC cnct.ful_f_e;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_e;
 	#
-	#
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_e;
+	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_e.mod;
 	#
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_e;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_e;
 	#
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_e;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_e;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_e;
 	#
-	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_e.mod;
 	sub @needsEntry_SRC by @needsEntry_SRC entr_eful;
 	#
-	# [BUG] Repeated!
-	# sub @rmod_SRC by @rmod_SRC cnct.ful_n_e;
-	sub @rmod_SRC by @rmod_SRC cnct.mod_r_e.ful;
-	sub @vmod_SRC by @vmod_SRC cnct.mod_v_e.ful;
 } before_eful;
 
 lookup before_fjmc {
@@ -227,61 +240,71 @@ lookup before_fful {
 	sub @emod_SRC by @emod_SRC cnct.mod_e_f.ful;
 	sub @nmod_SRC by @nmod_SRC cnct.ful_n_f;
 	sub @omod_SRC by @omod_SRC cnct.ful_o_f;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_f.ful;
+	sub @vmod_SRC by @vmod_SRC cnct.mod_v_f.ful;
 	#
 	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_f;
 	#
 	sub @bful_SRC by @bful_SRC cnct.ful_b_f;
 	sub @eful_SRC by @eful_SRC cnct.ful_e_f;
 	sub @fful_SRC by @fful_SRC cnct.ful_f_f;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_f;
+	#
+	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_f;
+	#
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_f;
 	#
 	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_f;
 	#
-	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_f;
-	sub @zful_SRC by @zful_SRC cnct.ful_z_f;
 	#
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_f;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_f;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_f;
 	#
-	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_f;
 	sub @needsEntry_SRC by @needsEntry_SRC entr_fful;
 	#
-	sub @rmod_SRC by @rmod_SRC cnct.mod_r_f.ful;
-	sub @vmod_SRC by @vmod_SRC cnct.mod_v_f.ful;
 } before_fful;
 
 
 lookup before_h {
 	sub @Gcur_SRC by @Gcur_SRC cnct.lop_G_h;
 	sub @Tcur_SRC by @Tcur_SRC cnct.lop_c_h;
-	# sub @Xdec_SRC by @Xdec_SRC cnct.lop_e_h;
 	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_h.lop;
 	#
-	sub @bful_SRC by @bful_SRC cnct.lop_b_h;
-	sub @nmod_SRC by @nmod_SRC cnct.lop_n_h;
 	sub @cmod_SRC by @cmod_SRC cnct.lop_c_h;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_h.lop;
+	sub @nmod_SRC by @nmod_SRC cnct.lop_n_h;
+	sub @omod_SRC by @omod_SRC cnct.lop_o_h;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_h.lop;
+	sub @vmod_SRC by @vmod_SRC cnct.mod_v_h.lop;
+	#
+	sub @gjmc_SRC by @gjmc_SRC cnct.lop_g_h;
+	#
+	sub @bful_SRC by @bful_SRC cnct.lop_b_h;
 	sub @eful_SRC by @eful_SRC cnct.lop_e_h;
 	sub @fful_SRC by @fful_SRC cnct.lop_f_h;
-	sub @gjmc_SRC by @gjmc_SRC cnct.lop_g_h;
-	sub @omod_SRC by @omod_SRC cnct.lop_o_h;
 	sub @zful_SRC by @zful_SRC cnct.lop_z_h;
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_h;
+	#
+	sub @tlop_de_SRC by @tlop_de_SRC cnct.lop_t.lop_de_h;
+	#
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_h;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_h;
+	#
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_h;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_h;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_h;
-	sub @tlop_de_SRC by @tlop_de_SRC cnct.lop_t.lop_de_h;
+	#
 	sub @needsEntry_SRC by @needsEntry_SRC entr_hlop;
 	#
-	sub @rmod_SRC by @rmod_SRC cnct.mod_r_h.lop;
-	sub @vmod_SRC by @vmod_SRC cnct.mod_v_h.lop;
-	sub @emod_SRC by @emod_SRC cnct.mod_e_h.lop;
 } before_h;
 
 
 lookup before_imrr {
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_i;
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_i;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_i;
+	#
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_i;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_i;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_i;
@@ -308,11 +331,13 @@ lookup before_n {
 	sub @fful_SRC by @fful_SRC cnct.jmc_f_n;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_n;
 	#
-	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_i;
-	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_n;
+	#
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_n.mod;
+	#
 	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_n.mod;
+	#
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_i;
 } before_n;
 
 
@@ -321,24 +346,30 @@ lookup before_ncnt {
 	sub @Tcur_SRC by @Tcur_SRC cnct.cnt_c_n;
 	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_n.cnt;
 	#
-	sub @emod_SRC	by @emod_SRC cnct.mod_e_n.cnt;
-	sub @bful_SRC by @bful_SRC cnct.cnt_b_n;
-	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_n;
+	sub @emod_SRC by @emod_SRC cnct.mod_e_n.cnt;
 	sub @cmod_SRC by @cmod_SRC cnct.cnt_c_n;
-	sub @eful_SRC by @eful_SRC cnct.cnt_e_n;
-	sub @fful_SRC by @fful_SRC cnct.cnt_f_n;
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_n;
-	sub @gjmc_SRC by @gjmc_SRC cnct.cnt_g_n;
 	sub @nmod_SRC by @nmod_SRC cnct.cnt_n_n;
 	sub @omod_SRC by @omod_SRC cnct.cnt_o_n;
-	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_n;
-	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_n;
 	sub @rmod_SRC by @rmod_SRC cnct.cnt_r_n;
-	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_n;
 	sub @vmod_SRC by @vmod_SRC cnct.mod_v_n.cnt;
+	#
+	sub @gjmc_SRC by @gjmc_SRC cnct.cnt_g_n;
+	#
+	sub @bful_SRC by @bful_SRC cnct.cnt_b_n;
+	sub @eful_SRC by @eful_SRC cnct.cnt_e_n;
+	sub @fful_SRC by @fful_SRC cnct.cnt_f_n;
 	sub @zful_SRC by @zful_SRC cnct.cnt_z_n;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.cnt_t.lop_de_n;
+	#
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_n;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_n;
+	#
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_n;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_n;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_n;
+	#
 	sub @needsEntry_SRC by @needsEntry_SRC entr_ncnt;
 } before_ncnt;
 
@@ -365,13 +396,13 @@ lookup before_o {
 	#
 	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_o;
 	#
+	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_o;
+	#
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_o;
 	#
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_o;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_o;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_o;
-	#
-	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_o;
 } before_o;
 
 
@@ -421,21 +452,20 @@ lookup before_s {
 	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_s;
 	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_s;
 	#
-	# sub @bful_SRC by @bful_SRC cnct.ful_b_s;
-	# sub @fful_SRC by @fful_SRC cnct.ful_f_s;
-	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_s;
 	#
 	sub @bful_SRC by @bful_SRC cnct.ful_b_s.mod;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_s.mod;
 	sub @fful_SRC by @fful_SRC cnct.ful_f_s.mod;
+	sub @zful_SRC by @zful_SRC cnct.ful_z_s.mod;
+	#
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_s.mod;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_s.mod;
 	#
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_s.mod;
-	sub @eful_SRC by @eful_SRC cnct.ful_e_s.mod;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_s.mod;
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_s.mod;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_s.mod;
-	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_s.mod;
-	sub @zful_SRC by @zful_SRC cnct.ful_z_s.mod;
 	} before_s;
 
 
@@ -446,22 +476,27 @@ lookup before_sful {
 	#
 	sub @cmod_SRC by @cmod_SRC cnct.ful_c_s;
 	sub @emod_SRC by @emod_SRC cnct.mod_e_s.ful;
+	sub @nmod_SRC by @nmod_SRC cnct.ful_n_s;
+	sub @omod_SRC by @omod_SRC cnct.ful_o_s;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_s;
+	#
+	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_s;
+	#
 	sub @bful_SRC by @bful_SRC cnct.ful_b_s;
 	sub @eful_SRC by @eful_SRC cnct.ful_e_s;
 	sub @fful_SRC by @fful_SRC cnct.ful_f_s;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_s;
-	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_s;
-	sub @nmod_SRC by @nmod_SRC cnct.ful_n_s;
-	sub @omod_SRC by @omod_SRC cnct.ful_o_s;
-	sub @rmod_SRC by @rmod_SRC cnct.mod_r_s;
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_s;
+	#
+	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_s;
+	#
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_s;
-	# sub @zful_SRC by @zful_SRC cnct.cnt_z_s;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_s;
+	#
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_s;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_s;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_s;
 	#
-	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_s;
 	sub @needsEntry_SRC by @needsEntry_SRC entr_sful;
 } before_sful;
 
@@ -486,9 +521,9 @@ lookup before_t {
 	sub @fful_SRC by @fful_SRC cnct.jmc_f_t;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_t;
 	#
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_t;
-	#
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_t;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_t;
 	#
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_t;
 	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_t;
@@ -590,17 +625,18 @@ lookup before_z {
 	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_z;
 	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_z;
 	#
-	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_z;
-	#
 	sub @bful_SRC by @bful_SRC cnct.ful_b_z.mod;
 	sub @eful_SRC by @eful_SRC cnct.ful_e_z.mod;
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_z.mod;
+	sub @fful_SRC by @fful_SRC cnct.ful_f_z.mod;
+	#
+	sub @tlop_de_SRC by @tlop_de_SRC cnct.mod_t.lop_de_z;
 	#
 	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_z.mod;
 	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_z.mod;
+	#
 	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_z.mod;
 	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_z.mod;
-	sub @fful_SRC by @fful_SRC cnct.ful_f_z.mod;
 } before_z;
 
 
@@ -610,13 +646,15 @@ lookup before_zful {
 	sub @Xdec_SRC by @Xdec_SRC cnct.ful_X_z;
 	#
 	sub @cmod_SRC by @cmod_SRC cnct.ful_c_z;
+	sub @nmod_SRC by @nmod_SRC cnct.ful_n_z;
+	sub @omod_SRC by @omod_SRC cnct.ful_o_z;
+	#
+	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_z;
+	#
 	sub @bful_SRC by @bful_SRC cnct.ful_b_z;
 	sub @eful_SRC by @eful_SRC cnct.ful_e_z;
 	sub @fful_SRC by @fful_SRC cnct.ful_f_z;
-	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_z;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_z;
-	sub @nmod_SRC by @nmod_SRC cnct.ful_n_z;
-	sub @omod_SRC by @omod_SRC cnct.ful_o_z;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_z;
 } before_zful;
@@ -628,22 +666,28 @@ lookup before_zcnt {
 	sub @Xdec_SRC by @Xdec_SRC cnct.mod_e_z.cnt;
 	#
 	sub @emod_SRC by @emod_SRC cnct.mod_e_z.cnt;
-	sub @bful_SRC by @bful_SRC cnct.cnt_b_z;
 	sub @cmod_SRC by @cmod_SRC cnct.cnt_c_z;
-	sub @eful_SRC by @eful_SRC cnct.cnt_e_z;
-	sub @fful_SRC by @fful_SRC cnct.cnt_f_z;
-	sub @gjmc_SRC by @gjmc_SRC cnct.cnt_g_z;
 	sub @nmod_SRC by @nmod_SRC cnct.cnt_n_z;
 	sub @omod_SRC by @omod_SRC cnct.cnt_o_z;
 	sub @rmod_SRC by @rmod_SRC cnct.mod_r_z.cnt;
+	#
+	sub @gjmc_SRC by @gjmc_SRC cnct.cnt_g_z;
+	#
+	sub @bful_SRC by @bful_SRC cnct.cnt_b_z;
+	sub @eful_SRC by @eful_SRC cnct.cnt_e_z;
+	sub @fful_SRC by @fful_SRC cnct.cnt_f_z;
 	sub @zful_SRC by @zful_SRC cnct.cnt_z_z;
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_z;
-	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_z;
-	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_z.cnt;
-	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_z.cnt;
-	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_z.cnt;
 	#
 	sub @tlop_de_SRC by @tlop_de_SRC cnct.cnt_t.lop_de_z;
+	#
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_z;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_z;
+	#
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_z.cnt;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_z.cnt;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_z.cnt;
+	#
 	sub @needsEntry_SRC by @needsEntry_SRC entr_zcnt;
 } before_zcnt;
 
@@ -651,24 +695,31 @@ lookup before_zcnt {
 lookup before_tlop_de {
 	sub @Gcur_SRC by @Gcur_SRC cnct.lop_G_t.lop_de;
 	sub @Tcur_SRC by @Tcur_SRC cnct.mod_c_t.lop_de;
-	sub @bful_SRC by @bful_SRC cnct.ful_b_t.lop_de;
-	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_t.lop_de;
+	#
 	sub @cmod_SRC by @cmod_SRC cnct.mod_c_t.lop_de;
-	sub @eful_SRC by @eful_SRC cnct.ful_e_t.lop_de;
 	sub @emod_SRC by @emod_SRC cnct.mod_e_t.lop_de;
-	sub @fful_SRC by @fful_SRC cnct.ful_f_t.lop_de;
-	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_t.lop_de;
-	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_t.lop_de;
-	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_t.lop_de;
-	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_t.lop_de;
 	sub @nmod_SRC by @nmod_SRC cnct.mod_n_t.lop_de;
-	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_t.lop_de;
 	sub @omod_SRC by @omod_SRC cnct.mod_o_t.lop_de;
-	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_t.lop_de;
 	sub @rmod_SRC by @rmod_SRC cnct.mod_r_t.lop_de;
-	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_t.lop_de;
 	sub @vmod_SRC by @vmod_SRC cnct.mod_v_t.lop_de;
+	#
+	sub @fjmc_SRC by @fjmc_SRC cnct.jmc_f_t.lop_de;
+	sub @gjmc_SRC by @gjmc_SRC cnct.jmc_g_t.lop_de;
+	#
+	sub @bful_SRC by @bful_SRC cnct.ful_b_t.lop_de;
+	sub @eful_SRC by @eful_SRC cnct.ful_e_t.lop_de;
+	sub @fful_SRC by @fful_SRC cnct.ful_f_t.lop_de;
 	sub @zful_SRC by @zful_SRC cnct.ful_z_t.lop_de;
+	#
+	sub @tlop_de_SRC by @tlop_de_SRC cnct.ful_t.lop_de_t.lop_de;
+	#
+	sub @rcnt_SRC by @rcnt_SRC cnct.cnt_r_t.lop_de;
+	#
+	sub @fmrr_SRC by @fmrr_SRC cnct.mrr_f_t.lop_de;
+	#
+	sub @bmlp_SRC by @bmlp_SRC cnct.mlp_b_t.lop_de;
+	sub @fmlp_SRC by @fmlp_SRC cnct.mlp_f_t.lop_de;
+	sub @omlp_SRC by @omlp_SRC cnct.mlp_o_t.lop_de;
 } before_tlop_de;
 
 
@@ -997,7 +1048,7 @@ feature ccmp {
 feature locl {
 	# script latn;
 	# language dflt;
-	include(../features/fea-models/ZAF.fea);
+	include(../features/fea-models/AUS_NSW.fea);
 	# language CAT;
 	# sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
 } locl;
@@ -1012,7 +1063,7 @@ feature ss01 {
 		name "MOD - Modern Cursive"; # Windows English
 		name 1 0 0 "MOD - Modern Cursive"; # Mac English
 	};
-	sub [@UC_ZAF @lc_ZAF] by [@UC @lcMOD];
+	sub [@UC_AUS_NSW @lc_AUS_NSW] by [@UC @lcMOD];
 	# sub @lc by @lcMOD;
 } ss01;
 
@@ -1021,7 +1072,7 @@ feature ss02 {
 		name "JMC - Joined Modern Cursive"; # Windows English
 		name 1 0 0 "JMC - Joined Modern Cursive"; # Mac English
 	};
-	sub [@UC_ZAF @lc_ZAF] by [@UC @lcJMC];
+	sub [@UC_AUS_NSW @lc_AUS_NSW] by [@UC @lcJMC];
 	# sub @lc by @lcJMC;
 } ss02;
 
@@ -1030,7 +1081,7 @@ feature ss03 {
 		name "FUL - Full Cursive"; # Windows English
 		name 1 0 0 "FUL - Full Cursive"; # Mac English
 	};
-	sub [@UC_ZAF @lc_ZAF] by [@UC @lcFUL];
+	sub [@UC_AUS_NSW @lc_AUS_NSW] by [@UC @lcFUL];
 	# sub @lc by @lcFUL;
 } ss03;
 
@@ -1040,7 +1091,7 @@ feature ss04 {
 		name "LOP - Speed Loops"; # Windows English
 		name 1 0 0 "LOP - Speed Loops"; # Mac English
 	};
-	sub [@UC_ZAF @lc_ZAF] by [@UC @lcLOP];
+	sub [@UC_AUS_NSW @lc_AUS_NSW] by [@UC @lcLOP];
 	# sub @lc by @lcLOP;
 } ss04;
 
@@ -1049,7 +1100,7 @@ feature ss05 {
 		name "CNT - Curved Entry Stroke"; # Windows English
 		name 1 0 0 "CNT - Curved Entry Stroke"; # Mac English
 	};
-	sub [@UC_ZAF @lc_ZAF] by [@UC @lcCNT];
+	sub [@UC_AUS_NSW @lc_AUS_NSW] by [@UC @lcCNT];
 	# sub @lc by @lcCNT;
 } ss05;
 
@@ -1058,7 +1109,7 @@ feature ss06 {
 		name "MRR - Mirrored Loops"; # Windows English
 		name 1 0 0 "MRR - Mirrored Loops"; # Mac English
 	};
-	sub [@UC_ZAF @lc_ZAF] by [@UC @lcMRR];
+	sub [@UC_AUS_NSW @lc_AUS_NSW] by [@UC @lcMRR];
 	# sub @lc by @lcMRR;
 } ss06;
 
@@ -1067,7 +1118,7 @@ feature ss07 {
 		name "MLP - Micro Loops"; # Windows English
 		name 1 0 0 "MLP - Micro Loops"; # Mac English
 	};
-	sub [@UC_ZAF @lc_ZAF] by [@UC @lcMLP];
+	sub [@UC_AUS_NSW @lc_AUS_NSW] by [@UC @lcMLP];
 	# sub @lc by @lcMLP;
 } ss07;
 
@@ -1138,244 +1189,147 @@ feature calt {
 
 
 	lookup SENSEI_MAGIC {
-		# UC
-		sub @Gcur_SRC' lookup before_b @bmod_TGT;
-		sub @Gcur_SRC' lookup before_e @emod_TGT;
-		sub @Gcur_SRC' lookup before_n @nmod_TGT;
-		sub @Gcur_SRC' lookup before_o @omod_TGT;
-		sub @Gcur_SRC' lookup before_s @smod_TGT;
-		sub @Gcur_SRC' lookup before_t @tmod_TGT;
-		sub @Gcur_SRC' lookup before_v @vmod_TGT;
-		sub @Gcur_SRC' lookup before_x @xmod_TGT;
-		sub @Gcur_SRC' lookup before_z @zmod_TGT;
-		sub @Gcur_SRC' lookup before_fjmc @fjmc_TGT;
-		sub @Gcur_SRC' lookup before_eful @eful_TGT;
-		sub @Gcur_SRC' lookup before_fful @fful_TGT;
-		sub @Gcur_SRC' lookup before_rful @rful_TGT;
-		sub @Gcur_SRC' lookup before_sful @sful_TGT;
-		sub @Gcur_SRC' lookup before_xful @xful_TGT;
-		sub @Gcur_SRC' lookup before_zful @zful_TGT;
-		sub @Gcur_SRC' lookup before_h @hlop_TGT;
-		sub @Gcur_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @Gcur_SRC' lookup before_zcnt @zcnt_TGT;
 		#
-		sub @Tcur_SRC' lookup before_b @bmod_TGT;
-		sub @Tcur_SRC' lookup before_e @emod_TGT;
-		sub @Tcur_SRC' lookup before_n @nmod_TGT;
-		sub @Tcur_SRC' lookup before_o @omod_TGT;
-		sub @Tcur_SRC' lookup before_s @smod_TGT;
-		sub @Tcur_SRC' lookup before_t @tmod_TGT;
-		sub @Tcur_SRC' lookup before_v @vmod_TGT;
-		sub @Tcur_SRC' lookup before_x @xmod_TGT;
-		sub @Tcur_SRC' lookup before_z @zmod_TGT;
-		sub @Tcur_SRC' lookup before_fjmc @fjmc_TGT;
-		sub @Tcur_SRC' lookup before_eful @eful_TGT;
-		sub @Tcur_SRC' lookup before_fful @fful_TGT;
-		sub @Tcur_SRC' lookup before_rful @rful_TGT;
-		sub @Tcur_SRC' lookup before_sful @sful_TGT;
-		sub @Tcur_SRC' lookup before_xful @xful_TGT;
-		sub @Tcur_SRC' lookup before_zful @zful_TGT;
-		sub @Tcur_SRC' lookup before_h @hlop_TGT;
-		sub @Tcur_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @Tcur_SRC' lookup before_zcnt @zcnt_TGT;
-		sub @Tcur_SRC' lookup before_tlop_de @tlop_de_TGT;
-		# sub @Tcur_SRC' lookup before_fmrr @Tcur_SRC;
-
-		#
-		sub @Xdec_SRC' lookup before_b @bmod_TGT;
-		sub @Xdec_SRC' lookup before_e @emod_TGT;
-		sub @Xdec_SRC' lookup before_n @nmod_TGT;
-		sub @Xdec_SRC' lookup before_o @omod_TGT;
-		sub @Xdec_SRC' lookup before_s @smod_TGT;
-		sub @Xdec_SRC' lookup before_t @tmod_TGT;
-		sub @Xdec_SRC' lookup before_v @vmod_TGT;
-		sub @Xdec_SRC' lookup before_x @xmod_TGT;
-		sub @Xdec_SRC' lookup before_z @zmod_TGT;
-		sub @Xdec_SRC' lookup before_fjmc @fjmc_TGT;
-		sub @Xdec_SRC' lookup before_eful @eful_TGT;
-		sub @Xdec_SRC' lookup before_fful @fful_TGT;
-		sub @Xdec_SRC' lookup before_rful @rful_TGT;
-		sub @Xdec_SRC' lookup before_sful @sful_TGT;
-		sub @Xdec_SRC' lookup before_xful @xful_TGT;
-		sub @Xdec_SRC' lookup before_zful @zful_TGT;
-		sub @Xdec_SRC' lookup before_h @hlop_TGT;
-		sub @Xdec_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @Xdec_SRC' lookup before_zcnt @zcnt_TGT;
-
-		# MOD
 		sub @cenorvfg_SRC' lookup before_b @bmod_TGT;
 		sub @cenorvfg_SRC' lookup before_e @emod_TGT;
+		sub @cenorvfg_SRC' lookup before_eful @eful_TGT;
+		sub @cenorvfg_SRC' lookup before_fful @fful_TGT;
+		sub @cenorvfg_SRC' lookup before_fjmc @fjmc_TGT;
 		sub @cenorvfg_SRC' lookup before_n @nmod_TGT;
 		sub @cenorvfg_SRC' lookup before_o @omod_TGT;
+		sub @cenorvfg_SRC' lookup before_rful @rful_TGT;
 		sub @cenorvfg_SRC' lookup before_s @smod_TGT;
 		sub @cenorvfg_SRC' lookup before_t @tmod_TGT;
 		sub @cenorvfg_SRC' lookup before_v @vmod_TGT;
 		sub @cenorvfg_SRC' lookup before_x @xmod_TGT;
 		sub @cenorvfg_SRC' lookup before_z @zmod_TGT;
-		# JMC
-		sub @cenorvfg_SRC' lookup before_fjmc @fjmc_TGT;
-		# FUL
-		sub @cenorvfg_SRC' lookup before_eful @eful_TGT;
-		sub @cenorvfg_SRC' lookup before_fful @fful_TGT;
-		sub @cenorvfg_SRC' lookup before_rful @rful_TGT;
 		sub @cenorvfg_SRC' lookup before_zful @zful_TGT;
+		# MOD
+		sub @cmod_SRC' lookup before_h @hlop_TGT;
+		sub @cmod_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @cmod_SRC' lookup before_sful @sful_TGT;
+		sub @cmod_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @cmod_SRC' lookup before_xful @xful_TGT;
+		sub @cmod_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @emod_SRC' lookup before_fful @fful_TGT;
+		sub @emod_SRC' lookup before_h @hlop_TGT;
+		sub @emod_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @emod_SRC' lookup before_sful @sful_TGT;
+		sub @emod_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @emod_SRC' lookup before_xful @xful_TGT;
+		sub @emod_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @nmod_SRC' lookup before_h @hlop_TGT;
+		sub @nmod_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @nmod_SRC' lookup before_sful @sful_TGT;
+		sub @nmod_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @nmod_SRC' lookup before_xful @xful_TGT;
+		sub @nmod_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @omod_SRC' lookup before_h @hlop_TGT;
+		sub @omod_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @omod_SRC' lookup before_sful @sful_TGT;
+		sub @omod_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @omod_SRC' lookup before_xful @xful_TGT;
+		sub @omod_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @rmod_SRC' lookup before_eful @eful_TGT;
+		sub @rmod_SRC' lookup before_fful @fful_TGT;
+		sub @rmod_SRC' lookup before_h @hlop_TGT;
+		sub @rmod_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @rmod_SRC' lookup before_sful @sful_TGT;
+		sub @rmod_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @rmod_SRC' lookup before_xful @xful_TGT;
+		sub @rmod_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @vmod_SRC' lookup before_eful @eful_TGT;
+		sub @vmod_SRC' lookup before_fful @fful_TGT;
+		sub @vmod_SRC' lookup before_h @hlop_TGT;
+		sub @vmod_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @vmod_SRC' lookup before_tlop_de @tlop_de_TGT;
+		# JMO
+		sub @fjmc_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @gjmc_SRC' lookup before_fful @fful_TGT;
+		sub @gjmc_SRC' lookup before_h @hlop_TGT;
+		sub @gjmc_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @gjmc_SRC' lookup before_sful @sful_TGT;
+		sub @gjmc_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @gjmc_SRC' lookup before_xful @xful_TGT;
+		sub @gjmc_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @gjmc_SRC' lookup before_zful @zful_TGT;
 		# FUL
 		sub @bful_SRC' lookup before_b @bmod_TGT;
-		sub @bful_SRC' lookup before_fful @fful_TGT;
+		sub @bful_SRC' lookup before_e @emod_TGT;
 		sub @bful_SRC' lookup before_eful @eful_TGT;
+		sub @bful_SRC' lookup before_fful @fful_TGT;
+		sub @bful_SRC' lookup before_h @hlop_TGT;
 		sub @bful_SRC' lookup before_n @nmod_TGT;
+		sub @bful_SRC' lookup before_ncnt @ncnt_TGT;
 		sub @bful_SRC' lookup before_o @omod_TGT;
 		sub @bful_SRC' lookup before_rful @rful_TGT;
 		sub @bful_SRC' lookup before_s @smod_TGT;
 		sub @bful_SRC' lookup before_sful @sful_TGT;
 		sub @bful_SRC' lookup before_t @tmod_TGT;
+		sub @bful_SRC' lookup before_tlop_de @tlop_de_TGT;
 		sub @bful_SRC' lookup before_x @xmod_TGT;
 		sub @bful_SRC' lookup before_xful @xful_TGT;
+		sub @bful_SRC' lookup before_z @zmod_TGT;
+		sub @bful_SRC' lookup before_zcnt @zcnt_TGT;
 		sub @bful_SRC' lookup before_zful @zful_TGT;
-		#
 		sub @eful_SRC' lookup before_b @bmod_TGT;
 		sub @eful_SRC' lookup before_eful @eful_TGT;
 		sub @eful_SRC' lookup before_fful @fful_TGT;
+		sub @eful_SRC' lookup before_h @hlop_TGT;
 		sub @eful_SRC' lookup before_n @nmod_TGT;
+		sub @eful_SRC' lookup before_ncnt @ncnt_TGT;
 		sub @eful_SRC' lookup before_o @omod_TGT;
 		sub @eful_SRC' lookup before_rful @rful_TGT;
+		sub @eful_SRC' lookup before_s @smod_TGT;
 		sub @eful_SRC' lookup before_sful @sful_TGT;
 		sub @eful_SRC' lookup before_t @tmod_TGT;
+		sub @eful_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @eful_SRC' lookup before_v @vmod_TGT;
+		sub @eful_SRC' lookup before_x @xmod_TGT;
 		sub @eful_SRC' lookup before_xful @xful_TGT;
+		sub @eful_SRC' lookup before_xful @xful_TGT;
+		sub @eful_SRC' lookup before_z @zmod_TGT;
+		sub @eful_SRC' lookup before_zcnt @zcnt_TGT;
 		sub @eful_SRC' lookup before_zful @zful_TGT;
-		#
 		sub @fful_SRC' lookup before_b @bmod_TGT;
-		sub @fful_SRC' lookup before_fful @fful_TGT;
+		sub @fful_SRC' lookup before_e @emod_TGT;
 		sub @fful_SRC' lookup before_eful @eful_TGT;
+		sub @fful_SRC' lookup before_fful @fful_TGT;
+		sub @fful_SRC' lookup before_h @hlop_TGT;
 		sub @fful_SRC' lookup before_n @nmod_TGT;
+		sub @fful_SRC' lookup before_ncnt @ncnt_TGT;
 		sub @fful_SRC' lookup before_o @omod_TGT;
 		sub @fful_SRC' lookup before_rful @rful_TGT;
 		sub @fful_SRC' lookup before_sful @sful_TGT;
 		sub @fful_SRC' lookup before_t @tmod_TGT;
+		sub @fful_SRC' lookup before_tlop_de @tlop_de_TGT;
 		sub @fful_SRC' lookup before_x @xful_TGT;
+		sub @fful_SRC' lookup before_z @zmod_TGT;
+		sub @fful_SRC' lookup before_zcnt @zcnt_TGT;
 		sub @fful_SRC' lookup before_zful @zful_TGT;
-		#
-		sub @gjmc_SRC' lookup before_fful @fful_TGT;
-		sub @gjmc_SRC' lookup before_sful @sful_TGT;
-		sub @gjmc_SRC' lookup before_xful @xful_TGT;
-		sub @gjmc_SRC' lookup before_zful @zful_TGT;
-
 		sub @zful_SRC' lookup before_b @bmod_TGT;
+		sub @zful_SRC' lookup before_e @emod_TGT;
 		sub @zful_SRC' lookup before_eful @eful_TGT;
 		sub @zful_SRC' lookup before_fful @fful_TGT;
+		sub @zful_SRC' lookup before_fful @fful_TGT;
 		sub @zful_SRC' lookup before_fjmc @fjmc_TGT;
+		sub @zful_SRC' lookup before_h @hlop_TGT;
 		sub @zful_SRC' lookup before_n @nmod_TGT;
+		sub @zful_SRC' lookup before_ncnt @ncnt_TGT;
 		sub @zful_SRC' lookup before_ncnt @ncnt_TGT;
 		sub @zful_SRC' lookup before_o @omod_TGT;
 		sub @zful_SRC' lookup before_rful @rful_TGT;
+		sub @zful_SRC' lookup before_s @smod_TGT;
+		sub @zful_SRC' lookup before_sful @sful_TGT;
 		sub @zful_SRC' lookup before_sful @sful_TGT;
 		sub @zful_SRC' lookup before_t @tmod_TGT;
+		sub @zful_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @zful_SRC' lookup before_x @xful_TGT;
 		sub @zful_SRC' lookup before_x @xmod_TGT;
 		sub @zful_SRC' lookup before_xful @xful_TGT;
-		sub @zful_SRC' lookup before_zful @zful_TGT;
-		#
-		sub @cmod_SRC' lookup before_sful @sful_TGT;
-		sub @nmod_SRC' lookup before_sful @sful_TGT;
-		sub @omod_SRC' lookup before_sful @sful_TGT;
-		sub @rmod_SRC' lookup before_sful @sful_TGT;
-		sub @cmod_SRC' lookup before_xful @xful_TGT;
-		sub @nmod_SRC' lookup before_xful @xful_TGT;
-		sub @omod_SRC' lookup before_xful @xful_TGT;
-		#
-		sub @bful_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @bful_SRC' lookup before_zcnt @zcnt_TGT;
-		sub @cmod_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @cmod_SRC' lookup before_zcnt @zcnt_TGT;
-		sub @eful_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @eful_SRC' lookup before_zcnt @zcnt_TGT;
-		sub @fful_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @fful_SRC' lookup before_zcnt @zcnt_TGT;
-		sub @gjmc_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @gjmc_SRC' lookup before_zcnt @zcnt_TGT;
-		sub @nmod_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @nmod_SRC' lookup before_zcnt @zcnt_TGT;
-		sub @omod_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @omod_SRC' lookup before_zcnt @zcnt_TGT;
-		sub @rmod_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @rmod_SRC' lookup before_zcnt @zcnt_TGT;
-		sub @zful_SRC' lookup before_ncnt @ncnt_TGT;
 		sub @zful_SRC' lookup before_zcnt @zcnt_TGT;
-		#
-		sub @bful_SRC' lookup before_h @hlop_TGT;
-		sub @nmod_SRC' lookup before_h @hlop_TGT;
-		sub @cmod_SRC' lookup before_h @hlop_TGT;
-		sub @eful_SRC' lookup before_h @hlop_TGT;
-		sub @fful_SRC' lookup before_h @hlop_TGT;
-		sub @gjmc_SRC' lookup before_h @hlop_TGT;
-		sub @omod_SRC' lookup before_h @hlop_TGT;
-		sub @zful_SRC' lookup before_h @hlop_TGT;
-		sub @zful_SRC' lookup before_x @xful_TGT;
-		#
-		sub @fmrr_SRC' lookup before_eful @eful_TGT;
-		sub @fmrr_SRC' lookup before_fful @fful_TGT;
-		sub @fmrr_SRC' lookup before_h @hlop_TGT;
-		sub @fmrr_SRC' lookup before_imrr @imrr_TGT;
-		sub @fmrr_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @fmrr_SRC' lookup before_o @omod_TGT;
-		sub @fmrr_SRC' lookup before_rful @rful_TGT;
-		sub @fmrr_SRC' lookup before_sful @sful_TGT;
-		sub @fmrr_SRC' lookup before_t @tmod_TGT;
-		sub @fmrr_SRC' lookup before_xful @xful_TGT;
-		sub @fmrr_SRC' lookup before_zcnt @zcnt_TGT;
-		# sub @nmod_SRC' lookup before_fmrr @fmrr_TGT;
-		#
-		sub @rcnt_SRC' lookup before_eful @eful_TGT;
-		sub @rcnt_SRC' lookup before_fful @fful_TGT;
-		sub @rcnt_SRC' lookup before_h @hlop_TGT;
-		sub @rcnt_SRC' lookup before_imrr @imrr_TGT;
-		sub @rcnt_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @rcnt_SRC' lookup before_o @omod_TGT;
-		sub @rcnt_SRC' lookup before_sful @sful_TGT;
-		sub @rcnt_SRC' lookup before_t @tmod_TGT;
-		sub @rcnt_SRC' lookup before_xful @xful_TGT;
-		sub @rcnt_SRC' lookup before_zcnt @zcnt_TGT;
-		sub @zful_SRC' lookup before_fful @fful_TGT;
-		sub @zful_SRC' lookup before_sful @sful_TGT;
-		#
-		sub @bmlp_SRC' lookup before_o @omod_TGT;
-		sub @bmlp_SRC' lookup before_eful @eful_TGT;
-		sub @bmlp_SRC' lookup before_h @hlop_TGT;
-		sub @bmlp_SRC' lookup before_imrr @imrr_TGT;
-		sub @bmlp_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @bmlp_SRC' lookup before_fful @fful_TGT;
-		sub @bmlp_SRC' lookup before_rful @rful_TGT;
-		sub @bmlp_SRC' lookup before_s @smod_TGT;
-		sub @bmlp_SRC' lookup before_sful @sful_TGT;
-		sub @bmlp_SRC' lookup before_t @tmod_TGT;
-		sub @bmlp_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @bmlp_SRC' lookup before_xful @xful_TGT;
-		sub @bmlp_SRC' lookup before_zcnt @zcnt_TGT;
-		#
-		sub @fmlp_SRC' lookup before_o @omod_TGT;
-		sub @fmlp_SRC' lookup before_eful @eful_TGT;
-		sub @fmlp_SRC' lookup before_h @hlop_TGT;
-		sub @fmlp_SRC' lookup before_imrr @imrr_TGT;
-		sub @fmlp_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @fmlp_SRC' lookup before_fful @fful_TGT;
-		sub @fmlp_SRC' lookup before_rful @rful_TGT;
-		sub @fmlp_SRC' lookup before_sful @sful_TGT;
-		sub @fmlp_SRC' lookup before_t @tmod_TGT;
-		sub @fmlp_SRC' lookup before_xful @xful_TGT;
-		sub @fmlp_SRC' lookup before_zcnt @zcnt_TGT;
-		#
-		sub @omlp_SRC' lookup before_o @omod_TGT;
-		sub @omlp_SRC' lookup before_eful @eful_TGT;
-		sub @omlp_SRC' lookup before_h @hlop_TGT;
-		sub @omlp_SRC' lookup before_imrr @imrr_TGT;
-		sub @omlp_SRC' lookup before_n @nmod_TGT;
-		sub @omlp_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @omlp_SRC' lookup before_fful @fful_TGT;
-		sub @omlp_SRC' lookup before_rful @rful_TGT;
-		sub @omlp_SRC' lookup before_sful @sful_TGT;
-		sub @omlp_SRC' lookup before_t @tmod_TGT;
-		sub @omlp_SRC' lookup before_xful @xful_TGT;
-		sub @omlp_SRC' lookup before_zcnt @zcnt_TGT;
-		#
+		sub @zful_SRC' lookup before_zful @zful_TGT;
+		# LOP
 		sub @tlop_de_SRC' lookup before_b @bmod_TGT;
 		sub @tlop_de_SRC' lookup before_e @emod_TGT;
 		sub @tlop_de_SRC' lookup before_n @nmod_TGT;
@@ -1395,86 +1349,159 @@ feature calt {
 		sub @tlop_de_SRC' lookup before_h @hlop_TGT;
 		sub @tlop_de_SRC' lookup before_ncnt @ncnt_TGT;
 		sub @tlop_de_SRC' lookup before_zcnt @zcnt_TGT;
-		#
-		sub @Gcur_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @bful_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @cmod_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @eful_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @emod_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @fful_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @fjmc_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @fmlp_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @fmrr_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @gjmc_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @nmod_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @omlp_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @omod_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @rcnt_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @rmod_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @vmod_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @zful_SRC' lookup before_tlop_de @tlop_de_TGT;
-		#
-		# LATEST ADDITIONS TO SORT:
-		sub @eful_SRC' lookup before_s @smod_TGT;
-		sub @fmlp_SRC' lookup before_s @smod_TGT;
-		sub @fmrr_SRC' lookup before_s @smod_TGT;
-		sub @omlp_SRC' lookup before_s @smod_TGT;
-		sub @rcnt_SRC' lookup before_s @smod_TGT;
-		sub @zful_SRC' lookup before_s @smod_TGT;
-		#
-		sub @bful_SRC' lookup before_e @emod_TGT;
-		sub @bmlp_SRC' lookup before_e @emod_TGT;
-		sub @fful_SRC' lookup before_e @emod_TGT;
-		sub @fmlp_SRC' lookup before_e @emod_TGT;
-		sub @fmrr_SRC' lookup before_e @emod_TGT;
-		sub @omlp_SRC' lookup before_e @emod_TGT;
+		# CNT
+		sub @rcnt_SRC' lookup before_b @bmod_TGT;
 		sub @rcnt_SRC' lookup before_e @emod_TGT;
-		sub @zful_SRC' lookup before_e @emod_TGT;
-		#
-		sub @emod_SRC' lookup before_ncnt @ncnt_TGT;
-		sub @emod_SRC' lookup before_zcnt @zcnt_TGT;
-		sub @emod_SRC' lookup before_fful @fful_TGT;
-		sub @emod_SRC' lookup before_xful @xful_TGT;
-		#
-		sub @bful_SRC' lookup before_z @zmod_TGT;
-		sub @eful_SRC' lookup before_z @zmod_TGT;
-		sub @fmrr_SRC' lookup before_z @zmod_TGT;
+		sub @rcnt_SRC' lookup before_eful @eful_TGT;
+		sub @rcnt_SRC' lookup before_fful @fful_TGT;
+		sub @rcnt_SRC' lookup before_h @hlop_TGT;
+		sub @rcnt_SRC' lookup before_imrr @imrr_TGT;
+		sub @rcnt_SRC' lookup before_n @nmod_TGT;
+		sub @rcnt_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @rcnt_SRC' lookup before_o @omod_TGT;
+		sub @rcnt_SRC' lookup before_rful @rful_TGT;
+		sub @rcnt_SRC' lookup before_s @smod_TGT;
+		sub @rcnt_SRC' lookup before_sful @sful_TGT;
+		sub @rcnt_SRC' lookup before_t @tmod_TGT;
+		sub @rcnt_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @rcnt_SRC' lookup before_v @vmod_TGT;
+		sub @rcnt_SRC' lookup before_x @xmod_TGT;
+		sub @rcnt_SRC' lookup before_xful @xful_TGT;
 		sub @rcnt_SRC' lookup before_z @zmod_TGT;
-		#
-		sub @needsEntry_SRC' lookup before_rful @rful_TGT;
-		sub @needsEntry_SRC' lookup before_sful @sful_TGT;
-		sub @needsEntry_SRC' lookup before_xful @xful_TGT;
+		sub @rcnt_SRC' lookup before_zcnt @zcnt_TGT;
+		# MRR
+		sub @fmrr_SRC' lookup before_e @emod_TGT;
+		sub @fmrr_SRC' lookup before_eful @eful_TGT;
+		sub @fmrr_SRC' lookup before_fful @fful_TGT;
+		sub @fmrr_SRC' lookup before_h @hlop_TGT;
+		sub @fmrr_SRC' lookup before_imrr @imrr_TGT;
+		sub @fmrr_SRC' lookup before_n @nmod_TGT;
+		sub @fmrr_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @fmrr_SRC' lookup before_o @omod_TGT;
+		sub @fmrr_SRC' lookup before_rful @rful_TGT;
+		sub @fmrr_SRC' lookup before_s @smod_TGT;
+		sub @fmrr_SRC' lookup before_sful @sful_TGT;
+		sub @fmrr_SRC' lookup before_t @tmod_TGT;
+		sub @fmrr_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @fmrr_SRC' lookup before_xful @xful_TGT;
+		sub @fmrr_SRC' lookup before_z @zmod_TGT;
+		sub @fmrr_SRC' lookup before_zcnt @zcnt_TGT;
+		# MLP
+		sub @bmlp_SRC' lookup before_e @emod_TGT;
+		sub @bmlp_SRC' lookup before_eful @eful_TGT;
+		sub @bmlp_SRC' lookup before_fful @fful_TGT;
+		sub @bmlp_SRC' lookup before_h @hlop_TGT;
+		sub @bmlp_SRC' lookup before_imrr @imrr_TGT;
+		sub @bmlp_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @bmlp_SRC' lookup before_o @omod_TGT;
+		sub @bmlp_SRC' lookup before_rful @rful_TGT;
+		sub @bmlp_SRC' lookup before_s @smod_TGT;
+		sub @bmlp_SRC' lookup before_sful @sful_TGT;
+		sub @bmlp_SRC' lookup before_t @tmod_TGT;
+		sub @bmlp_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @bmlp_SRC' lookup before_xful @xful_TGT;
+		sub @bmlp_SRC' lookup before_z @zmod_TGT;
+		sub @bmlp_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @fmlp_SRC' lookup before_e @emod_TGT;
+		sub @fmlp_SRC' lookup before_eful @eful_TGT;
+		sub @fmlp_SRC' lookup before_fful @fful_TGT;
+		sub @fmlp_SRC' lookup before_h @hlop_TGT;
+		sub @fmlp_SRC' lookup before_imrr @imrr_TGT;
+		sub @fmlp_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @fmlp_SRC' lookup before_o @omod_TGT;
+		sub @fmlp_SRC' lookup before_rful @rful_TGT;
+		sub @fmlp_SRC' lookup before_s @smod_TGT;
+		sub @fmlp_SRC' lookup before_sful @sful_TGT;
+		sub @fmlp_SRC' lookup before_t @tmod_TGT;
+		sub @fmlp_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @fmlp_SRC' lookup before_xful @xful_TGT;
+		sub @fmlp_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @omlp_SRC' lookup before_e @emod_TGT;
+		sub @omlp_SRC' lookup before_eful @eful_TGT;
+		sub @omlp_SRC' lookup before_fful @fful_TGT;
+		sub @omlp_SRC' lookup before_h @hlop_TGT;
+		sub @omlp_SRC' lookup before_imrr @imrr_TGT;
+		sub @omlp_SRC' lookup before_n @nmod_TGT;
+		sub @omlp_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @omlp_SRC' lookup before_o @omod_TGT;
+		sub @omlp_SRC' lookup before_rful @rful_TGT;
+		sub @omlp_SRC' lookup before_s @smod_TGT;
+		sub @omlp_SRC' lookup before_sful @sful_TGT;
+		sub @omlp_SRC' lookup before_t @tmod_TGT;
+		sub @omlp_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @omlp_SRC' lookup before_xful @xful_TGT;
+		sub @omlp_SRC' lookup before_z @zmod_TGT;
+		sub @omlp_SRC' lookup before_zcnt @zcnt_TGT;
+		# UC Cursive
+		sub @Gcur_SRC' lookup before_b @bmod_TGT;
+		sub @Gcur_SRC' lookup before_e @emod_TGT;
+		sub @Gcur_SRC' lookup before_eful @eful_TGT;
+		sub @Gcur_SRC' lookup before_fful @fful_TGT;
+		sub @Gcur_SRC' lookup before_fjmc @fjmc_TGT;
+		sub @Gcur_SRC' lookup before_h @hlop_TGT;
+		sub @Gcur_SRC' lookup before_n @nmod_TGT;
+		sub @Gcur_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @Gcur_SRC' lookup before_o @omod_TGT;
+		sub @Gcur_SRC' lookup before_rful @rful_TGT;
+		sub @Gcur_SRC' lookup before_s @smod_TGT;
+		sub @Gcur_SRC' lookup before_sful @sful_TGT;
+		sub @Gcur_SRC' lookup before_t @tmod_TGT;
+		sub @Gcur_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @Gcur_SRC' lookup before_v @vmod_TGT;
+		sub @Gcur_SRC' lookup before_x @xmod_TGT;
+		sub @Gcur_SRC' lookup before_xful @xful_TGT;
+		sub @Gcur_SRC' lookup before_z @zmod_TGT;
+		sub @Gcur_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @Gcur_SRC' lookup before_zful @zful_TGT;
+		sub @Tcur_SRC' lookup before_b @bmod_TGT;
+		sub @Tcur_SRC' lookup before_e @emod_TGT;
+		sub @Tcur_SRC' lookup before_eful @eful_TGT;
+		sub @Tcur_SRC' lookup before_fful @fful_TGT;
+		sub @Tcur_SRC' lookup before_fjmc @fjmc_TGT;
+		sub @Tcur_SRC' lookup before_h @hlop_TGT;
+		sub @Tcur_SRC' lookup before_n @nmod_TGT;
+		sub @Tcur_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @Tcur_SRC' lookup before_o @omod_TGT;
+		sub @Tcur_SRC' lookup before_rful @rful_TGT;
+		sub @Tcur_SRC' lookup before_s @smod_TGT;
+		sub @Tcur_SRC' lookup before_sful @sful_TGT;
+		sub @Tcur_SRC' lookup before_t @tmod_TGT;
+		sub @Tcur_SRC' lookup before_tlop_de @tlop_de_TGT;
+		sub @Tcur_SRC' lookup before_v @vmod_TGT;
+		sub @Tcur_SRC' lookup before_x @xmod_TGT;
+		sub @Tcur_SRC' lookup before_xful @xful_TGT;
+		sub @Tcur_SRC' lookup before_z @zmod_TGT;
+		sub @Tcur_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @Tcur_SRC' lookup before_zful @zful_TGT;
+		# UC Decorative
+		sub @Xdec_SRC' lookup before_b @bmod_TGT;
+		sub @Xdec_SRC' lookup before_e @emod_TGT;
+		sub @Xdec_SRC' lookup before_eful @eful_TGT;
+		sub @Xdec_SRC' lookup before_fful @fful_TGT;
+		sub @Xdec_SRC' lookup before_fjmc @fjmc_TGT;
+		sub @Xdec_SRC' lookup before_h @hlop_TGT;
+		sub @Xdec_SRC' lookup before_n @nmod_TGT;
+		sub @Xdec_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @Xdec_SRC' lookup before_o @omod_TGT;
+		sub @Xdec_SRC' lookup before_rful @rful_TGT;
+		sub @Xdec_SRC' lookup before_s @smod_TGT;
+		sub @Xdec_SRC' lookup before_sful @sful_TGT;
+		sub @Xdec_SRC' lookup before_t @tmod_TGT;
+		sub @Xdec_SRC' lookup before_v @vmod_TGT;
+		sub @Xdec_SRC' lookup before_x @xmod_TGT;
+		sub @Xdec_SRC' lookup before_xful @xful_TGT;
+		sub @Xdec_SRC' lookup before_z @zmod_TGT;
+		sub @Xdec_SRC' lookup before_zcnt @zcnt_TGT;
+		sub @Xdec_SRC' lookup before_zful @zful_TGT;
+		# needsEntry
 		sub @needsEntry_SRC' lookup before_eful @eful_TGT;
 		sub @needsEntry_SRC' lookup before_fful @fful_TGT;
 		sub @needsEntry_SRC' lookup before_h @hlop_TGT;
 		sub @needsEntry_SRC' lookup before_ncnt @ncnt_TGT;
+		sub @needsEntry_SRC' lookup before_rful @rful_TGT;
+		sub @needsEntry_SRC' lookup before_sful @sful_TGT;
+		sub @needsEntry_SRC' lookup before_xful @xful_TGT;
 		sub @needsEntry_SRC' lookup before_zcnt @zcnt_TGT;
-		#
-		sub @rmod_SRC' lookup before_eful @eful_TGT;
-		sub @rmod_SRC' lookup before_fful @fful_TGT;
-		sub @rmod_SRC' lookup before_h @hlop_TGT;
-		sub @vmod_SRC' lookup before_eful @eful_TGT;
-		sub @vmod_SRC' lookup before_fful @fful_TGT;
-		sub @vmod_SRC' lookup before_h @hlop_TGT;
-		sub @eful_SRC' lookup before_x @xmod_TGT;
-		sub @eful_SRC' lookup before_xful @xful_TGT;
-		sub @eful_SRC' lookup before_v @vmod_TGT;
-		sub @emod_SRC' lookup before_h @hlop_TGT;
-		sub @emod_SRC' lookup before_sful @sful_TGT;
-		#
-		sub @bmlp_SRC' lookup before_z @zmod_TGT;
-		sub @omlp_SRC' lookup before_z @zmod_TGT;
-		sub @fful_SRC' lookup before_z @zmod_TGT;
-		#
-		sub @rcnt_SRC' lookup before_b @bmod_TGT;
-		sub @rcnt_SRC' lookup before_n @nmod_TGT;
-		#
-		sub @fmrr_SRC' lookup before_n @nmod_TGT;
-		sub @rmod_SRC' lookup before_xful @xful_TGT;
-		sub @rcnt_SRC' lookup before_rful @rful_TGT;
-		sub @rcnt_SRC' lookup before_v @vmod_TGT;
-		sub @rcnt_SRC' lookup before_x @xmod_TGT;
-		sub @vmod_SRC' lookup before_ncnt @ncnt_TGT;
 	} SENSEI_MAGIC;
 } calt;
 
