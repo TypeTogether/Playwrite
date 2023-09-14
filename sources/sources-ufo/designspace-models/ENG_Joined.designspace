@@ -149,10 +149,26 @@
         <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
+    <instance name="Playpen ENG Joined Thin Italic" familyname="Playpen ENG Joined" stylename="Thin Italic" filename="../instance_ufo/PlaypenENGJoined-ThinItalic.ufo" postscriptfontname="PlaypenENGJoined-ThinItalic" stylemapfamilyname="Playpen ENG Joined Thin" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Slant" xvalue="7"/>
+        <dimension name="Extenders" xvalue="375"/>
+        <dimension name="Speed" xvalue="25"/>
+      </location>
+    </instance>
     <instance name="Playpen ENG Joined ExtraLight" familyname="Playpen ENG Joined" stylename="ExtraLight" filename="../instance_ufo/PlaypenENGJoined-ExtraLight.ufo" postscriptfontname="PlaypenENGJoined-ExtraLight" stylemapfamilyname="Playpen ENG Joined ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="0"/>
+        <dimension name="Extenders" xvalue="375"/>
+        <dimension name="Speed" xvalue="25"/>
+      </location>
+    </instance>
+    <instance name="Playpen ENG Joined ExtraLight Italic" familyname="Playpen ENG Joined" stylename="ExtraLight Italic" filename="../instance_ufo/PlaypenENGJoined-ExtraLightItalic.ufo" postscriptfontname="PlaypenENGJoined-ExtraLightItalic" stylemapfamilyname="Playpen ENG Joined ExtraLight" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Slant" xvalue="7"/>
         <dimension name="Extenders" xvalue="375"/>
         <dimension name="Speed" xvalue="25"/>
       </location>
@@ -165,10 +181,26 @@
         <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
+    <instance name="Playpen ENG Joined Light Italic" familyname="Playpen ENG Joined" stylename="Light Italic" filename="../instance_ufo/PlaypenENGJoined-LightItalic.ufo" postscriptfontname="PlaypenENGJoined-LightItalic" stylemapfamilyname="Playpen ENG Joined Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Slant" xvalue="7"/>
+        <dimension name="Extenders" xvalue="375"/>
+        <dimension name="Speed" xvalue="25"/>
+      </location>
+    </instance>
     <instance name="Playpen ENG Joined Regular" familyname="Playpen ENG Joined" stylename="Regular" filename="../instance_ufo/PlaypenENGJoined-Regular.ufo" postscriptfontname="PlaypenENGJoined-Regular" stylemapfamilyname="Playpen ENG Joined" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="0"/>
+        <dimension name="Extenders" xvalue="375"/>
+        <dimension name="Speed" xvalue="25"/>
+      </location>
+    </instance>
+    <instance name="Playpen ENG Joined Italic" familyname="Playpen ENG Joined" stylename="Italic" filename="../instance_ufo/PlaypenENGJoined-Italic.ufo" postscriptfontname="PlaypenENGJoined-Italic" stylemapfamilyname="Playpen ENG Joined Regular" stylemapstylename="italic">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Slant" xvalue="7"/>
         <dimension name="Extenders" xvalue="375"/>
         <dimension name="Speed" xvalue="25"/>
       </location>

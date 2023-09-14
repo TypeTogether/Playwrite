@@ -22,7 +22,7 @@ for mTag, val in modelsDataDict.items():
     # if slant range (hasItalic)
     if type(slant) is str:
         hasItalic = True
-        # take first value (0) by now
+        it_slant = int(slant.strip("-")[-1])
         slant = int(slant.strip("-")[0])
     else:
         hasItalic = False
@@ -48,7 +48,34 @@ for mTag, val in modelsDataDict.items():
         i.styleMapStyleName = "regular"
         i.path = f"../sources-ufo/instance_ufo/{iPostscriptFontName}.ufo"
         doc.addInstance(i)
+        # if italic
+        if hasItalic is True:
+            # italic values
+            mFamilyName = f"Playpen {mTag.replace('_', ' ')}"
+            family_no_space = mFamilyName.replace(" ", "")
+            if iStyleName != "Regular":
+                it_iStyleName = iStyleName + " Italic"
+                it_iPostscriptFontName = f"{family_no_space}-{iStyleName}Italic"
+            else:
+                it_iStyleName = "Italic"
+                it_iPostscriptFontName = f"{family_no_space}-Italic"
+            # make instance
+            it = InstanceDescriptor()
+            it.familyName = mFamilyName
+            it.styleName = it_iStyleName
+            it.name = f"{mFamilyName} {it.styleName}"
+            it.designLocation = dict(Weight=w_value, Slant=it_slant,
+                                    Extenders=extend, Speed=speed)
+            it.postScriptFontName = it_iPostscriptFontName
+            if iStyleName != "Italic":
+                it.styleMapFamilyName = f"{mFamilyName} {iStyleName}"
+            else:
+                it.styleMapFamilyName = f"{mFamilyName}"
+            it.styleMapStyleName = "italic"
+            it.path = f"../sources-ufo/instance_ufo/{it_iPostscriptFontName}.ufo"
+            doc.addInstance(it)
 
+    # Write model.designspace
     outputPath = f"../sources-ufo/designspace-models/{mTag}.designspace"
     doc.write(outputPath)
     print(f"Written {mTag}.designspace")
