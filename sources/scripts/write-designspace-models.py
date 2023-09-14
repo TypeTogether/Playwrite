@@ -19,13 +19,20 @@ for mTag, val in modelsDataDict.items():
     slant = val["slnt"]
     extend = val["EXTD"]
     speed = val["SPED"]
+    # if slant range (hasItalic)
+    if type(slant) is str:
+        hasItalic = True
+        # take first value (0) by now
+        slant = int(slant.strip("-")[0])
+    else:
+        hasItalic = False
 
     # make weight instances
     for w_value in weightStyles.keys():
         mFamilyName = f"Playpen {mTag.replace('_', ' ')}"
         iStyleName = weightStyles[w_value]  # (from weight style-value)
-        fam_nospace = mFamilyName.replace(" ", "")
-        iPostscriptFontName = f"{fam_nospace}-{iStyleName}"
+        family_no_space = mFamilyName.replace(" ", "")
+        iPostscriptFontName = f"{family_no_space}-{iStyleName}"
         # make instance
         i = InstanceDescriptor()
         i.familyName = mFamilyName
