@@ -32,6 +32,16 @@ with open("../data/models-all.csv", "r") as csv:
             }
         except ValueError:
             print(f"🔥 {t} has some not valid data in the .csv file")
+            if "-" in sl:
+                print(f"\t ⚠️ {t} has a range for slnt axis (has italic)")
+                models_dict[t] = {
+                    country: c,
+                    slnt: sl,
+                    extd: int(e),
+                    sped: int(sp),
+                    uppercase: u,
+                    lowercase: l,
+            }
     csv.close()
 
 with open("modelsData.py", "w") as d:
@@ -41,4 +51,4 @@ with open("modelsData.py", "w") as d:
     d.write(all_txt)
     d.close()
 
-print("💾 modelsData.py file")
+print(" 💾 modelsData.py file")
