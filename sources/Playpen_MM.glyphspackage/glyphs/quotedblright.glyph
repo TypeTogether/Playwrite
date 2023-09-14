@@ -5,9 +5,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
-angle = 180;
-pos = (356,1554);
-ref = quotedblleft;
+pos = (150,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -32,9 +34,11 @@ width = 356;
 layerId = m002;
 shapes = (
 {
-angle = 180;
-pos = (699,1554);
-ref = quotedblleft;
+pos = (150,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -59,9 +63,11 @@ width = 356;
 layerId = m003;
 shapes = (
 {
-angle = 180;
-pos = (356,1554);
-ref = quotedblleft;
+pos = (150,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -86,9 +92,11 @@ width = 356;
 layerId = m004;
 shapes = (
 {
-angle = 180;
-pos = (699,1554);
-ref = quotedblleft;
+pos = (150,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -113,9 +121,11 @@ width = 356;
 layerId = m005;
 shapes = (
 {
-angle = 180;
-pos = (394,1568);
-ref = quotedblleft;
+pos = (175,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -140,9 +150,11 @@ width = 394;
 layerId = m006;
 shapes = (
 {
-angle = 180;
-pos = (729,1570);
-ref = quotedblleft;
+pos = (175,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -167,9 +179,11 @@ width = 381;
 layerId = m007;
 shapes = (
 {
-angle = 180;
-pos = (394,1568);
-ref = quotedblleft;
+pos = (175,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -194,9 +208,11 @@ width = 394;
 layerId = m008;
 shapes = (
 {
-angle = 180;
-pos = (729,1570);
-ref = quotedblleft;
+pos = (175,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -221,9 +237,11 @@ width = 381;
 layerId = m009;
 shapes = (
 {
-angle = 180;
-pos = (381,2754);
-ref = quotedblleft;
+pos = (175,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -248,9 +266,11 @@ width = 381;
 layerId = m010;
 shapes = (
 {
-angle = 180;
-pos = (1101,2754);
-ref = quotedblleft;
+pos = (175,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -275,9 +295,11 @@ width = 369;
 layerId = m011;
 shapes = (
 {
-angle = 180;
-pos = (381,2754);
-ref = quotedblleft;
+pos = (175,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -302,9 +324,11 @@ width = 381;
 layerId = m012;
 shapes = (
 {
-angle = 180;
-pos = (1114,2754);
-ref = quotedblleft;
+pos = (175,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -329,9 +353,11 @@ width = 381;
 layerId = m013;
 shapes = (
 {
-angle = 180;
-pos = (419,2768);
-ref = quotedblleft;
+pos = (188,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -356,9 +382,11 @@ width = 419;
 layerId = m014;
 shapes = (
 {
-angle = 180;
-pos = (1156,2770);
-ref = quotedblleft;
+pos = (188,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -383,9 +411,11 @@ width = 419;
 layerId = m015;
 shapes = (
 {
-angle = 180;
-pos = (419,2768);
-ref = quotedblleft;
+pos = (188,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
@@ -410,9 +440,11 @@ width = 419;
 layerId = m016;
 shapes = (
 {
-angle = 180;
-pos = (1156,2770);
-ref = quotedblleft;
+pos = (188,0);
+ref = quoteright;
+},
+{
+ref = quoteright;
 }
 );
 userData = {
