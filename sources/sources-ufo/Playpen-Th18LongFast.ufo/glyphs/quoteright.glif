@@ -3,7 +3,29 @@
   <advance width="206"/>
   <unicode hex="2019"/>
   <outline>
-    <component base="quoteleft" xScale="-1.0" yScale="-1.0" xOffset="939" yOffset="2754"/>
+    <contour>
+      <point x="518" y="1519" type="curve" smooth="yes"/>
+      <point x="498" y="1519"/>
+      <point x="486" y="1510"/>
+      <point x="484" y="1494" type="curve" smooth="yes"/>
+      <point x="466" y="1385"/>
+      <point x="444" y="1335"/>
+      <point x="391" y="1270" type="curve" smooth="yes"/>
+      <point x="386" y="1264"/>
+      <point x="384" y="1260"/>
+      <point x="384" y="1256" type="curve" smooth="yes"/>
+      <point x="384" y="1248"/>
+      <point x="398" y="1235"/>
+      <point x="406" y="1235" type="curve" smooth="yes"/>
+      <point x="414" y="1235"/>
+      <point x="423" y="1243"/>
+      <point x="431" y="1250" type="curve" smooth="yes"/>
+      <point x="520" y="1338"/>
+      <point x="545" y="1454"/>
+      <point x="545" y="1498" type="curve" smooth="yes"/>
+      <point x="545" y="1511"/>
+      <point x="538" y="1519"/>
+    </contour>
   </outline>
   <lib>
     <dict>
