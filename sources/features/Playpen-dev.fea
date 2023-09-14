@@ -1308,7 +1308,6 @@ feature calt {
 		sub @zful_SRC' lookup before_sful @sful_TGT;
 		sub @zful_SRC' lookup before_t @tmod_TGT;
 		sub @zful_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @zful_SRC' lookup before_x @xful_TGT;
 		sub @zful_SRC' lookup before_x @xmod_TGT;
 		sub @zful_SRC' lookup before_xful @xful_TGT;
 		sub @zful_SRC' lookup before_zcnt @zcnt_TGT;
