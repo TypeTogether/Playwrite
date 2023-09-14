@@ -1048,7 +1048,7 @@ feature ccmp {
 feature locl {
 	# script latn;
 	# language dflt;
-	include(../features/fea-models/ENG_Semijoined.fea);
+	include(../features/fea-models/ARG.fea);
 	# language CAT;
 	# sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
 } locl;
@@ -1063,7 +1063,7 @@ feature ss01 {
 		name "MOD - Modern Cursive"; # Windows English
 		name 1 0 0 "MOD - Modern Cursive"; # Mac English
 	};
-	sub [@UC_ENG_Semijoined @lc_ENG_Semijoined] by [@UC @lcMOD];
+	sub [@UC_ARG @lc_ARG] by [@UC @lcMOD];
 	# sub @lc by @lcMOD;
 } ss01;
 
@@ -1072,7 +1072,7 @@ feature ss02 {
 		name "JMC - Joined Modern Cursive"; # Windows English
 		name 1 0 0 "JMC - Joined Modern Cursive"; # Mac English
 	};
-	sub [@UC_ENG_Semijoined @lc_ENG_Semijoined] by [@UC @lcJMC];
+	sub [@UC_ARG @lc_ARG] by [@UC @lcJMC];
 	# sub @lc by @lcJMC;
 } ss02;
 
@@ -1081,7 +1081,7 @@ feature ss03 {
 		name "FUL - Full Cursive"; # Windows English
 		name 1 0 0 "FUL - Full Cursive"; # Mac English
 	};
-	sub [@UC_ENG_Semijoined @lc_ENG_Semijoined] by [@UC @lcFUL];
+	sub [@UC_ARG @lc_ARG] by [@UC @lcFUL];
 	# sub @lc by @lcFUL;
 } ss03;
 
@@ -1091,7 +1091,7 @@ feature ss04 {
 		name "LOP - Speed Loops"; # Windows English
 		name 1 0 0 "LOP - Speed Loops"; # Mac English
 	};
-	sub [@UC_ENG_Semijoined @lc_ENG_Semijoined] by [@UC @lcLOP];
+	sub [@UC_ARG @lc_ARG] by [@UC @lcLOP];
 	# sub @lc by @lcLOP;
 } ss04;
 
@@ -1100,7 +1100,7 @@ feature ss05 {
 		name "CNT - Curved Entry Stroke"; # Windows English
 		name 1 0 0 "CNT - Curved Entry Stroke"; # Mac English
 	};
-	sub [@UC_ENG_Semijoined @lc_ENG_Semijoined] by [@UC @lcCNT];
+	sub [@UC_ARG @lc_ARG] by [@UC @lcCNT];
 	# sub @lc by @lcCNT;
 } ss05;
 
@@ -1109,7 +1109,7 @@ feature ss06 {
 		name "MRR - Mirrored Loops"; # Windows English
 		name 1 0 0 "MRR - Mirrored Loops"; # Mac English
 	};
-	sub [@UC_ENG_Semijoined @lc_ENG_Semijoined] by [@UC @lcMRR];
+	sub [@UC_ARG @lc_ARG] by [@UC @lcMRR];
 	# sub @lc by @lcMRR;
 } ss06;
 
@@ -1118,7 +1118,7 @@ feature ss07 {
 		name "MLP - Micro Loops"; # Windows English
 		name 1 0 0 "MLP - Micro Loops"; # Mac English
 	};
-	sub [@UC_ENG_Semijoined @lc_ENG_Semijoined] by [@UC @lcMLP];
+	sub [@UC_ARG @lc_ARG] by [@UC @lcMLP];
 	# sub @lc by @lcMLP;
 } ss07;
 
@@ -1324,7 +1324,6 @@ feature calt {
 		sub @zful_SRC' lookup before_sful @sful_TGT;
 		sub @zful_SRC' lookup before_t @tmod_TGT;
 		sub @zful_SRC' lookup before_tlop_de @tlop_de_TGT;
-		sub @zful_SRC' lookup before_x @xful_TGT;
 		sub @zful_SRC' lookup before_x @xmod_TGT;
 		sub @zful_SRC' lookup before_xful @xful_TGT;
 		sub @zful_SRC' lookup before_zcnt @zcnt_TGT;
