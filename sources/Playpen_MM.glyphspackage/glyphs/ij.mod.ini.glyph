@@ -2,6 +2,12 @@
 glyphname = ij.mod.ini;
 layers = (
 {
+anchors = (
+{
+name = cnct;
+pos = (630,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -19,6 +25,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (549,0);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -36,6 +48,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (630,0);
+}
+);
 layerId = m003;
 shapes = (
 {
@@ -53,6 +71,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (549,0);
+}
+);
 layerId = m004;
 shapes = (
 {
@@ -70,6 +94,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (630,0);
+}
+);
 layerId = m005;
 shapes = (
 {
@@ -87,6 +117,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (549,0);
+}
+);
 layerId = m006;
 shapes = (
 {
@@ -104,6 +140,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (630,0);
+}
+);
 layerId = m007;
 shapes = (
 {
@@ -121,6 +163,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (549,0);
+}
+);
 layerId = m008;
 shapes = (
 {
@@ -138,6 +186,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (630,0);
+}
+);
 layerId = m009;
 shapes = (
 {
@@ -155,6 +209,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (549,0);
+}
+);
 layerId = m010;
 shapes = (
 {
@@ -172,6 +232,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (630,0);
+}
+);
 layerId = m011;
 shapes = (
 {
@@ -189,6 +255,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (549,0);
+}
+);
 layerId = m012;
 shapes = (
 {
@@ -206,6 +278,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (630,0);
+}
+);
 layerId = m013;
 shapes = (
 {
@@ -223,6 +301,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (549,0);
+}
+);
 layerId = m014;
 shapes = (
 {
@@ -240,6 +324,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (630,0);
+}
+);
 layerId = m015;
 shapes = (
 {
@@ -257,6 +347,12 @@ ref = j.mod;
 width = 630;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (549,0);
+}
+);
 layerId = m016;
 shapes = (
 {

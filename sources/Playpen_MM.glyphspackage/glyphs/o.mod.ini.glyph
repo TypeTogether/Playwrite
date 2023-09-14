@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = cnct;
-pos = (453,458);
+pos = (601,0);
 }
 );
 layerId = m01;
@@ -38,7 +38,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (498,471);
+pos = (521,0);
 }
 );
 layerId = m002;
@@ -71,7 +71,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (454,458);
+pos = (601,0);
 }
 );
 layerId = m003;
@@ -104,7 +104,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (510,456);
+pos = (521,0);
 }
 );
 layerId = m004;
@@ -137,7 +137,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (453,458);
+pos = (601,0);
 }
 );
 layerId = m005;
@@ -170,7 +170,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (498,471);
+pos = (521,0);
 }
 );
 layerId = m006;
@@ -203,7 +203,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (454,458);
+pos = (601,0);
 }
 );
 layerId = m007;
@@ -236,7 +236,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (510,456);
+pos = (521,0);
 }
 );
 layerId = m008;
@@ -269,7 +269,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (453,458);
+pos = (601,0);
 }
 );
 layerId = m009;
@@ -302,7 +302,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (498,471);
+pos = (521,0);
 }
 );
 layerId = m010;
@@ -335,7 +335,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (454,458);
+pos = (601,0);
 }
 );
 layerId = m011;
@@ -368,7 +368,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (510,456);
+pos = (521,0);
 }
 );
 layerId = m012;
@@ -401,7 +401,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (453,458);
+pos = (601,0);
 }
 );
 layerId = m013;
@@ -434,7 +434,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (498,471);
+pos = (521,0);
 }
 );
 layerId = m014;
@@ -467,7 +467,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (454,458);
+pos = (601,0);
 }
 );
 layerId = m015;
@@ -500,7 +500,7 @@ width = 601;
 anchors = (
 {
 name = cnct;
-pos = (510,456);
+pos = (521,0);
 }
 );
 layerId = m016;
