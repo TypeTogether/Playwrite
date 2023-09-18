@@ -21,7 +21,7 @@ do
 
     ttfFontsPath="../../fonts-models/fonts-$tag/static/ttf"
 
-    rm -rf $ttfFontsPath  # $ttfFontsPath $webFontsPath
+    # rm -rf $ttfFontsPath  # $ttfFontsPath $webFontsPath
     mkdir -p $ttfFontsPath # $ttfFontsPath $webFontsPath
 
     # set locl code in features
@@ -29,34 +29,37 @@ do
 
     echo "
 ================================================
- Generating STATIC **$tag** fonts
+ Generating STATIC **$tag** GUIDES font
 ================================================
  $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
 echo
 
-    # Build TTF fonts
-    fontmake -m ./designspace-models/$tag.designspace -i -o ttf \
+    # Build Regular instance ufo
+    tagspaced=${tag/"_"/" "}
+    tagnospace=${tag/"_"/""}
+    fontmake -m ./designspace-models/$tag.designspace -i "Playpen $tagspaced Regular" -o ufo \
+    # save as Guides ufo and process
+    python $scripts/build-guides-model.py $tag
+
+    fontmake -u ./instance_ufo/Playpen$tagnospace-Guides.ufo -o ttf \
             --output-dir $ttfFontsPath \
             --filter DecomposeTransformedComponentsFilter \
-            --expand-features-to-instances
+            --fea-include-dir ../features
             # --flatten-components
 
     echo "
-    ======================
-     Post processing TTFs 
-    ======================
+    =====================
+     Post processing TTF 
+    =====================
     "
-    ttfs=$(ls $ttfFontsPath/*.ttf)
-    for ttf in $ttfs
-    do
-      python -m ttfautohint $ttf "$ttf.hint"
-      mv "$ttf.hint" $ttf
-      gftools fix-hinting $ttf
-      mv "$ttf.fix" $ttf
-      echo $ttf
-    done
-    python $scripts/build-guides-model.py $tag
+    ttf=$ttfFontsPath/Playpen$tagnospace-Guides.ttf
+    echo $ttf
+    python -m ttfautohint $ttf "$ttf.hint"
+    mv "$ttf.hint" $ttf
+    gftools fix-hinting $ttf
+    mv "$ttf.fix" $ttf
+    echo $ttf
 done
 
 #
-open "../../test/test-models.gggls"
+rm -rf instance_ufo
