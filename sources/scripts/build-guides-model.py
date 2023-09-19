@@ -1,7 +1,6 @@
 import sys
 import os
 from fontParts.world import *
-# from fontTools.ttLib import TTFont
 
 
 def setFontInfo(font):
