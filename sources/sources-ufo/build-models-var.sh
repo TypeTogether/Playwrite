@@ -61,8 +61,8 @@ do
     echo $ttf
     # done
 
-    # Clean up for each model
-    rm -rf ./master_ufo/ ./instance_ufo/
+    # # Clean up for each model
+    # rm -rf ./master_ufo/ ./instance_ufo/
 done
 #
 open "../../test/test-var-models.gggls"
