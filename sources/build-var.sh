@@ -21,8 +21,8 @@ echo "
 echo
 
 # Build variable font
-fontmake -g ./Playpen_MM.glyphs -o variable --output-dir $varFontsPath \
-          --filter DecomposeTransformedComponentsFilter
+fontmake -g ./Playpen_MM.glyphs -o variable \
+            --output-path $varFontsPath/Playpen[wght,EXTD,SPED,slnt].ttf \
+            --filter DecomposeTransformedComponentsFilter
 
-# Clean up
-rm -rf ./master_ufo/ ./instance_ufo/
+# Post-processing?
