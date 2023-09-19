@@ -16,7 +16,13 @@ def main():
         ex = mdd[tag]["EXTD"]
         sp = mdd[tag]["SPED"]
         varfont = TTFont(f"./../../fonts-models/fonts-{tag}/variable/Playpen{tag}[wght,EXTD,SPED,slnt].ttf")
-        partial = instancer.instantiateVariableFont(varfont,
+        # fix hasItalics (ENG_Joined and Semijoined by now)
+        has_sl = ""
+        if type(sl) is str and "-" in sl:
+            min_sl, max_sl = sl.split("-")
+            sl = (int(min_sl), int(max_sl))
+            has_sl = ",slnt"
+        var_wght_only = instancer.instantiateVariableFont(varfont,
                                                     {
                                                         "wght": (100, 400),
                                                         "slnt": sl,
@@ -24,12 +30,15 @@ def main():
                                                         "SPED": sp
                                                     }
                                                     )
+        # fix post italic Angle
+        if sl != 0 and type(sl) != tuple:
+            var_wght_only["post"].italicAngle = - int(sl)
         # tag in output without "_"
         file_tag = tag.replace("_", "")
-        partial.save(f"./../../fonts-models/fonts-{tag}/variable/Playpen{file_tag}[wght].ttf")
-        partial.close()
+        var_wght_only.save(f"./../../fonts-models/fonts-{tag}/variable/Playpen{file_tag}[wght{has_sl}].ttf")
+        var_wght_only.close()
         varfont.close()
-        print(f"Instanced Playpen{file_tag}[wght].ttf")
+        print(f"Instanced Playpen{file_tag}[wght{has_sl}].ttf")
 
 if __name__ == "__main__":
     main()

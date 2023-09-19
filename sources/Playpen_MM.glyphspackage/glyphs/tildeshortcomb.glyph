@@ -1,4 +1,7 @@
 {
+case = lower;
+category = Mark;
+color = 6;
 glyphname = tildeshortcomb;
 layers = (
 {
@@ -1074,4 +1077,5 @@ com.hugojourdan.ColorFlow = {
 width = 313;
 }
 );
+subCategory = Nonspacing;
 }
