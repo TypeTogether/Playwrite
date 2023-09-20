@@ -6,3 +6,7 @@
 ];
 
 sub [@UC_src @lc_src] by [@UC_SVK @lc_SVK];
+
+# Custom code:
+sub caroncomb.alt by caroncomb.alt_locl;
+sub caroncomb by caroncomb_locl;
