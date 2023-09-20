@@ -55,7 +55,14 @@ echo
       mv "$ttf.fix" $ttf
       echo $ttf
     done
-    python $scripts/build-guides-model.py $tag
+
+    # echo "
+    # ===============================
+    #  Building GUIDES **$tag** font
+    # ===============================
+    # "
+    # # python $scripts/build-guides-model.py $tag
+    # sh build-models-guides-static.sh **$tag**
 done
 
 #
