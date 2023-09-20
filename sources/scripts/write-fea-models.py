@@ -1,6 +1,6 @@
 # write-models-fea
 
-from modelsCustomCode import modelsCustomCodeDict as mcc
+from modelsCustomFeaCode import modelsCustomFeaCodeDict as mcc
 
 __doc__ = """
     Write specific features for all models with the UC-lc substitutions.
