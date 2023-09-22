@@ -21,7 +21,7 @@ def getAxisValues(model):
     values = modelsDataDict[model]
     slant = values["slnt"]
     itslant = None
-    extend = values["EXTD"]
+    extend = values["YEXT"]
     speed = values["SPED"]
 
     if type(slant) is str:
