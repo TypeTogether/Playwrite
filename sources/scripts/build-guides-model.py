@@ -5,9 +5,11 @@ from fontParts.world import *
 
 def setFontInfo(font):
     font.info.styleName = "Guides"
-    font.info.styleMapFamilyName += "Guides"
-    font.features.text = font.features.text.replace(
-        "(../features", "(../features")
+    font.info.styleMapFamilyName = font.info.familyName + " Guides"
+    psName = font.info.postscriptFontName.split("-")
+    font.info.postscriptFontName = psName[0] + "Guides" + "-Regular"
+    # font.features.text = font.features.text.replace(
+    #     "(../features", "(../features")
     font.save()
 
 
@@ -52,6 +54,8 @@ def main():
     for glyph in tgt_font:
         drawGuides(glyph, guides_y)
     tgt_font.save()
+    # save a copy for debug ufo
+    tgt_font.save(os.path.expanduser("~/Desktop/debug.ufo"))
 
 
 if __name__ == "__main__":
