@@ -37,7 +37,7 @@ do
     echo
     # temporal file name (referenced in config.yaml for STAT):
     tagnospace=${tag/"_"/""}
-    varFileName="Playpen$tagnospace[wght,EXTD,SPED,slnt].ttf"
+    varFileName="Playpen$tagnospace[wght,YEXT,SPED,slnt].ttf"
     tempVarFileName="var-model-temp.ttf"
     temp_ttf=$varFontsPath/$tempVarFileName
     # Build VAR font for model

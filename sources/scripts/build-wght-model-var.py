@@ -14,9 +14,9 @@ def main():
     for tag in models_tags:
         tagnospace = tag.replace("_", "")
         sl = mdd[tag]["slnt"]
-        ex = mdd[tag]["EXTD"]
+        ex = mdd[tag]["YEXT"]
         sp = mdd[tag]["SPED"]
-        varfont = TTFont(f"./../../fonts-models/fonts-{tag}/variable/Playpen{tagnospace}[wght,EXTD,SPED,slnt].ttf")
+        varfont = TTFont(f"./../../fonts-models/fonts-{tag}/variable/Playpen{tagnospace}[wght,YEXT,SPED,slnt].ttf")
         # fix hasItalics (ENG_Joined and Semijoined by now)
         has_sl = ""
         if type(sl) is str and "-" in sl:
@@ -27,7 +27,7 @@ def main():
                                                     {
                                                         "wght": (100, 400),
                                                         "slnt": sl,
-                                                        "EXTD": ex,
+                                                        "YEXT": ex,
                                                         "SPED": sp
                                                     }
                                                     )

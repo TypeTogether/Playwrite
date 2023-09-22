@@ -3,7 +3,7 @@
   <axes>
     <axis tag="wght" name="Weight" minimum="100" maximum="400" default="100"/>
     <axis tag="slnt" name="Slant" minimum="0" maximum="18" default="0"/>
-    <axis tag="EXTD" name="Extenders" minimum="375" maximum="1000" default="375"/>
+    <axis tag="YEXT" name="Extenders" minimum="375" maximum="1000" default="375"/>
     <axis tag="SPED" name="Speed" minimum="0" maximum="100" default="0"/>
   </axes>
   <sources>

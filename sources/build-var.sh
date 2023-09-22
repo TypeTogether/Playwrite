@@ -22,7 +22,7 @@ echo
 
 # Build variable font
 fontmake -g ./Playpen_MM.glyphs -o variable \
-            --output-path $varFontsPath/Playpen[wght,EXTD,SPED,slnt].ttf \
+            --output-path $varFontsPath/Playpen[wght,YEXT,SPED,slnt].ttf \
             --filter DecomposeTransformedComponentsFilter
 
 # Post-processing?

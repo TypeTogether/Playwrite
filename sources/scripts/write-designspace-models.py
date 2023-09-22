@@ -17,7 +17,7 @@ for mTag, val in modelsDataDict.items():
     doc = DesignSpaceDocument.fromfile(
     "../sources-ufo/designspace-models/_Playpen-SOURCES.designspace")
     slant = val["slnt"]
-    extend = val["EXTD"]
+    extend = val["YEXT"]
     speed = val["SPED"]
     # if slant range (hasItalic)
     if type(slant) is str:
