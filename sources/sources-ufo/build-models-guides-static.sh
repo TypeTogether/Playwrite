@@ -21,8 +21,7 @@ do
 
     ttfFontsPath="../../fonts-models/fonts-$tag/static/ttf"
 
-    # rm -rf $ttfFontsPath  # $ttfFontsPath $webFontsPath
-    mkdir -p $ttfFontsPath # $ttfFontsPath $webFontsPath
+    mkdir -p $ttfFontsPath
 
     # set locl code in features
     python $scripts/add-locl-fea.py $tag $feaFile
@@ -54,12 +53,12 @@ echo
     "
     ttf=$ttfFontsPath/Playpen$tagnospace-Guides.ttf
     echo $ttf
-    python -m ttfautohint $ttf "$ttf.hint"
+    python -m ttfautohint -n $ttf "$ttf.hint"
     mv "$ttf.hint" $ttf
     gftools fix-hinting $ttf
     mv "$ttf.fix" $ttf
     echo $ttf
 done
 
-#
-rm -rf instance_ufo
+# #
+# rm -rf instance_ufo

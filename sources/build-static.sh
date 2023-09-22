@@ -51,7 +51,7 @@ echo "
 ttfs=$(ls $ttfFontsPath/*.ttf)
 for ttf in $ttfs
 do
-  python -m ttfautohint $ttf "$ttf.hint"
+  python -m ttfautohint -n $ttf "$ttf.hint"
   mv "$ttf.hint" $ttf
   gftools fix-hinting $ttf
   echo $ttf

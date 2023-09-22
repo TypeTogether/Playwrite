@@ -56,9 +56,18 @@ do
     # add STAT, rename, autohint
     gftools gen-stat $temp_ttf --src config.yaml --inplace
     mv $temp_ttf $ttf
-    python -m ttfautohint $ttf "$ttf.hint"
+    python -m ttfautohint -n $ttf "$ttf.hint"
     mv "$ttf.hint" $ttf
+    gftools fix-hinting $ttf
+    mv "$ttf.fix" $ttf
     echo $ttf
+
+    echo "
+  =====================
+   Building [wght] VAR
+  =====================
+  "
+      # Build [wght] only variable for model
+    python $scripts/build-wght-model-var.py $tag
 done
-#
-open "../../test/test-var-models.gggls"
+

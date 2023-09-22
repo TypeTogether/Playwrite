@@ -42,6 +42,14 @@ echo
             # --flatten-components
 
     echo "
+    ===============================
+     Building GUIDES **$tag** font
+    ===============================
+    "
+    # python $scripts/build-guides-model.py $tag
+    sh build-models-guides-static.sh **$tag**
+
+    echo "
     ======================
      Post processing TTFs 
     ======================
@@ -49,20 +57,14 @@ echo
     ttfs=$(ls $ttfFontsPath/*.ttf)
     for ttf in $ttfs
     do
-      python -m ttfautohint $ttf "$ttf.hint"
+      python -m ttfautohint -n $ttf "$ttf.hint"
       mv "$ttf.hint" $ttf
       gftools fix-hinting $ttf
       mv "$ttf.fix" $ttf
       echo $ttf
+      # fix post.italicAngle
+      python $scripts/fix-models-static.py $ttf
     done
-
-    # echo "
-    # ===============================
-    #  Building GUIDES **$tag** font
-    # ===============================
-    # "
-    # # python $scripts/build-guides-model.py $tag
-    # sh build-models-guides-static.sh **$tag**
 done
 
 #
