@@ -14,9 +14,9 @@ echo "glyphspkg: Converting Playpen_MM.glyphspackage to Playpen_MM.glyphs"
 glyphspkg Playpen_MM.glyphspackage
 
 echo "
-=========================
- Generating STATIC fonts
-=========================
+==========================
+ Generating VARIABLE font
+==========================
  $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
 echo
 
