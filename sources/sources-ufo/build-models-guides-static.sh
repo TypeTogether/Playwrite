@@ -14,9 +14,9 @@ fi
 args=()
 for i in "${models[@]}"
 do
-    echo
+    # echo
     args+=(--filter="+ $i")
-    echo "tag: $i"
+    # echo "tag: $i"
     tag=$i
 
     ttfFontsPath="../../fonts-models/fonts-$tag/static/ttf"
@@ -47,7 +47,7 @@ echo
 
     echo "
     =====================
-     Post processing TTF 
+     Post processing TTF
     =====================
     "
     ttf=$ttfFontsPath/Playpen$tagnospace-Guides.ttf
