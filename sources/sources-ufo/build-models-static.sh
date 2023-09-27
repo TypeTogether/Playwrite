@@ -14,6 +14,7 @@ fi
 args=()
 for i in "${models[@]}"
 do
+    echo "------------------------------------------------"
     echo
     args+=(--filter="+ $i")
     echo "tag: $i"
@@ -40,6 +41,14 @@ echo
             --filter DecomposeTransformedComponentsFilter \
             --expand-features-to-instances
 
+#       echo "
+# ==================================
+#  Building GUIDES **$tag** font
+# ==================================
+# "
+#       python $scripts/build-guides-model.py $tag
+#       # sh build-models-guides-static.sh $tag
+
     echo "
     ======================
      Post processing TTFs 
@@ -56,14 +65,6 @@ echo
       # fix post.italicAngle
       python $scripts/fix-models-static.py $ttf
     done
-
-    echo "
-    ===============================
-     Building GUIDES **$tag** font
-    ===============================
-    "
-    # python $scripts/build-guides-model.py $tag
-    sh build-models-guides-static.sh $tag
 done
 
 #
