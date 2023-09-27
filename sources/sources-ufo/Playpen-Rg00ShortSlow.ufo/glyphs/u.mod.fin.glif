@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="u.mod.fin" format="2">
   <advance width="671"/>
-  <anchor x="328" y="0" name="bottom"/>
-  <anchor x="606" y="13" name="ogonek"/>
-  <anchor x="328" y="500" name="top"/>
-  <anchor x="495" y="514" name="topright"/>
+  <anchor x="348" y="0" name="bottom"/>
+  <anchor x="606" y="10" name="ogonek"/>
+  <anchor x="348" y="500" name="top"/>
+  <anchor x="650" y="500" name="topright"/>
   <outline>
     <component base="u" xOffset="25"/>
   </outline>

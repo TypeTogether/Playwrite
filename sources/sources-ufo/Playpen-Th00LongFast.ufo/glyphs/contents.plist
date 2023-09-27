@@ -28,6 +28,8 @@
     <string>A_E_.cur.glif</string>
     <key>AE.cur.locl</key>
     <string>A_E_.cur.locl.glif</string>
+    <key>AE.cur.locl.ini</key>
+    <string>A_E_.cur.locl.ini.glif</string>
     <key>AEacute</key>
     <string>A_E_acute.glif</string>
     <key>Aacute</key>
@@ -84,6 +86,8 @@
     <string>C_.glif</string>
     <key>C.cur</key>
     <string>C_.cur.glif</string>
+    <key>C.cur.ini</key>
+    <string>C_.cur.ini.glif</string>
     <key>CR</key>
     <string>C_R_.glif</string>
     <key>Cacute</key>
@@ -110,6 +114,8 @@
     <string>E_.glif</string>
     <key>E.cur</key>
     <string>E_.cur.glif</string>
+    <key>E.cur.ini</key>
+    <string>E_.cur.ini.glif</string>
     <key>Eacute</key>
     <string>E_acute.glif</string>
     <key>Ebreve</key>
@@ -198,6 +204,8 @@
     <string>I_.glif</string>
     <key>I.cur</key>
     <string>I_.cur.glif</string>
+    <key>I.cur.ini</key>
+    <string>I_.cur.ini.glif</string>
     <key>I.dec</key>
     <string>I_.dec.glif</string>
     <key>IJ</key>
@@ -320,6 +328,8 @@
     <string>O_E_.cur.glif</string>
     <key>OE.cur.locl</key>
     <string>O_E_.cur.locl.glif</string>
+    <key>OE.cur.locl.ini</key>
+    <string>O_E_.cur.locl.ini.glif</string>
     <key>Oacute</key>
     <string>O_acute.glif</string>
     <key>Obreve</key>
@@ -578,8 +588,6 @@
     <string>Z_caron.glif</string>
     <key>Zdotaccent</key>
     <string>Z_dotaccent.glif</string>
-    <key>_circle</key>
-    <string>_circle.glif</string>
     <key>a</key>
     <string>a.glif</string>
     <key>a.mod</key>
@@ -820,6 +828,10 @@
     <string>circumflexcomb_tildecomb.glif</string>
     <key>circumflexcomb_tildecomb.case</key>
     <string>circumflexcomb_tildecomb.case.glif</string>
+    <key>cnct.cnt_C_n</key>
+    <string>cnct.cnt_C__n.glif</string>
+    <key>cnct.cnt_C_z</key>
+    <string>cnct.cnt_C__z.glif</string>
     <key>cnct.cnt_G_n</key>
     <string>cnct.cnt_G__n.glif</string>
     <key>cnct.cnt_G_z</key>
@@ -898,6 +910,18 @@
     <string>cnct.cnt_z_n.glif</string>
     <key>cnct.cnt_z_z</key>
     <string>cnct.cnt_z_z.glif</string>
+    <key>cnct.ful_C_e</key>
+    <string>cnct.ful_C__e.glif</string>
+    <key>cnct.ful_C_f</key>
+    <string>cnct.ful_C__f.glif</string>
+    <key>cnct.ful_C_r</key>
+    <string>cnct.ful_C__r.glif</string>
+    <key>cnct.ful_C_s</key>
+    <string>cnct.ful_C__s.glif</string>
+    <key>cnct.ful_C_x</key>
+    <string>cnct.ful_C__x.glif</string>
+    <key>cnct.ful_C_z</key>
+    <string>cnct.ful_C__z.glif</string>
     <key>cnct.ful_G_e</key>
     <string>cnct.ful_G__e.glif</string>
     <key>cnct.ful_G_f</key>
@@ -1094,6 +1118,8 @@
     <string>cnct.ful_z_x.mod.glif</string>
     <key>cnct.ful_z_z</key>
     <string>cnct.ful_z_z.glif</string>
+    <key>cnct.jmc_C_f</key>
+    <string>cnct.jmc_C__f.glif</string>
     <key>cnct.jmc_G_f</key>
     <string>cnct.jmc_G__f.glif</string>
     <key>cnct.jmc_c_f</key>
@@ -1154,6 +1180,12 @@
     <string>cnct.jmc_t.lop_de_f.glif</string>
     <key>cnct.jmc_v_f</key>
     <string>cnct.jmc_v_f.glif</string>
+    <key>cnct.lop_C_h</key>
+    <string>cnct.lop_C__h.glif</string>
+    <key>cnct.lop_C_t</key>
+    <string>cnct.lop_C__t.glif</string>
+    <key>cnct.lop_C_t.lop_de</key>
+    <string>cnct.lop_C__t.lop_de.glif</string>
     <key>cnct.lop_G_h</key>
     <string>cnct.lop_G__h.glif</string>
     <key>cnct.lop_G_t.lop_de</key>
@@ -1264,6 +1296,24 @@
     <string>cnct.mlp_o_z.cnt.glif</string>
     <key>cnct.mlp_o_z.mod</key>
     <string>cnct.mlp_o_z.mod.glif</string>
+    <key>cnct.mod_C_b</key>
+    <string>cnct.mod_C__b.glif</string>
+    <key>cnct.mod_C_e</key>
+    <string>cnct.mod_C__e.glif</string>
+    <key>cnct.mod_C_n</key>
+    <string>cnct.mod_C__n.glif</string>
+    <key>cnct.mod_C_o</key>
+    <string>cnct.mod_C__o.glif</string>
+    <key>cnct.mod_C_s</key>
+    <string>cnct.mod_C__s.glif</string>
+    <key>cnct.mod_C_t</key>
+    <string>cnct.mod_C__t.glif</string>
+    <key>cnct.mod_C_v</key>
+    <string>cnct.mod_C__v.glif</string>
+    <key>cnct.mod_C_x</key>
+    <string>cnct.mod_C__x.glif</string>
+    <key>cnct.mod_C_z</key>
+    <string>cnct.mod_C__z.glif</string>
     <key>cnct.mod_G_b</key>
     <string>cnct.mod_G__b.glif</string>
     <key>cnct.mod_G_e</key>
@@ -1452,6 +1502,8 @@
     <string>cnct.mod_v_x.glif</string>
     <key>cnct.mod_v_z</key>
     <string>cnct.mod_v_z.glif</string>
+    <key>cnct.mrr_C_i</key>
+    <string>cnct.mrr_C__i.glif</string>
     <key>cnct.mrr_f_e</key>
     <string>cnct.mrr_f_e.glif</string>
     <key>cnct.mrr_f_e.mod</key>
@@ -2446,6 +2498,8 @@
     <string>slashshortcomb.glif</string>
     <key>slashshortcomb.case</key>
     <string>slashshortcomb.case.glif</string>
+    <key>softhyphen</key>
+    <string>softhyphen.glif</string>
     <key>space</key>
     <string>space.glif</string>
     <key>sterling</key>

@@ -32,6 +32,8 @@
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.AE.cur.locl</key>
       <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.AE.cur.locl.ini</key>
+      <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.AEacute</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Aacute</key>
@@ -88,6 +90,8 @@
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.C.cur</key>
       <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.C.cur.ini</key>
+      <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.CR</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Cacute</key>
@@ -113,6 +117,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.E</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.E.cur</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.E.cur.ini</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Eacute</key>
       <integer>14</integer>
@@ -201,6 +207,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.I</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.I.cur</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.I.cur.ini</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.I.dec</key>
       <integer>14</integer>
@@ -323,6 +331,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.OE.cur</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.OE.cur.locl</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.OE.cur.locl.ini</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Oacute</key>
       <integer>14</integer>
@@ -582,8 +592,6 @@
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.Zdotaccent</key>
       <integer>14</integer>
-      <key>com.schriftgestaltung.layerOrderInGlyph._circle</key>
-      <integer>7</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.a</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.a.mod</key>
@@ -824,6 +832,10 @@
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.circumflexcomb_tildecomb.case</key>
       <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_C_n</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_C_z</key>
+      <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_G_n</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_G_z</key>
@@ -901,6 +913,18 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_z_n</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.cnt_z_z</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_C_e</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_C_f</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_C_r</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_C_s</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_C_x</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_C_z</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_G_e</key>
       <integer>14</integer>
@@ -1098,6 +1122,8 @@
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.ful_z_z</key>
       <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.jmc_C_f</key>
+      <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.jmc_G_f</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.jmc_c_f</key>
@@ -1157,6 +1183,12 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.jmc_t.lop_de_f</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.jmc_v_f</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_C_h</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_C_t</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_C_t.lop_de</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.lop_G_h</key>
       <integer>14</integer>
@@ -1267,6 +1299,24 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_z.cnt</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mlp_o_z.mod</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_C_b</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_C_e</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_C_n</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_C_o</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_C_s</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_C_t</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_C_v</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_C_x</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_C_z</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_G_b</key>
       <integer>14</integer>
@@ -1455,6 +1505,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_v_x</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mod_v_z</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_C_i</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.cnct.mrr_f_e</key>
       <integer>14</integer>
@@ -2449,6 +2501,8 @@
       <key>com.schriftgestaltung.layerOrderInGlyph.slashshortcomb</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.slashshortcomb.case</key>
+      <integer>14</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.softhyphen</key>
       <integer>14</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.space</key>
       <integer>14</integer>
