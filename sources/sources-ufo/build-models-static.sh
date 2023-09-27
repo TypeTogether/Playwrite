@@ -6,7 +6,7 @@ scripts="../scripts"
 feaFile=../features/Playpen-models.fea
 
 if [ $1 = "ALL" ]; then
-    models=( ARG AUS_NSW AUS_QLD AUS_SA AUS_TAS AUS_VIC BEL_VLG BEL_WAL BRA CAN CHI COL CUB CZE DEU_Grundschrift DEU_LA DEU_SAS DEU_VA DNK_Looped DNK_Unlooped ENG_Joined ENG_Semijoined ESP ESP_OrnateUC FRA_Modern FRA_Traditional HRV HRV_Lefthand IDN IRL ISL ITA_Modern ITA_Traditional MEX NLD NOR NZL PER POL POR SVK USA_Modern USA_Traditional VNM ZAF )
+    models=( ARG AUS_NSW AUS_QLD AUS_SA AUS_TAS AUS_VIC BEL_VLG BEL_WAL BRA CAN CHI COL CUB CZE DEU_Grundschrift DEU_LA DEU_SAS DEU_VA DNK_Looped DNK_Unlooped ENG_Joined ENG_Semijoined ESP ESP_OrnateUC FRA_Modern FRA_Traditional HRV HRV_Lefthand IDN IRL ISL ITA_Modern ITA_Traditional MEX NLD NOR NZL PER POL PRT SVK USA_Modern USA_Traditional VNM ZAF )
 else
     models=( "$@" )
 fi
@@ -39,15 +39,6 @@ echo
             --output-dir $ttfFontsPath \
             --filter DecomposeTransformedComponentsFilter \
             --expand-features-to-instances
-            # --flatten-components
-
-    echo "
-    ===============================
-     Building GUIDES **$tag** font
-    ===============================
-    "
-    # python $scripts/build-guides-model.py $tag
-    sh build-models-guides-static.sh **$tag**
 
     echo "
     ======================
@@ -65,6 +56,14 @@ echo
       # fix post.italicAngle
       python $scripts/fix-models-static.py $ttf
     done
+
+    echo "
+    ===============================
+     Building GUIDES **$tag** font
+    ===============================
+    "
+    # python $scripts/build-guides-model.py $tag
+    sh build-models-guides-static.sh $tag
 done
 
 #
