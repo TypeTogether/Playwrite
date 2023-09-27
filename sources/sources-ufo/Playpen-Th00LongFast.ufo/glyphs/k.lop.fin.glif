@@ -2,7 +2,7 @@
 <glyph name="k.lop.fin" format="2">
   <advance width="564"/>
   <anchor x="314" y="0" name="bottom"/>
-  <anchor x="243" y="838" name="top"/>
+  <anchor x="254" y="1421" name="top"/>
   <outline>
     <contour>
       <point x="161" y="-15" type="curve" smooth="yes"/>
@@ -69,7 +69,7 @@
       <point x="440" y="330"/>
       <point x="279" y="255"/>
       <point x="168" y="223" type="curve"/>
-      <point x="165" y="201" type="line"/>
+      <point x="168" y="209" type="line"/>
       <point x="176" y="209" type="line"/>
       <point x="329" y="11"/>
       <point x="375" y="-19"/>
@@ -104,6 +104,8 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

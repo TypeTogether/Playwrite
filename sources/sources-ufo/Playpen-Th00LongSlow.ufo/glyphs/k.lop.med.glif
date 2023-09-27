@@ -3,7 +3,7 @@
   <advance width="564"/>
   <anchor x="320" y="0" name="bottom"/>
   <anchor x="564" y="0" name="cnct"/>
-  <anchor x="246" y="838" name="top"/>
+  <anchor x="260" y="1421" name="top"/>
   <outline>
     <contour>
       <point x="161" y="-15" type="curve" smooth="yes"/>
@@ -39,12 +39,11 @@
       <point x="534" y="-17"/>
       <point x="534" y="18"/>
       <point x="508" y="18" type="curve" smooth="yes"/>
-      <point x="448" y="18"/>
-      <point x="391" y="35"/>
-      <point x="216" y="234" type="curve"/>
-      <point x="214" y="226" type="line"/>
-      <point x="320" y="236"/>
-      <point x="494" y="294"/>
+      <point x="447" y="18"/>
+      <point x="390" y="35"/>
+      <point x="222" y="227" type="curve"/>
+      <point x="331" y="240"/>
+      <point x="494" y="297"/>
       <point x="494" y="420" type="curve" smooth="yes"/>
       <point x="494" y="481"/>
       <point x="456" y="518"/>
@@ -62,9 +61,9 @@
       <point x="455" y="325"/>
       <point x="334" y="269"/>
       <point x="174" y="249" type="curve"/>
-      <point x="171" y="221" type="line"/>
-      <point x="180" y="221" type="line"/>
-      <point x="359" y="10"/>
+      <point x="174" y="224" type="line"/>
+      <point x="180" y="224" type="line"/>
+      <point x="359" y="13"/>
       <point x="429" y="-17"/>
     </contour>
   </outline>
@@ -97,6 +96,8 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>

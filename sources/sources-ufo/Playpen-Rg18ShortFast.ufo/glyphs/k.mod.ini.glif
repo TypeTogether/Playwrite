@@ -6,22 +6,6 @@
   <anchor x="358" y="838" name="top"/>
   <outline>
     <contour>
-      <point x="90" y="-15" type="curve" smooth="yes"/>
-      <point x="120" y="-15"/>
-      <point x="131" y="-7"/>
-      <point x="138" y="11" type="curve" smooth="yes"/>
-      <point x="409" y="851" type="line" smooth="yes"/>
-      <point x="418" y="878"/>
-      <point x="409" y="890"/>
-      <point x="368" y="890" type="curve" smooth="yes"/>
-      <point x="341" y="890"/>
-      <point x="331" y="885"/>
-      <point x="323" y="858" type="curve" smooth="yes"/>
-      <point x="53" y="18" type="line" smooth="yes"/>
-      <point x="45" y="-7"/>
-      <point x="69" y="-15"/>
-    </contour>
-    <contour>
       <point x="408" y="-17" type="curve" smooth="yes"/>
       <point x="448" y="-17"/>
       <point x="448" y="58"/>
@@ -36,10 +20,24 @@
       <point x="571" y="516"/>
       <point x="556" y="518"/>
       <point x="531" y="504" type="curve" smooth="yes"/>
-      <point x="205" y="324" type="line"/>
-      <point x="188" y="276" type="line"/>
-      <point x="274" y="31"/>
-      <point x="326" y="-17"/>
+      <point x="246" y="347" type="line"/>
+      <point x="409" y="851" type="line" smooth="yes"/>
+      <point x="418" y="878"/>
+      <point x="409" y="890"/>
+      <point x="368" y="890" type="curve" smooth="yes"/>
+      <point x="341" y="890"/>
+      <point x="331" y="885"/>
+      <point x="323" y="858" type="curve" smooth="yes"/>
+      <point x="53" y="18" type="line" smooth="yes"/>
+      <point x="45" y="-7"/>
+      <point x="69" y="-15"/>
+      <point x="90" y="-15" type="curve" smooth="yes"/>
+      <point x="120" y="-15"/>
+      <point x="131" y="-7"/>
+      <point x="138" y="11" type="curve" smooth="yes"/>
+      <point x="207" y="224" type="line"/>
+      <point x="282" y="24"/>
+      <point x="332" y="-17"/>
     </contour>
   </outline>
   <lib>
@@ -71,6 +69,8 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>
