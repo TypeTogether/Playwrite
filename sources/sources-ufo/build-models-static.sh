@@ -21,8 +21,8 @@ do
 
     ttfFontsPath="../../fonts-models/fonts-$tag/static/ttf"
 
-    rm -rf $ttfFontsPath  # $ttfFontsPath $webFontsPath
-    mkdir -p $ttfFontsPath # $ttfFontsPath $webFontsPath
+    rm -rf $ttfFontsPath
+    mkdir -p $ttfFontsPath
 
     # set locl code in features
     python $scripts/add-locl-fea.py $tag $feaFile
