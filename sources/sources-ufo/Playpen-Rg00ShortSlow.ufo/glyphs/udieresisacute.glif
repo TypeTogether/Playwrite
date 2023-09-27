@@ -2,14 +2,14 @@
 <glyph name="udieresisacute" format="2">
   <advance width="645"/>
   <unicode hex="01D8"/>
-  <anchor x="303" y="0" name="bottom"/>
-  <anchor x="581" y="13" name="ogonek"/>
-  <anchor x="303" y="1079" name="top"/>
-  <anchor x="470" y="514" name="topright"/>
+  <anchor x="323" y="0" name="bottom"/>
+  <anchor x="581" y="10" name="ogonek"/>
+  <anchor x="323" y="1079" name="top"/>
+  <anchor x="625" y="500" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="dieresiscomb" xOffset="303"/>
-    <component base="acutecomb" xOffset="303" yOffset="261"/>
+    <component base="dieresiscomb" xOffset="323"/>
+    <component base="acutecomb" xOffset="323" yOffset="261"/>
   </outline>
   <lib>
     <dict>

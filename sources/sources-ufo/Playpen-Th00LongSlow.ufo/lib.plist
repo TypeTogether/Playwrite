@@ -98,14 +98,12 @@
       <string>E</string>
       <string>F</string>
       <string>G</string>
-      <string>G.alt1</string>
       <string>H</string>
       <string>I</string>
       <string>J</string>
       <string>K</string>
       <string>L</string>
       <string>M</string>
-      <string>M.alt1</string>
       <string>N</string>
       <string>O</string>
       <string>P</string>
@@ -181,10 +179,7 @@
       <string>sterling</string>
       <string>yen</string>
       <string>florin</string>
-      <string>liraTurkish</string>
-      <string>bitcoin</string>
       <string>percent</string>
-      <string>perthousand</string>
       <string>period</string>
       <string>comma</string>
       <string>colon</string>
@@ -504,7 +499,6 @@
       <string>zacute</string>
       <string>zcaron</string>
       <string>zdotaccent</string>
-      <string>##accents</string>
       <string>dieresis</string>
       <string>dotaccent</string>
       <string>grave</string>
@@ -583,7 +577,6 @@
       <string>slashshortcomb.case</string>
       <string>slashlongcomb.case</string>
       <string>strokeshortcomb.t</string>
-      <string>##extraSymbols</string>
       <string>degree</string>
       <string>minute</string>
       <string>second</string>
@@ -600,19 +593,12 @@
       <string>slash</string>
       <string>backslash</string>
       <string>bar</string>
-      <string>brokenbar</string>
       <string>periodcentered</string>
       <string>bullet</string>
       <string>hyphen</string>
       <string>softhyphen</string>
       <string>endash</string>
       <string>emdash</string>
-      <string>hyphen.case</string>
-      <string>at.case</string>
-      <string>exclamdown.case</string>
-      <string>questiondown.case</string>
-      <string>dagger</string>
-      <string>daggerdbl</string>
       <string>section</string>
       <string>paragraph</string>
       <string>asciicircum</string>
@@ -621,32 +607,9 @@
       <string>copyright</string>
       <string>registered</string>
       <string>trademark</string>
-      <string>numero</string>
-      <string>currency</string>
-      <string>onesuperior</string>
-      <string>twosuperior</string>
-      <string>threesuperior</string>
-      <string>foursuperior</string>
       <string>ordfeminine</string>
       <string>ordmasculine</string>
-      <string>fraction</string>
-      <string>onehalf</string>
-      <string>onequarter</string>
-      <string>threequarters</string>
-      <string>partialdiff</string>
-      <string>Ohm</string>
-      <string>increment</string>
       <string>product</string>
-      <string>summation</string>
-      <string>Delta</string>
-      <string>Omega</string>
-      <string>mu</string>
-      <string>pi</string>
-      <string>micro</string>
-      <string>divisionslash</string>
-      <string>bulletoperator</string>
-      <string>radical</string>
-      <string>infinity</string>
       <string>integral</string>
       <string>approxequal</string>
       <string>notequal</string>
@@ -655,7 +618,6 @@
       <string>less</string>
       <string>equal</string>
       <string>greater</string>
-      <string>lozenge</string>
       <string>plus</string>
       <string>minus</string>
       <string>plusminus</string>
@@ -1086,10 +1048,6 @@
       <string>b.lop.ini</string>
       <string>b.lop.med</string>
       <string>b.lop.fin</string>
-      <string>f.lop</string>
-      <string>f.lop.ini</string>
-      <string>f.lop.med</string>
-      <string>f.lop.fin</string>
       <string>h.lop</string>
       <string>h.lop.ini</string>
       <string>h.lop.med</string>
@@ -1296,7 +1254,6 @@
       <string>cnct.mlp_o_s.mod</string>
       <string>cnct.mlp_o_z.mod</string>
       <string>cnct.mlp_o_z.cnt</string>
-      <string>##loclLowercase</string>
       <string>b.jmc_dk</string>
       <string>b.jmc_dk.ini</string>
       <string>b.jmc_dk.med</string>
@@ -1352,9 +1309,6 @@
       <string>x.cnt_de.med</string>
       <string>x.cnt_de.fin</string>
       <string>y_de</string>
-      <string>y_de.ini</string>
-      <string>y_de.med</string>
-      <string>y_de.fin</string>
       <string>z.cnt_au</string>
       <string>z.cnt_au.ini</string>
       <string>z.cnt_au.med</string>
@@ -1363,8 +1317,6 @@
       <string>z.cnt_no.ini</string>
       <string>z.cnt_no.med</string>
       <string>z.cnt_no.fin</string>
-      <string>##CNCTloclLowercase</string>
-      <string>##locl_t_SRC</string>
       <string>cnct.mod_t.lop_de_b</string>
       <string>cnct.mod_t.lop_de_e</string>
       <string>cnct.mod_t.lop_de_n</string>
@@ -1384,7 +1336,6 @@
       <string>cnct.lop_t.lop_de_h</string>
       <string>cnct.cnt_t.lop_de_n</string>
       <string>cnct.cnt_t.lop_de_z</string>
-      <string>##locl_t_TGT</string>
       <string>cnct.mod_c_t.lop_de</string>
       <string>cnct.mod_e_t.lop_de</string>
       <string>cnct.mod_n_t.lop_de</string>
@@ -1402,7 +1353,6 @@
       <string>cnct.mlp_b_t.lop_de</string>
       <string>cnct.mlp_f_t.lop_de</string>
       <string>cnct.mlp_o_t.lop_de</string>
-      <string>##CapsCur</string>
       <string>A.cur</string>
       <string>A.cur.ini</string>
       <string>B.cur</string>
@@ -1448,7 +1398,6 @@
       <string>IJ.cur</string>
       <string>IJ.cur.ini</string>
       <string>OE.cur</string>
-      <string>##CapsDEC</string>
       <string>A.dec</string>
       <string>A.dec_locl</string>
       <string>A.dec_locl.ini</string>
@@ -1485,7 +1434,6 @@
       <string>X.dec_locl.ini</string>
       <string>Z.dec</string>
       <string>Z.dec.ini</string>
-      <string>##LocalizedCaps</string>
       <string>I_locl</string>
       <string>G_locl</string>
       <string>G_locl.au</string>
@@ -1508,7 +1456,6 @@
       <string>Z.dec_locl.ini</string>
       <string>AE.cur.locl</string>
       <string>OE.cur.locl</string>
-      <string>##capConnectors</string>
       <string>cnct.cnt_G_n</string>
       <string>cnct.cnt_G_z</string>
       <string>cnct.lop_G_h</string>
@@ -1535,7 +1482,6 @@
       <string>cnct.mod_G_v</string>
       <string>cnct.mod_G_x</string>
       <string>cnct.mod_G_z</string>
-      <string>##EntryStrokes</string>
       <string>entr_rful</string>
       <string>entr_sful</string>
       <string>entr_xful</string>
@@ -1545,7 +1491,33 @@
       <string>entr_ncnt</string>
       <string>entr_zcnt</string>
       <string>dottedCircle</string>
-      <string>_circle</string>
+      <string>C.cur.ini</string>
+      <string>E.cur.ini</string>
+      <string>I.cur.ini</string>
+      <string>AE.cur.locl.ini</string>
+      <string>OE.cur.locl.ini</string>
+      <string>cnct.cnt_C_n</string>
+      <string>cnct.cnt_C_z</string>
+      <string>cnct.ful_C_e</string>
+      <string>cnct.ful_C_f</string>
+      <string>cnct.ful_C_r</string>
+      <string>cnct.ful_C_s</string>
+      <string>cnct.ful_C_x</string>
+      <string>cnct.ful_C_z</string>
+      <string>cnct.jmc_C_f</string>
+      <string>cnct.lop_C_h</string>
+      <string>cnct.lop_C_t</string>
+      <string>cnct.mod_C_b</string>
+      <string>cnct.mod_C_e</string>
+      <string>cnct.mod_C_n</string>
+      <string>cnct.mod_C_o</string>
+      <string>cnct.mod_C_s</string>
+      <string>cnct.mod_C_t</string>
+      <string>cnct.mod_C_v</string>
+      <string>cnct.mod_C_x</string>
+      <string>cnct.mod_C_z</string>
+      <string>cnct.mrr_C_i</string>
+      <string>cnct.lop_C_t.lop_de</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
@@ -1895,6 +1867,8 @@
       <string>uni0337</string>
       <key>slashshortcomb.case</key>
       <string>uni0337.case</string>
+      <key>softhyphen</key>
+      <string>uni00AD</string>
       <key>strokelongcomb</key>
       <string>uni0336</string>
       <key>strokeshortcomb</key>

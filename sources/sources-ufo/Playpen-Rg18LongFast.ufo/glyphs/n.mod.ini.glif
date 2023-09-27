@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="n.mod.ini" format="2">
   <advance width="671"/>
-  <guideline x="383" y="-34" angle="72"/>
   <anchor x="275" y="0" name="bottom"/>
   <anchor x="590" y="0" name="cnct"/>
   <anchor x="403" y="500" name="top"/>
@@ -18,25 +17,9 @@
       <point x="616" y="450"/>
       <point x="585" y="519"/>
       <point x="493" y="519" type="curve" smooth="yes"/>
-      <point x="364" y="519"/>
-      <point x="231" y="373"/>
-      <point x="131" y="126" type="curve"/>
-      <point x="136" y="36" type="line"/>
-      <point x="233" y="270"/>
-      <point x="369" y="439"/>
-      <point x="460" y="439" type="curve" smooth="yes"/>
-      <point x="515" y="439"/>
-      <point x="510" y="395"/>
-      <point x="493" y="344" type="curve" smooth="yes"/>
-      <point x="425" y="148" type="line" smooth="yes"/>
-      <point x="403" y="84"/>
-      <point x="386" y="-17"/>
-    </contour>
-    <contour>
-      <point x="81" y="-15" type="curve" smooth="yes"/>
-      <point x="111" y="-15"/>
-      <point x="123" y="-7"/>
-      <point x="129" y="11" type="curve" smooth="yes"/>
+      <point x="403" y="519"/>
+      <point x="311" y="448"/>
+      <point x="230" y="321" type="curve"/>
       <point x="280" y="476" type="line" smooth="yes"/>
       <point x="289" y="503"/>
       <point x="280" y="515"/>
@@ -47,6 +30,20 @@
       <point x="44" y="18" type="line" smooth="yes"/>
       <point x="35" y="-7"/>
       <point x="60" y="-15"/>
+      <point x="81" y="-15" type="curve" smooth="yes"/>
+      <point x="111" y="-15"/>
+      <point x="123" y="-7"/>
+      <point x="129" y="11" type="curve" smooth="yes"/>
+      <point x="141" y="48" type="line"/>
+      <point x="238" y="276"/>
+      <point x="371" y="439"/>
+      <point x="460" y="439" type="curve" smooth="yes"/>
+      <point x="515" y="439"/>
+      <point x="510" y="395"/>
+      <point x="493" y="344" type="curve" smooth="yes"/>
+      <point x="425" y="148" type="line" smooth="yes"/>
+      <point x="403" y="84"/>
+      <point x="386" y="-17"/>
     </contour>
   </outline>
   <lib>
@@ -78,6 +75,8 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
     </dict>
   </lib>
 </glyph>
