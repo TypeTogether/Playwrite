@@ -33,10 +33,10 @@ do
  $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
 echo
 
-    # Build Regular instance ufo
+    # Build Thin instance ufo
     tagspaced=${tag/"_"/" "}
     tagnospace=${tag/"_"/""}
-    fontmake -m ./designspace-models/$tag.designspace -i "Playpen $tagspaced Regular" -o ufo \
+    fontmake -m ./designspace-models/$tag.designspace -i "Playpen $tagspaced Thin" -o ufo \
     # save as Guides ufo and process
     python $scripts/build-guides-model.py $tag
 
@@ -58,6 +58,3 @@ echo
     mv "$ttf.fix" $ttf
     echo $ttf
 done
-
-# #
-# rm -rf instance_ufo
