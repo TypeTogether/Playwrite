@@ -26,10 +26,11 @@ def get_yGuides(font):
 def drawGuides(glyph, yValues, lineWidth=10):
     glyphWidth = glyph.width
 
-    if glyph.name != ".notdef":
-        glyph.clear(anchors=False)
+    # if glyph.name != ".notdef":
+    #     glyph.clear(anchors=False)
 
     if glyphWidth and glyph.name != ".notdef":
+        glyph.decompose()
         pen = glyph.getPen()
         for y in yValues:
             pen.moveTo((0, y))
@@ -42,8 +43,8 @@ def drawGuides(glyph, yValues, lineWidth=10):
 def main():
     tag = sys.argv[1]
     tagnospace = tag.replace('_', '')
-    src_path = os.path.abspath(f"./instance_ufo/Playpen{tagnospace}-Regular.ufo")
-    tgt_path = src_path.replace("Regular", "Guides")
+    src_path = os.path.abspath(f"./instance_ufo/Playpen{tagnospace}-Thin.ufo")
+    tgt_path = src_path.replace("Thin", "Guides")
 
     src_font = OpenFont(src_path, showInterface=False)
     src_font.save(tgt_path)
