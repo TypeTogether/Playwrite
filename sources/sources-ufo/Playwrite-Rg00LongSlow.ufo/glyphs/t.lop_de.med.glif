@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="t.lop_de.med" format="2">
+  <advance width="514"/>
+  <anchor x="514" y="0" name="cnct"/>
+  <anchor x="286" y="1424" name="top"/>
+  <anchor x="284" y="1553" name="topright"/>
+  <outline>
+    <contour>
+      <point x="273" y="-15" type="curve" smooth="yes"/>
+      <point x="301" y="-15"/>
+      <point x="316" y="-6"/>
+      <point x="316" y="11" type="curve" smooth="yes"/>
+      <point x="316" y="1489" type="line" smooth="yes"/>
+      <point x="316" y="1506"/>
+      <point x="301" y="1515"/>
+      <point x="273" y="1515" type="curve" smooth="yes"/>
+      <point x="244" y="1515"/>
+      <point x="230" y="1506"/>
+      <point x="230" y="1489" type="curve" smooth="yes"/>
+      <point x="230" y="11" type="line" smooth="yes"/>
+      <point x="230" y="-6"/>
+      <point x="244" y="-15"/>
+    </contour>
+  </outline>
+</glyph>

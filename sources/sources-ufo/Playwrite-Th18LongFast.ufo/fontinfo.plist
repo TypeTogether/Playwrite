@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>ascender</key>
+    <integer>1500</integer>
+    <key>capHeight</key>
+    <integer>1500</integer>
+    <key>copyright</key>
+    <string>Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)</string>
+    <key>descender</key>
+    <integer>-1000</integer>
+    <key>familyName</key>
+    <string>Playwrite</string>
+    <key>guidelines</key>
+    <array/>
+    <key>italicAngle</key>
+    <integer>-18</integer>
+    <key>openTypeHeadCreated</key>
+    <string>2023/09/19 13:56:18</string>
+    <key>openTypeHheaAscender</key>
+    <integer>2040</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-1020</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
+    <key>openTypeNameDescription</key>
+    <string>First Release</string>
+    <key>openTypeNameDesigner</key>
+    <string>Veronika Burian, José Scaglione</string>
+    <key>openTypeNameDesignerURL</key>
+    <string>www.type-together.com</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>https://scripts.sil.org/OFL</string>
+    <key>openTypeNameManufacturer</key>
+    <string>TypeTogether</string>
+    <key>openTypeNameManufacturerURL</key>
+    <string>www.type-together.com</string>
+    <key>openTypeNameVersion</key>
+    <string>Version 1.000</string>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>2040</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-1020</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>TT</string>
+    <key>openTypeOS2WinAscent</key>
+    <integer>2040</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>1020</integer>
+    <key>postscriptBlueValues</key>
+    <array>
+      <integer>-19</integer>
+      <integer>0</integer>
+      <integer>500</integer>
+      <integer>519</integer>
+      <integer>1500</integer>
+      <integer>1519</integer>
+      <integer>1500</integer>
+      <integer>1519</integer>
+    </array>
+    <key>postscriptFamilyBlues</key>
+    <array/>
+    <key>postscriptFamilyOtherBlues</key>
+    <array/>
+    <key>postscriptOtherBlues</key>
+    <array>
+      <integer>-1019</integer>
+      <integer>-1000</integer>
+    </array>
+    <key>postscriptStemSnapH</key>
+    <array/>
+    <key>postscriptStemSnapV</key>
+    <array/>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-100</integer>
+    <key>postscriptUnderlineThickness</key>
+    <integer>50</integer>
+    <key>styleName</key>
+    <string>Th 18 Long Fast</string>
+    <key>unitsPerEm</key>
+    <integer>1000</integer>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>0</integer>
+    <key>xHeight</key>
+    <integer>500</integer>
+  </dict>
+</plist>

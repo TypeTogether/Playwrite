@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="commaturnedabovecomb" format="2">
+  <unicode hex="0312"/>
+  <anchor x="81" y="500" name="_top"/>
+  <anchor x="184" y="818" name="top"/>
+  <outline>
+    <contour>
+      <point x="214" y="833" type="curve" smooth="yes"/>
+      <point x="205" y="841"/>
+      <point x="195" y="836"/>
+      <point x="189" y="830" type="curve" smooth="yes"/>
+      <point x="124" y="763"/>
+      <point x="101" y="690"/>
+      <point x="101" y="646" type="curve" smooth="yes"/>
+      <point x="101" y="635"/>
+      <point x="108" y="630"/>
+      <point x="120" y="630" type="curve" smooth="yes"/>
+      <point x="133" y="630"/>
+      <point x="140" y="635"/>
+      <point x="141" y="649" type="curve" smooth="yes"/>
+      <point x="146" y="721"/>
+      <point x="176" y="763"/>
+      <point x="215" y="809" type="curve" smooth="yes"/>
+      <point x="223" y="818"/>
+      <point x="221" y="825"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>313</integer>
+    </dict>
+  </lib>
+</glyph>

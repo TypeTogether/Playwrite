@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="K" format="2">
+  <advance width="688"/>
+  <unicode hex="004B"/>
+  <guideline x="502" y="-12" angle="0"/>
+  <anchor x="381" y="0" name="bottom"/>
+  <anchor x="381" y="838" name="top"/>
+  <outline>
+    <contour>
+      <point x="169" y="-14" type="curve" smooth="yes"/>
+      <point x="198" y="-14"/>
+      <point x="213" y="-5"/>
+      <point x="213" y="14" type="curve" smooth="yes"/>
+      <point x="213" y="419" type="line"/>
+      <point x="320" y="270"/>
+      <point x="458" y="113"/>
+      <point x="603" y="-5" type="curve" smooth="yes"/>
+      <point x="623" y="-21"/>
+      <point x="641" y="-20"/>
+      <point x="659" y="-4" type="curve" smooth="yes"/>
+      <point x="684" y="21"/>
+      <point x="676" y="43"/>
+      <point x="661" y="54" type="curve" smooth="yes"/>
+      <point x="534" y="156"/>
+      <point x="415" y="286"/>
+      <point x="278" y="461" type="curve"/>
+      <point x="654" y="826" type="line" smooth="yes"/>
+      <point x="666" y="839"/>
+      <point x="666" y="851"/>
+      <point x="648" y="873" type="curve" smooth="yes"/>
+      <point x="630" y="891"/>
+      <point x="616" y="898"/>
+      <point x="600" y="881" type="curve" smooth="yes"/>
+      <point x="213" y="508" type="line"/>
+      <point x="213" y="863" type="line" smooth="yes"/>
+      <point x="213" y="881"/>
+      <point x="198" y="890"/>
+      <point x="169" y="890" type="curve" smooth="yes"/>
+      <point x="140" y="890"/>
+      <point x="125" y="881"/>
+      <point x="125" y="863" type="curve" smooth="yes"/>
+      <point x="125" y="14" type="line" smooth="yes"/>
+      <point x="125" y="-5"/>
+      <point x="140" y="-14"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=H</string>
+    </dict>
+  </lib>
+</glyph>

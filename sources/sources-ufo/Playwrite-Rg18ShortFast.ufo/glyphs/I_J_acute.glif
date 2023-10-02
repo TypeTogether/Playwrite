@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="IJacute" format="2">
+  <advance width="988"/>
+  <anchor x="88" y="0" name="bottom_1"/>
+  <anchor x="582" y="0" name="bottom_2"/>
+  <anchor x="104" y="-6" name="ogonek"/>
+  <anchor x="353" y="838" name="top_1"/>
+  <anchor x="1021" y="838" name="top_2"/>
+  <outline>
+    <component base="I"/>
+    <component base="acutecomb.case" xOffset="164"/>
+    <component base="J" xOffset="338"/>
+    <component base="acutecomb.case" xOffset="832"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

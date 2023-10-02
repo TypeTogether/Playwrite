@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_tildecomb.case" format="2">
+  <anchor x="380" y="1425" name="_top"/>
+  <anchor x="526" y="1894" name="top"/>
+  <outline>
+    <contour>
+      <point x="269" y="1575" type="curve" smooth="yes"/>
+      <point x="274" y="1575"/>
+      <point x="276" y="1576"/>
+      <point x="286" y="1584" type="curve" smooth="yes"/>
+      <point x="475" y="1714" type="line"/>
+      <point x="606" y="1583" type="line" smooth="yes"/>
+      <point x="611" y="1578"/>
+      <point x="614" y="1575"/>
+      <point x="620" y="1575" type="curve" smooth="yes"/>
+      <point x="628" y="1575"/>
+      <point x="638" y="1581"/>
+      <point x="638" y="1591" type="curve" smooth="yes"/>
+      <point x="638" y="1595"/>
+      <point x="635" y="1600"/>
+      <point x="633" y="1604" type="curve" smooth="yes"/>
+      <point x="495" y="1753" type="line" smooth="yes"/>
+      <point x="489" y="1759"/>
+      <point x="485" y="1761"/>
+      <point x="480" y="1761" type="curve" smooth="yes"/>
+      <point x="475" y="1761"/>
+      <point x="471" y="1759"/>
+      <point x="463" y="1753" type="curve" smooth="yes"/>
+      <point x="259" y="1604" type="line" smooth="yes"/>
+      <point x="253" y="1599"/>
+      <point x="251" y="1595"/>
+      <point x="251" y="1590" type="curve" smooth="yes"/>
+      <point x="251" y="1583"/>
+      <point x="260" y="1575"/>
+    </contour>
+    <contour>
+      <point x="331" y="1789" type="curve" smooth="yes"/>
+      <point x="344" y="1789"/>
+      <point x="350" y="1794"/>
+      <point x="352" y="1806" type="curve" smooth="yes"/>
+      <point x="362" y="1856"/>
+      <point x="385" y="1881"/>
+      <point x="414" y="1881" type="curve" smooth="yes"/>
+      <point x="476" y="1881"/>
+      <point x="519" y="1793"/>
+      <point x="596" y="1793" type="curve" smooth="yes"/>
+      <point x="652" y="1793"/>
+      <point x="685" y="1830"/>
+      <point x="699" y="1900" type="curve" smooth="yes"/>
+      <point x="701" y="1914"/>
+      <point x="697" y="1919"/>
+      <point x="684" y="1919" type="curve" smooth="yes"/>
+      <point x="671" y="1919"/>
+      <point x="665" y="1915"/>
+      <point x="662" y="1901" type="curve" smooth="yes"/>
+      <point x="655" y="1853"/>
+      <point x="631" y="1828"/>
+      <point x="601" y="1828" type="curve" smooth="yes"/>
+      <point x="539" y="1828"/>
+      <point x="499" y="1916"/>
+      <point x="417" y="1916" type="curve" smooth="yes"/>
+      <point x="364" y="1916"/>
+      <point x="330" y="1876"/>
+      <point x="317" y="1808" type="curve" smooth="yes"/>
+      <point x="315" y="1796"/>
+      <point x="320" y="1789"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>313</integer>
+    </dict>
+  </lib>
+</glyph>

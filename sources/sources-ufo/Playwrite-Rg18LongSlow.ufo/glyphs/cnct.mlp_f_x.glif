@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cnct.mlp_f_x" format="2">
+  <guideline x="-163" y="39" angle="85.426"/>
+  <guideline y="88"/>
+  <guideline x="209" y="415" angle="260.538"/>
+  <guideline y="336"/>
+  <guideline x="95" y="384" angle="238.392"/>
+  <guideline y="370"/>
+  <guideline x="30" y="173" angle="59.338"/>
+  <anchor x="-81" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-197" y="-29" type="curve" smooth="yes"/>
+      <point x="-120" y="-29"/>
+      <point x="-64" y="46"/>
+      <point x="38" y="216" type="curve" smooth="yes"/>
+      <point x="166" y="433"/>
+      <point x="203" y="444"/>
+      <point x="249" y="444" type="curve" smooth="yes"/>
+      <point x="274" y="444"/>
+      <point x="286" y="519"/>
+      <point x="261" y="519" type="curve" smooth="yes"/>
+      <point x="184" y="519"/>
+      <point x="133" y="503"/>
+      <point x="-11" y="269" type="curve" smooth="yes"/>
+      <point x="-104" y="118"/>
+      <point x="-142" y="46"/>
+      <point x="-196" y="46" type="curve" smooth="yes"/>
+      <point x="-241" y="46"/>
+      <point x="-276" y="66"/>
+      <point x="-276" y="110" type="curve" smooth="yes"/>
+      <point x="-276" y="130"/>
+      <point x="-326" y="130"/>
+      <point x="-326" y="110" type="curve" smooth="yes"/>
+      <point x="-326" y="15"/>
+      <point x="-272" y="-29"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

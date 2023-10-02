@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="e.ful.med" format="2">
+  <advance width="444"/>
+  <anchor x="226" y="0" name="bottom"/>
+  <anchor x="363" y="0" name="cnct"/>
+  <anchor x="360" y="13" name="ogonek"/>
+  <anchor x="278" y="500" name="top"/>
+  <outline>
+    <contour>
+      <point x="75" y="143" type="curve"/>
+      <point x="106" y="79" type="line"/>
+      <point x="133" y="95"/>
+      <point x="160" y="113"/>
+      <point x="185" y="131" type="curve" smooth="yes"/>
+      <point x="300" y="215"/>
+      <point x="394" y="323"/>
+      <point x="394" y="414" type="curve" smooth="yes"/>
+      <point x="394" y="479"/>
+      <point x="345" y="519"/>
+      <point x="285" y="519" type="curve" smooth="yes"/>
+      <point x="229" y="519"/>
+      <point x="226" y="439"/>
+      <point x="264" y="439" type="curve" smooth="yes"/>
+      <point x="290" y="439"/>
+      <point x="304" y="420"/>
+      <point x="304" y="390" type="curve" smooth="yes"/>
+      <point x="304" y="331"/>
+      <point x="233" y="255"/>
+      <point x="144" y="190" type="curve" smooth="yes"/>
+      <point x="121" y="174"/>
+      <point x="99" y="158"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

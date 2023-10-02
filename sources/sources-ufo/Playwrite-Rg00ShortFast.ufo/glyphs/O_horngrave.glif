@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohorngrave" format="2">
+  <advance width="925"/>
+  <unicode hex="1EDC"/>
+  <anchor x="463" y="0" name="bottom"/>
+  <anchor x="463" y="438" name="center"/>
+  <anchor x="591" y="6" name="ogonek"/>
+  <anchor x="463" y="1105" name="top"/>
+  <outline>
+    <component base="Ohorn"/>
+    <component base="gravecomb.case" xOffset="463"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

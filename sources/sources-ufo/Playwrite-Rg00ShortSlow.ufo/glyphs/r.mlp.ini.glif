@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="r.mlp.ini" format="2">
+  <advance width="568"/>
+  <anchor x="568" y="0" name="cnct"/>
+  <anchor x="218" y="0" name="bottom"/>
+  <anchor x="274" y="500" name="top"/>
+  <outline>
+    <contour>
+      <point x="-55" y="-17" type="curve" smooth="yes"/>
+      <point x="73" y="-17"/>
+      <point x="145" y="125"/>
+      <point x="170" y="424" type="curve"/>
+      <point x="110" y="433" type="line"/>
+      <point x="83" y="188"/>
+      <point x="25" y="58"/>
+      <point x="-57" y="58" type="curve" smooth="yes"/>
+      <point x="-107" y="58"/>
+      <point x="-105" y="-17"/>
+    </contour>
+    <component base="r.mlp.med"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>r.mlp.med</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

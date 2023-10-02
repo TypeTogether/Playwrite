@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless.mod.fin" format="2">
+  <advance width="325"/>
+  <anchor x="136" y="0" name="bottom"/>
+  <anchor x="203" y="0" name="ogonek"/>
+  <anchor x="238" y="500" name="top"/>
+  <outline>
+    <component base="idotless.mod"/>
+  </outline>
+</glyph>

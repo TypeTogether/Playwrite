@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slashlongcomb.case" format="2">
+  <anchor x="0" y="268" name="_center"/>
+  <outline>
+    <contour>
+      <point x="-651" y="-495" type="curve" smooth="yes"/>
+      <point x="674" y="1000" type="line" smooth="yes"/>
+      <point x="681" y="1009"/>
+      <point x="679" y="1018"/>
+      <point x="671" y="1025" type="curve" smooth="yes"/>
+      <point x="663" y="1034"/>
+      <point x="651" y="1034"/>
+      <point x="644" y="1025" type="curve" smooth="yes"/>
+      <point x="-681" y="-470" type="line" smooth="yes"/>
+      <point x="-687" y="-477"/>
+      <point x="-686" y="-487"/>
+      <point x="-677" y="-495" type="curve" smooth="yes"/>
+      <point x="-669" y="-502"/>
+      <point x="-659" y="-504"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>313</integer>
+    </dict>
+  </lib>
+</glyph>

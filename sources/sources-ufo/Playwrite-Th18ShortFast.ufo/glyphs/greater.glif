@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="greater" format="2">
+  <advance width="763"/>
+  <unicode hex="003E"/>
+  <outline>
+    <contour>
+      <point x="98" y="179" type="curve" smooth="yes"/>
+      <point x="680" y="405" type="line" smooth="yes"/>
+      <point x="705" y="415"/>
+      <point x="715" y="419"/>
+      <point x="721" y="436" type="curve" smooth="yes"/>
+      <point x="726" y="453"/>
+      <point x="720" y="458"/>
+      <point x="700" y="468" type="curve" smooth="yes"/>
+      <point x="265" y="694" type="line" smooth="yes"/>
+      <point x="255" y="699"/>
+      <point x="246" y="698"/>
+      <point x="240" y="686" type="curve" smooth="yes"/>
+      <point x="234" y="676"/>
+      <point x="239" y="668"/>
+      <point x="246" y="664" type="curve" smooth="yes"/>
+      <point x="676" y="440" type="line"/>
+      <point x="86" y="211" type="line" smooth="yes"/>
+      <point x="74" y="206"/>
+      <point x="73" y="200"/>
+      <point x="76" y="188" type="curve" smooth="yes"/>
+      <point x="80" y="175"/>
+      <point x="85" y="174"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
