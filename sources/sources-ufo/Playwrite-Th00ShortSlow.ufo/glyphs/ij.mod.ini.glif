@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij.mod.ini" format="2">
+  <advance width="630"/>
+  <anchor x="630" y="0" name="cnct"/>
+  <anchor x="223" y="0" name="bottom"/>
+  <anchor x="278" y="0" name="ogonek"/>
+  <outline>
+    <component base="i.mod.ini"/>
+    <component base="cnct.mod_n_n" xOffset="325"/>
+    <component base="j.mod" xOffset="325"/>
+  </outline>
+</glyph>

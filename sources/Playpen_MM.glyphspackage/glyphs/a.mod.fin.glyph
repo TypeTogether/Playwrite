@@ -2,14 +2,6 @@
 glyphname = a.mod.fin;
 layers = (
 {
-background = {
-shapes = (
-{
-alignment = -1;
-ref = a.mod;
-}
-);
-};
 layerId = m01;
 shapes = (
 {

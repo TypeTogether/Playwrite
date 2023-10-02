@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cnct.cnt_r_f" format="2">
+  <anchor x="0" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="81" y="226" type="curve" smooth="yes"/>
+      <point x="294" y="226"/>
+      <point x="441" y="663"/>
+      <point x="441" y="1294" type="curve" smooth="yes"/>
+      <point x="441" y="1319"/>
+      <point x="403" y="1319"/>
+      <point x="403" y="1294" type="curve" smooth="yes"/>
+      <point x="403" y="693"/>
+      <point x="269" y="258"/>
+      <point x="83" y="258" type="curve" smooth="yes"/>
+      <point x="-7" y="258"/>
+      <point x="-66" y="331"/>
+      <point x="-75" y="493" type="curve" smooth="yes"/>
+      <point x="-76" y="511"/>
+      <point x="-79" y="519"/>
+      <point x="-107" y="519" type="curve"/>
+      <point x="-107" y="485" type="line"/>
+      <point x="-94" y="324"/>
+      <point x="-42" y="226"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>63</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

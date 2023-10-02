@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcomb" format="2">
+  <unicode hex="030B"/>
+  <guideline x="105" y="503" angle="0"/>
+  <guideline x="237" y="670" angle="0"/>
+  <anchor x="81" y="500" name="_top"/>
+  <anchor x="184" y="818" name="top"/>
+  <outline>
+    <contour>
+      <point x="15" y="616" type="curve" smooth="yes"/>
+      <point x="23" y="616"/>
+      <point x="34" y="619"/>
+      <point x="44" y="631" type="curve" smooth="yes"/>
+      <point x="168" y="773" type="line" smooth="yes"/>
+      <point x="175" y="781"/>
+      <point x="180" y="785"/>
+      <point x="180" y="796" type="curve" smooth="yes"/>
+      <point x="180" y="820"/>
+      <point x="148" y="844"/>
+      <point x="128" y="844" type="curve" smooth="yes"/>
+      <point x="116" y="844"/>
+      <point x="108" y="841"/>
+      <point x="96" y="824" type="curve" smooth="yes"/>
+      <point x="-9" y="671" type="line" smooth="yes"/>
+      <point x="-15" y="663"/>
+      <point x="-19" y="655"/>
+      <point x="-19" y="646" type="curve" smooth="yes"/>
+      <point x="-19" y="631"/>
+      <point x="3" y="616"/>
+    </contour>
+    <contour>
+      <point x="188" y="616" type="curve" smooth="yes"/>
+      <point x="195" y="616"/>
+      <point x="205" y="620"/>
+      <point x="216" y="631" type="curve" smooth="yes"/>
+      <point x="354" y="773" type="line" smooth="yes"/>
+      <point x="361" y="780"/>
+      <point x="366" y="785"/>
+      <point x="366" y="796" type="curve" smooth="yes"/>
+      <point x="366" y="820"/>
+      <point x="334" y="844"/>
+      <point x="314" y="844" type="curve" smooth="yes"/>
+      <point x="303" y="844"/>
+      <point x="295" y="840"/>
+      <point x="283" y="824" type="curve" smooth="yes"/>
+      <point x="164" y="671" type="line" smooth="yes"/>
+      <point x="156" y="663"/>
+      <point x="154" y="655"/>
+      <point x="154" y="646" type="curve" smooth="yes"/>
+      <point x="154" y="631"/>
+      <point x="175" y="616"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>313</integer>
+    </dict>
+  </lib>
+</glyph>

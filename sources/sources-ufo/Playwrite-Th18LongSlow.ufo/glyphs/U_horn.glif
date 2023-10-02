@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Uhorn" format="2">
+  <advance width="1337"/>
+  <unicode hex="01AF"/>
+  <anchor x="589" y="0" name="bottom"/>
+  <anchor x="843" y="21" name="ogonek"/>
+  <anchor x="1019" y="1424" name="top"/>
+  <anchor x="1504" y="1509" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1656" y="1680" type="curve" smooth="yes"/>
+      <point x="1648" y="1700"/>
+      <point x="1610" y="1688"/>
+      <point x="1617" y="1666" type="curve" smooth="yes"/>
+      <point x="1644" y="1582"/>
+      <point x="1630" y="1514"/>
+      <point x="1504" y="1509" type="curve"/>
+      <point x="1495" y="1482" type="line"/>
+      <point x="1649" y="1472"/>
+      <point x="1698" y="1574"/>
+    </contour>
+    <component base="U"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
+</glyph>

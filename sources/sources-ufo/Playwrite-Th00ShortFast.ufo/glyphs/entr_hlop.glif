@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="entr_hlop" format="2">
+  <anchor x="0" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-65" y="-17" type="curve" smooth="yes"/>
+      <point x="34" y="-17"/>
+      <point x="84" y="114"/>
+      <point x="183" y="343" type="curve" smooth="yes"/>
+      <point x="191" y="361"/>
+      <point x="185" y="421"/>
+      <point x="174" y="396" type="curve" smooth="yes"/>
+      <point x="54" y="116"/>
+      <point x="13" y="18"/>
+      <point x="-65" y="18" type="curve" smooth="yes"/>
+      <point x="-87" y="18"/>
+      <point x="-87" y="-17"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>25</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

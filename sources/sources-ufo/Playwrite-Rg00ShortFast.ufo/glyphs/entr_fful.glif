@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="entr_fful" format="2">
+  <anchor x="0" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-52" y="-17" type="curve" smooth="yes"/>
+      <point x="128" y="-17"/>
+      <point x="400" y="486"/>
+      <point x="400" y="754" type="curve" smooth="yes"/>
+      <point x="400" y="804"/>
+      <point x="314" y="804"/>
+      <point x="314" y="754" type="curve" smooth="yes"/>
+      <point x="314" y="445"/>
+      <point x="79" y="58"/>
+      <point x="-52" y="58" type="curve" smooth="yes"/>
+      <point x="-102" y="58"/>
+      <point x="-102" y="-17"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>25</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

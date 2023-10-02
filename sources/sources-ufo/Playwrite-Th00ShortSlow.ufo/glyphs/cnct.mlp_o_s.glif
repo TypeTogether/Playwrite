@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cnct.mlp_o_s" format="2">
+  <anchor x="0" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-90" y="214" type="curve" smooth="yes"/>
+      <point x="60" y="214"/>
+      <point x="169" y="306"/>
+      <point x="228" y="475" type="curve" smooth="yes"/>
+      <point x="233" y="491"/>
+      <point x="208" y="500"/>
+      <point x="201" y="485" type="curve" smooth="yes"/>
+      <point x="140" y="328"/>
+      <point x="43" y="245"/>
+      <point x="-87" y="245" type="curve" smooth="yes"/>
+      <point x="-232" y="245"/>
+      <point x="-326" y="316"/>
+      <point x="-326" y="425" type="curve" smooth="yes"/>
+      <point x="-326" y="464"/>
+      <point x="-309" y="489"/>
+      <point x="-281" y="489" type="curve" smooth="yes"/>
+      <point x="-256" y="489"/>
+      <point x="-257" y="519"/>
+      <point x="-282" y="519" type="curve" smooth="yes"/>
+      <point x="-329" y="519"/>
+      <point x="-360" y="481"/>
+      <point x="-360" y="425" type="curve" smooth="yes"/>
+      <point x="-360" y="298"/>
+      <point x="-254" y="214"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

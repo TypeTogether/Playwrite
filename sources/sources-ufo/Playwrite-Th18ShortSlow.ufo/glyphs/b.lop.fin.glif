@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="b.lop.fin" format="2">
+  <advance width="614"/>
+  <anchor x="251" y="0" name="bottom"/>
+  <anchor x="333" y="250" name="center"/>
+  <anchor x="414" y="500" name="top"/>
+  <outline>
+    <contour>
+      <point x="256" y="-19" type="curve" smooth="yes"/>
+      <point x="440" y="-19"/>
+      <point x="544" y="216"/>
+      <point x="544" y="355" type="curve" smooth="yes"/>
+      <point x="544" y="406"/>
+      <point x="533" y="456"/>
+      <point x="511" y="500" type="curve" smooth="yes"/>
+      <point x="505" y="514"/>
+      <point x="498" y="519"/>
+      <point x="486" y="519" type="curve" smooth="yes"/>
+      <point x="476" y="519"/>
+      <point x="469" y="511"/>
+      <point x="476" y="495" type="curve" smooth="yes"/>
+      <point x="491" y="463"/>
+      <point x="508" y="420"/>
+      <point x="508" y="360" type="curve" smooth="yes"/>
+      <point x="508" y="230"/>
+      <point x="411" y="15"/>
+      <point x="261" y="15" type="curve" smooth="yes"/>
+      <point x="169" y="15"/>
+      <point x="135" y="101"/>
+      <point x="178" y="234" type="curve" smooth="yes"/>
+      <point x="340" y="734" type="line" smooth="yes"/>
+      <point x="369" y="823"/>
+      <point x="395" y="859"/>
+      <point x="436" y="859" type="curve" smooth="yes"/>
+      <point x="468" y="859"/>
+      <point x="485" y="838"/>
+      <point x="485" y="803" type="curve" smooth="yes"/>
+      <point x="485" y="778"/>
+      <point x="524" y="778"/>
+      <point x="524" y="803" type="curve" smooth="yes"/>
+      <point x="524" y="858"/>
+      <point x="491" y="894"/>
+      <point x="440" y="894" type="curve" smooth="yes"/>
+      <point x="378" y="894"/>
+      <point x="338" y="849"/>
+      <point x="304" y="743" type="curve" smooth="yes"/>
+      <point x="143" y="241" type="line" smooth="yes"/>
+      <point x="89" y="75"/>
+      <point x="153" y="-19"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

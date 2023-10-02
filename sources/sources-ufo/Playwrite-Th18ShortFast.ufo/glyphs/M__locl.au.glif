@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="M_locl.au" format="2">
+  <advance width="1050"/>
+  <anchor x="456" y="0" name="bottom"/>
+  <anchor x="705" y="838" name="top"/>
+  <outline>
+    <contour>
+      <point x="84" y="-14" type="curve" smooth="yes"/>
+      <point x="100" y="-14"/>
+      <point x="104" y="-10"/>
+      <point x="108" y="1" type="curve" smooth="yes"/>
+      <point x="370" y="815" type="line"/>
+      <point x="426" y="18" type="line" smooth="yes"/>
+      <point x="428" y="5"/>
+      <point x="438" y="0"/>
+      <point x="449" y="0" type="curve" smooth="yes"/>
+      <point x="459" y="0"/>
+      <point x="469" y="3"/>
+      <point x="479" y="18" type="curve" smooth="yes"/>
+      <point x="1044" y="815" type="line"/>
+      <point x="781" y="1" type="line" smooth="yes"/>
+      <point x="778" y="-10"/>
+      <point x="784" y="-14"/>
+      <point x="796" y="-14" type="curve" smooth="yes"/>
+      <point x="811" y="-14"/>
+      <point x="815" y="-10"/>
+      <point x="819" y="1" type="curve" smooth="yes"/>
+      <point x="1100" y="871" type="line" smooth="yes"/>
+      <point x="1105" y="885"/>
+      <point x="1095" y="890"/>
+      <point x="1083" y="890" type="curve" smooth="yes"/>
+      <point x="1064" y="890"/>
+      <point x="1055" y="888"/>
+      <point x="1048" y="878" type="curve" smooth="yes"/>
+      <point x="458" y="46" type="line"/>
+      <point x="398" y="878" type="line" smooth="yes"/>
+      <point x="396" y="888"/>
+      <point x="389" y="890"/>
+      <point x="379" y="890" type="curve" smooth="yes"/>
+      <point x="363" y="890"/>
+      <point x="356" y="886"/>
+      <point x="353" y="875" type="curve" smooth="yes"/>
+      <point x="70" y="1" type="line" smooth="yes"/>
+      <point x="66" y="-10"/>
+      <point x="73" y="-14"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=M</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=M</string>
+    </dict>
+  </lib>
+</glyph>

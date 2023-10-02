@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="r.ful.ini" format="2">
+  <advance width="568"/>
+  <anchor x="486" y="0" name="cnct"/>
+  <anchor x="160" y="0" name="bottom"/>
+  <anchor x="333" y="500" name="top"/>
+  <outline>
+    <contour>
+      <point x="-137" y="-17" type="curve" smooth="yes"/>
+      <point x="-41" y="-17"/>
+      <point x="81" y="71"/>
+      <point x="205" y="450" type="curve"/>
+      <point x="178" y="475" type="line"/>
+      <point x="56" y="104"/>
+      <point x="-42" y="18"/>
+      <point x="-126" y="18" type="curve" smooth="yes"/>
+      <point x="-154" y="18"/>
+      <point x="-156" y="-17"/>
+    </contour>
+    <component base="r.ful.med"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>r.ful.med</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>
