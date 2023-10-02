@@ -2,6 +2,20 @@
 glyphname = quotedblright;
 layers = (
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (356,1554);
+ref = quoteleft;
+},
+{
+angle = 180;
+pos = (206,1554);
+ref = quoteleft;
+}
+);
+};
 layerId = m01;
 shapes = (
 {
@@ -31,6 +45,15 @@ com.hugojourdan.ColorFlow = {
 width = 356;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (699,1554);
+ref = quotedblleft;
+}
+);
+};
 layerId = m002;
 shapes = (
 {
@@ -60,6 +83,15 @@ com.hugojourdan.ColorFlow = {
 width = 356;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (356,1554);
+ref = quotedblleft;
+}
+);
+};
 layerId = m003;
 shapes = (
 {
@@ -89,6 +121,15 @@ com.hugojourdan.ColorFlow = {
 width = 356;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (699,1554);
+ref = quotedblleft;
+}
+);
+};
 layerId = m004;
 shapes = (
 {
@@ -118,6 +159,15 @@ com.hugojourdan.ColorFlow = {
 width = 356;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (394,1568);
+ref = quotedblleft;
+}
+);
+};
 layerId = m005;
 shapes = (
 {
@@ -147,6 +197,15 @@ com.hugojourdan.ColorFlow = {
 width = 394;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (729,1570);
+ref = quotedblleft;
+}
+);
+};
 layerId = m006;
 shapes = (
 {
@@ -176,6 +235,15 @@ com.hugojourdan.ColorFlow = {
 width = 381;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (394,1568);
+ref = quotedblleft;
+}
+);
+};
 layerId = m007;
 shapes = (
 {
@@ -205,6 +273,15 @@ com.hugojourdan.ColorFlow = {
 width = 394;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (729,1570);
+ref = quotedblleft;
+}
+);
+};
 layerId = m008;
 shapes = (
 {
@@ -234,6 +311,15 @@ com.hugojourdan.ColorFlow = {
 width = 381;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (381,2754);
+ref = quotedblleft;
+}
+);
+};
 layerId = m009;
 shapes = (
 {
@@ -263,6 +349,15 @@ com.hugojourdan.ColorFlow = {
 width = 381;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (1101,2754);
+ref = quotedblleft;
+}
+);
+};
 layerId = m010;
 shapes = (
 {
@@ -292,6 +387,15 @@ com.hugojourdan.ColorFlow = {
 width = 369;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (381,2754);
+ref = quotedblleft;
+}
+);
+};
 layerId = m011;
 shapes = (
 {
@@ -321,6 +425,15 @@ com.hugojourdan.ColorFlow = {
 width = 381;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (1114,2754);
+ref = quotedblleft;
+}
+);
+};
 layerId = m012;
 shapes = (
 {
@@ -350,6 +463,15 @@ com.hugojourdan.ColorFlow = {
 width = 381;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (419,2768);
+ref = quotedblleft;
+}
+);
+};
 layerId = m013;
 shapes = (
 {
@@ -379,6 +501,15 @@ com.hugojourdan.ColorFlow = {
 width = 419;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (1156,2770);
+ref = quotedblleft;
+}
+);
+};
 layerId = m014;
 shapes = (
 {
@@ -408,6 +539,15 @@ com.hugojourdan.ColorFlow = {
 width = 419;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (419,2768);
+ref = quotedblleft;
+}
+);
+};
 layerId = m015;
 shapes = (
 {
@@ -437,6 +577,15 @@ com.hugojourdan.ColorFlow = {
 width = 419;
 },
 {
+background = {
+shapes = (
+{
+angle = 180;
+pos = (1156,2770);
+ref = quotedblleft;
+}
+);
+};
 layerId = m016;
 shapes = (
 {

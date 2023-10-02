@@ -8,6 +8,14 @@ name = cnct;
 pos = (630,0);
 }
 );
+background = {
+shapes = (
+{
+pos = (325,0);
+ref = j.mod;
+}
+);
+};
 layerId = m01;
 shapes = (
 {
