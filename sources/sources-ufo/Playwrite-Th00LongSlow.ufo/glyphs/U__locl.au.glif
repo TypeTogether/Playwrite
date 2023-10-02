@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="U_locl.au" format="2">
+  <advance width="1360"/>
+  <anchor x="669" y="0" name="bottom"/>
+  <anchor x="795" y="21" name="ogonek"/>
+  <anchor x="669" y="1424" name="top"/>
+  <anchor x="1096" y="1509" name="topright"/>
+  <outline>
+    <contour>
+      <point x="606" y="-19" type="curve" smooth="yes"/>
+      <point x="825" y="-19"/>
+      <point x="1011" y="149"/>
+      <point x="1081" y="393" type="curve"/>
+      <point x="1081" y="1" type="line" smooth="yes"/>
+      <point x="1081" y="-10"/>
+      <point x="1088" y="-14"/>
+      <point x="1101" y="-14" type="curve" smooth="yes"/>
+      <point x="1114" y="-14"/>
+      <point x="1119" y="-9"/>
+      <point x="1119" y="1" type="curve" smooth="yes"/>
+      <point x="1119" y="1500" type="line" smooth="yes"/>
+      <point x="1119" y="1511"/>
+      <point x="1114" y="1515"/>
+      <point x="1100" y="1515" type="curve" smooth="yes"/>
+      <point x="1086" y="1515"/>
+      <point x="1081" y="1511"/>
+      <point x="1081" y="1499" type="curve" smooth="yes"/>
+      <point x="1081" y="520" type="line"/>
+      <point x="1038" y="229"/>
+      <point x="840" y="19"/>
+      <point x="608" y="19" type="curve" smooth="yes"/>
+      <point x="394" y="19"/>
+      <point x="255" y="149"/>
+      <point x="255" y="410" type="curve" smooth="yes"/>
+      <point x="255" y="1500" type="line" smooth="yes"/>
+      <point x="255" y="1511"/>
+      <point x="250" y="1515"/>
+      <point x="236" y="1515" type="curve" smooth="yes"/>
+      <point x="223" y="1515"/>
+      <point x="218" y="1511"/>
+      <point x="218" y="1500" type="curve" smooth="yes"/>
+      <point x="218" y="413" type="line" smooth="yes"/>
+      <point x="218" y="128"/>
+      <point x="366" y="-19"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=U</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=H</string>
+    </dict>
+  </lib>
+</glyph>

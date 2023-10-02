@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="z.cnt_no.ini" format="2">
+  <advance width="465"/>
+  <anchor x="465" y="0" name="cnct"/>
+  <anchor x="228" y="-375" name="bottom"/>
+  <anchor x="234" y="250" name="center"/>
+  <anchor x="234" y="500" name="top"/>
+  <outline>
+    <component base="z.cnt_no"/>
+  </outline>
+</glyph>

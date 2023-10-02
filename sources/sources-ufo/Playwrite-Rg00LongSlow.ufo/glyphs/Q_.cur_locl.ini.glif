@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Q.cur_locl.ini" format="2">
+  <advance width="1459"/>
+  <anchor x="1460" y="0" name="cnct"/>
+  <anchor x="718" y="0" name="bottom"/>
+  <anchor x="718" y="744" name="center"/>
+  <anchor x="916" y="11" name="ogonek"/>
+  <anchor x="718" y="1424" name="top"/>
+  <anchor x="1011" y="1423" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1385" y="-17" type="curve" smooth="yes"/>
+      <point x="1435" y="-17"/>
+      <point x="1454" y="58"/>
+      <point x="1404" y="58" type="curve" smooth="yes"/>
+      <point x="1155" y="58"/>
+      <point x="1028" y="454"/>
+      <point x="671" y="454" type="curve" smooth="yes"/>
+      <point x="619" y="454"/>
+      <point x="618" y="374"/>
+      <point x="670" y="374" type="curve" smooth="yes"/>
+      <point x="983" y="374"/>
+      <point x="1104" y="-17"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

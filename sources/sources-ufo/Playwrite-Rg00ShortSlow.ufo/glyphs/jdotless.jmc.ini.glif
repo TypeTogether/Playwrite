@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jdotless.jmc.ini" format="2">
+  <advance width="316"/>
+  <anchor x="316" y="0" name="cnct"/>
+  <anchor x="158" y="500" name="top"/>
+  <outline>
+    <contour>
+      <point x="31" y="-394" type="curve" smooth="yes"/>
+      <point x="141" y="-394"/>
+      <point x="200" y="-312"/>
+      <point x="200" y="-159" type="curve" smooth="yes"/>
+      <point x="200" y="489" type="line" smooth="yes"/>
+      <point x="200" y="506"/>
+      <point x="185" y="515"/>
+      <point x="156" y="515" type="curve" smooth="yes"/>
+      <point x="128" y="515"/>
+      <point x="114" y="506"/>
+      <point x="114" y="489" type="curve" smooth="yes"/>
+      <point x="114" y="-11" type="line"/>
+      <point x="107" y="-15"/>
+      <point x="101" y="-18"/>
+      <point x="94" y="-22" type="curve" smooth="yes"/>
+      <point x="-30" y="-92"/>
+      <point x="-92" y="-187"/>
+      <point x="-92" y="-271" type="curve" smooth="yes"/>
+      <point x="-92" y="-344"/>
+      <point x="-40" y="-394"/>
+    </contour>
+    <contour>
+      <point x="38" y="-316" type="curve" smooth="yes"/>
+      <point x="13" y="-316"/>
+      <point x="-5" y="-294"/>
+      <point x="-5" y="-264" type="curve" smooth="yes"/>
+      <point x="-5" y="-210"/>
+      <point x="26" y="-152"/>
+      <point x="100" y="-104" type="curve" smooth="yes"/>
+      <point x="105" y="-101"/>
+      <point x="109" y="-98"/>
+      <point x="114" y="-95" type="curve"/>
+      <point x="114" y="-170" type="line" smooth="yes"/>
+      <point x="114" y="-265"/>
+      <point x="88" y="-316"/>
+    </contour>
+  </outline>
+</glyph>

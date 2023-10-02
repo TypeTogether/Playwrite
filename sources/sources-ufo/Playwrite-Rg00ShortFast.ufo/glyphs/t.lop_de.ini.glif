@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="t.lop_de.ini" format="2">
+  <advance width="611"/>
+  <anchor x="611" y="0" name="cnct"/>
+  <anchor x="364" y="838" name="top"/>
+  <anchor x="385" y="908" name="topright"/>
+  <outline>
+    <contour>
+      <point x="-57" y="-17" type="curve" smooth="yes"/>
+      <point x="99" y="-17"/>
+      <point x="250" y="345"/>
+      <point x="328" y="609" type="curve"/>
+      <point x="328" y="11" type="line" smooth="yes"/>
+      <point x="328" y="-6"/>
+      <point x="341" y="-15"/>
+      <point x="370" y="-15" type="curve" smooth="yes"/>
+      <point x="399" y="-15"/>
+      <point x="414" y="-6"/>
+      <point x="414" y="11" type="curve" smooth="yes"/>
+      <point x="414" y="864" type="line" smooth="yes"/>
+      <point x="414" y="881"/>
+      <point x="399" y="890"/>
+      <point x="370" y="890" type="curve" smooth="yes"/>
+      <point x="341" y="890"/>
+      <point x="328" y="881"/>
+      <point x="328" y="864" type="curve" smooth="yes"/>
+      <point x="328" y="768"/>
+      <point x="79" y="58"/>
+      <point x="-49" y="58" type="curve" smooth="yes"/>
+      <point x="-86" y="58"/>
+      <point x="-90" y="-17"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

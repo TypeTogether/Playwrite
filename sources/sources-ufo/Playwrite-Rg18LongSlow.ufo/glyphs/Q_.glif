@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Q" format="2">
+  <advance width="1434"/>
+  <unicode hex="0051"/>
+  <anchor x="635" y="0" name="bottom"/>
+  <anchor x="878" y="744" name="center"/>
+  <anchor x="1215" y="21" name="ogonek"/>
+  <anchor x="1063" y="1424" name="top"/>
+  <anchor x="1336" y="1424" name="topright"/>
+  <outline>
+    <contour>
+      <point x="944" y="-299" type="curve" smooth="yes"/>
+      <point x="979" y="-291"/>
+      <point x="981" y="-275"/>
+      <point x="974" y="-247" type="curve" smooth="yes"/>
+      <point x="829" y="280" type="line" smooth="yes"/>
+      <point x="821" y="308"/>
+      <point x="809" y="316"/>
+      <point x="783" y="310" type="curve" smooth="yes"/>
+      <point x="749" y="303"/>
+      <point x="743" y="289"/>
+      <point x="751" y="258" type="curve" smooth="yes"/>
+      <point x="896" y="-269" type="line" smooth="yes"/>
+      <point x="905" y="-299"/>
+      <point x="916" y="-304"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

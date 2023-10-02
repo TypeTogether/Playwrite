@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cnct.jmc_f_b" format="2">
+  <guideline x="-443" y="-288" angle="259.51"/>
+  <guideline x="132" y="218" angle="329.93"/>
+  <guideline x="122" y="224" angle="242.66"/>
+  <guideline x="5" y="-110" angle="63.21"/>
+  <guideline x="-473" y="-215" angle="186.91"/>
+  <anchor x="-81" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-560" y="-394" type="curve" smooth="yes"/>
+      <point x="-536" y="-394"/>
+      <point x="-521" y="-319"/>
+      <point x="-546" y="-319" type="curve" smooth="yes"/>
+      <point x="-570" y="-319"/>
+      <point x="-590" y="-301"/>
+      <point x="-590" y="-270" type="curve" smooth="yes"/>
+      <point x="-590" y="-86"/>
+      <point x="-1" y="-136"/>
+      <point x="194" y="250" type="curve" smooth="yes"/>
+      <point x="201" y="264"/>
+      <point x="160" y="294"/>
+      <point x="153" y="280" type="curve" smooth="yes"/>
+      <point x="-35" y="-81"/>
+      <point x="-672" y="-4"/>
+      <point x="-672" y="-279" type="curve" smooth="yes"/>
+      <point x="-672" y="-347"/>
+      <point x="-627" y="-394"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>13</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

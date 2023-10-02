@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jdotless.jmc" format="2">
+  <advance width="316"/>
+  <anchor x="316" y="0" name="cnct"/>
+  <anchor x="156" y="500" name="top"/>
+  <outline>
+    <contour>
+      <point x="168" y="15" type="curve"/>
+      <point x="168" y="-24" type="line"/>
+      <point x="218" y="13"/>
+      <point x="266" y="49"/>
+      <point x="316" y="81" type="curve" smooth="yes"/>
+      <point x="331" y="91"/>
+      <point x="319" y="121"/>
+      <point x="299" y="108" type="curve" smooth="yes"/>
+      <point x="255" y="79"/>
+      <point x="211" y="48"/>
+    </contour>
+    <component base="jdotless.jmc.ini"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>jdotless.jmc.ini</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

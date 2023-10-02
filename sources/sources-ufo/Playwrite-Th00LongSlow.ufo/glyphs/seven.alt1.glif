@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.alt1" format="2">
+  <advance width="914"/>
+  <guideline x="16"/>
+  <guideline x="414"/>
+  <outline>
+    <contour>
+      <point x="286" y="739" type="curve" smooth="yes"/>
+      <point x="836" y="739" type="line" smooth="yes"/>
+      <point x="843" y="739"/>
+      <point x="848" y="745"/>
+      <point x="848" y="756" type="curve" smooth="yes"/>
+      <point x="848" y="768"/>
+      <point x="843" y="771"/>
+      <point x="836" y="771" type="curve" smooth="yes"/>
+      <point x="286" y="771" type="line" smooth="yes"/>
+      <point x="280" y="771"/>
+      <point x="275" y="766"/>
+      <point x="275" y="755" type="curve" smooth="yes"/>
+      <point x="275" y="744"/>
+      <point x="280" y="739"/>
+    </contour>
+    <component base="seven"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J.cur.ini" format="2">
+  <advance width="971"/>
+  <anchor x="588" y="-1000" name="bottom"/>
+  <anchor x="971" y="0" name="cnct"/>
+  <anchor x="529" y="1424" name="top"/>
+  <outline>
+    <contour>
+      <point x="589" y="-1020" type="curve" smooth="yes"/>
+      <point x="741" y="-1020"/>
+      <point x="819" y="-890"/>
+      <point x="819" y="-635" type="curve" smooth="yes"/>
+      <point x="819" y="1144" type="line" smooth="yes"/>
+      <point x="819" y="1405"/>
+      <point x="740" y="1515"/>
+      <point x="554" y="1515" type="curve" smooth="yes"/>
+      <point x="333" y="1515"/>
+      <point x="173" y="1279"/>
+      <point x="173" y="954" type="curve" smooth="yes"/>
+      <point x="173" y="601"/>
+      <point x="269" y="413"/>
+      <point x="553" y="208" type="curve" smooth="yes"/>
+      <point x="564" y="199"/>
+      <point x="574" y="199"/>
+      <point x="583" y="211" type="curve" smooth="yes"/>
+      <point x="589" y="221"/>
+      <point x="586" y="230"/>
+      <point x="575" y="238" type="curve" smooth="yes"/>
+      <point x="305" y="431"/>
+      <point x="214" y="614"/>
+      <point x="214" y="954" type="curve" smooth="yes"/>
+      <point x="214" y="1258"/>
+      <point x="356" y="1478"/>
+      <point x="554" y="1478" type="curve" smooth="yes"/>
+      <point x="714" y="1478"/>
+      <point x="781" y="1379"/>
+      <point x="781" y="1144" type="curve" smooth="yes"/>
+      <point x="781" y="-635" type="line" smooth="yes"/>
+      <point x="781" y="-867"/>
+      <point x="718" y="-985"/>
+      <point x="593" y="-985" type="curve" smooth="yes"/>
+      <point x="504" y="-985"/>
+      <point x="456" y="-924"/>
+      <point x="456" y="-814" type="curve" smooth="yes"/>
+      <point x="456" y="-789"/>
+      <point x="415" y="-787"/>
+      <point x="415" y="-812" type="curve" smooth="yes"/>
+      <point x="415" y="-940"/>
+      <point x="479" y="-1020"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

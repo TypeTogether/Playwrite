@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j.jmc" format="2">
+  <advance width="316"/>
+  <anchor x="235" y="0" name="cnct"/>
+  <outline>
+    <contour>
+      <point x="24" y="-146" type="curve"/>
+      <point x="16" y="-194" type="line"/>
+      <point x="74" y="-144"/>
+      <point x="178" y="-64"/>
+      <point x="234" y="-26" type="curve" smooth="yes"/>
+      <point x="251" y="-15"/>
+      <point x="241" y="15"/>
+      <point x="216" y="-1" type="curve" smooth="yes"/>
+      <point x="173" y="-31"/>
+      <point x="73" y="-104"/>
+    </contour>
+    <component base="j.jmc.ini"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>j.jmc.ini</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
+    </dict>
+  </lib>
+</glyph>

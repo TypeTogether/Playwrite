@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="M_locl.au" format="2">
+  <advance width="1625"/>
+  <anchor x="814" y="0" name="bottom"/>
+  <anchor x="814" y="1424" name="top"/>
+  <outline>
+    <contour>
+      <point x="260" y="-14" type="curve" smooth="yes"/>
+      <point x="274" y="-14"/>
+      <point x="279" y="-10"/>
+      <point x="279" y="1" type="curve" smooth="yes"/>
+      <point x="279" y="1419" type="line"/>
+      <point x="791" y="15" type="line" smooth="yes"/>
+      <point x="796" y="3"/>
+      <point x="803" y="0"/>
+      <point x="814" y="0" type="curve" smooth="yes"/>
+      <point x="824" y="0"/>
+      <point x="833" y="1"/>
+      <point x="838" y="15" type="curve" smooth="yes"/>
+      <point x="1346" y="1419" type="line"/>
+      <point x="1346" y="1" type="line" smooth="yes"/>
+      <point x="1346" y="-10"/>
+      <point x="1351" y="-14"/>
+      <point x="1365" y="-14" type="curve" smooth="yes"/>
+      <point x="1379" y="-14"/>
+      <point x="1384" y="-10"/>
+      <point x="1384" y="1" type="curve" smooth="yes"/>
+      <point x="1384" y="1500" type="line" smooth="yes"/>
+      <point x="1384" y="1511"/>
+      <point x="1379" y="1515"/>
+      <point x="1365" y="1515" type="curve" smooth="yes"/>
+      <point x="1349" y="1515"/>
+      <point x="1343" y="1513"/>
+      <point x="1339" y="1503" type="curve" smooth="yes"/>
+      <point x="815" y="51" type="line"/>
+      <point x="286" y="1503" type="line" smooth="yes"/>
+      <point x="283" y="1513"/>
+      <point x="275" y="1515"/>
+      <point x="261" y="1515" type="curve" smooth="yes"/>
+      <point x="248" y="1515"/>
+      <point x="241" y="1511"/>
+      <point x="241" y="1500" type="curve" smooth="yes"/>
+      <point x="241" y="1" type="line" smooth="yes"/>
+      <point x="241" y="-10"/>
+      <point x="246" y="-14"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=M</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=M</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cnct.mlp_f_e.mod" format="2">
+  <anchor x="-81" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-156" y="-5" type="curve" smooth="yes"/>
+      <point x="-74" y="-5"/>
+      <point x="20" y="33"/>
+      <point x="123" y="105" type="curve" smooth="yes"/>
+      <point x="138" y="115"/>
+      <point x="121" y="141"/>
+      <point x="106" y="131" type="curve" smooth="yes"/>
+      <point x="8" y="61"/>
+      <point x="-80" y="26"/>
+      <point x="-154" y="26" type="curve" smooth="yes"/>
+      <point x="-240" y="26"/>
+      <point x="-291" y="66"/>
+      <point x="-291" y="133" type="curve" smooth="yes"/>
+      <point x="-291" y="153"/>
+      <point x="-319" y="153"/>
+      <point x="-319" y="133" type="curve" smooth="yes"/>
+      <point x="-319" y="41"/>
+      <point x="-262" y="-5"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

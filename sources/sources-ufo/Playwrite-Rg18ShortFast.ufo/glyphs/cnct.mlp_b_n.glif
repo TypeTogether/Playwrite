@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cnct.mlp_b_n" format="2">
+  <guideline x="-80" y="320" angle="83.157"/>
+  <guideline x="-129" y="431" angle="259.611"/>
+  <anchor x="-81" y="0" name="_cnct"/>
+  <outline>
+    <contour>
+      <point x="-120" y="324" type="curve" smooth="yes"/>
+      <point x="-11" y="324"/>
+      <point x="176" y="444"/>
+      <point x="220" y="444" type="curve" smooth="yes"/>
+      <point x="260" y="444"/>
+      <point x="270" y="519"/>
+      <point x="245" y="519" type="curve" smooth="yes"/>
+      <point x="153" y="519"/>
+      <point x="-20" y="390"/>
+      <point x="-114" y="390" type="curve" smooth="yes"/>
+      <point x="-147" y="390"/>
+      <point x="-184" y="403"/>
+      <point x="-184" y="441" type="curve" smooth="yes"/>
+      <point x="-184" y="463"/>
+      <point x="-170" y="478"/>
+      <point x="-154" y="478" type="curve" smooth="yes"/>
+      <point x="-120" y="478"/>
+      <point x="-120" y="536"/>
+      <point x="-145" y="536" type="curve" smooth="yes"/>
+      <point x="-217" y="536"/>
+      <point x="-252" y="483"/>
+      <point x="-252" y="431" type="curve" smooth="yes"/>
+      <point x="-252" y="355"/>
+      <point x="-185" y="324"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>63</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

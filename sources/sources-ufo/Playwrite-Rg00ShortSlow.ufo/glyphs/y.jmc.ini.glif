@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="y.jmc.ini" format="2">
+  <advance width="665"/>
+  <anchor x="190" y="86" name="bottom"/>
+  <anchor x="665" y="0" name="cnct"/>
+  <anchor x="333" y="500" name="top"/>
+  <outline>
+    <contour>
+      <point x="344" y="-394" type="curve" smooth="yes"/>
+      <point x="465" y="-394"/>
+      <point x="546" y="-297"/>
+      <point x="546" y="-125" type="curve" smooth="yes"/>
+      <point x="546" y="489" type="line" smooth="yes"/>
+      <point x="546" y="506"/>
+      <point x="531" y="515"/>
+      <point x="503" y="515" type="curve" smooth="yes"/>
+      <point x="474" y="515"/>
+      <point x="460" y="506"/>
+      <point x="460" y="489" type="curve" smooth="yes"/>
+      <point x="460" y="177" type="line"/>
+      <point x="432" y="109"/>
+      <point x="380" y="59"/>
+      <point x="305" y="59" type="curve" smooth="yes"/>
+      <point x="238" y="59"/>
+      <point x="205" y="95"/>
+      <point x="205" y="166" type="curve" smooth="yes"/>
+      <point x="205" y="489" type="line" smooth="yes"/>
+      <point x="205" y="506"/>
+      <point x="190" y="515"/>
+      <point x="161" y="515" type="curve" smooth="yes"/>
+      <point x="133" y="515"/>
+      <point x="119" y="506"/>
+      <point x="119" y="489" type="curve" smooth="yes"/>
+      <point x="119" y="166" type="line" smooth="yes"/>
+      <point x="119" y="44"/>
+      <point x="178" y="-17"/>
+      <point x="294" y="-17" type="curve" smooth="yes"/>
+      <point x="367" y="-17"/>
+      <point x="424" y="18"/>
+      <point x="460" y="77" type="curve"/>
+      <point x="460" y="-11" type="line"/>
+      <point x="426" y="-31"/>
+      <point x="393" y="-51"/>
+      <point x="359" y="-70" type="curve" smooth="yes"/>
+      <point x="248" y="-134"/>
+      <point x="195" y="-199"/>
+      <point x="195" y="-269" type="curve" smooth="yes"/>
+      <point x="195" y="-347"/>
+      <point x="254" y="-394"/>
+    </contour>
+    <contour>
+      <point x="349" y="-316" type="curve" smooth="yes"/>
+      <point x="305" y="-316"/>
+      <point x="284" y="-296"/>
+      <point x="284" y="-260" type="curve" smooth="yes"/>
+      <point x="284" y="-220"/>
+      <point x="315" y="-179"/>
+      <point x="369" y="-147" type="curve" smooth="yes"/>
+      <point x="399" y="-129"/>
+      <point x="429" y="-112"/>
+      <point x="460" y="-94" type="curve"/>
+      <point x="460" y="-122" type="line" smooth="yes"/>
+      <point x="460" y="-250"/>
+      <point x="418" y="-316"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.hugojourdan.ColorFlow</key>
+      <dict>
+        <key>0</key>
+        <integer>0</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>10</key>
+        <integer>0</integer>
+        <key>11</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>0</integer>
+        <key>3</key>
+        <integer>0</integer>
+        <key>4</key>
+        <integer>0</integer>
+        <key>5</key>
+        <integer>0</integer>
+        <key>6</key>
+        <integer>0</integer>
+        <key>7</key>
+        <integer>0</integer>
+        <key>8</key>
+        <integer>0</integer>
+        <key>9</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
