@@ -1,12 +1,111 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="OE.cur.ini" format="2">
-  <advance width="600"/>
+  <advance width="2012"/>
+  <anchor x="1931" y="0" name="cnct"/>
+  <anchor x="1488" y="1424" name="top"/>
   <outline>
+    <contour>
+      <point x="658" y="-19" type="curve" smooth="yes"/>
+      <point x="1050" y="-19"/>
+      <point x="1458" y="653"/>
+      <point x="1458" y="1115" type="curve" smooth="yes"/>
+      <point x="1458" y="1366"/>
+      <point x="1355" y="1515"/>
+      <point x="1175" y="1515" type="curve" smooth="yes"/>
+      <point x="994" y="1515"/>
+      <point x="844" y="1394"/>
+      <point x="723" y="1190" type="curve" smooth="yes"/>
+      <point x="715" y="1176"/>
+      <point x="715" y="1168"/>
+      <point x="724" y="1161" type="curve" smooth="yes"/>
+      <point x="736" y="1154"/>
+      <point x="745" y="1156"/>
+      <point x="753" y="1170" type="curve" smooth="yes"/>
+      <point x="871" y="1373"/>
+      <point x="1015" y="1478"/>
+      <point x="1164" y="1478" type="curve" smooth="yes"/>
+      <point x="1329" y="1478"/>
+      <point x="1416" y="1351"/>
+      <point x="1416" y="1115" type="curve" smooth="yes"/>
+      <point x="1416" y="671"/>
+      <point x="1023" y="19"/>
+      <point x="656" y="19" type="curve" smooth="yes"/>
+      <point x="441" y="19"/>
+      <point x="315" y="184"/>
+      <point x="315" y="463" type="curve" smooth="yes"/>
+      <point x="315" y="829"/>
+      <point x="506" y="1210"/>
+      <point x="771" y="1374" type="curve" smooth="yes"/>
+      <point x="785" y="1383"/>
+      <point x="788" y="1390"/>
+      <point x="781" y="1401" type="curve" smooth="yes"/>
+      <point x="775" y="1413"/>
+      <point x="766" y="1413"/>
+      <point x="749" y="1401" type="curve" smooth="yes"/>
+      <point x="474" y="1223"/>
+      <point x="274" y="831"/>
+      <point x="274" y="463" type="curve" smooth="yes"/>
+      <point x="274" y="163"/>
+      <point x="414" y="-19"/>
+    </contour>
+    <contour>
+      <point x="1512" y="-17" type="curve" smooth="yes"/>
+      <point x="1532" y="-17"/>
+      <point x="1537" y="16"/>
+      <point x="1517" y="16" type="curve" smooth="yes"/>
+      <point x="1337" y="16"/>
+      <point x="1228" y="122"/>
+      <point x="1228" y="291" type="curve" smooth="yes"/>
+      <point x="1228" y="548"/>
+      <point x="1454" y="768"/>
+      <point x="1713" y="768" type="curve" smooth="yes"/>
+      <point x="1895" y="768" type="line" smooth="yes"/>
+      <point x="1908" y="768"/>
+      <point x="1913" y="771"/>
+      <point x="1916" y="785" type="curve" smooth="yes"/>
+      <point x="1919" y="796"/>
+      <point x="1919" y="803"/>
+      <point x="1905" y="803" type="curve" smooth="yes"/>
+      <point x="1725" y="803" type="line" smooth="yes"/>
+      <point x="1608" y="803"/>
+      <point x="1531" y="909"/>
+      <point x="1531" y="1070" type="curve" smooth="yes"/>
+      <point x="1531" y="1274"/>
+      <point x="1673" y="1478"/>
+      <point x="1914" y="1478" type="curve" smooth="yes"/>
+      <point x="2049" y="1478"/>
+      <point x="2149" y="1424"/>
+      <point x="2206" y="1334" type="curve" smooth="yes"/>
+      <point x="2215" y="1321"/>
+      <point x="2221" y="1320"/>
+      <point x="2230" y="1326" type="curve" smooth="yes"/>
+      <point x="2240" y="1334"/>
+      <point x="2243" y="1343"/>
+      <point x="2234" y="1356" type="curve" smooth="yes"/>
+      <point x="2173" y="1456"/>
+      <point x="2058" y="1515"/>
+      <point x="1925" y="1515" type="curve" smooth="yes"/>
+      <point x="1634" y="1515"/>
+      <point x="1490" y="1271"/>
+      <point x="1490" y="1066" type="curve" smooth="yes"/>
+      <point x="1490" y="941"/>
+      <point x="1543" y="829"/>
+      <point x="1625" y="794" type="curve"/>
+      <point x="1362" y="741"/>
+      <point x="1187" y="521"/>
+      <point x="1187" y="290" type="curve" smooth="yes"/>
+      <point x="1187" y="102"/>
+      <point x="1310" y="-17"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=O.cur</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=E.cur.ini</string>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,4 +1,4 @@
-# 230929_1536
+# 231003_1911
 
 # --------------
 # CLASSES
@@ -1700,6 +1700,15 @@ feature dist {
 		# CUR
 		lookup dist_CUR {
 			lookupflag IgnoreMarks;
+			pos @Ccur_SRC 100 @ncnt_TGT;
+			pos @Ccur_SRC 40 @zcnt_TGT;
+			pos @Ccur_SRC 20 @xful_TGT;
+			pos @Ccur_SRC 75 @zful_TGT;
+			pos@Ccur_SRC 25 @tlop_de_TGT;
+			pos @Ccur_SRC 13 @smod_TGT;
+			pos @Ccur_SRC 100 @vmod_TGT;
+			pos @Ccur_SRC 100 @xmod_TGT;
+			pos @Ccur_SRC 80 @zmod_TGT;
 			pos @Gcur_SRC 50 @bmod_TGT;
 			pos @Gcur_SRC 50 @emod_TGT;
 			pos @Gcur_SRC 50 @hlop_TGT;

@@ -1,6 +1,6 @@
 {
 category = Mark;
-color = 6;
+color = 8;
 glyphname = cnct.mod_C_b;
 layers = (
 {
@@ -328,7 +328,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-211,-17,o),
+(-204,-17,o),
 (82,177,o),
 (236,453,cs),
 (246,470,o),
