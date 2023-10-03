@@ -16,7 +16,7 @@ def main():
         sl = mdd[tag]["slnt"]
         ex = mdd[tag]["YEXT"]
         sp = mdd[tag]["SPED"]
-        varfont = TTFont(f"./../../fonts-models/fonts-{tag}/variable/Playpen{tagnospace}[wght,YEXT,SPED,slnt].ttf")
+        varfont = TTFont(f"./../../fonts-models/fonts-{tag}/variable/Playwrite{tagnospace}[wght,YEXT,SPED,slnt].ttf")
         # fix hasItalics (ENG_Joined and Semijoined by now)
         has_sl = ""
         if type(sl) is str and "-" in sl:
@@ -35,10 +35,10 @@ def main():
         if sl != 0 and type(sl) != tuple:
             var_wght_only["post"].italicAngle = - int(sl)
         # tag in output without "_"
-        var_wght_only.save(f"./../../fonts-models/fonts-{tag}/variable/Playpen{tagnospace}[wght{has_sl}].ttf")
+        var_wght_only.save(f"./../../fonts-models/fonts-{tag}/variable/Playwrite{tagnospace}[wght{has_sl}].ttf")
         var_wght_only.close()
         varfont.close()
-        print(f"Instanced Playpen{tagnospace}[wght{has_sl}].ttf")
+        print(f"Instanced Playwrite{tagnospace}[wght{has_sl}].ttf")
 
 if __name__ == "__main__":
     main()
