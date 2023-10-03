@@ -7,7 +7,7 @@
     <axis tag="SPED" name="Speed" minimum="0" maximum="100" default="0"/>
   </axes>
   <sources>
-    <source filename="../Playpen-Th00ShortSlow.ufo" name="Playpen Th 00 Short Slow" familyname="Playpen" stylename="Th 00 Short Slow">
+    <source filename="../Playwrite-Th00ShortSlow.ufo" name="Playwrite Th 00 Short Slow" familyname="Playwrite" stylename="Th 00 Short Slow">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -19,7 +19,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="../Playpen-Th18ShortSlow.ufo" name="Playpen Th 18 Short Slow" familyname="Playpen" stylename="Th 18 Short Slow">
+    <source filename="../Playwrite-Th18ShortSlow.ufo" name="Playwrite Th 18 Short Slow" familyname="Playwrite" stylename="Th 18 Short Slow">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="18"/>
@@ -27,7 +27,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="../Playpen-Th00ShortFast.ufo" name="Playpen Th 00 Short Fast" familyname="Playpen" stylename="Th 00 Short Fast">
+    <source filename="../Playwrite-Th00ShortFast.ufo" name="Playwrite Th 00 Short Fast" familyname="Playwrite" stylename="Th 00 Short Fast">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="0"/>
@@ -35,7 +35,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="../Playpen-Th18ShortFast.ufo" name="Playpen Th 18 Short Fast" familyname="Playpen" stylename="Th 18 Short Fast">
+    <source filename="../Playwrite-Th18ShortFast.ufo" name="Playwrite Th 18 Short Fast" familyname="Playwrite" stylename="Th 18 Short Fast">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="18"/>
@@ -43,7 +43,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="../Playpen-Rg00ShortSlow.ufo" name="Playpen Rg 00 Short Slow" familyname="Playpen" stylename="Rg 00 Short Slow">
+    <source filename="../Playwrite-Rg00ShortSlow.ufo" name="Playwrite Rg 00 Short Slow" familyname="Playwrite" stylename="Rg 00 Short Slow">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="0"/>
@@ -51,7 +51,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="../Playpen-Rg18ShortSlow.ufo" name="Playpen Rg 18 Short Slow" familyname="Playpen" stylename="Rg 18 Short Slow">
+    <source filename="../Playwrite-Rg18ShortSlow.ufo" name="Playwrite Rg 18 Short Slow" familyname="Playwrite" stylename="Rg 18 Short Slow">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="18"/>
@@ -59,7 +59,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="../Playpen-Rg00ShortFast.ufo" name="Playpen Rg 00 Short Fast" familyname="Playpen" stylename="Rg 00 Short Fast">
+    <source filename="../Playwrite-Rg00ShortFast.ufo" name="Playwrite Rg 00 Short Fast" familyname="Playwrite" stylename="Rg 00 Short Fast">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="0"/>
@@ -67,7 +67,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="../Playpen-Rg18ShortFast.ufo" name="Playpen Rg 18 Short Fast" familyname="Playpen" stylename="Rg 18 Short Fast">
+    <source filename="../Playwrite-Rg18ShortFast.ufo" name="Playwrite Rg 18 Short Fast" familyname="Playwrite" stylename="Rg 18 Short Fast">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="18"/>
@@ -75,7 +75,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="../Playpen-Th00LongSlow.ufo" name="Playpen Th 00 Long Slow" familyname="Playpen" stylename="Th 00 Long Slow">
+    <source filename="../Playwrite-Th00LongSlow.ufo" name="Playwrite Th 00 Long Slow" familyname="Playwrite" stylename="Th 00 Long Slow">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="0"/>
@@ -83,7 +83,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="../Playpen-Th18LongSlow.ufo" name="Playpen Th 18 Long Slow" familyname="Playpen" stylename="Th 18 Long Slow">
+    <source filename="../Playwrite-Th18LongSlow.ufo" name="Playwrite Th 18 Long Slow" familyname="Playwrite" stylename="Th 18 Long Slow">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="18"/>
@@ -91,7 +91,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="../Playpen-Th00LongFast.ufo" name="Playpen Th 00 Long Fast" familyname="Playpen" stylename="Th 00 Long Fast">
+    <source filename="../Playwrite-Th00LongFast.ufo" name="Playwrite Th 00 Long Fast" familyname="Playwrite" stylename="Th 00 Long Fast">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="0"/>
@@ -99,7 +99,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="../Playpen-Th18LongFast.ufo" name="Playpen Th 18 Long Fast" familyname="Playpen" stylename="Th 18 Long Fast">
+    <source filename="../Playwrite-Th18LongFast.ufo" name="Playwrite Th 18 Long Fast" familyname="Playwrite" stylename="Th 18 Long Fast">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="18"/>
@@ -107,7 +107,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="../Playpen-Rg00LongSlow.ufo" name="Playpen Rg 00 Long Slow" familyname="Playpen" stylename="Rg 00 Long Slow">
+    <source filename="../Playwrite-Rg00LongSlow.ufo" name="Playwrite Rg 00 Long Slow" familyname="Playwrite" stylename="Rg 00 Long Slow">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="0"/>
@@ -115,7 +115,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="../Playpen-Rg18LongSlow.ufo" name="Playpen Rg 18 Long Slow" familyname="Playpen" stylename="Rg 18 Long Slow">
+    <source filename="../Playwrite-Rg18LongSlow.ufo" name="Playwrite Rg 18 Long Slow" familyname="Playwrite" stylename="Rg 18 Long Slow">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="18"/>
@@ -123,7 +123,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </source>
-    <source filename="../Playpen-Rg00LongFast.ufo" name="Playpen Rg 00 Long Fast" familyname="Playpen" stylename="Rg 00 Long Fast">
+    <source filename="../Playwrite-Rg00LongFast.ufo" name="Playwrite Rg 00 Long Fast" familyname="Playwrite" stylename="Rg 00 Long Fast">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="0"/>
@@ -131,7 +131,7 @@
         <dimension name="Speed" xvalue="100"/>
       </location>
     </source>
-    <source filename="../Playpen-Rg18LongFast.ufo" name="Playpen Rg 18 Long Fast" familyname="Playpen" stylename="Rg 18 Long Fast">
+    <source filename="../Playwrite-Rg18LongFast.ufo" name="Playwrite Rg 18 Long Fast" familyname="Playwrite" stylename="Rg 18 Long Fast">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="18"/>
@@ -141,7 +141,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playpen BEL WAL Thin" familyname="Playpen BEL WAL" stylename="Thin" filename="../instance_ufo/PlaypenBELWAL-Thin.ufo" postscriptfontname="PlaypenBELWAL-Thin" stylemapfamilyname="Playpen BEL WAL Thin" stylemapstylename="regular">
+    <instance name="Playwrite BEL WAL Thin" familyname="Playwrite BEL WAL" stylename="Thin" filename="../instance_ufo/PlaywriteBELWAL-Thin.ufo" postscriptfontname="PlaywriteBELWAL-Thin" stylemapfamilyname="Playwrite BEL WAL Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="0"/>
@@ -149,7 +149,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
-    <instance name="Playpen BEL WAL ExtraLight" familyname="Playpen BEL WAL" stylename="ExtraLight" filename="../instance_ufo/PlaypenBELWAL-ExtraLight.ufo" postscriptfontname="PlaypenBELWAL-ExtraLight" stylemapfamilyname="Playpen BEL WAL ExtraLight" stylemapstylename="regular">
+    <instance name="Playwrite BEL WAL ExtraLight" familyname="Playwrite BEL WAL" stylename="ExtraLight" filename="../instance_ufo/PlaywriteBELWAL-ExtraLight.ufo" postscriptfontname="PlaywriteBELWAL-ExtraLight" stylemapfamilyname="Playwrite BEL WAL ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="0"/>
@@ -157,7 +157,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
-    <instance name="Playpen BEL WAL Light" familyname="Playpen BEL WAL" stylename="Light" filename="../instance_ufo/PlaypenBELWAL-Light.ufo" postscriptfontname="PlaypenBELWAL-Light" stylemapfamilyname="Playpen BEL WAL Light" stylemapstylename="regular">
+    <instance name="Playwrite BEL WAL Light" familyname="Playwrite BEL WAL" stylename="Light" filename="../instance_ufo/PlaywriteBELWAL-Light.ufo" postscriptfontname="PlaywriteBELWAL-Light" stylemapfamilyname="Playwrite BEL WAL Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Slant" xvalue="0"/>
@@ -165,7 +165,7 @@
         <dimension name="Speed" xvalue="0"/>
       </location>
     </instance>
-    <instance name="Playpen BEL WAL Regular" familyname="Playpen BEL WAL" stylename="Regular" filename="../instance_ufo/PlaypenBELWAL-Regular.ufo" postscriptfontname="PlaypenBELWAL-Regular" stylemapfamilyname="Playpen BEL WAL" stylemapstylename="regular">
+    <instance name="Playwrite BEL WAL Regular" familyname="Playwrite BEL WAL" stylename="Regular" filename="../instance_ufo/PlaywriteBELWAL-Regular.ufo" postscriptfontname="PlaywriteBELWAL-Regular" stylemapfamilyname="Playwrite BEL WAL" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="0"/>

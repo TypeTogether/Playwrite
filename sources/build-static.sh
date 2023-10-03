@@ -1,4 +1,4 @@
-# build Playpen fonts
+# build Playwrite fonts
 
 set -e
 
@@ -11,8 +11,8 @@ mkdir -p $ttfFontsPath # $webFontsPath
 
 # pack source as .glyphspackage is not supported yet by fontmake
 echo
-echo "glyphspkg: Converting Playpen_MM.glyphspackage to Playpen_MM.glyphs"
-glyphspkg Playpen_MM.glyphspackage
+echo "glyphspkg: Converting Playwrite_MM.glyphspackage to Playwrite_MM.glyphs"
+glyphspkg Playwrite_MM.glyphspackage
 
 echo "
 =========================
@@ -22,7 +22,7 @@ echo "
 echo
 
 # Build TTF fonts
-fontmake -g ./Playpen_MM.glyphs -i -o ttf --output-dir $ttfFontsPath \
+fontmake -g ./Playwrite_MM.glyphs -i -o ttf --output-dir $ttfFontsPath \
           --filter DecomposeTransformedComponentsFilter \
           --flatten-components
 
