@@ -1,12 +1,110 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="AE.cur.ini" format="2">
-  <advance width="600"/>
+  <advance width="1281"/>
+  <anchor x="1281" y="0" name="cnct"/>
+  <anchor x="763" y="838" name="top"/>
   <outline>
+    <contour>
+      <point x="109" y="-17" type="curve" smooth="yes"/>
+      <point x="234" y="-17"/>
+      <point x="321" y="93"/>
+      <point x="625" y="858" type="curve"/>
+      <point x="609" y="855" type="line"/>
+      <point x="619" y="649"/>
+      <point x="651" y="398"/>
+      <point x="696" y="173" type="curve" smooth="yes"/>
+      <point x="699" y="163"/>
+      <point x="705" y="161"/>
+      <point x="719" y="164" type="curve" smooth="yes"/>
+      <point x="731" y="168"/>
+      <point x="735" y="171"/>
+      <point x="733" y="181" type="curve" smooth="yes"/>
+      <point x="689" y="403"/>
+      <point x="658" y="654"/>
+      <point x="645" y="865" type="curve" smooth="yes"/>
+      <point x="644" y="883"/>
+      <point x="635" y="890"/>
+      <point x="619" y="890" type="curve" smooth="yes"/>
+      <point x="606" y="890"/>
+      <point x="599" y="884"/>
+      <point x="594" y="871" type="curve" smooth="yes"/>
+      <point x="291" y="125"/>
+      <point x="211" y="20"/>
+      <point x="111" y="20" type="curve" smooth="yes"/>
+      <point x="95" y="20"/>
+      <point x="76" y="24"/>
+      <point x="58" y="31" type="curve" smooth="yes"/>
+      <point x="50" y="34"/>
+      <point x="41" y="31"/>
+      <point x="36" y="19" type="curve" smooth="yes"/>
+      <point x="31" y="6"/>
+      <point x="39" y="-1"/>
+      <point x="46" y="-5" type="curve" smooth="yes"/>
+      <point x="64" y="-12"/>
+      <point x="84" y="-17"/>
+    </contour>
+    <contour>
+      <point x="355" y="288" type="line"/>
+      <point x="694" y="288" type="line"/>
+      <point x="688" y="320" type="line"/>
+      <point x="368" y="320" type="line"/>
+    </contour>
+    <contour>
+      <point x="983" y="-17" type="curve" smooth="yes"/>
+      <point x="1003" y="-17"/>
+      <point x="1004" y="16"/>
+      <point x="984" y="16" type="curve" smooth="yes"/>
+      <point x="783" y="16"/>
+      <point x="733" y="106"/>
+      <point x="733" y="245" type="curve" smooth="yes"/>
+      <point x="733" y="369"/>
+      <point x="828" y="441"/>
+      <point x="969" y="441" type="curve" smooth="yes"/>
+      <point x="1084" y="441" type="line" smooth="yes"/>
+      <point x="1091" y="441"/>
+      <point x="1095" y="448"/>
+      <point x="1095" y="459" type="curve" smooth="yes"/>
+      <point x="1095" y="470"/>
+      <point x="1091" y="476"/>
+      <point x="1084" y="476" type="curve" smooth="yes"/>
+      <point x="965" y="476" type="line" smooth="yes"/>
+      <point x="846" y="476"/>
+      <point x="781" y="554"/>
+      <point x="781" y="671" type="curve" smooth="yes"/>
+      <point x="781" y="780"/>
+      <point x="864" y="853"/>
+      <point x="979" y="853" type="curve" smooth="yes"/>
+      <point x="1051" y="853"/>
+      <point x="1111" y="829"/>
+      <point x="1178" y="771" type="curve" smooth="yes"/>
+      <point x="1189" y="763"/>
+      <point x="1198" y="760"/>
+      <point x="1206" y="769" type="curve" smooth="yes"/>
+      <point x="1220" y="783"/>
+      <point x="1211" y="789"/>
+      <point x="1206" y="795" type="curve" smooth="yes"/>
+      <point x="1149" y="855"/>
+      <point x="1063" y="890"/>
+      <point x="981" y="890" type="curve" smooth="yes"/>
+      <point x="844" y="890"/>
+      <point x="741" y="800"/>
+      <point x="741" y="670" type="curve" smooth="yes"/>
+      <point x="741" y="569"/>
+      <point x="788" y="490"/>
+      <point x="885" y="460" type="curve"/>
+      <point x="766" y="435"/>
+      <point x="691" y="356"/>
+      <point x="691" y="241" type="curve" smooth="yes"/>
+      <point x="691" y="86"/>
+      <point x="759" y="-17"/>
+    </contour>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=E.cur.ini</string>
       <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

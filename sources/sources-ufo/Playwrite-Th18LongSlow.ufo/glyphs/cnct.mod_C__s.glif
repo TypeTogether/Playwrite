@@ -3,18 +3,18 @@
   <anchor x="-81" y="0" name="_cnct"/>
   <outline>
     <contour>
-      <point x="-266" y="-17" type="curve" smooth="yes"/>
-      <point x="-87" y="-17"/>
-      <point x="43" y="158"/>
-      <point x="188" y="416" type="curve" smooth="yes"/>
-      <point x="195" y="430"/>
-      <point x="169" y="443"/>
-      <point x="161" y="429" type="curve" smooth="yes"/>
-      <point x="19" y="174"/>
-      <point x="-106" y="16"/>
-      <point x="-261" y="16" type="curve" smooth="yes"/>
-      <point x="-294" y="16"/>
-      <point x="-291" y="-17"/>
+      <point x="-501" y="-17" type="curve" smooth="yes"/>
+      <point x="-192" y="-17"/>
+      <point x="94" y="197"/>
+      <point x="192" y="424" type="curve" smooth="yes"/>
+      <point x="201" y="445"/>
+      <point x="173" y="454"/>
+      <point x="165" y="436" type="curve" smooth="yes"/>
+      <point x="72" y="222"/>
+      <point x="-214" y="16"/>
+      <point x="-496" y="16" type="curve" smooth="yes"/>
+      <point x="-516" y="16"/>
+      <point x="-521" y="-17"/>
     </contour>
   </outline>
   <lib>
@@ -26,7 +26,7 @@
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
       <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
+      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>
