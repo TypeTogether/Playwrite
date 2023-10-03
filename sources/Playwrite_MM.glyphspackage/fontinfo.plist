@@ -1,5 +1,5 @@
 {
-.appVersion = "3220";
+.appVersion = "3221";
 .formatVersion = 3;
 axes = (
 {
@@ -1477,7 +1477,7 @@ featurePrefixes = (
 code = "languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-include(features/Playwrite-dev.fea);
+include(features/Playwrite.fea);
 ";
 name = Languagesystems;
 }
