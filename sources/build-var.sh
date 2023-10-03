@@ -1,4 +1,4 @@
-# build Playpen early variable
+# build Playwrite early variable
 
 set -e
 
@@ -10,8 +10,8 @@ mkdir -p $varFontsPath # $ttfFontsPath $webFontsPath
 
 # pack source as .glyphspackage is not supported yet by fontmake
 echo
-echo "glyphspkg: Converting Playpen_MM.glyphspackage to Playpen_MM.glyphs"
-glyphspkg Playpen_MM.glyphspackage
+echo "glyphspkg: Converting Playwrite_MM.glyphspackage to Playwrite_MM.glyphs"
+glyphspkg Playwrite_MM.glyphspackage
 
 echo "
 ==========================
@@ -21,8 +21,8 @@ echo "
 echo
 
 # Build variable font
-fontmake -g ./Playpen_MM.glyphs -o variable \
-            --output-path $varFontsPath/Playpen[wght,YEXT,SPED,slnt].ttf \
+fontmake -g ./Playwrite_MM.glyphs -o variable \
+            --output-path $varFontsPath/Playwrite[wght,YEXT,SPED,slnt].ttf \
             --filter DecomposeTransformedComponentsFilter
 
 # Post-processing?

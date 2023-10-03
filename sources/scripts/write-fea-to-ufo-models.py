@@ -13,7 +13,7 @@ folder_ufos = "./sources-ufo"
 fea_code = """languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-include(../features/Playpen-models-temp.fea);
+include(../features/Playwrite-models-temp.fea);
 
 """
 

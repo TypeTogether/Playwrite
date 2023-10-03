@@ -43,7 +43,7 @@ def drawGuides(glyph, yValues, lineWidth=10):
 def main():
     tag = sys.argv[1]
     tagnospace = tag.replace('_', '')
-    src_path = os.path.abspath(f"./instance_ufo/Playpen{tagnospace}-Thin.ufo")
+    src_path = os.path.abspath(f"./instance_ufo/Playwrite{tagnospace}-Thin.ufo")
     tgt_path = src_path.replace("Thin", "Guides")
 
     src_font = OpenFont(src_path, showInterface=False)

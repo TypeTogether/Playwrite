@@ -1,10 +1,10 @@
-# build Playpen variable fonts per country
+# build Playwrite variable fonts per country
 
 set -e
 
 
 scripts="../scripts"
-feaFile=../features/Playpen-models.fea
+feaFile=../features/Playwrite-models.fea
 
 if [ $1 = "ALL" ]; then
     models=( ARG AUS_NSW AUS_QLD AUS_SA AUS_TAS AUS_VIC BEL_VLG BEL_WAL BRA CAN CHI COL CUB CZE DEU_Grundschrift DEU_LA DEU_SAS DEU_VA DNK_Looped DNK_Unlooped ENG_Joined ENG_Semijoined ESP ESP_OrnateUC FRA_Modern FRA_Traditional HRV HRV_Lefthand IDN IRL ISL ITA_Modern ITA_Traditional MEX NLD NOR NZL PER POL PRT SVK USA_Modern USA_Traditional VNM ZAF )
@@ -37,7 +37,7 @@ do
     echo
     # temporal file name (referenced in config.yaml for STAT):
     tagnospace=${tag/"_"/""}
-    varFileName="Playpen$tagnospace[wght,YEXT,SPED,slnt].ttf"
+    varFileName="Playwrite$tagnospace[wght,YEXT,SPED,slnt].ttf"
     tempVarFileName="var-model-temp.ttf"
     temp_ttf=$varFontsPath/$tempVarFileName
     # Build VAR font for model

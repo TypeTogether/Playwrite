@@ -15,7 +15,7 @@ weightStyles = {
 for mTag, val in modelsDataDict.items():
     # designspace with the sources
     doc = DesignSpaceDocument.fromfile(
-    "../sources-ufo/designspace-models/_Playpen-SOURCES.designspace")
+    "../sources-ufo/designspace-models/_Playwrite-SOURCES.designspace")
     slant = val["slnt"]
     extend = val["YEXT"]
     speed = val["SPED"]
@@ -29,7 +29,7 @@ for mTag, val in modelsDataDict.items():
 
     # make weight instances
     for w_value in weightStyles.keys():
-        mFamilyName = f"Playpen {mTag.replace('_', ' ')}"
+        mFamilyName = f"Playwrite {mTag.replace('_', ' ')}"
         iStyleName = weightStyles[w_value]  # (from weight style-value)
         family_no_space = mFamilyName.replace(" ", "")
         iPostscriptFontName = f"{family_no_space}-{iStyleName}"
@@ -51,7 +51,7 @@ for mTag, val in modelsDataDict.items():
         # if italic
         if hasItalic is True:
             # italic values
-            mFamilyName = f"Playpen {mTag.replace('_', ' ')}"
+            mFamilyName = f"Playwrite {mTag.replace('_', ' ')}"
             family_no_space = mFamilyName.replace(" ", "")
             if iStyleName != "Regular":
                 it_iStyleName = iStyleName + " Italic"
