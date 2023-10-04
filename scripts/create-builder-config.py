@@ -154,8 +154,8 @@ with open("sources/data/models-all.csv", "r") as file:
         steps.append(
             {"operation": "remap", "mappings": get_mapping(model), "args": "--deep"}
         )
-        # steps.append({"operation": "hbsubset"})
-        # steps.append({"operation": "fix"})
+        steps.append({"operation": "hbsubset"})
+        steps.append({"operation": "fix", "fixargs": "--include-source-fixes"})
         steps.append({"operation": "rename", "name": "Playpen " + model_name})
         stat_file = "stat.yaml"
         if "-" in model["slnt"]:

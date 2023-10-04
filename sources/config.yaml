@@ -84,6 +84,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Argentina
   - operation: buildStat
@@ -166,6 +169,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Argentina
   - operation: buildStat
@@ -253,6 +259,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Argentina
   - operation: buildStat
@@ -340,6 +349,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Argentina
   - operation: buildStat
@@ -427,6 +439,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Argentina
   - operation: buildStat
@@ -514,6 +529,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia NSW
   - operation: buildStat
@@ -596,6 +614,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia NSW
   - operation: buildStat
@@ -683,6 +704,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia NSW
   - operation: buildStat
@@ -770,6 +794,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia NSW
   - operation: buildStat
@@ -857,6 +884,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia NSW
   - operation: buildStat
@@ -944,6 +974,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia QLD
   - operation: buildStat
@@ -1026,6 +1059,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia QLD
   - operation: buildStat
@@ -1113,6 +1149,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia QLD
   - operation: buildStat
@@ -1200,6 +1239,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia QLD
   - operation: buildStat
@@ -1287,6 +1329,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia QLD
   - operation: buildStat
@@ -1374,6 +1419,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia SA
   - operation: buildStat
@@ -1456,6 +1504,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia SA
   - operation: buildStat
@@ -1543,6 +1594,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia SA
   - operation: buildStat
@@ -1630,6 +1684,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia SA
   - operation: buildStat
@@ -1717,6 +1774,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia SA
   - operation: buildStat
@@ -1804,6 +1864,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia TAS
   - operation: buildStat
@@ -1886,6 +1949,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia TAS
   - operation: buildStat
@@ -1973,6 +2039,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia TAS
   - operation: buildStat
@@ -2060,6 +2129,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia TAS
   - operation: buildStat
@@ -2147,6 +2219,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia TAS
   - operation: buildStat
@@ -2234,6 +2309,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia VIC
   - operation: buildStat
@@ -2316,6 +2394,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia VIC
   - operation: buildStat
@@ -2403,6 +2484,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia VIC
   - operation: buildStat
@@ -2490,6 +2574,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia VIC
   - operation: buildStat
@@ -2577,6 +2664,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Australia VIC
   - operation: buildStat
@@ -2664,6 +2754,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Belgium Walloon WAL
   - operation: buildStat
@@ -2746,6 +2839,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Belgium Walloon WAL
   - operation: buildStat
@@ -2833,6 +2929,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Belgium Walloon WAL
   - operation: buildStat
@@ -2920,6 +3019,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Belgium Walloon WAL
   - operation: buildStat
@@ -3007,6 +3109,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Belgium Walloon WAL
   - operation: buildStat
@@ -3094,6 +3199,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Belgium Flanders VLG
   - operation: buildStat
@@ -3176,6 +3284,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Belgium Flanders VLG
   - operation: buildStat
@@ -3263,6 +3374,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Belgium Flanders VLG
   - operation: buildStat
@@ -3350,6 +3464,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Belgium Flanders VLG
   - operation: buildStat
@@ -3437,6 +3554,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Belgium Flanders VLG
   - operation: buildStat
@@ -3524,6 +3644,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Brazil
   - operation: buildStat
@@ -3606,6 +3729,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Brazil
   - operation: buildStat
@@ -3693,6 +3819,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Brazil
   - operation: buildStat
@@ -3780,6 +3909,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Brazil
   - operation: buildStat
@@ -3867,6 +3999,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Brazil
   - operation: buildStat
@@ -3954,6 +4089,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Canada
   - operation: buildStat
@@ -4036,6 +4174,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Canada
   - operation: buildStat
@@ -4123,6 +4264,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Canada
   - operation: buildStat
@@ -4210,6 +4354,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Canada
   - operation: buildStat
@@ -4297,6 +4444,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Canada
   - operation: buildStat
@@ -4384,6 +4534,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Chile
   - operation: buildStat
@@ -4466,6 +4619,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Chile
   - operation: buildStat
@@ -4553,6 +4709,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Chile
   - operation: buildStat
@@ -4640,6 +4799,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Chile
   - operation: buildStat
@@ -4727,6 +4889,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Chile
   - operation: buildStat
@@ -4814,6 +4979,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Colombia
   - operation: buildStat
@@ -4896,6 +5064,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Colombia
   - operation: buildStat
@@ -4983,6 +5154,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Colombia
   - operation: buildStat
@@ -5070,6 +5244,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Colombia
   - operation: buildStat
@@ -5157,6 +5334,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Colombia
   - operation: buildStat
@@ -5244,6 +5424,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Croatia Italic
   - operation: buildStat
@@ -5326,6 +5509,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Croatia Italic
   - operation: buildStat
@@ -5413,6 +5599,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Croatia Italic
   - operation: buildStat
@@ -5500,6 +5689,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Croatia Italic
   - operation: buildStat
@@ -5587,6 +5779,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Croatia Italic
   - operation: buildStat
@@ -5674,6 +5869,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Croatia Upright Lefthand
   - operation: buildStat
@@ -5756,6 +5954,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Croatia Upright Lefthand
   - operation: buildStat
@@ -5843,6 +6044,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Croatia Upright Lefthand
   - operation: buildStat
@@ -5930,6 +6134,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Croatia Upright Lefthand
   - operation: buildStat
@@ -6017,6 +6224,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Croatia Upright Lefthand
   - operation: buildStat
@@ -6104,6 +6314,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Cuba
   - operation: buildStat
@@ -6186,6 +6399,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Cuba
   - operation: buildStat
@@ -6273,6 +6489,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Cuba
   - operation: buildStat
@@ -6360,6 +6579,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Cuba
   - operation: buildStat
@@ -6447,6 +6669,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Cuba
   - operation: buildStat
@@ -6534,6 +6759,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Czech Republic
   - operation: buildStat
@@ -6616,6 +6844,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Czech Republic
   - operation: buildStat
@@ -6703,6 +6934,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Czech Republic
   - operation: buildStat
@@ -6790,6 +7024,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Czech Republic
   - operation: buildStat
@@ -6877,6 +7114,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Czech Republic
   - operation: buildStat
@@ -6964,6 +7204,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Denmark Looped
   - operation: buildStat
@@ -7046,6 +7289,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Denmark Looped
   - operation: buildStat
@@ -7133,6 +7379,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Denmark Looped
   - operation: buildStat
@@ -7220,6 +7469,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Denmark Looped
   - operation: buildStat
@@ -7307,6 +7559,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Denmark Looped
   - operation: buildStat
@@ -7394,6 +7649,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Denmark Unlooped
   - operation: buildStat
@@ -7476,6 +7734,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Denmark Unlooped
   - operation: buildStat
@@ -7563,6 +7824,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Denmark Unlooped
   - operation: buildStat
@@ -7650,6 +7914,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Denmark Unlooped
   - operation: buildStat
@@ -7737,6 +8004,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Denmark Unlooped
   - operation: buildStat
@@ -7824,6 +8094,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Semijoined
   - operation: buildStat
@@ -7906,6 +8179,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Semijoined
   - operation: buildStat
@@ -7992,6 +8268,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Semijoined
   - operation: buildStat
@@ -8079,6 +8358,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Semijoined
   - operation: buildStat
@@ -8165,6 +8447,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Semijoined
   - operation: buildStat
@@ -8252,6 +8537,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Semijoined
   - operation: buildStat
@@ -8338,6 +8626,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Semijoined
   - operation: buildStat
@@ -8425,6 +8716,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Semijoined
   - operation: buildStat
@@ -8511,6 +8805,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Semijoined
   - operation: buildStat
@@ -8598,6 +8895,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Joined
   - operation: buildStat
@@ -8680,6 +8980,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Joined
   - operation: buildStat
@@ -8766,6 +9069,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Joined
   - operation: buildStat
@@ -8853,6 +9159,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Joined
   - operation: buildStat
@@ -8939,6 +9248,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Joined
   - operation: buildStat
@@ -9026,6 +9338,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Joined
   - operation: buildStat
@@ -9112,6 +9427,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Joined
   - operation: buildStat
@@ -9199,6 +9517,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Joined
   - operation: buildStat
@@ -9285,6 +9606,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen England Joined
   - operation: buildStat
@@ -9372,6 +9696,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen France Traditional
   - operation: buildStat
@@ -9454,6 +9781,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen France Traditional
   - operation: buildStat
@@ -9541,6 +9871,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen France Traditional
   - operation: buildStat
@@ -9628,6 +9961,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen France Traditional
   - operation: buildStat
@@ -9715,6 +10051,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen France Traditional
   - operation: buildStat
@@ -9802,6 +10141,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen France Modern
   - operation: buildStat
@@ -9884,6 +10226,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen France Modern
   - operation: buildStat
@@ -9971,6 +10316,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen France Modern
   - operation: buildStat
@@ -10058,6 +10406,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen France Modern
   - operation: buildStat
@@ -10145,6 +10496,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen France Modern
   - operation: buildStat
@@ -10232,6 +10586,9 @@ recipe:
       U+0131: idotless
       U+0237: jdotless
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany Grundschrift
   - operation: buildStat
@@ -10314,6 +10671,9 @@ recipe:
       U+0131: idotless
       U+0237: jdotless
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany Grundschrift
   - operation: buildStat
@@ -10401,6 +10761,9 @@ recipe:
       U+0131: idotless
       U+0237: jdotless
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany Grundschrift
   - operation: buildStat
@@ -10488,6 +10851,9 @@ recipe:
       U+0131: idotless
       U+0237: jdotless
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany Grundschrift
   - operation: buildStat
@@ -10575,6 +10941,9 @@ recipe:
       U+0131: idotless
       U+0237: jdotless
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany Grundschrift
   - operation: buildStat
@@ -10662,6 +11031,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany LA
   - operation: buildStat
@@ -10744,6 +11116,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany LA
   - operation: buildStat
@@ -10831,6 +11206,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany LA
   - operation: buildStat
@@ -10918,6 +11296,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany LA
   - operation: buildStat
@@ -11005,6 +11386,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany LA
   - operation: buildStat
@@ -11092,6 +11476,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany SAS
   - operation: buildStat
@@ -11174,6 +11561,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany SAS
   - operation: buildStat
@@ -11261,6 +11651,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany SAS
   - operation: buildStat
@@ -11348,6 +11741,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany SAS
   - operation: buildStat
@@ -11435,6 +11831,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany SAS
   - operation: buildStat
@@ -11522,6 +11921,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany VA
   - operation: buildStat
@@ -11604,6 +12006,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany VA
   - operation: buildStat
@@ -11691,6 +12096,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany VA
   - operation: buildStat
@@ -11778,6 +12186,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany VA
   - operation: buildStat
@@ -11865,6 +12276,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Germany VA
   - operation: buildStat
@@ -11952,6 +12366,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Iceland
   - operation: buildStat
@@ -12034,6 +12451,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Iceland
   - operation: buildStat
@@ -12121,6 +12541,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Iceland
   - operation: buildStat
@@ -12208,6 +12631,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Iceland
   - operation: buildStat
@@ -12295,6 +12721,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Iceland
   - operation: buildStat
@@ -12382,6 +12811,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Indonesia
   - operation: buildStat
@@ -12464,6 +12896,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Indonesia
   - operation: buildStat
@@ -12551,6 +12986,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Indonesia
   - operation: buildStat
@@ -12638,6 +13076,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Indonesia
   - operation: buildStat
@@ -12725,6 +13166,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Indonesia
   - operation: buildStat
@@ -12812,6 +13256,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Ireland
   - operation: buildStat
@@ -12894,6 +13341,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Ireland
   - operation: buildStat
@@ -12981,6 +13431,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Ireland
   - operation: buildStat
@@ -13068,6 +13521,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Ireland
   - operation: buildStat
@@ -13155,6 +13611,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Ireland
   - operation: buildStat
@@ -13242,6 +13701,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Italy Traditional
   - operation: buildStat
@@ -13324,6 +13786,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Italy Traditional
   - operation: buildStat
@@ -13411,6 +13876,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Italy Traditional
   - operation: buildStat
@@ -13498,6 +13966,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Italy Traditional
   - operation: buildStat
@@ -13585,6 +14056,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Italy Traditional
   - operation: buildStat
@@ -13672,6 +14146,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Italy Modern
   - operation: buildStat
@@ -13754,6 +14231,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Italy Modern
   - operation: buildStat
@@ -13841,6 +14321,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Italy Modern
   - operation: buildStat
@@ -13928,6 +14411,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Italy Modern
   - operation: buildStat
@@ -14015,6 +14501,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Italy Modern
   - operation: buildStat
@@ -14102,6 +14591,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Mexico
   - operation: buildStat
@@ -14184,6 +14676,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Mexico
   - operation: buildStat
@@ -14271,6 +14766,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Mexico
   - operation: buildStat
@@ -14358,6 +14856,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Mexico
   - operation: buildStat
@@ -14445,6 +14946,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Mexico
   - operation: buildStat
@@ -14532,6 +15036,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Netherlands
   - operation: buildStat
@@ -14614,6 +15121,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Netherlands
   - operation: buildStat
@@ -14701,6 +15211,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Netherlands
   - operation: buildStat
@@ -14788,6 +15301,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Netherlands
   - operation: buildStat
@@ -14875,6 +15391,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Netherlands
   - operation: buildStat
@@ -14962,6 +15481,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen New Zealand
   - operation: buildStat
@@ -15044,6 +15566,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen New Zealand
   - operation: buildStat
@@ -15131,6 +15656,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen New Zealand
   - operation: buildStat
@@ -15218,6 +15746,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen New Zealand
   - operation: buildStat
@@ -15305,6 +15836,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen New Zealand
   - operation: buildStat
@@ -15392,6 +15926,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Norway
   - operation: buildStat
@@ -15474,6 +16011,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Norway
   - operation: buildStat
@@ -15561,6 +16101,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Norway
   - operation: buildStat
@@ -15648,6 +16191,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Norway
   - operation: buildStat
@@ -15735,6 +16281,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Norway
   - operation: buildStat
@@ -15822,6 +16371,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Peru
   - operation: buildStat
@@ -15904,6 +16456,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Peru
   - operation: buildStat
@@ -15991,6 +16546,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Peru
   - operation: buildStat
@@ -16078,6 +16636,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Peru
   - operation: buildStat
@@ -16165,6 +16726,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Peru
   - operation: buildStat
@@ -16252,6 +16816,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Poland
   - operation: buildStat
@@ -16334,6 +16901,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Poland
   - operation: buildStat
@@ -16421,6 +16991,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Poland
   - operation: buildStat
@@ -16508,6 +17081,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Poland
   - operation: buildStat
@@ -16595,6 +17171,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Poland
   - operation: buildStat
@@ -16682,6 +17261,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Portugal
   - operation: buildStat
@@ -16764,6 +17346,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Portugal
   - operation: buildStat
@@ -16851,6 +17436,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Portugal
   - operation: buildStat
@@ -16938,6 +17526,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Portugal
   - operation: buildStat
@@ -17025,6 +17616,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Portugal
   - operation: buildStat
@@ -17112,6 +17706,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Slovakia
   - operation: buildStat
@@ -17194,6 +17791,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Slovakia
   - operation: buildStat
@@ -17281,6 +17881,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Slovakia
   - operation: buildStat
@@ -17368,6 +17971,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Slovakia
   - operation: buildStat
@@ -17455,6 +18061,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Slovakia
   - operation: buildStat
@@ -17542,6 +18151,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen South Africa
   - operation: buildStat
@@ -17624,6 +18236,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen South Africa
   - operation: buildStat
@@ -17711,6 +18326,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen South Africa
   - operation: buildStat
@@ -17798,6 +18416,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen South Africa
   - operation: buildStat
@@ -17885,6 +18506,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen South Africa
   - operation: buildStat
@@ -17972,6 +18596,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Spain
   - operation: buildStat
@@ -18054,6 +18681,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Spain
   - operation: buildStat
@@ -18141,6 +18771,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Spain
   - operation: buildStat
@@ -18228,6 +18861,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Spain
   - operation: buildStat
@@ -18315,6 +18951,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Spain
   - operation: buildStat
@@ -18402,6 +19041,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Spain OrnateUC
   - operation: buildStat
@@ -18484,6 +19126,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Spain OrnateUC
   - operation: buildStat
@@ -18571,6 +19216,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Spain OrnateUC
   - operation: buildStat
@@ -18658,6 +19306,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Spain OrnateUC
   - operation: buildStat
@@ -18745,6 +19396,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Spain OrnateUC
   - operation: buildStat
@@ -18832,6 +19486,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen USA Modern
   - operation: buildStat
@@ -18914,6 +19571,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen USA Modern
   - operation: buildStat
@@ -19001,6 +19661,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen USA Modern
   - operation: buildStat
@@ -19088,6 +19751,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen USA Modern
   - operation: buildStat
@@ -19175,6 +19841,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.mod
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen USA Modern
   - operation: buildStat
@@ -19262,6 +19931,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen USA Traditional
   - operation: buildStat
@@ -19344,6 +20016,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen USA Traditional
   - operation: buildStat
@@ -19431,6 +20106,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen USA Traditional
   - operation: buildStat
@@ -19518,6 +20196,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen USA Traditional
   - operation: buildStat
@@ -19605,6 +20286,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen USA Traditional
   - operation: buildStat
@@ -19692,6 +20376,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Vietnam
   - operation: buildStat
@@ -19774,6 +20461,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Vietnam
   - operation: buildStat
@@ -19861,6 +20551,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Vietnam
   - operation: buildStat
@@ -19948,6 +20641,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Vietnam
   - operation: buildStat
@@ -20035,6 +20731,9 @@ recipe:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
     args: --deep
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
   - operation: rename
     name: Playpen Vietnam
   - operation: buildStat
