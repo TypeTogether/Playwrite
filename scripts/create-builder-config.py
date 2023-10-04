@@ -23,11 +23,13 @@ STATICS = {
     "Regular": 400,
 }
 
+
 def to_italic(name):
     if name == "Regular":
         return "Italic"
     else:
-        return name+"Italic"
+        return name + "Italic"
+
 
 UC_ORDER = [
     "A",
@@ -129,12 +131,12 @@ def get_mapping(model):
 
 with open("sources/data/models-all.csv", "r") as file:
     reader = csv.DictReader(file, delimiter=";")
-    for ix,model in enumerate(reader):
+    for ix, model in enumerate(reader):
         model_name = model["Country"]
         if "_" in model["lang_tag"]:
             model_name += " " + model["lang_tag"].split("_")[1]
         file_name = model_name.replace(" ", "")
-        if "-" in model['slnt']:
+        if "-" in model["slnt"]:
             axes = "slnt,wght"
         else:
             axes = "wght"
@@ -149,21 +151,23 @@ with open("sources/data/models-all.csv", "r") as file:
                 "axes": subspace,
             }
         )
-        steps.append({"operation": "remap", "mappings": get_mapping(model)})
+        steps.append(
+            {"operation": "remap", "mappings": get_mapping(model), "args": "--deep"}
+        )
         # steps.append({"operation": "hbsubset"})
         # steps.append({"operation": "fix"})
         steps.append({"operation": "rename", "name": "Playpen " + model_name})
         stat_file = "stat.yaml"
-        if "-" in model['slnt']:
+        if "-" in model["slnt"]:
             stat_file = "stat-italic.yaml"
-        steps.append({"operation": "buildStat", "other_args": "--src "+stat_file})
+        steps.append({"operation": "buildStat", "other_args": "--src " + stat_file})
         config["recipe"][output] = steps
 
         # # And now for statics
         for style, wght in STATICS.items():
             output = f"../fonts/static/{file_name}/Playpen{file_name}-{style}.ttf"
-            if "-" in model['slnt']:
-                low, high = [int(x) for x in model['slnt'].split("-")]
+            if "-" in model["slnt"]:
+                low, high = [int(x) for x in model["slnt"].split("-")]
                 lowsteps = copy.deepcopy(steps)
                 lowsteps.append(
                     {
@@ -171,17 +175,21 @@ with open("sources/data/models-all.csv", "r") as file:
                         "axes": f"wght={wght} slnt={low}",
                     }
                 )
-                lowsteps.append({"postprocess": "fix", "fixargs": "--include-source-fixes"})
+                lowsteps.append(
+                    {"postprocess": "fix", "fixargs": "--include-source-fixes"}
+                )
                 config["recipe"][output] = lowsteps
                 highsteps = copy.deepcopy(steps)
                 highsteps.append(
                     {
                         "operation": "subspace",
                         "axes": f"wght={wght} slnt={high}",
-                        "other_args": "--update-name-table"
+                        "other_args": "--update-name-table",
                     }
                 )
-                highsteps.append({"postprocess": "fix", "fixargs": "--include-source-fixes"})
+                highsteps.append(
+                    {"postprocess": "fix", "fixargs": "--include-source-fixes"}
+                )
                 italic_output = f"../fonts/static/{file_name}/Playpen{file_name}-{to_italic(style)}.ttf"
                 config["recipe"][italic_output] = highsteps
             else:
@@ -190,11 +198,13 @@ with open("sources/data/models-all.csv", "r") as file:
                     {
                         "operation": "subspace",
                         "axes": f"wght={wght}",
-                        "other_args": "--update-name-table"
+                        "other_args": "--update-name-table",
                     }
                 )
-                newsteps.append({"postprocess": "fix", "fixargs": "--include-source-fixes"})
+                newsteps.append(
+                    {"postprocess": "fix", "fixargs": "--include-source-fixes"}
+                )
                 config["recipe"][output] = newsteps
 
 with open("sources/config.yaml", "w") as file:
-    yaml.dump(config, file, sort_keys=False, default_flow_style = False)
+    yaml.dump(config, file, sort_keys=False, default_flow_style=False)
