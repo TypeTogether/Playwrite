@@ -1,4 +1,4 @@
-# Howto Build font models
+# How to Build font models
 
 ## Build instructions
 
