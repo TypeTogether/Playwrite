@@ -34,6 +34,8 @@ def main():
         # fix post italic Angle
         if sl != 0 and type(sl) != tuple:
             var_wght_only["post"].italicAngle = - int(sl)
+        # fix hhea table
+        var_wght_only["hhea"].ascender = var_wght_only["OS/2"].sTypoAscender
         # tag in output without "_"
         var_wght_only.save(f"./../../fonts-models/fonts-{tag}/variable/Playwrite{tag_no_space}[wght{has_sl}].ttf")
         var_wght_only.close()
