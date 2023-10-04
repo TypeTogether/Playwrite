@@ -35,12 +35,12 @@ echo
 
     # Build Thin instance ufo
     tagspaced=${tag/"_"/" "}
-    tagnospace=${tag/"_"/""}
+    tag_no_space=${tag/"_"/""}
     fontmake -m ./designspace-models/$tag.designspace -i "Playwrite $tagspaced Thin" -o ufo \
     # save as Guides ufo and process
     python $scripts/build-guides-model.py $tag
 
-    fontmake -u ./instance_ufo/Playwrite$tagnospace-Guides.ufo -o ttf \
+    fontmake -u ./instance_ufo/Playwrite$tag_no_space-Guides.ufo -o ttf \
             --output-dir $ttfFontsPath \
             --filter DecomposeTransformedComponentsFilter \
             --fea-include-dir ../features
@@ -50,7 +50,7 @@ echo
      Post processing TTF
     =====================
     "
-    ttf=$ttfFontsPath/Playwrite$tagnospace-Guides.ttf
+    ttf=$ttfFontsPath/Playwrite$tag_no_space-Guides.ttf
     echo $ttf
     python -m ttfautohint -n $ttf "$ttf.hint"
     mv "$ttf.hint" $ttf
