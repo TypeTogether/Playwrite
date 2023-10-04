@@ -36,8 +36,8 @@ do
  $(date "+ 📅 DATE: %Y-%m-%d%n  🕒 TIME: %H:%M:%S")"
     echo
     # temporal file name (referenced in config.yaml for STAT):
-    tagnospace=${tag/"_"/""}
-    varFileName="Playwrite$tagnospace[wght,YEXT,SPED,slnt].ttf"
+    tag_no_space=${tag/"_"/""}
+    varFileName="Playwrite$tag_no_space[wght,YEXT,SPED,slnt].ttf"
     tempVarFileName="var-model-temp.ttf"
     temp_ttf=$varFontsPath/$tempVarFileName
     # Build VAR font for model
@@ -56,18 +56,21 @@ do
     # add STAT, rename, autohint
     gftools gen-stat $temp_ttf --src config.yaml --inplace
     mv $temp_ttf $ttf
-    python -m ttfautohint -n $ttf "$ttf.hint"
-    mv "$ttf.hint" $ttf
-    gftools fix-hinting $ttf
-    mv "$ttf.fix" $ttf
+    # python -m ttfautohint -n $ttf "$ttf.hint"
+    # mv "$ttf.hint" $ttf
+    # gftools fix-hinting $ttf
+    # mv "$ttf.fix" $ttf
+    gftools fix-nonhinting $ttf $ttf
+    # fix var name table
+    python $scripts/fix-var-model-name.py $tag $ttf
     echo $ttf
+    rm $varFontsPath/*gasp*
 
     echo "
   =====================
    Building [wght] VAR
   =====================
   "
-      # Build [wght] only variable for model
+    # Build [wght] only variable for model
     python $scripts/build-wght-model-var.py $tag
 done
-
