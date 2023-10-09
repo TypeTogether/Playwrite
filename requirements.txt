@@ -30,7 +30,7 @@ fontPens==0.2.4
 fonttools==4.42.1
 fs==2.4.16
 gflanguages==0.5.7
-gftools @ git+https://github.com/googlefonts/gftools@7ef419f2ef3d7e8725e40c3070bea73a534da39d
+gftools @ git+https://github.com/googlefonts/gftools@builder2
 gitdb==4.0.10
 GitPython==3.1.37
 glyphsets==0.6.4
