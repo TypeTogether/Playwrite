@@ -14,6 +14,7 @@ recipe:
   - operation: subspace
     axes: YEXT=565 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -101,6 +102,7 @@ recipe:
   - operation: subspace
     axes: YEXT=565 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -184,6 +186,7 @@ recipe:
   - operation: subspace
     axes: YEXT=565 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -272,6 +275,7 @@ recipe:
   - operation: subspace
     axes: YEXT=565 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -360,6 +364,7 @@ recipe:
   - operation: subspace
     axes: YEXT=565 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -448,6 +453,7 @@ recipe:
   - operation: subspace
     axes: YEXT=565 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -536,6 +542,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -623,6 +630,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -706,6 +714,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -794,6 +803,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -882,6 +892,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -970,6 +981,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -1058,6 +1070,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -1145,6 +1158,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -1228,6 +1242,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -1316,6 +1331,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -1404,6 +1420,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -1492,6 +1509,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -1580,6 +1598,7 @@ recipe:
   - operation: subspace
     axes: YEXT=488 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -1667,6 +1686,7 @@ recipe:
   - operation: subspace
     axes: YEXT=488 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -1750,6 +1770,7 @@ recipe:
   - operation: subspace
     axes: YEXT=488 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -1838,6 +1859,7 @@ recipe:
   - operation: subspace
     axes: YEXT=488 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -1926,6 +1948,7 @@ recipe:
   - operation: subspace
     axes: YEXT=488 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -2014,6 +2037,7 @@ recipe:
   - operation: subspace
     axes: YEXT=488 SPED=100 slnt=16
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -2102,6 +2126,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -2189,6 +2214,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -2272,6 +2298,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -2360,6 +2387,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -2448,6 +2476,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -2536,6 +2565,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -2624,6 +2654,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -2711,6 +2742,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -2794,6 +2826,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -2882,6 +2915,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -2970,6 +3004,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -3058,6 +3093,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -3146,6 +3182,7 @@ recipe:
   - operation: subspace
     axes: YEXT=905 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -3233,6 +3270,7 @@ recipe:
   - operation: subspace
     axes: YEXT=905 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -3316,6 +3354,7 @@ recipe:
   - operation: subspace
     axes: YEXT=905 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -3404,6 +3443,7 @@ recipe:
   - operation: subspace
     axes: YEXT=905 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -3492,6 +3532,7 @@ recipe:
   - operation: subspace
     axes: YEXT=905 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -3580,6 +3621,7 @@ recipe:
   - operation: subspace
     axes: YEXT=905 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -3668,6 +3710,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -3755,6 +3798,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -3838,6 +3882,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -3926,6 +3971,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -4014,6 +4060,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -4102,6 +4149,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -4190,6 +4238,7 @@ recipe:
   - operation: subspace
     axes: YEXT=631 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -4277,6 +4326,7 @@ recipe:
   - operation: subspace
     axes: YEXT=631 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -4360,6 +4410,7 @@ recipe:
   - operation: subspace
     axes: YEXT=631 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -4448,6 +4499,7 @@ recipe:
   - operation: subspace
     axes: YEXT=631 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -4536,6 +4588,7 @@ recipe:
   - operation: subspace
     axes: YEXT=631 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -4624,6 +4677,7 @@ recipe:
   - operation: subspace
     axes: YEXT=631 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -4712,6 +4766,7 @@ recipe:
   - operation: subspace
     axes: YEXT=496 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -4799,6 +4854,7 @@ recipe:
   - operation: subspace
     axes: YEXT=496 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -4882,6 +4938,7 @@ recipe:
   - operation: subspace
     axes: YEXT=496 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -4970,6 +5027,7 @@ recipe:
   - operation: subspace
     axes: YEXT=496 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -5058,6 +5116,7 @@ recipe:
   - operation: subspace
     axes: YEXT=496 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -5146,6 +5205,7 @@ recipe:
   - operation: subspace
     axes: YEXT=496 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -5234,6 +5294,7 @@ recipe:
   - operation: subspace
     axes: YEXT=633 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -5321,6 +5382,7 @@ recipe:
   - operation: subspace
     axes: YEXT=633 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -5404,6 +5466,7 @@ recipe:
   - operation: subspace
     axes: YEXT=633 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -5492,6 +5555,7 @@ recipe:
   - operation: subspace
     axes: YEXT=633 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -5580,6 +5644,7 @@ recipe:
   - operation: subspace
     axes: YEXT=633 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -5668,6 +5733,7 @@ recipe:
   - operation: subspace
     axes: YEXT=633 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -5756,6 +5822,7 @@ recipe:
   - operation: subspace
     axes: YEXT=520 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -5843,6 +5910,7 @@ recipe:
   - operation: subspace
     axes: YEXT=520 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -5926,6 +5994,7 @@ recipe:
   - operation: subspace
     axes: YEXT=520 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -6014,6 +6083,7 @@ recipe:
   - operation: subspace
     axes: YEXT=520 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -6102,6 +6172,7 @@ recipe:
   - operation: subspace
     axes: YEXT=520 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -6190,6 +6261,7 @@ recipe:
   - operation: subspace
     axes: YEXT=520 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -6278,6 +6350,7 @@ recipe:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -6365,6 +6438,7 @@ recipe:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -6448,6 +6522,7 @@ recipe:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -6536,6 +6611,7 @@ recipe:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -6624,6 +6700,7 @@ recipe:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -6712,6 +6789,7 @@ recipe:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -6800,6 +6878,7 @@ recipe:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -6887,6 +6966,7 @@ recipe:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -6970,6 +7050,7 @@ recipe:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -7058,6 +7139,7 @@ recipe:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -7146,6 +7228,7 @@ recipe:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -7234,6 +7317,7 @@ recipe:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -7322,6 +7406,7 @@ recipe:
   - operation: subspace
     axes: YEXT=615 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -7409,6 +7494,7 @@ recipe:
   - operation: subspace
     axes: YEXT=615 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -7492,6 +7578,7 @@ recipe:
   - operation: subspace
     axes: YEXT=615 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -7580,6 +7667,7 @@ recipe:
   - operation: subspace
     axes: YEXT=615 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -7668,6 +7756,7 @@ recipe:
   - operation: subspace
     axes: YEXT=615 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -7756,6 +7845,7 @@ recipe:
   - operation: subspace
     axes: YEXT=615 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -7844,6 +7934,7 @@ recipe:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -7931,6 +8022,7 @@ recipe:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -8014,6 +8106,7 @@ recipe:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -8102,6 +8195,7 @@ recipe:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -8190,6 +8284,7 @@ recipe:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -8278,6 +8373,7 @@ recipe:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -8366,6 +8462,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -8453,6 +8550,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -8536,6 +8634,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -8624,6 +8723,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -8712,6 +8812,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -8800,6 +8901,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -8888,6 +8990,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -8975,6 +9078,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -9058,6 +9162,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -9146,6 +9251,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -9234,6 +9340,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -9322,6 +9429,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -9410,6 +9518,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -9497,6 +9606,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -9580,6 +9690,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -9668,6 +9779,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -9756,6 +9868,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -9844,6 +9957,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -9932,6 +10046,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -10020,6 +10135,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -10108,6 +10224,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -10196,6 +10313,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -10284,6 +10402,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -10371,6 +10490,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -10454,6 +10574,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -10542,6 +10663,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -10630,6 +10752,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -10718,6 +10841,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -10806,6 +10930,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -10894,6 +11019,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -10982,6 +11108,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -11070,6 +11197,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0:7
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -11158,6 +11286,7 @@ recipe:
   - operation: subspace
     axes: YEXT=908 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -11245,6 +11374,7 @@ recipe:
   - operation: subspace
     axes: YEXT=908 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -11328,6 +11458,7 @@ recipe:
   - operation: subspace
     axes: YEXT=908 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -11416,6 +11547,7 @@ recipe:
   - operation: subspace
     axes: YEXT=908 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -11504,6 +11636,7 @@ recipe:
   - operation: subspace
     axes: YEXT=908 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -11592,6 +11725,7 @@ recipe:
   - operation: subspace
     axes: YEXT=908 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -11680,6 +11814,7 @@ recipe:
   - operation: subspace
     axes: YEXT=600 SPED=100 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -11767,6 +11902,7 @@ recipe:
   - operation: subspace
     axes: YEXT=600 SPED=100 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -11850,6 +11986,7 @@ recipe:
   - operation: subspace
     axes: YEXT=600 SPED=100 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -11938,6 +12075,7 @@ recipe:
   - operation: subspace
     axes: YEXT=600 SPED=100 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -12026,6 +12164,7 @@ recipe:
   - operation: subspace
     axes: YEXT=600 SPED=100 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -12114,6 +12253,7 @@ recipe:
   - operation: subspace
     axes: YEXT=600 SPED=100 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -12202,6 +12342,7 @@ recipe:
   - operation: subspace
     axes: YEXT=420 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -12289,6 +12430,7 @@ recipe:
   - operation: subspace
     axes: YEXT=420 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -12372,6 +12514,7 @@ recipe:
   - operation: subspace
     axes: YEXT=420 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -12460,6 +12603,7 @@ recipe:
   - operation: subspace
     axes: YEXT=420 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -12548,6 +12692,7 @@ recipe:
   - operation: subspace
     axes: YEXT=420 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -12636,6 +12781,7 @@ recipe:
   - operation: subspace
     axes: YEXT=420 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -12724,6 +12870,7 @@ recipe:
   - operation: subspace
     axes: YEXT=420 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec
       B: B.dec
@@ -12811,6 +12958,7 @@ recipe:
   - operation: subspace
     axes: YEXT=420 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec
       B: B.dec
@@ -12894,6 +13042,7 @@ recipe:
   - operation: subspace
     axes: YEXT=420 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec
       B: B.dec
@@ -12982,6 +13131,7 @@ recipe:
   - operation: subspace
     axes: YEXT=420 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec
       B: B.dec
@@ -13070,6 +13220,7 @@ recipe:
   - operation: subspace
     axes: YEXT=420 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec
       B: B.dec
@@ -13158,6 +13309,7 @@ recipe:
   - operation: subspace
     axes: YEXT=420 SPED=75 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec
       B: B.dec
@@ -13246,6 +13398,7 @@ recipe:
   - operation: subspace
     axes: YEXT=388 SPED=75 slnt=14
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B
@@ -13333,6 +13486,7 @@ recipe:
   - operation: subspace
     axes: YEXT=388 SPED=75 slnt=14
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B
@@ -13416,6 +13570,7 @@ recipe:
   - operation: subspace
     axes: YEXT=388 SPED=75 slnt=14
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B
@@ -13504,6 +13659,7 @@ recipe:
   - operation: subspace
     axes: YEXT=388 SPED=75 slnt=14
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B
@@ -13592,6 +13748,7 @@ recipe:
   - operation: subspace
     axes: YEXT=388 SPED=75 slnt=14
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B
@@ -13680,6 +13837,7 @@ recipe:
   - operation: subspace
     axes: YEXT=388 SPED=75 slnt=14
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B
@@ -13768,6 +13926,7 @@ recipe:
   - operation: subspace
     axes: YEXT=479 SPED=100 slnt=10
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -13855,6 +14014,7 @@ recipe:
   - operation: subspace
     axes: YEXT=479 SPED=100 slnt=10
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -13938,6 +14098,7 @@ recipe:
   - operation: subspace
     axes: YEXT=479 SPED=100 slnt=10
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -14026,6 +14187,7 @@ recipe:
   - operation: subspace
     axes: YEXT=479 SPED=100 slnt=10
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -14114,6 +14276,7 @@ recipe:
   - operation: subspace
     axes: YEXT=479 SPED=100 slnt=10
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -14202,6 +14365,7 @@ recipe:
   - operation: subspace
     axes: YEXT=479 SPED=100 slnt=10
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -14290,6 +14454,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=100 slnt=14
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -14377,6 +14542,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=100 slnt=14
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -14460,6 +14626,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=100 slnt=14
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -14548,6 +14715,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=100 slnt=14
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -14636,6 +14804,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=100 slnt=14
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -14724,6 +14893,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=100 slnt=14
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -14812,6 +14982,7 @@ recipe:
   - operation: subspace
     axes: YEXT=938 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B
@@ -14899,6 +15070,7 @@ recipe:
   - operation: subspace
     axes: YEXT=938 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B
@@ -14982,6 +15154,7 @@ recipe:
   - operation: subspace
     axes: YEXT=938 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B
@@ -15070,6 +15243,7 @@ recipe:
   - operation: subspace
     axes: YEXT=938 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B
@@ -15158,6 +15332,7 @@ recipe:
   - operation: subspace
     axes: YEXT=938 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B
@@ -15246,6 +15421,7 @@ recipe:
   - operation: subspace
     axes: YEXT=938 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B
@@ -15334,6 +15510,7 @@ recipe:
   - operation: subspace
     axes: YEXT=481 SPED=0 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -15421,6 +15598,7 @@ recipe:
   - operation: subspace
     axes: YEXT=481 SPED=0 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -15504,6 +15682,7 @@ recipe:
   - operation: subspace
     axes: YEXT=481 SPED=0 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -15592,6 +15771,7 @@ recipe:
   - operation: subspace
     axes: YEXT=481 SPED=0 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -15680,6 +15860,7 @@ recipe:
   - operation: subspace
     axes: YEXT=481 SPED=0 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -15768,6 +15949,7 @@ recipe:
   - operation: subspace
     axes: YEXT=481 SPED=0 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -15856,6 +16038,7 @@ recipe:
   - operation: subspace
     axes: YEXT=459 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -15943,6 +16126,7 @@ recipe:
   - operation: subspace
     axes: YEXT=459 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -16026,6 +16210,7 @@ recipe:
   - operation: subspace
     axes: YEXT=459 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -16114,6 +16299,7 @@ recipe:
   - operation: subspace
     axes: YEXT=459 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -16202,6 +16388,7 @@ recipe:
   - operation: subspace
     axes: YEXT=459 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -16290,6 +16477,7 @@ recipe:
   - operation: subspace
     axes: YEXT=459 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -16378,6 +16566,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -16465,6 +16654,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -16548,6 +16738,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -16636,6 +16827,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -16724,6 +16916,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -16812,6 +17005,7 @@ recipe:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -16900,6 +17094,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -16987,6 +17182,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -17070,6 +17266,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -17158,6 +17355,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -17246,6 +17444,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -17334,6 +17533,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -17422,6 +17622,7 @@ recipe:
   - operation: subspace
     axes: YEXT=773 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -17509,6 +17710,7 @@ recipe:
   - operation: subspace
     axes: YEXT=773 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -17592,6 +17794,7 @@ recipe:
   - operation: subspace
     axes: YEXT=773 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -17680,6 +17883,7 @@ recipe:
   - operation: subspace
     axes: YEXT=773 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -17768,6 +17972,7 @@ recipe:
   - operation: subspace
     axes: YEXT=773 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -17856,6 +18061,7 @@ recipe:
   - operation: subspace
     axes: YEXT=773 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -17944,6 +18150,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -18031,6 +18238,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -18114,6 +18322,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -18202,6 +18411,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -18290,6 +18500,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -18378,6 +18589,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -18466,6 +18678,7 @@ recipe:
   - operation: subspace
     axes: YEXT=470 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -18553,6 +18766,7 @@ recipe:
   - operation: subspace
     axes: YEXT=470 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -18636,6 +18850,7 @@ recipe:
   - operation: subspace
     axes: YEXT=470 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -18724,6 +18939,7 @@ recipe:
   - operation: subspace
     axes: YEXT=470 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -18812,6 +19028,7 @@ recipe:
   - operation: subspace
     axes: YEXT=470 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -18900,6 +19117,7 @@ recipe:
   - operation: subspace
     axes: YEXT=470 SPED=25 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -18988,6 +19206,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -19075,6 +19294,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -19158,6 +19378,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -19246,6 +19467,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -19334,6 +19556,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -19422,6 +19645,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -19510,6 +19734,7 @@ recipe:
   - operation: subspace
     axes: YEXT=486 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -19597,6 +19822,7 @@ recipe:
   - operation: subspace
     axes: YEXT=486 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -19680,6 +19906,7 @@ recipe:
   - operation: subspace
     axes: YEXT=486 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -19768,6 +19995,7 @@ recipe:
   - operation: subspace
     axes: YEXT=486 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -19856,6 +20084,7 @@ recipe:
   - operation: subspace
     axes: YEXT=486 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -19944,6 +20173,7 @@ recipe:
   - operation: subspace
     axes: YEXT=486 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -20032,6 +20262,7 @@ recipe:
   - operation: subspace
     axes: YEXT=581 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -20119,6 +20350,7 @@ recipe:
   - operation: subspace
     axes: YEXT=581 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -20202,6 +20434,7 @@ recipe:
   - operation: subspace
     axes: YEXT=581 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -20290,6 +20523,7 @@ recipe:
   - operation: subspace
     axes: YEXT=581 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -20378,6 +20612,7 @@ recipe:
   - operation: subspace
     axes: YEXT=581 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -20466,6 +20701,7 @@ recipe:
   - operation: subspace
     axes: YEXT=581 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -20554,6 +20790,7 @@ recipe:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -20641,6 +20878,7 @@ recipe:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -20724,6 +20962,7 @@ recipe:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -20812,6 +21051,7 @@ recipe:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -20900,6 +21140,7 @@ recipe:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -20988,6 +21229,7 @@ recipe:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.cur
@@ -21076,6 +21318,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=10
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -21163,6 +21406,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=10
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -21246,6 +21490,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=10
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -21334,6 +21579,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=10
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -21422,6 +21668,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=10
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -21510,6 +21757,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=10
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.cur
@@ -21598,6 +21846,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -21685,6 +21934,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -21768,6 +22018,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -21856,6 +22107,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -21944,6 +22196,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -22032,6 +22285,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -22120,6 +22374,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -22207,6 +22462,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -22290,6 +22546,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -22378,6 +22635,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -22466,6 +22724,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -22554,6 +22813,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur
       B: B.dec
@@ -22642,6 +22902,7 @@ recipe:
   - operation: subspace
     axes: YEXT=438 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -22729,6 +22990,7 @@ recipe:
   - operation: subspace
     axes: YEXT=438 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -22812,6 +23074,7 @@ recipe:
   - operation: subspace
     axes: YEXT=438 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -22900,6 +23163,7 @@ recipe:
   - operation: subspace
     axes: YEXT=438 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -22988,6 +23252,7 @@ recipe:
   - operation: subspace
     axes: YEXT=438 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -23076,6 +23341,7 @@ recipe:
   - operation: subspace
     axes: YEXT=438 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A
       B: B
@@ -23164,6 +23430,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -23251,6 +23518,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -23334,6 +23602,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -23422,6 +23691,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -23510,6 +23780,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -23598,6 +23869,7 @@ recipe:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
   - operation: remap
+    args: --deep
     mappings:
       A: A.cur_locl
       B: B.dec
@@ -23686,6 +23958,7 @@ recipe:
   - operation: subspace
     axes: YEXT=625 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -23773,6 +24046,7 @@ recipe:
   - operation: subspace
     axes: YEXT=625 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -23856,6 +24130,7 @@ recipe:
   - operation: subspace
     axes: YEXT=625 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -23944,6 +24219,7 @@ recipe:
   - operation: subspace
     axes: YEXT=625 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -24032,6 +24308,7 @@ recipe:
   - operation: subspace
     axes: YEXT=625 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
@@ -24120,6 +24397,7 @@ recipe:
   - operation: subspace
     axes: YEXT=625 SPED=0 slnt=0
   - operation: remap
+    args: --deep
     mappings:
       A: A.dec_locl
       B: B.cur
