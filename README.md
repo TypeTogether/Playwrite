@@ -2,7 +2,8 @@
 
 *Playwrite* is a typeface engine that allows the creation of primary school cursive fonts. This typeface is the practical result of the Primarium research project [www.primarium.info] which studies handwriting instruction methodologies around the world. Its findings with regards to the calligraphic models currently in use, their development and rationale, informed the design of the *Playwrite* glyphs.
 
-The shape of the handwritten Latin alphabethas developed following different currents, trends and colonial influences around the world. As a result, the very notion of what constitutes primary school cursive writing varies dramatically. It could be vertical or slanted, fully joined or semi-joined, uppercase letters can be ornate and decorative or simply borrowed from print styles, lowercase letters can be based on round or oval foundational shapes, and the proportion of the x-height vis-a-vis the ascenders and descenders can differ. 
+The shape of the handwritten Latin alphabethas developed following different currents, trends and colonial influences around the world. As a result, the very notion of what constitutes primary school cursive writing varies dramatically. It could be vertical or slanted, fully joined or semi-joined, uppercase letters can be ornate and decorative or simply borrowed from print styles, lowercase letters can be based on round or oval foundational shapes, and the proportion of the x-height vis-a-vis the ascenders and descenders can differ.  
+![Alt Image Text](documentation/images/readme/PlaywriteCover.png)
 
 
 ## Build instructions
@@ -18,54 +19,54 @@ Based on the Primarium study the TypeTogether team isolated a limited number of 
 
 
 * **Precursive**.  Default set of lower case letters. These are completely unjoined.  
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey1.png)`
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey1.png)
 
 * **Modern cursive**.  
 Same design as precursive in isolated shape but it istriggers a semi-connected typesetting.
 Uses .mod suffix (eg. n.mod). 
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey2.png)`
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey2.png)
 
 * **Fully joined odern cursive**.  Adds loops to descenders and connecting strokes to letters that do not connect in .mod.Uses .jmc suffix (eg. g.jmc). 
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey3.png)`
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey3.png)
 
 
 * **Full Cursive**.  Construction os several glyphs change to match a continuous cursive style.Uses .ful suffix (eg. s.ful). 
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey4.png)`
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey4.png)
 
 
 * **Speed loops**.  Adds speedloops to most letters with ascender strokes.Uses .lop suffix (eg. h.lop). 
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey5.png)`
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey5.png)
 
 
 * **Curved entry stroke**.  Changes the lead-in connection at x-heigh level for several letters.Uses .cnt suffix (eg. n.cnt). 
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey6.png)`
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey6.png)
 
 
 * **Mirrored loops**.  
 Adds loops in to two letters and switches loop direction in “f”.Uses .mrr suffix (eg. f.mrr). 
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey7.png)`
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey7.png)
 
 
 * **Microloops**.  Adds knots or small loops to mark stroke direction change in some letters.Uses .mlp suffix (eg. o.mlp). 
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey8.png)`
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey8.png)
 
 
 * **Print**.  Default set of upper case letters. These are completely unjoined.  
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey9.png)`
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey9.png)
 
 
 * **Cursive upper cases**.  Cursive capitals. SAlso enable connection with a number of lowercase lettersUses .cur suffix (eg. A.cur). 
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey10.png)`
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey10.png)
 
 
 * **Decorative upper cases**.  Secondary set of decorative capitals to match certain handwriting models. These are semi-connected.Uses .dec suffix (eg. G.dec). 
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey11.png)`
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey11.png)
 
 
 * **Regional variants lower cases**.  Alternative designs necessary for one or more specific regions. These use suffix locl when used in several fonts or locl_XX where XX is a two letter country code. (eg. G.dec). 
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey12.png)` 
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey12.png)
 * **Regional variants upper cases**.  
-![Alt Image Text](documentation/images/readme/Playwrite_variatiokey13.png)`
+![Alt Image Text](documentation/images/readme/Playwrite_variatiokey13.png)
 
 
 
@@ -99,6 +100,8 @@ Max: 1000`
 
 
 ## Country recipes
+
+![Alt Image Text](documentation/images/readme/Playwrite_countries-references.png)
 
 Recipes for regional models of the Playwrite font arecreated by recipes that reside on a CSV file `Playwrite/sources/data/models-all.csv`. Each row of the file contains the data that names the font model, specifies a location in three of the founr axes (the weight axis always remains variable), and contains a selection of the of the letter variants that are preferred in that region.
 
