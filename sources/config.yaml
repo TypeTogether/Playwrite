@@ -86,6 +86,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -174,6 +175,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -258,6 +260,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -347,6 +350,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -436,6 +440,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -525,6 +530,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -614,6 +620,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -702,6 +709,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -786,6 +794,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -875,6 +884,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -964,6 +974,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -1053,6 +1064,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -1142,6 +1154,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -1230,6 +1243,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -1314,6 +1328,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -1403,6 +1418,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -1492,6 +1508,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -1581,6 +1598,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -1670,6 +1688,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -1758,6 +1777,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -1842,6 +1862,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -1931,6 +1952,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -2020,6 +2042,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -2109,6 +2132,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -2198,6 +2222,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -2286,6 +2311,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -2370,6 +2396,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -2459,6 +2486,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -2548,6 +2576,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -2637,6 +2666,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -2726,6 +2756,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -2814,6 +2845,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -2898,6 +2930,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -2987,6 +3020,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -3076,6 +3110,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -3165,6 +3200,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -3254,6 +3290,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -3342,6 +3379,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -3426,6 +3464,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -3515,6 +3554,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -3604,6 +3644,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -3693,6 +3734,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -3782,6 +3824,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -3870,6 +3913,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -3954,6 +3998,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -4043,6 +4088,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -4132,6 +4178,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -4221,6 +4268,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -4310,6 +4358,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -4398,6 +4447,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -4482,6 +4532,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -4571,6 +4622,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -4660,6 +4712,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -4749,6 +4802,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -4838,6 +4892,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -4926,6 +4981,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -5010,6 +5066,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -5099,6 +5156,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -5188,6 +5246,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -5277,6 +5336,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -5366,6 +5426,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -5454,6 +5515,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -5538,6 +5600,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -5627,6 +5690,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -5716,6 +5780,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -5805,6 +5870,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -5894,6 +5960,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -5982,6 +6049,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -6066,6 +6134,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -6155,6 +6224,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -6244,6 +6314,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -6333,6 +6404,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -6422,6 +6494,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -6510,6 +6583,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -6594,6 +6668,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -6683,6 +6758,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -6772,6 +6848,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -6861,6 +6938,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -6950,6 +7028,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -7038,6 +7117,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -7122,6 +7202,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -7211,6 +7292,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -7300,6 +7382,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -7389,6 +7472,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -7478,6 +7562,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -7566,6 +7651,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -7650,6 +7736,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -7739,6 +7826,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -7828,6 +7916,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -7917,6 +8006,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -8006,6 +8096,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -8094,6 +8185,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -8178,6 +8270,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -8267,6 +8360,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -8356,6 +8450,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -8445,6 +8540,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -8534,6 +8630,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -8622,6 +8719,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -8706,6 +8804,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -8795,6 +8894,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -8884,6 +8984,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -8973,6 +9074,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -9062,6 +9164,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -9150,6 +9253,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -9234,6 +9338,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -9323,6 +9428,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -9412,6 +9518,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -9501,6 +9608,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -9590,6 +9698,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -9678,6 +9787,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -9762,6 +9872,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -9851,6 +9962,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -9940,6 +10052,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -10029,6 +10142,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -10118,6 +10232,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -10207,6 +10322,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -10296,6 +10412,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -10385,6 +10502,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -10474,6 +10592,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -10562,6 +10681,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -10646,6 +10766,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -10735,6 +10856,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -10824,6 +10946,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -10913,6 +11036,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -11002,6 +11126,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -11091,6 +11216,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -11180,6 +11306,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -11269,6 +11396,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat-italic.yaml
   - operation: rename
@@ -11358,6 +11486,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -11446,6 +11575,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -11530,6 +11660,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -11619,6 +11750,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -11708,6 +11840,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -11797,6 +11930,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -11886,6 +12020,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -11974,6 +12109,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -12058,6 +12194,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -12147,6 +12284,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -12236,6 +12374,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -12325,6 +12464,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -12414,6 +12554,7 @@ recipe:
       U+0237: jdotless
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -12502,6 +12643,7 @@ recipe:
       U+0237: jdotless
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -12586,6 +12728,7 @@ recipe:
       U+0237: jdotless
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -12675,6 +12818,7 @@ recipe:
       U+0237: jdotless
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -12764,6 +12908,7 @@ recipe:
       U+0237: jdotless
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -12853,6 +12998,7 @@ recipe:
       U+0237: jdotless
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -12942,6 +13088,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -13030,6 +13177,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -13114,6 +13262,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -13203,6 +13352,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -13292,6 +13442,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -13381,6 +13532,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -13470,6 +13622,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -13558,6 +13711,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -13642,6 +13796,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -13731,6 +13886,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -13820,6 +13976,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -13909,6 +14066,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -13998,6 +14156,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -14086,6 +14245,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -14170,6 +14330,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -14259,6 +14420,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -14348,6 +14510,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -14437,6 +14600,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -14526,6 +14690,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -14614,6 +14779,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -14698,6 +14864,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -14787,6 +14954,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -14876,6 +15044,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -14965,6 +15134,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -15054,6 +15224,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -15142,6 +15313,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -15226,6 +15398,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -15315,6 +15488,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -15404,6 +15578,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -15493,6 +15668,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -15582,6 +15758,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -15670,6 +15847,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -15754,6 +15932,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -15843,6 +16022,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -15932,6 +16112,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -16021,6 +16202,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -16110,6 +16292,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -16198,6 +16381,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -16282,6 +16466,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -16371,6 +16556,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -16460,6 +16646,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -16549,6 +16736,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -16638,6 +16826,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -16726,6 +16915,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -16810,6 +17000,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -16899,6 +17090,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -16988,6 +17180,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -17077,6 +17270,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -17166,6 +17360,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -17254,6 +17449,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -17338,6 +17534,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -17427,6 +17624,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -17516,6 +17714,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -17605,6 +17804,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -17694,6 +17894,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -17782,6 +17983,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -17866,6 +18068,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -17955,6 +18158,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -18044,6 +18248,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -18133,6 +18338,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -18222,6 +18428,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -18310,6 +18517,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -18394,6 +18602,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -18483,6 +18692,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -18572,6 +18782,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -18661,6 +18872,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -18750,6 +18962,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -18838,6 +19051,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -18922,6 +19136,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -19011,6 +19226,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -19100,6 +19316,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -19189,6 +19406,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -19278,6 +19496,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -19366,6 +19585,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -19450,6 +19670,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -19539,6 +19760,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -19628,6 +19850,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -19717,6 +19940,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -19806,6 +20030,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -19894,6 +20119,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -19978,6 +20204,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -20067,6 +20294,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -20156,6 +20384,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -20245,6 +20474,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -20334,6 +20564,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -20422,6 +20653,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -20506,6 +20738,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -20595,6 +20828,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -20684,6 +20918,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -20773,6 +21008,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -20862,6 +21098,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -20950,6 +21187,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -21034,6 +21272,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -21123,6 +21362,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -21212,6 +21452,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -21301,6 +21542,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -21390,6 +21632,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -21478,6 +21721,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -21562,6 +21806,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -21651,6 +21896,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -21740,6 +21986,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -21829,6 +22076,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -21918,6 +22166,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -22006,6 +22255,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -22090,6 +22340,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -22179,6 +22430,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -22268,6 +22520,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -22357,6 +22610,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -22446,6 +22700,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -22534,6 +22789,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -22618,6 +22874,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -22707,6 +22964,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -22796,6 +23054,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -22885,6 +23144,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -22974,6 +23234,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -23062,6 +23323,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -23146,6 +23408,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -23235,6 +23498,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -23324,6 +23588,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -23413,6 +23678,7 @@ recipe:
       U+0237: jdotless.mod
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -23502,6 +23768,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -23590,6 +23857,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -23674,6 +23942,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -23763,6 +24032,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -23852,6 +24122,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -23941,6 +24212,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -24030,6 +24302,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -24118,6 +24391,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -24202,6 +24476,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -24291,6 +24566,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -24380,6 +24656,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename
@@ -24469,6 +24746,7 @@ recipe:
       U+0237: jdotless.jmc
   - operation: hbsubset
   - operation: fix
+    fixargs: --include-source-fixes
   - operation: buildStat
     other_args: --src stat.yaml
   - operation: rename

@@ -96,7 +96,7 @@ class Model:
             {"operation": "subspace", "axes": self.instancer_params},
             {"operation": "remap", "args": "--deep", "mappings": self.mapping},
             {"operation": "hbsubset"},
-            {"operation": "fix"},
+            {"operation": "fix", "fixargs": "--include-source-fixes" },
             {"operation": "buildStat", "other_args": "--src " + self.stat_file},
         ]
 
