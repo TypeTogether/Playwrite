@@ -94,7 +94,7 @@ class Model:
     def variable_postprocess_steps(self):
         return [
             {"operation": "subspace", "axes": self.instancer_params},
-            {"operation": "remap", "mappings": self.mapping},
+            {"operation": "remap", "args": "--deep", "mappings": self.mapping},
             {"operation": "hbsubset"},
             {"operation": "fix"},
             {"operation": "buildStat", "other_args": "--src " + self.stat_file},
