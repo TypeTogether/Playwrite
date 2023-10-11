@@ -14,7 +14,7 @@ import pprint
 with open("../data/models-all.csv", "r") as csv:
     models_dict = {}
     headers = csv.readline()[:-1].split(";")
-    country, tag, slnt, extd, sped, uppercase, lowercase = headers
+    country, tag, slnt, yext, sped, uppercase, lowercase = headers
     lines = csv.readlines()
     for line in lines:
         # remove newline
@@ -25,19 +25,18 @@ with open("../data/models-all.csv", "r") as csv:
             models_dict[t] = {
                 country: c,
                 slnt: int(sl),
-                extd: int(e),
+                yext: int(e),
                 sped: int(sp),
                 uppercase: u,
                 lowercase: l,
             }
         except ValueError:
-            print(f"🔥 {t} has some not valid data in the .csv file")
             if "-" in sl:
-                print(f"\t ⚠️ {t} has a range for slnt axis (has italic)")
+                print(f" ⚠️  {t} has a range for slnt axis (has italic)")
                 models_dict[t] = {
                     country: c,
                     slnt: sl,
-                    extd: int(e),
+                    yext: int(e),
                     sped: int(sp),
                     uppercase: u,
                     lowercase: l,

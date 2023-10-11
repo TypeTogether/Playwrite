@@ -15,15 +15,15 @@ weightStyles = {
 for mTag, val in modelsDataDict.items():
     # designspace with the sources
     doc = DesignSpaceDocument.fromfile(
-    "../sources-ufo/designspace-models/_Playwrite-SOURCES.designspace")
+        "../sources-ufo/designspace-models/_Playwrite-SOURCES.designspace")
     slant = val["slnt"]
     extend = val["YEXT"]
     speed = val["SPED"]
     # if slant range (hasItalic)
     if type(slant) is str:
         hasItalic = True
-        it_slant = int(slant.strip("-")[-1])
-        slant = int(slant.strip("-")[0])
+        it_slant = int(slant.split("-")[-1])
+        slant = int(slant.split("-")[0])
     else:
         hasItalic = False
 
@@ -38,8 +38,13 @@ for mTag, val in modelsDataDict.items():
         i.familyName = mFamilyName
         i.styleName = iStyleName
         i.name = f"{mFamilyName} {iStyleName}"
-        i.designLocation = dict(Weight=w_value, Slant=slant,
-                                Extenders=extend, Speed=speed)
+        # i.designLocation = dict(Weight=w_value, Slant=slant,
+        #                         Extenders=extend, Speed=speed)
+        i.designLocation = {"Weight": w_value,
+                            "Slant": slant,
+                            "Vertical Extensions": extend,
+                            "Speed": speed
+                            }
         i.postScriptFontName = iPostscriptFontName
         if iStyleName != "Regular":
             i.styleMapFamilyName = f"{mFamilyName} {iStyleName}"
@@ -64,8 +69,13 @@ for mTag, val in modelsDataDict.items():
             it.familyName = mFamilyName
             it.styleName = it_iStyleName
             it.name = f"{mFamilyName} {it.styleName}"
-            it.designLocation = dict(Weight=w_value, Slant=it_slant,
-                                    Extenders=extend, Speed=speed)
+            # it.designLocation = dict(Weight=w_value, Slant=it_slant,
+            #                          Extenders=extend, Speed=speed)
+            it.designLocation = {"Weight": w_value,
+                                 "Slant": it_slant,
+                                 "Vertical Extensions": extend,
+                                 "Speed": speed
+                                 }
             it.postScriptFontName = it_iPostscriptFontName
             if iStyleName != "Italic":
                 it.styleMapFamilyName = f"{mFamilyName} {iStyleName}"

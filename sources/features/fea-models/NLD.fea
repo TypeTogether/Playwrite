@@ -9,7 +9,3 @@ sub [@UC_src @lc_src] by [@UC_NLD @lc_NLD];
 
 # Custom code:
 sub i.mod j.jmc by ij.jmc;
-# sub I.cur J.cur by IJ.cur;
-# sub iacute j by ijacute;
-# sub Iacute J by IJacute;
-
