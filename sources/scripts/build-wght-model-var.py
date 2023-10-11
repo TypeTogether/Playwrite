@@ -31,16 +31,23 @@ def main():
                                                         "SPED": sp
                                                     }
                                                     )
-        # fix post italic Angle
-        if sl != 0 and type(sl) != tuple:
-            var_wght_only["post"].italicAngle = - int(sl)
+        # if sl != 0 and type(sl) != tuple:
+        #     var_wght_only["post"].italicAngle = - int(sl)
+
+        # fix post italicAngle and caret slopes
+        var_wght_only["post"].italicAngle = 0
+        var_wght_only["hhea"].caretSlopeRise = 1
+        var_wght_only["hhea"].caretSlopeRun = 0
+
         # fix hhea table
         var_wght_only["hhea"].ascender = var_wght_only["OS/2"].sTypoAscender
         var_wght_only["hhea"].descender = var_wght_only["OS/2"].sTypoDescender
+
         # tag in output without "_"
         var_wght_only.save(f"./../../fonts-models/fonts-{tag}/variable/Playwrite{tag_no_space}[wght{has_sl}].ttf")
         var_wght_only.close()
         varfont.close()
+
         print(f"Instanced Playwrite{tag_no_space}[wght{has_sl}].ttf")
 
 if __name__ == "__main__":
