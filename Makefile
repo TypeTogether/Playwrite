@@ -1,5 +1,5 @@
-SOURCES=sources/Playpen_MM.glyphspackage
-FAMILY=Playpen
+SOURCES=sources/Playwrite_MM.glyphspackage
+FAMILY=Playwrite
 
 help:
 	@echo "###"
