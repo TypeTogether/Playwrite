@@ -1,13 +1,13 @@
 sources:
-- Playpen_MM.glyphspackage
+- Playwrite_MM.glyphspackage
 recipe:
-  ../fonts/variable/Playpen_MM[SPED,YEXT,slnt,wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  ../fonts/variable/Playwrite_MM[SPED,YEXT,slnt,wght].ttf:
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
   ../fonts/variable/PlaywriteArgentina[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -92,11 +92,11 @@ recipe:
   - operation: rename
     name: Playwrite Argentina
   ../fonts/variable/PlaywriteArgentina-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -181,7 +181,7 @@ recipe:
   - operation: rename
     name: Playwrite Argentina Guidelines
   ../fonts/static/Argentina/PlaywriteArgentina-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -271,7 +271,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Argentina/PlaywriteArgentina-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -361,7 +361,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Argentina/PlaywriteArgentina-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -451,7 +451,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Argentina/PlaywriteArgentina-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -541,7 +541,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteAustraliaNSW[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -626,11 +626,11 @@ recipe:
   - operation: rename
     name: Playwrite Australia NSW
   ../fonts/variable/PlaywriteAustraliaNSW-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -715,7 +715,7 @@ recipe:
   - operation: rename
     name: Playwrite Australia NSW Guidelines
   ../fonts/static/AustraliaNSW/PlaywriteAustraliaNSW-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -805,7 +805,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaNSW/PlaywriteAustraliaNSW-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -895,7 +895,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaNSW/PlaywriteAustraliaNSW-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -985,7 +985,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaNSW/PlaywriteAustraliaNSW-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -1075,7 +1075,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteAustraliaQLD[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -1160,11 +1160,11 @@ recipe:
   - operation: rename
     name: Playwrite Australia QLD
   ../fonts/variable/PlaywriteAustraliaQLD-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -1249,7 +1249,7 @@ recipe:
   - operation: rename
     name: Playwrite Australia QLD Guidelines
   ../fonts/static/AustraliaQLD/PlaywriteAustraliaQLD-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -1339,7 +1339,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaQLD/PlaywriteAustraliaQLD-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -1429,7 +1429,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaQLD/PlaywriteAustraliaQLD-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -1519,7 +1519,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaQLD/PlaywriteAustraliaQLD-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -1609,7 +1609,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteAustraliaSA[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -1694,11 +1694,11 @@ recipe:
   - operation: rename
     name: Playwrite Australia SA
   ../fonts/variable/PlaywriteAustraliaSA-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -1783,7 +1783,7 @@ recipe:
   - operation: rename
     name: Playwrite Australia SA Guidelines
   ../fonts/static/AustraliaSA/PlaywriteAustraliaSA-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -1873,7 +1873,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaSA/PlaywriteAustraliaSA-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -1963,7 +1963,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaSA/PlaywriteAustraliaSA-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -2053,7 +2053,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaSA/PlaywriteAustraliaSA-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -2143,7 +2143,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteAustraliaTAS[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -2228,11 +2228,11 @@ recipe:
   - operation: rename
     name: Playwrite Australia TAS
   ../fonts/variable/PlaywriteAustraliaTAS-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -2317,7 +2317,7 @@ recipe:
   - operation: rename
     name: Playwrite Australia TAS Guidelines
   ../fonts/static/AustraliaTAS/PlaywriteAustraliaTAS-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -2407,7 +2407,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaTAS/PlaywriteAustraliaTAS-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -2497,7 +2497,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaTAS/PlaywriteAustraliaTAS-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -2587,7 +2587,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaTAS/PlaywriteAustraliaTAS-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -2677,7 +2677,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteAustraliaVIC[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -2762,11 +2762,11 @@ recipe:
   - operation: rename
     name: Playwrite Australia VIC
   ../fonts/variable/PlaywriteAustraliaVIC-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -2851,7 +2851,7 @@ recipe:
   - operation: rename
     name: Playwrite Australia VIC Guidelines
   ../fonts/static/AustraliaVIC/PlaywriteAustraliaVIC-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -2941,7 +2941,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaVIC/PlaywriteAustraliaVIC-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -3031,7 +3031,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaVIC/PlaywriteAustraliaVIC-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -3121,7 +3121,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/AustraliaVIC/PlaywriteAustraliaVIC-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -3210,8 +3210,902 @@ recipe:
     other_args: --update-name-table
   - postprocess: fix
     fixargs: --include-source-fixes
+  ../fonts/variable/PlaywriteAustria[slnt,wght].ttf:
+  - source: Playwrite_MM.glyphspackage
+  - operation: buildVariable
+    fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
+      --filter DecomposeTransformedComponentsFilter
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=0:13
+  - operation: remap
+    args: --deep
+    mappings:
+      A: ''
+      B: A.dec_locl
+      C: B
+      D: C.cur
+      E: D
+      F: E.cur
+      G: F
+      H: G.cur
+      I: H
+      J: I.dec
+      K: J.dec
+      L: K.dec
+      M: L.cur
+      N: M.dec
+      O: N.dec
+      P: O
+      Q: P
+      R: Q.cur_locl
+      S: R
+      T: S
+      U: T
+      V: U.cur
+      W: V.dec
+      X: W.dec
+      Y: X.cur
+      Z: Y.cur
+      U+00C6: Z.dec_locl
+      U+00D0: ''
+      U+0132: AE.cur
+      U+014a: Eth
+      U+0152: IJ.cur
+      U+00DE: Eng
+      U+1E9E: OE.cur
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful_at
+      w: w.ful_at
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
+  - operation: buildStat
+    other_args: --src stat-italic.yaml
+  - operation: rename
+    name: Playwrite Austria
+  ../fonts/variable/PlaywriteAustria-Guidelines[slnt,wght].ttf:
+  - source: Playwrite_MM.glyphspackage
+  - operation: exec
+    exe: python3 ../scripts/add-guidelines.py
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
+  - operation: buildVariable
+    fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
+      --filter DecomposeTransformedComponentsFilter
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=0:13
+  - operation: remap
+    args: --deep
+    mappings:
+      A: ''
+      B: A.dec_locl
+      C: B
+      D: C.cur
+      E: D
+      F: E.cur
+      G: F
+      H: G.cur
+      I: H
+      J: I.dec
+      K: J.dec
+      L: K.dec
+      M: L.cur
+      N: M.dec
+      O: N.dec
+      P: O
+      Q: P
+      R: Q.cur_locl
+      S: R
+      T: S
+      U: T
+      V: U.cur
+      W: V.dec
+      X: W.dec
+      Y: X.cur
+      Z: Y.cur
+      U+00C6: Z.dec_locl
+      U+00D0: ''
+      U+0132: AE.cur
+      U+014a: Eth
+      U+0152: IJ.cur
+      U+00DE: Eng
+      U+1E9E: OE.cur
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful_at
+      w: w.ful_at
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
+  - operation: buildStat
+    other_args: --src stat-italic.yaml
+  - operation: rename
+    name: Playwrite Austria Guidelines
+  ../fonts/static/Austria/PlaywriteAustria-Thin.ttf:
+  - source: Playwrite_MM.glyphspackage
+  - operation: buildVariable
+    fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
+      --filter DecomposeTransformedComponentsFilter
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=0:13
+  - operation: remap
+    args: --deep
+    mappings:
+      A: ''
+      B: A.dec_locl
+      C: B
+      D: C.cur
+      E: D
+      F: E.cur
+      G: F
+      H: G.cur
+      I: H
+      J: I.dec
+      K: J.dec
+      L: K.dec
+      M: L.cur
+      N: M.dec
+      O: N.dec
+      P: O
+      Q: P
+      R: Q.cur_locl
+      S: R
+      T: S
+      U: T
+      V: U.cur
+      W: V.dec
+      X: W.dec
+      Y: X.cur
+      Z: Y.cur
+      U+00C6: Z.dec_locl
+      U+00D0: ''
+      U+0132: AE.cur
+      U+014a: Eth
+      U+0152: IJ.cur
+      U+00DE: Eng
+      U+1E9E: OE.cur
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful_at
+      w: w.ful_at
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
+  - operation: buildStat
+    other_args: --src stat-italic.yaml
+  - operation: rename
+    name: Playwrite Austria
+  - operation: subspace
+    axes: wght=100
+    other_args: --update-name-table
+  - postprocess: fix
+    fixargs: --include-source-fixes
+  ../fonts/static/Austria/PlaywriteAustria-ThinItalic.ttf:
+  - source: Playwrite_MM.glyphspackage
+  - operation: buildVariable
+    fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
+      --filter DecomposeTransformedComponentsFilter
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=0:13
+  - operation: remap
+    args: --deep
+    mappings:
+      A: ''
+      B: A.dec_locl
+      C: B
+      D: C.cur
+      E: D
+      F: E.cur
+      G: F
+      H: G.cur
+      I: H
+      J: I.dec
+      K: J.dec
+      L: K.dec
+      M: L.cur
+      N: M.dec
+      O: N.dec
+      P: O
+      Q: P
+      R: Q.cur_locl
+      S: R
+      T: S
+      U: T
+      V: U.cur
+      W: V.dec
+      X: W.dec
+      Y: X.cur
+      Z: Y.cur
+      U+00C6: Z.dec_locl
+      U+00D0: ''
+      U+0132: AE.cur
+      U+014a: Eth
+      U+0152: IJ.cur
+      U+00DE: Eng
+      U+1E9E: OE.cur
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful_at
+      w: w.ful_at
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
+  - operation: buildStat
+    other_args: --src stat-italic.yaml
+  - operation: rename
+    name: Playwrite Austria
+  - operation: subspace
+    axes: wght=100 slnt=0
+    other_args: --update-name-table
+  - postprocess: fix
+    fixargs: --include-source-fixes
+  ../fonts/static/Austria/PlaywriteAustria-ExtraLight.ttf:
+  - source: Playwrite_MM.glyphspackage
+  - operation: buildVariable
+    fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
+      --filter DecomposeTransformedComponentsFilter
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=0:13
+  - operation: remap
+    args: --deep
+    mappings:
+      A: ''
+      B: A.dec_locl
+      C: B
+      D: C.cur
+      E: D
+      F: E.cur
+      G: F
+      H: G.cur
+      I: H
+      J: I.dec
+      K: J.dec
+      L: K.dec
+      M: L.cur
+      N: M.dec
+      O: N.dec
+      P: O
+      Q: P
+      R: Q.cur_locl
+      S: R
+      T: S
+      U: T
+      V: U.cur
+      W: V.dec
+      X: W.dec
+      Y: X.cur
+      Z: Y.cur
+      U+00C6: Z.dec_locl
+      U+00D0: ''
+      U+0132: AE.cur
+      U+014a: Eth
+      U+0152: IJ.cur
+      U+00DE: Eng
+      U+1E9E: OE.cur
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful_at
+      w: w.ful_at
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
+  - operation: buildStat
+    other_args: --src stat-italic.yaml
+  - operation: rename
+    name: Playwrite Austria
+  - operation: subspace
+    axes: wght=200
+    other_args: --update-name-table
+  - postprocess: fix
+    fixargs: --include-source-fixes
+  ../fonts/static/Austria/PlaywriteAustria-ExtraLightItalic.ttf:
+  - source: Playwrite_MM.glyphspackage
+  - operation: buildVariable
+    fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
+      --filter DecomposeTransformedComponentsFilter
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=0:13
+  - operation: remap
+    args: --deep
+    mappings:
+      A: ''
+      B: A.dec_locl
+      C: B
+      D: C.cur
+      E: D
+      F: E.cur
+      G: F
+      H: G.cur
+      I: H
+      J: I.dec
+      K: J.dec
+      L: K.dec
+      M: L.cur
+      N: M.dec
+      O: N.dec
+      P: O
+      Q: P
+      R: Q.cur_locl
+      S: R
+      T: S
+      U: T
+      V: U.cur
+      W: V.dec
+      X: W.dec
+      Y: X.cur
+      Z: Y.cur
+      U+00C6: Z.dec_locl
+      U+00D0: ''
+      U+0132: AE.cur
+      U+014a: Eth
+      U+0152: IJ.cur
+      U+00DE: Eng
+      U+1E9E: OE.cur
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful_at
+      w: w.ful_at
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
+  - operation: buildStat
+    other_args: --src stat-italic.yaml
+  - operation: rename
+    name: Playwrite Austria
+  - operation: subspace
+    axes: wght=200 slnt=0
+    other_args: --update-name-table
+  - postprocess: fix
+    fixargs: --include-source-fixes
+  ../fonts/static/Austria/PlaywriteAustria-Light.ttf:
+  - source: Playwrite_MM.glyphspackage
+  - operation: buildVariable
+    fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
+      --filter DecomposeTransformedComponentsFilter
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=0:13
+  - operation: remap
+    args: --deep
+    mappings:
+      A: ''
+      B: A.dec_locl
+      C: B
+      D: C.cur
+      E: D
+      F: E.cur
+      G: F
+      H: G.cur
+      I: H
+      J: I.dec
+      K: J.dec
+      L: K.dec
+      M: L.cur
+      N: M.dec
+      O: N.dec
+      P: O
+      Q: P
+      R: Q.cur_locl
+      S: R
+      T: S
+      U: T
+      V: U.cur
+      W: V.dec
+      X: W.dec
+      Y: X.cur
+      Z: Y.cur
+      U+00C6: Z.dec_locl
+      U+00D0: ''
+      U+0132: AE.cur
+      U+014a: Eth
+      U+0152: IJ.cur
+      U+00DE: Eng
+      U+1E9E: OE.cur
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful_at
+      w: w.ful_at
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
+  - operation: buildStat
+    other_args: --src stat-italic.yaml
+  - operation: rename
+    name: Playwrite Austria
+  - operation: subspace
+    axes: wght=300
+    other_args: --update-name-table
+  - postprocess: fix
+    fixargs: --include-source-fixes
+  ../fonts/static/Austria/PlaywriteAustria-LightItalic.ttf:
+  - source: Playwrite_MM.glyphspackage
+  - operation: buildVariable
+    fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
+      --filter DecomposeTransformedComponentsFilter
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=0:13
+  - operation: remap
+    args: --deep
+    mappings:
+      A: ''
+      B: A.dec_locl
+      C: B
+      D: C.cur
+      E: D
+      F: E.cur
+      G: F
+      H: G.cur
+      I: H
+      J: I.dec
+      K: J.dec
+      L: K.dec
+      M: L.cur
+      N: M.dec
+      O: N.dec
+      P: O
+      Q: P
+      R: Q.cur_locl
+      S: R
+      T: S
+      U: T
+      V: U.cur
+      W: V.dec
+      X: W.dec
+      Y: X.cur
+      Z: Y.cur
+      U+00C6: Z.dec_locl
+      U+00D0: ''
+      U+0132: AE.cur
+      U+014a: Eth
+      U+0152: IJ.cur
+      U+00DE: Eng
+      U+1E9E: OE.cur
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful_at
+      w: w.ful_at
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
+  - operation: buildStat
+    other_args: --src stat-italic.yaml
+  - operation: rename
+    name: Playwrite Austria
+  - operation: subspace
+    axes: wght=300 slnt=0
+    other_args: --update-name-table
+  - postprocess: fix
+    fixargs: --include-source-fixes
+  ../fonts/static/Austria/PlaywriteAustria-Regular.ttf:
+  - source: Playwrite_MM.glyphspackage
+  - operation: buildVariable
+    fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
+      --filter DecomposeTransformedComponentsFilter
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=0:13
+  - operation: remap
+    args: --deep
+    mappings:
+      A: ''
+      B: A.dec_locl
+      C: B
+      D: C.cur
+      E: D
+      F: E.cur
+      G: F
+      H: G.cur
+      I: H
+      J: I.dec
+      K: J.dec
+      L: K.dec
+      M: L.cur
+      N: M.dec
+      O: N.dec
+      P: O
+      Q: P
+      R: Q.cur_locl
+      S: R
+      T: S
+      U: T
+      V: U.cur
+      W: V.dec
+      X: W.dec
+      Y: X.cur
+      Z: Y.cur
+      U+00C6: Z.dec_locl
+      U+00D0: ''
+      U+0132: AE.cur
+      U+014a: Eth
+      U+0152: IJ.cur
+      U+00DE: Eng
+      U+1E9E: OE.cur
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful_at
+      w: w.ful_at
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
+  - operation: buildStat
+    other_args: --src stat-italic.yaml
+  - operation: rename
+    name: Playwrite Austria
+  - operation: subspace
+    axes: wght=400
+    other_args: --update-name-table
+  - postprocess: fix
+    fixargs: --include-source-fixes
+  ../fonts/static/Austria/PlaywriteAustria-Italic.ttf:
+  - source: Playwrite_MM.glyphspackage
+  - operation: buildVariable
+    fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
+      --filter DecomposeTransformedComponentsFilter
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=0:13
+  - operation: remap
+    args: --deep
+    mappings:
+      A: ''
+      B: A.dec_locl
+      C: B
+      D: C.cur
+      E: D
+      F: E.cur
+      G: F
+      H: G.cur
+      I: H
+      J: I.dec
+      K: J.dec
+      L: K.dec
+      M: L.cur
+      N: M.dec
+      O: N.dec
+      P: O
+      Q: P
+      R: Q.cur_locl
+      S: R
+      T: S
+      U: T
+      V: U.cur
+      W: V.dec
+      X: W.dec
+      Y: X.cur
+      Z: Y.cur
+      U+00C6: Z.dec_locl
+      U+00D0: ''
+      U+0132: AE.cur
+      U+014a: Eth
+      U+0152: IJ.cur
+      U+00DE: Eng
+      U+1E9E: OE.cur
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful_at
+      w: w.ful_at
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
+  - operation: fix
+    fixargs: --include-source-fixes
+  - operation: buildStat
+    other_args: --src stat-italic.yaml
+  - operation: rename
+    name: Playwrite Austria
+  - operation: subspace
+    axes: wght=400 slnt=0
+    other_args: --update-name-table
+  - postprocess: fix
+    fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteBelgiumWalloonWAL[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -3296,11 +4190,11 @@ recipe:
   - operation: rename
     name: Playwrite Belgium Walloon WAL
   ../fonts/variable/PlaywriteBelgiumWalloonWAL-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -3385,7 +4279,7 @@ recipe:
   - operation: rename
     name: Playwrite Belgium Walloon WAL Guidelines
   ../fonts/static/BelgiumWalloonWAL/PlaywriteBelgiumWalloonWAL-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -3475,7 +4369,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/BelgiumWalloonWAL/PlaywriteBelgiumWalloonWAL-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -3565,7 +4459,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/BelgiumWalloonWAL/PlaywriteBelgiumWalloonWAL-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -3655,7 +4549,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/BelgiumWalloonWAL/PlaywriteBelgiumWalloonWAL-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -3745,7 +4639,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteBelgiumFlandersVLG[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -3830,11 +4724,11 @@ recipe:
   - operation: rename
     name: Playwrite Belgium Flanders VLG
   ../fonts/variable/PlaywriteBelgiumFlandersVLG-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -3919,7 +4813,7 @@ recipe:
   - operation: rename
     name: Playwrite Belgium Flanders VLG Guidelines
   ../fonts/static/BelgiumFlandersVLG/PlaywriteBelgiumFlandersVLG-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -4009,7 +4903,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/BelgiumFlandersVLG/PlaywriteBelgiumFlandersVLG-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -4099,7 +4993,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/BelgiumFlandersVLG/PlaywriteBelgiumFlandersVLG-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -4189,7 +5083,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/BelgiumFlandersVLG/PlaywriteBelgiumFlandersVLG-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -4279,7 +5173,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteBrazil[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -4364,11 +5258,11 @@ recipe:
   - operation: rename
     name: Playwrite Brazil
   ../fonts/variable/PlaywriteBrazil-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -4453,7 +5347,7 @@ recipe:
   - operation: rename
     name: Playwrite Brazil Guidelines
   ../fonts/static/Brazil/PlaywriteBrazil-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -4543,7 +5437,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Brazil/PlaywriteBrazil-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -4633,7 +5527,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Brazil/PlaywriteBrazil-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -4723,7 +5617,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Brazil/PlaywriteBrazil-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -4813,7 +5707,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteCanada[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -4898,11 +5792,11 @@ recipe:
   - operation: rename
     name: Playwrite Canada
   ../fonts/variable/PlaywriteCanada-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -4987,7 +5881,7 @@ recipe:
   - operation: rename
     name: Playwrite Canada Guidelines
   ../fonts/static/Canada/PlaywriteCanada-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -5077,7 +5971,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Canada/PlaywriteCanada-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -5167,7 +6061,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Canada/PlaywriteCanada-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -5257,7 +6151,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Canada/PlaywriteCanada-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -5347,7 +6241,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteChile[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -5432,11 +6326,11 @@ recipe:
   - operation: rename
     name: Playwrite Chile
   ../fonts/variable/PlaywriteChile-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -5521,7 +6415,7 @@ recipe:
   - operation: rename
     name: Playwrite Chile Guidelines
   ../fonts/static/Chile/PlaywriteChile-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -5611,7 +6505,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Chile/PlaywriteChile-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -5701,7 +6595,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Chile/PlaywriteChile-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -5791,7 +6685,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Chile/PlaywriteChile-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -5881,7 +6775,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteColombia[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -5966,11 +6860,11 @@ recipe:
   - operation: rename
     name: Playwrite Colombia
   ../fonts/variable/PlaywriteColombia-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -6055,7 +6949,7 @@ recipe:
   - operation: rename
     name: Playwrite Colombia Guidelines
   ../fonts/static/Colombia/PlaywriteColombia-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -6145,7 +7039,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Colombia/PlaywriteColombia-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -6235,7 +7129,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Colombia/PlaywriteColombia-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -6325,7 +7219,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Colombia/PlaywriteColombia-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -6415,7 +7309,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteCroatiaItalic[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -6500,11 +7394,11 @@ recipe:
   - operation: rename
     name: Playwrite Croatia Italic
   ../fonts/variable/PlaywriteCroatiaItalic-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -6589,7 +7483,7 @@ recipe:
   - operation: rename
     name: Playwrite Croatia Italic Guidelines
   ../fonts/static/CroatiaItalic/PlaywriteCroatiaItalic-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -6679,7 +7573,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/CroatiaItalic/PlaywriteCroatiaItalic-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -6769,7 +7663,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/CroatiaItalic/PlaywriteCroatiaItalic-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -6859,7 +7753,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/CroatiaItalic/PlaywriteCroatiaItalic-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -6949,7 +7843,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteCroatiaUprightLefthand[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -7034,11 +7928,11 @@ recipe:
   - operation: rename
     name: Playwrite Croatia Upright Lefthand
   ../fonts/variable/PlaywriteCroatiaUprightLefthand-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -7123,7 +8017,7 @@ recipe:
   - operation: rename
     name: Playwrite Croatia Upright Lefthand Guidelines
   ../fonts/static/CroatiaUprightLefthand/PlaywriteCroatiaUprightLefthand-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -7213,7 +8107,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/CroatiaUprightLefthand/PlaywriteCroatiaUprightLefthand-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -7303,7 +8197,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/CroatiaUprightLefthand/PlaywriteCroatiaUprightLefthand-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -7393,7 +8287,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/CroatiaUprightLefthand/PlaywriteCroatiaUprightLefthand-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -7483,7 +8377,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteCuba[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -7568,11 +8462,11 @@ recipe:
   - operation: rename
     name: Playwrite Cuba
   ../fonts/variable/PlaywriteCuba-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -7657,7 +8551,7 @@ recipe:
   - operation: rename
     name: Playwrite Cuba Guidelines
   ../fonts/static/Cuba/PlaywriteCuba-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -7747,7 +8641,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Cuba/PlaywriteCuba-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -7837,7 +8731,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Cuba/PlaywriteCuba-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -7927,7 +8821,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Cuba/PlaywriteCuba-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -8017,7 +8911,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteCzechRepublic[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -8102,11 +8996,11 @@ recipe:
   - operation: rename
     name: Playwrite Czech Republic
   ../fonts/variable/PlaywriteCzechRepublic-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -8191,7 +9085,7 @@ recipe:
   - operation: rename
     name: Playwrite Czech Republic Guidelines
   ../fonts/static/CzechRepublic/PlaywriteCzechRepublic-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -8281,7 +9175,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/CzechRepublic/PlaywriteCzechRepublic-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -8371,7 +9265,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/CzechRepublic/PlaywriteCzechRepublic-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -8461,7 +9355,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/CzechRepublic/PlaywriteCzechRepublic-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -8551,7 +9445,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteDenmarkLooped[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -8636,11 +9530,11 @@ recipe:
   - operation: rename
     name: Playwrite Denmark Looped
   ../fonts/variable/PlaywriteDenmarkLooped-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -8725,7 +9619,7 @@ recipe:
   - operation: rename
     name: Playwrite Denmark Looped Guidelines
   ../fonts/static/DenmarkLooped/PlaywriteDenmarkLooped-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -8815,7 +9709,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/DenmarkLooped/PlaywriteDenmarkLooped-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -8905,7 +9799,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/DenmarkLooped/PlaywriteDenmarkLooped-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -8995,7 +9889,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/DenmarkLooped/PlaywriteDenmarkLooped-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -9085,7 +9979,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteDenmarkUnlooped[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -9170,11 +10064,11 @@ recipe:
   - operation: rename
     name: Playwrite Denmark Unlooped
   ../fonts/variable/PlaywriteDenmarkUnlooped-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -9259,7 +10153,7 @@ recipe:
   - operation: rename
     name: Playwrite Denmark Unlooped Guidelines
   ../fonts/static/DenmarkUnlooped/PlaywriteDenmarkUnlooped-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -9349,7 +10243,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/DenmarkUnlooped/PlaywriteDenmarkUnlooped-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -9439,7 +10333,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/DenmarkUnlooped/PlaywriteDenmarkUnlooped-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -9529,7 +10423,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/DenmarkUnlooped/PlaywriteDenmarkUnlooped-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -9619,7 +10513,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteEnglandSemijoined[slnt,wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -9704,11 +10598,11 @@ recipe:
   - operation: rename
     name: Playwrite England Semijoined
   ../fonts/variable/PlaywriteEnglandSemijoined-Guidelines[slnt,wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -9793,7 +10687,7 @@ recipe:
   - operation: rename
     name: Playwrite England Semijoined Guidelines
   ../fonts/static/EnglandSemijoined/PlaywriteEnglandSemijoined-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -9883,7 +10777,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandSemijoined/PlaywriteEnglandSemijoined-ThinItalic.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -9973,7 +10867,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandSemijoined/PlaywriteEnglandSemijoined-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -10063,7 +10957,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandSemijoined/PlaywriteEnglandSemijoined-ExtraLightItalic.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -10153,7 +11047,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandSemijoined/PlaywriteEnglandSemijoined-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -10243,7 +11137,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandSemijoined/PlaywriteEnglandSemijoined-LightItalic.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -10333,7 +11227,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandSemijoined/PlaywriteEnglandSemijoined-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -10423,7 +11317,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandSemijoined/PlaywriteEnglandSemijoined-Italic.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -10513,7 +11407,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteEnglandJoined[slnt,wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -10598,11 +11492,11 @@ recipe:
   - operation: rename
     name: Playwrite England Joined
   ../fonts/variable/PlaywriteEnglandJoined-Guidelines[slnt,wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -10687,7 +11581,7 @@ recipe:
   - operation: rename
     name: Playwrite England Joined Guidelines
   ../fonts/static/EnglandJoined/PlaywriteEnglandJoined-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -10777,7 +11671,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandJoined/PlaywriteEnglandJoined-ThinItalic.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -10867,7 +11761,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandJoined/PlaywriteEnglandJoined-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -10957,7 +11851,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandJoined/PlaywriteEnglandJoined-ExtraLightItalic.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -11047,7 +11941,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandJoined/PlaywriteEnglandJoined-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -11137,7 +12031,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandJoined/PlaywriteEnglandJoined-LightItalic.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -11227,7 +12121,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandJoined/PlaywriteEnglandJoined-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -11317,7 +12211,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/EnglandJoined/PlaywriteEnglandJoined-Italic.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -11407,7 +12301,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteFranceTraditional[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -11492,11 +12386,11 @@ recipe:
   - operation: rename
     name: Playwrite France Traditional
   ../fonts/variable/PlaywriteFranceTraditional-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -11581,7 +12475,7 @@ recipe:
   - operation: rename
     name: Playwrite France Traditional Guidelines
   ../fonts/static/FranceTraditional/PlaywriteFranceTraditional-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -11671,7 +12565,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/FranceTraditional/PlaywriteFranceTraditional-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -11761,7 +12655,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/FranceTraditional/PlaywriteFranceTraditional-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -11851,7 +12745,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/FranceTraditional/PlaywriteFranceTraditional-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -11941,7 +12835,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteFranceModern[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -12026,11 +12920,11 @@ recipe:
   - operation: rename
     name: Playwrite France Modern
   ../fonts/variable/PlaywriteFranceModern-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -12115,7 +13009,7 @@ recipe:
   - operation: rename
     name: Playwrite France Modern Guidelines
   ../fonts/static/FranceModern/PlaywriteFranceModern-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -12205,7 +13099,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/FranceModern/PlaywriteFranceModern-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -12295,7 +13189,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/FranceModern/PlaywriteFranceModern-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -12385,7 +13279,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/FranceModern/PlaywriteFranceModern-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -12475,7 +13369,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteGermanyGrundschrift[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -12560,11 +13454,11 @@ recipe:
   - operation: rename
     name: Playwrite Germany Grundschrift
   ../fonts/variable/PlaywriteGermanyGrundschrift-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -12649,7 +13543,7 @@ recipe:
   - operation: rename
     name: Playwrite Germany Grundschrift Guidelines
   ../fonts/static/GermanyGrundschrift/PlaywriteGermanyGrundschrift-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -12739,7 +13633,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/GermanyGrundschrift/PlaywriteGermanyGrundschrift-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -12829,7 +13723,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/GermanyGrundschrift/PlaywriteGermanyGrundschrift-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -12919,7 +13813,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/GermanyGrundschrift/PlaywriteGermanyGrundschrift-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -13009,7 +13903,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteGermanyLA[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -13094,11 +13988,11 @@ recipe:
   - operation: rename
     name: Playwrite Germany LA
   ../fonts/variable/PlaywriteGermanyLA-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -13183,7 +14077,7 @@ recipe:
   - operation: rename
     name: Playwrite Germany LA Guidelines
   ../fonts/static/GermanyLA/PlaywriteGermanyLA-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -13273,7 +14167,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/GermanyLA/PlaywriteGermanyLA-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -13363,7 +14257,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/GermanyLA/PlaywriteGermanyLA-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -13453,7 +14347,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/GermanyLA/PlaywriteGermanyLA-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -13543,7 +14437,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteGermanySAS[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -13628,11 +14522,11 @@ recipe:
   - operation: rename
     name: Playwrite Germany SAS
   ../fonts/variable/PlaywriteGermanySAS-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -13717,7 +14611,7 @@ recipe:
   - operation: rename
     name: Playwrite Germany SAS Guidelines
   ../fonts/static/GermanySAS/PlaywriteGermanySAS-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -13807,7 +14701,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/GermanySAS/PlaywriteGermanySAS-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -13897,7 +14791,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/GermanySAS/PlaywriteGermanySAS-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -13987,7 +14881,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/GermanySAS/PlaywriteGermanySAS-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -14077,7 +14971,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteGermanyVA[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -14162,11 +15056,11 @@ recipe:
   - operation: rename
     name: Playwrite Germany VA
   ../fonts/variable/PlaywriteGermanyVA-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -14251,7 +15145,7 @@ recipe:
   - operation: rename
     name: Playwrite Germany VA Guidelines
   ../fonts/static/GermanyVA/PlaywriteGermanyVA-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -14341,7 +15235,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/GermanyVA/PlaywriteGermanyVA-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -14431,7 +15325,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/GermanyVA/PlaywriteGermanyVA-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -14521,7 +15415,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/GermanyVA/PlaywriteGermanyVA-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -14611,7 +15505,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteIceland[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -14696,11 +15590,11 @@ recipe:
   - operation: rename
     name: Playwrite Iceland
   ../fonts/variable/PlaywriteIceland-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -14785,7 +15679,7 @@ recipe:
   - operation: rename
     name: Playwrite Iceland Guidelines
   ../fonts/static/Iceland/PlaywriteIceland-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -14875,7 +15769,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Iceland/PlaywriteIceland-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -14965,7 +15859,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Iceland/PlaywriteIceland-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -15055,7 +15949,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Iceland/PlaywriteIceland-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -15145,7 +16039,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteIndonesia[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -15230,11 +16124,11 @@ recipe:
   - operation: rename
     name: Playwrite Indonesia
   ../fonts/variable/PlaywriteIndonesia-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -15319,7 +16213,7 @@ recipe:
   - operation: rename
     name: Playwrite Indonesia Guidelines
   ../fonts/static/Indonesia/PlaywriteIndonesia-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -15409,7 +16303,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Indonesia/PlaywriteIndonesia-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -15499,7 +16393,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Indonesia/PlaywriteIndonesia-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -15589,7 +16483,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Indonesia/PlaywriteIndonesia-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -15679,7 +16573,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteIreland[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -15764,11 +16658,11 @@ recipe:
   - operation: rename
     name: Playwrite Ireland
   ../fonts/variable/PlaywriteIreland-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -15853,7 +16747,7 @@ recipe:
   - operation: rename
     name: Playwrite Ireland Guidelines
   ../fonts/static/Ireland/PlaywriteIreland-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -15943,7 +16837,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Ireland/PlaywriteIreland-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -16033,7 +16927,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Ireland/PlaywriteIreland-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -16123,7 +17017,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Ireland/PlaywriteIreland-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -16213,7 +17107,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteItalyTraditional[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -16298,11 +17192,11 @@ recipe:
   - operation: rename
     name: Playwrite Italy Traditional
   ../fonts/variable/PlaywriteItalyTraditional-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -16387,7 +17281,7 @@ recipe:
   - operation: rename
     name: Playwrite Italy Traditional Guidelines
   ../fonts/static/ItalyTraditional/PlaywriteItalyTraditional-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -16477,7 +17371,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/ItalyTraditional/PlaywriteItalyTraditional-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -16567,7 +17461,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/ItalyTraditional/PlaywriteItalyTraditional-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -16657,7 +17551,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/ItalyTraditional/PlaywriteItalyTraditional-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -16747,7 +17641,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteItalyModern[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -16832,11 +17726,11 @@ recipe:
   - operation: rename
     name: Playwrite Italy Modern
   ../fonts/variable/PlaywriteItalyModern-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -16921,7 +17815,7 @@ recipe:
   - operation: rename
     name: Playwrite Italy Modern Guidelines
   ../fonts/static/ItalyModern/PlaywriteItalyModern-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -17011,7 +17905,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/ItalyModern/PlaywriteItalyModern-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -17101,7 +17995,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/ItalyModern/PlaywriteItalyModern-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -17191,7 +18085,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/ItalyModern/PlaywriteItalyModern-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -17281,7 +18175,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteMexico[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -17366,11 +18260,11 @@ recipe:
   - operation: rename
     name: Playwrite Mexico
   ../fonts/variable/PlaywriteMexico-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -17455,7 +18349,7 @@ recipe:
   - operation: rename
     name: Playwrite Mexico Guidelines
   ../fonts/static/Mexico/PlaywriteMexico-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -17545,7 +18439,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Mexico/PlaywriteMexico-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -17635,7 +18529,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Mexico/PlaywriteMexico-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -17725,7 +18619,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Mexico/PlaywriteMexico-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -17815,7 +18709,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteNetherlands[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -17900,11 +18794,11 @@ recipe:
   - operation: rename
     name: Playwrite Netherlands
   ../fonts/variable/PlaywriteNetherlands-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -17989,7 +18883,7 @@ recipe:
   - operation: rename
     name: Playwrite Netherlands Guidelines
   ../fonts/static/Netherlands/PlaywriteNetherlands-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -18079,7 +18973,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Netherlands/PlaywriteNetherlands-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -18169,7 +19063,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Netherlands/PlaywriteNetherlands-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -18259,7 +19153,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Netherlands/PlaywriteNetherlands-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -18349,7 +19243,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteNewZealand[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -18434,11 +19328,11 @@ recipe:
   - operation: rename
     name: Playwrite New Zealand
   ../fonts/variable/PlaywriteNewZealand-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -18523,7 +19417,7 @@ recipe:
   - operation: rename
     name: Playwrite New Zealand Guidelines
   ../fonts/static/NewZealand/PlaywriteNewZealand-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -18613,7 +19507,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/NewZealand/PlaywriteNewZealand-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -18703,7 +19597,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/NewZealand/PlaywriteNewZealand-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -18793,7 +19687,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/NewZealand/PlaywriteNewZealand-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -18883,7 +19777,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteNorway[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -18968,11 +19862,11 @@ recipe:
   - operation: rename
     name: Playwrite Norway
   ../fonts/variable/PlaywriteNorway-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -19057,7 +19951,7 @@ recipe:
   - operation: rename
     name: Playwrite Norway Guidelines
   ../fonts/static/Norway/PlaywriteNorway-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -19147,7 +20041,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Norway/PlaywriteNorway-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -19237,7 +20131,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Norway/PlaywriteNorway-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -19327,7 +20221,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Norway/PlaywriteNorway-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -19417,7 +20311,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywritePeru[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -19502,11 +20396,11 @@ recipe:
   - operation: rename
     name: Playwrite Peru
   ../fonts/variable/PlaywritePeru-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -19591,7 +20485,7 @@ recipe:
   - operation: rename
     name: Playwrite Peru Guidelines
   ../fonts/static/Peru/PlaywritePeru-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -19681,7 +20575,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Peru/PlaywritePeru-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -19771,7 +20665,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Peru/PlaywritePeru-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -19861,7 +20755,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Peru/PlaywritePeru-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -19951,7 +20845,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywritePoland[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -20036,11 +20930,11 @@ recipe:
   - operation: rename
     name: Playwrite Poland
   ../fonts/variable/PlaywritePoland-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -20125,7 +21019,7 @@ recipe:
   - operation: rename
     name: Playwrite Poland Guidelines
   ../fonts/static/Poland/PlaywritePoland-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -20215,7 +21109,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Poland/PlaywritePoland-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -20305,7 +21199,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Poland/PlaywritePoland-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -20395,7 +21289,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Poland/PlaywritePoland-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -20485,7 +21379,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywritePortugal[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -20570,11 +21464,11 @@ recipe:
   - operation: rename
     name: Playwrite Portugal
   ../fonts/variable/PlaywritePortugal-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -20659,7 +21553,7 @@ recipe:
   - operation: rename
     name: Playwrite Portugal Guidelines
   ../fonts/static/Portugal/PlaywritePortugal-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -20749,7 +21643,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Portugal/PlaywritePortugal-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -20839,7 +21733,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Portugal/PlaywritePortugal-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -20929,7 +21823,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Portugal/PlaywritePortugal-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -21019,7 +21913,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteSlovakia[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -21104,11 +21998,11 @@ recipe:
   - operation: rename
     name: Playwrite Slovakia
   ../fonts/variable/PlaywriteSlovakia-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -21193,7 +22087,7 @@ recipe:
   - operation: rename
     name: Playwrite Slovakia Guidelines
   ../fonts/static/Slovakia/PlaywriteSlovakia-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -21283,7 +22177,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Slovakia/PlaywriteSlovakia-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -21373,7 +22267,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Slovakia/PlaywriteSlovakia-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -21463,7 +22357,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Slovakia/PlaywriteSlovakia-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -21553,7 +22447,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteSouthAfrica[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -21638,11 +22532,11 @@ recipe:
   - operation: rename
     name: Playwrite South Africa
   ../fonts/variable/PlaywriteSouthAfrica-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -21727,7 +22621,7 @@ recipe:
   - operation: rename
     name: Playwrite South Africa Guidelines
   ../fonts/static/SouthAfrica/PlaywriteSouthAfrica-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -21817,7 +22711,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/SouthAfrica/PlaywriteSouthAfrica-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -21907,7 +22801,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/SouthAfrica/PlaywriteSouthAfrica-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -21997,7 +22891,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/SouthAfrica/PlaywriteSouthAfrica-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -22087,7 +22981,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteSpain[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -22172,11 +23066,11 @@ recipe:
   - operation: rename
     name: Playwrite Spain
   ../fonts/variable/PlaywriteSpain-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -22261,7 +23155,7 @@ recipe:
   - operation: rename
     name: Playwrite Spain Guidelines
   ../fonts/static/Spain/PlaywriteSpain-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -22351,7 +23245,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Spain/PlaywriteSpain-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -22441,7 +23335,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Spain/PlaywriteSpain-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -22531,7 +23425,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Spain/PlaywriteSpain-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -22621,7 +23515,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteSpainOrnateUC[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -22706,11 +23600,11 @@ recipe:
   - operation: rename
     name: Playwrite Spain OrnateUC
   ../fonts/variable/PlaywriteSpainOrnateUC-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -22795,7 +23689,7 @@ recipe:
   - operation: rename
     name: Playwrite Spain OrnateUC Guidelines
   ../fonts/static/SpainOrnateUC/PlaywriteSpainOrnateUC-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -22885,7 +23779,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/SpainOrnateUC/PlaywriteSpainOrnateUC-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -22975,7 +23869,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/SpainOrnateUC/PlaywriteSpainOrnateUC-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -23065,7 +23959,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/SpainOrnateUC/PlaywriteSpainOrnateUC-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -23155,7 +24049,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteUSAModern[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -23240,11 +24134,11 @@ recipe:
   - operation: rename
     name: Playwrite USA Modern
   ../fonts/variable/PlaywriteUSAModern-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -23329,7 +24223,7 @@ recipe:
   - operation: rename
     name: Playwrite USA Modern Guidelines
   ../fonts/static/USAModern/PlaywriteUSAModern-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -23419,7 +24313,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/USAModern/PlaywriteUSAModern-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -23509,7 +24403,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/USAModern/PlaywriteUSAModern-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -23599,7 +24493,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/USAModern/PlaywriteUSAModern-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -23689,7 +24583,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteUSATraditional[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -23774,11 +24668,11 @@ recipe:
   - operation: rename
     name: Playwrite USA Traditional
   ../fonts/variable/PlaywriteUSATraditional-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -23863,7 +24757,7 @@ recipe:
   - operation: rename
     name: Playwrite USA Traditional Guidelines
   ../fonts/static/USATraditional/PlaywriteUSATraditional-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -23953,7 +24847,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/USATraditional/PlaywriteUSATraditional-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -24043,7 +24937,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/USATraditional/PlaywriteUSATraditional-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -24133,7 +25027,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/USATraditional/PlaywriteUSATraditional-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -24223,7 +25117,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/variable/PlaywriteVietnam[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -24308,11 +25202,11 @@ recipe:
   - operation: rename
     name: Playwrite Vietnam
   ../fonts/variable/PlaywriteVietnam-Guidelines[wght].ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: exec
     exe: python3 ../scripts/add-guidelines.py
-    args: -o Playpen-Guidelines.glyphs --overlap 200 Playpen_MM.glyphspackage
-  - source: Playpen-Guidelines.glyphs
+    args: -o Playwrite-Guidelines.glyphs --overlap 200 Playwrite_MM.glyphspackage
+  - source: Playwrite-Guidelines.glyphs
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -24397,7 +25291,7 @@ recipe:
   - operation: rename
     name: Playwrite Vietnam Guidelines
   ../fonts/static/Vietnam/PlaywriteVietnam-Thin.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -24487,7 +25381,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Vietnam/PlaywriteVietnam-ExtraLight.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -24577,7 +25471,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Vietnam/PlaywriteVietnam-Light.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter
@@ -24667,7 +25561,7 @@ recipe:
   - postprocess: fix
     fixargs: --include-source-fixes
   ../fonts/static/Vietnam/PlaywriteVietnam-Regular.ttf:
-  - source: Playpen_MM.glyphspackage
+  - source: Playwrite_MM.glyphspackage
   - operation: buildVariable
     fontmake_args: --no-production-names --filter ... --filter FlattenComponentsFilter
       --filter DecomposeTransformedComponentsFilter

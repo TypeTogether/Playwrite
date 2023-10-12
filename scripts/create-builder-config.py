@@ -4,10 +4,10 @@ import yaml
 import copy
 
 config = {
-    "sources": ["Playpen_MM.glyphspackage"],
+    "sources": ["Playwrite_MM.glyphspackage"],
     "recipe": {
-        "../fonts/variable/Playpen_MM[SPED,YEXT,slnt,wght].ttf": [
-            {"source": "Playpen_MM.glyphspackage"},
+        "../fonts/variable/Playwrite_MM[SPED,YEXT,slnt,wght].ttf": [
+            {"source": "Playwrite_MM.glyphspackage"},
             {
                 "operation": "buildVariable",
                 "fontmake_args": "--no-production-names --filter ... --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter",
@@ -43,8 +43,8 @@ LC_ORDER = (
 
 
 class Model:
-    source_file = "Playpen_MM.glyphspackage"
-    guidelines_source = "Playpen-Guidelines.glyphs"
+    source_file = "Playwrite_MM.glyphspackage"
+    guidelines_source = "Playwrite-Guidelines.glyphs"
     family_name = "Playwrite"
 
     def __init__(self, model_dict):
