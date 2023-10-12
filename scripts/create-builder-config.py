@@ -52,8 +52,8 @@ class Model:
 
     @property
     def mapping(self):
-        new_ucs = self.model_dict["UC"].split(" ")
-        new_lcs = self.model_dict["lc"].split(" ")
+        new_ucs = self.model_dict["UC"].strip().split()
+        new_lcs = self.model_dict["lc"].strip().split()
 
         mapping = {}
         for old, new in zip(UC_ORDER, new_ucs):
