@@ -18,52 +18,71 @@ For complete build instructions refer to
 Based on the Primarium study the TypeTogether team isolated a limited number of structural variations for the Latin letter shapes: 8 variation styles for lower cases and three for uppercases. With the help of a sturdy contextual alternate (CALT) opentype code these different veriation groups can be seamlessly combined.
 
 
-* **Precursive**.  Default set of lower case letters. These are completely unjoined.  
+* **Precursive**.  
+Default set of lower case letters. These are completely unjoined.  
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey1.png)
 
 * **Modern cursive**.  
 Same design as precursive in isolated shape but it istriggers a semi-connected typesetting.
 Uses .mod suffix (eg. n.mod). 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey2.png)
-
-* **Fully joined odern cursive**.  Adds loops to descenders and connecting strokes to letters that do not connect in .mod.Uses .jmc suffix (eg. g.jmc). 
+
+
+* **Fully joined odern cursive**.  
+Adds loops to descenders and connecting strokes to letters that do not connect in .mod.
+Uses .jmc suffix (eg. g.jmc). 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey3.png)
 
 
-* **Full Cursive**.  Construction os several glyphs change to match a continuous cursive style.Uses .ful suffix (eg. s.ful). 
+* **Full Cursive**.  
+Construction os several glyphs change to match a continuous cursive style.
+Uses .ful suffix (eg. s.ful). 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey4.png)
 
 
-* **Speed loops**.  Adds speedloops to most letters with ascender strokes.Uses .lop suffix (eg. h.lop). 
+* **Speed loops**.  
+Adds speedloops to most letters with ascender strokes.
+Uses .lop suffix (eg. h.lop). 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey5.png)
 
 
-* **Curved entry stroke**.  Changes the lead-in connection at x-heigh level for several letters.Uses .cnt suffix (eg. n.cnt). 
+* **Curved entry stroke**.  
+Changes the lead-in connection at x-heigh level for several letters.
+Uses .cnt suffix (eg. n.cnt). 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey6.png)
 
 
 * **Mirrored loops**.  
-Adds loops in to two letters and switches loop direction in “f”.Uses .mrr suffix (eg. f.mrr). 
+Adds loops in to two letters and switches loop direction in “f”.
+Uses .mrr suffix (eg. f.mrr). 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey7.png)
 
 
-* **Microloops**.  Adds knots or small loops to mark stroke direction change in some letters.Uses .mlp suffix (eg. o.mlp). 
+* **Microloops**.  
+Adds knots or small loops to mark stroke direction change in some letters.
+Uses .mlp suffix (eg. o.mlp). 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey8.png)
 
 
-* **Print**.  Default set of upper case letters. These are completely unjoined.  
+* **Print**.  
+Default set of upper case letters. These are completely unjoined.  
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey9.png)
 
 
-* **Cursive upper cases**.  Cursive capitals. SAlso enable connection with a number of lowercase lettersUses .cur suffix (eg. A.cur). 
+* **Cursive upper cases**.  
+Cursive capitals. SAlso enable connection with a number of lowercase letters
+Uses .cur suffix (eg. A.cur). 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey10.png)
 
 
-* **Decorative upper cases**.  Secondary set of decorative capitals to match certain handwriting models. These are semi-connected.Uses .dec suffix (eg. G.dec). 
+* **Decorative upper cases**.  
+Secondary set of decorative capitals to match certain handwriting models. These are semi-connected.
+Uses .dec suffix (eg. G.dec). 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey11.png)
 
 
-* **Regional variants lower cases**.  Alternative designs necessary for one or more specific regions. These use suffix locl when used in several fonts or locl_XX where XX is a two letter country code. (eg. G.dec). 
+* **Regional variants lower cases**.  
+Alternative designs necessary for one or more specific regions. These use suffix locl when used in several fonts or locl_XX where XX is a two letter country code. (eg. Q.dec_pt). 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey12.png)
 * **Regional variants upper cases**.  
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey13.png)
