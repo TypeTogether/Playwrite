@@ -41,13 +41,13 @@ echo
             --filter DecomposeTransformedComponentsFilter \
             --expand-features-to-instances
 
-#       echo "
-# ==================================
-#  Building GUIDES **$tag** font
-# ==================================
-# "
-#       python $scripts/build-guides-model.py $tag
-#       # sh build-models-guides-static.sh $tag
+    echo "
+==================================
+ Building GUIDES **$tag** font
+==================================
+"
+      python $scripts/build-guides-model.py $tag
+      # sh build-models-guides-static.sh $tag
 
     echo "
     ======================

@@ -15,36 +15,50 @@ def setFontInfo(font):
 
 def get_yGuides(font):
     was = font.info.openTypeOS2WinAscent
+    # was = font.info.openTypeHheaAscender
     capheight = font.info.capHeight
     xheight = font.info.xHeight
     baseline = 0
-    descender = - font.info.openTypeOS2WinDescent
+    # descender = - font.info.openTypeOS2WinDescent
+    descender = font.info.openTypeHheaDescender
 
     return (capheight, xheight, baseline, descender)
 
 
-def drawGuides(glyph, yValues, lineWidth=10):
-    glyphWidth = glyph.width
+def drawGuides(glyph, yValues, lineWidth=19):
 
-    # if glyph.name != ".notdef":
-    #     glyph.clear(anchors=False)
+    x_min, x_max = 0, glyph.width
+    if "cnct." in glyph.name:
+        x_min, y_min, x_max, y_max = glyph.bounds
 
-    if glyphWidth and glyph.name != ".notdef":
+    if glyph.name != ".notdef" and x_min != x_max:
         glyph.decompose()
         pen = glyph.getPen()
+
         for y in yValues:
-            pen.moveTo((0, y))
-            pen.lineTo((glyphWidth, y)),
-            pen.lineTo((glyphWidth, y + lineWidth)),
-            pen.lineTo((0, y + lineWidth)),
+            if y == 0:
+                line_width = lineWidth * 2
+                shift = - line_width
+            elif y < 0:
+                line_width = lineWidth
+                shift = - line_width
+            else:
+                line_width = lineWidth
+                shift = 0
+
+            # draw
+            pen.moveTo((x_min, y + shift))
+            pen.lineTo((x_max, y + shift)),
+            pen.lineTo((x_max, y + shift + line_width)),
+            pen.lineTo((x_min, y + shift + line_width)),
             pen.closePath()
 
 
 def main():
     tag = sys.argv[1]
-    tag_no_space = tag.replace('_', '')
-    src_path = os.path.abspath(f"./instance_ufo/Playwrite{tag_no_space}-Thin.ufo")
-    tgt_path = src_path.replace("Thin", "Guides")
+    tag_no_space = tag.replace("_", "")
+    src_path = os.path.abspath(f"./instance_ufo/Playwrite{tag_no_space}-Regular.ufo")
+    tgt_path = src_path.replace("Regular", "Guides")
 
     src_font = OpenFont(src_path, showInterface=False)
     src_font.save(tgt_path)
@@ -52,10 +66,12 @@ def main():
     tgt_font = OpenFont(tgt_path, showInterface=False)
     setFontInfo(tgt_font)
     guides_y = get_yGuides(tgt_font)
+
     for glyph in tgt_font:
         drawGuides(glyph, guides_y)
     tgt_font.save()
-    # save a copy for debug ufo
+
+    # save a copy for debugging
     tgt_font.save(os.path.expanduser("~/Desktop/debug.ufo"))
 
 

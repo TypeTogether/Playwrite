@@ -36,7 +36,7 @@ echo
     # Build Thin instance ufo
     tagspaced=${tag/"_"/" "}
     tag_no_space=${tag/"_"/""}
-    fontmake -m ./designspace-models/$tag.designspace -i "Playwrite $tagspaced Thin" -o ufo \
+    fontmake -m ./designspace-models/$tag.designspace -i "Playwrite $tagspaced Regular" -o ufo \
     # save as Guides ufo and process
     python $scripts/build-guides-model.py $tag
 
