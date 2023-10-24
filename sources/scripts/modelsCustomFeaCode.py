@@ -9,5 +9,6 @@ modelsCustomFeaCodeDict = {
     "SVK": "sub caroncomb.alt by caroncomb.alt_locl;\nsub caroncomb by caroncomb_locl;",
     "ESP": "sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;",
     "ESP_OrnateUC": "sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;",
-    "NLD": "sub i.mod j.jmc by ij.jmc;"
+    "NLD": "sub i.mod j.jmc by ij.jmc;",
+    "ROU": "sub [S.dec T.dec s.ful t.mod] commaaccentcomb' by cedillacomb;"
 }
