@@ -170,6 +170,8 @@
     <string>G_.cur_locl.glif</string>
     <key>G.cur_locl.ini</key>
     <string>G_.cur_locl.ini.glif</string>
+    <key>G.cur_ro</key>
+    <string>G_.cur_ro.glif</string>
     <key>G.dec</key>
     <string>G_.dec.glif</string>
     <key>G_locl</key>
@@ -542,6 +544,10 @@
     <string>X_.dec_locl.glif</string>
     <key>X.dec_locl.ini</key>
     <string>X_.dec_locl.ini.glif</string>
+    <key>X.dec_ro</key>
+    <string>X_.dec_ro.glif</string>
+    <key>X.dec_ro.ini</key>
+    <string>X_.dec_ro.ini.glif</string>
     <key>Y</key>
     <string>Y_.glif</string>
     <key>Y.cur</key>
@@ -2752,6 +2758,14 @@
     <string>x.cnt_de.ini.glif</string>
     <key>x.cnt_de.med</key>
     <string>x.cnt_de.med.glif</string>
+    <key>x.cnt_ro</key>
+    <string>x.cnt_ro.glif</string>
+    <key>x.cnt_ro.fin</key>
+    <string>x.cnt_ro.fin.glif</string>
+    <key>x.cnt_ro.ini</key>
+    <string>x.cnt_ro.ini.glif</string>
+    <key>x.cnt_ro.med</key>
+    <string>x.cnt_ro.med.glif</string>
     <key>x.ful</key>
     <string>x.ful.glif</string>
     <key>x.ful.fin</key>
@@ -2866,6 +2880,14 @@
     <string>z.mod.ini.glif</string>
     <key>z.mod.med</key>
     <string>z.mod.med.glif</string>
+    <key>z.mod_ro</key>
+    <string>z.mod_ro.glif</string>
+    <key>z.mod_ro.fin</key>
+    <string>z.mod_ro.fin.glif</string>
+    <key>z.mod_ro.ini</key>
+    <string>z.mod_ro.ini.glif</string>
+    <key>z.mod_ro.med</key>
+    <string>z.mod_ro.med.glif</string>
     <key>zacute</key>
     <string>zacute.glif</string>
     <key>zcaron</key>
