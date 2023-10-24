@@ -37,7 +37,7 @@
       </dict>
     </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>3221</string>
+    <string>3223</string>
     <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
     <integer>2000</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -76,10 +76,10 @@
     <string>Regular</string>
     <key>public.glyphOrder</key>
     <array>
+      <string>.notdef</string>
       <string>CR</string>
       <string>space</string>
       <string>nbspace</string>
-      <string>.notdef</string>
       <string>.null</string>
       <string>A</string>
       <string>B</string>
@@ -1290,6 +1290,10 @@
       <string>t.mod_be.ini</string>
       <string>t.mod_be.med</string>
       <string>t.mod_be.fin</string>
+      <string>z.mod_ro</string>
+      <string>z.mod_ro.ini</string>
+      <string>z.mod_ro.med</string>
+      <string>z.mod_ro.fin</string>
       <string>t.lop_de</string>
       <string>t.lop_de.ini</string>
       <string>t.lop_de.med</string>
@@ -1306,6 +1310,10 @@
       <string>x.cnt_de.ini</string>
       <string>x.cnt_de.med</string>
       <string>x.cnt_de.fin</string>
+      <string>x.cnt_ro</string>
+      <string>x.cnt_ro.ini</string>
+      <string>x.cnt_ro.med</string>
+      <string>x.cnt_ro.fin</string>
       <string>y_de</string>
       <string>z.cnt_au</string>
       <string>z.cnt_au.ini</string>
@@ -1435,6 +1443,8 @@
       <string>X.dec.ini</string>
       <string>X.dec_locl</string>
       <string>X.dec_locl.ini</string>
+      <string>X.dec_ro</string>
+      <string>X.dec_ro.ini</string>
       <string>Z.dec</string>
       <string>Z.dec.ini</string>
       <string>I_locl</string>
@@ -1449,6 +1459,7 @@
       <string>F.cur_locl</string>
       <string>G.cur_locl</string>
       <string>G.cur_locl.ini</string>
+      <string>G.cur_ro</string>
       <string>Q.cur_locl</string>
       <string>Q.cur_locl.ini</string>
       <string>T.cur_locl</string>

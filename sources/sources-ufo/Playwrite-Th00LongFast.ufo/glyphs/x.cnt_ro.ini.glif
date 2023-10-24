@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="x.cnt_ro.ini" format="2">
+  <advance width="640"/>
+  <anchor x="640" y="0" name="cnct"/>
+  <outline>
+    <contour>
+      <point x="179" y="238" type="curve" smooth="yes"/>
+      <point x="482" y="238" type="line" smooth="yes"/>
+      <point x="488" y="238"/>
+      <point x="493" y="244"/>
+      <point x="493" y="255" type="curve" smooth="yes"/>
+      <point x="493" y="266"/>
+      <point x="488" y="270"/>
+      <point x="482" y="270" type="curve" smooth="yes"/>
+      <point x="179" y="270" type="line" smooth="yes"/>
+      <point x="173" y="270"/>
+      <point x="168" y="265"/>
+      <point x="168" y="254" type="curve" smooth="yes"/>
+      <point x="168" y="243"/>
+      <point x="173" y="238"/>
+    </contour>
+    <component base="x.cnt.ini"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>
