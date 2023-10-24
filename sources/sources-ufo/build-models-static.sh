@@ -41,13 +41,8 @@ echo
             --filter DecomposeTransformedComponentsFilter \
             --expand-features-to-instances
 
-    echo "
-==================================
- Building GUIDES **$tag** font
-==================================
-"
-      python $scripts/build-guides-model.py $tag
-      # sh build-models-guides-static.sh $tag
+    # Build GUIDES **$tag** font
+    sh build-models-guides-static.sh $tag
 
     echo "
     ======================
@@ -55,16 +50,28 @@ echo
     ======================
     "
     ttfs=$(ls $ttfFontsPath/*.ttf)
+
     for ttf in $ttfs
     do
       python -m ttfautohint -n $ttf "$ttf.hint"
       mv "$ttf.hint" $ttf
-      gftools fix-hinting $ttf
-      mv "$ttf.fix" $ttf
-      echo $ttf
       # fix post.italicAngle
       python $scripts/fix-models-static.py $ttf
+      gftools fix-hinting $ttf
     done
+
+    echo "
+    ===========================
+     Rename .ttf.fix from TTFs 
+    ===========================
+    "
+    hinted_ttfs=$(ls $ttfFontsPath/*.ttf.fix)
+
+    for hinted in $hinted_ttfs
+    do
+      mv $hinted "${hinted%.*}"
+    done
+
 done
 
 #
