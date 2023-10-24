@@ -90,4 +90,4 @@ for mTag, val in modelsDataDict.items():
     doc.write(outputPath)
     print(f"Written {mTag}.designspace")
 
-print("Written all designspaces for all languages")
+print("\nWritten all designspaces for all languages")
