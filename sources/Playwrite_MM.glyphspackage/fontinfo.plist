@@ -1,5 +1,5 @@
 {
-.appVersion = "3221";
+.appVersion = "3223";
 .formatVersion = 3;
 axes = (
 {
@@ -28,10 +28,10 @@ value = 2000;
 {
 name = glyphOrder;
 value = (
+.notdef,
 CR,
 space,
 nbspace,
-.notdef,
 .null,
 A,
 B,
@@ -1242,6 +1242,10 @@ t.mod_be,
 t.mod_be.ini,
 t.mod_be.med,
 t.mod_be.fin,
+z.mod_ro,
+z.mod_ro.ini,
+z.mod_ro.med,
+z.mod_ro.fin,
 t.lop_de,
 t.lop_de.ini,
 t.lop_de.med,
@@ -1258,6 +1262,10 @@ x.cnt_de,
 x.cnt_de.ini,
 x.cnt_de.med,
 x.cnt_de.fin,
+x.cnt_ro,
+x.cnt_ro.ini,
+x.cnt_ro.med,
+x.cnt_ro.fin,
 y_de,
 z.cnt_au,
 z.cnt_au.ini,
@@ -1387,6 +1395,8 @@ X.dec,
 X.dec.ini,
 X.dec_locl,
 X.dec_locl.ini,
+X.dec_ro,
+X.dec_ro.ini,
 Z.dec,
 Z.dec.ini,
 I_locl,
@@ -1401,6 +1411,7 @@ A.cur_locl.ini,
 F.cur_locl,
 G.cur_locl,
 G.cur_locl.ini,
+G.cur_ro,
 Q.cur_locl,
 Q.cur_locl.ini,
 T.cur_locl,
@@ -1478,14 +1489,14 @@ value = (
 );
 }
 );
-date = "2023-10-11 16:03:13 +0000";
+date = "2023-10-23 16:36:13 +0000";
 familyName = Playwrite;
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-include(../../03_Engineering/GOOGLE-Github-Playpen-repo/sources/features/Playwrite.fea);
+include(features/Playwrite.fea);
 ";
 name = Languagesystems;
 }
@@ -1565,7 +1576,6 @@ over = -19;
 pos = -375;
 },
 {
-over = -16;
 }
 );
 name = "Th 00 Short Slow";
@@ -1722,7 +1732,6 @@ over = -19;
 pos = -375;
 },
 {
-over = -16;
 }
 );
 name = "Th 00 Short Fast";
@@ -1876,7 +1885,6 @@ over = -19;
 pos = -375;
 },
 {
-over = -16;
 }
 );
 name = "Rg 00 Short Slow";
@@ -2035,7 +2043,6 @@ over = -19;
 pos = -375;
 },
 {
-over = -16;
 }
 );
 name = "Rg 00 Short Fast";
@@ -2184,7 +2191,6 @@ over = -19;
 pos = -1000;
 },
 {
-over = -16;
 }
 );
 name = "Th 00 Long Slow";
@@ -2334,7 +2340,6 @@ over = -19;
 pos = -1000;
 },
 {
-over = -16;
 }
 );
 name = "Th 00 Long Fast";
@@ -2478,7 +2483,6 @@ over = -19;
 pos = -1000;
 },
 {
-over = -16;
 }
 );
 name = "Rg 00 Long Slow";
@@ -2628,7 +2632,6 @@ over = -19;
 pos = -1000;
 },
 {
-over = -16;
 }
 );
 name = "Rg 00 Long Fast";
@@ -2859,16 +2862,13 @@ type = "italic angle";
 );
 properties = (
 {
-key = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
+key = copyrights;
+values = (
 {
-key = manufacturerURL;
-value = "www.type-together.com";
-},
-{
-key = designerURL;
-value = "www.type-together.com";
+language = dflt;
+value = "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)";
+}
+);
 },
 {
 key = descriptions;
@@ -2880,6 +2880,19 @@ value = "First Release";
 );
 },
 {
+key = designers;
+values = (
+{
+language = dflt;
+value = "Veronika Burian, José Scaglione";
+}
+);
+},
+{
+key = designerURL;
+value = "www.type-together.com";
+},
+{
 key = licenses;
 values = (
 {
@@ -2889,13 +2902,8 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 );
 },
 {
-key = copyrights;
-values = (
-{
-language = dflt;
-value = "Copyright 2023 The Playwrite Project Authors (https://github.com/TypeTogether/Playwrite)";
-}
-);
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
 },
 {
 key = manufacturers;
@@ -2907,13 +2915,8 @@ value = TypeTogether;
 );
 },
 {
-key = designers;
-values = (
-{
-language = dflt;
-value = "Veronika Burian, José Scaglione";
-}
-);
+key = manufacturerURL;
+value = "www.type-together.com";
 },
 {
 key = vendorID;
