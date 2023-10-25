@@ -456,7 +456,7 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
                'T.cur_locl U.cur V.cur W.cur X.dec Y.cur Z.cur AE.cur Eth '
                'IJ.cur Eng OE.cur Thorn Germandbls',
          'YEXT': 500,
-         'lc': 'a.mod b.lop c.mod d.mod e.ful f.ful_pe g.jmc h.lop i.mod j.jmc '
+         'lc': 'a.mod b.lop c.mod d.mod e.ful f.ful_de g.jmc h.lop i.mod j.jmc '
                'k.lop_pe l.lop m.cnt n.cnt o.mod p.jmc q.jmc r.ful s.ful t.mod '
                'u.mod v.mlp w.mlp x.ful y.cnt z.cnt ae.ful eth.mod ij.jmc eng '
                'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc ',
@@ -468,7 +468,7 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
                'V.cur W.cur X.cur Y.cur Z.dec AE.cur Eth IJ.cur Eng OE.cur '
                'Thorn Germandbls',
          'YEXT': 486,
-         'lc': 'a.mod b.ful c.mod d.mod e.ful f.ful_pl g.jmc h.mod i.mod j.jmc '
+         'lc': 'a.mod b.ful c.mod d.mod e.ful f.ful_de g.jmc h.mod i.mod j.jmc '
                'k.mod l.mod m.cnt n.cnt o.mod p.ful q.jmc r.cnt s.ful t.mod '
                'u.mod v.ful w.ful x.ful y.jmc z.mod ae.ful eth.mod ij.jmc eng '
                'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc ',
