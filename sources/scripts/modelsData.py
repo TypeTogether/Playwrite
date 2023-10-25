@@ -493,7 +493,7 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
                'Eth IJ.cur Eng OE.cur Thorn Germandbls',
          'YEXT': 500,
          'lc': 'a.mod b.mlp c.mod d.mod e.ful f.ful_de g.jmc h.lop i.mod j.jmc '
-               'k.lop l.lop m.mlp n.mlp o.mlp p.ful q.mod_au r.mlp s.ful t.mod '
+               'k.lop l.lop m.cnt n.cnt o.mlp p.ful q.mod_au r.mlp s.ful t.mod '
                'u.mod v.mlp w.mlp x.cnt_ro y.cnt z.mod_ro ae.ful eth.mod '
                'ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod '
                'jdotless.jmc ',
