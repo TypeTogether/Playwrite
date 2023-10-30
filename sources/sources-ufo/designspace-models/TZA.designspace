@@ -141,36 +141,36 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playwrite VNM Thin" familyname="Playwrite VNM" stylename="Thin" filename="../instance_ufo/PlaywriteVNM-Thin.ufo" postscriptfontname="PlaywriteVNM-Thin" stylemapfamilyname="Playwrite VNM Thin" stylemapstylename="regular">
+    <instance name="Playwrite TZA Thin" familyname="Playwrite TZA" stylename="Thin" filename="../instance_ufo/PlaywriteTZA-Thin.ufo" postscriptfontname="PlaywriteTZA-Thin" stylemapfamilyname="Playwrite TZA Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="Slant" xvalue="0"/>
-        <dimension name="Vertical Extensions" xvalue="757"/>
-        <dimension name="Speed" xvalue="0"/>
+        <dimension name="Slant" xvalue="16"/>
+        <dimension name="Vertical Extensions" xvalue="500"/>
+        <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
-    <instance name="Playwrite VNM ExtraLight" familyname="Playwrite VNM" stylename="ExtraLight" filename="../instance_ufo/PlaywriteVNM-ExtraLight.ufo" postscriptfontname="PlaywriteVNM-ExtraLight" stylemapfamilyname="Playwrite VNM ExtraLight" stylemapstylename="regular">
+    <instance name="Playwrite TZA ExtraLight" familyname="Playwrite TZA" stylename="ExtraLight" filename="../instance_ufo/PlaywriteTZA-ExtraLight.ufo" postscriptfontname="PlaywriteTZA-ExtraLight" stylemapfamilyname="Playwrite TZA ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
-        <dimension name="Slant" xvalue="0"/>
-        <dimension name="Vertical Extensions" xvalue="757"/>
-        <dimension name="Speed" xvalue="0"/>
+        <dimension name="Slant" xvalue="16"/>
+        <dimension name="Vertical Extensions" xvalue="500"/>
+        <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
-    <instance name="Playwrite VNM Light" familyname="Playwrite VNM" stylename="Light" filename="../instance_ufo/PlaywriteVNM-Light.ufo" postscriptfontname="PlaywriteVNM-Light" stylemapfamilyname="Playwrite VNM Light" stylemapstylename="regular">
+    <instance name="Playwrite TZA Light" familyname="Playwrite TZA" stylename="Light" filename="../instance_ufo/PlaywriteTZA-Light.ufo" postscriptfontname="PlaywriteTZA-Light" stylemapfamilyname="Playwrite TZA Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Slant" xvalue="0"/>
-        <dimension name="Vertical Extensions" xvalue="757"/>
-        <dimension name="Speed" xvalue="0"/>
+        <dimension name="Slant" xvalue="16"/>
+        <dimension name="Vertical Extensions" xvalue="500"/>
+        <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
-    <instance name="Playwrite VNM Regular" familyname="Playwrite VNM" stylename="Regular" filename="../instance_ufo/PlaywriteVNM-Regular.ufo" postscriptfontname="PlaywriteVNM-Regular" stylemapfamilyname="Playwrite VNM" stylemapstylename="regular">
+    <instance name="Playwrite TZA Regular" familyname="Playwrite TZA" stylename="Regular" filename="../instance_ufo/PlaywriteTZA-Regular.ufo" postscriptfontname="PlaywriteTZA-Regular" stylemapfamilyname="Playwrite TZA" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Slant" xvalue="0"/>
-        <dimension name="Vertical Extensions" xvalue="757"/>
-        <dimension name="Speed" xvalue="0"/>
+        <dimension name="Slant" xvalue="16"/>
+        <dimension name="Vertical Extensions" xvalue="500"/>
+        <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
   </instances>
