@@ -28,7 +28,7 @@ fontMath==0.9.3
 fontParts==0.11.0
 fontPens==0.2.4
 fontprimer @ git+https://github.com/simoncozens/fontprimer
-fonttools==4.42.1
+fonttools  @ git+https://github.com/fonttools/fonttools
 fs==2.4.16
 gflanguages==0.5.7
 gftools @ git+https://github.com/googlefonts/gftools@builder2
