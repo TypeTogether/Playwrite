@@ -1514,6 +1514,10 @@ data = "Latn,af,ca,cs,cy,da,en,es,et,eu,fr,ga,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,s
 tag = dlng;
 }
 );
+},
+{
+name = "Variable Font Origin";
+value = m005;
 }
 );
 date = "2024-03-14 16:23:39 +0000";
