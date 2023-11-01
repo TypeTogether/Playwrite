@@ -42,9 +42,9 @@ jobs:
         done
     - name: Build font
       run: make build
-    - name: Check with fontbakery
-      run: make test
-      continue-on-error: true
+    # - name: Check with fontbakery
+    #   run: make test
+    #   continue-on-error: true
     - name: setup site
       run: cp scripts/index.html out/index.html
     - name: Deploy
