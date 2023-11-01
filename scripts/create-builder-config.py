@@ -63,6 +63,7 @@ with open("sources/data/models-all.csv", "r") as file:
                             "operation": "subspace",
                             "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt={regular}",
                         },
+                        {"operation": "fix", "args": "--include-source-fixes"},
                         {"operation": "remap", "args": "--deep", "mappings": mapping},
                         {"operation": "hbsubset"},
                     ],

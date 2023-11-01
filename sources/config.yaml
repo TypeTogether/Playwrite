@@ -472,6 +472,8 @@ variants:
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0
+  - operation: fix
+    args: --include-source-fixes
   - operation: remap
     args: --deep
     mappings:
@@ -1552,6 +1554,8 @@ variants:
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0
+  - operation: fix
+    args: --include-source-fixes
   - operation: remap
     args: --deep
     mappings:
@@ -1708,6 +1712,8 @@ variants:
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
+  - operation: fix
+    args: --include-source-fixes
   - operation: remap
     args: --deep
     mappings:
