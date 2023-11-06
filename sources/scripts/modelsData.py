@@ -344,6 +344,18 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
                         'ae.mod eth.mod ij.mod eng oe.mod thorn.jmc '
                         'germandbls.jmc idotless.mod jdotless.jmc ',
                   'slnt': 0},
+ 'HUN': {'Country': 'Hungary',
+         'SPED': 0,
+         'UC': 'A.dec_locl B.cur C.cur D.dec E.cur F.dec G.cur H.cur I.dec '
+               'J.dec K.dec L.dec M.dec N.dec O P.cur Q.cur R.cur S T.dec '
+               'U.cur V.cur W.cur X.cur Y.cur Z.dec AE.cur Eth IJ.cur Eng '
+               'OE.cur Thorn Germandbls',
+         'YEXT': 446,
+         'lc': 'a.mod b.lop c.mod d.mod e.mod f.ful_de g.jmc h.lop i.mod j.jmc '
+               'k.lop l.lop m.mod n.mod o.mod p.ful q.jmc r.cnt s.ful t.mod '
+               'u.mod v.ful w.ful x.ful y.jmc z.mod ae.ful eth.mod ij.jmc eng '
+               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc ',
+         'slnt': 0},
  'IDN': {'Country': 'Indonesia',
          'SPED': 0,
          'UC': 'A.dec_locl B C D E.cur F G.cur H.cur I.dec J.dec K.dec L.cur '
@@ -355,6 +367,18 @@ modelsDataDict = {'ARG': {'Country': 'Argentina',
                'u.mod v.cnt w.cnt x.cnt y.jmc z.cnt ae.ful eth.mod ij.jmc eng '
                'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc ',
          'slnt': 0},
+ 'IND': {'Country': 'India',
+         'SPED': 75,
+         'UC': 'A.dec B.cur C.cur D.dec E.cur F.dec G.cur_locl H.dec I.dec '
+               'J.dec K.dec L.dec M.dec N.dec O.cur P.cur Q.cur R.cur S.cur '
+               'T.dec U.cur V.cur W.cur X.dec Y.cur Z.cur AE.cur Eth IJ.cur '
+               'Eng OE.cur Thorn Germandbls',
+         'YEXT': 523,
+         'lc': 'a.mod b.lop c.mod d.mod e.mod f.mrr g.jmc h.lop i.mod j.jmc '
+               'k.lop l.lop m.cnt n.cnt o.mod p.ful q.mod_au r.mlp s.ful t.mod '
+               'u.mod v.cnt w.cnt x.cnt y.jmc z.cnt ae.ful eth.mod ij.jmc eng '
+               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc ',
+         'slnt': 18},
  'IRL': {'Country': 'Ireland',
          'SPED': 0,
          'UC': 'A.cur_locl B.dec C.cur D.dec E.cur F.dec G.cur_locl H.dec '
