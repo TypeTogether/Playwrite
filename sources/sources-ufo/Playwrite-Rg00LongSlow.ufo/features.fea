@@ -1,5 +1,7 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
+languagesystem latn CAT;
+
 include(../features/Playwrite-models-temp.fea);
 
