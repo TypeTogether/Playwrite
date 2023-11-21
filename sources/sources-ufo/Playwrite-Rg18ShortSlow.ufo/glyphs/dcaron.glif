@@ -5,10 +5,10 @@
   <anchor x="196" y="0" name="bottom"/>
   <anchor x="583" y="698" name="center"/>
   <anchor x="335" y="500" name="top"/>
-  <anchor x="683" y="908" name="topright"/>
+  <anchor x="685" y="908" name="topright"/>
   <outline>
     <component base="d"/>
-    <component base="caroncomb.alt_locl" xOffset="478" yOffset="33"/>
+    <component base="caroncomb.alt" xOffset="480" yOffset="33"/>
   </outline>
   <lib>
     <dict>

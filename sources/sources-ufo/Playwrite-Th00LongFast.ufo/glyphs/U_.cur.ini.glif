@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="U.cur.ini" format="2">
   <advance width="1409"/>
-  <anchor x="719" y="0" name="bottom"/>
+  <anchor x="729" y="0" name="bottom"/>
   <anchor x="1409" y="0" name="cnct"/>
   <anchor x="1329" y="21" name="ogonek"/>
-  <anchor x="738" y="1424" name="top"/>
+  <anchor x="728" y="1424" name="top"/>
   <anchor x="1095" y="1509" name="topright"/>
   <outline>
     <contour>
@@ -91,8 +91,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
     </dict>
   </lib>
 </glyph>

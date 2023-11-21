@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="y.cnt.fin" format="2">
   <advance width="665"/>
-  <anchor x="144" y="-375" name="bottom"/>
+  <anchor x="198" y="0" name="bottom"/>
   <anchor x="584" y="0" name="cnct"/>
-  <anchor x="396" y="500" name="top"/>
+  <anchor x="386" y="500" name="top"/>
   <outline>
     <contour>
       <point x="396" y="-100" type="curve"/>
@@ -61,6 +61,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>PC</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

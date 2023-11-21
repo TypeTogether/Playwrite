@@ -1,13 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="e.ful" format="2">
   <advance width="444"/>
-  <guideline x="270" y="314" angle="5.53"/>
-  <guideline x="275" y="203" angle="217.09"/>
-  <guideline x="217" y="232" angle="217.68"/>
-  <guideline x="141" y="102" angle="125.66"/>
-  <anchor x="226" y="0" name="bottom"/>
+  <anchor x="124" y="0" name="bottom"/>
   <anchor x="360" y="13" name="ogonek"/>
-  <anchor x="278" y="500" name="top"/>
+  <anchor x="258" y="500" name="top"/>
   <outline>
     <contour>
       <point x="231" y="-17" type="curve" smooth="yes"/>

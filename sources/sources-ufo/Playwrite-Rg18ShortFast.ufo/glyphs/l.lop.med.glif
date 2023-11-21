@@ -1,14 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.lop.med" format="2">
   <advance width="394"/>
-  <guideline x="379" y="489" angle="72"/>
-  <guideline x="406" y="489" angle="72"/>
   <anchor x="320" y="350" name="CAT"/>
   <anchor x="179" y="0" name="bottom"/>
-  <anchor x="224" y="438" name="center"/>
+  <anchor x="295" y="438" name="center"/>
   <anchor x="313" y="0" name="cnct"/>
   <anchor x="451" y="838" name="top"/>
-  <anchor x="521" y="908" name="topright"/>
+  <anchor x="538" y="908" name="topright"/>
   <outline>
     <contour>
       <point x="226" y="-17" type="curve" smooth="yes"/>

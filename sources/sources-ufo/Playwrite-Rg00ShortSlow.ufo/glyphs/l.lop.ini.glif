@@ -4,9 +4,9 @@
   <anchor x="394" y="0" name="cnct"/>
   <anchor x="261" y="438" name="CAT"/>
   <anchor x="248" y="0" name="bottom"/>
-  <anchor x="166" y="438" name="center"/>
+  <anchor x="227" y="438" name="center"/>
   <anchor x="248" y="838" name="top"/>
-  <anchor x="305" y="908" name="topright"/>
+  <anchor x="312" y="908" name="topright"/>
   <outline>
     <contour>
       <point x="-57" y="-17" type="curve" smooth="yes"/>
@@ -66,6 +66,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>PC</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="M.cur.ini" format="2">
   <advance width="1258"/>
-  <guideline x="538" y="712" angle="262.41"/>
-  <guideline x="143"/>
   <anchor x="570" y="0" name="bottom"/>
   <anchor x="1176" y="0" name="cnct"/>
   <anchor x="841" y="838" name="top"/>
@@ -114,8 +112,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
     </dict>
   </lib>
 </glyph>

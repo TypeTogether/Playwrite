@@ -1,9 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="I.dec" format="2">
   <advance width="539"/>
-  <guideline x="302" y="123" angle="72.93"/>
-  <guideline x="439" y="673" angle="253.02"/>
   <anchor x="176" y="0" name="bottom"/>
+  <anchor x="243" y="-5" name="ogonek"/>
   <anchor x="428" y="838" name="top"/>
   <outline>
     <contour>
