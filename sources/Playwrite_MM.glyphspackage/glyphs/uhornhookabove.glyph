@@ -1,5 +1,7 @@
 {
 glyphname = uhornhookabove;
+kernLeft = u;
+kernRight = uhorn;
 layers = (
 {
 layerId = m01;
@@ -63,11 +65,10 @@ width = 646;
 layerId = m003;
 shapes = (
 {
-alignment = -1;
 ref = uhorn;
 },
 {
-alignment = -1;
+pos = (303,0);
 ref = hookabovecomb;
 }
 );
@@ -93,11 +94,10 @@ width = 646;
 layerId = m004;
 shapes = (
 {
-alignment = -1;
 ref = uhorn;
 },
 {
-alignment = -1;
+pos = (300,0);
 ref = hookabovecomb;
 }
 );
@@ -152,11 +152,10 @@ width = 645;
 layerId = m006;
 shapes = (
 {
-alignment = -1;
 ref = uhorn;
 },
 {
-alignment = -1;
+pos = (298,0);
 ref = hookabovecomb;
 }
 );
@@ -176,17 +175,45 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 646;
+width = 647;
 },
 {
 layerId = m007;
 shapes = (
 {
-alignment = -1;
 ref = uhorn;
 },
 {
-alignment = -1;
+pos = (299,0);
+ref = hookabovecomb;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 647;
+},
+{
+layerId = m008;
+shapes = (
+{
+ref = uhorn;
+},
+{
+pos = (300,0);
 ref = hookabovecomb;
 }
 );
@@ -207,36 +234,6 @@ com.hugojourdan.ColorFlow = {
 };
 };
 width = 645;
-},
-{
-layerId = m008;
-shapes = (
-{
-alignment = -1;
-ref = uhorn;
-},
-{
-alignment = -1;
-ref = hookabovecomb;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 646;
 },
 {
 layerId = m009;
@@ -300,11 +297,10 @@ width = 646;
 layerId = m011;
 shapes = (
 {
-alignment = -1;
 ref = uhorn;
 },
 {
-alignment = -1;
+pos = (303,0);
 ref = hookabovecomb;
 }
 );
@@ -330,11 +326,10 @@ width = 646;
 layerId = m012;
 shapes = (
 {
-alignment = -1;
 ref = uhorn;
 },
 {
-alignment = -1;
+pos = (300,0);
 ref = hookabovecomb;
 }
 );
@@ -389,11 +384,10 @@ width = 645;
 layerId = m014;
 shapes = (
 {
-alignment = -1;
 ref = uhorn;
 },
 {
-alignment = -1;
+pos = (298,0);
 ref = hookabovecomb;
 }
 );
@@ -413,17 +407,45 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 646;
+width = 647;
 },
 {
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = uhorn;
 },
 {
-alignment = -1;
+pos = (299,0);
+ref = hookabovecomb;
+}
+);
+userData = {
+com.hugojourdan.ColorFlow = {
+"0" = 0;
+"1" = 0;
+"10" = 0;
+"11" = 0;
+"2" = 0;
+"3" = 0;
+"4" = 0;
+"5" = 0;
+"6" = 0;
+"7" = 0;
+"8" = 0;
+"9" = 0;
+};
+};
+width = 647;
+},
+{
+layerId = m016;
+shapes = (
+{
+ref = uhorn;
+},
+{
+pos = (300,0);
 ref = hookabovecomb;
 }
 );
@@ -444,36 +466,6 @@ com.hugojourdan.ColorFlow = {
 };
 };
 width = 645;
-},
-{
-layerId = m016;
-shapes = (
-{
-alignment = -1;
-ref = uhorn;
-},
-{
-alignment = -1;
-ref = hookabovecomb;
-}
-);
-userData = {
-com.hugojourdan.ColorFlow = {
-"0" = 0;
-"1" = 0;
-"10" = 0;
-"11" = 0;
-"2" = 0;
-"3" = 0;
-"4" = 0;
-"5" = 0;
-"6" = 0;
-"7" = 0;
-"8" = 0;
-"9" = 0;
-};
-};
-width = 646;
 }
 );
 unicode = 7917;

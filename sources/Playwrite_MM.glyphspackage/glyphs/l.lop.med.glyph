@@ -13,7 +13,7 @@ pos = (250,0);
 },
 {
 name = center;
-pos = (179,438);
+pos = (226,438);
 },
 {
 name = cnct;
@@ -25,7 +25,7 @@ pos = (250,838);
 },
 {
 name = topright;
-pos = (336,875);
+pos = (321,875);
 }
 );
 layerId = m01;
@@ -92,7 +92,7 @@ pos = (176,0);
 },
 {
 name = center;
-pos = (228,438);
+pos = (284,438);
 },
 {
 name = cnct;
@@ -104,7 +104,7 @@ pos = (435,838);
 },
 {
 name = topright;
-pos = (525,875);
+pos = (498,875);
 }
 );
 layerId = m002;
@@ -171,7 +171,7 @@ pos = (255,0);
 },
 {
 name = center;
-pos = (166,438);
+pos = (197,438);
 },
 {
 name = cnct;
@@ -183,7 +183,7 @@ pos = (259,838);
 },
 {
 name = topright;
-pos = (340,875);
+pos = (321,875);
 }
 );
 layerId = m003;
@@ -250,7 +250,7 @@ pos = (175,0);
 },
 {
 name = center;
-pos = (226,438);
+pos = (267,438);
 },
 {
 name = cnct;
@@ -262,7 +262,7 @@ pos = (443,838);
 },
 {
 name = topright;
-pos = (533,875);
+pos = (503,875);
 }
 );
 layerId = m004;
@@ -329,7 +329,7 @@ pos = (248,0);
 },
 {
 name = center;
-pos = (166,438);
+pos = (227,438);
 },
 {
 name = cnct;
@@ -341,7 +341,7 @@ pos = (248,838);
 },
 {
 name = topright;
-pos = (305,908);
+pos = (312,908);
 }
 );
 layerId = m005;
@@ -408,7 +408,7 @@ pos = (166,0);
 },
 {
 name = center;
-pos = (226,438);
+pos = (305,438);
 },
 {
 name = cnct;
@@ -420,7 +420,7 @@ pos = (439,838);
 },
 {
 name = topright;
-pos = (513,908);
+pos = (530,908);
 }
 );
 layerId = m006;
@@ -487,7 +487,7 @@ pos = (256,0);
 },
 {
 name = center;
-pos = (165,438);
+pos = (213,438);
 },
 {
 name = cnct;
@@ -499,7 +499,7 @@ pos = (249,838);
 },
 {
 name = topright;
-pos = (305,908);
+pos = (317,908);
 }
 );
 layerId = m007;
@@ -566,7 +566,7 @@ pos = (179,0);
 },
 {
 name = center;
-pos = (224,438);
+pos = (295,438);
 },
 {
 name = cnct;
@@ -578,17 +578,7 @@ pos = (451,838);
 },
 {
 name = topright;
-pos = (521,908);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (379,489);
-},
-{
-angle = 72;
-pos = (406,489);
+pos = (538,908);
 }
 );
 layerId = m008;
@@ -655,7 +645,7 @@ pos = (250,0);
 },
 {
 name = center;
-pos = (164,725);
+pos = (236,725);
 },
 {
 name = cnct;
@@ -667,7 +657,7 @@ pos = (264,1421);
 },
 {
 name = topright;
-pos = (331,1500);
+pos = (337,1500);
 }
 );
 layerId = m009;
@@ -734,7 +724,7 @@ pos = (176,0);
 },
 {
 name = center;
-pos = (319,725);
+pos = (386,725);
 },
 {
 name = cnct;
@@ -746,7 +736,7 @@ pos = (615,1423);
 },
 {
 name = topright;
-pos = (734,1500);
+pos = (712,1500);
 }
 );
 layerId = m010;
@@ -813,7 +803,7 @@ pos = (255,0);
 },
 {
 name = center;
-pos = (164,725);
+pos = (230,725);
 },
 {
 name = cnct;
@@ -825,7 +815,7 @@ pos = (264,1421);
 },
 {
 name = topright;
-pos = (331,1500);
+pos = (338,1500);
 }
 );
 layerId = m011;
@@ -892,7 +882,7 @@ pos = (175,0);
 },
 {
 name = center;
-pos = (319,725);
+pos = (394,725);
 },
 {
 name = cnct;
@@ -904,7 +894,7 @@ pos = (615,1423);
 },
 {
 name = topright;
-pos = (734,1500);
+pos = (717,1500);
 }
 );
 layerId = m012;
@@ -971,7 +961,7 @@ pos = (248,0);
 },
 {
 name = center;
-pos = (164,713);
+pos = (245,713);
 },
 {
 name = cnct;
@@ -983,7 +973,7 @@ pos = (266,1424);
 },
 {
 name = topright;
-pos = (320,1553);
+pos = (340,1553);
 }
 );
 layerId = m013;
@@ -1050,7 +1040,7 @@ pos = (166,0);
 },
 {
 name = center;
-pos = (319,713);
+pos = (391,713);
 },
 {
 name = cnct;
@@ -1062,17 +1052,7 @@ pos = (611,1424);
 },
 {
 name = topright;
-pos = (745,1553);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (377,489);
-},
-{
-angle = 72;
-pos = (402,489);
+pos = (751,1553);
 }
 );
 layerId = m014;
@@ -1139,7 +1119,7 @@ pos = (256,0);
 },
 {
 name = center;
-pos = (164,713);
+pos = (235,713);
 },
 {
 name = cnct;
@@ -1151,7 +1131,7 @@ pos = (266,1424);
 },
 {
 name = topright;
-pos = (320,1553);
+pos = (339,1553);
 }
 );
 layerId = m015;
@@ -1218,7 +1198,7 @@ pos = (179,0);
 },
 {
 name = center;
-pos = (319,713);
+pos = (384,713);
 },
 {
 name = cnct;
@@ -1230,17 +1210,7 @@ pos = (611,1424);
 },
 {
 name = topright;
-pos = (745,1553);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (379,489);
-},
-{
-angle = 72;
-pos = (406,489);
+pos = (753,1553);
 }
 );
 layerId = m016;

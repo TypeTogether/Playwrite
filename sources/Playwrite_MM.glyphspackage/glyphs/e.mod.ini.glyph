@@ -1,5 +1,6 @@
 {
 glyphname = e.mod.ini;
+kernLeft = o;
 layers = (
 {
 anchors = (
@@ -18,17 +19,6 @@ pos = (409,0);
 {
 name = top;
 pos = (291,500);
-}
-);
-guides = (
-{
-pos = (0,209);
-},
-{
-pos = (0,205);
-},
-{
-pos = (0,153);
 }
 );
 layerId = m01;
@@ -102,11 +92,6 @@ pos = (355,0);
 {
 name = top;
 pos = (360,500);
-}
-);
-guides = (
-{
-pos = (0,152);
 }
 );
 layerId = m002;

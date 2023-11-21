@@ -184,15 +184,6 @@ name = cnct;
 pos = (691,0);
 }
 );
-guides = (
-{
-pos = (0,712);
-},
-{
-angle = 78.31;
-pos = (507,-14);
-}
-);
 layerId = m002;
 shapes = (
 {
@@ -271,11 +262,6 @@ anchors = (
 {
 name = cnct;
 pos = (773,0);
-}
-);
-guides = (
-{
-pos = (0,-11);
 }
 );
 layerId = m01;

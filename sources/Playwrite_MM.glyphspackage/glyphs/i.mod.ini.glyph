@@ -1,5 +1,6 @@
 {
 glyphname = i.mod.ini;
+kernLeft = i;
 layers = (
 {
 anchors = (
@@ -89,12 +90,6 @@ pos = (244,0);
 {
 name = ogonek;
 pos = (204,0);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (204,489);
 }
 );
 layerId = m002;

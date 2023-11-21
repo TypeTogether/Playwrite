@@ -1,5 +1,7 @@
 {
 glyphname = X;
+kernLeft = X;
+kernRight = X;
 layers = (
 {
 layerId = m004;
@@ -120,11 +122,6 @@ com.hugojourdan.ColorFlow = {
 width = 688;
 },
 {
-guides = (
-{
-pos = (510,712);
-}
-);
 layerId = m002;
 shapes = (
 {
@@ -184,11 +181,6 @@ com.hugojourdan.ColorFlow = {
 width = 688;
 },
 {
-guides = (
-{
-pos = (322,-11);
-}
-);
 layerId = m01;
 shapes = (
 {

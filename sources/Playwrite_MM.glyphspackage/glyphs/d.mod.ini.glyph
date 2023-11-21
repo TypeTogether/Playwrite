@@ -1,5 +1,6 @@
 {
 glyphname = d.mod.ini;
+kernLeft = a;
 layers = (
 {
 anchors = (
@@ -118,7 +119,7 @@ pos = (350,500);
 },
 {
 name = topright;
-pos = (694,875);
+pos = (697,875);
 }
 );
 layerId = m002;
@@ -312,13 +313,7 @@ pos = (350,500);
 },
 {
 name = topright;
-pos = (694,875);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (360,96);
+pos = (696,875);
 }
 );
 layerId = m004;
@@ -415,7 +410,7 @@ pos = (270,500);
 },
 {
 name = topright;
-pos = (484,908);
+pos = (486,908);
 }
 );
 layerId = m005;
@@ -512,7 +507,7 @@ pos = (336,500);
 },
 {
 name = topright;
-pos = (683,908);
+pos = (685,908);
 }
 );
 layerId = m006;
@@ -609,7 +604,7 @@ pos = (258,500);
 },
 {
 name = topright;
-pos = (469,908);
+pos = (474,908);
 }
 );
 layerId = m007;
@@ -709,12 +704,6 @@ name = topright;
 pos = (689,908);
 }
 );
-guides = (
-{
-angle = 72;
-pos = (360,96);
-}
-);
 layerId = m008;
 shapes = (
 {
@@ -809,7 +798,7 @@ pos = (290,500);
 },
 {
 name = topright;
-pos = (479,1500);
+pos = (501,1500);
 }
 );
 layerId = m009;
@@ -906,7 +895,7 @@ pos = (340,500);
 },
 {
 name = topright;
-pos = (888,1494);
+pos = (899,1494);
 }
 );
 layerId = m010;
@@ -1003,7 +992,7 @@ pos = (290,500);
 },
 {
 name = topright;
-pos = (479,1500);
+pos = (501,1500);
 }
 );
 layerId = m011;
@@ -1100,13 +1089,7 @@ pos = (340,500);
 },
 {
 name = topright;
-pos = (888,1494);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (360,96);
+pos = (898,1494);
 }
 );
 layerId = m012;
@@ -1203,7 +1186,7 @@ pos = (278,500);
 },
 {
 name = topright;
-pos = (476,1553);
+pos = (496,1553);
 }
 );
 layerId = m013;
@@ -1300,7 +1283,7 @@ pos = (321,500);
 },
 {
 name = topright;
-pos = (901,1553);
+pos = (905,1553);
 }
 );
 layerId = m014;
@@ -1397,7 +1380,7 @@ pos = (278,500);
 },
 {
 name = topright;
-pos = (465,1553);
+pos = (484,1553);
 }
 );
 layerId = m015;
@@ -1494,13 +1477,7 @@ pos = (321,500);
 },
 {
 name = topright;
-pos = (896,1553);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (360,96);
+pos = (909,1553);
 }
 );
 layerId = m016;

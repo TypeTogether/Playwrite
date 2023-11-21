@@ -1,5 +1,6 @@
 {
 glyphname = n.cnt.fin;
+kernRight = n;
 layers = (
 {
 anchors = (
@@ -618,7 +619,7 @@ pos = (275,0);
 },
 {
 name = top;
-pos = (403,500);
+pos = (378,500);
 }
 );
 layerId = m008;
@@ -1314,7 +1315,7 @@ pos = (275,0);
 },
 {
 name = top;
-pos = (403,500);
+pos = (378,500);
 }
 );
 layerId = m016;

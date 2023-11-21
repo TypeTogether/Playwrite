@@ -1,5 +1,7 @@
 {
 glyphname = ohornacute;
+kernLeft = o;
+kernRight = ohorn;
 layers = (
 {
 layerId = m01;

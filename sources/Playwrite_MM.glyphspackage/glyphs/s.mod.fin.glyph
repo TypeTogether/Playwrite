@@ -1,5 +1,6 @@
 {
 glyphname = s.mod.fin;
+kernRight = s;
 layers = (
 {
 anchors = (
@@ -10,12 +11,6 @@ pos = (238,0);
 {
 name = top;
 pos = (253,500);
-}
-);
-guides = (
-{
-angle = 90;
-pos = (50,0);
 }
 );
 layerId = m01;
@@ -95,12 +90,6 @@ pos = (173,0);
 {
 name = top;
 pos = (319,500);
-}
-);
-guides = (
-{
-angle = 90;
-pos = (34,0);
 }
 );
 layerId = m002;

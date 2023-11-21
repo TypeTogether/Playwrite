@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = G.dec;
 layers = (
 {
@@ -11,11 +10,6 @@ pos = (563,0);
 {
 name = top;
 pos = (588,838);
-}
-);
-guides = (
-{
-pos = (628,389);
 }
 );
 layerId = m01;
@@ -319,15 +313,6 @@ pos = (459,0);
 {
 name = top;
 pos = (693,838);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (732,267);
-},
-{
-pos = (628,389);
 }
 );
 layerId = m002;

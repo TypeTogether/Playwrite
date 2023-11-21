@@ -1,8 +1,14 @@
 {
 glyphname = l.mod.ini;
+kernLeft = b;
+kernRight = a;
 layers = (
 {
 anchors = (
+{
+name = CAT;
+pos = (202,438);
+},
 {
 name = bottom;
 pos = (225,0);
@@ -70,6 +76,10 @@ width = 324;
 {
 anchors = (
 {
+name = CAT;
+pos = (255,438);
+},
+{
 name = bottom;
 pos = (151,0);
 },
@@ -88,12 +98,6 @@ pos = (350,838);
 {
 name = topright;
 pos = (379,874);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (202,489);
 }
 );
 layerId = m002;
@@ -141,6 +145,10 @@ width = 324;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (204,438);
+},
 {
 name = bottom;
 pos = (223,0);
@@ -208,6 +216,10 @@ width = 324;
 {
 anchors = (
 {
+name = CAT;
+pos = (251,438);
+},
+{
 name = bottom;
 pos = (141,0);
 },
@@ -273,6 +285,10 @@ width = 324;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (171,438);
+},
 {
 name = bottom;
 pos = (225,0);
@@ -340,6 +356,10 @@ width = 324;
 {
 anchors = (
 {
+name = CAT;
+pos = (259,436);
+},
+{
 name = bottom;
 pos = (151,0);
 },
@@ -358,12 +378,6 @@ pos = (350,838);
 {
 name = topright;
 pos = (379,875);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (189,489);
 }
 );
 layerId = m006;
@@ -411,6 +425,10 @@ width = 324;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (169,438);
+},
 {
 name = bottom;
 pos = (223,0);
@@ -478,6 +496,10 @@ width = 324;
 {
 anchors = (
 {
+name = CAT;
+pos = (259,436);
+},
+{
 name = bottom;
 pos = (141,0);
 },
@@ -496,16 +518,6 @@ pos = (350,838);
 {
 name = topright;
 pos = (379,874);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (235,489);
-},
-{
-angle = 72;
-pos = (262,489);
 }
 );
 layerId = m008;
@@ -553,6 +565,10 @@ width = 324;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (200,738);
+},
 {
 name = bottom;
 pos = (225,0);
@@ -620,6 +636,10 @@ width = 324;
 {
 anchors = (
 {
+name = CAT;
+pos = (362,750);
+},
+{
 name = bottom;
 pos = (151,0);
 },
@@ -638,12 +658,6 @@ pos = (540,1423);
 {
 name = topright;
 pos = (579,1500);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (202,489);
 }
 );
 layerId = m010;
@@ -691,6 +705,10 @@ width = 324;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (203,738);
+},
 {
 name = bottom;
 pos = (223,0);
@@ -758,6 +776,10 @@ width = 324;
 {
 anchors = (
 {
+name = CAT;
+pos = (358,750);
+},
+{
 name = bottom;
 pos = (141,0);
 },
@@ -823,6 +845,10 @@ width = 324;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (201,746);
+},
 {
 name = bottom;
 pos = (225,0);
@@ -890,6 +916,10 @@ width = 324;
 {
 anchors = (
 {
+name = CAT;
+pos = (355,746);
+},
+{
 name = bottom;
 pos = (151,0);
 },
@@ -908,12 +938,6 @@ pos = (555,1424);
 {
 name = topright;
 pos = (599,1500);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (189,489);
 }
 );
 layerId = m014;
@@ -961,6 +985,10 @@ width = 324;
 },
 {
 anchors = (
+{
+name = CAT;
+pos = (201,746);
+},
 {
 name = bottom;
 pos = (223,0);
@@ -1028,6 +1056,10 @@ width = 324;
 {
 anchors = (
 {
+name = CAT;
+pos = (354,746);
+},
+{
 name = bottom;
 pos = (141,0);
 },
@@ -1046,16 +1078,6 @@ pos = (555,1424);
 {
 name = topright;
 pos = (599,1500);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (235,489);
-},
-{
-angle = 72;
-pos = (262,489);
 }
 );
 layerId = m016;

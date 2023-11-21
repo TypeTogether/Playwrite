@@ -1,5 +1,7 @@
 {
 glyphname = Ohorntilde;
+kernLeft = O;
+kernRight = Ohorn;
 layers = (
 {
 layerId = m01;
@@ -37,7 +39,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (441,0);
+alignment = -1;
+pos = (421,0);
 ref = tildecomb.case;
 }
 );
@@ -95,7 +98,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (441,0);
+alignment = -1;
+pos = (421,0);
 ref = tildecomb.case;
 }
 );
@@ -153,7 +157,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (442,0);
+alignment = -1;
+pos = (402,0);
 ref = tildecomb.case;
 }
 );
@@ -211,7 +216,8 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (442,0);
+alignment = -1;
+pos = (402,0);
 ref = tildecomb.case;
 }
 );

@@ -184,15 +184,6 @@ com.hugojourdan.ColorFlow = {
 width = 828;
 },
 {
-guides = (
-{
-angle = 3.92;
-pos = (416,286);
-},
-{
-pos = (8,609);
-}
-);
 layerId = m002;
 shapes = (
 {
@@ -281,16 +272,6 @@ com.hugojourdan.ColorFlow = {
 width = 841;
 },
 {
-guides = (
-{
-angle = 90;
-pos = (393,0);
-},
-{
-angle = 3.92;
-pos = (315,275);
-}
-);
 layerId = m01;
 shapes = (
 {

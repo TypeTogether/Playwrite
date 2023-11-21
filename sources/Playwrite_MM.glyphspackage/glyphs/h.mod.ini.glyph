@@ -1,5 +1,6 @@
 {
 glyphname = h.mod.ini;
+kernLeft = b;
 layers = (
 {
 anchors = (
@@ -101,12 +102,6 @@ pos = (595,0);
 {
 name = top;
 pos = (355,838);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (213,507);
 }
 );
 layerId = m002;

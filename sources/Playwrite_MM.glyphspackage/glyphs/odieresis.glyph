@@ -1,5 +1,7 @@
 {
 glyphname = odieresis;
+kernLeft = o;
+kernRight = o;
 layers = (
 {
 layerId = m01;

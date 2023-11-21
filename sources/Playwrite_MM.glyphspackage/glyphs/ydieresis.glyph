@@ -1,5 +1,7 @@
 {
 glyphname = ydieresis;
+kernLeft = u;
+kernRight = g;
 layers = (
 {
 layerId = m01;

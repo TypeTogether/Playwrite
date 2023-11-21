@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = b.jmc_dk;
 layers = (
 {
@@ -27,7 +26,7 @@ alignment = -1;
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m016;
@@ -53,7 +52,7 @@ nodes = (
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m012;
@@ -79,7 +78,7 @@ nodes = (
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m002;
@@ -106,7 +105,7 @@ alignment = -1;
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m006;
@@ -132,7 +131,7 @@ nodes = (
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m009;
@@ -158,7 +157,7 @@ nodes = (
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m005;
@@ -184,7 +183,7 @@ nodes = (
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m011;
@@ -210,7 +209,7 @@ nodes = (
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m015;
@@ -236,7 +235,7 @@ nodes = (
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m008;
@@ -262,7 +261,7 @@ nodes = (
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m010;
@@ -288,7 +287,7 @@ nodes = (
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m004;
@@ -316,7 +315,7 @@ pos = (-2,0);
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m014;
@@ -342,7 +341,7 @@ nodes = (
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m007;
@@ -368,7 +367,7 @@ nodes = (
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m003;
@@ -395,7 +394,7 @@ alignment = -1;
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 },
 {
 layerId = m013;
@@ -421,7 +420,7 @@ nodes = (
 ref = b.jmc_dk.fin;
 }
 );
-width = 664;
+width = 623;
 }
 );
 }

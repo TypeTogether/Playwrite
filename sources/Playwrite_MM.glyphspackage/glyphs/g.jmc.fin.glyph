@@ -1,17 +1,8 @@
 {
+color = 8;
 glyphname = g.jmc.fin;
 layers = (
 {
-guides = (
-{
-angle = 209.967;
-pos = (319,-42);
-},
-{
-angle = 30.222;
-pos = (323,-70);
-}
-);
 layerId = m01;
 shapes = (
 {

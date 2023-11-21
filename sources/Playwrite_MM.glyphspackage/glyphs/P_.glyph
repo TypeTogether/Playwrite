@@ -1,13 +1,9 @@
 {
 glyphname = P;
+kernLeft = B;
+kernRight = P;
 layers = (
 {
-guides = (
-{
-angle = 270;
-pos = (288,630);
-}
-);
 layerId = m01;
 shapes = (
 {

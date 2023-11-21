@@ -1,5 +1,4 @@
 {
-color = 0;
 glyphname = M.cur.ini;
 layers = (
 {
@@ -274,16 +273,6 @@ pos = (1176,0);
 {
 name = top;
 pos = (841,838);
-}
-);
-guides = (
-{
-angle = 262.41;
-pos = (538,712);
-},
-{
-angle = 90;
-pos = (143,0);
 }
 );
 layerId = m002;

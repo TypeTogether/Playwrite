@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (371,0);
+pos = (381,0);
 },
 {
 name = center;
-pos = (448,438);
+pos = (336,438);
 },
 {
 name = cnct;
@@ -86,11 +86,11 @@ width = 671;
 anchors = (
 {
 name = bottom;
-pos = (361,0);
+pos = (430,0);
 },
 {
 name = center;
-pos = (374,438);
+pos = (274,438);
 },
 {
 name = cnct;
@@ -98,7 +98,7 @@ pos = (671,0);
 },
 {
 name = top;
-pos = (386,838);
+pos = (426,838);
 }
 );
 layerId = m003;
@@ -167,11 +167,11 @@ width = 671;
 anchors = (
 {
 name = bottom;
-pos = (371,0);
+pos = (391,0);
 },
 {
 name = center;
-pos = (448,438);
+pos = (328,438);
 },
 {
 name = cnct;
@@ -179,7 +179,7 @@ pos = (590,0);
 },
 {
 name = top;
-pos = (601,838);
+pos = (571,838);
 }
 );
 layerId = m002;
@@ -248,11 +248,11 @@ width = 671;
 anchors = (
 {
 name = bottom;
-pos = (374,0);
+pos = (453,0);
 },
 {
 name = center;
-pos = (374,438);
+pos = (265,438);
 },
 {
 name = cnct;
@@ -329,11 +329,11 @@ width = 671;
 anchors = (
 {
 name = bottom;
-pos = (361,0);
+pos = (421,0);
 },
 {
 name = center;
-pos = (374,438);
+pos = (274,438);
 },
 {
 name = cnct;
@@ -341,7 +341,7 @@ pos = (671,0);
 },
 {
 name = top;
-pos = (386,838);
+pos = (406,838);
 }
 );
 layerId = m005;
@@ -414,7 +414,7 @@ pos = (371,0);
 },
 {
 name = center;
-pos = (448,438);
+pos = (338,438);
 },
 {
 name = cnct;
@@ -422,7 +422,7 @@ pos = (590,0);
 },
 {
 name = top;
-pos = (601,838);
+pos = (581,838);
 }
 );
 layerId = m006;
@@ -491,11 +491,11 @@ width = 671;
 anchors = (
 {
 name = bottom;
-pos = (361,0);
+pos = (421,0);
 },
 {
 name = center;
-pos = (374,438);
+pos = (275,438);
 },
 {
 name = cnct;
@@ -503,7 +503,7 @@ pos = (671,0);
 },
 {
 name = top;
-pos = (386,838);
+pos = (416,838);
 }
 );
 layerId = m007;
@@ -576,7 +576,7 @@ pos = (371,0);
 },
 {
 name = center;
-pos = (448,438);
+pos = (319,438);
 },
 {
 name = cnct;
@@ -584,7 +584,7 @@ pos = (590,0);
 },
 {
 name = top;
-pos = (601,838);
+pos = (581,838);
 }
 );
 layerId = m008;
@@ -653,11 +653,11 @@ width = 671;
 anchors = (
 {
 name = bottom;
-pos = (560,0);
+pos = (717,0);
 },
 {
 name = center;
-pos = (580,744);
+pos = (420,744);
 },
 {
 name = cnct;
@@ -665,7 +665,7 @@ pos = (938,0);
 },
 {
 name = top;
-pos = (599,1424);
+pos = (629,1424);
 }
 );
 layerId = m009;
@@ -734,11 +734,11 @@ width = 938;
 anchors = (
 {
 name = bottom;
-pos = (620,0);
+pos = (660,0);
 },
 {
 name = center;
-pos = (759,744);
+pos = (589,744);
 },
 {
 name = cnct;
@@ -746,7 +746,7 @@ pos = (856,0);
 },
 {
 name = top;
-pos = (1018,1424);
+pos = (1008,1424);
 }
 );
 layerId = m010;
@@ -815,11 +815,11 @@ width = 938;
 anchors = (
 {
 name = bottom;
-pos = (560,0);
+pos = (670,0);
 },
 {
 name = center;
-pos = (580,744);
+pos = (430,744);
 },
 {
 name = cnct;
@@ -827,7 +827,7 @@ pos = (938,0);
 },
 {
 name = top;
-pos = (599,1424);
+pos = (649,1424);
 }
 );
 layerId = m011;
@@ -896,11 +896,11 @@ width = 938;
 anchors = (
 {
 name = bottom;
-pos = (620,0);
+pos = (600,0);
 },
 {
 name = center;
-pos = (760,744);
+pos = (580,744);
 },
 {
 name = cnct;
@@ -908,7 +908,7 @@ pos = (856,0);
 },
 {
 name = top;
-pos = (1018,1424);
+pos = (1008,1424);
 }
 );
 layerId = m012;
@@ -977,11 +977,11 @@ width = 938;
 anchors = (
 {
 name = bottom;
-pos = (560,0);
+pos = (680,0);
 },
 {
 name = center;
-pos = (580,744);
+pos = (400,744);
 },
 {
 name = cnct;
@@ -989,7 +989,7 @@ pos = (938,0);
 },
 {
 name = top;
-pos = (599,1424);
+pos = (619,1424);
 }
 );
 layerId = m013;
@@ -1058,11 +1058,11 @@ width = 938;
 anchors = (
 {
 name = bottom;
-pos = (620,0);
+pos = (630,0);
 },
 {
 name = center;
-pos = (759,744);
+pos = (567,744);
 },
 {
 name = cnct;
@@ -1070,7 +1070,7 @@ pos = (856,0);
 },
 {
 name = top;
-pos = (1018,1424);
+pos = (958,1424);
 }
 );
 layerId = m014;
@@ -1139,11 +1139,11 @@ width = 938;
 anchors = (
 {
 name = bottom;
-pos = (560,0);
+pos = (661,0);
 },
 {
 name = center;
-pos = (580,744);
+pos = (420,744);
 },
 {
 name = cnct;
@@ -1151,7 +1151,7 @@ pos = (938,0);
 },
 {
 name = top;
-pos = (599,1424);
+pos = (629,1424);
 }
 );
 layerId = m015;
@@ -1220,11 +1220,11 @@ width = 938;
 anchors = (
 {
 name = bottom;
-pos = (620,0);
+pos = (621,0);
 },
 {
 name = center;
-pos = (760,744);
+pos = (580,744);
 },
 {
 name = cnct;
@@ -1232,7 +1232,7 @@ pos = (856,0);
 },
 {
 name = top;
-pos = (1018,1424);
+pos = (1008,1424);
 }
 );
 layerId = m016;

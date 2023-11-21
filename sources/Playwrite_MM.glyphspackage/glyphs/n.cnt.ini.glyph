@@ -1,4 +1,5 @@
 {
+color = 8;
 glyphname = n.cnt.ini;
 layers = (
 {
@@ -650,7 +651,7 @@ pos = (590,0);
 },
 {
 name = top;
-pos = (403,500);
+pos = (378,500);
 }
 );
 layerId = m008;
@@ -1378,7 +1379,7 @@ pos = (590,0);
 },
 {
 name = top;
-pos = (403,500);
+pos = (378,500);
 }
 );
 layerId = m016;

@@ -1,5 +1,7 @@
 {
 glyphname = u;
+kernLeft = u;
+kernRight = a;
 layers = (
 {
 anchors = (
@@ -105,7 +107,7 @@ pos = (504,13);
 },
 {
 name = top;
-pos = (379,500);
+pos = (369,500);
 },
 {
 name = topright;
@@ -289,7 +291,7 @@ pos = (524,13);
 },
 {
 name = top;
-pos = (381,500);
+pos = (371,500);
 },
 {
 name = topright;
@@ -373,19 +375,19 @@ width = 646;
 anchors = (
 {
 name = bottom;
-pos = (323,0);
+pos = (303,0);
 },
 {
 name = ogonek;
-pos = (581,10);
+pos = (581,13);
 },
 {
 name = top;
-pos = (323,500);
+pos = (303,500);
 },
 {
 name = topright;
-pos = (625,500);
+pos = (470,514);
 }
 );
 layerId = m005;
@@ -473,7 +475,7 @@ pos = (504,13);
 },
 {
 name = top;
-pos = (379,500);
+pos = (369,500);
 },
 {
 name = topright;
@@ -657,7 +659,7 @@ pos = (524,13);
 },
 {
 name = top;
-pos = (381,500);
+pos = (371,500);
 },
 {
 name = topright;
@@ -841,7 +843,7 @@ pos = (504,13);
 },
 {
 name = top;
-pos = (379,500);
+pos = (369,500);
 },
 {
 name = topright;
@@ -1025,7 +1027,7 @@ pos = (524,13);
 },
 {
 name = top;
-pos = (381,500);
+pos = (371,500);
 },
 {
 name = topright;
@@ -1209,7 +1211,7 @@ pos = (504,13);
 },
 {
 name = top;
-pos = (379,500);
+pos = (369,500);
 },
 {
 name = topright;
@@ -1393,7 +1395,7 @@ pos = (524,13);
 },
 {
 name = top;
-pos = (381,500);
+pos = (361,500);
 },
 {
 name = topright;

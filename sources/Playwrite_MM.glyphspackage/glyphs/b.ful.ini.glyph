@@ -1,5 +1,6 @@
 {
 glyphname = b.ful.ini;
+kernLeft = b;
 layers = (
 {
 anchors = (
@@ -18,12 +19,6 @@ pos = (604,0);
 {
 name = top;
 pos = (326,500);
-}
-);
-guides = (
-{
-angle = 159.86;
-pos = (358,345);
 }
 );
 layerId = m01;
@@ -101,12 +96,6 @@ pos = (523,0);
 {
 name = top;
 pos = (405,500);
-}
-);
-guides = (
-{
-angle = 147.53;
-pos = (395,341);
 }
 );
 layerId = m002;

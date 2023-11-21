@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (446,0);
+pos = (515,0);
 },
 {
 name = top;
-pos = (629,875);
+pos = (598,875);
 }
 );
 layerId = m004;
@@ -107,11 +107,11 @@ width = 893;
 anchors = (
 {
 name = bottom;
-pos = (509,0);
+pos = (598,0);
 },
 {
 name = top;
-pos = (459,875);
+pos = (455,875);
 }
 );
 layerId = m003;
@@ -209,11 +209,11 @@ width = 893;
 anchors = (
 {
 name = bottom;
-pos = (446,0);
+pos = (516,0);
 },
 {
 name = top;
-pos = (625,875);
+pos = (598,875);
 }
 );
 layerId = m002;
@@ -311,11 +311,11 @@ width = 893;
 anchors = (
 {
 name = bottom;
-pos = (584,0);
+pos = (594,0);
 },
 {
 name = top;
-pos = (459,875);
+pos = (453,875);
 }
 );
 layerId = m01;
@@ -413,11 +413,11 @@ width = 893;
 anchors = (
 {
 name = bottom;
-pos = (509,0);
+pos = (585,0);
 },
 {
 name = top;
-pos = (459,875);
+pos = (452,875);
 }
 );
 layerId = m005;
@@ -515,11 +515,11 @@ width = 893;
 anchors = (
 {
 name = bottom;
-pos = (446,0);
+pos = (536,0);
 },
 {
 name = top;
-pos = (625,875);
+pos = (560,875);
 }
 );
 layerId = m006;
@@ -617,11 +617,11 @@ width = 893;
 anchors = (
 {
 name = bottom;
-pos = (509,0);
+pos = (595,0);
 },
 {
 name = top;
-pos = (459,875);
+pos = (457,875);
 }
 );
 layerId = m007;
@@ -719,11 +719,11 @@ width = 893;
 anchors = (
 {
 name = bottom;
-pos = (446,0);
+pos = (556,0);
 },
 {
 name = top;
-pos = (629,875);
+pos = (557,875);
 }
 );
 layerId = m008;
@@ -821,11 +821,11 @@ width = 893;
 anchors = (
 {
 name = bottom;
-pos = (788,0);
+pos = (915,0);
 },
 {
 name = top;
-pos = (710,1488);
+pos = (701,1488);
 }
 );
 layerId = m009;
@@ -923,11 +923,11 @@ width = 1383;
 anchors = (
 {
 name = bottom;
-pos = (736,0);
+pos = (815,0);
 },
 {
 name = top;
-pos = (1055,1488);
+pos = (1035,1488);
 }
 );
 layerId = m010;
@@ -1025,11 +1025,11 @@ width = 1383;
 anchors = (
 {
 name = bottom;
-pos = (788,0);
+pos = (937,0);
 },
 {
 name = top;
-pos = (710,1488);
+pos = (702,1488);
 }
 );
 layerId = m011;
@@ -1127,11 +1127,11 @@ width = 1383;
 anchors = (
 {
 name = bottom;
-pos = (738,0);
+pos = (860,0);
 },
 {
 name = top;
-pos = (1063,1488);
+pos = (1034,1488);
 }
 );
 layerId = m012;
@@ -1229,11 +1229,11 @@ width = 1384;
 anchors = (
 {
 name = bottom;
-pos = (788,0);
+pos = (905,0);
 },
 {
 name = top;
-pos = (710,1488);
+pos = (700,1488);
 }
 );
 layerId = m013;
@@ -1331,11 +1331,11 @@ width = 1383;
 anchors = (
 {
 name = bottom;
-pos = (736,0);
+pos = (855,0);
 },
 {
 name = top;
-pos = (1055,1488);
+pos = (1005,1488);
 }
 );
 layerId = m014;
@@ -1433,11 +1433,11 @@ width = 1383;
 anchors = (
 {
 name = bottom;
-pos = (788,0);
+pos = (930,0);
 },
 {
 name = top;
-pos = (710,1488);
+pos = (700,1488);
 }
 );
 layerId = m015;
@@ -1535,11 +1535,11 @@ width = 1383;
 anchors = (
 {
 name = bottom;
-pos = (738,0);
+pos = (890,0);
 },
 {
 name = top;
-pos = (1063,1488);
+pos = (1003,1488);
 }
 );
 layerId = m016;
