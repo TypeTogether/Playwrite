@@ -1,5 +1,7 @@
 {
 glyphname = p.mod;
+kernLeft = n;
+kernRight = b;
 layers = (
 {
 anchors = (

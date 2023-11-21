@@ -1,5 +1,7 @@
 {
 glyphname = s;
+kernLeft = s;
+kernRight = s;
 layers = (
 {
 anchors = (
@@ -89,12 +91,6 @@ pos = (173,0);
 {
 name = top;
 pos = (319,500);
-}
-);
-guides = (
-{
-angle = 135;
-pos = (356,342);
 }
 );
 layerId = m002;

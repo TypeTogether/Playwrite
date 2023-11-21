@@ -1,5 +1,7 @@
 {
 glyphname = i;
+kernLeft = i;
+kernRight = a;
 layers = (
 {
 anchors = (
@@ -90,12 +92,6 @@ pos = (125,0);
 {
 name = ogonek;
 pos = (179,0);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (184,489);
 }
 );
 layerId = m002;

@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (325,0);
+pos = (244,0);
 },
 {
 name = cnct;
@@ -257,7 +257,7 @@ width = 1194;
 anchors = (
 {
 name = bottom;
-pos = (325,0);
+pos = (282,0);
 },
 {
 name = cnct;
@@ -266,12 +266,6 @@ pos = (763,0);
 {
 name = top;
 pos = (513,838);
-}
-);
-guides = (
-{
-angle = 252.1117;
-pos = (523,48);
 }
 );
 layerId = m002;
@@ -347,7 +341,7 @@ width = 844;
 anchors = (
 {
 name = bottom;
-pos = (325,0);
+pos = (216,0);
 },
 {
 name = cnct;
@@ -431,7 +425,7 @@ width = 874;
 anchors = (
 {
 name = bottom;
-pos = (625,0);
+pos = (635,0);
 },
 {
 name = cnct;
@@ -515,7 +509,7 @@ width = 1300;
 anchors = (
 {
 name = bottom;
-pos = (438,0);
+pos = (338,0);
 },
 {
 name = cnct;
@@ -599,7 +593,7 @@ width = 876;
 anchors = (
 {
 name = bottom;
-pos = (488,0);
+pos = (510,0);
 },
 {
 name = cnct;
@@ -683,7 +677,7 @@ width = 1248;
 anchors = (
 {
 name = bottom;
-pos = (475,0);
+pos = (515,0);
 },
 {
 name = cnct;
@@ -767,7 +761,7 @@ width = 1270;
 anchors = (
 {
 name = bottom;
-pos = (325,0);
+pos = (179,0);
 },
 {
 name = cnct;
@@ -941,7 +935,7 @@ width = 1284;
 anchors = (
 {
 name = bottom;
-pos = (538,0);
+pos = (528,0);
 },
 {
 name = cnct;
@@ -1025,7 +1019,7 @@ width = 1324;
 anchors = (
 {
 name = bottom;
-pos = (438,0);
+pos = (309,0);
 },
 {
 name = cnct;
@@ -1109,7 +1103,7 @@ width = 838;
 anchors = (
 {
 name = bottom;
-pos = (438,0);
+pos = (363,0);
 },
 {
 name = cnct;
@@ -1193,7 +1187,7 @@ width = 814;
 anchors = (
 {
 name = bottom;
-pos = (438,0);
+pos = (384,0);
 },
 {
 name = cnct;
@@ -1277,7 +1271,7 @@ width = 849;
 anchors = (
 {
 name = bottom;
-pos = (613,0);
+pos = (628,0);
 },
 {
 name = cnct;

@@ -1,5 +1,7 @@
 {
 glyphname = uhookabove;
+kernLeft = u;
+kernRight = a;
 layers = (
 {
 layerId = m01;
@@ -37,7 +39,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (298,0);
+pos = (288,0);
 ref = hookabovecomb;
 }
 );
@@ -95,7 +97,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (300,0);
+pos = (290,0);
 ref = hookabovecomb;
 }
 );
@@ -124,7 +126,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (323,0);
+pos = (303,0);
 ref = hookabovecomb;
 }
 );
@@ -153,7 +155,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (298,0);
+pos = (288,0);
 ref = hookabovecomb;
 }
 );
@@ -211,7 +213,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (300,0);
+pos = (290,0);
 ref = hookabovecomb;
 }
 );
@@ -269,7 +271,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (298,0);
+pos = (288,0);
 ref = hookabovecomb;
 }
 );
@@ -327,7 +329,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (300,0);
+pos = (290,0);
 ref = hookabovecomb;
 }
 );
@@ -385,7 +387,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (298,0);
+pos = (288,0);
 ref = hookabovecomb;
 }
 );
@@ -443,7 +445,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (300,0);
+pos = (280,0);
 ref = hookabovecomb;
 }
 );

@@ -1,5 +1,7 @@
 {
 glyphname = uhorn;
+kernLeft = u;
+kernRight = uhorn;
 layers = (
 {
 anchors = (

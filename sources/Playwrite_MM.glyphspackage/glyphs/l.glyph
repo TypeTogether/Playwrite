@@ -1,11 +1,13 @@
 {
 glyphname = l;
+kernLeft = b;
+kernRight = a;
 layers = (
 {
 anchors = (
 {
 name = CAT;
-pos = (159,438);
+pos = (178,438);
 },
 {
 name = bottom;
@@ -80,7 +82,7 @@ width = 300;
 anchors = (
 {
 name = CAT;
-pos = (216,438);
+pos = (232,438);
 },
 {
 name = bottom;
@@ -97,12 +99,6 @@ pos = (327,838);
 {
 name = topright;
 pos = (356,874);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (184,489);
 }
 );
 layerId = m002;
@@ -161,7 +157,7 @@ width = 301;
 anchors = (
 {
 name = CAT;
-pos = (159,438);
+pos = (180,438);
 },
 {
 name = bottom;
@@ -236,7 +232,7 @@ width = 300;
 anchors = (
 {
 name = CAT;
-pos = (217,438);
+pos = (229,438);
 },
 {
 name = bottom;
@@ -311,7 +307,7 @@ width = 302;
 anchors = (
 {
 name = CAT;
-pos = (139,438);
+pos = (147,438);
 },
 {
 name = bottom;
@@ -386,7 +382,7 @@ width = 306;
 anchors = (
 {
 name = CAT;
-pos = (226,436);
+pos = (236,436);
 },
 {
 name = bottom;
@@ -403,12 +399,6 @@ pos = (327,838);
 {
 name = topright;
 pos = (356,874);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (189,489);
 }
 );
 layerId = m006;
@@ -467,7 +457,7 @@ width = 311;
 anchors = (
 {
 name = CAT;
-pos = (136,438);
+pos = (145,438);
 },
 {
 name = bottom;
@@ -542,7 +532,7 @@ width = 307;
 anchors = (
 {
 name = CAT;
-pos = (225,436);
+pos = (236,436);
 },
 {
 name = bottom;
@@ -617,7 +607,7 @@ width = 306;
 anchors = (
 {
 name = CAT;
-pos = (156,738);
+pos = (176,738);
 },
 {
 name = bottom;
@@ -692,7 +682,7 @@ width = 300;
 anchors = (
 {
 name = CAT;
-pos = (321,750);
+pos = (339,750);
 },
 {
 name = bottom;
@@ -709,12 +699,6 @@ pos = (517,1423);
 {
 name = topright;
 pos = (556,1500);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (184,489);
 }
 );
 layerId = m010;
@@ -773,7 +757,7 @@ width = 301;
 anchors = (
 {
 name = CAT;
-pos = (156,738);
+pos = (179,738);
 },
 {
 name = bottom;
@@ -848,7 +832,7 @@ width = 300;
 anchors = (
 {
 name = CAT;
-pos = (322,750);
+pos = (342,750);
 },
 {
 name = bottom;
@@ -923,7 +907,7 @@ width = 302;
 anchors = (
 {
 name = CAT;
-pos = (165,746);
+pos = (177,746);
 },
 {
 name = bottom;
@@ -998,7 +982,7 @@ width = 306;
 anchors = (
 {
 name = CAT;
-pos = (316,746);
+pos = (330,746);
 },
 {
 name = bottom;
@@ -1015,12 +999,6 @@ pos = (532,1424);
 {
 name = topright;
 pos = (576,1500);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (188,489);
 }
 );
 layerId = m014;
@@ -1079,7 +1057,7 @@ width = 307;
 anchors = (
 {
 name = CAT;
-pos = (165,746);
+pos = (177,746);
 },
 {
 name = bottom;
@@ -1154,7 +1132,7 @@ width = 310;
 anchors = (
 {
 name = CAT;
-pos = (317,746);
+pos = (331,746);
 },
 {
 name = bottom;

@@ -1,12 +1,11 @@
 {
-color = 0;
 glyphname = U.cur.ini;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (395,0);
+pos = (405,0);
 },
 {
 name = cnct;
@@ -18,17 +17,11 @@ pos = (780,13);
 },
 {
 name = top;
-pos = (654,838);
+pos = (634,838);
 },
 {
 name = topright;
 pos = (919,889);
-}
-);
-guides = (
-{
-angle = 72.91;
-pos = (195,143);
 }
 );
 layerId = m004;
@@ -116,7 +109,7 @@ width = 909;
 anchors = (
 {
 name = bottom;
-pos = (464,0);
+pos = (474,0);
 },
 {
 name = cnct;
@@ -220,7 +213,7 @@ width = 909;
 anchors = (
 {
 name = bottom;
-pos = (395,0);
+pos = (429,0);
 },
 {
 name = cnct;
@@ -232,20 +225,11 @@ pos = (780,13);
 },
 {
 name = top;
-pos = (654,838);
+pos = (643,838);
 },
 {
 name = topright;
 pos = (918,888);
-}
-);
-guides = (
-{
-pos = (0,-14);
-},
-{
-angle = 72.97;
-pos = (236,225);
 }
 );
 layerId = m002;
@@ -333,7 +317,7 @@ width = 909;
 anchors = (
 {
 name = bottom;
-pos = (464,0);
+pos = (508,0);
 },
 {
 name = cnct;
@@ -437,7 +421,7 @@ width = 909;
 anchors = (
 {
 name = bottom;
-pos = (464,0);
+pos = (500,0);
 },
 {
 name = cnct;
@@ -449,7 +433,7 @@ pos = (858,13);
 },
 {
 name = top;
-pos = (476,838);
+pos = (471,838);
 },
 {
 name = topright;
@@ -541,7 +525,7 @@ width = 909;
 anchors = (
 {
 name = bottom;
-pos = (395,0);
+pos = (415,0);
 },
 {
 name = cnct;
@@ -553,24 +537,11 @@ pos = (780,13);
 },
 {
 name = top;
-pos = (654,838);
+pos = (629,838);
 },
 {
 name = topright;
 pos = (918,888);
-}
-);
-guides = (
-{
-pos = (0,-14);
-},
-{
-angle = 72.97;
-pos = (236,225);
-},
-{
-angle = 252.97;
-pos = (321,601);
 }
 );
 layerId = m006;
@@ -658,7 +629,7 @@ width = 909;
 anchors = (
 {
 name = bottom;
-pos = (464,0);
+pos = (474,0);
 },
 {
 name = cnct;
@@ -670,7 +641,7 @@ pos = (858,13);
 },
 {
 name = top;
-pos = (476,838);
+pos = (471,838);
 },
 {
 name = topright;
@@ -762,7 +733,7 @@ width = 909;
 anchors = (
 {
 name = bottom;
-pos = (395,0);
+pos = (415,0);
 },
 {
 name = cnct;
@@ -774,17 +745,11 @@ pos = (780,13);
 },
 {
 name = top;
-pos = (654,838);
+pos = (636,838);
 },
 {
 name = topright;
 pos = (919,889);
-}
-);
-guides = (
-{
-angle = 72.91;
-pos = (195,143);
 }
 );
 layerId = m008;
@@ -872,7 +837,7 @@ width = 909;
 anchors = (
 {
 name = bottom;
-pos = (720,0);
+pos = (730,0);
 },
 {
 name = cnct;
@@ -884,7 +849,7 @@ pos = (1330,21);
 },
 {
 name = top;
-pos = (739,1424);
+pos = (729,1424);
 },
 {
 name = topright;
@@ -976,7 +941,7 @@ width = 1409;
 anchors = (
 {
 name = bottom;
-pos = (656,0);
+pos = (676,0);
 },
 {
 name = cnct;
@@ -988,7 +953,7 @@ pos = (1254,21);
 },
 {
 name = top;
-pos = (1099,1424);
+pos = (1069,1424);
 },
 {
 name = topright;
@@ -1080,7 +1045,7 @@ width = 1409;
 anchors = (
 {
 name = bottom;
-pos = (719,0);
+pos = (729,0);
 },
 {
 name = cnct;
@@ -1092,7 +1057,7 @@ pos = (1329,21);
 },
 {
 name = top;
-pos = (738,1424);
+pos = (728,1424);
 },
 {
 name = topright;
@@ -1184,7 +1149,7 @@ width = 1409;
 anchors = (
 {
 name = bottom;
-pos = (656,0);
+pos = (676,0);
 },
 {
 name = cnct;
@@ -1196,17 +1161,11 @@ pos = (1254,21);
 },
 {
 name = top;
-pos = (1099,1424);
+pos = (1079,1424);
 },
 {
 name = topright;
 pos = (1513,1511);
-}
-);
-guides = (
-{
-angle = 72.91;
-pos = (195,143);
 }
 );
 layerId = m012;
@@ -1294,7 +1253,7 @@ width = 1409;
 anchors = (
 {
 name = bottom;
-pos = (720,0);
+pos = (740,0);
 },
 {
 name = cnct;
@@ -1306,7 +1265,7 @@ pos = (1330,21);
 },
 {
 name = top;
-pos = (739,1424);
+pos = (729,1424);
 },
 {
 name = topright;
@@ -1398,7 +1357,7 @@ width = 1410;
 anchors = (
 {
 name = bottom;
-pos = (656,0);
+pos = (676,0);
 },
 {
 name = cnct;
@@ -1410,16 +1369,11 @@ pos = (1254,21);
 },
 {
 name = top;
-pos = (1099,1424);
+pos = (1069,1424);
 },
 {
 name = topright;
 pos = (1510,1509);
-}
-);
-guides = (
-{
-pos = (0,-14);
 }
 );
 layerId = m014;
@@ -1507,7 +1461,7 @@ width = 1409;
 anchors = (
 {
 name = bottom;
-pos = (719,0);
+pos = (739,0);
 },
 {
 name = cnct;
@@ -1519,7 +1473,7 @@ pos = (1329,21);
 },
 {
 name = top;
-pos = (738,1424);
+pos = (728,1424);
 },
 {
 name = topright;
@@ -1611,7 +1565,7 @@ width = 1409;
 anchors = (
 {
 name = bottom;
-pos = (656,0);
+pos = (676,0);
 },
 {
 name = cnct;
@@ -1623,17 +1577,11 @@ pos = (1254,21);
 },
 {
 name = top;
-pos = (1099,1424);
+pos = (1079,1424);
 },
 {
 name = topright;
 pos = (1513,1511);
-}
-);
-guides = (
-{
-angle = 72.91;
-pos = (195,143);
 }
 );
 layerId = m016;

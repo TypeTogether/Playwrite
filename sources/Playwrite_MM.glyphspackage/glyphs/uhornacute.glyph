@@ -1,5 +1,7 @@
 {
 glyphname = uhornacute;
+kernLeft = u;
+kernRight = uhorn;
 layers = (
 {
 layerId = m01;

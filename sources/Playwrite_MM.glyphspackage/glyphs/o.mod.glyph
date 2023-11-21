@@ -1,5 +1,7 @@
 {
 glyphname = o.mod;
+kernLeft = o;
+kernRight = o;
 layers = (
 {
 anchors = (

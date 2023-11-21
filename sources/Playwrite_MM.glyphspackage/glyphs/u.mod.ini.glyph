@@ -1,5 +1,6 @@
 {
 glyphname = u.mod.ini;
+kernLeft = u;
 layers = (
 {
 anchors = (
@@ -104,7 +105,7 @@ pos = (529,13);
 },
 {
 name = top;
-pos = (404,500);
+pos = (394,500);
 },
 {
 name = topright;
@@ -278,7 +279,7 @@ pos = (549,13);
 },
 {
 name = top;
-pos = (406,500);
+pos = (396,500);
 },
 {
 name = topright;
@@ -452,7 +453,7 @@ pos = (529,13);
 },
 {
 name = top;
-pos = (404,500);
+pos = (394,500);
 },
 {
 name = topright;
@@ -626,7 +627,7 @@ pos = (549,13);
 },
 {
 name = top;
-pos = (406,500);
+pos = (396,500);
 },
 {
 name = topright;
@@ -800,7 +801,7 @@ pos = (529,13);
 },
 {
 name = top;
-pos = (404,500);
+pos = (394,500);
 },
 {
 name = topright;
@@ -974,7 +975,7 @@ pos = (549,13);
 },
 {
 name = top;
-pos = (406,500);
+pos = (396,500);
 },
 {
 name = topright;
@@ -1148,7 +1149,7 @@ pos = (529,13);
 },
 {
 name = top;
-pos = (404,500);
+pos = (394,500);
 },
 {
 name = topright;
@@ -1322,7 +1323,7 @@ pos = (549,13);
 },
 {
 name = top;
-pos = (406,500);
+pos = (386,500);
 },
 {
 name = topright;
