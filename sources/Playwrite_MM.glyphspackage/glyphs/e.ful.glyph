@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (294,0);
+pos = (215,0);
 },
 {
 name = ogonek;
@@ -91,7 +91,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (241,0);
+pos = (133,0);
 },
 {
 name = ogonek;
@@ -99,7 +99,7 @@ pos = (379,13);
 },
 {
 name = top;
-pos = (278,500);
+pos = (258,500);
 }
 );
 layerId = m002;
@@ -177,7 +177,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (290,0);
+pos = (215,0);
 },
 {
 name = ogonek;
@@ -263,7 +263,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (223,0);
+pos = (121,0);
 },
 {
 name = ogonek;
@@ -271,13 +271,7 @@ pos = (356,13);
 },
 {
 name = top;
-pos = (284,500);
-}
-);
-guides = (
-{
-angle = 289.8;
-pos = (116,135);
+pos = (264,500);
 }
 );
 layerId = m004;
@@ -355,7 +349,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (291,0);
+pos = (216,0);
 },
 {
 name = ogonek;
@@ -364,20 +358,6 @@ pos = (409,13);
 {
 name = top;
 pos = (216,500);
-}
-);
-guides = (
-{
-angle = 180.8;
-pos = (109,258);
-},
-{
-angle = 0.8;
-pos = (232,286);
-},
-{
-angle = 90;
-pos = (-74,0);
 }
 );
 layerId = m005;
@@ -455,7 +435,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (240,0);
+pos = (130,0);
 },
 {
 name = ogonek;
@@ -463,32 +443,7 @@ pos = (378,13);
 },
 {
 name = top;
-pos = (264,500);
-}
-);
-guides = (
-{
-angle = 252.18;
-pos = (-98,14);
-},
-{
-angle = 181.59;
-pos = (325,306);
-},
-{
-pos = (0,184);
-},
-{
-angle = 257.47;
-pos = (223,415);
-},
-{
-angle = 255.35;
-pos = (326,287);
-},
-{
-angle = 1.85;
-pos = (275,271);
+pos = (244,500);
 }
 );
 layerId = m006;
@@ -566,7 +521,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (324,0);
+pos = (210,0);
 },
 {
 name = ogonek;
@@ -575,36 +530,6 @@ pos = (404,13);
 {
 name = top;
 pos = (210,500);
-}
-);
-guides = (
-{
-angle = 5.36;
-pos = (237,316);
-},
-{
-angle = 185.53;
-pos = (84,234);
-},
-{
-angle = 49.47;
-pos = (142,149);
-},
-{
-angle = 228.26;
-pos = (224,202);
-},
-{
-angle = 83.66;
-pos = (124,-112);
-},
-{
-angle = 227.39;
-pos = (182,137);
-},
-{
-angle = 333.43;
-pos = (142,159);
 }
 );
 layerId = m007;
@@ -682,7 +607,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (226,0);
+pos = (124,0);
 },
 {
 name = ogonek;
@@ -690,25 +615,7 @@ pos = (360,13);
 },
 {
 name = top;
-pos = (278,500);
-}
-);
-guides = (
-{
-angle = 5.53;
-pos = (270,314);
-},
-{
-angle = 217.09;
-pos = (275,203);
-},
-{
-angle = 217.68;
-pos = (217,232);
-},
-{
-angle = 125.66;
-pos = (141,102);
+pos = (258,500);
 }
 );
 layerId = m008;
@@ -786,7 +693,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (294,0);
+pos = (215,0);
 },
 {
 name = ogonek;
@@ -872,7 +779,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (241,0);
+pos = (133,0);
 },
 {
 name = ogonek;
@@ -880,7 +787,7 @@ pos = (379,13);
 },
 {
 name = top;
-pos = (278,500);
+pos = (258,500);
 }
 );
 layerId = m010;
@@ -958,7 +865,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (290,0);
+pos = (215,0);
 },
 {
 name = ogonek;
@@ -1044,7 +951,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (223,0);
+pos = (121,0);
 },
 {
 name = ogonek;
@@ -1052,13 +959,7 @@ pos = (356,13);
 },
 {
 name = top;
-pos = (284,500);
-}
-);
-guides = (
-{
-angle = 289.8;
-pos = (116,135);
+pos = (264,500);
 }
 );
 layerId = m012;
@@ -1136,7 +1037,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (291,0);
+pos = (216,0);
 },
 {
 name = ogonek;
@@ -1145,20 +1046,6 @@ pos = (409,13);
 {
 name = top;
 pos = (216,500);
-}
-);
-guides = (
-{
-angle = 180.8;
-pos = (109,258);
-},
-{
-angle = 0.8;
-pos = (232,286);
-},
-{
-angle = 90;
-pos = (-74,0);
 }
 );
 layerId = m013;
@@ -1236,7 +1123,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (240,0);
+pos = (130,0);
 },
 {
 name = ogonek;
@@ -1244,32 +1131,7 @@ pos = (378,13);
 },
 {
 name = top;
-pos = (264,500);
-}
-);
-guides = (
-{
-angle = 252.18;
-pos = (-98,14);
-},
-{
-angle = 181.59;
-pos = (325,306);
-},
-{
-pos = (0,184);
-},
-{
-angle = 257.47;
-pos = (223,415);
-},
-{
-angle = 255.35;
-pos = (326,287);
-},
-{
-angle = 1.85;
-pos = (275,271);
+pos = (244,500);
 }
 );
 layerId = m014;
@@ -1347,7 +1209,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (324,0);
+pos = (210,0);
 },
 {
 name = ogonek;
@@ -1356,36 +1218,6 @@ pos = (404,13);
 {
 name = top;
 pos = (210,500);
-}
-);
-guides = (
-{
-angle = 5.36;
-pos = (237,316);
-},
-{
-angle = 185.53;
-pos = (84,234);
-},
-{
-angle = 49.47;
-pos = (142,149);
-},
-{
-angle = 228.26;
-pos = (224,202);
-},
-{
-angle = 83.66;
-pos = (124,-112);
-},
-{
-angle = 227.39;
-pos = (182,137);
-},
-{
-angle = 333.43;
-pos = (142,159);
 }
 );
 layerId = m015;
@@ -1463,7 +1295,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (226,0);
+pos = (124,0);
 },
 {
 name = ogonek;
@@ -1471,25 +1303,7 @@ pos = (360,13);
 },
 {
 name = top;
-pos = (278,500);
-}
-);
-guides = (
-{
-angle = 5.53;
-pos = (270,314);
-},
-{
-angle = 217.09;
-pos = (275,203);
-},
-{
-angle = 217.68;
-pos = (217,232);
-},
-{
-angle = 125.66;
-pos = (141,102);
+pos = (258,500);
 }
 );
 layerId = m016;

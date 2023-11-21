@@ -1,5 +1,7 @@
 {
 glyphname = dcaron;
+kernLeft = a;
+kernRight = a;
 layers = (
 {
 layerId = m01;
@@ -9,7 +11,7 @@ ref = d;
 },
 {
 pos = (479,0);
-ref = caroncomb.alt_locl;
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -38,7 +40,7 @@ ref = d;
 },
 {
 pos = (479,0);
-ref = caroncomb.alt_locl;
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -67,7 +69,7 @@ ref = d;
 },
 {
 pos = (479,0);
-ref = caroncomb.alt_locl;
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -96,7 +98,7 @@ ref = d;
 },
 {
 pos = (479,0);
-ref = caroncomb.alt_locl;
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -124,8 +126,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (473,33);
-ref = caroncomb.alt_locl;
+pos = (474,33);
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -153,8 +155,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (478,33);
-ref = caroncomb.alt_locl;
+pos = (480,33);
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -182,8 +184,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (473,33);
-ref = caroncomb.alt_locl;
+pos = (474,33);
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -212,7 +214,7 @@ ref = d;
 },
 {
 pos = (484,33);
-ref = caroncomb.alt_locl;
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -240,8 +242,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (479,0);
-ref = caroncomb.alt_locl;
+pos = (489,625);
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -269,8 +271,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (480,-6);
-ref = caroncomb.alt_locl;
+pos = (683,619);
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -298,8 +300,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (479,0);
-ref = caroncomb.alt_locl;
+pos = (489,625);
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -327,8 +329,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (480,-6);
-ref = caroncomb.alt_locl;
+pos = (683,619);
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -356,8 +358,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (465,53);
-ref = caroncomb.alt_locl;
+pos = (484,678);
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -385,8 +387,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (494,53);
-ref = caroncomb.alt_locl;
+pos = (700,678);
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -414,8 +416,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (465,53);
-ref = caroncomb.alt_locl;
+pos = (484,678);
+ref = caroncomb.alt;
 }
 );
 userData = {
@@ -443,8 +445,8 @@ shapes = (
 ref = d;
 },
 {
-pos = (494,53);
-ref = caroncomb.alt_locl;
+pos = (704,678);
+ref = caroncomb.alt;
 }
 );
 userData = {

@@ -134,16 +134,6 @@ com.hugojourdan.ColorFlow = {
 width = 538;
 },
 {
-guides = (
-{
-angle = 90;
-pos = (16,0);
-},
-{
-angle = 90;
-pos = (414,0);
-}
-);
 layerId = m01;
 shapes = (
 {

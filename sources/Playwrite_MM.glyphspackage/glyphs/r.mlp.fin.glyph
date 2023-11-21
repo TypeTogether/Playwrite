@@ -1,5 +1,6 @@
 {
 glyphname = r.mlp.fin;
+kernRight = n;
 layers = (
 {
 anchors = (
@@ -106,16 +107,6 @@ pos = (160,0);
 {
 name = top;
 pos = (333,500);
-}
-);
-guides = (
-{
-angle = 248.728;
-pos = (97,347);
-},
-{
-angle = 68.728;
-pos = (144,345);
 }
 );
 layerId = m002;

@@ -1,5 +1,7 @@
 {
 glyphname = d;
+kernLeft = a;
+kernRight = a;
 layers = (
 {
 anchors = (
@@ -332,12 +334,6 @@ name = topright;
 pos = (684,875);
 }
 );
-guides = (
-{
-angle = 72;
-pos = (360,96);
-}
-);
 layerId = m004;
 shapes = (
 {
@@ -439,7 +435,7 @@ pos = (259,500);
 },
 {
 name = topright;
-pos = (473,908);
+pos = (474,908);
 }
 );
 layerId = m005;
@@ -543,7 +539,7 @@ pos = (335,500);
 },
 {
 name = topright;
-pos = (683,908);
+pos = (685,908);
 }
 );
 layerId = m006;
@@ -647,7 +643,7 @@ pos = (256,500);
 },
 {
 name = topright;
-pos = (473,908);
+pos = (474,908);
 }
 );
 layerId = m007;
@@ -754,12 +750,6 @@ name = topright;
 pos = (689,908);
 }
 );
-guides = (
-{
-angle = 72;
-pos = (350,96);
-}
-);
 layerId = m008;
 shapes = (
 {
@@ -861,7 +851,7 @@ pos = (278,500);
 },
 {
 name = topright;
-pos = (479,1500);
+pos = (489,1500);
 }
 );
 layerId = m009;
@@ -1069,7 +1059,7 @@ pos = (278,500);
 },
 {
 name = topright;
-pos = (479,1500);
+pos = (489,1500);
 }
 );
 layerId = m011;
@@ -1176,12 +1166,6 @@ name = topright;
 pos = (888,1494);
 }
 );
-guides = (
-{
-angle = 72;
-pos = (350,96);
-}
-);
 layerId = m012;
 shapes = (
 {
@@ -1283,7 +1267,7 @@ pos = (278,500);
 },
 {
 name = topright;
-pos = (465,1553);
+pos = (484,1553);
 }
 );
 layerId = m013;
@@ -1387,7 +1371,7 @@ pos = (321,500);
 },
 {
 name = topright;
-pos = (900,1553);
+pos = (905,1553);
 }
 );
 layerId = m014;
@@ -1491,7 +1475,7 @@ pos = (278,500);
 },
 {
 name = topright;
-pos = (465,1553);
+pos = (484,1553);
 }
 );
 layerId = m015;
@@ -1595,13 +1579,7 @@ pos = (321,500);
 },
 {
 name = topright;
-pos = (900,1553);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (350,96);
+pos = (909,1553);
 }
 );
 layerId = m016;

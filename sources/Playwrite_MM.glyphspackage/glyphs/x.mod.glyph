@@ -1,5 +1,7 @@
 {
 glyphname = x.mod;
+kernLeft = x;
+kernRight = x;
 layers = (
 {
 layerId = m01;

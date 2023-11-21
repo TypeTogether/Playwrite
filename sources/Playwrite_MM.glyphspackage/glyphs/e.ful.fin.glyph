@@ -1,11 +1,12 @@
 {
 glyphname = e.ful.fin;
+kernRight = e;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (294,0);
+pos = (215,0);
 },
 {
 name = ogonek;
@@ -89,7 +90,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (241,0);
+pos = (133,0);
 },
 {
 name = ogonek;
@@ -97,7 +98,7 @@ pos = (379,13);
 },
 {
 name = top;
-pos = (278,500);
+pos = (258,500);
 }
 );
 layerId = m002;
@@ -173,7 +174,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (290,0);
+pos = (215,0);
 },
 {
 name = ogonek;
@@ -257,7 +258,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (223,0);
+pos = (121,0);
 },
 {
 name = ogonek;
@@ -265,7 +266,7 @@ pos = (356,13);
 },
 {
 name = top;
-pos = (284,500);
+pos = (264,500);
 }
 );
 layerId = m004;
@@ -341,7 +342,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (291,0);
+pos = (216,0);
 },
 {
 name = ogonek;
@@ -425,7 +426,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (240,0);
+pos = (130,0);
 },
 {
 name = ogonek;
@@ -433,7 +434,7 @@ pos = (378,13);
 },
 {
 name = top;
-pos = (264,500);
+pos = (244,500);
 }
 );
 layerId = m006;
@@ -509,7 +510,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (324,0);
+pos = (210,0);
 },
 {
 name = ogonek;
@@ -593,7 +594,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (226,0);
+pos = (124,0);
 },
 {
 name = ogonek;
@@ -601,7 +602,7 @@ pos = (360,13);
 },
 {
 name = top;
-pos = (278,500);
+pos = (258,500);
 }
 );
 layerId = m008;
@@ -677,7 +678,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (294,0);
+pos = (215,0);
 },
 {
 name = ogonek;
@@ -761,7 +762,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (241,0);
+pos = (133,0);
 },
 {
 name = ogonek;
@@ -769,7 +770,7 @@ pos = (379,13);
 },
 {
 name = top;
-pos = (278,500);
+pos = (258,500);
 }
 );
 layerId = m010;
@@ -845,7 +846,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (290,0);
+pos = (215,0);
 },
 {
 name = ogonek;
@@ -929,7 +930,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (223,0);
+pos = (121,0);
 },
 {
 name = ogonek;
@@ -937,7 +938,7 @@ pos = (356,13);
 },
 {
 name = top;
-pos = (284,500);
+pos = (264,500);
 }
 );
 layerId = m012;
@@ -1013,7 +1014,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (291,0);
+pos = (216,0);
 },
 {
 name = ogonek;
@@ -1097,7 +1098,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (240,0);
+pos = (130,0);
 },
 {
 name = ogonek;
@@ -1105,7 +1106,7 @@ pos = (378,13);
 },
 {
 name = top;
-pos = (264,500);
+pos = (244,500);
 }
 );
 layerId = m014;
@@ -1181,7 +1182,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (324,0);
+pos = (210,0);
 },
 {
 name = ogonek;
@@ -1265,7 +1266,7 @@ width = 444;
 anchors = (
 {
 name = bottom;
-pos = (226,0);
+pos = (124,0);
 },
 {
 name = ogonek;
@@ -1273,7 +1274,7 @@ pos = (360,13);
 },
 {
 name = top;
-pos = (278,500);
+pos = (258,500);
 }
 );
 layerId = m016;

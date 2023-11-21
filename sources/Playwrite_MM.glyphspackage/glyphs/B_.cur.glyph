@@ -282,12 +282,6 @@ name = top;
 pos = (654,838);
 }
 );
-guides = (
-{
-angle = 72.99;
-pos = (222,104);
-}
-);
 layerId = m002;
 shapes = (
 {
@@ -419,11 +413,6 @@ pos = (299,258);
 {
 name = top;
 pos = (491,838);
-}
-);
-guides = (
-{
-pos = (0,571);
 }
 );
 layerId = m01;

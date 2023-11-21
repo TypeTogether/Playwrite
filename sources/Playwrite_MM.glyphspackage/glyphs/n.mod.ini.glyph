@@ -1,5 +1,6 @@
 {
 glyphname = n.mod.ini;
+kernLeft = n;
 layers = (
 {
 anchors = (
@@ -93,12 +94,6 @@ pos = (590,0);
 {
 name = top;
 pos = (393,500);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (423,-34);
 }
 );
 layerId = m002;

@@ -1,5 +1,7 @@
 {
 glyphname = idotless;
+kernLeft = n;
+kernRight = a;
 layers = (
 {
 anchors = (
@@ -81,12 +83,6 @@ pos = (179,0);
 {
 name = top;
 pos = (214,500);
-}
-);
-guides = (
-{
-angle = 72;
-pos = (184,489);
 }
 );
 layerId = m002;

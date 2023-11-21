@@ -1,5 +1,7 @@
 {
 glyphname = uogonek;
+kernLeft = u;
+kernRight = a;
 layers = (
 {
 layerId = m01;
@@ -124,7 +126,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (515,10);
+pos = (515,13);
 ref = ogonekcomb;
 }
 );

@@ -1,8 +1,17 @@
 {
+color = 8;
 glyphname = t.lop_de.fin;
 layers = (
 {
 anchors = (
+{
+name = bottom;
+pos = (284,0);
+},
+{
+name = center;
+pos = (275,438);
+},
 {
 name = top;
 pos = (284,838);
@@ -76,6 +85,14 @@ width = 533;
 {
 anchors = (
 {
+name = bottom;
+pos = (185,0);
+},
+{
+name = center;
+pos = (326,438);
+},
+{
 name = top;
 pos = (669,1424);
 },
@@ -147,6 +164,14 @@ width = 538;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (202,0);
+},
+{
+name = center;
+pos = (342,438);
+},
 {
 name = top;
 pos = (673,1423);
@@ -220,6 +245,14 @@ width = 538;
 {
 anchors = (
 {
+name = bottom;
+pos = (192,0);
+},
+{
+name = center;
+pos = (334,438);
+},
+{
 name = top;
 pos = (474,838);
 },
@@ -291,6 +324,14 @@ width = 529;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (178,0);
+},
+{
+name = center;
+pos = (321,438);
+},
 {
 name = top;
 pos = (456,838);
@@ -364,6 +405,14 @@ width = 529;
 {
 anchors = (
 {
+name = bottom;
+pos = (284,0);
+},
+{
+name = center;
+pos = (274,438);
+},
+{
 name = top;
 pos = (284,1421);
 },
@@ -435,6 +484,14 @@ width = 533;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (258,0);
+},
+{
+name = center;
+pos = (258,438);
+},
 {
 name = top;
 pos = (268,838);
@@ -508,6 +565,14 @@ width = 533;
 {
 anchors = (
 {
+name = bottom;
+pos = (300,0);
+},
+{
+name = center;
+pos = (290,438);
+},
+{
 name = top;
 pos = (284,1421);
 },
@@ -579,6 +644,14 @@ width = 548;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (262,0);
+},
+{
+name = center;
+pos = (262,438);
+},
 {
 name = top;
 pos = (286,1424);
@@ -652,6 +725,14 @@ width = 548;
 {
 anchors = (
 {
+name = bottom;
+pos = (184,0);
+},
+{
+name = center;
+pos = (326,438);
+},
+{
 name = top;
 pos = (460,838);
 },
@@ -723,6 +804,14 @@ width = 538;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (206,0);
+},
+{
+name = center;
+pos = (339,438);
+},
 {
 name = top;
 pos = (673,1423);
@@ -796,6 +885,14 @@ width = 529;
 {
 anchors = (
 {
+name = bottom;
+pos = (197,0);
+},
+{
+name = center;
+pos = (337,438);
+},
+{
 name = top;
 pos = (479,838);
 },
@@ -867,6 +964,14 @@ width = 538;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (185,0);
+},
+{
+name = center;
+pos = (326,438);
+},
 {
 name = top;
 pos = (669,1424);
@@ -940,6 +1045,14 @@ width = 529;
 {
 anchors = (
 {
+name = bottom;
+pos = (263,0);
+},
+{
+name = center;
+pos = (262,438);
+},
+{
 name = top;
 pos = (270,838);
 },
@@ -1012,6 +1125,14 @@ width = 548;
 {
 anchors = (
 {
+name = bottom;
+pos = (300,0);
+},
+{
+name = center;
+pos = (290,438);
+},
+{
 name = top;
 pos = (299,838);
 },
@@ -1083,6 +1204,14 @@ width = 548;
 },
 {
 anchors = (
+{
+name = bottom;
+pos = (260,0);
+},
+{
+name = center;
+pos = (260,438);
+},
 {
 name = top;
 pos = (286,1424);

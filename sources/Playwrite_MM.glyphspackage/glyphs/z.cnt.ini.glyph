@@ -1,5 +1,6 @@
 {
 glyphname = z.cnt.ini;
+kernLeft = z;
 layers = (
 {
 anchors = (
@@ -114,7 +115,7 @@ pos = (384,0);
 },
 {
 name = top;
-pos = (281,500);
+pos = (271,500);
 }
 );
 layerId = m002;
@@ -211,7 +212,7 @@ pos = (384,0);
 },
 {
 name = top;
-pos = (298,500);
+pos = (278,500);
 }
 );
 layerId = m004;
@@ -502,7 +503,7 @@ pos = (384,0);
 },
 {
 name = top;
-pos = (299,500);
+pos = (279,500);
 }
 );
 layerId = m006;
@@ -696,7 +697,7 @@ pos = (384,0);
 },
 {
 name = top;
-pos = (298,500);
+pos = (278,500);
 }
 );
 layerId = m008;
@@ -890,7 +891,7 @@ pos = (384,0);
 },
 {
 name = top;
-pos = (281,500);
+pos = (261,500);
 }
 );
 layerId = m010;
@@ -1084,7 +1085,7 @@ pos = (384,0);
 },
 {
 name = top;
-pos = (298,500);
+pos = (278,500);
 }
 );
 layerId = m012;
@@ -1278,7 +1279,7 @@ pos = (384,0);
 },
 {
 name = top;
-pos = (299,500);
+pos = (279,500);
 }
 );
 layerId = m014;
@@ -1472,7 +1473,7 @@ pos = (384,0);
 },
 {
 name = top;
-pos = (298,500);
+pos = (278,500);
 }
 );
 layerId = m016;

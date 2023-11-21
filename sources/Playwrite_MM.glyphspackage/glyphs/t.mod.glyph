@@ -1,5 +1,7 @@
 {
 glyphname = t.mod;
+kernLeft = t;
+kernRight = t;
 layers = (
 {
 anchors = (

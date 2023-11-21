@@ -9,12 +9,6 @@ anchors = (
 name = _cnct;
 }
 );
-guides = (
-{
-angle = 90;
-pos = (190,0);
-}
-);
 layerId = m01;
 shapes = (
 {
@@ -70,11 +64,6 @@ anchors = (
 {
 name = _cnct;
 pos = (-81,0);
-}
-);
-guides = (
-{
-pos = (0,271);
 }
 );
 layerId = m002;

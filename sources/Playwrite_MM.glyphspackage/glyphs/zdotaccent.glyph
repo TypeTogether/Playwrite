@@ -1,5 +1,7 @@
 {
 glyphname = zdotaccent;
+kernLeft = z;
+kernRight = z;
 layers = (
 {
 layerId = m01;
