@@ -10,4 +10,10 @@
     <component base="cnct.mod_n_n" xOffset="325"/>
     <component base="j.jmc" xOffset="325"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

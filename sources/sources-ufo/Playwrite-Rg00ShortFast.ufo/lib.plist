@@ -37,7 +37,7 @@
       </dict>
     </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>3223</string>
+    <string>3227</string>
     <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
     <integer>2000</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -1294,6 +1294,12 @@
       <string>z.mod_ro.ini</string>
       <string>z.mod_ro.med</string>
       <string>z.mod_ro.fin</string>
+      <string>t.lop_ee</string>
+      <string>t.lop_ee.ini</string>
+      <string>t.lop_ee.med</string>
+      <string>t.lop_ee.fin</string>
+      <string>t.lop_ee.med_o_</string>
+      <string>t.lop_ee.fin_o_</string>
       <string>t.lop_de</string>
       <string>t.lop_de.ini</string>
       <string>t.lop_de.med</string>

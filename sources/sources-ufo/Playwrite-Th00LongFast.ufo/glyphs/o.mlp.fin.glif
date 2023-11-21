@@ -2,10 +2,10 @@
 <glyph name="o.mlp.fin" format="2">
   <advance width="601"/>
   <anchor x="308" y="0" name="bottom"/>
-  <anchor x="308" y="250" name="center"/>
+  <anchor x="288" y="250" name="center"/>
   <anchor x="398" y="0" name="ogonek"/>
   <anchor x="308" y="500" name="top"/>
-  <anchor x="378" y="506" name="topright"/>
+  <anchor x="382" y="506" name="topright"/>
   <outline>
     <contour>
       <point x="308" y="-19" type="curve" smooth="yes"/>

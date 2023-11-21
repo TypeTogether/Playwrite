@@ -1,12 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="T.cur" format="2">
   <advance width="721"/>
-  <guideline x="-52" y="1" angle="72.93"/>
-  <guideline y="139"/>
-  <guideline x="724"/>
   <anchor x="371" y="0" name="bottom"/>
-  <anchor x="448" y="438" name="center"/>
-  <anchor x="601" y="838" name="top"/>
+  <anchor x="319" y="438" name="center"/>
+  <anchor x="581" y="838" name="top"/>
   <outline>
     <contour>
       <point x="393" y="-17" type="curve" smooth="yes"/>

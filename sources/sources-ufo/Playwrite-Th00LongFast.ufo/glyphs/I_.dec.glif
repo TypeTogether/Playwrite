@@ -1,10 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="I.dec" format="2">
   <advance width="874"/>
-  <guideline x="48"/>
-  <guideline x="313"/>
-  <guideline x="283"/>
   <anchor x="406" y="0" name="bottom"/>
+  <anchor x="518" y="-5" name="ogonek"/>
   <anchor x="406" y="1424" name="top"/>
   <outline>
     <contour>
