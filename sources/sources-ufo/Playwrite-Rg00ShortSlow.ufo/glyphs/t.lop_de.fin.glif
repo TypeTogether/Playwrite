@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="t.lop_de.fin" format="2">
   <advance width="533"/>
+  <anchor x="258" y="0" name="bottom"/>
+  <anchor x="258" y="438" name="center"/>
   <anchor x="268" y="838" name="top"/>
   <anchor x="290" y="908" name="topright"/>
   <outline>
@@ -55,4 +57,10 @@
       <point x="223" y="118"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

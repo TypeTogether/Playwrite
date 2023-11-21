@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="b.jmc_dk" format="2">
-  <advance width="664"/>
-  <anchor x="348" y="0" name="bottom"/>
-  <anchor x="373" y="250" name="center"/>
-  <anchor x="448" y="500" name="top"/>
+  <advance width="623"/>
+  <anchor x="321" y="0" name="bottom"/>
+  <anchor x="341" y="250" name="center"/>
+  <anchor x="430" y="500" name="top"/>
   <outline>
     <contour>
       <point x="-56" y="-17" type="curve" smooth="yes"/>
@@ -36,8 +36,6 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>PC</string>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
     </dict>
   </lib>
 </glyph>

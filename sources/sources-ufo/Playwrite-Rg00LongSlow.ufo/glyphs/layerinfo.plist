@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>color</key>
-    <string>0.5,0,0.5,0.7</string>
     <key>lib</key>
     <dict>
       <key>com.schriftgestaltung.layerId</key>
@@ -2528,6 +2526,18 @@
       <integer>15</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.t.lop_de.med</key>
       <integer>15</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.t.lop_ee</key>
+      <integer>12</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.t.lop_ee.fin</key>
+      <integer>12</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.t.lop_ee.fin_o_</key>
+      <integer>12</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.t.lop_ee.ini</key>
+      <integer>12</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.t.lop_ee.med</key>
+      <integer>12</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph.t.lop_ee.med_o_</key>
+      <integer>12</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.t.mod</key>
       <integer>12</integer>
       <key>com.schriftgestaltung.layerOrderInGlyph.t.mod.fin</key>

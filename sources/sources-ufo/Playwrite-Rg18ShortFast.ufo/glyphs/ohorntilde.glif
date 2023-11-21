@@ -5,10 +5,10 @@
   <anchor x="214" y="0" name="bottom"/>
   <anchor x="295" y="250" name="center"/>
   <anchor x="350" y="13" name="ogonek"/>
-  <anchor x="433" y="818" name="top"/>
+  <anchor x="414" y="818" name="top"/>
   <outline>
     <component base="ohorn"/>
-    <component base="tildeshortcomb" xOffset="249"/>
+    <component base="tildeshortcomb" xOffset="230"/>
   </outline>
   <lib>
     <dict>
@@ -41,14 +41,6 @@
       </dict>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>ohorn</string>
-        </dict>
         <dict>
           <key>alignment</key>
           <integer>-1</integer>

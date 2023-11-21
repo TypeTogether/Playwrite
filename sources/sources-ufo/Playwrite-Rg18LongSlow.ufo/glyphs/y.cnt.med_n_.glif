@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="y.cnt.med_n_" format="2">
   <advance width="715"/>
-  <anchor x="191" y="-375" name="bottom"/>
+  <anchor x="229" y="0" name="bottom"/>
   <anchor x="634" y="0" name="cnct"/>
-  <anchor x="446" y="500" name="top"/>
+  <anchor x="436" y="500" name="top"/>
   <outline>
     <contour>
       <point x="20" y="-1019" type="curve" smooth="yes"/>
@@ -94,8 +94,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

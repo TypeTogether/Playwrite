@@ -4,10 +4,10 @@
   <unicode hex="1EED"/>
   <anchor x="303" y="0" name="bottom"/>
   <anchor x="581" y="13" name="ogonek"/>
-  <anchor x="0" y="818" name="top"/>
+  <anchor x="303" y="818" name="top"/>
   <outline>
     <component base="uhorn"/>
-    <component base="hookabovecomb"/>
+    <component base="hookabovecomb" xOffset="303"/>
   </outline>
   <lib>
     <dict>
@@ -38,25 +38,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>uhorn</string>
-        </dict>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>hookabovecomb</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>
