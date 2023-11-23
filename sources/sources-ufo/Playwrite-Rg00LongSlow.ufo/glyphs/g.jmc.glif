@@ -1,22 +1,86 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="g.jmc" format="2">
-  <advance width="635"/>
-  <anchor x="635" y="0" name="cnct"/>
-  <anchor x="308" y="500" name="top"/>
+  <advance width="623"/>
+  <anchor x="623" y="0" name="cnct"/>
+  <anchor x="296" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="473" y="-100" type="curve"/>
-      <point x="499" y="-177" type="line"/>
-      <point x="545" y="-129"/>
-      <point x="604" y="-66"/>
-      <point x="635" y="-41" type="curve" smooth="yes"/>
-      <point x="669" y="-15"/>
-      <point x="630" y="46"/>
-      <point x="595" y="18" type="curve" smooth="yes"/>
-      <point x="564" y="-6"/>
-      <point x="515" y="-50"/>
+      <point x="461" y="-100" type="curve"/>
+      <point x="487" y="-177" type="line"/>
+      <point x="533" y="-129"/>
+      <point x="592" y="-66"/>
+      <point x="623" y="-41" type="curve" smooth="yes"/>
+      <point x="657" y="-15"/>
+      <point x="618" y="46"/>
+      <point x="583" y="18" type="curve" smooth="yes"/>
+      <point x="552" y="-6"/>
+      <point x="503" y="-50"/>
     </contour>
-    <component base="g.jmc.ini"/>
+    <contour>
+      <point x="323" y="-1019" type="curve" smooth="yes"/>
+      <point x="441" y="-1019"/>
+      <point x="504" y="-932"/>
+      <point x="504" y="-789" type="curve" smooth="yes"/>
+      <point x="504" y="489" type="line" smooth="yes"/>
+      <point x="504" y="506"/>
+      <point x="489" y="515"/>
+      <point x="461" y="515" type="curve" smooth="yes"/>
+      <point x="432" y="515"/>
+      <point x="418" y="506"/>
+      <point x="418" y="489" type="curve" smooth="yes"/>
+      <point x="418" y="484" type="line"/>
+      <point x="369" y="515"/>
+      <point x="343" y="519"/>
+      <point x="287" y="519" type="curve" smooth="yes"/>
+      <point x="147" y="519"/>
+      <point x="63" y="409"/>
+      <point x="63" y="235" type="curve" smooth="yes"/>
+      <point x="63" y="65"/>
+      <point x="143" y="-17"/>
+      <point x="258" y="-17" type="curve" smooth="yes"/>
+      <point x="311" y="-17"/>
+      <point x="371" y="0"/>
+      <point x="418" y="74" type="curve"/>
+      <point x="418" y="-139" type="line"/>
+      <point x="398" y="-161"/>
+      <point x="379" y="-185"/>
+      <point x="361" y="-209" type="curve" smooth="yes"/>
+      <point x="219" y="-400"/>
+      <point x="157" y="-631"/>
+      <point x="157" y="-805" type="curve" smooth="yes"/>
+      <point x="157" y="-945"/>
+      <point x="219" y="-1019"/>
+    </contour>
+    <contour>
+      <point x="329" y="-944" type="curve" smooth="yes"/>
+      <point x="277" y="-944"/>
+      <point x="246" y="-892"/>
+      <point x="246" y="-805" type="curve" smooth="yes"/>
+      <point x="246" y="-631"/>
+      <point x="303" y="-425"/>
+      <point x="397" y="-285" type="curve" smooth="yes"/>
+      <point x="404" y="-275"/>
+      <point x="411" y="-265"/>
+      <point x="418" y="-255" type="curve"/>
+      <point x="418" y="-789" type="line" smooth="yes"/>
+      <point x="418" y="-885"/>
+      <point x="388" y="-944"/>
+    </contour>
+    <contour>
+      <point x="271" y="63" type="curve" smooth="yes"/>
+      <point x="191" y="63"/>
+      <point x="152" y="129"/>
+      <point x="152" y="239" type="curve" smooth="yes"/>
+      <point x="152" y="374"/>
+      <point x="209" y="440"/>
+      <point x="296" y="440" type="curve" smooth="yes"/>
+      <point x="337" y="440"/>
+      <point x="377" y="429"/>
+      <point x="418" y="404" type="curve"/>
+      <point x="418" y="166" type="line"/>
+      <point x="381" y="91"/>
+      <point x="328" y="63"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -47,19 +111,10 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>g.jmc.ini</string>
-        </dict>
-      </array>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>PC</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>g</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

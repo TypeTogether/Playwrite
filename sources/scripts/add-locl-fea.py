@@ -9,7 +9,8 @@ import os
 
 tag, feaFilepath = sys.argv[1], sys.argv[2]
 
-print(f"Building {tag.upper()} fonts")
+# print(f"Building {tag.upper()} fonts")
+print(f"Building {tag} fonts")
 
 feaTagFilepath = feaFilepath.replace(".fea", "-temp.fea")
 

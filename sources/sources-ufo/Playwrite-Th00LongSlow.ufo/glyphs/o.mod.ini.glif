@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="o.mod.ini" format="2">
-  <advance width="601"/>
-  <anchor x="601" y="0" name="cnct"/>
-  <anchor x="308" y="0" name="bottom"/>
-  <anchor x="308" y="250" name="center"/>
-  <anchor x="398" y="0" name="ogonek"/>
-  <anchor x="308" y="500" name="top"/>
-  <anchor x="378" y="506" name="topright"/>
+  <advance width="588"/>
+  <anchor x="588" y="0" name="cnct"/>
+  <anchor x="295" y="0" name="bottom"/>
+  <anchor x="295" y="250" name="center"/>
+  <anchor x="385" y="0" name="ogonek"/>
+  <anchor x="295" y="500" name="top"/>
+  <anchor x="365" y="506" name="topright"/>
   <outline>
-    <component base="o" xOffset="13"/>
+    <component base="o"/>
   </outline>
   <lib>
     <dict>
@@ -50,6 +50,10 @@
           <string>o</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

@@ -1,43 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="k.mod.ini" format="2">
-  <advance width="576"/>
-  <anchor x="235" y="0" name="bottom"/>
-  <anchor x="495" y="0" name="cnct"/>
-  <anchor x="350" y="838" name="top"/>
+  <advance width="552"/>
+  <anchor x="211" y="0" name="bottom"/>
+  <anchor x="471" y="0" name="cnct"/>
+  <anchor x="326" y="838" name="top"/>
   <outline>
     <contour>
-      <point x="445" y="-17" type="curve" smooth="yes"/>
-      <point x="469" y="-17"/>
-      <point x="474" y="18"/>
-      <point x="451" y="18" type="curve" smooth="yes"/>
-      <point x="389" y="18"/>
-      <point x="355" y="43"/>
-      <point x="223" y="263" type="curve"/>
-      <point x="561" y="483" type="line" smooth="yes"/>
-      <point x="569" y="488"/>
-      <point x="569" y="498"/>
-      <point x="564" y="505" type="curve" smooth="yes"/>
-      <point x="559" y="513"/>
-      <point x="551" y="518"/>
-      <point x="536" y="508" type="curve" smooth="yes"/>
-      <point x="194" y="287" type="line"/>
-      <point x="588" y="1495" type="line" smooth="yes"/>
-      <point x="591" y="1506"/>
-      <point x="584" y="1515"/>
-      <point x="571" y="1515" type="curve" smooth="yes"/>
-      <point x="559" y="1515"/>
-      <point x="554" y="1511"/>
-      <point x="550" y="1500" type="curve" smooth="yes"/>
-      <point x="61" y="4" type="line" smooth="yes"/>
-      <point x="58" y="-7"/>
-      <point x="66" y="-15"/>
-      <point x="79" y="-15" type="curve" smooth="yes"/>
-      <point x="91" y="-15"/>
-      <point x="98" y="-11"/>
-      <point x="101" y="0" type="curve" smooth="yes"/>
-      <point x="184" y="255" type="line"/>
-      <point x="319" y="23"/>
-      <point x="360" y="-17"/>
+      <point x="421" y="-17" type="curve" smooth="yes"/>
+      <point x="445" y="-17"/>
+      <point x="450" y="18"/>
+      <point x="427" y="18" type="curve" smooth="yes"/>
+      <point x="365" y="18"/>
+      <point x="331" y="43"/>
+      <point x="199" y="263" type="curve"/>
+      <point x="537" y="483" type="line" smooth="yes"/>
+      <point x="545" y="488"/>
+      <point x="545" y="498"/>
+      <point x="540" y="505" type="curve" smooth="yes"/>
+      <point x="535" y="513"/>
+      <point x="527" y="518"/>
+      <point x="512" y="508" type="curve" smooth="yes"/>
+      <point x="170" y="287" type="line"/>
+      <point x="564" y="1495" type="line" smooth="yes"/>
+      <point x="567" y="1506"/>
+      <point x="560" y="1515"/>
+      <point x="547" y="1515" type="curve" smooth="yes"/>
+      <point x="535" y="1515"/>
+      <point x="530" y="1511"/>
+      <point x="526" y="1500" type="curve" smooth="yes"/>
+      <point x="37" y="4" type="line" smooth="yes"/>
+      <point x="34" y="-7"/>
+      <point x="42" y="-15"/>
+      <point x="55" y="-15" type="curve" smooth="yes"/>
+      <point x="67" y="-15"/>
+      <point x="74" y="-11"/>
+      <point x="77" y="0" type="curve" smooth="yes"/>
+      <point x="160" y="255" type="line"/>
+      <point x="295" y="23"/>
+      <point x="336" y="-17"/>
     </contour>
   </outline>
   <lib>
@@ -69,6 +69,10 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>k</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

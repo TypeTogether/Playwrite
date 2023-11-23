@@ -1,37 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idotless.mod" format="2">
-  <advance width="325"/>
-  <anchor x="136" y="0" name="bottom"/>
-  <anchor x="203" y="0" name="ogonek"/>
-  <anchor x="240" y="500" name="top"/>
+  <advance width="300"/>
+  <anchor x="111" y="0" name="bottom"/>
+  <anchor x="178" y="0" name="ogonek"/>
+  <anchor x="215" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="144" y="-15" type="curve" smooth="yes"/>
-      <point x="198" y="-15"/>
-      <point x="244" y="14"/>
-      <point x="286" y="81" type="curve" smooth="yes"/>
-      <point x="294" y="94"/>
-      <point x="290" y="108"/>
-      <point x="269" y="121" type="curve" smooth="yes"/>
-      <point x="254" y="131"/>
-      <point x="245" y="129"/>
-      <point x="234" y="116" type="curve" smooth="yes"/>
-      <point x="201" y="78"/>
-      <point x="186" y="61"/>
-      <point x="168" y="61" type="curve" smooth="yes"/>
-      <point x="151" y="61"/>
-      <point x="149" y="75"/>
-      <point x="158" y="103" type="curve" smooth="yes"/>
-      <point x="280" y="476" type="line" smooth="yes"/>
-      <point x="289" y="503"/>
-      <point x="280" y="515"/>
-      <point x="239" y="515" type="curve" smooth="yes"/>
-      <point x="213" y="515"/>
-      <point x="203" y="510"/>
-      <point x="194" y="483" type="curve" smooth="yes"/>
-      <point x="88" y="159" type="line" smooth="yes"/>
-      <point x="50" y="45"/>
-      <point x="69" y="-15"/>
+      <point x="119" y="-15" type="curve" smooth="yes"/>
+      <point x="173" y="-15"/>
+      <point x="219" y="14"/>
+      <point x="261" y="81" type="curve" smooth="yes"/>
+      <point x="269" y="94"/>
+      <point x="265" y="108"/>
+      <point x="244" y="121" type="curve" smooth="yes"/>
+      <point x="229" y="131"/>
+      <point x="220" y="129"/>
+      <point x="209" y="116" type="curve" smooth="yes"/>
+      <point x="176" y="78"/>
+      <point x="161" y="61"/>
+      <point x="143" y="61" type="curve" smooth="yes"/>
+      <point x="126" y="61"/>
+      <point x="124" y="75"/>
+      <point x="133" y="103" type="curve" smooth="yes"/>
+      <point x="255" y="476" type="line" smooth="yes"/>
+      <point x="264" y="503"/>
+      <point x="255" y="515"/>
+      <point x="214" y="515" type="curve" smooth="yes"/>
+      <point x="188" y="515"/>
+      <point x="178" y="510"/>
+      <point x="169" y="483" type="curve" smooth="yes"/>
+      <point x="63" y="159" type="line" smooth="yes"/>
+      <point x="25" y="45"/>
+      <point x="44" y="-15"/>
     </contour>
   </outline>
   <lib>
@@ -63,6 +63,10 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>idotless</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

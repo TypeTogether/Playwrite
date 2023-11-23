@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.mod" format="2">
-  <advance width="324"/>
-  <anchor x="204" y="738" name="CAT"/>
-  <anchor x="224" y="0" name="bottom"/>
-  <anchor x="156" y="725" name="center"/>
-  <anchor x="156" y="1421" name="top"/>
-  <anchor x="175" y="1500" name="topright"/>
+  <advance width="299"/>
+  <anchor x="179" y="738" name="CAT"/>
+  <anchor x="199" y="0" name="bottom"/>
+  <anchor x="131" y="725" name="center"/>
+  <anchor x="131" y="1421" name="top"/>
+  <anchor x="150" y="1500" name="topright"/>
   <outline>
-    <component base="l" xOffset="25"/>
+    <component base="l"/>
   </outline>
   <lib>
     <dict>
@@ -49,6 +49,10 @@
           <string>l</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

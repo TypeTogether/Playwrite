@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="b.jmc" format="2">
-  <advance width="635"/>
-  <anchor x="261" y="0" name="bottom"/>
-  <anchor x="343" y="250" name="center"/>
-  <anchor x="424" y="500" name="top"/>
+  <advance width="610"/>
+  <anchor x="236" y="0" name="bottom"/>
+  <anchor x="318" y="250" name="center"/>
+  <anchor x="399" y="500" name="top"/>
   <outline>
-    <component base="b" xOffset="25"/>
+    <component base="b"/>
   </outline>
   <lib>
     <dict>
@@ -47,6 +47,10 @@
           <string>b</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>b</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

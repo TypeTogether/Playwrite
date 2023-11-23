@@ -3,7 +3,50 @@
   <advance width="654"/>
   <anchor x="654" y="0" name="cnct"/>
   <outline>
-    <component base="p.ful.ini"/>
+    <contour>
+      <point x="161" y="-390" type="curve" smooth="yes"/>
+      <point x="190" y="-390"/>
+      <point x="205" y="-381"/>
+      <point x="205" y="-364" type="curve" smooth="yes"/>
+      <point x="205" y="325" type="line"/>
+      <point x="241" y="410"/>
+      <point x="304" y="439"/>
+      <point x="363" y="439" type="curve" smooth="yes"/>
+      <point x="436" y="439"/>
+      <point x="465" y="396"/>
+      <point x="465" y="326" type="curve" smooth="yes"/>
+      <point x="465" y="253"/>
+      <point x="438" y="170"/>
+      <point x="438" y="115" type="curve" smooth="yes"/>
+      <point x="438" y="33"/>
+      <point x="490" y="-17"/>
+      <point x="579" y="-17" type="curve" smooth="yes"/>
+      <point x="636" y="-17"/>
+      <point x="635" y="58"/>
+      <point x="598" y="58" type="curve" smooth="yes"/>
+      <point x="540" y="58"/>
+      <point x="521" y="81"/>
+      <point x="521" y="120" type="curve" smooth="yes"/>
+      <point x="521" y="178"/>
+      <point x="551" y="253"/>
+      <point x="551" y="334" type="curve" smooth="yes"/>
+      <point x="551" y="465"/>
+      <point x="478" y="519"/>
+      <point x="375" y="519" type="curve" smooth="yes"/>
+      <point x="304" y="519"/>
+      <point x="243" y="482"/>
+      <point x="205" y="424" type="curve"/>
+      <point x="205" y="489" type="line" smooth="yes"/>
+      <point x="205" y="506"/>
+      <point x="190" y="515"/>
+      <point x="161" y="515" type="curve" smooth="yes"/>
+      <point x="133" y="515"/>
+      <point x="119" y="506"/>
+      <point x="119" y="489" type="curve" smooth="yes"/>
+      <point x="119" y="-364" type="line" smooth="yes"/>
+      <point x="119" y="-381"/>
+      <point x="133" y="-390"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -34,17 +77,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>p.ful.ini</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

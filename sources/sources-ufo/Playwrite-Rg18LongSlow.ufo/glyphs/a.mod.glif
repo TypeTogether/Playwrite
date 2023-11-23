@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="a.mod" format="2">
-  <advance width="635"/>
-  <anchor x="244" y="0" name="bottom"/>
-  <anchor x="558" y="13" name="ogonek"/>
-  <anchor x="387" y="500" name="top"/>
+  <advance width="622"/>
+  <anchor x="231" y="0" name="bottom"/>
+  <anchor x="545" y="13" name="ogonek"/>
+  <anchor x="374" y="500" name="top"/>
   <outline>
-    <component base="a" xOffset="13"/>
+    <component base="a"/>
   </outline>
   <lib>
     <dict>
@@ -47,6 +47,10 @@
           <string>a</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>a</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

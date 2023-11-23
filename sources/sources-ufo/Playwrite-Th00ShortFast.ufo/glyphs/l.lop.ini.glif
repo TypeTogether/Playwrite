@@ -2,7 +2,7 @@
 <glyph name="l.lop.ini" format="2">
   <advance width="394"/>
   <anchor x="394" y="0" name="cnct"/>
-  <anchor x="274" y="438" name="CAT"/>
+  <anchor x="284" y="438" name="CAT"/>
   <anchor x="255" y="0" name="bottom"/>
   <anchor x="197" y="438" name="center"/>
   <anchor x="259" y="838" name="top"/>
@@ -66,8 +66,6 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
       <string>PC</string>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
     </dict>
   </lib>
 </glyph>

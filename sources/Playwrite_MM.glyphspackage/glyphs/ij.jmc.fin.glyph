@@ -1,5 +1,4 @@
 {
-color = 8;
 glyphname = ij.jmc.fin;
 kernRight = g.jmc.fin;
 layers = (
@@ -10,15 +9,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m002;
@@ -27,15 +26,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m003;
@@ -44,15 +43,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m004;
@@ -61,15 +60,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m005;
@@ -78,15 +77,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m006;
@@ -95,15 +94,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m007;
@@ -112,15 +111,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m008;
@@ -129,15 +128,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m009;
@@ -146,15 +145,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m010;
@@ -163,15 +162,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m011;
@@ -180,15 +179,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m012;
@@ -197,15 +196,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m013;
@@ -214,15 +213,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m014;
@@ -231,15 +230,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m015;
@@ -248,15 +247,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 },
 {
 layerId = m016;
@@ -265,15 +264,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.jmc;
 }
 );
-width = 641;
+width = 616;
 }
 );
 }

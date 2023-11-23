@@ -141,7 +141,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playwrite DNK Loopet Thin" familyname="Playwrite DNK Loopet" stylename="Thin" filename="../instance_ufo/PlaywriteDNKLoopet-Thin.ufo" postscriptfontname="PlaywriteDNKLoopet-Thin" stylemapfamilyname="Playwrite DNK Loopet Thin" stylemapstylename="regular">
+    <instance name="Playwrite DK Uloopet Thin" familyname="Playwrite DK Uloopet" stylename="Thin" filename="../instance_ufo/PlaywriteDKUloopet-Thin.ufo" postscriptfontname="PlaywriteDKUloopet-Thin" stylemapfamilyname="Playwrite DK Uloopet Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="18"/>
@@ -149,7 +149,7 @@
         <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
-    <instance name="Playwrite DNK Loopet ExtraLight" familyname="Playwrite DNK Loopet" stylename="ExtraLight" filename="../instance_ufo/PlaywriteDNKLoopet-ExtraLight.ufo" postscriptfontname="PlaywriteDNKLoopet-ExtraLight" stylemapfamilyname="Playwrite DNK Loopet ExtraLight" stylemapstylename="regular">
+    <instance name="Playwrite DK Uloopet ExtraLight" familyname="Playwrite DK Uloopet" stylename="ExtraLight" filename="../instance_ufo/PlaywriteDKUloopet-ExtraLight.ufo" postscriptfontname="PlaywriteDKUloopet-ExtraLight" stylemapfamilyname="Playwrite DK Uloopet ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="18"/>
@@ -157,7 +157,7 @@
         <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
-    <instance name="Playwrite DNK Loopet Light" familyname="Playwrite DNK Loopet" stylename="Light" filename="../instance_ufo/PlaywriteDNKLoopet-Light.ufo" postscriptfontname="PlaywriteDNKLoopet-Light" stylemapfamilyname="Playwrite DNK Loopet Light" stylemapstylename="regular">
+    <instance name="Playwrite DK Uloopet Light" familyname="Playwrite DK Uloopet" stylename="Light" filename="../instance_ufo/PlaywriteDKUloopet-Light.ufo" postscriptfontname="PlaywriteDKUloopet-Light" stylemapfamilyname="Playwrite DK Uloopet Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Slant" xvalue="18"/>
@@ -165,7 +165,7 @@
         <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
-    <instance name="Playwrite DNK Loopet Regular" familyname="Playwrite DNK Loopet" stylename="Regular" filename="../instance_ufo/PlaywriteDNKLoopet-Regular.ufo" postscriptfontname="PlaywriteDNKLoopet-Regular" stylemapfamilyname="Playwrite DNK Loopet" stylemapstylename="regular">
+    <instance name="Playwrite DK Uloopet Regular" familyname="Playwrite DK Uloopet" stylename="Regular" filename="../instance_ufo/PlaywriteDKUloopet-Regular.ufo" postscriptfontname="PlaywriteDKUloopet-Regular" stylemapfamilyname="Playwrite DK Uloopet" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="18"/>

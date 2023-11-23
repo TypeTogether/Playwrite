@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = s.mod;
 kernLeft = s;
 kernRight = s;
@@ -420,4 +421,5 @@ com.hugojourdan.ColorFlow = {
 width = 479;
 }
 );
+metricLeft = s;
 }
