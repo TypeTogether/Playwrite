@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = d.mod;
 kernLeft = a;
 kernRight = a;
@@ -8,7 +9,6 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (13,0);
 ref = d;
 }
 );
@@ -28,14 +28,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 641;
+width = 628;
 },
 {
 layerId = m002;
 shapes = (
 {
 alignment = -1;
-pos = (13,0);
 ref = d;
 }
 );
@@ -55,14 +54,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 641;
+width = 628;
 },
 {
 layerId = m003;
 shapes = (
 {
 alignment = -1;
-pos = (13,0);
 ref = d;
 }
 );
@@ -82,14 +80,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 641;
+width = 628;
 },
 {
 layerId = m004;
 shapes = (
 {
 alignment = -1;
-pos = (13,0);
 ref = d;
 }
 );
@@ -109,14 +106,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 641;
+width = 628;
 },
 {
 layerId = m005;
 shapes = (
 {
 alignment = -1;
-pos = (13,0);
 ref = d;
 }
 );
@@ -136,7 +132,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 641;
+width = 628;
 },
 {
 layerId = m006;
@@ -221,7 +217,6 @@ layerId = m009;
 shapes = (
 {
 alignment = -1;
-pos = (13,0);
 ref = d;
 }
 );
@@ -241,14 +236,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 641;
+width = 628;
 },
 {
 layerId = m010;
 shapes = (
 {
 alignment = -1;
-pos = (13,0);
 ref = d;
 }
 );
@@ -268,14 +262,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 641;
+width = 628;
 },
 {
 layerId = m011;
 shapes = (
 {
 alignment = -1;
-pos = (13,0);
 ref = d;
 }
 );
@@ -295,14 +288,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 641;
+width = 628;
 },
 {
 layerId = m012;
 shapes = (
 {
 alignment = -1;
-pos = (13,0);
 ref = d;
 }
 );
@@ -322,14 +314,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 641;
+width = 628;
 },
 {
 layerId = m013;
 shapes = (
 {
 alignment = -1;
-pos = (13,0);
 ref = d;
 }
 );
@@ -349,7 +340,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 641;
+width = 628;
 },
 {
 layerId = m014;
@@ -430,4 +421,5 @@ com.hugojourdan.ColorFlow = {
 width = 641;
 }
 );
+metricLeft = d;
 }

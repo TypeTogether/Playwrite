@@ -6,7 +6,7 @@ scripts="../scripts"
 feaFile=../features/Playwrite-models.fea
 
 if [ $1 = "ALL" ]; then
-    models=( AR AU_NSW AU_QLD AU_SA AU_TAS AU_VIC AT BE_WAL BE_VLG BR CA CL CO HR HR_Lijeva CU CZ DK_Loopet DK_Uloopet EE GB_SemiJoin GB_Joined FR_Trad FR_Modern DE_Grund DE_LA DE_SAS DE_VA HU IS IN ID IE IT_Trad IT_Modern MX NL NZ NG NO PE PL PT RO SK ZA ES ES_Ornate  TZ CH US_Modern US_Trad VN )
+    models=( AR AU_NSW AU_QLD AU_SA AU_TAS AU_VIC AT BE_WAL BE_VLG BR CA CL CO HR HR_Lijeva CU CZ DK_Loopet DK_Uloopet EE GB_SemiJoin GB_Joined FR_Trad FR_Modern DE_Grund DE_LA DE_SAS DE_VA HU IS IN ID IE IT_Trad IT_Modern MX NL NZ NO PE PL PT RO SK ZA ES ES_Ornate TZ US_Modern US_Trad VN )
 else
     models=( "$@" )
 fi
@@ -58,3 +58,6 @@ echo
     mv "$ttf.fix" $ttf
     echo $ttf
 done
+
+# clean-up
+rm -rf ./instance_ufo

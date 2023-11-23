@@ -1,10 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="idotless.mod.fin" format="2">
-  <advance width="325"/>
-  <anchor x="150" y="0" name="bottom"/>
-  <anchor x="204" y="0" name="ogonek"/>
-  <anchor x="238" y="500" name="top"/>
+  <advance width="326"/>
+  <anchor x="151" y="0" name="bottom"/>
+  <anchor x="205" y="0" name="ogonek"/>
+  <anchor x="240" y="500" name="top"/>
   <outline>
-    <component base="idotless.mod"/>
+    <component base="idotless" xOffset="26"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>idotless</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>idotless.mod.med</string>
+    </dict>
+  </lib>
 </glyph>

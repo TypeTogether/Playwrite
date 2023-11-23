@@ -514,7 +514,6 @@
     </array>
     <key>public.kern1.g.jmc.fin</key>
     <array>
-      <string>g.jmc.fin</string>
       <string>j.jmc.fin</string>
       <string>jdotless.jmc.fin</string>
       <string>y.jmc.fin</string>
@@ -1272,6 +1271,8 @@
       <string>j.mod.ini</string>
       <string>jdotless.mod</string>
       <string>jdotless.mod.ini</string>
+      <string>ij.mod</string>
+      <string>ij.mod.ini</string>
       <string>j.jmc.ini</string>
       <string>jdotless.jmc.ini</string>
       <string>ij.jmc.ini</string>
@@ -1469,9 +1470,13 @@
       <string>y.mod</string>
       <string>y.mod.ini</string>
       <string>y.jmc.ini</string>
+      <string>v.ful</string>
       <string>v.ful.ini</string>
+      <string>w.ful</string>
       <string>w.ful.ini</string>
+      <string>v.ful_at</string>
       <string>v.ful_at.ini</string>
+      <string>w.ful_at</string>
       <string>w.ful_at.ini</string>
     </array>
     <key>public.kern2.v</key>

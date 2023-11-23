@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="q.jmc_ar" format="2">
-  <advance width="660"/>
+  <advance width="647"/>
   <outline>
-    <component base="q" xOffset="13"/>
-    <component base="strokeshortcomb" xOffset="303" yOffset="-529"/>
+    <component base="q"/>
+    <component base="strokeshortcomb" xOffset="290" yOffset="-529"/>
   </outline>
   <lib>
     <dict>
@@ -53,6 +53,10 @@
           <string>strokeshortcomb</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>q</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

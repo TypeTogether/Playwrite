@@ -1,11 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="k.mod.med" format="2">
   <advance width="576"/>
-  <anchor x="576" y="0" name="cnct"/>
   <anchor x="326" y="0" name="bottom"/>
+  <anchor x="576" y="0" name="cnct"/>
   <anchor x="168" y="838" name="top"/>
   <outline>
-    <component base="k.mod.ini"/>
+    <contour>
+      <point x="501" y="-17" type="curve" smooth="yes"/>
+      <point x="551" y="-17"/>
+      <point x="556" y="58"/>
+      <point x="519" y="58" type="curve" smooth="yes"/>
+      <point x="464" y="58"/>
+      <point x="428" y="74"/>
+      <point x="276" y="280" type="curve"/>
+      <point x="499" y="448" type="line" smooth="yes"/>
+      <point x="523" y="465"/>
+      <point x="516" y="484"/>
+      <point x="503" y="499" type="curve" smooth="yes"/>
+      <point x="483" y="523"/>
+      <point x="466" y="518"/>
+      <point x="446" y="503" type="curve" smooth="yes"/>
+      <point x="211" y="328" type="line"/>
+      <point x="211" y="1489" type="line" smooth="yes"/>
+      <point x="211" y="1506"/>
+      <point x="196" y="1515"/>
+      <point x="168" y="1515" type="curve" smooth="yes"/>
+      <point x="139" y="1515"/>
+      <point x="125" y="1506"/>
+      <point x="125" y="1489" type="curve" smooth="yes"/>
+      <point x="125" y="11" type="line" smooth="yes"/>
+      <point x="125" y="-6"/>
+      <point x="139" y="-15"/>
+      <point x="168" y="-15" type="curve" smooth="yes"/>
+      <point x="196" y="-15"/>
+      <point x="211" y="-6"/>
+      <point x="211" y="11" type="curve" smooth="yes"/>
+      <point x="211" y="229" type="line"/>
+      <point x="357" y="29"/>
+      <point x="416" y="-17"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -36,17 +69,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>k.mod.ini</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

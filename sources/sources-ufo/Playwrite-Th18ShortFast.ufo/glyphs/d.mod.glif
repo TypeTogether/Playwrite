@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="d.mod" format="2">
-  <advance width="641"/>
-  <anchor x="184" y="0" name="bottom"/>
-  <anchor x="596" y="698" name="center"/>
-  <anchor x="356" y="500" name="top"/>
-  <anchor x="697" y="875" name="topright"/>
+  <advance width="628"/>
+  <anchor x="171" y="0" name="bottom"/>
+  <anchor x="583" y="698" name="center"/>
+  <anchor x="343" y="500" name="top"/>
+  <anchor x="684" y="875" name="topright"/>
   <outline>
-    <component base="d" xOffset="13"/>
+    <component base="d"/>
   </outline>
   <lib>
     <dict>
@@ -48,6 +48,10 @@
           <string>d</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>d</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

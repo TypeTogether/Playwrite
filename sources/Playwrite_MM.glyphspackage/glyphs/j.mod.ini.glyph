@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = j.mod.ini;
 kernLeft = i;
 layers = (
@@ -515,4 +516,5 @@ com.hugojourdan.ColorFlow = {
 width = 305;
 }
 );
+metricLeft = j;
 }

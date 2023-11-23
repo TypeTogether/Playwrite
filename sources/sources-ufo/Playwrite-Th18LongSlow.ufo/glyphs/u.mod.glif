@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="u.mod" format="2">
-  <advance width="671"/>
-  <anchor x="241" y="0" name="bottom"/>
-  <anchor x="529" y="13" name="ogonek"/>
-  <anchor x="394" y="500" name="top"/>
-  <anchor x="575" y="514" name="topright"/>
+  <advance width="646"/>
+  <anchor x="216" y="0" name="bottom"/>
+  <anchor x="504" y="13" name="ogonek"/>
+  <anchor x="369" y="500" name="top"/>
+  <anchor x="550" y="514" name="topright"/>
   <outline>
-    <component base="u" xOffset="25"/>
+    <component base="u"/>
   </outline>
   <lib>
     <dict>
@@ -48,6 +48,10 @@
           <string>u</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>u</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

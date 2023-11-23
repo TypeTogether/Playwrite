@@ -1,9 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jdotless.mod.ini" format="2">
-  <advance width="305"/>
+  <advance width="280"/>
   <anchor x="305" y="0" name="cnct"/>
-  <anchor x="156" y="500" name="top"/>
+  <anchor x="131" y="500" name="top"/>
   <outline>
     <component base="jdotless.mod"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>jdotless</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>
