@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="h.mod" format="2">
-  <advance width="676"/>
-  <anchor x="351" y="0" name="bottom"/>
-  <anchor x="188" y="948" name="center"/>
-  <anchor x="164" y="1424" name="top"/>
+  <advance width="651"/>
+  <anchor x="326" y="0" name="bottom"/>
+  <anchor x="163" y="948" name="center"/>
+  <anchor x="139" y="1424" name="top"/>
   <outline>
-    <component base="h" xOffset="25"/>
+    <component base="h"/>
   </outline>
   <lib>
     <dict>
@@ -47,6 +47,10 @@
           <string>h</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>h</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

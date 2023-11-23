@@ -1,5 +1,7 @@
 {
+color = 6;
 glyphname = ij.mod.ini;
+kernLeft = i;
 layers = (
 {
 anchors = (
@@ -14,15 +16,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -37,15 +39,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -60,15 +62,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -83,15 +85,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -106,15 +108,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -129,15 +131,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -152,15 +154,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -175,15 +177,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -198,15 +200,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -221,15 +223,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -244,15 +246,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -267,15 +269,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -290,15 +292,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -313,15 +315,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -336,15 +338,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 },
 {
 anchors = (
@@ -359,15 +361,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (325,0);
+pos = (300,0);
 ref = j.mod;
 }
 );
-width = 630;
+width = 580;
 }
 );
 }

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="c.mod" format="2">
-  <advance width="535"/>
-  <anchor x="299" y="0" name="bottom"/>
-  <anchor x="296" y="500" name="top"/>
+  <advance width="522"/>
+  <anchor x="286" y="0" name="bottom"/>
+  <anchor x="283" y="500" name="top"/>
   <outline>
-    <component base="c" xOffset="13"/>
+    <component base="c"/>
   </outline>
   <lib>
     <dict>
@@ -46,6 +46,10 @@
           <string>c</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>c</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

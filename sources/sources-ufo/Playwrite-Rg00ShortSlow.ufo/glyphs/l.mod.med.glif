@@ -1,14 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.mod.med" format="2">
   <advance width="324"/>
-  <anchor x="324" y="0" name="cnct"/>
   <anchor x="171" y="438" name="CAT"/>
   <anchor x="225" y="0" name="bottom"/>
   <anchor x="155" y="438" name="center"/>
+  <anchor x="324" y="0" name="cnct"/>
   <anchor x="155" y="838" name="top"/>
   <anchor x="174" y="875" name="topright"/>
   <outline>
-    <component base="l.mod.ini"/>
+    <contour>
+      <point x="250" y="-17" type="curve" smooth="yes"/>
+      <point x="308" y="-17"/>
+      <point x="306" y="58"/>
+      <point x="269" y="58" type="curve" smooth="yes"/>
+      <point x="220" y="58"/>
+      <point x="205" y="80"/>
+      <point x="205" y="140" type="curve" smooth="yes"/>
+      <point x="205" y="864" type="line" smooth="yes"/>
+      <point x="205" y="881"/>
+      <point x="190" y="890"/>
+      <point x="161" y="890" type="curve" smooth="yes"/>
+      <point x="133" y="890"/>
+      <point x="119" y="881"/>
+      <point x="119" y="864" type="curve" smooth="yes"/>
+      <point x="119" y="140" type="line" smooth="yes"/>
+      <point x="119" y="34"/>
+      <point x="159" y="-17"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -39,17 +57,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>l.mod.ini</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

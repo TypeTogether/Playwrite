@@ -1,14 +1,27 @@
 {
-color = 8;
 glyphname = g.jmc.fin;
-kernRight = g.jmc.fin;
 layers = (
 {
 layerId = m01;
 shapes = (
 {
+closed = 1;
+nodes = (
+(485,-41,l),
+(531,-19,o),
+(583,3,o),
+(629,24,cs),
+(653,35,o),
+(639,64,o),
+(620,56,cs),
+(571,38,o),
+(528,16,o),
+(485,-4,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -33,8 +46,23 @@ width = 635;
 layerId = m002;
 shapes = (
 {
+closed = 1;
+nodes = (
+(388,-60,l),
+(443,-35,o),
+(496,-12,o),
+(549,6,cs),
+(576,16,o),
+(573,46,o),
+(551,39,cs),
+(496,20,o),
+(446,0,o),
+(396,-22,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -59,8 +87,23 @@ width = 635;
 layerId = m003;
 shapes = (
 {
+closed = 1;
+nodes = (
+(486,-21,l),
+(536,19,o),
+(585,53,o),
+(635,85,cs),
+(650,95,o),
+(638,125,o),
+(618,111,cs),
+(574,83,o),
+(530,53,o),
+(486,16,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -85,8 +128,23 @@ width = 635;
 layerId = m004;
 shapes = (
 {
+closed = 1;
+nodes = (
+(394,-30,l),
+(458,10,o),
+(518,48,o),
+(579,78,cs),
+(598,86,o),
+(591,118,o),
+(565,105,cs),
+(516,81,o),
+(463,51,o),
+(408,15,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -108,21 +166,26 @@ com.hugojourdan.ColorFlow = {
 width = 635;
 },
 {
-guides = (
-{
-angle = 209.967;
-pos = (319,-42);
-},
-{
-angle = 30.222;
-pos = (323,-70);
-}
-);
 layerId = m005;
 shapes = (
 {
+closed = 1;
+nodes = (
+(485,-66,l),
+(531,-44,o),
+(583,-17,o),
+(619,0,cs),
+(658,18,o),
+(640,85,o),
+(598,69,c),
+(571,58,o),
+(528,38,o),
+(485,16,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -147,8 +210,23 @@ width = 635;
 layerId = m006;
 shapes = (
 {
+closed = 1;
+nodes = (
+(388,-82,l),
+(443,-57,o),
+(496,-36,o),
+(549,-14,cs),
+(580,0,o),
+(574,69,o),
+(535,56,cs),
+(496,43,o),
+(446,23,o),
+(396,0,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -173,8 +251,23 @@ width = 635;
 layerId = m007;
 shapes = (
 {
+closed = 1;
+nodes = (
+(486,-46,l),
+(536,-6,o),
+(585,33,o),
+(628,63,cs),
+(663,88,o),
+(640,153,o),
+(596,123,cs),
+(574,108,o),
+(530,78,o),
+(486,41,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -199,8 +292,23 @@ width = 635;
 layerId = m008;
 shapes = (
 {
+closed = 1;
+nodes = (
+(394,-55,l),
+(458,-15,o),
+(518,23,o),
+(574,50,cs),
+(601,63,o),
+(595,139,o),
+(555,120,cs),
+(516,101,o),
+(463,71,o),
+(408,35,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -222,21 +330,26 @@ com.hugojourdan.ColorFlow = {
 width = 635;
 },
 {
-guides = (
-{
-angle = 209.967;
-pos = (319,-42);
-},
-{
-angle = 30.222;
-pos = (323,-70);
-}
-);
 layerId = m009;
 shapes = (
 {
+closed = 1;
+nodes = (
+(478,-160,l),
+(513,-124,o),
+(579,-64,o),
+(616,-25,cs),
+(634,-7,o),
+(613,15,o),
+(596,1,cs),
+(554,-34,o),
+(495,-94,o),
+(464,-127,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -261,8 +374,23 @@ width = 635;
 layerId = m010;
 shapes = (
 {
+closed = 1;
+nodes = (
+(341,-165,l),
+(406,-115,o),
+(495,-74,o),
+(529,-62,cs),
+(555,-54,o),
+(546,-22,o),
+(524,-31,cs),
+(480,-49,o),
+(403,-82,o),
+(345,-125,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -287,8 +415,23 @@ width = 635;
 layerId = m011;
 shapes = (
 {
+closed = 1;
+nodes = (
+(478,-191,l),
+(513,-130,o),
+(605,-15,o),
+(644,30,cs),
+(655,45,o),
+(634,69,o),
+(619,50,cs),
+(585,11,o),
+(498,-94,o),
+(466,-149,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -313,8 +456,23 @@ width = 635;
 layerId = m012;
 shapes = (
 {
+closed = 1;
+nodes = (
+(335,-194,l),
+(393,-144,o),
+(496,-64,o),
+(553,-26,cs),
+(570,-15,o),
+(560,15,o),
+(535,-1,cs),
+(491,-31,o),
+(391,-104,o),
+(343,-146,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -336,21 +494,26 @@ com.hugojourdan.ColorFlow = {
 width = 635;
 },
 {
-guides = (
-{
-angle = 209.967;
-pos = (319,-42);
-},
-{
-angle = 30.222;
-pos = (323,-70);
-}
-);
 layerId = m013;
 shapes = (
 {
+closed = 1;
+nodes = (
+(499,-177,l),
+(545,-129,o),
+(604,-66,o),
+(635,-41,cs),
+(669,-15,o),
+(630,46,o),
+(595,18,cs),
+(564,-6,o),
+(515,-50,o),
+(473,-100,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -375,8 +538,23 @@ width = 635;
 layerId = m014;
 shapes = (
 {
+closed = 1;
+nodes = (
+(316,-244,l),
+(370,-194,o),
+(476,-131,o),
+(524,-106,cs),
+(555,-90,o),
+(538,-20,o),
+(500,-39,cs),
+(464,-57,o),
+(385,-106,o),
+(335,-146,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -401,8 +579,23 @@ width = 635;
 layerId = m015;
 shapes = (
 {
+closed = 1;
+nodes = (
+(483,-212,l),
+(521,-159,o),
+(603,-54,o),
+(638,-11,cs),
+(665,21,o),
+(629,79,o),
+(593,40,cs),
+(574,19,o),
+(508,-57,o),
+(473,-106,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {
@@ -427,8 +620,23 @@ width = 635;
 layerId = m016;
 shapes = (
 {
+closed = 1;
+nodes = (
+(344,-197,l),
+(405,-145,o),
+(490,-87,o),
+(544,-55,cs),
+(570,-37,o),
+(543,26,o),
+(506,4,cs),
+(464,-24,o),
+(395,-64,o),
+(351,-106,c)
+);
+},
+{
 alignment = -1;
-ref = g.jmc;
+ref = g.jmc.med;
 }
 );
 userData = {

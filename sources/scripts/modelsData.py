@@ -221,30 +221,30 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                  'ij.mod eng oe.mod thorn.jmc germandbls.jmc idotless.mod '
                  'jdotless.jmc',
            'slnt': 10},
- 'DNK_Loopet': {'Country': 'Denmark',
+ 'DK_Loopet': {'Country': 'Denmark',
+               'SPED': 25,
+               'UC': 'A B C D E F G_locl.au H I J K L M.dec N.dec O P '
+                     'Q.cur_locl R S T U V W X Y Z AE Eth IJ Eng OE Thorn '
+                     'Germandbls',
+               'YEXT': 375,
+               'lc': 'a.mod b.jmc_dk c.mod d.mod e.ful f.ful_de g.jmc h.lop '
+                     'i.mod j.jmc k.lop l.lop m.mod n.mod o.mod p.jmc q.mod '
+                     'r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.jmc z.mod '
+                     'ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc '
+                     'germandbls.jmc idotless.mod jdotless.jmc',
+               'slnt': 18},
+ 'DK_Uloopet': {'Country': 'Denmark',
                 'SPED': 25,
                 'UC': 'A B C D E F G_locl.au H I J K L M.dec N.dec O P '
                       'Q.cur_locl R S T U V W X Y Z AE Eth IJ Eng OE Thorn '
                       'Germandbls',
                 'YEXT': 375,
-                'lc': 'a.mod b.jmc_dk c.mod d.mod e.ful f.ful_de g.jmc h.lop '
-                      'i.mod j.jmc k.lop l.lop m.mod n.mod o.mod p.jmc q.mod '
-                      'r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.jmc z.mod '
+                'lc': 'a.mod b.jmc c.mod d.mod e.ful f.mod_au g.mod h.mod '
+                      'i.mod j.mod k.ful l.mod m.mod n.mod o.mod p.jmc q.mod '
+                      'r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.mod z.mod '
                       'ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc '
                       'germandbls.jmc idotless.mod jdotless.jmc',
                 'slnt': 18},
- 'DNK_Uloopet': {'Country': 'Denmark',
-                 'SPED': 25,
-                 'UC': 'A B C D E F G_locl.au H I J K L M.dec N.dec O P '
-                       'Q.cur_locl R S T U V W X Y Z AE Eth IJ Eng OE Thorn '
-                       'Germandbls',
-                 'YEXT': 375,
-                 'lc': 'a.mod b.jmc c.mod d.mod e.ful f.mod_au g.mod h.mod '
-                       'i.mod j.mod k.ful l.mod m.mod n.mod o.mod p.jmc q.mod '
-                       'r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.mod z.mod '
-                       'ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc '
-                       'germandbls.jmc idotless.mod jdotless.jmc',
-                 'slnt': 18},
  'EE': {'Country': 'Estonia',
         'SPED': 50,
         'UC': 'A.dec_locl B.cur C.cur D.dec E.cur F.cur G.cur_ro H.cur I.dec '

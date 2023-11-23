@@ -1,31 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="l.mod.ini" format="2">
-  <advance width="324"/>
-  <anchor x="251" y="438" name="CAT"/>
-  <anchor x="141" y="0" name="bottom"/>
-  <anchor x="218" y="438" name="center"/>
-  <anchor x="243" y="0" name="cnct"/>
-  <anchor x="350" y="838" name="top"/>
-  <anchor x="379" y="874" name="topright"/>
+  <advance width="302"/>
+  <anchor x="229" y="438" name="CAT"/>
+  <anchor x="119" y="0" name="bottom"/>
+  <anchor x="196" y="438" name="center"/>
+  <anchor x="221" y="0" name="cnct"/>
+  <anchor x="328" y="838" name="top"/>
+  <anchor x="357" y="874" name="topright"/>
   <outline>
     <contour>
-      <point x="139" y="-17" type="curve" smooth="yes"/>
-      <point x="168" y="-17"/>
-      <point x="173" y="18"/>
-      <point x="150" y="18" type="curve" smooth="yes"/>
-      <point x="109" y="18"/>
-      <point x="106" y="45"/>
-      <point x="125" y="103" type="curve" smooth="yes"/>
-      <point x="380" y="873" type="line" smooth="yes"/>
-      <point x="384" y="883"/>
-      <point x="376" y="890"/>
-      <point x="364" y="890" type="curve" smooth="yes"/>
-      <point x="349" y="890"/>
-      <point x="345" y="886"/>
-      <point x="341" y="875" type="curve" smooth="yes"/>
-      <point x="86" y="101" type="line" smooth="yes"/>
-      <point x="59" y="18"/>
-      <point x="86" y="-17"/>
+      <point x="117" y="-17" type="curve" smooth="yes"/>
+      <point x="146" y="-17"/>
+      <point x="151" y="18"/>
+      <point x="128" y="18" type="curve" smooth="yes"/>
+      <point x="87" y="18"/>
+      <point x="84" y="45"/>
+      <point x="103" y="103" type="curve" smooth="yes"/>
+      <point x="358" y="873" type="line" smooth="yes"/>
+      <point x="362" y="883"/>
+      <point x="354" y="890"/>
+      <point x="342" y="890" type="curve" smooth="yes"/>
+      <point x="327" y="890"/>
+      <point x="323" y="886"/>
+      <point x="319" y="875" type="curve" smooth="yes"/>
+      <point x="64" y="101" type="line" smooth="yes"/>
+      <point x="37" y="18"/>
+      <point x="64" y="-17"/>
     </contour>
   </outline>
   <lib>
@@ -57,6 +57,10 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

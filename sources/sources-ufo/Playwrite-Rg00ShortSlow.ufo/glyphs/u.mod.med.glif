@@ -1,13 +1,52 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="u.mod.med" format="2">
   <advance width="671"/>
-  <anchor x="671" y="0" name="cnct"/>
   <anchor x="328" y="0" name="bottom"/>
+  <anchor x="671" y="0" name="cnct"/>
   <anchor x="606" y="13" name="ogonek"/>
   <anchor x="328" y="500" name="top"/>
   <anchor x="495" y="514" name="topright"/>
   <outline>
-    <component base="u.mod.ini"/>
+    <contour>
+      <point x="294" y="-17" type="curve" smooth="yes"/>
+      <point x="370" y="-17"/>
+      <point x="428" y="21"/>
+      <point x="465" y="84" type="curve"/>
+      <point x="467" y="74" type="line" smooth="yes"/>
+      <point x="481" y="13"/>
+      <point x="522" y="-17"/>
+      <point x="591" y="-17" type="curve" smooth="yes"/>
+      <point x="649" y="-17"/>
+      <point x="648" y="58"/>
+      <point x="610" y="58" type="curve" smooth="yes"/>
+      <point x="561" y="58"/>
+      <point x="546" y="80"/>
+      <point x="546" y="140" type="curve" smooth="yes"/>
+      <point x="546" y="489" type="line" smooth="yes"/>
+      <point x="546" y="506"/>
+      <point x="531" y="515"/>
+      <point x="503" y="515" type="curve" smooth="yes"/>
+      <point x="474" y="515"/>
+      <point x="460" y="506"/>
+      <point x="460" y="489" type="curve" smooth="yes"/>
+      <point x="460" y="177" type="line"/>
+      <point x="432" y="109"/>
+      <point x="380" y="59"/>
+      <point x="305" y="59" type="curve" smooth="yes"/>
+      <point x="238" y="59"/>
+      <point x="205" y="95"/>
+      <point x="205" y="166" type="curve" smooth="yes"/>
+      <point x="205" y="489" type="line" smooth="yes"/>
+      <point x="205" y="506"/>
+      <point x="190" y="515"/>
+      <point x="161" y="515" type="curve" smooth="yes"/>
+      <point x="133" y="515"/>
+      <point x="119" y="506"/>
+      <point x="119" y="489" type="curve" smooth="yes"/>
+      <point x="119" y="166" type="line" smooth="yes"/>
+      <point x="119" y="44"/>
+      <point x="178" y="-17"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -38,17 +77,6 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>u.mod.ini</string>
-        </dict>
-      </array>
     </dict>
   </lib>
 </glyph>

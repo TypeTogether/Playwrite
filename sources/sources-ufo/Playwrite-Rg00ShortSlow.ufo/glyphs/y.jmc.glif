@@ -1,23 +1,80 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="y.jmc" format="2">
-  <advance width="665"/>
-  <anchor x="190" y="86" name="bottom"/>
-  <anchor x="665" y="0" name="cnct"/>
-  <anchor x="333" y="500" name="top"/>
+  <advance width="640"/>
+  <anchor x="165" y="86" name="bottom"/>
+  <anchor x="640" y="0" name="cnct"/>
+  <anchor x="308" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="520" y="16" type="curve"/>
-      <point x="520" y="-66" type="line"/>
-      <point x="566" y="-44"/>
-      <point x="618" y="-17"/>
-      <point x="654" y="0" type="curve" smooth="yes"/>
-      <point x="693" y="18"/>
-      <point x="675" y="85"/>
-      <point x="633" y="69" type="curve"/>
-      <point x="606" y="58"/>
-      <point x="563" y="38"/>
+      <point x="495" y="16" type="curve"/>
+      <point x="495" y="-66" type="line"/>
+      <point x="541" y="-44"/>
+      <point x="593" y="-17"/>
+      <point x="629" y="0" type="curve" smooth="yes"/>
+      <point x="668" y="18"/>
+      <point x="650" y="85"/>
+      <point x="608" y="69" type="curve"/>
+      <point x="581" y="58"/>
+      <point x="538" y="38"/>
     </contour>
-    <component base="y.jmc.ini"/>
+    <contour>
+      <point x="319" y="-394" type="curve" smooth="yes"/>
+      <point x="440" y="-394"/>
+      <point x="521" y="-297"/>
+      <point x="521" y="-125" type="curve" smooth="yes"/>
+      <point x="521" y="489" type="line" smooth="yes"/>
+      <point x="521" y="506"/>
+      <point x="506" y="515"/>
+      <point x="478" y="515" type="curve" smooth="yes"/>
+      <point x="449" y="515"/>
+      <point x="435" y="506"/>
+      <point x="435" y="489" type="curve" smooth="yes"/>
+      <point x="435" y="177" type="line"/>
+      <point x="407" y="109"/>
+      <point x="355" y="59"/>
+      <point x="280" y="59" type="curve" smooth="yes"/>
+      <point x="213" y="59"/>
+      <point x="180" y="95"/>
+      <point x="180" y="166" type="curve" smooth="yes"/>
+      <point x="180" y="489" type="line" smooth="yes"/>
+      <point x="180" y="506"/>
+      <point x="165" y="515"/>
+      <point x="136" y="515" type="curve" smooth="yes"/>
+      <point x="108" y="515"/>
+      <point x="94" y="506"/>
+      <point x="94" y="489" type="curve" smooth="yes"/>
+      <point x="94" y="166" type="line" smooth="yes"/>
+      <point x="94" y="44"/>
+      <point x="153" y="-17"/>
+      <point x="269" y="-17" type="curve" smooth="yes"/>
+      <point x="342" y="-17"/>
+      <point x="399" y="18"/>
+      <point x="435" y="77" type="curve"/>
+      <point x="435" y="-11" type="line"/>
+      <point x="401" y="-31"/>
+      <point x="368" y="-51"/>
+      <point x="334" y="-70" type="curve" smooth="yes"/>
+      <point x="223" y="-134"/>
+      <point x="170" y="-199"/>
+      <point x="170" y="-269" type="curve" smooth="yes"/>
+      <point x="170" y="-347"/>
+      <point x="229" y="-394"/>
+    </contour>
+    <contour>
+      <point x="324" y="-316" type="curve" smooth="yes"/>
+      <point x="280" y="-316"/>
+      <point x="259" y="-296"/>
+      <point x="259" y="-260" type="curve" smooth="yes"/>
+      <point x="259" y="-220"/>
+      <point x="290" y="-179"/>
+      <point x="344" y="-147" type="curve" smooth="yes"/>
+      <point x="374" y="-129"/>
+      <point x="404" y="-112"/>
+      <point x="435" y="-94" type="curve"/>
+      <point x="435" y="-122" type="line" smooth="yes"/>
+      <point x="435" y="-250"/>
+      <point x="393" y="-316"/>
+    </contour>
   </outline>
   <lib>
     <dict>
@@ -48,19 +105,10 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>y.jmc.ini</string>
-        </dict>
-      </array>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>PC</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>y</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

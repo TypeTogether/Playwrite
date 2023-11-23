@@ -1,35 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="r.mod.ini" format="2">
-  <advance width="404"/>
-  <anchor x="76" y="0" name="bottom"/>
-  <anchor x="323" y="0" name="cnct"/>
-  <anchor x="360" y="500" name="top"/>
+  <advance width="379"/>
+  <anchor x="51" y="0" name="bottom"/>
+  <anchor x="298" y="0" name="cnct"/>
+  <anchor x="335" y="500" name="top"/>
   <outline>
     <contour>
-      <point x="81" y="-15" type="curve" smooth="yes"/>
-      <point x="111" y="-15"/>
-      <point x="123" y="-7"/>
-      <point x="129" y="11" type="curve" smooth="yes"/>
-      <point x="210" y="261" type="line"/>
-      <point x="259" y="371"/>
-      <point x="331" y="439"/>
-      <point x="391" y="439" type="curve" smooth="yes"/>
-      <point x="448" y="439"/>
-      <point x="466" y="519"/>
-      <point x="416" y="519" type="curve" smooth="yes"/>
-      <point x="362.992" y="519"/>
-      <point x="310" y="485"/>
-      <point x="263" y="423" type="curve"/>
-      <point x="280" y="476" type="line" smooth="yes"/>
-      <point x="289" y="503"/>
-      <point x="280" y="515"/>
-      <point x="239" y="515" type="curve" smooth="yes"/>
-      <point x="213" y="515"/>
-      <point x="203" y="510"/>
-      <point x="194" y="483" type="curve" smooth="yes"/>
-      <point x="44" y="18" type="line" smooth="yes"/>
-      <point x="35" y="-7"/>
-      <point x="60" y="-15"/>
+      <point x="56" y="-15" type="curve" smooth="yes"/>
+      <point x="86" y="-15"/>
+      <point x="98" y="-7"/>
+      <point x="104" y="11" type="curve" smooth="yes"/>
+      <point x="185" y="261" type="line"/>
+      <point x="234" y="371"/>
+      <point x="306" y="439"/>
+      <point x="366" y="439" type="curve" smooth="yes"/>
+      <point x="423" y="439"/>
+      <point x="441" y="519"/>
+      <point x="391" y="519" type="curve" smooth="yes"/>
+      <point x="338" y="519"/>
+      <point x="285" y="485"/>
+      <point x="238" y="423" type="curve"/>
+      <point x="255" y="476" type="line" smooth="yes"/>
+      <point x="264" y="503"/>
+      <point x="255" y="515"/>
+      <point x="214" y="515" type="curve" smooth="yes"/>
+      <point x="188" y="515"/>
+      <point x="178" y="510"/>
+      <point x="169" y="483" type="curve" smooth="yes"/>
+      <point x="19" y="18" type="line" smooth="yes"/>
+      <point x="10" y="-7"/>
+      <point x="35" y="-15"/>
     </contour>
   </outline>
   <lib>
@@ -61,6 +61,10 @@
         <key>9</key>
         <integer>0</integer>
       </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>r</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

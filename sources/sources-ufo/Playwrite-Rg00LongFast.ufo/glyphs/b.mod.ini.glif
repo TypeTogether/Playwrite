@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="b.mod.ini" format="2">
-  <advance width="623"/>
-  <anchor x="623" y="0" name="cnct"/>
-  <anchor x="360" y="0" name="bottom"/>
-  <anchor x="360" y="250" name="center"/>
-  <anchor x="360" y="500" name="top"/>
+  <advance width="598"/>
+  <anchor x="598" y="0" name="cnct"/>
+  <anchor x="335" y="0" name="bottom"/>
+  <anchor x="335" y="250" name="center"/>
+  <anchor x="335" y="500" name="top"/>
   <outline>
-    <component base="b" xOffset="25"/>
+    <component base="b"/>
   </outline>
   <lib>
     <dict>
@@ -48,6 +48,10 @@
           <string>b</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>b</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

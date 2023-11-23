@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = p.mod.ini;
 kernLeft = n;
 layers = (
@@ -6,14 +7,13 @@ layers = (
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (597,0);
 }
 );
 layerId = m01;
 shapes = (
 {
 alignment = -1;
-pos = (19,0);
 ref = p;
 }
 );
@@ -33,20 +33,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 597;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (514,0);
 }
 );
 layerId = m002;
 shapes = (
 {
 alignment = -1;
-pos = (21,0);
 ref = p;
 }
 );
@@ -66,20 +65,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 595;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (597,0);
 }
 );
 layerId = m003;
 shapes = (
 {
 alignment = -1;
-pos = (19,0);
 ref = p;
 }
 );
@@ -99,20 +97,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 597;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (514,0);
 }
 );
 layerId = m004;
 shapes = (
 {
 alignment = -1;
-pos = (21,0);
 ref = p;
 }
 );
@@ -132,20 +129,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 595;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (597,0);
 }
 );
 layerId = m005;
 shapes = (
 {
 alignment = -1;
-pos = (19,0);
 ref = p;
 }
 );
@@ -165,20 +161,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 597;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (514,0);
 }
 );
 layerId = m006;
 shapes = (
 {
 alignment = -1;
-pos = (21,0);
 ref = p;
 }
 );
@@ -198,20 +193,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 595;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (597,0);
 }
 );
 layerId = m007;
 shapes = (
 {
 alignment = -1;
-pos = (19,0);
 ref = p;
 }
 );
@@ -231,20 +225,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 597;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (514,0);
 }
 );
 layerId = m008;
 shapes = (
 {
 alignment = -1;
-pos = (21,0);
 ref = p;
 }
 );
@@ -264,20 +257,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 595;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (597,0);
 }
 );
 layerId = m009;
 shapes = (
 {
 alignment = -1;
-pos = (19,0);
 ref = p;
 }
 );
@@ -297,20 +289,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 597;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (514,0);
 }
 );
 layerId = m010;
 shapes = (
 {
 alignment = -1;
-pos = (21,0);
 ref = p;
 }
 );
@@ -330,20 +321,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 595;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (597,0);
 }
 );
 layerId = m011;
 shapes = (
 {
 alignment = -1;
-pos = (19,0);
 ref = p;
 }
 );
@@ -363,20 +353,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 597;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (514,0);
 }
 );
 layerId = m012;
 shapes = (
 {
 alignment = -1;
-pos = (21,0);
 ref = p;
 }
 );
@@ -396,20 +385,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 595;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (597,0);
 }
 );
 layerId = m013;
 shapes = (
 {
 alignment = -1;
-pos = (19,0);
 ref = p;
 }
 );
@@ -429,20 +417,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 597;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (514,0);
 }
 );
 layerId = m014;
 shapes = (
 {
 alignment = -1;
-pos = (21,0);
 ref = p;
 }
 );
@@ -462,20 +449,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 595;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (597,0);
 }
 );
 layerId = m015;
 shapes = (
 {
 alignment = -1;
-pos = (19,0);
 ref = p;
 }
 );
@@ -495,20 +481,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 597;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (514,0);
 }
 );
 layerId = m016;
 shapes = (
 {
 alignment = -1;
-pos = (21,0);
 ref = p;
 }
 );
@@ -528,7 +513,8 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 616;
+width = 595;
 }
 );
+metricLeft = p;
 }

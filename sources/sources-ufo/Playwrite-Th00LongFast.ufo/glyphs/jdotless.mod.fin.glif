@@ -1,8 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jdotless.mod.fin" format="2">
   <advance width="305"/>
+  <anchor x="305" y="0" name="cnct"/>
   <anchor x="156" y="500" name="top"/>
   <outline>
-    <component base="jdotless.mod"/>
+    <component base="jdotless.mod.med"/>
   </outline>
 </glyph>

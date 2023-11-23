@@ -6,7 +6,9 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (25,0);
+ref = idotless;
 }
 );
 width = 325;
@@ -15,16 +17,20 @@ width = 325;
 layerId = m002;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (26,0);
+ref = idotless;
 }
 );
-width = 325;
+width = 326;
 },
 {
 layerId = m003;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (25,0);
+ref = idotless;
 }
 );
 width = 325;
@@ -33,7 +39,9 @@ width = 325;
 layerId = m004;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (25,0);
+ref = idotless;
 }
 );
 width = 325;
@@ -42,16 +50,20 @@ width = 325;
 layerId = m005;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (25,0);
+ref = idotless;
 }
 );
-width = 325;
+width = 350;
 },
 {
 layerId = m006;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (25,0);
+ref = idotless;
 }
 );
 width = 325;
@@ -60,7 +72,9 @@ width = 325;
 layerId = m007;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (25,0);
+ref = idotless;
 }
 );
 width = 325;
@@ -69,16 +83,20 @@ width = 325;
 layerId = m008;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (24,0);
+ref = idotless;
 }
 );
-width = 325;
+width = 324;
 },
 {
 layerId = m009;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (25,0);
+ref = idotless;
 }
 );
 width = 325;
@@ -87,16 +105,20 @@ width = 325;
 layerId = m010;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (26,0);
+ref = idotless;
 }
 );
-width = 325;
+width = 326;
 },
 {
 layerId = m011;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (25,0);
+ref = idotless;
 }
 );
 width = 325;
@@ -105,7 +127,9 @@ width = 325;
 layerId = m012;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (25,0);
+ref = idotless;
 }
 );
 width = 325;
@@ -114,7 +138,9 @@ width = 325;
 layerId = m013;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (25,0);
+ref = idotless;
 }
 );
 width = 325;
@@ -123,7 +149,9 @@ width = 325;
 layerId = m014;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (25,0);
+ref = idotless;
 }
 );
 width = 325;
@@ -132,7 +160,9 @@ width = 325;
 layerId = m015;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (25,0);
+ref = idotless;
 }
 );
 width = 325;
@@ -141,10 +171,13 @@ width = 325;
 layerId = m016;
 shapes = (
 {
-ref = idotless.mod;
+alignment = -1;
+pos = (24,0);
+ref = idotless;
 }
 );
-width = 325;
+width = 324;
 }
 );
+metricLeft = idotless.mod.med;
 }

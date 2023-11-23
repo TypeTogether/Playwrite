@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="q.jmc" format="2">
-  <advance width="660"/>
+  <advance width="647"/>
   <outline>
-    <component base="q" xOffset="13"/>
+    <component base="q"/>
   </outline>
   <lib>
     <dict>
@@ -44,6 +44,10 @@
           <string>q</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>q</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

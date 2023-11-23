@@ -5,14 +5,15 @@ set -e
 scripts="../scripts"
 feaFile=../features/Playwrite-models.fea
 
-# convert to uppercase, just in case
-var=$(echo $@ | tr '[:lower:]' '[:upper:]')
+# # convert to uppercase, just in case
+# var=$(echo $@ | tr '[:lower:]' '[:upper:]')
 
-# if [ $1 = "ALL" ]; then
-if [ $var = "ALL" ]; then
-    models=( AR AU_NSW AU_QLD AU_SA AU_TAS AU_VIC AT BE_WAL BE_VLG BR CA CL CO HR HR_Lijeva CU CZ DK_Loopet DK_Uloopet EE GB_SemiJoin GB_Joined FR_Trad FR_Modern DE_Grund DE_LA DE_SAS DE_VA HU IS IN ID IE IT_Trad IT_Modern MX NL NZ NG NO PE PL PT RO SK ZA ES ES_Ornate  TZ CH US_Modern US_Trad VN )
+# if [ $var = "ALL" ]; then
+if [ $1 = "ALL" ]; then
+    models=( AR AU_NSW AU_QLD AU_SA AU_TAS AU_VIC AT BE_WAL BE_VLG BR CA CL CO HR HR_Lijeva CU CZ DK_Loopet DK_Uloopet EE GB_SemiJoin GB_Joined FR_Trad FR_Modern DE_Grund DE_LA DE_SAS DE_VA HU IS IN ID IE IT_Trad IT_Modern MX NL NZ NO PE PL PT RO SK ZA ES ES_Ornate TZ US_Modern US_Trad VN )
 else
-    models=( $var )
+    # models=( $var )
+    models=( "$@" )
 fi
 
 args=()

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="k.mod" format="2">
-  <advance width="576"/>
-  <anchor x="320" y="0" name="bottom"/>
-  <anchor x="168" y="838" name="top"/>
+  <advance width="551"/>
+  <anchor x="295" y="0" name="bottom"/>
+  <anchor x="143" y="838" name="top"/>
   <outline>
-    <component base="k" xOffset="25"/>
+    <component base="k"/>
   </outline>
   <lib>
     <dict>
@@ -46,6 +46,10 @@
           <string>k</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>k</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
     </dict>
   </lib>
 </glyph>

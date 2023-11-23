@@ -5,7 +5,19 @@
   <anchor x="584" y="0" name="cnct"/>
   <anchor x="396" y="500" name="top"/>
   <outline>
-    <component base="y.jmc"/>
+    <contour>
+      <point x="365" y="-146" type="curve"/>
+      <point x="346" y="-244" type="line"/>
+      <point x="400" y="-194"/>
+      <point x="506" y="-131"/>
+      <point x="554" y="-106" type="curve" smooth="yes"/>
+      <point x="585" y="-90"/>
+      <point x="568" y="-20"/>
+      <point x="530" y="-39" type="curve" smooth="yes"/>
+      <point x="494" y="-57"/>
+      <point x="415" y="-106"/>
+    </contour>
+    <component base="y.jmc.med"/>
   </outline>
   <lib>
     <dict>
@@ -44,11 +56,11 @@
           <key>index</key>
           <integer>0</integer>
           <key>name</key>
-          <string>y.jmc</string>
+          <string>y.jmc.med</string>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>PC</string>
     </dict>
   </lib>
 </glyph>

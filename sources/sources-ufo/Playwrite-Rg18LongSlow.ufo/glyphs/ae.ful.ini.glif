@@ -1,9 +1,62 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ae.ful.ini" format="2">
-  <advance width="789"/>
-  <anchor x="706" y="0" name="cnct"/>
-  <anchor x="464" y="500" name="top"/>
+  <advance width="776"/>
+  <anchor x="693" y="0" name="cnct"/>
+  <anchor x="451" y="500" name="top"/>
   <outline>
-    <component base="ae.ful.med"/>
+    <contour>
+      <point x="183" y="-17" type="curve" smooth="yes"/>
+      <point x="266" y="-17"/>
+      <point x="336" y="21"/>
+      <point x="413" y="134" type="curve"/>
+      <point x="386" y="219" type="line"/>
+      <point x="310" y="105"/>
+      <point x="251" y="63"/>
+      <point x="198" y="63" type="curve" smooth="yes"/>
+      <point x="158" y="63"/>
+      <point x="133" y="90"/>
+      <point x="133" y="145" type="curve" smooth="yes"/>
+      <point x="133" y="265"/>
+      <point x="215" y="440"/>
+      <point x="366" y="440" type="curve" smooth="yes"/>
+      <point x="420" y="440"/>
+      <point x="451" y="426"/>
+      <point x="478" y="411" type="curve"/>
+      <point x="547" y="470" type="line"/>
+      <point x="492" y="501"/>
+      <point x="445" y="519"/>
+      <point x="372" y="519" type="curve" smooth="yes"/>
+      <point x="156" y="519"/>
+      <point x="41" y="299"/>
+      <point x="41" y="144" type="curve" smooth="yes"/>
+      <point x="41" y="48"/>
+      <point x="90" y="-17"/>
+    </contour>
+    <contour>
+      <point x="612" y="519" type="curve" smooth="yes"/>
+      <point x="562" y="519"/>
+      <point x="545" y="439"/>
+      <point x="595" y="439" type="curve" smooth="yes"/>
+      <point x="628" y="439"/>
+      <point x="648" y="420"/>
+      <point x="648" y="390" type="curve" smooth="yes"/>
+      <point x="648" y="319"/>
+      <point x="555" y="255"/>
+      <point x="402" y="221" type="curve"/>
+      <point x="420" y="151" type="line"/>
+      <point x="617" y="200"/>
+      <point x="738" y="289"/>
+      <point x="738" y="401" type="curve" smooth="yes"/>
+      <point x="738" y="474"/>
+      <point x="691" y="519"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>a</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
 </glyph>
