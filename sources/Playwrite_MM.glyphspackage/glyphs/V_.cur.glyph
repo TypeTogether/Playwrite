@@ -1,5 +1,7 @@
 {
 glyphname = V.cur;
+kernLeft = M.cur;
+kernRight = V.cur;
 layers = (
 {
 layerId = m004;

@@ -1,5 +1,7 @@
 {
 glyphname = H.cur;
+kernLeft = H.cur;
+kernRight = H.cur;
 layers = (
 {
 anchors = (

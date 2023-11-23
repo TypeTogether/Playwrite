@@ -27,6 +27,27 @@
       <string>Acircumflextilde</string>
       <string>Adotbelow</string>
       <string>Ahookabove</string>
+      <string>M_locl</string>
+    </array>
+    <key>public.kern1.A.cur</key>
+    <array>
+      <string>A.cur</string>
+      <string>M.cur</string>
+      <string>N.cur</string>
+      <string>U.cur</string>
+      <string>A.cur_locl</string>
+    </array>
+    <key>public.kern1.A.dec</key>
+    <array>
+      <string>A.dec</string>
+    </array>
+    <key>public.kern1.A.dec_locl</key>
+    <array>
+      <string>A.dec_locl</string>
+    </array>
+    <key>public.kern1.B.dec</key>
+    <array>
+      <string>B.dec</string>
     </array>
     <key>public.kern1.C</key>
     <array>
@@ -43,6 +64,10 @@
       <string>Eth</string>
       <string>Dcaron</string>
       <string>Dcroat</string>
+      <string>D.cur</string>
+      <string>D.dec</string>
+      <string>G.dec</string>
+      <string>F.cur_locl</string>
     </array>
     <key>public.kern1.E</key>
     <array>
@@ -72,6 +97,20 @@
     <array>
       <string>F</string>
     </array>
+    <key>public.kern1.F.dec</key>
+    <array>
+      <string>F.cur</string>
+      <string>F.dec</string>
+    </array>
+    <key>public.kern1.G.cur</key>
+    <array>
+      <string>G.cur</string>
+      <string>J.cur</string>
+      <string>Y.cur</string>
+      <string>Z.cur</string>
+      <string>J.dec</string>
+      <string>G.cur_locl</string>
+    </array>
     <key>public.kern1.H</key>
     <array>
       <string>H</string>
@@ -98,10 +137,19 @@
       <string>Ncommaaccent</string>
       <string>Ntilde</string>
     </array>
+    <key>public.kern1.H.cur</key>
+    <array>
+      <string>H.cur</string>
+    </array>
     <key>public.kern1.K</key>
     <array>
       <string>K</string>
       <string>Kcommaaccent</string>
+    </array>
+    <key>public.kern1.K.dec</key>
+    <array>
+      <string>K.cur</string>
+      <string>K.dec</string>
     </array>
     <key>public.kern1.L</key>
     <array>
@@ -110,6 +158,19 @@
       <string>Lcaron</string>
       <string>Lcommaaccent</string>
       <string>Lslash</string>
+    </array>
+    <key>public.kern1.L.dec</key>
+    <array>
+      <string>L.cur</string>
+      <string>L.dec</string>
+    </array>
+    <key>public.kern1.M.dec</key>
+    <array>
+      <string>M.dec</string>
+    </array>
+    <key>public.kern1.N.dec</key>
+    <array>
+      <string>N.dec</string>
     </array>
     <key>public.kern1.O</key>
     <array>
@@ -137,6 +198,8 @@
       <string>Ocircumflextilde</string>
       <string>Odotbelow</string>
       <string>Ohookabove</string>
+      <string>O.cur</string>
+      <string>O.dec</string>
     </array>
     <key>public.kern1.Ohorn</key>
     <array>
@@ -151,6 +214,8 @@
     <array>
       <string>P</string>
       <string>Thorn</string>
+      <string>P.cur</string>
+      <string>P.dec</string>
     </array>
     <key>public.kern1.R</key>
     <array>
@@ -158,6 +223,12 @@
       <string>Racute</string>
       <string>Rcaron</string>
       <string>Rcommaaccent</string>
+    </array>
+    <key>public.kern1.R.dec</key>
+    <array>
+      <string>R.cur</string>
+      <string>X.cur</string>
+      <string>R.dec</string>
     </array>
     <key>public.kern1.S</key>
     <array>
@@ -168,6 +239,14 @@
       <string>Scircumflex</string>
       <string>Scommaaccent</string>
     </array>
+    <key>public.kern1.S.cur</key>
+    <array>
+      <string>S.cur</string>
+    </array>
+    <key>public.kern1.S.dec</key>
+    <array>
+      <string>S.dec</string>
+    </array>
     <key>public.kern1.T</key>
     <array>
       <string>T</string>
@@ -175,6 +254,12 @@
       <string>Tcaron</string>
       <string>Tcedilla</string>
       <string>Tcommaaccent</string>
+      <string>T.dec</string>
+    </array>
+    <key>public.kern1.T.cur_locl</key>
+    <array>
+      <string>T.cur</string>
+      <string>T.cur_locl</string>
     </array>
     <key>public.kern1.U</key>
     <array>
@@ -219,9 +304,28 @@
       <string>Wdieresis</string>
       <string>Wgrave</string>
     </array>
+    <key>public.kern1.V.cur</key>
+    <array>
+      <string>V.cur</string>
+      <string>W.cur</string>
+    </array>
+    <key>public.kern1.V.dec</key>
+    <array>
+      <string>V.dec</string>
+      <string>W.dec</string>
+    </array>
     <key>public.kern1.X</key>
     <array>
       <string>X</string>
+    </array>
+    <key>public.kern1.X.dec</key>
+    <array>
+      <string>X.dec</string>
+      <string>X.dec_ro</string>
+    </array>
+    <key>public.kern1.X.dec_locl</key>
+    <array>
+      <string>X.dec_locl</string>
     </array>
     <key>public.kern1.Y</key>
     <array>
@@ -233,6 +337,7 @@
       <string>Ydotbelow</string>
       <string>Yhookabove</string>
       <string>Ytilde</string>
+      <string>Y_locl</string>
     </array>
     <key>public.kern1.Z</key>
     <array>
@@ -320,6 +425,12 @@
       <string>l.mod.fin</string>
       <string>u.mod</string>
       <string>u.mod.fin</string>
+      <string>l.lop.fin</string>
+      <string>l.alt1.lop.fin</string>
+    </array>
+    <key>public.kern1.ampersand</key>
+    <array>
+      <string>ampersand</string>
     </array>
     <key>public.kern1.b</key>
     <array>
@@ -401,6 +512,25 @@
       <string>q.jmc_ar.fin</string>
       <string>q.mrr.fin</string>
     </array>
+    <key>public.kern1.g.jmc.fin</key>
+    <array>
+      <string>g.jmc.fin</string>
+      <string>j.jmc.fin</string>
+      <string>jdotless.jmc.fin</string>
+      <string>y.jmc.fin</string>
+      <string>ij.jmc.fin</string>
+      <string>z.ful.fin</string>
+      <string>y.cnt.fin</string>
+      <string>z.cnt.fin</string>
+      <string>f.mlp.fin</string>
+      <string>z.mlp.fin</string>
+    </array>
+    <key>public.kern1.germandbls.jmc.fin</key>
+    <array>
+      <string>germandbls.jmc.fin</string>
+      <string>b.lop.fin</string>
+      <string>b.mlp.fin</string>
+    </array>
     <key>public.kern1.guilsinglleft</key>
     <array>
       <string>guillemetleft</string>
@@ -424,6 +554,7 @@
       <string>k.mod</string>
       <string>k.mod.fin</string>
       <string>k.ful.fin</string>
+      <string>k.lop.fin</string>
     </array>
     <key>public.kern1.n</key>
     <array>
@@ -447,6 +578,7 @@
       <string>s.ful.fin</string>
       <string>v.ful.fin</string>
       <string>w.ful.fin</string>
+      <string>h.lop.fin</string>
       <string>m.cnt.fin</string>
       <string>m.cnt.fin_n_</string>
       <string>n.cnt.fin</string>
@@ -507,6 +639,7 @@
       <string>e.mod.fin</string>
       <string>o.mod</string>
       <string>o.mod.fin</string>
+      <string>eth.mod.fin</string>
       <string>o.mlp.fin</string>
     </array>
     <key>public.kern1.ohorn</key>
@@ -593,6 +726,13 @@
       <string>w.mod</string>
       <string>w.mod.fin</string>
     </array>
+    <key>public.kern1.v.mlp.fin</key>
+    <array>
+      <string>v.mlp.fin</string>
+      <string>w.mlp.fin</string>
+      <string>v.ful_at.fin</string>
+      <string>w.ful_at.fin</string>
+    </array>
     <key>public.kern1.x</key>
     <array>
       <string>x</string>
@@ -639,6 +779,16 @@
       <string>Acircumflextilde</string>
       <string>Adotbelow</string>
       <string>Ahookabove</string>
+      <string>M_locl</string>
+    </array>
+    <key>public.kern2.A.dec</key>
+    <array>
+      <string>S.cur</string>
+      <string>AE.cur</string>
+      <string>AE.cur.ini</string>
+      <string>A.dec</string>
+      <string>A.dec_locl</string>
+      <string>A.dec_locl.ini</string>
     </array>
     <key>public.kern2.B</key>
     <array>
@@ -704,9 +854,101 @@
       <string>Rcaron</string>
       <string>Rcommaaccent</string>
     </array>
+    <key>public.kern2.B.cur</key>
+    <array>
+      <string>B.cur</string>
+      <string>D.cur</string>
+      <string>F.cur</string>
+      <string>K.cur</string>
+      <string>K.cur.ini</string>
+      <string>P.cur</string>
+      <string>R.cur</string>
+      <string>R.cur.ini</string>
+      <string>S.dec</string>
+    </array>
+    <key>public.kern2.B.dec</key>
+    <array>
+      <string>B.dec</string>
+      <string>P.dec</string>
+      <string>R.dec</string>
+      <string>R.dec.ini</string>
+    </array>
+    <key>public.kern2.D.dec</key>
+    <array>
+      <string>D.dec</string>
+    </array>
+    <key>public.kern2.E.cur</key>
+    <array>
+      <string>E.cur</string>
+      <string>E.cur.ini</string>
+    </array>
+    <key>public.kern2.G.cur_locl</key>
+    <array>
+      <string>G.cur_locl</string>
+      <string>G.cur_locl.ini</string>
+    </array>
+    <key>public.kern2.H.cur</key>
+    <array>
+      <string>H.cur</string>
+      <string>H.cur.ini</string>
+    </array>
+    <key>public.kern2.H.dec</key>
+    <array>
+      <string>H.dec</string>
+      <string>J.dec</string>
+      <string>J.dec.ini</string>
+      <string>K.dec</string>
+      <string>K.dec.ini</string>
+    </array>
+    <key>public.kern2.I.cur</key>
+    <array>
+      <string>I.cur</string>
+      <string>I.cur.ini</string>
+      <string>F.dec</string>
+    </array>
+    <key>public.kern2.IJ.cur</key>
+    <array>
+      <string>IJ.cur</string>
+      <string>IJ.cur.ini</string>
+      <string>U_locl.au</string>
+    </array>
     <key>public.kern2.J</key>
     <array>
       <string>J</string>
+    </array>
+    <key>public.kern2.J.cur</key>
+    <array>
+      <string>J.cur</string>
+      <string>J.cur.ini</string>
+    </array>
+    <key>public.kern2.L.cur</key>
+    <array>
+      <string>L.cur</string>
+      <string>L.cur.ini</string>
+    </array>
+    <key>public.kern2.L.dec</key>
+    <array>
+      <string>L.dec</string>
+      <string>L.dec.ini</string>
+    </array>
+    <key>public.kern2.M.cur</key>
+    <array>
+      <string>M.cur</string>
+      <string>M.cur.ini</string>
+      <string>N.cur</string>
+      <string>N.cur.ini</string>
+      <string>U.cur</string>
+      <string>U.cur.ini</string>
+      <string>V.cur</string>
+      <string>W.cur</string>
+      <string>Y.cur</string>
+      <string>Y.cur.ini</string>
+    </array>
+    <key>public.kern2.M.dec</key>
+    <array>
+      <string>M.dec</string>
+      <string>M.dec.ini</string>
+      <string>N.dec</string>
     </array>
     <key>public.kern2.O</key>
     <array>
@@ -747,6 +989,34 @@
       <string>Ohorngrave</string>
       <string>Ohornhookabove</string>
       <string>Ohorntilde</string>
+      <string>A.cur</string>
+      <string>A.cur.ini</string>
+      <string>C.cur</string>
+      <string>C.cur.ini</string>
+      <string>G.cur</string>
+      <string>G.cur.ini</string>
+      <string>O.cur</string>
+      <string>Q.cur</string>
+      <string>Q.cur.ini</string>
+      <string>OE.cur</string>
+      <string>OE.cur.ini</string>
+      <string>O.dec</string>
+      <string>Q.dec</string>
+      <string>Q.dec.ini</string>
+      <string>G_locl</string>
+      <string>G_locl.au</string>
+      <string>Q_locl</string>
+      <string>Q_locl.ini</string>
+      <string>A.cur_locl</string>
+      <string>A.cur_locl.ini</string>
+      <string>Q.cur_locl</string>
+      <string>Q.cur_locl.ini</string>
+    </array>
+    <key>public.kern2.Q.dec_pt</key>
+    <array>
+      <string>Q.dec_pt</string>
+      <string>Q.dec_pt.ini</string>
+      <string>G.cur_ro</string>
     </array>
     <key>public.kern2.S</key>
     <array>
@@ -764,6 +1034,17 @@
       <string>Tcaron</string>
       <string>Tcedilla</string>
       <string>Tcommaaccent</string>
+    </array>
+    <key>public.kern2.T.cur</key>
+    <array>
+      <string>T.cur</string>
+      <string>T.cur.ini</string>
+      <string>T.dec</string>
+    </array>
+    <key>public.kern2.T.cur_locl</key>
+    <array>
+      <string>T.cur_locl</string>
+      <string>T.cur_locl.ini</string>
     </array>
     <key>public.kern2.U</key>
     <array>
@@ -801,9 +1082,28 @@
       <string>Wdieresis</string>
       <string>Wgrave</string>
     </array>
+    <key>public.kern2.V.dec</key>
+    <array>
+      <string>V.dec</string>
+      <string>W.dec</string>
+    </array>
     <key>public.kern2.X</key>
     <array>
       <string>X</string>
+    </array>
+    <key>public.kern2.X.cur</key>
+    <array>
+      <string>X.cur</string>
+      <string>X.cur.ini</string>
+      <string>X.dec</string>
+      <string>X.dec.ini</string>
+      <string>X.dec_ro</string>
+      <string>X.dec_ro.ini</string>
+    </array>
+    <key>public.kern2.X.dec_locl</key>
+    <array>
+      <string>X.dec_locl</string>
+      <string>X.dec_locl.ini</string>
     </array>
     <key>public.kern2.Y</key>
     <array>
@@ -815,6 +1115,7 @@
       <string>Ydotbelow</string>
       <string>Yhookabove</string>
       <string>Ytilde</string>
+      <string>Y_locl</string>
     </array>
     <key>public.kern2.Z</key>
     <array>
@@ -822,6 +1123,15 @@
       <string>Zacute</string>
       <string>Zcaron</string>
       <string>Zdotaccent</string>
+      <string>Z.dec</string>
+      <string>Z.dec.ini</string>
+      <string>Z.dec_locl</string>
+      <string>Z.dec_locl.ini</string>
+    </array>
+    <key>public.kern2.Z.cur</key>
+    <array>
+      <string>Z.cur</string>
+      <string>Z.cur.ini</string>
     </array>
     <key>public.kern2.a</key>
     <array>
@@ -874,6 +1184,10 @@
       <string>q.mrr.ini</string>
       <string>d.lop_cu.ini</string>
       <string>q.mod_au.ini</string>
+    </array>
+    <key>public.kern2.ampersand</key>
+    <array>
+      <string>ampersand</string>
     </array>
     <key>public.kern2.b</key>
     <array>
@@ -1050,6 +1364,7 @@
       <string>o.mod</string>
       <string>o.mod.ini</string>
       <string>oe.mod.ini</string>
+      <string>eth.mod.ini</string>
       <string>oe.ful.ini</string>
       <string>o.mlp.ini</string>
     </array>
@@ -1070,6 +1385,27 @@
     <array>
       <string>quoteright</string>
       <string>quotedblright</string>
+    </array>
+    <key>public.kern2.r.ful.ini</key>
+    <array>
+      <string>r.ful.ini</string>
+      <string>s.ful.ini</string>
+      <string>b.lop.ini</string>
+      <string>h.lop.ini</string>
+      <string>k.lop.ini</string>
+      <string>l.lop.ini</string>
+      <string>l.alt1.lop.ini</string>
+      <string>b.mlp.ini</string>
+      <string>f.mlp.ini</string>
+      <string>r.mlp.ini</string>
+      <string>s.mlp.ini</string>
+      <string>z.mlp.ini</string>
+      <string>b.jmc_dk.ini</string>
+      <string>f.ful_de.ini</string>
+      <string>f.ful_pe.ini</string>
+      <string>f.ful_pl.ini</string>
+      <string>k.lop_pe.ini</string>
+      <string>p.mrr_ca.ini</string>
     </array>
     <key>public.kern2.s</key>
     <array>
@@ -1151,6 +1487,11 @@
       <string>w.mod</string>
       <string>w.mod.ini</string>
       <string>z.cnt_au.ini</string>
+    </array>
+    <key>public.kern2.v.mlp.ini</key>
+    <array>
+      <string>v.mlp.ini</string>
+      <string>w.mlp.ini</string>
     </array>
     <key>public.kern2.x</key>
     <array>
