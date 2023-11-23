@@ -1,8 +1,0 @@
-# AUS_QLD
-@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE Eth IJ Eng OE Thorn Germandbls];
-@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z ae eth ij eng oe thorn germandbls idotless jdotless];
-@UC_AUS_QLD = [A B C D E F G_locl.au H I_locl J K L M_locl.au N O P Q R S T U_locl.au V W X Y_locl Z AE Eth IJ Eng OE Thorn Germandbls];
-@lc_AUS_QLD = [a.mod b.mod c.mod d.mod e.mod f.mod_au g.mod h.mod i.mod j.mod k.ful l.mod m.cnt n.cnt o.mod p.mod q.mod_au r.cnt s.ful t.mod u.mod v.ful w.ful x.ful y.mod z.cnt_au ae.mod eth.mod ij.mod eng oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.mod 
-];
-
-sub [@UC_src @lc_src] by [@UC_AUS_QLD @lc_AUS_QLD];

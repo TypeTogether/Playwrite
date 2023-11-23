@@ -1,0 +1,8 @@
+# GB_Joined
+@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE Eth IJ Eng OE Thorn Germandbls];
+@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z ae eth ij eng oe thorn germandbls idotless jdotless];
+@UC_GB_Joined = [A B C D E F G_locl.au H I J K L M_locl N O P Q R S T U_locl.au V W X Y Z AE Eth IJ Eng OE Thorn Germandbls];
+@lc_GB_Joined = [a.mod b.jmc c.mod d.mod e.mod f.jmc g.jmc h.mod i.mod j.jmc k.ful l.mod m.mod n.mod o.mod p.jmc q.jmc r.mod s.mod t.mod u.mod v.mod w.mod x.ful y.jmc z.mod ae.mod eth.mod ij.mod eng oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.jmc
+];
+
+sub [@UC_src @lc_src] by [@UC_GB_Joined @lc_GB_Joined];
