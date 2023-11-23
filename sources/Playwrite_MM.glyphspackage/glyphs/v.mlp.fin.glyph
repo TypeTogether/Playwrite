@@ -1,6 +1,7 @@
 {
 color = 8;
 glyphname = v.mlp.fin;
+kernRight = v.mlp.fin;
 layers = (
 {
 layerId = m01;

@@ -1,5 +1,7 @@
 {
 glyphname = M.dec;
+kernLeft = M.dec;
+kernRight = M.dec;
 layers = (
 {
 anchors = (

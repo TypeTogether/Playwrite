@@ -1,6 +1,7 @@
 {
 color = 8;
 glyphname = w.mlp.fin;
+kernRight = v.mlp.fin;
 layers = (
 {
 anchors = (
