@@ -1,5 +1,7 @@
 {
 glyphname = P.cur;
+kernLeft = B.cur;
+kernRight = P;
 layers = (
 {
 layerId = m004;

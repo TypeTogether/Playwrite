@@ -1,5 +1,7 @@
 {
 glyphname = A.cur_locl;
+kernLeft = O;
+kernRight = A.cur;
 layers = (
 {
 anchors = (

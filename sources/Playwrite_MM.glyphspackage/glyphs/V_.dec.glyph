@@ -1,5 +1,7 @@
 {
 glyphname = V.dec;
+kernLeft = V.dec;
+kernRight = V.dec;
 layers = (
 {
 layerId = m01;

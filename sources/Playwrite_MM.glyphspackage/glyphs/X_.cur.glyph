@@ -1,5 +1,7 @@
 {
 glyphname = X.cur;
+kernLeft = X.cur;
+kernRight = R.dec;
 layers = (
 {
 guides = (

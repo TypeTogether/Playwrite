@@ -1,5 +1,7 @@
 {
 glyphname = G.cur;
+kernLeft = O;
+kernRight = G.cur;
 layers = (
 {
 anchors = (

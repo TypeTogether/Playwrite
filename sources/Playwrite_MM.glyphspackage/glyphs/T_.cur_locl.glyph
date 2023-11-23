@@ -1,5 +1,7 @@
 {
 glyphname = T.cur_locl;
+kernLeft = T.cur_locl;
+kernRight = T.cur_locl;
 layers = (
 {
 anchors = (

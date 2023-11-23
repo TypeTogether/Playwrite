@@ -1,5 +1,7 @@
 {
 glyphname = K.cur;
+kernLeft = B.cur;
+kernRight = K.dec;
 layers = (
 {
 anchors = (
