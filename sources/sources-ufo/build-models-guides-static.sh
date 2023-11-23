@@ -6,7 +6,7 @@ scripts="../scripts"
 feaFile=../features/Playwrite-models.fea
 
 if [ $1 = "ALL" ]; then
-    models=( ARG AUS_NSW AUS_QLD AUS_SA AUS_TAS AUS_VIC AUT BEL_VLG BEL_WAL BRA CAN CHI COL CUB CZE DEU_Grundschrift DEU_LA DEU_SAS DEU_VA DNK_Looped DNK_Unlooped ENG_Joined ENG_Semijoined ESP ESP_OrnateUC EST FRA_Modern FRA_Traditional HRV HRV_Lefthand HUN IDN IND IRL ISL ITA_Modern ITA_Traditional MEX NLD NOR NZL PER POL PRT ROU SVK TZA USA_Modern USA_Traditional VNM ZAF )
+    models=( AR AU_NSW AU_QLD AU_SA AU_TAS AU_VIC AT BE_WAL BE_VLG BR CA CL CO HR HR_Lijeva CU CZ DK_Loopet DK_Uloopet EE GB_SemiJoin GB_Joined FR_Trad FR_Modern DE_Grund DE_LA DE_SAS DE_VA HU IS IN ID IE IT_Trad IT_Modern MX NL NZ NG NO PE PL PT RO SK ZA ES ES_Ornate  TZ CH US_Modern US_Trad VN )
 else
     models=( "$@" )
 fi

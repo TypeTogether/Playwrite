@@ -1,0 +1,8 @@
+# ZA
+@UC_src = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE Eth IJ Eng OE Thorn Germandbls];
+@lc_src = [a b c d e f g h i j k l m n o p q r s t u v w x y z ae eth ij eng oe thorn germandbls idotless jdotless];
+@UC_ZA = [A.cur_locl B.cur C D.cur E.cur F.dec G.cur_locl H.dec I.dec J.cur K.dec L.dec M.cur N.cur O.cur P.dec Q.cur_locl R.cur S.dec T.dec U.cur V.cur W.cur X.dec Y.cur Z.cur AE.cur Eth IJ.cur Eng OE.cur Thorn Germandbls];
+@lc_ZA = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.mod n.mod o.mod p.ful q.jmc r.mod s.ful t.mod u.mod v.ful w.ful x.cnt y.jmc z.cnt ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc
+];
+
+sub [@UC_src @lc_src] by [@UC_ZA @lc_ZA];

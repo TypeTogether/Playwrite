@@ -5,10 +5,10 @@ __doc__ = """
 
 modelsCustomFeaCodeDict = {
     # "TAG": "fea code"
-    "CZE": "sub caroncomb.alt by caroncomb.alt_locl;\nsub caroncomb by caroncomb_locl;",
-    "SVK": "sub caroncomb.alt by caroncomb.alt_locl;\nsub caroncomb by caroncomb_locl;",
-    "ESP": "sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;",
-    "ESP_OrnateUC": "sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;",
-    "NLD": "sub i.mod j.jmc by ij.jmc;",
-    "ROU": "sub [S.dec T.dec s.ful t.mod] commaaccentcomb' by cedillacomb;"
+    "CZ": "sub caroncomb.alt by caroncomb.alt_locl;\nsub caroncomb by caroncomb_locl;",
+    "SK": "sub caroncomb.alt by caroncomb.alt_locl;\nsub caroncomb by caroncomb_locl;",
+    "ES": "sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;",
+    "ES_Ornate": "sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;",
+    "NL": "sub i.mod j.jmc by ij.jmc;",
+    "RO": "sub [S.dec T.dec s.ful t.mod] commaaccentcomb' by cedillacomb;"
 }
