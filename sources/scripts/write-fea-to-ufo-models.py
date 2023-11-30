@@ -13,7 +13,13 @@ folder_ufos = "./sources-ufo"
 fea_code = """languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-languagesystem latn CAT;
+# languagesystem latn CAT;
+languagesystem latn NLD;
+languagesystem latn ROM;
+languagesystem latn MOL;
+
+# CAT for all
+sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
 
 include(../features/Playwrite-models-temp.fea);
 
