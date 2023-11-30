@@ -1071,9 +1071,31 @@ feature locl {
 	include(../features/fea-models/::TAG::.fea);
 
 	script latn;
-	language CAT;
+	# # language CAT;
+	# lookupflag IgnoreMarks;
+	# sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
+
+	language NLD;
 	lookupflag IgnoreMarks;
-	sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
+	sub i j by ij;
+	# sub [idotless] [acutecomb] [j]' by [jdotless] acutecomb;
+
+	language ROM;
+	lookupflag IgnoreMarks;
+	lookup locl_romania {
+		sub [S S.cur S.dec] cedillacomb.case' by commaaccentcomb.case;
+		sub [s s.mod s.jmc s.ful s.mlp] cedillacomb' by commaaccentcomb;
+		sub [T S.cur S.dec] cedillacomb.case' by commaaccentcomb.case;
+		sub [t t.lop_de t.lop_ee t.mod t.mod_be] cedillacomb' by commaaccentcomb;
+		# sub Scedilla by Scommaaccent;
+		# sub scedilla by scommaaccent;
+		# sub Tcedilla by Tcommaaccent;
+		# sub tcedilla by tcommaaccent;
+	} locl_romania;
+
+	language MOL;
+	lookupflag IgnoreMarks;
+	lookup locl_romania;
 } locl;
 
 
