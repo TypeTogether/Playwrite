@@ -413,12 +413,10 @@ width = 1070;
 layerId = m015;
 shapes = (
 {
-alignment = -1;
 ref = T;
 },
 {
-alignment = -1;
-pos = (345,95);
+pos = (535,401);
 ref = strokeshortcomb.case;
 }
 );
@@ -438,7 +436,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 690;
+width = 1070;
 },
 {
 layerId = m016;

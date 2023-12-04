@@ -708,17 +708,6 @@ name = topright;
 pos = (661,1500);
 }
 );
-background = {
-shapes = (
-{
-closed = 0;
-nodes = (
-(405,1256,ls),
-(405,144,ls)
-);
-}
-);
-};
 layerId = m015;
 shapes = (
 {

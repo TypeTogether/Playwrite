@@ -429,6 +429,8 @@
       <integer>-50</integer>
       <key>public.kern2.b</key>
       <integer>-30</integer>
+      <key>public.kern2.e.ful</key>
+      <integer>-100</integer>
       <key>public.kern2.guilsinglleft</key>
       <integer>-60</integer>
       <key>public.kern2.hyphen</key>
@@ -705,6 +707,8 @@
       <integer>-50</integer>
       <key>public.kern2.ampersand</key>
       <integer>-10</integer>
+      <key>public.kern2.e.ful</key>
+      <integer>-150</integer>
       <key>public.kern2.guilsinglleft</key>
       <integer>-60</integer>
       <key>public.kern2.hyphen</key>
@@ -810,6 +814,8 @@
       <integer>-50</integer>
       <key>public.kern2.b</key>
       <integer>-40</integer>
+      <key>public.kern2.e.ful</key>
+      <integer>-130</integer>
       <key>public.kern2.f</key>
       <integer>-40</integer>
       <key>public.kern2.guilsinglleft</key>
@@ -864,7 +870,7 @@
       <key>public.kern2.O</key>
       <integer>-40</integer>
       <key>public.kern2.S</key>
-      <integer>-30</integer>
+      <integer>0</integer>
       <key>public.kern2.X.cur</key>
       <integer>-20</integer>
       <key>public.kern2.X.dec_locl</key>
@@ -872,9 +878,11 @@
       <key>public.kern2.Z</key>
       <integer>-20</integer>
       <key>public.kern2.a</key>
-      <integer>-80</integer>
+      <integer>-90</integer>
       <key>public.kern2.ampersand</key>
       <integer>-40</integer>
+      <key>public.kern2.e.ful</key>
+      <integer>-100</integer>
       <key>public.kern2.guilsinglleft</key>
       <integer>-60</integer>
       <key>public.kern2.guilsinglright</key>
@@ -981,6 +989,8 @@
       <integer>20</integer>
       <key>public.kern2.a</key>
       <integer>-50</integer>
+      <key>public.kern2.e.ful</key>
+      <integer>-50</integer>
       <key>public.kern2.guilsinglleft</key>
       <integer>-40</integer>
       <key>public.kern2.guilsinglright</key>
@@ -1020,6 +1030,8 @@
       <integer>-40</integer>
       <key>public.kern2.a</key>
       <integer>-50</integer>
+      <key>public.kern2.e.ful</key>
+      <integer>-20</integer>
       <key>public.kern2.guilsinglleft</key>
       <integer>-20</integer>
       <key>public.kern2.n</key>
@@ -1077,6 +1089,8 @@
       <integer>-180</integer>
       <key>public.kern2.ampersand</key>
       <integer>-40</integer>
+      <key>public.kern2.e.ful</key>
+      <integer>-260</integer>
       <key>public.kern2.f</key>
       <integer>-40</integer>
       <key>public.kern2.guilsinglleft</key>
@@ -1270,6 +1284,8 @@
       <integer>-30</integer>
       <key>public.kern2.Q.dec_pt</key>
       <integer>-30</integer>
+      <key>public.kern2.T</key>
+      <integer>-80</integer>
       <key>public.kern2.T.cur</key>
       <integer>-20</integer>
       <key>public.kern2.T.cur_locl</key>
