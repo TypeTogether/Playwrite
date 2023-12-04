@@ -924,7 +924,7 @@ feature ccmp {
 		sub itilde by idotless tildecomb;
 		sub idotbelow by idotless dotbelowcomb;
 		sub ihookabove by idotless hookabovecomb;
-		sub ijacute by idotless jdotless acutecomb;
+		# sub ijacute by idotless jdotless acutecomb;
 		sub jcircumflex by jdotless circumflexcomb;
 		sub kcommaaccent by k commaaccentcomb;
 		sub lacute by l acutecomb.case;
@@ -1064,37 +1064,36 @@ feature ccmp {
 		sub udieresisgrave by u dieresiscomb gravecomb;
 		sub udieresismacron by u dieresiscomb macroncomb;
 	} ccmp_decomp;
+
+	lookup ccmp_soft_dotted {
+		@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb macroncomb ringcomb tildecomb];
+		lookupflag UseMarkFilteringSet @CombiningTopAccents;
+		sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	} ccmp_soft_dotted;
 } ccmp;
 
 # Models specific locl code
 feature locl {
 	include(../features/fea-models/::TAG::.fea);
 
-	script latn;
-	# # language CAT;
-	# lookupflag IgnoreMarks;
-	# sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
+	# CAT for all (default)
+	sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
 
+	script latn;
 	language NLD;
 	lookupflag IgnoreMarks;
-	sub i j by ij;
-	# sub [idotless] [acutecomb] [j]' by [jdotless] acutecomb;
+	sub [i i.mod] [j j.jmc] by ij.jmc;
 
+	script latn;
 	language ROM;
-	lookupflag IgnoreMarks;
 	lookup locl_romania {
 		sub [S S.cur S.dec] cedillacomb.case' by commaaccentcomb.case;
 		sub [s s.mod s.jmc s.ful s.mlp] cedillacomb' by commaaccentcomb;
-		sub [T S.cur S.dec] cedillacomb.case' by commaaccentcomb.case;
+		sub [S S.cur S.dec T T.cur T.cur_locl T.dec] cedillacomb.case' by commaaccentcomb.case;
 		sub [t t.lop_de t.lop_ee t.mod t.mod_be] cedillacomb' by commaaccentcomb;
-		# sub Scedilla by Scommaaccent;
-		# sub scedilla by scommaaccent;
-		# sub Tcedilla by Tcommaaccent;
-		# sub tcedilla by tcommaaccent;
 	} locl_romania;
 
 	language MOL;
-	lookupflag IgnoreMarks;
 	lookup locl_romania;
 } locl;
 
