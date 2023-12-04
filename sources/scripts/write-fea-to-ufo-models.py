@@ -18,9 +18,6 @@ languagesystem latn NLD;
 languagesystem latn ROM;
 languagesystem latn MOL;
 
-# CAT for all
-sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
-
 include(../features/Playwrite-models-temp.fea);
 
 """
