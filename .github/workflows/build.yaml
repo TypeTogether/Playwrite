@@ -39,21 +39,20 @@ jobs:
     # - name: Check with fontbakery
     #   run: make test
     #   continue-on-error: true
-    - name: setup site
-      run: cp scripts/index.html out/index.html
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      if: ${{ github.ref == 'refs/heads/main' }}
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./out
+    # - name: setup site
+    #   run: cp scripts/index.html out/index.html
+    # - name: Deploy
+    #   uses: peaceiris/actions-gh-pages@v3
+    #   if: ${{ github.ref == 'refs/heads/main' }}
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     publish_dir: ./out
     - name: Archive artifacts
       uses: actions/upload-artifact@v2
       with:
         name: ${{ env.ZIP_NAME }}
         path: |
           fonts
-          out
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
   release:
