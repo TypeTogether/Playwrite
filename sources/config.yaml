@@ -6,7 +6,7 @@ buildColorVariable: false
 recipeProvider: fontprimer
 variants:
 - name: Argentina
-  alias: ARG
+  alias: AR
   steps:
   - operation: subspace
     axes: YEXT=565 SPED=0 slnt=0
@@ -83,7 +83,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Australia NSW
-  alias: AUS_NSW
+  alias: AU_NSW
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
@@ -160,7 +160,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: Australia QLD
-  alias: AUS_QLD
+  alias: AU_QLD
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
@@ -237,7 +237,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: Australia SA
-  alias: AUS_SA
+  alias: AU_SA
   steps:
   - operation: subspace
     axes: YEXT=488 SPED=100 slnt=16
@@ -314,7 +314,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: Australia TAS
-  alias: AUS_TAS
+  alias: AU_TAS
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
@@ -391,7 +391,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: Australia VIC
-  alias: AUS_VIC
+  alias: AU_VIC
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
@@ -468,7 +468,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Austria
-  alias: AUT
+  alias: AT
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0
@@ -547,7 +547,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Austria It
-  alias: AUT It
+  alias: AT It
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=13
@@ -626,7 +626,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Belgium Walloon WAL
-  alias: BEL_WAL
+  alias: BE_WAL
   steps:
   - operation: subspace
     axes: YEXT=905 SPED=0 slnt=0
@@ -703,7 +703,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Belgium Flanders VLG
-  alias: BEL_VLG
+  alias: BE_VLG
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
@@ -780,7 +780,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Brazil
-  alias: BRA
+  alias: BR
   steps:
   - operation: subspace
     axes: YEXT=631 SPED=0 slnt=0
@@ -857,7 +857,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Canada
-  alias: CAN
+  alias: CA
   steps:
   - operation: subspace
     axes: YEXT=496 SPED=100 slnt=18
@@ -934,7 +934,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Chile
-  alias: CHI
+  alias: CL
   steps:
   - operation: subspace
     axes: YEXT=633 SPED=0 slnt=0
@@ -1011,7 +1011,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Colombia
-  alias: COL
+  alias: CO
   steps:
   - operation: subspace
     axes: YEXT=520 SPED=25 slnt=18
@@ -1087,8 +1087,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Croatia Italic
-  alias: HRV
+- name: Croatia
+  alias: HR
   steps:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=18
@@ -1164,8 +1164,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Croatia Upright Lefthand
-  alias: HRV_Lefthand
+- name: Croatia Lefthand Lijeva
+  alias: HR_Lijeva
   steps:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=0
@@ -1242,7 +1242,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Cuba
-  alias: CUB
+  alias: CU
   steps:
   - operation: subspace
     axes: YEXT=615 SPED=50 slnt=18
@@ -1319,7 +1319,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Czech Republic
-  alias: CZE
+  alias: CZ
   steps:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
@@ -1395,8 +1395,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Denmark Looped
-  alias: DNK_Looped
+- name: Denmark Loopet
+  alias: DK_Loopet
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
@@ -1472,8 +1472,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Denmark Unlooped
-  alias: DNK_Unlooped
+- name: Denmark Uloopet
+  alias: DK_Uloopet
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
@@ -1549,8 +1549,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: England Semijoined
-  alias: ENG_Semijoined
+- name: England SemiJoin
+  alias: GB_SemiJoin
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0
@@ -1628,8 +1628,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: England Semijoined It
-  alias: ENG_Semijoined It
+- name: England SemiJoin It
+  alias: GB_SemiJoin It
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=7
@@ -1708,7 +1708,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: England Joined
-  alias: ENG_Joined
+  alias: GB_Joined
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
@@ -1787,7 +1787,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: England Joined It
-  alias: ENG_Joined It
+  alias: GB_Joined It
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=7
@@ -1865,8 +1865,85 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: France Traditional
-  alias: FRA_Traditional
+- name: Estonia
+  alias: EE
+  steps:
+  - operation: subspace
+    axes: YEXT=500 SPED=50 slnt=15
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur_ro
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O.cur
+      P: P.cur
+      Q: Q.cur_locl
+      R: R.cur
+      S: S
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.lop_cu
+      e: e.ful
+      f: f.mlp
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mlp
+      p: p.mrr
+      q: q.jmc
+      r: r.mlp
+      s: s.mlp
+      t: t.lop_ee
+      u: u.mod
+      v: v.mlp
+      w: w.mlp
+      x: x.cnt
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
+- name: France Trad
+  alias: FR_Trad
   steps:
   - operation: subspace
     axes: YEXT=908 SPED=0 slnt=0
@@ -1943,7 +2020,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: France Modern
-  alias: FRA_Modern
+  alias: FR_Modern
   steps:
   - operation: subspace
     axes: YEXT=600 SPED=100 slnt=0
@@ -2019,8 +2096,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: Germany Grundschrift
-  alias: DEU_Grundschrift
+- name: Germany Grund
+  alias: DE_Grund
   steps:
   - operation: subspace
     axes: YEXT=420 SPED=0 slnt=0
@@ -2097,7 +2174,7 @@ variants:
       U+0237: jdotless
   - operation: hbsubset
 - name: Germany LA
-  alias: DEU_LA
+  alias: DE_LA
   steps:
   - operation: subspace
     axes: YEXT=420 SPED=75 slnt=18
@@ -2174,7 +2251,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Germany SAS
-  alias: DEU_SAS
+  alias: DE_SAS
   steps:
   - operation: subspace
     axes: YEXT=388 SPED=75 slnt=14
@@ -2251,7 +2328,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Germany VA
-  alias: DEU_VA
+  alias: DE_VA
   steps:
   - operation: subspace
     axes: YEXT=479 SPED=100 slnt=10
@@ -2327,8 +2404,85 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
+- name: Hungary
+  alias: HU
+  steps:
+  - operation: subspace
+    axes: YEXT=446 SPED=0 slnt=0
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O
+      P: P.cur
+      Q: Q.cur
+      R: R.cur
+      S: S
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.cnt
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.ful
+      w: w.ful
+      x: x.ful
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
 - name: Iceland
-  alias: ISL
+  alias: IS
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=100 slnt=14
@@ -2404,8 +2558,85 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
+- name: India
+  alias: IN
+  steps:
+  - operation: subspace
+    axes: YEXT=523 SPED=75 slnt=18
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.cur_locl
+      H: H.dec
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O.cur
+      P: P.cur
+      Q: Q.cur
+      R: R.cur
+      S: S.cur
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec
+      Y: Y.cur
+      Z: Z.cur
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.ful
+      q: q.mod_au
+      r: r.mlp
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.cnt
+      y: y.jmc
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
 - name: Indonesia
-  alias: IDN
+  alias: ID
   steps:
   - operation: subspace
     axes: YEXT=938 SPED=0 slnt=0
@@ -2482,7 +2713,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Ireland
-  alias: IRL
+  alias: IE
   steps:
   - operation: subspace
     axes: YEXT=481 SPED=0 slnt=18
@@ -2558,8 +2789,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Italy Traditional
-  alias: ITA_Traditional
+- name: Italy Trad
+  alias: IT_Trad
   steps:
   - operation: subspace
     axes: YEXT=459 SPED=25 slnt=0
@@ -2636,7 +2867,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Italy Modern
-  alias: ITA_Modern
+  alias: IT_Modern
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
@@ -2713,7 +2944,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: Mexico
-  alias: MEX
+  alias: MX
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
@@ -2790,7 +3021,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Netherlands
-  alias: NLD
+  alias: NL
   steps:
   - operation: subspace
     axes: YEXT=773 SPED=50 slnt=18
@@ -2867,7 +3098,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: New Zealand
-  alias: NZL
+  alias: NZ
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
@@ -2944,7 +3175,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: Norway
-  alias: NOR
+  alias: 'NO'
   steps:
   - operation: subspace
     axes: YEXT=470 SPED=25 slnt=18
@@ -3021,7 +3252,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Peru
-  alias: PER
+  alias: PE
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=0
@@ -3066,7 +3297,7 @@ variants:
       c: c.mod
       d: d.mod
       e: e.ful
-      f: f.ful_pe
+      f: f.ful_de
       g: g.jmc
       h: h.lop
       i: i.mod
@@ -3098,7 +3329,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Poland
-  alias: POL
+  alias: PL
   steps:
   - operation: subspace
     axes: YEXT=486 SPED=0 slnt=0
@@ -3143,7 +3374,7 @@ variants:
       c: c.mod
       d: d.mod
       e: e.ful
-      f: f.ful_pl
+      f: f.ful_de
       g: g.jmc
       h: h.mod
       i: i.mod
@@ -3175,7 +3406,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Portugal
-  alias: PRT
+  alias: PT
   steps:
   - operation: subspace
     axes: YEXT=581 SPED=0 slnt=0
@@ -3251,8 +3482,85 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
+- name: Romania
+  alias: RO
+  steps:
+  - operation: subspace
+    axes: YEXT=500 SPED=0 slnt=18
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur_ro
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O.cur
+      P: P.cur
+      Q: Q.cur_locl
+      R: R.cur
+      S: S.dec
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec_ro
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.ful
+      q: q.mod_au
+      r: r.mlp
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.mlp
+      w: w.mlp
+      x: x.cnt_ro
+      y: y.cnt
+      z: z.mod_ro
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
 - name: Slovakia
-  alias: SVK
+  alias: SK
   steps:
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
@@ -3329,7 +3637,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: South Africa
-  alias: ZAF
+  alias: ZA
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=10
@@ -3406,7 +3714,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Spain
-  alias: ESP
+  alias: ES
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
@@ -3482,8 +3790,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Spain OrnateUC
-  alias: ESP_OrnateUC
+- name: Spain Ornate
+  alias: ES_Ornate
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
@@ -3559,8 +3867,85 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
+- name: Tanzania
+  alias: TZ
+  steps:
+  - operation: subspace
+    axes: YEXT=500 SPED=25 slnt=16
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec
+      B: B.dec
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.cur_ro
+      H: H.dec
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.cur
+      N: N.dec
+      O: O.dec
+      P: P
+      Q: Q.cur
+      R: R
+      S: S
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.jmc
+      q: q.mrr
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.mlp
+      w: w.ful
+      x: x.cnt
+      y: y.cnt
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: hbsubset
 - name: USA Modern
-  alias: USA_Modern
+  alias: US_Modern
   steps:
   - operation: subspace
     axes: YEXT=438 SPED=0 slnt=0
@@ -3636,8 +4021,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: USA Traditional
-  alias: USA_Traditional
+- name: USA Trad
+  alias: US_Trad
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
@@ -3714,10 +4099,10 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Vietnam
-  alias: VNM
+  alias: VN
   steps:
   - operation: subspace
-    axes: YEXT=625 SPED=0 slnt=0
+    axes: YEXT=757 SPED=0 slnt=0
   - operation: remap
     args: --deep
     mappings:
