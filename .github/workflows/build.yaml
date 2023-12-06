@@ -17,12 +17,6 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install ttfautohint
-    - uses: actions/cache@v2
-      with:
-        path: ./venv/
-        key: ${{ runner.os }}-venv-${{ hashFiles('**/requirements*.txt') }}
-        restore-keys: |
-          ${{ runner.os }}-venv-
     - name: gen zip file name
       id: zip-name
       shell: bash
