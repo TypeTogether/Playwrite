@@ -1089,8 +1089,9 @@ feature locl {
 	lookup locl_romania {
 		sub [S S.cur S.dec] cedillacomb.case' by commaaccentcomb.case;
 		sub [s s.mod s.jmc s.ful s.mlp] cedillacomb' by commaaccentcomb;
-		sub [S S.cur S.dec T T.cur T.cur_locl T.dec] cedillacomb.case' by commaaccentcomb.case;
-		sub [t t.lop_de t.lop_ee t.mod t.mod_be] cedillacomb' by commaaccentcomb;
+		sub [S S.cur S.dec] cedillacomb.case' by commaaccentcomb.case;
+		# sub [S S.cur S.dec T T.cur T.cur_locl T.dec] cedillacomb.case' by commaaccentcomb.case;
+		# sub [t t.lop_de t.lop_ee t.mod t.mod_be] cedillacomb' by commaaccentcomb;
 	} locl_romania;
 
 	language MOL;
