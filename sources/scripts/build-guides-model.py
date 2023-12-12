@@ -8,8 +8,7 @@ def setFontInfo(font):
     font.info.styleMapFamilyName = font.info.familyName + " Guides"
     psName = font.info.postscriptFontName.split("-")
     font.info.postscriptFontName = psName[0] + "Guides" + "-Regular"
-    # font.features.text = font.features.text.replace(
-    #     "(../features", "(../features")
+    font.info.openTypeNameCompatibleFullName = font.info.styleMapFamilyName + " Regular"
     font.save()
 
 
