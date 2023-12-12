@@ -13,6 +13,12 @@ LC_ORDER = (
     "U+00E6 U+00F0 U+0133 U+014B U+0153 U+00FE U+00DF U+0131 U+0237".split()
 )
 
+added_values = set([0, 18])
+slant_values = [
+    {"name": "Regular", "value": 0},
+    {"name": "Italic", "value": 18},
+]
+
 config = {
     "sources": ["Playwrite_MM.glyphspackage"],
     "doGuidelines": False,
@@ -31,7 +37,11 @@ config = {
                 {"name": "Regular", "value": 400, "flags": 2},
             ],
         },
-        {"name": "Slant", "tag": "slnt"},
+        {
+            "name": "Slant",
+            "tag": "slnt",
+            "values": slant_values,
+        },
         {"name": "Speed", "tag": "SPED"},
         {"name": "Y Extension", "tag": "YEXT"},
     ],
@@ -57,45 +67,51 @@ with open("sources/data/models-all.csv", "r") as file:
             config["variants"].append(
                 {
                     "name": model_name,
-                    "alias": model["lang_tag"],
+                    "alias": model["lang_tag"].replace("_", " "),
                     "steps": [
                         {
                             "operation": "subspace",
                             "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt={regular}",
                         },
-                        {"operation": "fix", "args": "--include-source-fixes"},
                         {"operation": "remap", "args": "--deep", "mappings": mapping},
                         {"operation": "hbsubset"},
+                        {"operation": "fix", "args": "--include-source-fixes"},
                     ],
                 }
             )
-            # Italic needs thinking about. :-/
-            # This is *clearly*34 wrong
             config["variants"].append(
                 {
-                    "name": model_name + " It",
-                    "alias": model["lang_tag"] + " It",
+                    "name": model_name,
+                    "alias": model["lang_tag"].replace("_", " "),
+                    "italic": True,
                     "steps": [
                         {
                             "operation": "subspace",
                             "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt={italic}",
+                            "args": "--update-name-table",
                         },
-                        {"operation": "fix", "args": "--include-source-fixes"},
                         {
                             "operation": "remap",
                             "args": "--deep",
                             "mappings": copy.deepcopy(mapping),
                         },
                         {"operation": "hbsubset"},
+                        {"operation": "fix", "args": "--include-source-fixes"},
                     ],
                 }
             )
+            # Add the italic value to the stat table
+            if italic not in added_values:
+                added_values.add(italic)
+                slant_values.append(
+                    {"name": "Italic", "value": int(italic)},
+                )
 
         else:
             config["variants"].append(
                 {
                     "name": model_name,
-                    "alias": model["lang_tag"],
+                    "alias": model["lang_tag"].replace("_", " "),
                     "steps": [
                         {
                             "operation": "subspace",
@@ -106,6 +122,13 @@ with open("sources/data/models-all.csv", "r") as file:
                     ],
                 }
             )
+            # I hate this
+            italic = int(model["slnt"])
+            if italic not in added_values:
+                added_values.add(italic)
+                slant_values.append(
+                    {"name": "Italic", "value": italic},
+                )
 
 with open("sources/config.yaml", "w") as file:
     yaml.dump(config, file, sort_keys=False, default_flow_style=False)
