@@ -83,7 +83,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Australia NSW
-  alias: AU_NSW
+  alias: AU NSW
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
@@ -160,7 +160,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: Australia QLD
-  alias: AU_QLD
+  alias: AU QLD
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=16
@@ -237,7 +237,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: Australia SA
-  alias: AU_SA
+  alias: AU SA
   steps:
   - operation: subspace
     axes: YEXT=488 SPED=100 slnt=16
@@ -314,7 +314,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: Australia TAS
-  alias: AU_TAS
+  alias: AU TAS
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
@@ -391,7 +391,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: Australia VIC
-  alias: AU_VIC
+  alias: AU VIC
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=18
@@ -472,8 +472,6 @@ variants:
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0
-  - operation: fix
-    args: --include-source-fixes
   - operation: remap
     args: --deep
     mappings:
@@ -546,13 +544,15 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Austria It
-  alias: AT It
+  - operation: fix
+    args: --include-source-fixes
+- name: Austria
+  alias: AT
+  italic: true
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=13
-  - operation: fix
-    args: --include-source-fixes
+    args: --update-name-table
   - operation: remap
     args: --deep
     mappings:
@@ -625,8 +625,10 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
+  - operation: fix
+    args: --include-source-fixes
 - name: Belgium Walloon WAL
-  alias: BE_WAL
+  alias: BE WAL
   steps:
   - operation: subspace
     axes: YEXT=905 SPED=0 slnt=0
@@ -703,7 +705,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Belgium Flanders VLG
-  alias: BE_VLG
+  alias: BE VLG
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=18
@@ -1165,7 +1167,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Croatia Lefthand Lijeva
-  alias: HR_Lijeva
+  alias: HR Lijeva
   steps:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=0
@@ -1396,7 +1398,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Denmark Loopet
-  alias: DK_Loopet
+  alias: DK Loopet
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
@@ -1473,7 +1475,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Denmark Uloopet
-  alias: DK_Uloopet
+  alias: DK Uloopet
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=18
@@ -1550,12 +1552,10 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: England SemiJoin
-  alias: GB_SemiJoin
+  alias: GB SemiJoin
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0
-  - operation: fix
-    args: --include-source-fixes
   - operation: remap
     args: --deep
     mappings:
@@ -1628,13 +1628,15 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: England SemiJoin It
-  alias: GB_SemiJoin It
+  - operation: fix
+    args: --include-source-fixes
+- name: England SemiJoin
+  alias: GB SemiJoin
+  italic: true
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=7
-  - operation: fix
-    args: --include-source-fixes
+    args: --update-name-table
   - operation: remap
     args: --deep
     mappings:
@@ -1707,13 +1709,13 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
+  - operation: fix
+    args: --include-source-fixes
 - name: England Joined
-  alias: GB_Joined
+  alias: GB Joined
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
-  - operation: fix
-    args: --include-source-fixes
   - operation: remap
     args: --deep
     mappings:
@@ -1786,13 +1788,15 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: England Joined It
-  alias: GB_Joined It
+  - operation: fix
+    args: --include-source-fixes
+- name: England Joined
+  alias: GB Joined
+  italic: true
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=7
-  - operation: fix
-    args: --include-source-fixes
+    args: --update-name-table
   - operation: remap
     args: --deep
     mappings:
@@ -1865,6 +1869,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
+  - operation: fix
+    args: --include-source-fixes
 - name: Estonia
   alias: EE
   steps:
@@ -1943,7 +1949,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: France Trad
-  alias: FR_Trad
+  alias: FR Trad
   steps:
   - operation: subspace
     axes: YEXT=908 SPED=0 slnt=0
@@ -2020,7 +2026,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: France Modern
-  alias: FR_Modern
+  alias: FR Modern
   steps:
   - operation: subspace
     axes: YEXT=600 SPED=100 slnt=0
@@ -2097,7 +2103,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: Germany Grund
-  alias: DE_Grund
+  alias: DE Grund
   steps:
   - operation: subspace
     axes: YEXT=420 SPED=0 slnt=0
@@ -2174,7 +2180,7 @@ variants:
       U+0237: jdotless
   - operation: hbsubset
 - name: Germany LA
-  alias: DE_LA
+  alias: DE LA
   steps:
   - operation: subspace
     axes: YEXT=420 SPED=75 slnt=18
@@ -2251,7 +2257,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Germany SAS
-  alias: DE_SAS
+  alias: DE SAS
   steps:
   - operation: subspace
     axes: YEXT=388 SPED=75 slnt=14
@@ -2328,7 +2334,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Germany VA
-  alias: DE_VA
+  alias: DE VA
   steps:
   - operation: subspace
     axes: YEXT=479 SPED=100 slnt=10
@@ -2790,7 +2796,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Italy Trad
-  alias: IT_Trad
+  alias: IT Trad
   steps:
   - operation: subspace
     axes: YEXT=459 SPED=25 slnt=0
@@ -2867,7 +2873,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Italy Modern
-  alias: IT_Modern
+  alias: IT Modern
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
@@ -3791,7 +3797,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: Spain Ornate
-  alias: ES_Ornate
+  alias: ES Ornate
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
@@ -3945,7 +3951,7 @@ variants:
       U+0237: jdotless.jmc
   - operation: hbsubset
 - name: USA Modern
-  alias: US_Modern
+  alias: US Modern
   steps:
   - operation: subspace
     axes: YEXT=438 SPED=0 slnt=0
@@ -4022,7 +4028,7 @@ variants:
       U+0237: jdotless.mod
   - operation: hbsubset
 - name: USA Trad
-  alias: US_Trad
+  alias: US Trad
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=18
@@ -4190,6 +4196,23 @@ stat:
     flags: 2
 - name: Slant
   tag: slnt
+  values:
+  - name: Regular
+    value: 0
+  - name: Italic
+    value: 18
+  - name: Italic
+    value: 16
+  - name: Italic
+    value: 13
+  - name: Italic
+    value: 7
+  - name: Italic
+    value: 15
+  - name: Italic
+    value: 14
+  - name: Italic
+    value: 10
 - name: Speed
   tag: SPED
 - name: Y Extension
