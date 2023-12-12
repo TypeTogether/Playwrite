@@ -72,5 +72,5 @@ do
   =====================
   "
     # Build [wght] only variable for model
-    python $scripts/build-wght-model-var.py $tag
+    python $scripts/build-wght-only-model-var.py $tag
 done

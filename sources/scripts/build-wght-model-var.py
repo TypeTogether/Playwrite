@@ -6,10 +6,12 @@ from modelsData import modelsDataDict as mdd
 
 def main():
     tags = sys.argv[1:]
+
     if "ALL" in tags:
         models_tags = mdd.keys()
     else:
         models_tags = [tag for tag in tags if tag in mdd.keys()]
+
     # build each
     for tag in models_tags:
         tag_no_space = tag.replace("_", "")
@@ -17,12 +19,14 @@ def main():
         ex = mdd[tag]["YEXT"]
         sp = mdd[tag]["SPED"]
         varfont = TTFont(f"./../../fonts-models/fonts-{tag}/variable/Playwrite{tag_no_space}[wght,YEXT,SPED,slnt].ttf")
+
         # fix hasItalics (ENG_Joined and Semijoined by now)
         has_sl = ""
         if type(sl) is str and "-" in sl:
             min_sl, max_sl = sl.split("-")
             sl = (int(min_sl), int(max_sl))
             has_sl = ",slnt"
+
         var_wght_only = instancer.instantiateVariableFont(varfont,
                                                     {
                                                         "wght": (100, 400),
