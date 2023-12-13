@@ -37,7 +37,7 @@
       </dict>
     </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>3227</string>
+    <string>3228</string>
     <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
     <integer>2000</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -1534,6 +1534,13 @@
       <string>entr_zcnt</string>
       <string>dottedCircle</string>
     </array>
+    <key>public.openTypeMeta</key>
+    <dict>
+      <key>slng</key>
+      <array>
+        <string>Latn,ca,cs,da,en,es,et,eu,fr,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,vi</string>
+      </array>
+    </dict>
     <key>public.postscriptNames</key>
     <dict>
       <key>Abreveacute</key>
