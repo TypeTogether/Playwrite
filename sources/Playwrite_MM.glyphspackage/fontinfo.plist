@@ -1,5 +1,5 @@
 {
-.appVersion = "3227";
+.appVersion = "3228";
 .formatVersion = 3;
 axes = (
 {
@@ -1492,6 +1492,15 @@ value = 1;
 {
 name = fsType;
 value = (
+);
+},
+{
+name = "meta Table";
+value = (
+{
+data = "Latn,ca,cs,da,en,es,et,eu,fr,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,vi";
+tag = slng;
+}
 );
 }
 );
