@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ij.jmc.fin" format="2">
-  <advance width="616"/>
-  <anchor x="195" y="0" name="bottom"/>
-  <anchor x="300" y="0" name="cnct_1"/>
-  <anchor x="616" y="0" name="cnct_2"/>
-  <anchor x="250" y="0" name="ogonek"/>
+  <advance width="641"/>
+  <anchor x="220" y="0" name="bottom"/>
+  <anchor x="325" y="0" name="cnct_1"/>
+  <anchor x="641" y="0" name="cnct_2"/>
+  <anchor x="275" y="0" name="ogonek"/>
   <outline>
-    <component base="i.mod.ini"/>
-    <component base="cnct.mod_n_n" xOffset="300"/>
-    <component base="j.jmc" xOffset="300"/>
+    <component base="i.mod.med"/>
+    <component base="cnct.mod_n_n" xOffset="325"/>
+    <component base="j.jmc" xOffset="325"/>
   </outline>
 </glyph>

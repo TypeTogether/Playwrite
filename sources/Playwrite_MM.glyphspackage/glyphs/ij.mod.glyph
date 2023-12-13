@@ -18,6 +18,27 @@ name = ogonek;
 pos = (253,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (605,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m01;
 shapes = (
 {
@@ -124,6 +145,27 @@ name = ogonek;
 pos = (179,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (524,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m002;
 shapes = (
 {
@@ -230,6 +272,27 @@ name = ogonek;
 pos = (253,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (605,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m003;
 shapes = (
 {
@@ -336,6 +399,27 @@ name = ogonek;
 pos = (178,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (524,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m004;
 shapes = (
 {
@@ -442,6 +526,27 @@ name = ogonek;
 pos = (250,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (605,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m005;
 shapes = (
 {
@@ -548,6 +653,27 @@ name = ogonek;
 pos = (178,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (524,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m006;
 shapes = (
 {
@@ -654,6 +780,27 @@ name = ogonek;
 pos = (253,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (605,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m007;
 shapes = (
 {
@@ -760,6 +907,27 @@ name = ogonek;
 pos = (178,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (524,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m008;
 shapes = (
 {
@@ -866,6 +1034,27 @@ name = ogonek;
 pos = (253,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (605,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m009;
 shapes = (
 {
@@ -972,6 +1161,27 @@ name = ogonek;
 pos = (179,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (524,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m010;
 shapes = (
 {
@@ -1078,6 +1288,27 @@ name = ogonek;
 pos = (253,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (605,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m011;
 shapes = (
 {
@@ -1184,6 +1415,27 @@ name = ogonek;
 pos = (178,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (524,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m012;
 shapes = (
 {
@@ -1290,6 +1542,27 @@ name = ogonek;
 pos = (250,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (605,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m013;
 shapes = (
 {
@@ -1396,6 +1669,27 @@ name = ogonek;
 pos = (178,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (524,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m014;
 shapes = (
 {
@@ -1502,6 +1796,27 @@ name = ogonek;
 pos = (253,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (605,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m015;
 shapes = (
 {
@@ -1608,6 +1923,27 @@ name = ogonek;
 pos = (178,0);
 }
 );
+background = {
+anchors = (
+{
+name = cnct;
+pos = (524,0);
+}
+);
+shapes = (
+{
+ref = i.mod.ini;
+},
+{
+pos = (300,0);
+ref = cnct.mod_n_n;
+},
+{
+pos = (300,0);
+ref = j.mod.med;
+}
+);
+};
 layerId = m016;
 shapes = (
 {

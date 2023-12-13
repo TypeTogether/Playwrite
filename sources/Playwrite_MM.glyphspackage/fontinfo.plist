@@ -1962,7 +1962,11 @@ pos = (463,1063);
 },
 {
 angle = 72;
-pos = (282,500);
+pos = (269,500);
+},
+{
+angle = 72;
+pos = (269,500);
 }
 );
 iconName = Bold;
@@ -2526,7 +2530,6 @@ GSOffsetMakeStroke = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
-visible = 1;
 },
 {
 axesValues = (

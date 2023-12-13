@@ -2,9 +2,11 @@ import sys
 from fontTools.ttLib import TTFont
 from fontTools.varLib import instancer
 from modelsData import modelsDataDict as mdd
+import math
 import subprocess
 
 # Dirty procedural code
+
 
 def fix_italic_variable(font, find_, replace_):
     IDS_FIX = [2, 3, 4, 6]
@@ -96,23 +98,15 @@ def main():
                 else:
                     italic = "-Italic"
                     var_wght_only["post"].italicAngle = - slant_val
-                    var_wght_only["hhea"].caretSlopeRise = 1000
-                    var_wght_only["hhea"].caretSlopeRun = 231
+                    var_wght_only["hhea"].caretSlopeRise = var_wght_only[
+                        "head"].unitsPerEm
+                    # var_wght_only["hhea"].caretSlopeRise = 1000
+                    var_wght_only["hhea"].caretSlopeRun = round(math.tan(
+                        math.radians(-1 * var_wght_only["post"].italicAngle)) * var_wght_only["head"].unitsPerEm)
                     var_wght_only['head'].macStyle = 2
                     var_wght_only['OS/2'].fsSelection = 385
 
                     fix_italic_variable(var_wght_only, "Regular", "Italic")
-                    # var_wght_only["name"].setName(string="Italic",  nameID=2,
-                    #                        platformID=3, platEncID=1, langID=0x409)
-
-    # if "Italic" in file.split("-")[-1].split(".")[0]:
-    #     newNameID1 = ttFont["name"].getDebugName(1).replace(" Italic", "")
-
-    #     ttFont["name"].setName(string=newNameID1,  nameID=1,
-    #                            platformID=3, platEncID=1, langID=0x409)
-
-    #     ttFont["name"].setName(string="Italic",  nameID=2,
-    #                            platformID=3, platEncID=1, langID=0x409)
 
                 # tag in output without "_"
                 output_path = f"./../../fonts-models/fonts-{tag}/variable/Playwrite{tag_no_space}{italic}[wght].ttf"

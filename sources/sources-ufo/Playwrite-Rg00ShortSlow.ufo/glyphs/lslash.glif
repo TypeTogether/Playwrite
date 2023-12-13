@@ -4,12 +4,12 @@
   <unicode hex="0142"/>
   <anchor x="147" y="438" name="CAT"/>
   <anchor x="201" y="0" name="bottom"/>
-  <anchor x="135" y="438" name="center"/>
+  <anchor x="142" y="678" name="center"/>
   <anchor x="131" y="838" name="top"/>
   <anchor x="150" y="875" name="topright"/>
   <outline>
     <component base="l"/>
-    <component base="slashshortcomb" xOffset="135" yOffset="95"/>
+    <component base="slashshortcomb" xOffset="142" yOffset="335"/>
   </outline>
   <lib>
     <dict>
