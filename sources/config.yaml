@@ -546,6 +546,8 @@ variants:
   - operation: hbsubset
   - operation: fix
     args: --include-source-fixes
+  - operation: buildStat
+    args: --src stat.yaml
 - name: Austria
   alias: AT
   italic: true
@@ -625,6 +627,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-italic.yaml
   - operation: fix
     args: --include-source-fixes
 - name: Belgium Walloon WAL
@@ -1630,6 +1634,8 @@ variants:
   - operation: hbsubset
   - operation: fix
     args: --include-source-fixes
+  - operation: buildStat
+    args: --src stat.yaml
 - name: England SemiJoin
   alias: GB SemiJoin
   italic: true
@@ -1709,6 +1715,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-italic.yaml
   - operation: fix
     args: --include-source-fixes
 - name: England Joined
@@ -1790,6 +1798,8 @@ variants:
   - operation: hbsubset
   - operation: fix
     args: --include-source-fixes
+  - operation: buildStat
+    args: --src stat.yaml
 - name: England Joined
   alias: GB Joined
   italic: true
@@ -1869,6 +1879,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-italic.yaml
   - operation: fix
     args: --include-source-fixes
 - name: Estonia
