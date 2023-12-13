@@ -3,27 +3,6 @@ glyphname = ij.mod.fin;
 kernRight = g;
 layers = (
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (630,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m01;
 shapes = (
 {
@@ -33,27 +12,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (549,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m002;
 shapes = (
 {
@@ -63,27 +21,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (630,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m003;
 shapes = (
 {
@@ -93,27 +30,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (549,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m004;
 shapes = (
 {
@@ -123,27 +39,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (630,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m005;
 shapes = (
 {
@@ -153,27 +48,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (549,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m006;
 shapes = (
 {
@@ -183,27 +57,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (630,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m007;
 shapes = (
 {
@@ -213,27 +66,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (549,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m008;
 shapes = (
 {
@@ -243,27 +75,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (630,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m009;
 shapes = (
 {
@@ -273,27 +84,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (549,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m010;
 shapes = (
 {
@@ -303,27 +93,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (630,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m011;
 shapes = (
 {
@@ -333,27 +102,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (549,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m012;
 shapes = (
 {
@@ -363,27 +111,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (630,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m013;
 shapes = (
 {
@@ -393,27 +120,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (549,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m014;
 shapes = (
 {
@@ -423,27 +129,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (630,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m015;
 shapes = (
 {
@@ -453,27 +138,6 @@ ref = ij.mod;
 width = 605;
 },
 {
-background = {
-anchors = (
-{
-name = cnct;
-pos = (549,0);
-}
-);
-shapes = (
-{
-ref = i.mod.ini;
-},
-{
-pos = (300,0);
-ref = cnct.mod_n_n;
-},
-{
-pos = (300,0);
-ref = j.mod.fin;
-}
-);
-};
 layerId = m016;
 shapes = (
 {

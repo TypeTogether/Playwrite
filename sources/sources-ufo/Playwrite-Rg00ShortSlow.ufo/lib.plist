@@ -1542,6 +1542,10 @@
     </array>
     <key>public.openTypeMeta</key>
     <dict>
+      <key>dlng</key>
+      <array>
+        <string>Latn,ca,cs,da,en,es,et,eu,fr,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,vi</string>
+      </array>
       <key>slng</key>
       <array>
         <string>Latn,ca,cs,da,en,es,et,eu,fr,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,vi</string>
