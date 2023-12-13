@@ -10,9 +10,12 @@
   - name: Regular
     value: 400
     flags: 0x2
-- name: Slant
-  tag: slnt
-- name: Speed
-  tag: SPED
-- name: Y Extension
-  tag: YEXT
+- name: Italic
+  tag: ital
+  values:
+  - name: Roman
+    flags: 0x2
+    value: 0
+    linkedValue: 1
+  - name: Italic
+    value: 1
