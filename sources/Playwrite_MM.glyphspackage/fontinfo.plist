@@ -1500,6 +1500,10 @@ value = (
 {
 data = "Latn,ca,cs,da,en,es,et,eu,fr,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,vi";
 tag = slng;
+},
+{
+data = "Latn,ca,cs,da,en,es,et,eu,fr,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,vi";
+tag = dlng;
 }
 );
 }
