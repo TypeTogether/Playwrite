@@ -122,11 +122,11 @@ def main():
                 # fix stat table if has italics
                 stat_file = "./../sources-ufo/config-hasItalic.yaml"
 
-                fix_itstat = subprocess.run(
+                fix_it_stat = subprocess.run(
                     ['gftools', 'gen-stat', output_path, '--src', stat_file, '--inplace'], stdout=subprocess.PIPE)
 
                 print(f"Instanced Playwrite{tag_no_space}{italic}[wght].ttf")
-                print(fix_itstat.stdout.decode())
+                print(fix_it_stat.stdout.decode())
 
         varfont.close()
 
