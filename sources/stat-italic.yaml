@@ -10,11 +10,3 @@
   - name: Regular
     value: 400
     flags: 0x2
-- name: Slant
-  tag: slnt
-  values:
-  - name: Regular
-    flags: 0x2
-    value: 0
-  - name: Italic
-    value: 7

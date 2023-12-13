@@ -76,6 +76,7 @@ with open("sources/data/models-all.csv", "r") as file:
                         {"operation": "remap", "args": "--deep", "mappings": mapping},
                         {"operation": "hbsubset"},
                         {"operation": "fix", "args": "--include-source-fixes"},
+                        {"operation": "buildStat", "args": "--src stat.yaml"},
                     ],
                 }
             )
@@ -96,6 +97,8 @@ with open("sources/data/models-all.csv", "r") as file:
                             "mappings": copy.deepcopy(mapping),
                         },
                         {"operation": "hbsubset"},
+                        # Give italic VFs a better STAT
+                        {"operation": "buildStat", "args": "--src stat-italic.yaml"},
                         {"operation": "fix", "args": "--include-source-fixes"},
                     ],
                 }
