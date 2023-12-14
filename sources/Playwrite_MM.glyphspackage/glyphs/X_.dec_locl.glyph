@@ -4,14 +4,6 @@ kernLeft = X.dec_locl;
 kernRight = X.dec_locl;
 layers = (
 {
-annotations = (
-{
-pos = (102,820);
-text = "France / Méthode Dumont";
-type = Text;
-width = 145;
-}
-);
 layerId = m01;
 shapes = (
 {
@@ -397,14 +389,6 @@ nodes = (
 width = 991;
 },
 {
-annotations = (
-{
-pos = (102,820);
-text = "France / Méthode Dumont";
-type = Text;
-width = 145;
-}
-);
 layerId = m009;
 shapes = (
 {

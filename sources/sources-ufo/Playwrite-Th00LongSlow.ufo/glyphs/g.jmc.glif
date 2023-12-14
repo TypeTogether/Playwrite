@@ -42,11 +42,11 @@
       <point x="391" y="-6"/>
       <point x="442" y="104" type="curve"/>
       <point x="442" y="-134" type="line"/>
-      <point x="437" y="-139"/>
-      <point x="433" y="-145"/>
-      <point x="428" y="-150" type="curve" smooth="yes"/>
-      <point x="282" y="-325"/>
-      <point x="208" y="-532"/>
+      <point x="423" y="-153"/>
+      <point x="393" y="-192"/>
+      <point x="363" y="-237" type="curve" smooth="yes"/>
+      <point x="260" y="-394"/>
+      <point x="208" y="-579"/>
       <point x="208" y="-822" type="curve" smooth="yes"/>
       <point x="208" y="-946"/>
       <point x="256" y="-1019"/>
@@ -56,11 +56,11 @@
       <point x="281" y="-984"/>
       <point x="248" y="-924"/>
       <point x="248" y="-822" type="curve" smooth="yes"/>
-      <point x="248" y="-570"/>
-      <point x="306" y="-355"/>
-      <point x="433" y="-200" type="curve" smooth="yes"/>
-      <point x="436" y="-197"/>
-      <point x="439" y="-193"/>
+      <point x="248" y="-600"/>
+      <point x="293" y="-407"/>
+      <point x="390" y="-258" type="curve" smooth="yes"/>
+      <point x="412" y="-226"/>
+      <point x="431" y="-201"/>
       <point x="442" y="-190" type="curve"/>
       <point x="442" y="-770" type="line" smooth="yes"/>
       <point x="442" y="-919"/>
@@ -114,7 +114,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>g</string>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

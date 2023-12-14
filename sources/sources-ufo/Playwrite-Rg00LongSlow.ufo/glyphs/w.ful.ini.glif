@@ -16,13 +16,16 @@
       <point x="700" y="-19"/>
       <point x="783" y="114"/>
       <point x="783" y="255" type="curve" smooth="yes"/>
-      <point x="783" y="370"/>
-      <point x="749" y="519"/>
-      <point x="670" y="519" type="curve" smooth="yes"/>
-      <point x="630" y="519"/>
-      <point x="619" y="488"/>
-      <point x="619" y="466" type="curve" smooth="yes"/>
-      <point x="619" y="430"/>
+      <point x="783" y="312"/>
+      <point x="776" y="378"/>
+      <point x="757" y="430" type="curve"/>
+      <point x="738" y="482"/>
+      <point x="710" y="519"/>
+      <point x="671" y="519" type="curve" smooth="yes"/>
+      <point x="631" y="519"/>
+      <point x="618" y="488"/>
+      <point x="618" y="466" type="curve" smooth="yes"/>
+      <point x="618" y="430"/>
       <point x="642" y="411"/>
       <point x="682" y="390" type="curve"/>
       <point x="693" y="351"/>
@@ -92,7 +95,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>u</string>
       <key>public.markColor</key>
-      <string>0,0.67,0.91,1</string>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

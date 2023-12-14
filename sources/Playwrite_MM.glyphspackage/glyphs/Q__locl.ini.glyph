@@ -680,14 +680,6 @@ name = cnct;
 pos = (866,0);
 }
 );
-annotations = (
-{
-pos = (180,768);
-text = "use with cnct.mod_c_n";
-type = Text;
-width = 163;
-}
-);
 layerId = m004;
 shapes = (
 {
