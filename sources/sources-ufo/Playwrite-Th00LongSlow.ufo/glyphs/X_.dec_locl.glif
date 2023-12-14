@@ -71,24 +71,4 @@
       <point x="885" y="-17"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>102</integer>
-            <integer>820</integer>
-          </array>
-          <key>text</key>
-          <string>France / Méthode Dumont</string>
-          <key>type</key>
-          <string>Text</string>
-          <key>width</key>
-          <integer>145</integer>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>
