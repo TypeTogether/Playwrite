@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="x.cnt_de.ini" format="2">
   <advance width="674"/>
-  <guideline x="-125" y="86" angle="0"/>
-  <guideline x="-464" y="309" angle="0"/>
   <anchor x="593" y="0" name="cnct"/>
   <outline>
     <contour>
@@ -35,7 +33,7 @@
       <point x="139" y="16" type="curve" smooth="yes"/>
       <point x="103" y="16"/>
       <point x="84" y="38"/>
-      <point x="84" y="79" type="curve"/>
+      <point x="84" y="79" type="curve" smooth="yes"/>
       <point x="84" y="295"/>
       <point x="670" y="220"/>
       <point x="670" y="430" type="curve" smooth="yes"/>
@@ -67,4 +65,10 @@
       <point x="213" y="16"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -63,24 +63,4 @@
       <point x="546" y="-17"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>9</integer>
-            <integer>782</integer>
-          </array>
-          <key>text</key>
-          <string>use with cnct.mod_c_n</string>
-          <key>type</key>
-          <string>Text</string>
-          <key>width</key>
-          <integer>135</integer>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

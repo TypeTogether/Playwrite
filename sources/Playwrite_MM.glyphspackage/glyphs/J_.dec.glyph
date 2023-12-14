@@ -212,12 +212,6 @@ name = top;
 pos = (463,838);
 }
 );
-annotations = (
-{
-pos = (305.961,462.957);
-type = Text;
-}
-);
 layerId = m002;
 shapes = (
 {
@@ -414,14 +408,6 @@ pos = (276,-406);
 {
 name = top;
 pos = (330,838);
-}
-);
-annotations = (
-{
-pos = (-337,-202);
-text = "loops too small/narrow?";
-type = Text;
-width = 127;
 }
 );
 layerId = m005;
@@ -1214,14 +1200,6 @@ pos = (325,-1000);
 {
 name = top;
 pos = (424,1424);
-}
-);
-annotations = (
-{
-pos = (-337,-202);
-text = "loops too small/narrow?";
-type = Text;
-width = 127;
 }
 );
 layerId = m013;

@@ -50,24 +50,4 @@
       <point x="183" y="-17"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.annotations</key>
-      <array>
-        <dict>
-          <key>position</key>
-          <array>
-            <integer>180</integer>
-            <integer>768</integer>
-          </array>
-          <key>text</key>
-          <string>use with cnct.mod_c_n</string>
-          <key>type</key>
-          <string>Text</string>
-          <key>width</key>
-          <integer>163</integer>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

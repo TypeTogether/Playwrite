@@ -14,13 +14,6 @@ name = top;
 pos = (749,838);
 }
 );
-annotations = (
-{
-pos = (930,634);
-text = Poland;
-type = Text;
-}
-);
 layerId = m01;
 shapes = (
 {
@@ -731,13 +724,6 @@ pos = (1115,0);
 {
 name = top;
 pos = (1161,1424);
-}
-);
-annotations = (
-{
-pos = (930,634);
-text = Poland;
-type = Text;
 }
 );
 layerId = m009;

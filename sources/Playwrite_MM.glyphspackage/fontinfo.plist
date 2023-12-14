@@ -1508,14 +1508,14 @@ tag = dlng;
 );
 }
 );
-date = "2023-11-16 14:36:52 +0000";
+date = "2023-12-14 16:53:43 +0000";
 familyName = Playwrite;
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
 languagesystem latn dflt;
 
-include(../../03_Engineering/GOOGLE-Github-Playpen-repo/sources/features/Playwrite.fea);
+include(features/Playwrite.fea);
 ";
 name = Languagesystems;
 }
@@ -16212,13 +16212,13 @@ key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = manufacturers;

@@ -12,13 +12,6 @@ name = top;
 pos = (350,500);
 }
 );
-annotations = (
-{
-pos = (8,525);
-text = cnct.cnt_n_z;
-type = Text;
-}
-);
 layerId = m01;
 shapes = (
 {
