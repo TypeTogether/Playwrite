@@ -11,6 +11,7 @@ import subprocess
 def fix_italic_variable(font, find_, replace_):
     IDS_FIX = [2, 3, 4, 6]
 
+    # name
     name_table = font["name"]
     for name_record in name_table.names:
         if name_record.nameID in IDS_FIX:
@@ -21,6 +22,15 @@ def fix_italic_variable(font, find_, replace_):
         # append "varItalic" to id 25
         elif name_record.nameID == 25:
             name_record.string = old.split('-')[0] + "varItalic"
+
+    # hhea
+    font["hhea"].caretSlopeRise = font["head"].unitsPerEm
+    font["hhea"].caretSlopeRun = round(math.tan(
+        math.radians(-1 * font["post"].italicAngle)) * font["head"].unitsPerEm)
+    # head
+    font['head'].macStyle = 2
+    # OS/2
+    font['OS/2'].fsSelection = 385
 
 
 def main():
@@ -98,14 +108,6 @@ def main():
                 else:
                     italic = "-Italic"
                     var_wght_only["post"].italicAngle = - slant_val
-                    var_wght_only["hhea"].caretSlopeRise = var_wght_only[
-                        "head"].unitsPerEm
-                    # var_wght_only["hhea"].caretSlopeRise = 1000
-                    var_wght_only["hhea"].caretSlopeRun = round(math.tan(
-                        math.radians(-1 * var_wght_only["post"].italicAngle)) * var_wght_only["head"].unitsPerEm)
-                    var_wght_only['head'].macStyle = 2
-                    var_wght_only['OS/2'].fsSelection = 385
-
                     fix_italic_variable(var_wght_only, "Regular", "Italic")
 
                 # tag in output without "_"
