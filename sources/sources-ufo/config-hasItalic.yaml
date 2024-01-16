@@ -36,7 +36,7 @@ PlaywriteAT-Italic[wght].ttf:
     values:
     - name: Italic
       value: 1
-PlaywriteGBJoined[wght].ttf:
+PlaywriteGBJ[wght].ttf:
   - name: Weight
     tag: wght
     values:
@@ -56,7 +56,7 @@ PlaywriteGBJoined[wght].ttf:
       value: 0
       linkedValue: 1
       flags: 2
-PlaywriteGBJoined-Italic[wght].ttf:
+PlaywriteGBJ-Italic[wght].ttf:
   - name: Weight
     tag: wght
     values:
@@ -74,7 +74,7 @@ PlaywriteGBJoined-Italic[wght].ttf:
     values:
     - name: Italic
       value: 1
-PlaywriteGBSemiJoin[wght].ttf:
+PlaywriteGBS[wght].ttf:
   - name: Weight
     tag: wght
     values:
@@ -94,7 +94,7 @@ PlaywriteGBSemiJoin[wght].ttf:
       value: 0
       linkedValue: 1
       flags: 2
-PlaywriteGBSemiJoin-Italic[wght].ttf:
+PlaywriteGBS-Italic[wght].ttf:
   - name: Weight
     tag: wght
     values:

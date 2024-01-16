@@ -1,5 +1,5 @@
 {
-.appVersion = "3228";
+.appVersion = "3234";
 .formatVersion = 3;
 axes = (
 {
@@ -120,7 +120,6 @@ euro,
 cent,
 sterling,
 yen,
-florin,
 percent,
 period,
 comma,
@@ -1436,7 +1435,6 @@ cnct.ful_C_x,
 cnct.ful_C_z,
 cnct.jmc_C_f,
 cnct.lop_C_h,
-cnct.lop_C_t,
 cnct.lop_C_t.lop_de,
 cnct.mod_C_b,
 cnct.mod_C_e,
@@ -1651,8 +1649,8 @@ value = 400;
 );
 guides = (
 {
-orientation = center;
 locked = 1;
+orientation = center;
 pos = (191,838);
 },
 {
