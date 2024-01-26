@@ -1555,8 +1555,8 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: England SemiJoin
-  alias: GB SemiJoin
+- name: England S
+  alias: GB S
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0
@@ -1636,8 +1636,8 @@ variants:
     args: --include-source-fixes
   - operation: buildStat
     args: --src stat.yaml
-- name: England SemiJoin
-  alias: GB SemiJoin
+- name: England S
+  alias: GB S
   italic: true
   steps:
   - operation: subspace
@@ -1719,8 +1719,8 @@ variants:
     args: --src stat-italic.yaml
   - operation: fix
     args: --include-source-fixes
-- name: England Joined
-  alias: GB Joined
+- name: England J
+  alias: GB J
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
@@ -1800,8 +1800,8 @@ variants:
     args: --include-source-fixes
   - operation: buildStat
     args: --src stat.yaml
-- name: England Joined
-  alias: GB Joined
+- name: England J
+  alias: GB J
   italic: true
   steps:
   - operation: subspace
@@ -3162,6 +3162,83 @@ variants:
       d: d.mod
       e: e.mod
       f: f.mod_au
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.mod
+      q: q.mod_au
+      r: r.mod
+      s: s.mod
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.mod
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: hbsubset
+- name: Nigeria
+  alias: NG
+  steps:
+  - operation: subspace
+    axes: YEXT=500 SPED=25 slnt=0
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: i
+      J: j
+      K: k
+      L: l
+      M: m
+      N: n
+      O: o
+      P: p
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U
+      V: V
+      W: W
+      X: X
+      Y: Y_locl
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mod
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod
       g: g.mod
       h: h.mod
       i: i.mod
