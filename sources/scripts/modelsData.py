@@ -310,8 +310,8 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                 'U_locl.au V W X Y Z AE Eth IJ Eng OE Thorn Germandbls',
           'YEXT': 375,
           'lc': 'a.mod b.jmc c.mod d.mod e.mod f.jmc g.jmc h.mod i.mod j.jmc '
-                'k.ful l.mod m.mod n.mod o.mod p.jmc q.jmc r.mod s.mod t.mod '
-                'u.mod v.mod w.mod x.ful y.jmc z.mod ae.mod eth.mod ij.mod eng '
+                'k.ful l.mod m.mod n.mod o.mod p.jmc q.jmc r.mod s.jmc t.mod '
+                'u.mod v.mod w.mod x.mod y.jmc z.mod ae.mod eth.mod ij.jmc eng '
                 'oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
           'slnt': '0-7'},
  'GB_S': {'Country': 'England',
@@ -445,7 +445,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
         'slnt': 18},
  'NG': {'Country': 'Nigeria',
         'SPED': 25,
-        'UC': 'A B C D E F G_locl.au H i j k l m n o p Q R S T U V W X Y_locl '
+        'UC': 'A B C D E F G_locl.au H I J K L M N O P Q R S T U V W X Y_locl '
               'Z AE Eth IJ Eng OE Thorn Germandbls',
         'YEXT': 500,
         'lc': 'a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod j.mod '
