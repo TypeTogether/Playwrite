@@ -58,9 +58,10 @@ with open("sources/data/models-all.csv", "r") as file:
             mapping[old] = new
         for old, new in zip(LC_ORDER, new_lcs):
             mapping[old] = new
-        model_name = model["Country"]
-        if "_" in model["lang_tag"]:
-            model_name += " " + model["lang_tag"].split("_")[1]
+        # model_name = model["Country"]
+        # if "_" in model["lang_tag"]:
+            # model_name += " " + model["lang_tag"].split("_")[1]
+        model_name = model["lang_tag"].replace("_", " ")
         if "-" in model["slnt"]:
             regular, italic = model["slnt"].split("-")
             # Regular is easy
