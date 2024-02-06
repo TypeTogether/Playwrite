@@ -5,7 +5,7 @@ buildStatic: true
 buildColorVariable: false
 recipeProvider: fontprimer
 variants:
-- name: Argentina
+- name: AR
   alias: AR
   steps:
   - operation: subspace
@@ -82,7 +82,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Australia NSW
+- name: AU NSW
   alias: AU NSW
   steps:
   - operation: subspace
@@ -159,7 +159,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: Australia QLD
+- name: AU QLD
   alias: AU QLD
   steps:
   - operation: subspace
@@ -236,7 +236,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: Australia SA
+- name: AU SA
   alias: AU SA
   steps:
   - operation: subspace
@@ -313,7 +313,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: Australia TAS
+- name: AU TAS
   alias: AU TAS
   steps:
   - operation: subspace
@@ -390,7 +390,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: Australia VIC
+- name: AU VIC
   alias: AU VIC
   steps:
   - operation: subspace
@@ -467,7 +467,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Austria
+- name: AT
   alias: AT
   steps:
   - operation: subspace
@@ -548,7 +548,7 @@ variants:
     args: --include-source-fixes
   - operation: buildStat
     args: --src stat.yaml
-- name: Austria
+- name: AT
   alias: AT
   italic: true
   steps:
@@ -631,7 +631,7 @@ variants:
     args: --src stat-italic.yaml
   - operation: fix
     args: --include-source-fixes
-- name: Belgium Walloon WAL
+- name: BE WAL
   alias: BE WAL
   steps:
   - operation: subspace
@@ -708,7 +708,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Belgium Flanders VLG
+- name: BE VLG
   alias: BE VLG
   steps:
   - operation: subspace
@@ -785,7 +785,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Brazil
+- name: BR
   alias: BR
   steps:
   - operation: subspace
@@ -862,7 +862,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Canada
+- name: CA
   alias: CA
   steps:
   - operation: subspace
@@ -939,7 +939,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Chile
+- name: CL
   alias: CL
   steps:
   - operation: subspace
@@ -1016,7 +1016,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Colombia
+- name: CO
   alias: CO
   steps:
   - operation: subspace
@@ -1093,7 +1093,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Croatia
+- name: HR
   alias: HR
   steps:
   - operation: subspace
@@ -1170,7 +1170,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Croatia Lefthand Lijeva
+- name: HR Lijeva
   alias: HR Lijeva
   steps:
   - operation: subspace
@@ -1247,7 +1247,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Cuba
+- name: CU
   alias: CU
   steps:
   - operation: subspace
@@ -1324,7 +1324,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Czech Republic
+- name: CZ
   alias: CZ
   steps:
   - operation: subspace
@@ -1401,7 +1401,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Denmark Loopet
+- name: DK Loopet
   alias: DK Loopet
   steps:
   - operation: subspace
@@ -1478,7 +1478,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Denmark Uloopet
+- name: DK Uloopet
   alias: DK Uloopet
   steps:
   - operation: subspace
@@ -1555,7 +1555,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: England S
+- name: GB S
   alias: GB S
   steps:
   - operation: subspace
@@ -1636,7 +1636,7 @@ variants:
     args: --include-source-fixes
   - operation: buildStat
     args: --src stat.yaml
-- name: England S
+- name: GB S
   alias: GB S
   italic: true
   steps:
@@ -1719,7 +1719,7 @@ variants:
     args: --src stat-italic.yaml
   - operation: fix
     args: --include-source-fixes
-- name: England J
+- name: GB J
   alias: GB J
   steps:
   - operation: subspace
@@ -1800,7 +1800,7 @@ variants:
     args: --include-source-fixes
   - operation: buildStat
     args: --src stat.yaml
-- name: England J
+- name: GB J
   alias: GB J
   italic: true
   steps:
@@ -1883,7 +1883,7 @@ variants:
     args: --src stat-italic.yaml
   - operation: fix
     args: --include-source-fixes
-- name: Estonia
+- name: EE
   alias: EE
   steps:
   - operation: subspace
@@ -1960,7 +1960,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: France Trad
+- name: FR Trad
   alias: FR Trad
   steps:
   - operation: subspace
@@ -2037,7 +2037,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: France Modern
+- name: FR Modern
   alias: FR Modern
   steps:
   - operation: subspace
@@ -2114,7 +2114,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: Germany Grund
+- name: DE Grund
   alias: DE Grund
   steps:
   - operation: subspace
@@ -2191,7 +2191,7 @@ variants:
       U+0131: idotless
       U+0237: jdotless
   - operation: hbsubset
-- name: Germany LA
+- name: DE LA
   alias: DE LA
   steps:
   - operation: subspace
@@ -2268,7 +2268,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Germany SAS
+- name: DE SAS
   alias: DE SAS
   steps:
   - operation: subspace
@@ -2345,7 +2345,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Germany VA
+- name: DE VA
   alias: DE VA
   steps:
   - operation: subspace
@@ -2422,7 +2422,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Hungary
+- name: HU
   alias: HU
   steps:
   - operation: subspace
@@ -2499,7 +2499,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Iceland
+- name: IS
   alias: IS
   steps:
   - operation: subspace
@@ -2576,7 +2576,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: India
+- name: IN
   alias: IN
   steps:
   - operation: subspace
@@ -2653,7 +2653,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Indonesia
+- name: ID
   alias: ID
   steps:
   - operation: subspace
@@ -2730,7 +2730,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Ireland
+- name: IE
   alias: IE
   steps:
   - operation: subspace
@@ -2807,7 +2807,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Italy Trad
+- name: IT Trad
   alias: IT Trad
   steps:
   - operation: subspace
@@ -2884,7 +2884,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Italy Modern
+- name: IT Modern
   alias: IT Modern
   steps:
   - operation: subspace
@@ -2961,7 +2961,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: Mexico
+- name: MX
   alias: MX
   steps:
   - operation: subspace
@@ -3038,7 +3038,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Netherlands
+- name: NL
   alias: NL
   steps:
   - operation: subspace
@@ -3115,7 +3115,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: New Zealand
+- name: NZ
   alias: NZ
   steps:
   - operation: subspace
@@ -3192,7 +3192,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: Nigeria
+- name: NG
   alias: NG
   steps:
   - operation: subspace
@@ -3269,7 +3269,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: Norway
+- name: 'NO'
   alias: 'NO'
   steps:
   - operation: subspace
@@ -3346,7 +3346,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Peru
+- name: PE
   alias: PE
   steps:
   - operation: subspace
@@ -3423,7 +3423,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Poland
+- name: PL
   alias: PL
   steps:
   - operation: subspace
@@ -3500,7 +3500,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Portugal
+- name: PT
   alias: PT
   steps:
   - operation: subspace
@@ -3577,7 +3577,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Romania
+- name: RO
   alias: RO
   steps:
   - operation: subspace
@@ -3654,7 +3654,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Slovakia
+- name: SK
   alias: SK
   steps:
   - operation: subspace
@@ -3731,7 +3731,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: South Africa
+- name: ZA
   alias: ZA
   steps:
   - operation: subspace
@@ -3808,7 +3808,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Spain
+- name: ES
   alias: ES
   steps:
   - operation: subspace
@@ -3885,7 +3885,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Spain Ornate
+- name: ES Ornate
   alias: ES Ornate
   steps:
   - operation: subspace
@@ -3962,7 +3962,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Tanzania
+- name: TZ
   alias: TZ
   steps:
   - operation: subspace
@@ -4039,7 +4039,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: USA Modern
+- name: US Modern
   alias: US Modern
   steps:
   - operation: subspace
@@ -4116,7 +4116,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.mod
   - operation: hbsubset
-- name: USA Trad
+- name: US Trad
   alias: US Trad
   steps:
   - operation: subspace
@@ -4193,7 +4193,7 @@ variants:
       U+0131: idotless.mod
       U+0237: jdotless.jmc
   - operation: hbsubset
-- name: Vietnam
+- name: VN
   alias: VN
   steps:
   - operation: subspace
