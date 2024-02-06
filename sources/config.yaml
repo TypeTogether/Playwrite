@@ -1778,17 +1778,17 @@ variants:
       p: p.jmc
       q: q.jmc
       r: r.mod
-      s: s.mod
+      s: s.jmc
       t: t.mod
       u: u.mod
       v: v.mod
       w: w.mod
-      x: x.ful
+      x: x.mod
       y: y.jmc
       z: z.mod
       U+00E6: ae.mod
       U+00F0: eth.mod
-      U+0133: ij.mod
+      U+0133: ij.jmc
       U+014B: eng
       U+0153: oe.mod
       U+00FE: thorn.jmc
@@ -1861,17 +1861,17 @@ variants:
       p: p.jmc
       q: q.jmc
       r: r.mod
-      s: s.mod
+      s: s.jmc
       t: t.mod
       u: u.mod
       v: v.mod
       w: w.mod
-      x: x.ful
+      x: x.mod
       y: y.jmc
       z: z.mod
       U+00E6: ae.mod
       U+00F0: eth.mod
-      U+0133: ij.mod
+      U+0133: ij.jmc
       U+014B: eng
       U+0153: oe.mod
       U+00FE: thorn.jmc
@@ -3208,14 +3208,14 @@ variants:
       F: F
       G: G_locl.au
       H: H
-      I: i
-      J: j
-      K: k
-      L: l
-      M: m
-      N: n
-      O: o
-      P: p
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M
+      N: N
+      O: O
+      P: P
       Q: Q
       R: R
       S: S
