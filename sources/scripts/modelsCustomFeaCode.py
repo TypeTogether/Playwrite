@@ -10,5 +10,5 @@ modelsCustomFeaCodeDict = {
     "ES": "sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;",
     "ES_Ornate": "sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;",
     "NL": "sub i.mod j.jmc by ij.jmc;",
-    "RO": "sub [S.dec T.dec s.ful t.mod] commaaccentcomb' by cedillacomb;"
+    "RO": "sub [S S.cur S.dec] cedillacomb.case' by commaaccentcomb.case\nsub [s s.mod s.jmc s.ful s.mlp] cedillacomb' by commaaccentcomb;"
 }

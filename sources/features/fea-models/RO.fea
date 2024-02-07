@@ -8,4 +8,5 @@
 sub [@UC_src @lc_src] by [@UC_RO @lc_RO];
 
 # Custom code:
-sub [S.dec T.dec s.ful t.mod] commaaccentcomb' by cedillacomb;
+sub [S S.cur S.dec] cedillacomb.case' by commaaccentcomb.case;
+sub [s s.mod s.jmc s.ful s.mlp] cedillacomb' by commaaccentcomb;
