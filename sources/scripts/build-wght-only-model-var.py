@@ -52,8 +52,8 @@ def main():
         # fix hasItalics (ENG_Joined and Semijoined by now)
         has_italic = False
         if type(sl) is str and "-" in sl:
-            min_sl, max_sl = sl.split("-")
-            sl = (int(min_sl), int(max_sl))
+            max_sl, min_sl = sl.split("-")
+            sl = (-int(min_sl), int(max_sl))
             has_italic = True
 
         if has_italic is False:
@@ -107,7 +107,7 @@ def main():
                     var_wght_only["hhea"].caretSlopeRun = 0
                 else:
                     italic = "-Italic"
-                    var_wght_only["post"].italicAngle = - slant_val
+                    var_wght_only["post"].italicAngle = slant_val
                     fix_italic_variable(var_wght_only, "Regular", "Italic")
 
                 # tag in output without "_"

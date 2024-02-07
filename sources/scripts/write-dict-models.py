@@ -24,7 +24,7 @@ with open("../data/models-all.csv", "r") as csv:
         try:
             models_dict[t] = {
                 country: c,
-                slnt: int(sl),
+                slnt: -int(sl),
                 yext: int(e),
                 sped: int(sp),
                 uppercase: u,

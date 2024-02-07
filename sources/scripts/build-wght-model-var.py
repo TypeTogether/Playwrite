@@ -16,15 +16,16 @@ def main():
     for tag in models_tags:
         tag_no_space = tag.replace("_", "")
         sl = mdd[tag]["slnt"]
+        print(f"mdd[tag]["slnt"]: {sl}")
         ex = mdd[tag]["YEXT"]
         sp = mdd[tag]["SPED"]
         varfont = TTFont(f"./../../fonts-models/fonts-{tag}/variable/Playwrite{tag_no_space}[wght,YEXT,SPED,slnt].ttf")
 
-        # fix hasItalics (ENG_Joined and Semijoined by now)
+        # fix hasItalics
         has_sl = ""
         if type(sl) is str and "-" in sl:
-            min_sl, max_sl = sl.split("-")
-            sl = (int(min_sl), int(max_sl))
+            max_sl, min_sl = sl.split("-")
+            sl = (-int(min_sl), int(max_sl))
             has_sl = ",slnt"
 
         var_wght_only = instancer.instantiateVariableFont(varfont,
