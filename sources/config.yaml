@@ -1327,6 +1327,8 @@ variants:
 - name: CZ
   alias: CZ
   steps:
+  - operation: featureFreeze
+    args: -l CSY -f locl
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
@@ -3041,6 +3043,8 @@ variants:
 - name: NL
   alias: NL
   steps:
+  - operation: featureFreeze
+    args: -l NLD -f locl
   - operation: subspace
     axes: YEXT=773 SPED=50 slnt=18
   - operation: remap
@@ -3580,6 +3584,8 @@ variants:
 - name: RO
   alias: RO
   steps:
+  - operation: featureFreeze
+    args: -l ROM -f locl
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=18
   - operation: remap
@@ -3657,6 +3663,8 @@ variants:
 - name: SK
   alias: SK
   steps:
+  - operation: featureFreeze
+    args: -l SKY -f locl
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=18
   - operation: remap
@@ -3811,6 +3819,8 @@ variants:
 - name: ES
   alias: ES
   steps:
+  - operation: featureFreeze
+    args: -l ESP -f locl
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=0
   - operation: remap

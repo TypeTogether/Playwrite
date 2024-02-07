@@ -13,6 +13,14 @@ LC_ORDER = (
     "U+00E6 U+00F0 U+0133 U+014B U+0153 U+00FE U+00DF U+0131 U+0237".split()
 )
 
+locl_required = {
+    "CZ": "CSY",
+    "ES": "ESP",
+    "NL": "NLD",
+    "RO": "ROM",
+    "SK": "SKY",
+}
+
 added_values = set([0, 18])
 slant_values = [
     {"name": "Regular", "value": 0},
@@ -60,8 +68,16 @@ with open("sources/data/models-all.csv", "r") as file:
             mapping[old] = new
         # model_name = model["Country"]
         # if "_" in model["lang_tag"]:
-            # model_name += " " + model["lang_tag"].split("_")[1]
+        # model_name += " " + model["lang_tag"].split("_")[1]
         model_name = model["lang_tag"].replace("_", " ")
+        featurefreeze = []
+        if model["lang_tag"] in locl_required:
+            featurefreeze = [
+                {
+                    "operation": "featureFreeze",
+                    "args": "-l " + locl_required[model["lang_tag"]] + " -f locl",
+                }
+            ]
         if "-" in model["slnt"]:
             regular, italic = model["slnt"].split("-")
             # Regular is easy
@@ -69,7 +85,8 @@ with open("sources/data/models-all.csv", "r") as file:
                 {
                     "name": model_name,
                     "alias": model["lang_tag"].replace("_", " "),
-                    "steps": [
+                    "steps": featurefreeze
+                    + [
                         {
                             "operation": "subspace",
                             "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt={regular}",
@@ -86,7 +103,8 @@ with open("sources/data/models-all.csv", "r") as file:
                     "name": model_name,
                     "alias": model["lang_tag"].replace("_", " "),
                     "italic": True,
-                    "steps": [
+                    "steps": featurefreeze
+                    + [
                         {
                             "operation": "subspace",
                             "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt={italic}",
@@ -116,7 +134,8 @@ with open("sources/data/models-all.csv", "r") as file:
                 {
                     "name": model_name,
                     "alias": model["lang_tag"].replace("_", " "),
-                    "steps": [
+                    "steps": featurefreeze
+                    + [
                         {
                             "operation": "subspace",
                             "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt={model['slnt']}",
