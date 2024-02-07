@@ -31,7 +31,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                   't.mod u.mod v.ful w.ful x.mod y.mod z.mod ae.mod eth.mod '
                   'ij.mod eng oe.mod thorn.jmc germandbls.jmc idotless.mod '
                   'jdotless.mod',
-            'slnt': 16},
+            'slnt': -16},
  'AU_QLD': {'Country': 'Australia',
             'SPED': 100,
             'UC': 'A B C D E F G_locl.au H I_locl J K L M_locl.au N O P Q R S '
@@ -43,7 +43,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                   's.ful t.mod u.mod v.ful w.ful x.ful y.mod z.cnt_au ae.mod '
                   'eth.mod ij.mod eng oe.mod thorn.jmc germandbls.jmc '
                   'idotless.mod jdotless.mod',
-            'slnt': 16},
+            'slnt': -16},
  'AU_SA': {'Country': 'Australia',
            'SPED': 100,
            'UC': 'A B C D E F G_locl.au H I_locl J K L M_locl.au N O P Q R S T '
@@ -54,7 +54,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                  's.jmc t.mod u.mod v.mod w.mod x.mod y.mod z.mod ae.mod '
                  'eth.mod ij.mod eng oe.mod thorn.jmc germandbls.jmc '
                  'idotless.mod jdotless.mod',
-           'slnt': 16},
+           'slnt': -16},
  'AU_TAS': {'Country': 'Australia',
             'SPED': 75,
             'UC': 'A B C D E F G_locl.au H I J K L M_locl.au N O P Q R S T '
@@ -65,7 +65,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                   't.mod u.mod v.mod w.mod x.mod y.mod z.mod ae.mod eth.mod '
                   'ij.mod eng oe.mod thorn.jmc germandbls.jmc idotless.mod '
                   'jdotless.mod',
-            'slnt': 18},
+            'slnt': -18},
  'AU_VIC': {'Country': 'Australia',
             'SPED': 75,
             'UC': 'A B C D E F G_locl.au H I J K L M_locl N O P Q R S T '
@@ -76,7 +76,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                   's.mod t.mod u.mod v.ful w.ful x.cnt y.mod z.cnt_au ae.ful '
                   'eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc '
                   'idotless.mod jdotless.jmc',
-            'slnt': 18},
+            'slnt': -18},
  'BE_VLG': {'Country': 'Belgium Flanders',
             'SPED': 25,
             'UC': 'A.cur_locl B.cur C.cur D.dec E.cur F.cur G.cur_locl H.cur '
@@ -89,7 +89,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                   't.mod_be u.mod v.cnt w.cnt x.cnt y.jmc z.mod ae.ful eth.mod '
                   'ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod '
                   'jdotless.jmc',
-            'slnt': 18},
+            'slnt': -18},
  'BE_WAL': {'Country': 'Belgium Walloon',
             'SPED': 0,
             'UC': 'A.dec_locl B.cur C.cur D.dec E.cur F.cur G.cur_locl H.cur '
@@ -126,7 +126,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.cnt n.cnt o.mod p.mrr_ca q.mrr r.ful s.ful t.mod '
               'u.mod v.cnt w.cnt x.ful y.cnt z.cnt ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 18},
+        'slnt': -18},
  'CL': {'Country': 'Chile',
         'SPED': 0,
         'UC': 'A.cur_locl B.cur C.cur D.dec E.cur F.cur G.cur H.cur I.dec '
@@ -150,7 +150,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.cnt n.cnt o.mlp p.jmc q.mrr r.ful s.ful t.mod '
               'u.mod v.cnt w.ful x.ful y.cnt z.mlp ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 18},
+        'slnt': -18},
  'CU': {'Country': 'Cuba',
         'SPED': 50,
         'UC': 'A.cur B.dec C.cur D.dec E.cur F.cur G.cur H.dec I.cur J.cur '
@@ -162,7 +162,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.cnt n.cnt o.mod p.mrr q.mrr r.cnt s.ful t.mod '
               'u.mod v.cnt w.ful x.ful y.cnt z.mlp ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 18},
+        'slnt': -18},
  'CZ': {'Country': 'Czech Republic',
         'SPED': 50,
         'UC': 'A.cur B.cur C.cur D.dec E.cur F.cur G.cur H.cur I.dec J.dec '
@@ -174,7 +174,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.ful s.ful t.lop_de '
               'u.mod v.cnt w.cnt x.ful y.cnt z.mod ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 18},
+        'slnt': -18},
  'DE_Grund': {'Country': 'Germany',
               'SPED': 0,
               'UC': 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE '
@@ -196,7 +196,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                  't.mod u.mod v.cnt w.cnt x.cnt_de y.jmc z.mod ae.ful eth.mod '
                  'ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod '
                  'jdotless.jmc',
-           'slnt': 18},
+           'slnt': -18},
  'DE_SAS': {'Country': 'Germany',
             'SPED': 75,
             'UC': 'A.dec_locl B C D E.cur F G.cur H I.dec J.dec K L.cur M.dec '
@@ -208,7 +208,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                   't.lop_de u.mod v.ful w.ful x.ful y.jmc z.mod ae.ful eth.mod '
                   'ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod '
                   'jdotless.jmc',
-            'slnt': 14},
+            'slnt': -14},
  'DE_VA': {'Country': 'Germany',
            'SPED': 100,
            'UC': 'A B C D E.cur F G.cur H I.dec J.dec K L.cur M.dec N O P '
@@ -220,7 +220,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                  't.lop_de u.mod v.ful w.ful x.mod y.jmc z.cnt ae.mod eth.mod '
                  'ij.mod eng oe.mod thorn.jmc germandbls.jmc idotless.mod '
                  'jdotless.jmc',
-           'slnt': 10},
+           'slnt': -10},
  'DK_Loopet': {'Country': 'Denmark',
                'SPED': 25,
                'UC': 'A B C D E F G_locl.au H I J K L M.dec N.dec O P '
@@ -232,7 +232,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                      'r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.jmc z.mod '
                      'ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc '
                      'germandbls.jmc idotless.mod jdotless.jmc',
-               'slnt': 18},
+               'slnt': -18},
  'DK_Uloopet': {'Country': 'Denmark',
                 'SPED': 25,
                 'UC': 'A B C D E F G_locl.au H I J K L M.dec N.dec O P '
@@ -244,7 +244,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                       'r.mod s.jmc t.mod u.mod v.mod w.mod x.mod y.mod z.mod '
                       'ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc '
                       'germandbls.jmc idotless.mod jdotless.jmc',
-                'slnt': 18},
+                'slnt': -18},
  'EE': {'Country': 'Estonia',
         'SPED': 50,
         'UC': 'A.dec_locl B.cur C.cur D.dec E.cur F.cur G.cur_ro H.cur I.dec '
@@ -256,7 +256,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.mod n.mod o.mlp p.mrr q.jmc r.mlp s.mlp t.lop_ee '
               'u.mod v.mlp w.mlp x.cnt y.jmc z.mod ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 15},
+        'slnt': -15},
  'ES': {'Country': 'Spain',
         'SPED': 0,
         'UC': 'A B C D E F G H I_locl J K L M N O P Q R S T U V W X Y Z AE Eth '
@@ -336,7 +336,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.mod n.mod o.mod p.ful q.jmc r.cnt s.ful t.mod '
               'u.mod v.cnt w.cnt x.ful y.cnt z.mod ae.mod eth.mod ij.mod eng '
               'oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 18},
+        'slnt': -18},
  'HR_Lijeva': {'Country': 'Croatia Lefthand',
                'SPED': 25,
                'UC': 'A.dec_locl B.cur C.cur D.dec E F.cur G.cur H.cur I.dec '
@@ -384,7 +384,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.mod n.mod o.mod p.jmc q.jmc r.ful s.jmc t.mod '
               'u.mod v.ful w.ful x.ful y.jmc z.cnt ae.mod eth.mod ij.mod eng '
               'oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 18},
+        'slnt': -18},
  'IN': {'Country': 'India',
         'SPED': 75,
         'UC': 'A.dec B.cur C.cur D.dec E.cur F.dec G.cur_locl H.dec I.dec '
@@ -396,7 +396,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.cnt n.cnt o.mod p.ful q.mod_au r.mlp s.ful t.mod '
               'u.mod v.cnt w.cnt x.cnt y.jmc z.cnt ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 18},
+        'slnt': -18},
  'IS': {'Country': 'Iceland',
         'SPED': 100,
         'UC': 'A B C D E F G H I J K L M_locl N O P Q R S T U V W X Y Z AE Eth '
@@ -406,7 +406,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.ful l.mod m.mod n.mod o.mod p.jmc q.mod r.mod s.jmc t.mod '
               'u.mod v.ful w.ful x.ful y.mod z.mod ae.mod eth.mod ij.mod eng '
               'oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.mod',
-        'slnt': 14},
+        'slnt': -14},
  'IT_Modern': {'Country': 'Italy',
                'SPED': 25,
                'UC': 'A B C D E F G H I_locl J K L M_locl N O P Q R S T U V W '
@@ -442,7 +442,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.cnt n.cnt o.mod p.jmc q.mrr r.cnt s.ful t.mod '
               'u.mod v.mlp w.mlp x.cnt y.cnt z.cnt ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 18},
+        'slnt': -18},
  'NG': {'Country': 'Nigeria',
         'SPED': 25,
         'UC': 'A B C D E F G_locl.au H I J K L M N O P Q R S T U V W X Y_locl '
@@ -464,7 +464,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.ful s.ful t.mod '
               'u.mod v.cnt w.cnt x.cnt y.cnt z.mod ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 18},
+        'slnt': -18},
  'NO': {'Country': 'Norway',
         'SPED': 25,
         'UC': 'A.dec_locl B.cur C.cur D.cur E.cur F.cur G.cur H I.dec J.dec '
@@ -476,7 +476,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.ful l.mod m.mod n.mod o.mod p.ful q.jmc r.mod s.ful t.mod '
               'u.mod v.ful w.ful x.ful y.mod z.cnt_no ae.mod eth.mod ij.mod '
               'eng oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 18},
+        'slnt': -18},
  'NZ': {'Country': 'New Zealand',
         'SPED': 100,
         'UC': 'A B C D E F G_locl.au H I_locl J K L M_locl N O P Q R S T '
@@ -486,7 +486,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.ful l.mod m.mod n.mod o.mod p.mod q.mod_au r.mod s.mod t.mod '
               'u.mod v.mod w.mod x.mod y.mod z.mod ae.mod eth.mod ij.mod eng '
               'oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.mod',
-        'slnt': 18},
+        'slnt': -18},
  'PE': {'Country': 'Peru',
         'SPED': 50,
         'UC': 'A.cur B.dec C.cur D.dec E.cur F.dec G.dec H.cur I.dec J.dec '
@@ -534,7 +534,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.cnt n.cnt o.mlp p.ful q.mod_au r.mlp s.ful t.mod '
               'u.mod v.mlp w.mlp x.cnt_ro y.cnt z.mod_ro ae.ful eth.mod ij.jmc '
               'eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 18},
+        'slnt': -18},
  'SK': {'Country': 'Slovakia',
         'SPED': 50,
         'UC': 'A.cur B.cur C.cur D.dec E.cur F.cur G.cur H.cur I.dec J.dec '
@@ -546,7 +546,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.ful s.ful t.lop_de '
               'u.mod v.cnt w.cnt x.ful y.cnt z.mod ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 18},
+        'slnt': -18},
  'TZ': {'Country': 'Tanzania',
         'SPED': 25,
         'UC': 'A.dec B.dec C.cur D.dec E.cur F.dec G.cur_ro H.dec I.dec J.dec '
@@ -558,7 +558,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.cnt n.cnt o.mlp p.jmc q.mrr r.ful s.ful t.mod '
               'u.mod v.mlp w.ful x.cnt y.cnt z.mod ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 16},
+        'slnt': -16},
  'US_Modern': {'Country': 'USA',
                'SPED': 0,
                'UC': 'A B C D E F G H I_locl J K L M N O P Q R S T U V W X Y Z '
@@ -582,7 +582,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                    's.ful t.mod u.mod v.cnt w.ful x.ful y.jmc z.cnt ae.ful '
                    'eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc '
                    'idotless.mod jdotless.jmc',
-             'slnt': 18},
+             'slnt': -18},
  'VN': {'Country': 'Vietnam',
         'SPED': 0,
         'UC': 'A.dec_locl B.cur C.cur D.dec E.cur F.dec G.cur_locl H.cur I.dec '
@@ -606,4 +606,4 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'k.lop l.lop m.mod n.mod o.mod p.ful q.jmc r.mod s.ful t.mod '
               'u.mod v.ful w.ful x.cnt y.jmc z.cnt ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
-        'slnt': 10}}
+        'slnt': -10}}

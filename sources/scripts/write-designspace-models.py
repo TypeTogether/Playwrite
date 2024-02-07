@@ -22,7 +22,7 @@ for mTag, val in modelsDataDict.items():
     # if slant range (hasItalic)
     if type(slant) is str:
         hasItalic = True
-        it_slant = int(slant.split("-")[-1])
+        it_slant = -int(slant.split("-")[-1])
         slant = int(slant.split("-")[0])
     else:
         hasItalic = False
