@@ -2,7 +2,7 @@
 <designspace format="5.0">
   <axes>
     <axis tag="wght" name="Weight" minimum="100" maximum="400" default="400"/>
-    <axis tag="slnt" name="Slant" minimum="0" maximum="18" default="0"/>
+    <axis tag="slnt" name="Slant" minimum="-18" maximum="0" default="0"/>
     <axis tag="YEXT" name="Vertical Extensions" minimum="375" maximum="1000" default="375"/>
     <axis tag="SPED" name="Speed" minimum="0" maximum="100" default="0"/>
   </axes>
@@ -22,7 +22,7 @@
     <source filename="../Playwrite-Th18ShortSlow.ufo" name="Playwrite Th 18 Short Slow" familyname="Playwrite" stylename="Th 18 Short Slow">
       <location>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Slant" xvalue="-18"/>
         <dimension name="Vertical Extensions" xvalue="375"/>
         <dimension name="Speed" xvalue="0"/>
       </location>
@@ -38,7 +38,7 @@
     <source filename="../Playwrite-Th18ShortFast.ufo" name="Playwrite Th 18 Short Fast" familyname="Playwrite" stylename="Th 18 Short Fast">
       <location>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Slant" xvalue="-18"/>
         <dimension name="Vertical Extensions" xvalue="375"/>
         <dimension name="Speed" xvalue="100"/>
       </location>
@@ -54,7 +54,7 @@
     <source filename="../Playwrite-Rg18ShortSlow.ufo" name="Playwrite Rg 18 Short Slow" familyname="Playwrite" stylename="Rg 18 Short Slow">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Slant" xvalue="-18"/>
         <dimension name="Vertical Extensions" xvalue="375"/>
         <dimension name="Speed" xvalue="0"/>
       </location>
@@ -70,7 +70,7 @@
     <source filename="../Playwrite-Rg18ShortFast.ufo" name="Playwrite Rg 18 Short Fast" familyname="Playwrite" stylename="Rg 18 Short Fast">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Slant" xvalue="-18"/>
         <dimension name="Vertical Extensions" xvalue="375"/>
         <dimension name="Speed" xvalue="100"/>
       </location>
@@ -86,7 +86,7 @@
     <source filename="../Playwrite-Th18LongSlow.ufo" name="Playwrite Th 18 Long Slow" familyname="Playwrite" stylename="Th 18 Long Slow">
       <location>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Slant" xvalue="-18"/>
         <dimension name="Vertical Extensions" xvalue="1000"/>
         <dimension name="Speed" xvalue="0"/>
       </location>
@@ -102,7 +102,7 @@
     <source filename="../Playwrite-Th18LongFast.ufo" name="Playwrite Th 18 Long Fast" familyname="Playwrite" stylename="Th 18 Long Fast">
       <location>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Slant" xvalue="-18"/>
         <dimension name="Vertical Extensions" xvalue="1000"/>
         <dimension name="Speed" xvalue="100"/>
       </location>
@@ -118,7 +118,7 @@
     <source filename="../Playwrite-Rg18LongSlow.ufo" name="Playwrite Rg 18 Long Slow" familyname="Playwrite" stylename="Rg 18 Long Slow">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Slant" xvalue="-18"/>
         <dimension name="Vertical Extensions" xvalue="1000"/>
         <dimension name="Speed" xvalue="0"/>
       </location>
@@ -134,7 +134,7 @@
     <source filename="../Playwrite-Rg18LongFast.ufo" name="Playwrite Rg 18 Long Fast" familyname="Playwrite" stylename="Rg 18 Long Fast">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Slant" xvalue="-18"/>
         <dimension name="Vertical Extensions" xvalue="1000"/>
         <dimension name="Speed" xvalue="100"/>
       </location>
@@ -144,7 +144,7 @@
     <instance name="Playwrite AU TAS Thin" familyname="Playwrite AU TAS" stylename="Thin" filename="../instance_ufo/PlaywriteAUTAS-Thin.ufo" postscriptfontname="PlaywriteAUTAS-Thin" stylemapfamilyname="Playwrite AU TAS Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
-        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Slant" xvalue="-18"/>
         <dimension name="Vertical Extensions" xvalue="500"/>
         <dimension name="Speed" xvalue="75"/>
       </location>
@@ -152,7 +152,7 @@
     <instance name="Playwrite AU TAS ExtraLight" familyname="Playwrite AU TAS" stylename="ExtraLight" filename="../instance_ufo/PlaywriteAUTAS-ExtraLight.ufo" postscriptfontname="PlaywriteAUTAS-ExtraLight" stylemapfamilyname="Playwrite AU TAS ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
-        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Slant" xvalue="-18"/>
         <dimension name="Vertical Extensions" xvalue="500"/>
         <dimension name="Speed" xvalue="75"/>
       </location>
@@ -160,7 +160,7 @@
     <instance name="Playwrite AU TAS Light" familyname="Playwrite AU TAS" stylename="Light" filename="../instance_ufo/PlaywriteAUTAS-Light.ufo" postscriptfontname="PlaywriteAUTAS-Light" stylemapfamilyname="Playwrite AU TAS Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
-        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Slant" xvalue="-18"/>
         <dimension name="Vertical Extensions" xvalue="500"/>
         <dimension name="Speed" xvalue="75"/>
       </location>
@@ -168,7 +168,7 @@
     <instance name="Playwrite AU TAS Regular" familyname="Playwrite AU TAS" stylename="Regular" filename="../instance_ufo/PlaywriteAUTAS-Regular.ufo" postscriptfontname="PlaywriteAUTAS-Regular" stylemapfamilyname="Playwrite AU TAS" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
-        <dimension name="Slant" xvalue="18"/>
+        <dimension name="Slant" xvalue="-18"/>
         <dimension name="Vertical Extensions" xvalue="500"/>
         <dimension name="Speed" xvalue="75"/>
       </location>
