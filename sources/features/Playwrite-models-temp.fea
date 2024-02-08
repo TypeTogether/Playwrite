@@ -1074,7 +1074,7 @@ feature ccmp {
 
 # Models specific locl code
 feature locl {
-	include(../features/fea-models/GB_S.fea);
+	include(../features/fea-models/VN.fea);
 
 	# CAT for all (default)
 	sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
@@ -1105,7 +1105,7 @@ feature ss01 {
 		name "MOD - Modern Cursive"; # Windows English
 		name 1 0 0 "MOD - Modern Cursive"; # Mac English
 	};
-	sub [@UC_GB_S @lc_GB_S] by [@UC @lcMOD];
+	sub [@UC_VN @lc_VN] by [@UC @lcMOD];
 	# sub @lc by @lcMOD;
 } ss01;
 
@@ -1114,7 +1114,7 @@ feature ss02 {
 		name "JMC - Joined Modern Cursive"; # Windows English
 		name 1 0 0 "JMC - Joined Modern Cursive"; # Mac English
 	};
-	sub [@UC_GB_S @lc_GB_S] by [@UC @lcJMC];
+	sub [@UC_VN @lc_VN] by [@UC @lcJMC];
 	# sub @lc by @lcJMC;
 } ss02;
 
@@ -1123,7 +1123,7 @@ feature ss03 {
 		name "FUL - Full Cursive"; # Windows English
 		name 1 0 0 "FUL - Full Cursive"; # Mac English
 	};
-	sub [@UC_GB_S @lc_GB_S] by [@UC @lcFUL];
+	sub [@UC_VN @lc_VN] by [@UC @lcFUL];
 	# sub @lc by @lcFUL;
 } ss03;
 
@@ -1133,7 +1133,7 @@ feature ss04 {
 		name "LOP - Speed Loops"; # Windows English
 		name 1 0 0 "LOP - Speed Loops"; # Mac English
 	};
-	sub [@UC_GB_S @lc_GB_S] by [@UC @lcLOP];
+	sub [@UC_VN @lc_VN] by [@UC @lcLOP];
 	# sub @lc by @lcLOP;
 } ss04;
 
@@ -1142,7 +1142,7 @@ feature ss05 {
 		name "CNT - Curved Entry Stroke"; # Windows English
 		name 1 0 0 "CNT - Curved Entry Stroke"; # Mac English
 	};
-	sub [@UC_GB_S @lc_GB_S] by [@UC @lcCNT];
+	sub [@UC_VN @lc_VN] by [@UC @lcCNT];
 	# sub @lc by @lcCNT;
 } ss05;
 
@@ -1151,7 +1151,7 @@ feature ss06 {
 		name "MRR - Mirrored Loops"; # Windows English
 		name 1 0 0 "MRR - Mirrored Loops"; # Mac English
 	};
-	sub [@UC_GB_S @lc_GB_S] by [@UC @lcMRR];
+	sub [@UC_VN @lc_VN] by [@UC @lcMRR];
 	# sub @lc by @lcMRR;
 } ss06;
 
@@ -1160,7 +1160,7 @@ feature ss07 {
 		name "MLP - Micro Loops"; # Windows English
 		name 1 0 0 "MLP - Micro Loops"; # Mac English
 	};
-	sub [@UC_GB_S @lc_GB_S] by [@UC @lcMLP];
+	sub [@UC_VN @lc_VN] by [@UC @lcMLP];
 	# sub @lc by @lcMLP;
 } ss07;
 
