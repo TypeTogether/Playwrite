@@ -1,5 +1,5 @@
 {
-.appVersion = "3234";
+.appVersion = "3236";
 .formatVersion = 3;
 axes = (
 {
@@ -1609,7 +1609,7 @@ GSOffsetVertical = 10;
 {
 axesValues = (
 100,
-18,
+-18,
 375,
 0
 );
@@ -1763,7 +1763,7 @@ GSCornerRadius = 12;
 {
 axesValues = (
 100,
-18,
+-18,
 375,
 100
 );
@@ -1920,7 +1920,7 @@ GSOffsetVertical = 10;
 {
 axesValues = (
 400,
-18,
+-18,
 375,
 0
 );
@@ -2081,7 +2081,7 @@ GSCornerRadius = 12;
 {
 axesValues = (
 400,
-18,
+-18,
 375,
 100
 );
@@ -2244,7 +2244,7 @@ GSOffsetVertical = 10;
 {
 axesValues = (
 100,
-18,
+-18,
 1000,
 0
 );
@@ -2387,7 +2387,7 @@ GSCornerRadius = 12;
 {
 axesValues = (
 100,
-18,
+-18,
 1000,
 100
 );
@@ -2536,7 +2536,7 @@ GSOffsetVertical = 10;
 {
 axesValues = (
 400,
-18,
+-18,
 1000,
 0
 );
@@ -2679,7 +2679,7 @@ GSCornerRadius = 12;
 {
 axesValues = (
 400,
-18,
+-18,
 1000,
 100
 );
@@ -2766,7 +2766,7 @@ weightClass = 100;
 {
 axesValues = (
 100,
-18,
+-18,
 375,
 0
 );
@@ -2795,7 +2795,7 @@ weightClass = 200;
 {
 axesValues = (
 200,
-18,
+-18,
 375,
 0
 );
@@ -2825,7 +2825,7 @@ weightClass = 300;
 {
 axesValues = (
 300,
-18,
+-18,
 375,
 0
 );
@@ -2853,7 +2853,7 @@ name = Regular;
 {
 axesValues = (
 400,
-18,
+-18,
 375,
 0
 );
@@ -2867,7 +2867,7 @@ name = Italic;
 {
 axesValues = (
 400,
-18,
+-18,
 1000,
 100
 );
