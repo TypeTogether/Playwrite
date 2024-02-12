@@ -70,12 +70,12 @@ with open("sources/data/models-all.csv", "r") as file:
         # if "_" in model["lang_tag"]:
         # model_name += " " + model["lang_tag"].split("_")[1]
         model_name = model["lang_tag"].replace("_", " ")
-        featurefreeze = []
+        remapLayout = []
         if model["lang_tag"] in locl_required:
-            featurefreeze = [
+            remapLayout = [
                 {
-                    "operation": "featureFreeze",
-                    "args": "-l " + locl_required[model["lang_tag"]] + " -f locl",
+                    "operation": "remapLayout",
+                    "args": "'latn/"+locl_required[model["lang_tag"]]+"/locl => latn/dflt/locl'",
                 }
             ]
         if "-" in model["slnt"]:
@@ -85,7 +85,7 @@ with open("sources/data/models-all.csv", "r") as file:
                 {
                     "name": model_name,
                     "alias": model["lang_tag"].replace("_", " "),
-                    "steps": featurefreeze
+                    "steps": remapLayout
                     + [
                         {
                             "operation": "subspace",
@@ -103,7 +103,7 @@ with open("sources/data/models-all.csv", "r") as file:
                     "name": model_name,
                     "alias": model["lang_tag"].replace("_", " "),
                     "italic": True,
-                    "steps": featurefreeze
+                    "steps": remapLayout
                     + [
                         {
                             "operation": "subspace",
@@ -134,7 +134,7 @@ with open("sources/data/models-all.csv", "r") as file:
                 {
                     "name": model_name,
                     "alias": model["lang_tag"].replace("_", " "),
-                    "steps": featurefreeze
+                    "steps": remapLayout
                     + [
                         {
                             "operation": "subspace",
