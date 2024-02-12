@@ -1086,9 +1086,6 @@ language CSY ;
 sub caroncomb.alt by caroncomb.alt_locl;
 sub caroncomb by caroncomb_locl;
 
-language ESP ;
-sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
-
 language NLD ;
 sub i.mod j.jmc by ij.jmc;
 
