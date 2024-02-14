@@ -1,5 +1,5 @@
 {
-.appVersion = "3236";
+.appVersion = "3239";
 .formatVersion = 3;
 axes = (
 {
@@ -1496,11 +1496,11 @@ value = (
 name = "meta Table";
 value = (
 {
-data = "Latn,ca,cs,da,en,es,et,eu,fr,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,vi";
+data = "Latn,af,ca,cs,cy,da,en,es,et,eu,fr,ga,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,sl,sv,tr,vi,wa,yo,zu";
 tag = slng;
 },
 {
-data = "Latn,ca,cs,da,en,es,et,eu,fr,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,vi";
+data = "Latn,af,ca,cs,cy,da,en,es,et,eu,fr,ga,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,sl,sv,tr,vi,wa,yo,zu";
 tag = dlng;
 }
 );
