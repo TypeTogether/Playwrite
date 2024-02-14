@@ -845,7 +845,7 @@ feature ccmp {
 		sub Scommaaccent by S commaaccentcomb.case;
 		sub Tbar by T strokeshortcomb.case;
 		sub Tcaron by T caroncomb.case;
-		sub Tcedilla by T cedillacomb.case;
+		# sub Tcedilla by T cedillacomb.case;
 		sub Tcommaaccent by T commaaccentcomb.case;
 		sub Uacute by U acutecomb.case;
 		sub Ubreve by U brevecomb.case;
@@ -958,7 +958,7 @@ feature ccmp {
 		sub scommaaccent by s commaaccentcomb;
 		sub tbar by t strokeshortcomb.t;
 		sub tcaron by t caroncomb.alt;
-		sub tcedilla by t cedillacomb;
+		# sub tcedilla by t cedillacomb;
 		sub tcommaaccent by t commaaccentcomb;
 		sub uacute by u acutecomb;
 		sub ubreve by u brevecomb;
