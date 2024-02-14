@@ -1,5 +1,13 @@
 # 231025_1722
 
+# SC additions - custom feature code
+languagesystem latn CSY;
+languagesystem latn ESP;
+languagesystem latn NLD;
+languagesystem latn ROM;
+languagesystem latn SKY;
+# See locl feature below
+
 # --------------
 # CLASSES
 # --------------
@@ -1066,6 +1074,26 @@ feature ccmp {
 	} ccmp_decomp;
 } ccmp;
 
+feature locl {
+script latn;
+# We want everyone to have this
+sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
+
+language CSY ;
+sub caroncomb.alt by caroncomb.alt_locl;
+sub caroncomb by caroncomb_locl;
+
+language NLD ;
+sub i.mod j.jmc by ij.jmc;
+
+language ROM ;
+sub [S S.cur S.dec] cedillacomb.case' by commaaccentcomb.case;
+sub [s s.mod s.jmc s.ful s.mlp] cedillacomb' by commaaccentcomb;
+
+language SKY ;
+sub caroncomb.alt by caroncomb.alt_locl;
+sub caroncomb by caroncomb_locl;
+} locl;
 
 # ------------------
 # Stylistic sets
