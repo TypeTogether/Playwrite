@@ -142,6 +142,7 @@ with open("sources/data/models-all.csv", "r") as file:
                         },
                         {"operation": "remap", "args": "--deep", "mappings": mapping},
                         {"operation": "hbsubset"},
+                        {"operation": "buildStat", "args": "--src stat.yaml"},
                     ],
                 }
             )
