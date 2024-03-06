@@ -1081,13 +1081,11 @@ feature locl {
 script latn;
 # We want everyone to have this
 sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;
+sub i.mod j.jmc by ij.jmc;
 
 language CSY ;
 sub caroncomb.alt by caroncomb.alt_locl;
 sub caroncomb by caroncomb_locl;
-
-language NLD ;
-sub i.mod j.jmc by ij.jmc;
 
 language ROM ;
 sub [S S.cur S.dec] cedillacomb.case' by commaaccentcomb.case;
