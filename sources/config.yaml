@@ -81,7 +81,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: AU NSW
   alias: AU NSW
   steps:
@@ -158,7 +162,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: AU QLD
   alias: AU QLD
   steps:
@@ -235,7 +243,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: AU SA
   alias: AU SA
   steps:
@@ -312,7 +324,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: AU TAS
   alias: AU TAS
   steps:
@@ -389,7 +405,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: AU VIC
   alias: AU VIC
   steps:
@@ -466,7 +486,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: AT
   alias: AT
   steps:
@@ -543,7 +567,6 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
   - operation: fix
     args: --include-source-fixes
   - operation: buildStat
@@ -626,7 +649,6 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
   - operation: buildStat
     args: --src stat-italic.yaml
   - operation: fix
@@ -707,7 +729,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: BE VLG
   alias: BE VLG
   steps:
@@ -784,7 +810,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: BR
   alias: BR
   steps:
@@ -861,7 +891,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: CA
   alias: CA
   steps:
@@ -938,7 +972,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: CL
   alias: CL
   steps:
@@ -1015,7 +1053,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: CO
   alias: CO
   steps:
@@ -1092,7 +1134,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: HR
   alias: HR
   steps:
@@ -1169,7 +1215,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: HR Lijeva
   alias: HR Lijeva
   steps:
@@ -1246,7 +1296,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: CU
   alias: CU
   steps:
@@ -1323,7 +1377,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: CZ
   alias: CZ
   steps:
@@ -1402,7 +1460,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: DK Loopet
   alias: DK Loopet
   steps:
@@ -1479,7 +1541,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: DK Uloopet
   alias: DK Uloopet
   steps:
@@ -1556,7 +1622,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: GB S
   alias: GB S
   steps:
@@ -1633,7 +1703,6 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
-  - operation: hbsubset
   - operation: fix
     args: --include-source-fixes
   - operation: buildStat
@@ -1716,7 +1785,6 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
-  - operation: hbsubset
   - operation: buildStat
     args: --src stat-italic.yaml
   - operation: fix
@@ -1797,7 +1865,6 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
   - operation: fix
     args: --include-source-fixes
   - operation: buildStat
@@ -1880,7 +1947,6 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
   - operation: buildStat
     args: --src stat-italic.yaml
   - operation: fix
@@ -1961,7 +2027,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: FR Trad
   alias: FR Trad
   steps:
@@ -2038,7 +2108,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: FR Modern
   alias: FR Modern
   steps:
@@ -2115,7 +2189,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: DE Grund
   alias: DE Grund
   steps:
@@ -2192,7 +2270,11 @@ variants:
       U+00DF: germandbls
       U+0131: idotless
       U+0237: jdotless
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: DE LA
   alias: DE LA
   steps:
@@ -2269,7 +2351,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: DE SAS
   alias: DE SAS
   steps:
@@ -2346,7 +2432,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: DE VA
   alias: DE VA
   steps:
@@ -2423,7 +2513,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: HU
   alias: HU
   steps:
@@ -2500,7 +2594,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: IS
   alias: IS
   steps:
@@ -2577,7 +2675,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: IN
   alias: IN
   steps:
@@ -2654,7 +2756,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: ID
   alias: ID
   steps:
@@ -2731,7 +2837,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: IE
   alias: IE
   steps:
@@ -2808,7 +2918,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: IT Trad
   alias: IT Trad
   steps:
@@ -2885,7 +2999,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: IT Modern
   alias: IT Modern
   steps:
@@ -2962,7 +3080,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: MX
   alias: MX
   steps:
@@ -3039,7 +3161,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: NL
   alias: NL
   steps:
@@ -3118,7 +3244,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: NZ
   alias: NZ
   steps:
@@ -3195,7 +3325,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: NG
   alias: NG
   steps:
@@ -3272,7 +3406,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: 'NO'
   alias: 'NO'
   steps:
@@ -3349,7 +3487,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: PE
   alias: PE
   steps:
@@ -3426,7 +3568,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: PL
   alias: PL
   steps:
@@ -3503,7 +3649,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: PT
   alias: PT
   steps:
@@ -3580,7 +3730,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: RO
   alias: RO
   steps:
@@ -3659,7 +3813,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: SK
   alias: SK
   steps:
@@ -3738,7 +3896,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: ZA
   alias: ZA
   steps:
@@ -3815,7 +3977,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: ES
   alias: ES
   steps:
@@ -3894,7 +4060,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: ES Ornate
   alias: ES Ornate
   steps:
@@ -3971,7 +4141,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: TZ
   alias: TZ
   steps:
@@ -4048,7 +4222,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: US Modern
   alias: US Modern
   steps:
@@ -4125,7 +4303,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: US Trad
   alias: US Trad
   steps:
@@ -4202,7 +4384,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 - name: VN
   alias: VN
   steps:
@@ -4279,7 +4465,11 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
-  - operation: hbsubset
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
 stat:
 - name: Weight
   tag: wght
