@@ -142,7 +142,8 @@ with open("sources/data/models-all.csv", "r") as file:
                         },
                         {"operation": "remap", "args": "--deep", "mappings": mapping},
                         {"operation": "hbsubset"},
-                        {"operation": "buildStat", "args": "--src stat.yaml"},
+                        {"operation": "buildStat", "args": "--src stat-standalone.yaml"},
+                        {"operation": "exec", "exe": "gftools-fontsetter", "args": "-o $out $in zero-post.yaml"},
                     ],
                 }
             )
