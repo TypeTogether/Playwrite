@@ -1075,6 +1075,10 @@ feature ccmp {
 		sub udieresisgrave by u dieresiscomb gravecomb;
 		sub udieresismacron by u dieresiscomb macroncomb;
 	} ccmp_decomp;
+	lookup ccmp_decomp2 {
+		sub j' acutecomb by jdotless;
+	} ccmp_decomp2;
+
 } ccmp;
 
 feature locl {
