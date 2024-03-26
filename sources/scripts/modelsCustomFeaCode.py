@@ -8,7 +8,7 @@ modelsCustomFeaCodeDict = {
     "CZ": "sub caroncomb.alt by caroncomb.alt_locl;\nsub caroncomb by caroncomb_locl;",
     "SK": "sub caroncomb.alt by caroncomb.alt_locl;\nsub caroncomb by caroncomb_locl;",
     "ES": "sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;",
-    "ES_Ornate": "sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;",
+    "ES_Deco": "sub [l l.mod l.lop L L.cur L.dec] periodcentered' by dotaccentcomb.CAT;",
     "NL": "sub i.mod j.jmc by ij.jmc;",
     "RO": "sub [S S.cur S.dec] cedillacomb.case' by commaaccentcomb.case\nsub [s s.mod s.jmc s.ful s.mlp] cedillacomb' by commaaccentcomb;"
 }

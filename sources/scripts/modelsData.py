@@ -267,7 +267,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'u.mod v.mlp w.mlp x.cnt y.jmc z.mod ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
         'slnt': 0},
- 'ES_Ornate': {'Country': 'Spain',
+ 'ES_Deco': {'Country': 'Spain',
                'SPED': 0,
                'UC': 'A.cur B.dec C.cur D.dec E.cur F.dec G.cur H.cur I.dec '
                      'J.dec K.dec L.cur M.cur N.cur O.dec P.dec Q.cur R.dec '
@@ -280,7 +280,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
                      'eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc '
                      'idotless.mod jdotless.jmc',
                'slnt': 0},
- 'FR_Modern': {'Country': 'France',
+ 'FR_Moderne': {'Country': 'France',
                'SPED': 100,
                'UC': 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE '
                      'Eth IJ Eng OE Thorn Germandbls',
@@ -407,7 +407,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'u.mod v.ful w.ful x.ful y.mod z.mod ae.mod eth.mod ij.mod eng '
               'oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.mod',
         'slnt': -14},
- 'IT_Modern': {'Country': 'Italy',
+ 'IT_Moderna': {'Country': 'Italy',
                'SPED': 25,
                'UC': 'A B C D E F G H I_locl J K L M_locl N O P Q R S T U V W '
                      'X Y Z AE Eth IJ Eng OE Thorn Germandbls',
@@ -443,7 +443,7 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'u.mod v.mlp w.mlp x.cnt y.cnt z.cnt ae.ful eth.mod ij.jmc eng '
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
         'slnt': -18},
- 'NG': {'Country': 'Nigeria',
+ 'NG_Modern': {'Country': 'Nigeria',
         'SPED': 25,
         'UC': 'A B C D E F G_locl.au H I J K L M N O P Q R S T U V W X Y_locl '
               'Z AE Eth IJ Eng OE Thorn Germandbls',

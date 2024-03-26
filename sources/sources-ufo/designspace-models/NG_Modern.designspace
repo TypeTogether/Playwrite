@@ -141,36 +141,36 @@
     </source>
   </sources>
   <instances>
-    <instance name="Playwrite ES Ornate Thin" familyname="Playwrite ES Ornate" stylename="Thin" filename="../instance_ufo/PlaywriteESOrnate-Thin.ufo" postscriptfontname="PlaywriteESOrnate-Thin" stylemapfamilyname="Playwrite ES Ornate Thin" stylemapstylename="regular">
+    <instance name="Playwrite NG Modern Thin" familyname="Playwrite NG" stylename="Thin" filename="../instance_ufo/PlaywriteNGModern-Thin.ufo" postscriptfontname="PlaywriteNGModern-Thin" stylemapfamilyname="Playwrite NG Modern Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
         <dimension name="Slant" xvalue="0"/>
         <dimension name="Vertical Extensions" xvalue="500"/>
-        <dimension name="Speed" xvalue="0"/>
+        <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
-    <instance name="Playwrite ES Ornate ExtraLight" familyname="Playwrite ES Ornate" stylename="ExtraLight" filename="../instance_ufo/PlaywriteESOrnate-ExtraLight.ufo" postscriptfontname="PlaywriteESOrnate-ExtraLight" stylemapfamilyname="Playwrite ES Ornate ExtraLight" stylemapstylename="regular">
+    <instance name="Playwrite NG Modern ExtraLight" familyname="Playwrite NG" stylename="ExtraLight" filename="../instance_ufo/PlaywriteNGModern-ExtraLight.ufo" postscriptfontname="PlaywriteNGModern-ExtraLight" stylemapfamilyname="Playwrite NG Modern ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="200"/>
         <dimension name="Slant" xvalue="0"/>
         <dimension name="Vertical Extensions" xvalue="500"/>
-        <dimension name="Speed" xvalue="0"/>
+        <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
-    <instance name="Playwrite ES Ornate Light" familyname="Playwrite ES Ornate" stylename="Light" filename="../instance_ufo/PlaywriteESOrnate-Light.ufo" postscriptfontname="PlaywriteESOrnate-Light" stylemapfamilyname="Playwrite ES Ornate Light" stylemapstylename="regular">
+    <instance name="Playwrite NG Modern Light" familyname="Playwrite NG" stylename="Light" filename="../instance_ufo/PlaywriteNGModern-Light.ufo" postscriptfontname="PlaywriteNGModern-Light" stylemapfamilyname="Playwrite NG Modern Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="300"/>
         <dimension name="Slant" xvalue="0"/>
         <dimension name="Vertical Extensions" xvalue="500"/>
-        <dimension name="Speed" xvalue="0"/>
+        <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
-    <instance name="Playwrite ES Ornate Regular" familyname="Playwrite ES Ornate" stylename="Regular" filename="../instance_ufo/PlaywriteESOrnate-Regular.ufo" postscriptfontname="PlaywriteESOrnate-Regular" stylemapfamilyname="Playwrite ES Ornate" stylemapstylename="regular">
+    <instance name="Playwrite NG Modern Regular" familyname="Playwrite NG" stylename="Regular" filename="../instance_ufo/PlaywriteNGModern-Regular.ufo" postscriptfontname="PlaywriteNGModern-Regular" stylemapfamilyname="Playwrite NG" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="400"/>
         <dimension name="Slant" xvalue="0"/>
         <dimension name="Vertical Extensions" xvalue="500"/>
-        <dimension name="Speed" xvalue="0"/>
+        <dimension name="Speed" xvalue="25"/>
       </location>
     </instance>
   </instances>
