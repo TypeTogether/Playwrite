@@ -1778,6 +1778,7 @@ feature dist {
 		} dist_CUR;
 		# DEC
 		lookup dist_DEC {
+			lookupflag IgnoreMarks;
 			pos @Xdec_SRC 12 @rful_TGT;
 			pos @Xdec_SRC 25 @tlop_de_TGT;
 			pos @Xdec_SRC 37 @fful_TGT;
@@ -1792,11 +1793,13 @@ feature dist {
 		} dist_DEC;
 		# NEEDS ENTRY
 		lookup dist_entry {
+			lookupflag IgnoreMarks;
 			pos @needsEntry_SRC 25 @eful_TGT;
 			pos @needsEntry_SRC 25 @fful_TGT;
 			pos @needsEntry_SRC 25 @hlop_TGT;
 			pos @needsEntry_SRC 37 @rful_TGT;
 			pos @needsEntry_SRC 37 @sful_TGT;
 			pos @needsEntry_SRC 50 @ncnt_TGT;
+			pos @needsEntry_SRC -70 @xful_TGT;
 		} dist_entry;
 } dist;
