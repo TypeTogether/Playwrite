@@ -1,6 +1,7 @@
 {
 color = 6;
 glyphname = o.mlp;
+kernLeft = o;
 layers = (
 {
 layerId = m01;
