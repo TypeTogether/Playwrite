@@ -268,29 +268,29 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
         'slnt': 0},
  'ES_Deco': {'Country': 'Spain',
-               'SPED': 0,
-               'UC': 'A.cur B.dec C.cur D.dec E.cur F.dec G.cur H.cur I.dec '
-                     'J.dec K.dec L.cur M.cur N.cur O.dec P.dec Q.cur R.dec '
-                     'S.cur T.cur_locl U.cur V.cur W.cur X.dec_locl Y.cur '
-                     'Z.dec AE.cur Eth IJ.cur Eng OE.cur Thorn Germandbls',
-               'YEXT': 500,
-               'lc': 'a.mod b.mlp c.mod d.mod e.ful f.ful g.jmc h.lop i.mod '
-                     'j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.ful q.jmc r.ful '
-                     's.ful t.mod u.mod v.mlp w.mlp x.cnt y.jmc z.mod ae.ful '
-                     'eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc '
-                     'idotless.mod jdotless.jmc',
-               'slnt': 0},
+             'SPED': 0,
+             'UC': 'A.cur B.dec C.cur D.dec E.cur F.dec G.cur H.cur I.dec '
+                   'J.dec K.dec L.cur M.cur N.cur O.dec P.dec Q.cur R.dec '
+                   'S.cur T.cur_locl U.cur V.cur W.cur X.dec_locl Y.cur Z.dec '
+                   'AE.cur Eth IJ.cur Eng OE.cur Thorn Germandbls',
+             'YEXT': 500,
+             'lc': 'a.mod b.mlp c.mod d.mod e.ful f.ful g.jmc h.lop i.mod '
+                   'j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.ful q.jmc r.ful '
+                   's.ful t.mod u.mod v.mlp w.mlp x.cnt y.jmc z.mod ae.ful '
+                   'eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc '
+                   'idotless.mod jdotless.jmc',
+             'slnt': 0},
  'FR_Moderne': {'Country': 'France',
-               'SPED': 100,
-               'UC': 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE '
-                     'Eth IJ Eng OE Thorn Germandbls',
-               'YEXT': 600,
-               'lc': 'a.mod b.jmc c.mod d.mod e.mod f.mod g.mod h.mod i.mod '
-                     'j.mod k.mod l.mod m.mod n.mod o.mod p.jmc q.mod r.mod '
-                     's.jmc t.mod u.mod v.mod w.mod x.mod y.mod z.mod ae.mod '
-                     'eth.mod ij.mod eng oe.mod thorn.jmc germandbls.jmc '
-                     'idotless.mod jdotless.mod',
-               'slnt': 0},
+                'SPED': 100,
+                'UC': 'A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE '
+                      'Eth IJ Eng OE Thorn Germandbls',
+                'YEXT': 600,
+                'lc': 'a.mod b.jmc c.mod d.mod e.mod f.mod g.mod h.mod i.mod '
+                      'j.mod k.mod l.mod m.mod n.mod o.mod p.jmc q.mod r.mod '
+                      's.jmc t.mod u.mod v.mod w.mod x.mod y.mod z.mod ae.mod '
+                      'eth.mod ij.mod eng oe.mod thorn.jmc germandbls.jmc '
+                      'idotless.mod jdotless.mod',
+                'slnt': 0},
  'FR_Trad': {'Country': 'France',
              'SPED': 0,
              'UC': 'A.dec_locl B.cur C.cur D.dec E.cur F.cur G.cur_locl H.cur '
@@ -408,16 +408,16 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.mod',
         'slnt': -14},
  'IT_Moderna': {'Country': 'Italy',
-               'SPED': 25,
-               'UC': 'A B C D E F G H I_locl J K L M_locl N O P Q R S T U V W '
-                     'X Y Z AE Eth IJ Eng OE Thorn Germandbls',
-               'YEXT': 375,
-               'lc': 'a.mod b.jmc c.mod d.mod e.mod f.jmc g.jmc h.mod i.mod '
-                     'j.jmc k.mod l.mod m.mod n.mod o.mod p.jmc q.jmc r.mod '
-                     's.jmc t.mod u.mod v.mod w.mod x.mod y.jmc z.mod ae.mod '
-                     'eth.mod ij.mod eng oe.mod thorn.jmc germandbls.jmc '
-                     'idotless.mod jdotless.mod',
-               'slnt': 0},
+                'SPED': 25,
+                'UC': 'A B C D E F G H I_locl J K L M_locl N O P Q R S T U V W '
+                      'X Y Z AE Eth IJ Eng OE Thorn Germandbls',
+                'YEXT': 375,
+                'lc': 'a.mod b.jmc c.mod d.mod e.mod f.jmc g.jmc h.mod i.mod '
+                      'j.jmc k.mod l.mod m.mod n.mod o.mod p.jmc q.jmc r.mod '
+                      's.jmc t.mod u.mod v.mod w.mod x.mod y.jmc z.mod ae.mod '
+                      'eth.mod ij.mod eng oe.mod thorn.jmc germandbls.jmc '
+                      'idotless.mod jdotless.mod',
+                'slnt': 0},
  'IT_Trad': {'Country': 'Italy',
              'SPED': 25,
              'UC': 'A.cur_locl B.cur C.cur D.cur E.cur F.dec G.cur_locl H.cur '
@@ -444,15 +444,16 @@ modelsDataDict = {'AR': {'Country': 'Argentina',
               'oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc',
         'slnt': -18},
  'NG_Modern': {'Country': 'Nigeria',
-        'SPED': 25,
-        'UC': 'A B C D E F G_locl.au H I J K L M N O P Q R S T U V W X Y_locl '
-              'Z AE Eth IJ Eng OE Thorn Germandbls',
-        'YEXT': 500,
-        'lc': 'a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod j.mod '
-              'k.ful l.mod m.mod n.mod o.mod p.mod q.mod_au r.mod s.mod t.mod '
-              'u.mod v.mod w.mod x.mod y.mod z.mod ae.mod eth.mod ij.mod eng '
-              'oe.mod thorn.jmc germandbls.jmc idotless.mod jdotless.mod',
-        'slnt': 0},
+               'SPED': 25,
+               'UC': 'A B C D E F G_locl.au H I J K L M N O P Q R S T U V W X '
+                     'Y_locl Z AE Eth IJ Eng OE Thorn Germandbls',
+               'YEXT': 500,
+               'lc': 'a.mod b.mod c.mod d.mod e.mod f.mod g.mod h.mod i.mod '
+                     'j.mod k.ful l.mod m.mod n.mod o.mod p.mod q.mod_au r.mod '
+                     's.mod t.mod u.mod v.mod w.mod x.mod y.mod z.mod ae.mod '
+                     'eth.mod ij.mod eng oe.mod thorn.jmc germandbls.jmc '
+                     'idotless.mod jdotless.mod',
+               'slnt': 0},
  'NL': {'Country': 'Netherlands',
         'SPED': 50,
         'UC': 'A.cur_locl B.cur C.cur D.cur E.cur F.cur G.cur H I.cur J.cur '
