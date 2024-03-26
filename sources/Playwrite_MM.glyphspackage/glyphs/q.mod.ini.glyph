@@ -4,6 +4,12 @@ glyphname = q.mod.ini;
 kernLeft = a;
 layers = (
 {
+anchors = (
+{
+name = cnct;
+pos = (610,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -30,6 +36,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (528,0);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -56,6 +68,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (610,0);
+}
+);
 layerId = m003;
 shapes = (
 {
@@ -82,6 +100,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (528,0);
+}
+);
 layerId = m004;
 shapes = (
 {
@@ -108,6 +132,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (610,0);
+}
+);
 layerId = m005;
 shapes = (
 {
@@ -134,6 +164,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (528,0);
+}
+);
 layerId = m006;
 shapes = (
 {
@@ -160,6 +196,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (610,0);
+}
+);
 layerId = m007;
 shapes = (
 {
@@ -186,6 +228,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (528,0);
+}
+);
 layerId = m008;
 shapes = (
 {
@@ -212,6 +260,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (610,0);
+}
+);
 layerId = m009;
 shapes = (
 {
@@ -238,6 +292,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (528,0);
+}
+);
 layerId = m010;
 shapes = (
 {
@@ -264,6 +324,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (610,0);
+}
+);
 layerId = m011;
 shapes = (
 {
@@ -290,6 +356,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (528,0);
+}
+);
 layerId = m012;
 shapes = (
 {
@@ -316,6 +388,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (610,0);
+}
+);
 layerId = m013;
 shapes = (
 {
@@ -342,6 +420,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (528,0);
+}
+);
 layerId = m014;
 shapes = (
 {
@@ -368,6 +452,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (610,0);
+}
+);
 layerId = m015;
 shapes = (
 {
@@ -394,6 +484,12 @@ com.hugojourdan.ColorFlow = {
 width = 610;
 },
 {
+anchors = (
+{
+name = cnct;
+pos = (528,0);
+}
+);
 layerId = m016;
 shapes = (
 {

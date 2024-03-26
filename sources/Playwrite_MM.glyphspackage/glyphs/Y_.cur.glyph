@@ -1,7 +1,7 @@
 {
 glyphname = Y.cur;
 kernLeft = M.cur;
-kernRight = G.cur;
+kernRight = Y.cur;
 layers = (
 {
 anchors = (
@@ -109,7 +109,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 801;
+width = 839;
 },
 {
 anchors = (
@@ -217,7 +217,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 800;
+width = 858;
 },
 {
 anchors = (
@@ -325,7 +325,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 800;
+width = 837;
 },
 {
 anchors = (
@@ -433,7 +433,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 824;
+width = 885;
 },
 {
 anchors = (
@@ -541,7 +541,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 826;
+width = 922;
 },
 {
 anchors = (
@@ -649,7 +649,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 800;
+width = 911;
 },
 {
 anchors = (
@@ -757,7 +757,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 800;
+width = 919;
 },
 {
 anchors = (
@@ -865,7 +865,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 800;
+width = 913;
 },
 {
 anchors = (
@@ -973,7 +973,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1240;
+width = 1386;
 },
 {
 anchors = (
@@ -1081,7 +1081,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1240;
+width = 1352;
 },
 {
 anchors = (
@@ -1189,7 +1189,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1240;
+width = 1368;
 },
 {
 anchors = (
@@ -1297,7 +1297,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1240;
+width = 1328;
 },
 {
 anchors = (
@@ -1405,7 +1405,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1240;
+width = 1429;
 },
 {
 anchors = (
@@ -1513,7 +1513,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1240;
+width = 1392;
 },
 {
 anchors = (
@@ -1621,7 +1621,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1240;
+width = 1413;
 },
 {
 anchors = (
@@ -1729,7 +1729,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 1240;
+width = 1384;
 }
 );
 }

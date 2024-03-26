@@ -34,6 +34,9 @@ languagesystem latn SKY;
 @lcMRR = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.mrr q.mrr r.cnt s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.cnt ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc];
 @lcMLP = [a.mod b.mlp c.mod d.mod e.ful f.mlp g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.mrr q.mrr r.mlp s.mlp t.mod u.mod v.mlp w.mlp x.ful y.cnt z.mlp ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc];
 
+# @lcKernTest_SRC = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+# @lcKernTest = [a.mod b.mod c.mod d.mod e.ful f.mod g.mod h.lop i.mod j.mod k.mod l.lop m.mod n.cnt o.mod p.mod q.mod r.ful s.mod t.lop_de u.mod v.mod w.mod x.ful y.mod z.cnt];
+
 # --------------
 # POSITION
 @posBase = [a.mod ae.ful ae.mod b.ful b.jmc b.jmc_dk b.lop b.mlp b.mod c.mod d.lop_cu d.mod e.ful e.mod eth.mod f.alt1.mrr f.ful f.ful_de f.ful_pe f.ful_pl f.jmc f.mlp f.mod f.mod_au f.mrr g.jmc g.mod germandbls.jmc h.lop h.mod i.mod idotless.mod ij.jmc ij.mod j.jmc j.mod jdotless.jmc jdotless.mod k.ful k.lop k.lop_pe k.mod l.alt1.lop l.lop l.mod m.cnt m.mod n.cnt n.mod o.mlp o.mod oe.ful oe.mod p.ful p.jmc p.mod p.mrr p.mrr_ca q.jmc q.jmc_ar q.mod q.mod_au q.mrr r.cnt r.ful r.mlp r.mod s.ful s.jmc s.mlp s.mod t.lop_de t.lop_ee t.mod t.mod_be thorn.jmc u.mod v.cnt v.ful v.ful_at v.mlp v.mod w.cnt w.ful w.ful_at w.mlp w.mod x.cnt x.cnt_de x.cnt_ro x.ful x.mod y.cnt y.jmc y.mod z.cnt z.cnt_au z.cnt_no z.ful z.mlp z.mod z.mod_ro];
@@ -1156,6 +1159,14 @@ feature ss07 {
 	sub @lc by @lcMLP;
 } ss07;
 
+# feature ss09 {
+# 	featureNames {
+# 		name "KERN - temp test"; # Windows English
+# 		name 1 0 0 "KERN - temp test"; # Mac English
+# 	};
+# 	sub @lcKernTest_SRC by @lcKernTest;
+# } ss09;
+
 feature ss19 {
 	featureNames {
 		name "Cursive Uppercase"; # Windows English
@@ -1770,6 +1781,7 @@ feature dist {
 		} dist_CUR;
 		# DEC
 		lookup dist_DEC {
+			lookupflag IgnoreMarks;
 			pos @Xdec_SRC 12 @rful_TGT;
 			pos @Xdec_SRC 25 @tlop_de_TGT;
 			pos @Xdec_SRC 37 @fful_TGT;
@@ -1784,11 +1796,13 @@ feature dist {
 		} dist_DEC;
 		# NEEDS ENTRY
 		lookup dist_entry {
+			lookupflag IgnoreMarks;
 			pos @needsEntry_SRC 25 @eful_TGT;
 			pos @needsEntry_SRC 25 @fful_TGT;
 			pos @needsEntry_SRC 25 @hlop_TGT;
 			pos @needsEntry_SRC 37 @rful_TGT;
 			pos @needsEntry_SRC 37 @sful_TGT;
 			pos @needsEntry_SRC 50 @ncnt_TGT;
+			pos @needsEntry_SRC -70 @xful_TGT;
 		} dist_entry;
 } dist;

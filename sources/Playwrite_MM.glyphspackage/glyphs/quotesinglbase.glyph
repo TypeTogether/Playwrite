@@ -7,6 +7,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
+pos = (-55,0);
 ref = comma;
 }
 );
@@ -26,12 +27,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 313;
+width = 195;
 },
 {
 layerId = m002;
 shapes = (
 {
+pos = (-43,0);
 ref = comma;
 }
 );
@@ -51,12 +53,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 313;
+width = 209;
 },
 {
 layerId = m003;
 shapes = (
 {
+pos = (-55,0);
 ref = comma;
 }
 );
@@ -76,12 +79,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 313;
+width = 195;
 },
 {
 layerId = m004;
 shapes = (
 {
+pos = (-43,0);
 ref = comma;
 }
 );
@@ -101,12 +105,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 313;
+width = 209;
 },
 {
 layerId = m005;
 shapes = (
 {
+pos = (-29,0);
 ref = comma;
 }
 );
@@ -126,12 +131,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 313;
+width = 219;
 },
 {
 layerId = m006;
 shapes = (
 {
+pos = (-42,0);
 ref = comma;
 }
 );
@@ -151,12 +157,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 313;
+width = 214;
 },
 {
 layerId = m007;
 shapes = (
 {
+pos = (-29,0);
 ref = comma;
 }
 );
@@ -176,12 +183,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 313;
+width = 219;
 },
 {
 layerId = m008;
 shapes = (
 {
+pos = (-42,0);
 ref = comma;
 }
 );
@@ -201,7 +209,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 313;
+width = 215;
 },
 {
 layerId = m009;
@@ -307,6 +315,7 @@ width = 313;
 layerId = m013;
 shapes = (
 {
+pos = (-10,0);
 ref = comma;
 }
 );
@@ -326,12 +335,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 313;
+width = 240;
 },
 {
 layerId = m014;
 shapes = (
 {
+pos = (-21,0);
 ref = comma;
 }
 );
@@ -351,12 +361,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 313;
+width = 250;
 },
 {
 layerId = m015;
 shapes = (
 {
+pos = (-10,0);
 ref = comma;
 }
 );
@@ -376,12 +387,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 313;
+width = 240;
 },
 {
 layerId = m016;
 shapes = (
 {
+pos = (-21,0);
 ref = comma;
 }
 );
@@ -401,10 +413,8 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 313;
+width = 250;
 }
 );
-metricLeft = comma;
-metricRight = comma;
 unicode = 8218;
 }
