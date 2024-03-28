@@ -46,6 +46,7 @@ jobs:
         meson setup build
         meson compile -C build
         sudo meson install -C build
+        sudo rm -rf build
 
     # And now we can build our font
 
