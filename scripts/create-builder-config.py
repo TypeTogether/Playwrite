@@ -21,10 +21,10 @@ locl_required = {
     "SK": "SKY",
 }
 
-added_values = set([0, 18])
+added_values = set([0, -18])
 slant_values = [
     {"name": "Regular", "value": 0},
-    {"name": "Italic", "value": 18},
+    {"name": "Italic", "value": -18},
 ]
 
 config = {
@@ -75,7 +75,9 @@ with open("sources/data/models-all.csv", "r") as file:
             remapLayout = [
                 {
                     "operation": "remapLayout",
-                    "args": "'latn/"+locl_required[model["lang_tag"]]+"/locl => latn/dflt/locl'",
+                    "args": "'latn/"
+                    + locl_required[model["lang_tag"]]
+                    + "/locl => latn/dflt/locl'",
                 }
             ]
         if "-" in model["slnt"]:
@@ -98,6 +100,7 @@ with open("sources/data/models-all.csv", "r") as file:
                     ],
                 }
             )
+            italic = -int(italic)
             config["variants"].append(
                 {
                     "name": model_name,
@@ -138,17 +141,24 @@ with open("sources/data/models-all.csv", "r") as file:
                     + [
                         {
                             "operation": "subspace",
-                            "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt={model['slnt']}",
+                            "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt=-{model['slnt']}",
                         },
                         {"operation": "remap", "args": "--deep", "mappings": mapping},
                         {"operation": "hbsubset"},
-                        {"operation": "buildStat", "args": "--src stat-standalone.yaml"},
-                        {"operation": "exec", "exe": "gftools-fontsetter", "args": "-o $out $in zero-post.yaml"},
+                        {
+                            "operation": "buildStat",
+                            "args": "--src stat-standalone.yaml",
+                        },
+                        {
+                            "operation": "exec",
+                            "exe": "gftools-fontsetter",
+                            "args": "-o $out $in zero-post.yaml",
+                        },
                     ],
                 }
             )
             # I hate this
-            italic = int(model["slnt"])
+            italic = -int(model["slnt"])
             if italic not in added_values:
                 added_values.add(italic)
                 slant_values.append(
