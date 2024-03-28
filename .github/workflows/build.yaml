@@ -38,6 +38,7 @@ jobs:
       with:
         repository: googlefonts/harfbuzz
         ref: gdef
+        path: harfbuzz
     - name: Build Harfbuzz
       shell: bash
       run: |
