@@ -9,7 +9,7 @@ variants:
   alias: AR
   steps:
   - operation: subspace
-    axes: YEXT=565 SPED=0 slnt=0
+    axes: YEXT=565 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -81,6 +81,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -90,7 +91,7 @@ variants:
   alias: AU NSW
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=100 slnt=16
+    axes: YEXT=500 SPED=100 slnt=-16
   - operation: remap
     args: --deep
     mappings:
@@ -162,6 +163,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -171,7 +173,7 @@ variants:
   alias: AU QLD
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=100 slnt=16
+    axes: YEXT=500 SPED=100 slnt=-16
   - operation: remap
     args: --deep
     mappings:
@@ -243,6 +245,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -252,7 +255,7 @@ variants:
   alias: AU SA
   steps:
   - operation: subspace
-    axes: YEXT=488 SPED=100 slnt=16
+    axes: YEXT=488 SPED=100 slnt=-16
   - operation: remap
     args: --deep
     mappings:
@@ -324,6 +327,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -333,7 +337,7 @@ variants:
   alias: AU TAS
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=75 slnt=18
+    axes: YEXT=500 SPED=75 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -405,6 +409,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -414,7 +419,7 @@ variants:
   alias: AU VIC
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=75 slnt=18
+    axes: YEXT=500 SPED=75 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -486,6 +491,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -567,6 +573,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: fix
     args: --include-source-fixes
   - operation: buildStat
@@ -576,7 +583,7 @@ variants:
   italic: true
   steps:
   - operation: subspace
-    axes: YEXT=375 SPED=75 slnt=13
+    axes: YEXT=375 SPED=75 slnt=-13
     args: --update-name-table
   - operation: remap
     args: --deep
@@ -649,6 +656,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-italic.yaml
   - operation: fix
@@ -657,7 +665,7 @@ variants:
   alias: BE WAL
   steps:
   - operation: subspace
-    axes: YEXT=905 SPED=0 slnt=0
+    axes: YEXT=905 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -729,6 +737,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -738,7 +747,7 @@ variants:
   alias: BE VLG
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=25 slnt=18
+    axes: YEXT=500 SPED=25 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -810,6 +819,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -819,7 +829,7 @@ variants:
   alias: BR
   steps:
   - operation: subspace
-    axes: YEXT=631 SPED=0 slnt=0
+    axes: YEXT=631 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -891,6 +901,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -900,7 +911,7 @@ variants:
   alias: CA
   steps:
   - operation: subspace
-    axes: YEXT=496 SPED=100 slnt=18
+    axes: YEXT=496 SPED=100 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -972,6 +983,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -981,7 +993,7 @@ variants:
   alias: CL
   steps:
   - operation: subspace
-    axes: YEXT=633 SPED=0 slnt=0
+    axes: YEXT=633 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -1053,6 +1065,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -1062,7 +1075,7 @@ variants:
   alias: CO
   steps:
   - operation: subspace
-    axes: YEXT=520 SPED=25 slnt=18
+    axes: YEXT=520 SPED=25 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -1134,6 +1147,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -1143,7 +1157,7 @@ variants:
   alias: HR
   steps:
   - operation: subspace
-    axes: YEXT=379 SPED=25 slnt=18
+    axes: YEXT=379 SPED=25 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -1215,6 +1229,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -1224,7 +1239,7 @@ variants:
   alias: HR Lijeva
   steps:
   - operation: subspace
-    axes: YEXT=379 SPED=25 slnt=0
+    axes: YEXT=379 SPED=25 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -1296,6 +1311,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -1305,7 +1321,7 @@ variants:
   alias: CU
   steps:
   - operation: subspace
-    axes: YEXT=615 SPED=50 slnt=18
+    axes: YEXT=615 SPED=50 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -1377,6 +1393,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -1388,7 +1405,7 @@ variants:
   - operation: remapLayout
     args: '''latn/CSY/locl => latn/dflt/locl'''
   - operation: subspace
-    axes: YEXT=485 SPED=50 slnt=18
+    axes: YEXT=485 SPED=50 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -1460,6 +1477,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -1469,7 +1487,7 @@ variants:
   alias: DK Loopet
   steps:
   - operation: subspace
-    axes: YEXT=375 SPED=25 slnt=18
+    axes: YEXT=375 SPED=25 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -1541,6 +1559,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -1550,7 +1569,7 @@ variants:
   alias: DK Uloopet
   steps:
   - operation: subspace
-    axes: YEXT=375 SPED=25 slnt=18
+    axes: YEXT=375 SPED=25 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -1622,6 +1641,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -1703,6 +1723,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: hbsubset
   - operation: fix
     args: --include-source-fixes
   - operation: buildStat
@@ -1712,7 +1733,7 @@ variants:
   italic: true
   steps:
   - operation: subspace
-    axes: YEXT=375 SPED=75 slnt=7
+    axes: YEXT=375 SPED=75 slnt=-7
     args: --update-name-table
   - operation: remap
     args: --deep
@@ -1785,6 +1806,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-italic.yaml
   - operation: fix
@@ -1865,6 +1887,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: fix
     args: --include-source-fixes
   - operation: buildStat
@@ -1874,7 +1897,7 @@ variants:
   italic: true
   steps:
   - operation: subspace
-    axes: YEXT=375 SPED=25 slnt=7
+    axes: YEXT=375 SPED=25 slnt=-7
     args: --update-name-table
   - operation: remap
     args: --deep
@@ -1947,6 +1970,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-italic.yaml
   - operation: fix
@@ -1955,7 +1979,7 @@ variants:
   alias: EE
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=50 slnt=15
+    axes: YEXT=500 SPED=50 slnt=-15
   - operation: remap
     args: --deep
     mappings:
@@ -2027,6 +2051,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -2036,7 +2061,7 @@ variants:
   alias: FR Trad
   steps:
   - operation: subspace
-    axes: YEXT=908 SPED=0 slnt=0
+    axes: YEXT=908 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -2108,6 +2133,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -2117,7 +2143,7 @@ variants:
   alias: FR Modern
   steps:
   - operation: subspace
-    axes: YEXT=600 SPED=100 slnt=0
+    axes: YEXT=600 SPED=100 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -2189,6 +2215,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -2198,7 +2225,7 @@ variants:
   alias: DE Grund
   steps:
   - operation: subspace
-    axes: YEXT=420 SPED=0 slnt=0
+    axes: YEXT=420 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -2270,6 +2297,7 @@ variants:
       U+00DF: germandbls
       U+0131: idotless
       U+0237: jdotless
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -2279,7 +2307,7 @@ variants:
   alias: DE LA
   steps:
   - operation: subspace
-    axes: YEXT=420 SPED=75 slnt=18
+    axes: YEXT=420 SPED=75 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -2351,6 +2379,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -2360,7 +2389,7 @@ variants:
   alias: DE SAS
   steps:
   - operation: subspace
-    axes: YEXT=388 SPED=75 slnt=14
+    axes: YEXT=388 SPED=75 slnt=-14
   - operation: remap
     args: --deep
     mappings:
@@ -2432,6 +2461,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -2441,7 +2471,7 @@ variants:
   alias: DE VA
   steps:
   - operation: subspace
-    axes: YEXT=479 SPED=100 slnt=10
+    axes: YEXT=479 SPED=100 slnt=-10
   - operation: remap
     args: --deep
     mappings:
@@ -2513,6 +2543,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -2522,7 +2553,7 @@ variants:
   alias: HU
   steps:
   - operation: subspace
-    axes: YEXT=446 SPED=0 slnt=0
+    axes: YEXT=446 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -2594,6 +2625,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -2603,7 +2635,7 @@ variants:
   alias: IS
   steps:
   - operation: subspace
-    axes: YEXT=375 SPED=100 slnt=14
+    axes: YEXT=375 SPED=100 slnt=-14
   - operation: remap
     args: --deep
     mappings:
@@ -2675,6 +2707,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -2684,7 +2717,7 @@ variants:
   alias: IN
   steps:
   - operation: subspace
-    axes: YEXT=523 SPED=75 slnt=18
+    axes: YEXT=523 SPED=75 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -2756,6 +2789,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -2765,7 +2799,7 @@ variants:
   alias: ID
   steps:
   - operation: subspace
-    axes: YEXT=938 SPED=0 slnt=0
+    axes: YEXT=938 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -2837,6 +2871,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -2846,7 +2881,7 @@ variants:
   alias: IE
   steps:
   - operation: subspace
-    axes: YEXT=481 SPED=0 slnt=18
+    axes: YEXT=481 SPED=0 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -2918,6 +2953,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -2927,7 +2963,7 @@ variants:
   alias: IT Trad
   steps:
   - operation: subspace
-    axes: YEXT=459 SPED=25 slnt=0
+    axes: YEXT=459 SPED=25 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -2999,6 +3035,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3008,7 +3045,7 @@ variants:
   alias: IT Modern
   steps:
   - operation: subspace
-    axes: YEXT=375 SPED=25 slnt=0
+    axes: YEXT=375 SPED=25 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -3080,6 +3117,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3089,7 +3127,7 @@ variants:
   alias: MX
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=25 slnt=18
+    axes: YEXT=500 SPED=25 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -3161,6 +3199,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3172,7 +3211,7 @@ variants:
   - operation: remapLayout
     args: '''latn/NLD/locl => latn/dflt/locl'''
   - operation: subspace
-    axes: YEXT=773 SPED=50 slnt=18
+    axes: YEXT=773 SPED=50 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -3244,6 +3283,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3253,7 +3293,7 @@ variants:
   alias: NZ
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=100 slnt=18
+    axes: YEXT=500 SPED=100 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -3325,6 +3365,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3334,7 +3375,7 @@ variants:
   alias: NG
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=25 slnt=0
+    axes: YEXT=500 SPED=25 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -3406,6 +3447,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3415,7 +3457,7 @@ variants:
   alias: 'NO'
   steps:
   - operation: subspace
-    axes: YEXT=470 SPED=25 slnt=18
+    axes: YEXT=470 SPED=25 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -3487,6 +3529,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3496,7 +3539,7 @@ variants:
   alias: PE
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=50 slnt=0
+    axes: YEXT=500 SPED=50 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -3568,6 +3611,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3577,7 +3621,7 @@ variants:
   alias: PL
   steps:
   - operation: subspace
-    axes: YEXT=486 SPED=0 slnt=0
+    axes: YEXT=486 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -3649,6 +3693,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3658,7 +3703,7 @@ variants:
   alias: PT
   steps:
   - operation: subspace
-    axes: YEXT=581 SPED=0 slnt=0
+    axes: YEXT=581 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -3730,6 +3775,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3741,7 +3787,7 @@ variants:
   - operation: remapLayout
     args: '''latn/ROM/locl => latn/dflt/locl'''
   - operation: subspace
-    axes: YEXT=500 SPED=0 slnt=18
+    axes: YEXT=500 SPED=0 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -3813,6 +3859,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3824,7 +3871,7 @@ variants:
   - operation: remapLayout
     args: '''latn/SKY/locl => latn/dflt/locl'''
   - operation: subspace
-    axes: YEXT=485 SPED=50 slnt=18
+    axes: YEXT=485 SPED=50 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -3896,6 +3943,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3905,7 +3953,7 @@ variants:
   alias: ZA
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=50 slnt=10
+    axes: YEXT=500 SPED=50 slnt=-10
   - operation: remap
     args: --deep
     mappings:
@@ -3977,6 +4025,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -3988,7 +4037,7 @@ variants:
   - operation: remapLayout
     args: '''latn/ESP/locl => latn/dflt/locl'''
   - operation: subspace
-    axes: YEXT=500 SPED=0 slnt=0
+    axes: YEXT=500 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -4060,6 +4109,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -4069,7 +4119,7 @@ variants:
   alias: ES Ornate
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=0 slnt=0
+    axes: YEXT=500 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -4141,6 +4191,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -4150,7 +4201,7 @@ variants:
   alias: TZ
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=25 slnt=16
+    axes: YEXT=500 SPED=25 slnt=-16
   - operation: remap
     args: --deep
     mappings:
@@ -4222,6 +4273,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -4231,7 +4283,7 @@ variants:
   alias: US Modern
   steps:
   - operation: subspace
-    axes: YEXT=438 SPED=0 slnt=0
+    axes: YEXT=438 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -4303,6 +4355,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -4312,7 +4365,7 @@ variants:
   alias: US Trad
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=100 slnt=18
+    axes: YEXT=500 SPED=100 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -4384,6 +4437,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -4393,7 +4447,7 @@ variants:
   alias: VN
   steps:
   - operation: subspace
-    axes: YEXT=757 SPED=0 slnt=0
+    axes: YEXT=757 SPED=0 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -4465,6 +4519,7 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
   - operation: exec
@@ -4489,19 +4544,19 @@ stat:
   - name: Regular
     value: 0
   - name: Italic
-    value: 18
+    value: -18
   - name: Italic
-    value: 16
+    value: -16
   - name: Italic
-    value: 13
+    value: -13
   - name: Italic
-    value: 7
+    value: -7
   - name: Italic
-    value: 15
+    value: -15
   - name: Italic
-    value: 14
+    value: -14
   - name: Italic
-    value: 10
+    value: -10
 - name: Speed
   tag: SPED
 - name: Y Extension
