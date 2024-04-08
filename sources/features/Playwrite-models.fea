@@ -86,7 +86,7 @@
 
 @hlop_TGT = [h.lop.fin h.lop.med k.lop.fin k.lop.med b.jmc_dk.med b.jmc_dk.fin];
 
-@imrr_TGT = [i.mod.fin i.mod.med idotless.mod.fin idotless.mod.med ij.jmc.fin ij.jmc.med ij.mod.fin ij.mod.med j.jmc.fin j.jmc.med j.mod.fin j.mod.med jdotless.jmc.fin jdotless.jmc.med jdotless.mod.fin jdotless.mod.med m.mod.fin m.mod.med n.mod.fin n.mod.med p.ful.fin p.ful.med p.jmc.fin p.jmc.med p.mod.fin p.mod.med p.mrr.fin p.mrr.med thorn.jmc.fin thorn.jmc.med u.mod.fin u.mod.med v.ful.fin v.ful.med w.ful.fin w.ful.med y.jmc.fin y.jmc.med y.mod.fin y.mod.med];
+@imrr_TGT = [i.mod.fin i.mod.med idotless.mod.fin idotless.mod.med ij.jmc.fin ij.jmc.med ij.mod.fin ij.mod.med j.jmc.fin j.jmc.med j.mod.fin j.mod.med jdotless.jmc.fin jdotless.jmc.med jdotless.mod.fin jdotless.mod.med m.mod.fin m.mod.med n.mod.fin n.mod.med p.ful.fin p.ful.med p.jmc.fin p.jmc.med p.mod.fin p.mod.med p.mrr.fin p.mrr.med thorn.jmc.fin thorn.jmc.med u.mod.fin u.mod.med v.ful.fin v.ful.med w.ful.fin w.ful.med y.jmc.fin y.jmc.med y.mod.fin y.mod.med v.ful_at.fin v.ful_at.med w.ful_at.fin w.ful_at.med];
 
 @nmod_TGT_CUR = [i.mod j.jmc p.ful u.mod idotless.mod jdotless.mod jdotless.jmc];
 @nmod_TGT = [@nmod_TGT_CUR i.mod.fin i.mod.med j.jmc.fin j.jmc.med j.mod.fin j.mod.med m.mod.fin m.mod.med n.mod.fin n.mod.med p.ful.fin p.ful.med p.jmc.fin p.jmc.med p.mod.fin p.mod.med p.mrr.fin p.mrr.med r.mod.fin r.mod.med u.mod.fin u.mod.med v.ful.fin v.ful.med w.ful.fin w.ful.med y.jmc.fin y.jmc.med y.mod.fin y.mod.med p.mrr_ca.fin p.mrr_ca.med idotless.mod.fin idotless.mod.med jdotless.mod.fin jdotless.mod.med jdotless.jmc.fin jdotless.jmc.med ij.mod.fin ij.mod.med thorn.jmc.fin thorn.jmc.med  ij.jmc.fin ij.jmc.med v.ful_at.fin v.ful_at.med w.ful_at.fin w.ful_at.med];
