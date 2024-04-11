@@ -94,6 +94,7 @@ with open("sources/data/models-all.csv", "r") as file:
                             "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt={regular}",
                         },
                         {"operation": "remap", "args": "--deep", "mappings": mapping},
+                        {"operation": "remapLayout", "args": "'locl=>|calt' 'ccmp=>|calt'"},
                         {"operation": "hbsubset"},
                         {"operation": "fix", "args": "--include-source-fixes"},
                         {"operation": "buildStat", "args": "--src stat.yaml"},
@@ -144,6 +145,7 @@ with open("sources/data/models-all.csv", "r") as file:
                             "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt=-{model['slnt']}",
                         },
                         {"operation": "remap", "args": "--deep", "mappings": mapping},
+                        {"operation": "remapLayout", "args": "'locl=>|calt' 'ccmp=>|calt'"},
                         {"operation": "hbsubset"},
                         {
                             "operation": "buildStat",

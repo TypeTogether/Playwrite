@@ -81,6 +81,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -163,6 +165,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -245,6 +249,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -327,6 +333,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -409,6 +417,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -491,6 +501,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -573,6 +585,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: fix
     args: --include-source-fixes
@@ -737,6 +751,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -819,6 +835,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -901,6 +919,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -983,6 +1003,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -1065,6 +1087,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -1147,6 +1171,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -1229,6 +1255,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -1311,6 +1339,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -1393,6 +1423,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -1477,6 +1509,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -1559,6 +1593,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -1641,6 +1677,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -1723,6 +1761,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: fix
     args: --include-source-fixes
@@ -1887,6 +1927,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: fix
     args: --include-source-fixes
@@ -2051,6 +2093,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -2133,6 +2177,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -2215,6 +2261,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -2297,6 +2345,8 @@ variants:
       U+00DF: germandbls
       U+0131: idotless
       U+0237: jdotless
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -2379,6 +2429,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -2461,6 +2513,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -2543,6 +2597,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -2625,6 +2681,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -2707,6 +2765,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -2789,6 +2849,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -2871,6 +2933,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -2953,6 +3017,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -3035,6 +3101,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -3117,6 +3185,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -3199,6 +3269,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -3283,6 +3355,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -3365,6 +3439,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -3447,6 +3523,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -3529,6 +3607,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -3611,6 +3691,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -3693,6 +3775,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -3775,6 +3859,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -3859,6 +3945,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -3943,6 +4031,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -4025,6 +4115,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -4109,6 +4201,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -4191,6 +4285,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -4273,6 +4369,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -4355,6 +4453,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -4437,6 +4537,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
@@ -4519,6 +4621,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
