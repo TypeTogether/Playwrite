@@ -151,6 +151,7 @@ with open("sources/data/models-all.csv", "r") as file:
                             "operation": "buildStat",
                             "args": "--src stat-standalone.yaml",
                         },
+                        {"operation": "fix", "args": "--include-source-fixes"},
                         {
                             "operation": "exec",
                             "exe": "gftools-fontsetter",
