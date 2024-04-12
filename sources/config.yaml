@@ -86,6 +86,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -170,6 +172,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -254,6 +258,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -338,6 +344,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -422,6 +430,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -506,6 +516,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -756,6 +768,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -840,6 +854,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -924,6 +940,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -1008,6 +1026,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -1092,6 +1112,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -1176,6 +1198,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -1260,6 +1284,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -1344,6 +1370,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -1428,6 +1456,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -1514,6 +1544,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -1598,6 +1630,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -1682,6 +1716,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -2098,6 +2134,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -2182,11 +2220,13 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: FR Modern
-  alias: FR Modern
+- name: FR Moderne
+  alias: FR Moderne
   steps:
   - operation: subspace
     axes: YEXT=600 SPED=100 slnt=-0
@@ -2266,6 +2306,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -2350,6 +2392,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -2434,6 +2478,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -2518,6 +2564,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -2602,6 +2650,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -2686,6 +2736,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -2770,6 +2822,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -2854,6 +2908,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -2938,6 +2994,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -3022,6 +3080,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -3106,11 +3166,13 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: IT Modern
-  alias: IT Modern
+- name: IT Moderna
+  alias: IT Moderna
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=-0
@@ -3190,6 +3252,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -3274,6 +3338,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -3360,6 +3426,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -3444,11 +3512,13 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: NG
-  alias: NG
+- name: NG Modern
+  alias: NG Modern
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=-0
@@ -3528,6 +3598,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -3612,6 +3684,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -3696,6 +3770,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -3780,6 +3856,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -3864,6 +3942,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -3950,6 +4030,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -4036,6 +4118,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -4120,6 +4204,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -4206,11 +4292,13 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: ES Ornate
-  alias: ES Ornate
+- name: ES Deco
+  alias: ES Deco
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=-0
@@ -4290,6 +4378,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -4374,6 +4464,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -4458,6 +4550,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -4542,6 +4636,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
@@ -4626,6 +4722,8 @@ variants:
   - operation: hbsubset
   - operation: buildStat
     args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
