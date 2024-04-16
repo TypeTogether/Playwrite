@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="quotedblbase" format="2">
-  <advance width="488"/>
+  <advance width="390"/>
   <unicode hex="201E"/>
   <outline>
-    <component base="comma" xOffset="175"/>
-    <component base="comma"/>
+    <component base="comma" xOffset="133"/>
+    <component base="comma" xOffset="-42"/>
   </outline>
   <lib>
     <dict>
@@ -36,9 +36,9 @@
         <integer>0</integer>
       </dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>comma</string>
+      <string>quotesinglbase</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>comma</string>
+      <string>quotesinglbase</string>
     </dict>
   </lib>
 </glyph>

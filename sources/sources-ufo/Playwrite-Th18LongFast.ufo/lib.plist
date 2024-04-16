@@ -37,7 +37,7 @@
       </dict>
     </array>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>3236</string>
+    <string>3300</string>
     <key>com.schriftgestaltung.customParameter.GSFont.EditView Line Height</key>
     <integer>2000</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -820,6 +820,7 @@
       <string>cnct.mod_v_z</string>
       <string>cnct.mod_v_e.ful</string>
       <string>cnct.mod_v_f.ful</string>
+      <string>cnct.mod_v_x.ful</string>
       <string>cnct.mod_v_h.lop</string>
       <string>cnct.mod_v_n.cnt</string>
       <string>b.jmc</string>
@@ -897,6 +898,7 @@
       <string>cnct.jmc_f_t</string>
       <string>cnct.jmc_f_v</string>
       <string>cnct.jmc_f_x</string>
+      <string>cnct.jmc_f_x.ful</string>
       <string>cnct.jmc_f_z</string>
       <string>cnct.jmc_f_f</string>
       <string>cnct.jmc_c_f</string>
@@ -1536,11 +1538,11 @@
     <dict>
       <key>dlng</key>
       <array>
-        <string>Latn,ca,cs,da,en,es,et,eu,fr,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,vi</string>
+        <string>Latn,af,ca,cs,cy,da,en,es,et,eu,fr,ga,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,sl,sv,tr,vi,wa,yo,zu</string>
       </array>
       <key>slng</key>
       <array>
-        <string>Latn,ca,cs,da,en,es,et,eu,fr,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,vi</string>
+        <string>Latn,af,ca,cs,cy,da,en,es,et,eu,fr,ga,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,sk,sl,sv,tr,vi,wa,yo,zu</string>
       </array>
     </dict>
     <key>public.postscriptNames</key>

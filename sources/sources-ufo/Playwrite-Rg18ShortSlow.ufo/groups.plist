@@ -106,7 +106,6 @@
     <array>
       <string>G.cur</string>
       <string>J.cur</string>
-      <string>Y.cur</string>
       <string>Z.cur</string>
       <string>J.dec</string>
       <string>G.cur_locl</string>
@@ -216,6 +215,10 @@
       <string>Thorn</string>
       <string>P.cur</string>
       <string>P.dec</string>
+    </array>
+    <key>public.kern1.Q.dec_pt</key>
+    <array>
+      <string>Q.dec_pt</string>
     </array>
     <key>public.kern1.R</key>
     <array>
@@ -338,6 +341,10 @@
       <string>Yhookabove</string>
       <string>Ytilde</string>
       <string>Y_locl</string>
+    </array>
+    <key>public.kern1.Y.cur</key>
+    <array>
+      <string>Y.cur</string>
     </array>
     <key>public.kern1.Z</key>
     <array>
@@ -658,6 +665,10 @@
       <string>quotesinglbase</string>
       <string>quotedblbase</string>
     </array>
+    <key>public.kern1.questiondown</key>
+    <array>
+      <string>questiondown</string>
+    </array>
     <key>public.kern1.quoteleft</key>
     <array>
       <string>quoteleft</string>
@@ -688,6 +699,10 @@
       <string>s.mod</string>
       <string>s.mod.fin</string>
       <string>s.jmc.fin</string>
+    </array>
+    <key>public.kern1.space</key>
+    <array>
+      <string>space</string>
     </array>
     <key>public.kern1.t</key>
     <array>
@@ -881,6 +896,10 @@
       <string>E.cur</string>
       <string>E.cur.ini</string>
     </array>
+    <key>public.kern2.F.dec</key>
+    <array>
+      <string>F.dec</string>
+    </array>
     <key>public.kern2.G.cur_locl</key>
     <array>
       <string>G.cur_locl</string>
@@ -903,7 +922,6 @@
     <array>
       <string>I.cur</string>
       <string>I.cur.ini</string>
-      <string>F.dec</string>
     </array>
     <key>public.kern2.IJ.cur</key>
     <array>
@@ -1372,6 +1390,7 @@
       <string>oe.mod.ini</string>
       <string>eth.mod.ini</string>
       <string>oe.ful.ini</string>
+      <string>o.mlp</string>
       <string>o.mlp.ini</string>
     </array>
     <key>public.kern2.period</key>
@@ -1381,6 +1400,10 @@
       <string>ellipsis</string>
       <string>quotesinglbase</string>
       <string>quotedblbase</string>
+    </array>
+    <key>public.kern2.questiondown</key>
+    <array>
+      <string>questiondown</string>
     </array>
     <key>public.kern2.quoteleft</key>
     <array>
@@ -1394,24 +1417,49 @@
     </array>
     <key>public.kern2.r.ful.ini</key>
     <array>
+      <string>f.ful</string>
+      <string>f.ful.ini</string>
+      <string>r.ful</string>
       <string>r.ful.ini</string>
+      <string>s.ful</string>
       <string>s.ful.ini</string>
+      <string>b.lop</string>
       <string>b.lop.ini</string>
+      <string>h.lop</string>
       <string>h.lop.ini</string>
+      <string>k.lop</string>
       <string>k.lop.ini</string>
+      <string>l.lop</string>
       <string>l.lop.ini</string>
       <string>l.alt1.lop.ini</string>
+      <string>f.mrr</string>
+      <string>f.mrr.ini</string>
+      <string>b.mlp</string>
       <string>b.mlp.ini</string>
+      <string>f.mlp</string>
       <string>f.mlp.ini</string>
+      <string>r.mlp</string>
       <string>r.mlp.ini</string>
+      <string>s.mlp</string>
       <string>s.mlp.ini</string>
+      <string>z.mlp</string>
       <string>z.mlp.ini</string>
+      <string>b.jmc_dk</string>
       <string>b.jmc_dk.ini</string>
+      <string>f.ful_de</string>
       <string>f.ful_de.ini</string>
+      <string>f.ful_pe</string>
       <string>f.ful_pe.ini</string>
+      <string>f.ful_pl</string>
       <string>f.ful_pl.ini</string>
+      <string>k.lop_pe</string>
       <string>k.lop_pe.ini</string>
+      <string>p.mrr_ca</string>
       <string>p.mrr_ca.ini</string>
+      <string>t.lop_ee</string>
+      <string>t.lop_ee.ini</string>
+      <string>t.lop_de</string>
+      <string>t.lop_de.ini</string>
     </array>
     <key>public.kern2.s</key>
     <array>
@@ -1424,6 +1472,10 @@
       <string>s.mod</string>
       <string>s.mod.ini</string>
       <string>s.jmc.ini</string>
+    </array>
+    <key>public.kern2.space</key>
+    <array>
+      <string>space</string>
     </array>
     <key>public.kern2.t</key>
     <array>
@@ -1520,6 +1572,7 @@
       <string>zdotaccent</string>
       <string>z.mod</string>
       <string>z.mod.ini</string>
+      <string>z.ful</string>
       <string>z.ful.ini</string>
       <string>z.cnt.ini</string>
       <string>z.mod_ro.ini</string>
