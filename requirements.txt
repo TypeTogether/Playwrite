@@ -3,7 +3,7 @@ afdko==4.0.1
 appdirs==1.4.4
 attrs==23.1.0
 axisregistry==0.4.9
-babelfont==3.0.1
+babelfont==3.0.4
 beautifulsoup4==4.12.3
 beziers==0.5.0
 booleanOperations==0.9.0
@@ -36,7 +36,7 @@ fontmake==3.7.1
 fontMath==0.9.3
 fontParts==0.11.0
 fontPens==0.2.4
-fontprimer @ git+https://github.com/simoncozens/fontprimer@2aa5189369dce60eb96cc43e554f8c151dd7dfe8
+fontprimer @ git+https://github.com/simoncozens/fontprimer@18d77e18cf4191c2f28a4180a52e6d1a55a5836a
 fonttools==4.48.1
 freetype-py==2.3.0
 fs==2.4.16
@@ -66,7 +66,7 @@ num2words==0.5.13
 openstep-plist==0.3.1
 opentype-sanitizer==9.1.0
 opentypespec==1.9.1
-orjson==3.9.7
+orjson==3.10.1
 packaging==23.2
 paintcompiler==0.3.2
 picosvg==0.22.1
