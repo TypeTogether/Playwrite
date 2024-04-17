@@ -37,7 +37,7 @@ jobs:
     - uses: actions/checkout@v4
       with:
         repository: googlefonts/harfbuzz
-        ref: gdef
+        ref: main
         path: harfbuzz
     - name: Build Harfbuzz
       shell: bash
