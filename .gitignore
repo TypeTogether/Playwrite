@@ -1,9 +1,12 @@
 *.glyphs
 *sublime*
-UIState.plist
 .DS_Store
+.ninja_log
+UIState.plist
 _fbakery*
 _temp-*
+build.ninja
+build.stamp
 env
 instance_ufo
 proof
