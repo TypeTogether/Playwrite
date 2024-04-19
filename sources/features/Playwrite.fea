@@ -1075,9 +1075,12 @@ feature ccmp {
 		sub udieresisgrave by u dieresiscomb gravecomb;
 		sub udieresismacron by u dieresiscomb macroncomb;
 	} ccmp_decomp;
-	lookup ccmp_decomp2 {
-		sub j' acutecomb by jdotless;
-	} ccmp_decomp2;
+
+	lookup softdotting {
+		lookupflag UseMarkFilteringSet [ringcomb hungarumlautcomb acutecomb macroncomb gravecomb tildecomb dieresiscomb dotaccentcomb commaturnedabovecomb horncomb];
+		sub i' [ringcomb hungarumlautcomb dotaccentcomb commaturnedabovecomb horncomb] by idotless;
+		sub j' [acutecomb macroncomb gravecomb tildecomb dieresiscomb] by jdotless;
+	} softdotting;
 
 } ccmp;
 
