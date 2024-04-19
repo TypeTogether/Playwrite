@@ -503,7 +503,7 @@ lookup before_sful {
 	sub @emod_SRC by @emod_SRC cnct.mod_e_s.ful;
 	sub @nmod_SRC by @nmod_SRC cnct.ful_n_s;
 	sub @omod_SRC by @omod_SRC cnct.ful_o_s;
-	sub @rmod_SRC by @rmod_SRC cnct.mod_r_s;
+	sub @rmod_SRC by @rmod_SRC cnct.mod_r_s.ful;
 	#
 	sub @gjmc_SRC by @gjmc_SRC cnct.ful_g_s;
 	#
