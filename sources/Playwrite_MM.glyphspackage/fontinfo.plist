@@ -546,7 +546,6 @@ bar,
 periodcentered,
 bullet,
 hyphen,
-softhyphen,
 endash,
 emdash,
 section,
@@ -766,6 +765,7 @@ cnct.mod_r_x,
 cnct.mod_r_z,
 cnct.mod_r_e.ful,
 cnct.mod_r_f.ful,
+cnct.mod_r_s.ful,
 cnct.mod_r_h.lop,
 cnct.mod_r_z.cnt,
 cnct.mod_v_o,
@@ -1515,9 +1515,13 @@ data = "Latn,af,ca,cs,cy,da,en,es,et,eu,fr,ga,hi,hr,hu,id,is,it,nl,no,pl,pt,ro,s
 tag = dlng;
 }
 );
+},
+{
+name = "Variable Font Origin";
+value = m005;
 }
 );
-date = "2024-04-17 16:52:44 +0000";
+date = "2024-04-18 16:45:18 +0000";
 familyName = Playwrite;
 featurePrefixes = (
 {
@@ -17804,7 +17808,7 @@ value = TT;
 },
 {
 key = versionString;
-value = "Version 1.000";
+value = "Version 1.001";
 }
 );
 settings = {
@@ -22157,5 +22161,5 @@ GSCornerRadius = 12;
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
