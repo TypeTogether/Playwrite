@@ -91,6 +91,9 @@ jobs:
         name: ${{ env.ZIP_NAME }}
         path: |
           fonts
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      commit_message: Automated rebuild
+      file_pattern: "fonts"
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
   release:
