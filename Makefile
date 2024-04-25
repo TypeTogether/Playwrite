@@ -1,6 +1,9 @@
 SOURCES=sources/Playwrite_MM.glyphspackage
 FAMILY=Playwrite
 
+export GFTOOLS_SUBSETTER := python
+
+
 help:
 	@echo "###"
 	@echo "# Build targets for $(FAMILY)"
