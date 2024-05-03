@@ -20,7 +20,7 @@ If you want to build fonts manually on your own computer as part of the developm
 
 ## Letter variations
 
-Based on the Primarium study the TypeTogether team isolated a limited number of structural variations for the Latin letter shapes: 8 variation styles for lower cases and three for uppercases. With the help of a sturdy contextual alternate (CALT) opentype code these different veriation groups can be seamlessly combined.
+Based on the Primarium study the TypeTogether team isolated a limited number of structural variations for the Latin letter shapes: 8 variation styles for lower cases and three for uppercases. With the help of a sturdy contextual alternate (`CALT`) opentype code these different veriation groups can be seamlessly combined.
 
 
 ### Precursive
@@ -109,10 +109,6 @@ Alternative designs necessary for one or more specific regions. These use suffix
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey13.png)
-
-
-
-
 
 
 ## Design variation axes
