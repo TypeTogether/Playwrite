@@ -156,9 +156,16 @@ Here is an example of the recipe used for the Canada Playwrite Font:
 
 ## List of fonts by region
 
-Each font 
+Each font model uses the following naming conventions:
 
-| Country | 2 letter code | Variant | Family name | Display name |
+- The country name is represented with a two-letter code abbreviation that follows the `Alpha-2 code` of the [ISO 3166](www.iso.org/glossary-for-iso-3166.html).
+- Models with different variants are named using common abbreviations in each country (e.g., VIC for Victoria in Australia) or a designated variant name that is, in turn, localized using the country language (e.g. Traditionnelle in France).
+- The `font family name` and `file name` use the two-letter code and variant abbreviations.
+- The  `display name` is the fully unabbreviated and localized name of a model. It is used on specimen pages and includes the country name translated into each country's language.
+
+
+
+| Country | Alpha-2 code | Variant | Family name | Display name |
 | --- | --- | --- | --- | --- |
 | Argentina | AR |  | Playwrite AR | Playwrite Argentina |
 | Australia | AU | NSW | Playwrite AU NSW | Playwrite Astralia NSW |
@@ -219,5 +226,4 @@ After creating or editing glyphs and modifying the Recipe table you will need to
 3. Update the design space  
 4. Create UFOs from the Glyphpackage file
 
-Now you are ready to build new fonts following the build instructions:
-`/sources/build-models-HowTo-README.md`
+Now you are ready to build new fonts following the build instructions.
