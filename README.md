@@ -11,11 +11,11 @@ The shape of the handwritten Latin alphabethas developed following different cur
 
 ## Build instructions
 
-The definitiv, estable, fonts are built by the Continuous Integrated engine, which runs every time the source files are updated in the repository. It produces a .zip file with all the built fonts that which is included on each `Action` run as well as pushes the produced fonts into the `fonts` directory.
+The definitive, stable, fonts are built by the Continuous Integration engine, which runs every time the source files are updated in the repository. It produces a .zip file with all the built fonts that which is included on each `Action` run as well as pushes the produced fonts into the `fonts` directory.
 
 If you want to build fonts manually on your own computer as part of the development or testing process:
 
-* `make build` will produce font files. But they shound not be pushed manually to the repository. Once you are happy with the changes in the source files, please only push them and the CI run will produce the definitive fonts.
+* `make build` will produce font files. But they should not be pushed manually to the repository. Once you are happy with the changes in the source files, please only push the sources and the CI run will produce the definitive fonts.
 
 
 ## Letter variations
