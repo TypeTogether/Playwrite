@@ -9,9 +9,9 @@ on:
       - sources/**
   pull_request:
     branches: 
-    - main
+      - main
     paths:
-    - sources/**
+      - sources/**
 
 jobs:
   build:
