@@ -209,7 +209,7 @@ Each font model uses the following naming conventions:
 | Slovakia | SK |  | Playwrite SK | Playwrite Slovensko |
 | South Africa | ZA |  | Playwrite ZA | Playwrite South Africa |
 | Spain | ES |  | Playwrite ES | Playwrite España |
-| Spain | ES | Decorative | Playwrite ES Deco | Playwrite España Decorative |
+| Spain | ES | Decorative | Playwrite ES Deco | Playwrite España Decorativa |
 | Tanzania | TZ |  | Playwrite TZ | Playwrite Tanzania |
 | USA | US | Modern | Playwrite US Modern | Playwrite US Modern |
 | USA | US | Traditional | Playwrite US Trad | Playwrite US Traditional |
