@@ -1,6 +1,17 @@
 name: Build font and specimen
 
-on: [push, release]
+on:
+  push:
+    branches:
+      - main
+      - 'releases/**'
+    paths:
+      - sources/**
+  pull_request:
+    branches: 
+    - main
+    paths:
+    - sources/**
 
 jobs:
   build:
