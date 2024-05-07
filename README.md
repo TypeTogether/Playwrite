@@ -216,10 +216,11 @@ Each font model uses the following naming conventions:
 | Vietnam | VN |  | Playwrite VN | Playwrite Việt Nam |
  
 ## Create or edit handwriting models
-After creating or editing glyphs and modifying the Recipe table you will need to prepare the files for font generation following these four steps.  
-1. Write the model dictionary  
-2. Write the feature file for models  
-3. Update the design space  
-4. Create UFOs from the Glyphpackage file
 
-Now you are ready to build new fonts following the build instructions.
+For creating new models or editing existing you can follow these steps:
+
+1. (If needed) Add/modify glyphs to the source file.
+2. (If needed) Add feature code (classes, substitutions, connections) to `./sources/features/Playwrite.fea`.
+3. Add the model recipe entry data to `./sources/data/models-all.csv`
+
+Now you are ready to build the new model fonts following the [build instructions](#build-instructions).
