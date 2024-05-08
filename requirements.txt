@@ -1,12 +1,9 @@
-fontprimer @ git+https://github.com/simoncozens/fontprimer@43b82cda589c77b53c098a2d0855b65636a13f4f
-gftools==0.9.55
-
 absl-py==2.0.0
 afdko==4.0.1
 appdirs==1.4.4
 attrs==23.1.0
 axisregistry==0.4.9
-babelfont==3.0.4
+babelfont==3.0.5
 beautifulsoup4==4.12.3
 beziers==0.5.0
 booleanOperations==0.9.0
@@ -39,15 +36,17 @@ fontmake==3.7.1
 fontMath==0.9.3
 fontParts==0.11.0
 fontPens==0.2.4
+fontprimer==0.2.0
 fonttools==4.48.1
 freetype-py==2.3.0
 fs==2.4.16
 gflanguages==0.6.0
 gfsubsets==2024.2.5
+gftools==0.9.55
 gitdb==4.0.10
 GitPython==3.1.37
 glyphsets==0.6.14
-glyphsLib==6.4.0
+glyphsLib==6.7.1
 glyphspkg==0.1.9
 hyperglot==0.4.5
 idna==3.4
@@ -115,6 +114,7 @@ uharfbuzz==0.37.3
 unicodedata2==15.1.0
 Unidecode==1.3.7
 urllib3==2.0.5
+vfbLib==0.6.4
 vharfbuzz==0.2.0
 vttLib==0.12.0
 wrapt==1.15.0
