@@ -1,102 +1,53 @@
 name: Build font and specimen
-
 on: [push, release]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    
-    # Due to a bug in Adobe CC2023, we need to subset the
-    # fonts with Garrett's branch of harfbuzz.
     - name: Set up Python 3.10
       uses: actions/setup-python@v5
       with:
         python-version: "3.10"
-    - name: Install Harfbuzz package dependencies
-      shell: bash
-      run: |
-        sudo apt-get update
-        sudo apt-get install \
-          gcc \
-          gobject-introspection \
-          gtk-doc-tools \
-          libcairo2-dev \
-          libfreetype6-dev \
-          libgirepository1.0-dev \
-          libglib2.0-dev \
-          libgraphite2-dev \
-          libicu-dev \
-          ninja-build \
-          pkg-config \
-          python3 \
-          python3-setuptools
-    - name: Install Harfbuzz Python Dependencies
-      shell: bash
-      run: sudo pip3 install fonttools meson==0.56.0 gcovr==5.0
+
     - uses: actions/checkout@v4
+      name: Checkout files
+
+    # Check why we were run; if any files in sources/* were changed,
+    # this will set the output of this step to true. We can check this
+    # later with ${{steps.check.outputs.sources}}. See
+    # https://github.com/dorny/paths-filter
+    - uses: dorny/paths-filter@v3
+      id: check
+      name: Check for changes in sources
       with:
-        repository: googlefonts/harfbuzz
-        ref: main
-        path: harfbuzz
-    - name: Build Harfbuzz
-      shell: bash
-      run: |
-        cd harfbuzz
-        meson setup build
-        meson compile -C build
-        sudo meson install -C build
-        sudo rm -rf build
+        filters: |
+          sources:
+            - 'sources/**'
 
-    # And now we can build our font
-
-    - uses: actions/checkout@v4
     - name: Install sys tools/deps
       run: |
         sudo apt-get update
         sudo apt-get install ttfautohint
-    - name: gen zip file name
-      id: zip-name
-      shell: bash
-      # Set the archive name to repo name + "-assets" e.g "MavenPro-assets"
-      run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
-      # If a new release is cut, use the release tag to auto-bump the source files
-    - name: Bump release
-      if: github.event_name == 'release'
-      run: |
-        . venv/bin/activate
-        SRCS=$(yq e ".sources[]" sources/config.yaml)
-        TAG_NAME=${GITHUB_REF/refs\/tags\//}
-        echo "Bumping $SRCS to $TAG_NAME"
-        for src in $SRCS
-        do
-          bumpfontversion sources/$src --new-version $TAG_NAME;
-        done
+
     - name: Build font
       run: make build
-    # - name: Check with fontbakery
-    #   run: make test
-    #   continue-on-error: true
-    # - name: setup site
-    #   run: cp scripts/index.html out/index.html
-    # - name: Deploy
-    #   uses: peaceiris/actions-gh-pages@v3
-    #   if: ${{ github.ref == 'refs/heads/main' }}
-    #   with:
-    #     github_token: ${{ secrets.GITHUB_TOKEN }}
-    #     publish_dir: ./out
+
     - name: Archive artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ env.ZIP_NAME }}
+        name: Playwrite-fonts
         path: |
           fonts
+  
+    # If any files in fonts/* were changed, commit them, but only if
+    # the check step above set the sources output to true.
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Automated rebuild
         file_pattern: "fonts"
-    outputs:
-      zip_name: ${{ env.ZIP_NAME }}
+      if: steps.check.outputs.sources == 'true'
+
   release:
     # only run if the commit is tagged...
     if: github.event_name == 'release'
@@ -104,23 +55,21 @@ jobs:
     needs:
       - build
     runs-on: ubuntu-latest
-    env:
-      ZIP_NAME: ${{ needs.build.outputs.zip_name }}
     steps:
       - uses: actions/checkout@v4
       - name: Download artefact files
         uses: actions/download-artifact@v4
         with:
-          name: ${{ env.ZIP_NAME }}
-          path: ${{ env.ZIP_NAME }}
+          name: Playwrite-fonts
+          path: Playwrite-fonts
       - name: Zip files
-        run: zip -r ${{ env.ZIP_NAME }}.zip ${{ env.ZIP_NAME }}
+        run: zip -r Playwrite-fonts.zip Playwrite-fonts
       - name: Upload binaries to release
-        uses: svenstaro/upload-release-action@v4
+        uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ${{ env.ZIP_NAME }}.zip
-          asset_name: ${{ env.ZIP_NAME }}.zip
+          file: Playwrite-fonts.zip
+          asset_name: Playwrite-fonts.zip
           tag: ${{ github.ref }}
           overwrite: true
           body: "Production ready fonts"
