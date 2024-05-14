@@ -1,7 +1,8 @@
 {
-color = 6;
+color = 11;
 glyphname = b.mod.ini;
 kernLeft = b;
+kernRight = b.mod.ini;
 layers = (
 {
 anchors = (

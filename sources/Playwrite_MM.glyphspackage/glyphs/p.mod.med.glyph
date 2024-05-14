@@ -1,5 +1,7 @@
 {
 glyphname = p.mod.med;
+kernLeft = n.mod.med;
+kernRight = b.mod.ini;
 layers = (
 {
 anchors = (

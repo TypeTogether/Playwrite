@@ -3369,6 +3369,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -60;
 "@MMK_R_I.cur" = -140;
+"@MMK_R_J" = -100;
 "@MMK_R_J.cur" = -30;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -3619,11 +3620,26 @@ f.mod_au.ini = -20;
 "@MMK_L_b" = {
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_c" = {
 "@MMK_R_ampersand" = -10;
 };
 "@MMK_L_colon" = {
 f.alt1.mrr.ini = -30;
+};
+"@MMK_L_eth.mod.med" = {
+"@MMK_R_germandbls.jmc.med" = -15;
 };
 "@MMK_L_f" = {
 "@MMK_R_quoteleft" = 40;
@@ -3632,6 +3648,14 @@ braceright = 40;
 bracketright = 40;
 parenright = 40;
 question = 70;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g.jmc.fin" = {
 "@MMK_R_guilsinglleft" = -30;
@@ -3703,6 +3727,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -50;
@@ -3798,6 +3835,24 @@ G.dec = -150;
 };
 "@MMK_L_s" = {
 "@MMK_R_ampersand" = -10;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
+};
+"@MMK_L_s.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -70;
@@ -4296,6 +4351,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -110;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -4535,6 +4591,18 @@ f.mod_au.ini = -20;
 "@MMK_R_quoteleft" = -40;
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_c" = {
 "@MMK_R_quoteleft" = -20;
 };
@@ -4548,6 +4616,14 @@ braceright = 50;
 bracketright = 40;
 parenright = 60;
 question = 110;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g" = {
 "@MMK_R_quoteleft" = -50;
@@ -4622,6 +4698,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -30;
@@ -4703,6 +4792,20 @@ r.ful.ini = -40;
 };
 "@MMK_L_s" = {
 "@MMK_R_quoteleft" = -50;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -70;
@@ -5202,6 +5305,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -100;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -5277,7 +5381,7 @@ G.dec = -20;
 "@MMK_R_o" = -60;
 "@MMK_R_period" = -80;
 "@MMK_R_s" = -60;
-"@MMK_R_u" = -40;
+"@MMK_R_u" = -30;
 "@MMK_R_z" = -40;
 G.dec = -60;
 };
@@ -5379,7 +5483,7 @@ G.dec = -30;
 "@MMK_R_M.dec" = -60;
 "@MMK_R_O" = -20;
 "@MMK_R_S" = -20;
-"@MMK_R_a" = -80;
+"@MMK_R_a" = -70;
 "@MMK_R_ampersand" = -40;
 "@MMK_R_guilsinglleft" = -50;
 "@MMK_R_guilsinglright" = -30;
@@ -5430,7 +5534,9 @@ G.dec = -70;
 "@MMK_R_X.dec_locl" = -20;
 "@MMK_R_Y" = -70;
 "@MMK_R_Z.cur" = -70;
+"@MMK_R_a" = -10;
 "@MMK_R_o" = -10;
+"@MMK_R_s" = -10;
 A.cur = -10;
 F.cur_locl = -20;
 f.alt1.mrr.ini = -50;
@@ -5438,6 +5544,18 @@ f.mod_au.ini = -20;
 };
 "@MMK_L_b" = {
 "@MMK_R_quoteright" = -20;
+};
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
 };
 "@MMK_L_colon" = {
 f.alt1.mrr.ini = -30;
@@ -5449,6 +5567,14 @@ braceright = 40;
 bracketright = 40;
 parenright = 40;
 question = 70;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g.jmc.fin" = {
 "@MMK_R_guilsinglleft" = -30;
@@ -5520,6 +5646,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -50;
@@ -5610,6 +5749,20 @@ r.ful.ini = -40;
 "@MMK_R_guilsinglleft" = -20;
 "@MMK_R_o" = -20;
 "@MMK_R_period" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -70;
@@ -6112,6 +6265,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -110;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -6350,6 +6504,18 @@ f.mod_au.ini = -20;
 "@MMK_R_quoteleft" = -40;
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_c" = {
 "@MMK_R_quoteleft" = -20;
 };
@@ -6363,6 +6529,14 @@ braceright = 50;
 bracketright = 40;
 parenright = 60;
 question = 110;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g" = {
 "@MMK_R_quoteleft" = -50;
@@ -6437,6 +6611,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -30;
@@ -6518,6 +6705,20 @@ r.ful.ini = -40;
 };
 "@MMK_L_s" = {
 "@MMK_R_quoteleft" = -50;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -70;
@@ -7016,6 +7217,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -100;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -7257,6 +7459,18 @@ f.mod_au.ini = -20;
 "@MMK_L_b" = {
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_colon" = {
 f.alt1.mrr.ini = -30;
 };
@@ -7267,6 +7481,14 @@ braceright = 60;
 bracketright = 60;
 parenright = 60;
 question = 90;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g.jmc.fin" = {
 "@MMK_R_guilsinglleft" = -30;
@@ -7340,6 +7562,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -50;
@@ -7418,6 +7653,20 @@ r.ful.ini = -40;
 "@MMK_R_guilsinglleft" = -20;
 "@MMK_R_o" = -20;
 "@MMK_R_period" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -70;
@@ -7927,6 +8176,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -110;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -8176,6 +8426,18 @@ f.mod_au.ini = -20;
 "@MMK_R_quoteleft" = -60;
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_c" = {
 "@MMK_R_quoteleft" = -30;
 };
@@ -8189,6 +8451,14 @@ braceright = 50;
 bracketright = 40;
 parenright = 60;
 question = 110;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g" = {
 "@MMK_R_quoteleft" = -30;
@@ -8263,6 +8533,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -30;
@@ -8346,6 +8629,20 @@ r.ful.ini = -40;
 };
 "@MMK_L_s" = {
 "@MMK_R_quoteleft" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -70;
@@ -8837,6 +9134,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -100;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -9076,6 +9374,18 @@ f.mod_au.ini = -20;
 "@MMK_L_b" = {
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_colon" = {
 f.alt1.mrr.ini = -30;
 };
@@ -9086,6 +9396,14 @@ braceright = 60;
 bracketright = 60;
 parenright = 60;
 question = 90;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g.jmc.fin" = {
 "@MMK_R_guilsinglleft" = -30;
@@ -9159,6 +9477,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -50;
@@ -9236,6 +9567,20 @@ r.ful.ini = -40;
 "@MMK_R_guilsinglleft" = -20;
 "@MMK_R_o" = -20;
 "@MMK_R_period" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -70;
@@ -9742,6 +10087,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -110;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -9988,6 +10334,18 @@ f.mod_au.ini = -20;
 "@MMK_R_quoteleft" = -60;
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_c" = {
 "@MMK_R_quoteleft" = -30;
 };
@@ -10001,6 +10359,14 @@ braceright = 50;
 bracketright = 40;
 parenright = 60;
 question = 110;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g" = {
 "@MMK_R_quoteleft" = -30;
@@ -10075,6 +10441,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -20;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -30;
@@ -10158,6 +10537,20 @@ r.ful.ini = -40;
 };
 "@MMK_L_s" = {
 "@MMK_R_quoteleft" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -70;
@@ -10660,6 +11053,7 @@ M_locl = -120;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -140;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -10911,6 +11305,18 @@ f.mod_au.ini = -20;
 "@MMK_L_b" = {
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_colon" = {
 f.alt1.mrr.ini = -30;
 };
@@ -10920,6 +11326,14 @@ braceright = 40;
 bracketright = 40;
 parenright = 40;
 question = 70;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g.jmc.fin" = {
 "@MMK_R_guilsinglleft" = -30;
@@ -10996,6 +11410,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -50;
@@ -11085,6 +11512,20 @@ r.ful.ini = -40;
 "@MMK_R_guilsinglleft" = -20;
 "@MMK_R_o" = -10;
 "@MMK_R_period" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -100;
@@ -11594,6 +12035,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -150;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -11848,6 +12290,18 @@ f.mod_au.ini = -20;
 "@MMK_L_b" = {
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_colon" = {
 f.alt1.mrr.ini = -30;
 };
@@ -11857,6 +12311,14 @@ braceright = 50;
 bracketright = 40;
 parenright = 60;
 question = 110;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g.jmc.fin" = {
 "@MMK_R_guilsinglleft" = -30;
@@ -11934,6 +12396,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -30;
@@ -12028,6 +12503,20 @@ r.ful.ini = -40;
 "@MMK_R_guilsinglleft" = -20;
 "@MMK_R_o" = -10;
 "@MMK_R_period" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -100;
@@ -12522,6 +13011,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -140;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -12770,6 +13260,18 @@ f.mod_au.ini = -20;
 "@MMK_L_b" = {
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_colon" = {
 f.alt1.mrr.ini = -30;
 };
@@ -12779,6 +13281,14 @@ braceright = 40;
 bracketright = 40;
 parenright = 40;
 question = 70;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g.jmc.fin" = {
 "@MMK_R_guilsinglleft" = -30;
@@ -12855,6 +13365,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -50;
@@ -12944,6 +13467,20 @@ r.ful.ini = -40;
 "@MMK_R_guilsinglleft" = -20;
 "@MMK_R_o" = -10;
 "@MMK_R_period" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -100;
@@ -13453,6 +13990,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -150;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -13704,6 +14242,18 @@ f.mod_au.ini = -20;
 "@MMK_L_b" = {
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_colon" = {
 f.alt1.mrr.ini = -30;
 };
@@ -13713,6 +14263,14 @@ braceright = 50;
 bracketright = 40;
 parenright = 60;
 question = 110;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g.jmc.fin" = {
 "@MMK_R_guilsinglleft" = -30;
@@ -13789,6 +14347,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -30;
@@ -13879,6 +14450,20 @@ r.ful.ini = -40;
 "@MMK_R_guilsinglleft" = -20;
 "@MMK_R_o" = -10;
 "@MMK_R_period" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -100;
@@ -14378,6 +14963,7 @@ M_locl = -120;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -140;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -14625,12 +15211,32 @@ F.cur_locl = -20;
 "@MMK_L_b" = {
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_f" = {
 "@MMK_R_quoteright" = 60;
 braceright = 60;
 bracketright = 60;
 parenright = 60;
 question = 90;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_guilsinglleft" = {
 "@MMK_R_B.dec" = -60;
@@ -14693,6 +15299,19 @@ question = 90;
 "@MMK_R_x" = -20;
 F.cur_locl = -20;
 G.dec = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -50;
@@ -14784,6 +15403,20 @@ G.dec = -40;
 "@MMK_R_guilsinglleft" = -20;
 "@MMK_R_o" = -20;
 "@MMK_R_period" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -100;
@@ -15279,6 +15912,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -150;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -15532,6 +16166,18 @@ f.mod_au.ini = -20;
 "@MMK_L_b" = {
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_colon" = {
 f.alt1.mrr.ini = -30;
 };
@@ -15541,6 +16187,14 @@ braceright = 50;
 bracketright = 40;
 parenright = 60;
 question = 110;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g.jmc.fin" = {
 "@MMK_R_guilsinglleft" = -30;
@@ -15617,6 +16271,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -30;
@@ -15715,6 +16382,20 @@ r.ful.ini = -40;
 "@MMK_R_guilsinglleft" = -20;
 "@MMK_R_o" = -10;
 "@MMK_R_period" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -100;
@@ -16212,6 +16893,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -140;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -16459,6 +17141,18 @@ f.mod_au.ini = -20;
 "@MMK_L_b" = {
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_colon" = {
 f.alt1.mrr.ini = -30;
 };
@@ -16468,6 +17162,14 @@ braceright = 60;
 bracketright = 60;
 parenright = 60;
 question = 90;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g.jmc.fin" = {
 "@MMK_R_guilsinglleft" = -30;
@@ -16544,6 +17246,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -50;
@@ -16639,6 +17354,20 @@ r.ful.ini = -40;
 "@MMK_R_guilsinglleft" = -20;
 "@MMK_R_o" = -20;
 "@MMK_R_period" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -100;
@@ -17153,6 +17882,7 @@ G.dec = -80;
 "@MMK_R_E.cur" = -30;
 "@MMK_R_G.cur_locl" = -40;
 "@MMK_R_I.cur" = -120;
+"@MMK_R_J" = -150;
 "@MMK_R_J.cur" = -10;
 "@MMK_R_L.cur" = -50;
 "@MMK_R_L.dec" = -20;
@@ -17402,6 +18132,18 @@ f.mod_au.ini = -20;
 "@MMK_L_b" = {
 "@MMK_R_quoteright" = -20;
 };
+"@MMK_L_b.mod.ini" = {
+"@MMK_R_i.mod.med" = -20;
+"@MMK_R_k.mod.med" = -10;
+"@MMK_R_n.mod.med" = -10;
+"@MMK_R_o.mod.med" = -10;
+"@MMK_R_s.mod.med" = -20;
+"@MMK_R_t.mod.med" = -10;
+"@MMK_R_v.mod.med" = -15;
+"@MMK_R_x.mod.med" = -30;
+"@MMK_R_z.mod.med" = -30;
+germandbls.jmc.med = -10;
+};
 "@MMK_L_colon" = {
 f.alt1.mrr.ini = -30;
 };
@@ -17411,6 +18153,14 @@ braceright = 50;
 bracketright = 40;
 parenright = 60;
 question = 110;
+};
+"@MMK_L_f.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -10;
+"@MMK_R_n.mod.med" = -15;
+"@MMK_R_o.mod.med" = -15;
+"@MMK_R_s.mod.med" = -13;
+"@MMK_R_z.mod.med" = -20;
 };
 "@MMK_L_g.jmc.fin" = {
 "@MMK_R_guilsinglleft" = -30;
@@ -17486,6 +18236,19 @@ f.alt1.mrr.ini = -40;
 F.cur_locl = -20;
 G.dec = -40;
 f.alt1.mrr.ini = -40;
+};
+"@MMK_L_j.mod.med" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_i.mod.med" = -40;
+"@MMK_R_k.mod.med" = -25;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -30;
+"@MMK_R_t.mod.med" = -20;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -40;
+"@MMK_R_x.mod.med" = -40;
+"@MMK_R_z.mod.med" = -50;
 };
 "@MMK_L_k" = {
 "@MMK_R_hyphen" = -30;
@@ -17583,6 +18346,20 @@ r.ful.ini = -40;
 "@MMK_R_guilsinglleft" = -20;
 "@MMK_R_o" = -10;
 "@MMK_R_period" = -40;
+};
+"@MMK_L_s.mod.ini" = {
+"@MMK_R_a.mod.med" = -20;
+"@MMK_R_germandbls.jmc.med" = 0;
+"@MMK_R_i.mod.med" = -30;
+"@MMK_R_k.mod.med" = -20;
+"@MMK_R_n.mod.med" = -20;
+"@MMK_R_o.mod.med" = -20;
+"@MMK_R_s.mod.med" = -10;
+"@MMK_R_t.mod.med" = -30;
+"@MMK_R_thorn.jmc.med" = -10;
+"@MMK_R_v.mod.med" = -20;
+"@MMK_R_x.mod.med" = -20;
+"@MMK_R_z.mod.med" = -30;
 };
 "@MMK_L_space" = {
 "@MMK_R_H.dec" = -100;
@@ -22161,5 +22938,5 @@ GSCornerRadius = 12;
 };
 };
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }

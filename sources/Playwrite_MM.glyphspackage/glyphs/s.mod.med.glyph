@@ -1,5 +1,7 @@
 {
 glyphname = s.mod.med;
+kernLeft = s.mod.med;
+kernRight = s.mod.ini;
 layers = (
 {
 anchors = (

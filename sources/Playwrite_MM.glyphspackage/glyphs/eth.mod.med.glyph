@@ -1,5 +1,7 @@
 {
 glyphname = eth.mod.med;
+kernLeft = o.mod.med;
+kernRight = eth.mod.med;
 layers = (
 {
 anchors = (
