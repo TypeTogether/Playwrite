@@ -18582,10 +18582,6 @@ value = "www.type-together.com";
 {
 key = vendorID;
 value = TT;
-},
-{
-key = versionString;
-value = "Version 1.001";
 }
 );
 settings = {
