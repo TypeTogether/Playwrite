@@ -1,6 +1,7 @@
 {
 glyphname = Q.cur;
 kernLeft = O;
+kernRight = Q.cur;
 layers = (
 {
 layerId = m004;
