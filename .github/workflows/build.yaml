@@ -39,6 +39,7 @@ jobs:
         name: Playwrite-fonts
         path: |
           fonts
+          OFL.txt
   
     # If any files in fonts/* were changed, commit them, but only if
     # the check step above set the sources output to true.
