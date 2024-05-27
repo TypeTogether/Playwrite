@@ -169,7 +169,7 @@ Each font model uses the following naming conventions:
 | Australia | AU | SA | Playwrite AU SA | Playwrite Australia NSW |
 | Australia | AU | TAS | Playwrite AU TAS | Playwrite Australia TAS |
 | Australia | AU | VIC | Playwrite AU VIC | Playwrite Australia VIC |
-| Australia | AT |  | Playwrite AT | Playwrite Österreich |
+| Austria | AT |  | Playwrite AT | Playwrite Österreich |
 | Belgium | BE | WAL | Playwrite BE WAL | Playwrite België WAL |
 | Belgium | BE | VLG | Playwrite BE VLG | Playwrite België VLG |
 | Brazil | BR |  | Playwrite BR | Playwrite Brasil |
