@@ -1,6 +1,6 @@
 # Playwrite
 
-_Playwrite_ is a typeface engine that allows the creation of primary school cursive fonts. These school fonts are the practical result of the Primarium research project [www.primarium.info] a groundbreaking educational effort that documents the history and current practice of instruction methodologies and models taught to primary school students worldwide. Its findings with regards to the calligraphic models currently in use, their development and rationale, informed the design of the _Playwrite_ glyphs.
+*Playwrite* is a typeface engine that allows the creation of primary school cursive fonts. These school fonts are the practical result of the Primarium research project [www.primarium.info] a groundbreaking educational effort that documents the history and current practice of instruction methodologies and models taught to primary school students worldwide. Its findings with regards to the calligraphic models currently in use, their development and rationale, informed the design of the *Playwrite* glyphs.
 
 The shape of the handwritten Latin alphabethas developed following different currents, trends and colonial influences around the world. As a result, the very notion of what constitutes primary school cursive writing varies dramatically. It could be vertical or slanted, fully joined or semi-joined, uppercase letters can be ornate and decorative or simply borrowed from print styles, lowercase letters can be based on round or oval foundational shapes, and the proportion of the x-height vis-a-vis the ascenders and descenders can differ.
 
@@ -14,7 +14,7 @@ The definitive, stable, fonts are built by the Continuous Integration engine, wh
 
 If you want to build fonts manually on your own computer as part of the development or testing process:
 
-- `make build` will produce font files. But they should not be pushed manually to the repository. Once you are happy with the changes in the source files, please only push the sources and the CI run will produce the definitive fonts.
+* `make build` will produce font files. But they should not be pushed manually to the repository. Once you are happy with the changes in the source files, please only push the sources and the CI run will produce the definitive fonts.
 
 ## Letter variations
 
