@@ -202,7 +202,7 @@ Each font model uses the following naming conventions:
 | Germany        | DE           | VA             | Playwrite DE VA       | Playwrite Deutschland VA           |
 | Hungary        | HU           |                | Playwrite HU          | Playwrite Magyarország             |
 | Iceland        | IS           |                | Playwrite IS          | Playwrite Ísland                   |
-| Inddia         | IN           |                | Playwrite IN          | Playwrite India                    |
+| India          | IN           |                | Playwrite IN          | Playwrite India                    |
 | Indonesia      | ID           |                | Playwrite ID          | Playwrite Indonesia                |
 | Ireland        | IE           |                | Playwrite IE          | Playwrtie Ireland                  |
 | Italy          | IT           | Tradizionale   | Playwrite IT Trad     | Playwrite Italia Tradizionale      |
