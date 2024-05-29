@@ -2,7 +2,7 @@
 
 *Playwrite* is a typeface engine that allows the creation of primary school cursive fonts. These school fonts are the practical result of the Primarium research project [www.primarium.info] a groundbreaking educational effort that documents the history and current practice of instruction methodologies and models taught to primary school students worldwide. Its findings with regards to the calligraphic models currently in use, their development and rationale, informed the design of the *Playwrite* glyphs.
 
-The shape of the handwritten Latin alphabethas developed following different currents, trends and colonial influences around the world. As a result, the very notion of what constitutes primary school cursive writing varies dramatically. It could be vertical or slanted, fully joined or semi-joined, uppercase letters can be ornate and decorative or simply borrowed from print styles, lowercase letters can be based on round or oval foundational shapes, and the proportion of the x-height vis-a-vis the ascenders and descenders can differ.
+The shape of the handwritten Latin alphabet has developed following different currents, trends and colonial influences around the world. As a result, the very notion of what constitutes primary school cursive writing varies dramatically. It could be vertical or slanted, fully joined or semi-joined, uppercase letters can be ornate and decorative or simply borrowed from print styles, lowercase letters can be based on round or oval foundational shapes, and the proportion of the x-height vis-a-vis the ascenders and descenders can differ.
 
 <br>
 
@@ -149,7 +149,7 @@ Playwrite's design space spans over four variation axes: the slant of the letter
 
 ![Alt Image Text](documentation/images/readme/Playwrite_countries-references.png)
 
-Recipes for regional models of the Playwrite font arecreated by recipes that reside on a CSV file `Playwrite/sources/data/models-all.csv`. Each row of the file contains the data that names the font model, specifies a location in three of the founr axes (the weight axis always remains variable), and contains a selection of the of the letter variants that are preferred in that region.
+Recipes for regional models of the Playwrite font are created by recipes that reside on a CSV file `Playwrite/sources/data/models-all.csv`. Each row of the file contains the data that names the font model, specifies a location in three of the founr axes (the weight axis always remains variable), and contains a selection of the of the letter variants that are preferred in that region.
 
 Structure of each row is as follows:  
 `Country;lang_tag;slnt;EXTD;SPED;UC;lc`
