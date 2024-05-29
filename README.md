@@ -22,6 +22,7 @@ If you want to build fonts manually on your own computer as part of the developm
 
 Based on the Primarium study the TypeTogether team isolated a limited number of structural variations for the Latin letter shapes: 8 variation styles for lower cases and three for uppercases. With the help of a sturdy contextual alternate (`CALT`) opentype code these different variation groups can be seamlessly combined.
 
+
 ### Precursive
 Default set of lower case letters. These are completely unjoined.
 <br>
@@ -148,6 +149,8 @@ Each font model uses the following naming conventions:
 - Models with different variants are named using common abbreviations in each country (e.g., VIC for Victoria in Australia) or a designated variant name that is, in turn, localized using the country language (e.g. Traditionnelle in France).
 - The `font family name` and `file name` use the two-letter code and variant abbreviations.
 - The `display name` is the fully unabbreviated and localized name of a model. It is used on specimen pages and includes the country name translated into each country's language.
+
+
 
 | Country        | Alpha-2 code | Variant        | Family name           | Display name                       |
 | -------------- | ------------ | -------------- | --------------------- | ---------------------------------- |
