@@ -8,119 +8,97 @@ The shape of the handwritten Latin alphabet has developed following different cu
 
 ![Alt Image Text](documentation/images/readme/PlaywriteCover.png)
 
+
 ## Build instructions
 
-The definitive, stable, fonts are built by the Continuous Integration engine, which runs every time the source files are updated in the repository. It produces a .zip file with all the built fonts that which is included on each `Action` run as well as pushes the produced fonts into the `fonts` directory.
+The definitive, stable, fonts are built by the Continuous Integration engine, which runs every time the source files are updated in the repository. It produces a .zip file with all the built fonts that are included on each `Action` run as well as pushes the produced fonts into the `fonts` directory.
 
 If you want to build fonts manually on your own computer as part of the development or testing process:
 
 * `make build` will produce font files. But they should not be pushed manually to the repository. Once you are happy with the changes in the source files, please only push the sources and the CI run will produce the definitive fonts.
+
 
 ## Letter variations
 
 Based on the Primarium study the TypeTogether team isolated a limited number of structural variations for the Latin letter shapes: 8 variation styles for lower cases and three for uppercases. With the help of a sturdy contextual alternate (`CALT`) opentype code these different variation groups can be seamlessly combined.
 
 ### Precursive
-
-Default set of lower case letters. These are completely unjoined.  
-
+Default set of lower case letters. These are completely unjoined.
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey1.png)
 
 ### Modern cursive
-
 Same design as precursive in isolated shape but it triggers a semi-connected typesetting.
 Uses .mod suffix (e.g. n.mod).
-
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey2.png)
 
 ### Fully joined modern cursive
-
 Adds loops to descenders and connecting strokes to letters that do not connect in .mod.
 Uses .jmc suffix (e.g. g.jmc).
-
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey3.png)
 
 ### Full Cursive
-
 Construction of several glyphs change to match a continuous cursive style.
 Uses .ful suffix (e.g. s.ful).
-
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey4.png)
 
 ### Speed loops
-
 Adds speed loops to most letters with ascender strokes.
 Uses .lop suffix (e.g. h.lop).
-
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey5.png)
 
 ### Curved entry stroke
-
 Changes the lead-in connection at x-heigh level for several letters.
 Uses .cnt suffix (e.g. n.cnt).
-
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey6.png)
 
 ### Mirrored loops
-
 Adds loops in to two letters and switches loop direction in “f”.
 Uses .mrr suffix (e.g. f.mrr).
-
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey7.png)
 
 ### Microloops
-
 Adds knots or small loops to mark stroke direction change in some letters.
 Uses .mlp suffix (e.g. o.mlp).
-
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey8.png)
 
 ### Print
-
-Default set of upper case letters. These are completely unjoined.  
-
+Default set of upper case letters. These are completely unjoined.
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey9.png)
 
 ### Cursive upper cases
-
 Cursive capitals. Also enable connection with a number of lowercase letters
 Uses .cur suffix (e.g. A.cur).
-
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey10.png)
 
 ### Decorative upper cases
-
 Secondary set of decorative capitals to match certain handwriting models. These are semi-connected.
 Uses .dec suffix (e.g. G.dec).
-
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey11.png)
 
 ### Regional variants lower cases
-
 Alternative designs necessary for one or more specific regions. These use suffix locl when used in several fonts or locl_XX where XX is a two letter country code. (e.g. Q.dec_pt).
-
 <br>
 
 ![Alt Image Text](documentation/images/readme/Playwrite_variatiokey12.png)
@@ -151,16 +129,16 @@ Playwrite's design space spans over four variation axes: the slant of the letter
 
 Recipes for regional models of the Playwrite font are created by recipes that reside on a CSV file `Playwrite/sources/data/models-all.csv`. Each row of the file contains the data that names the font model, specifies a location in three of the founr axes (the weight axis always remains variable), and contains a selection of the of the letter variants that are preferred in that region.
 
-Structure of each row is as follows:  
+Structure of each row is as follows:
 `Country;lang_tag;slnt;EXTD;SPED;UC;lc`
 
-The classes UC and lc must contain the exact number of glyphs that is expected in the substitution classes, and in the correct order:  
-`@UC = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE Eth IJ Eng OE Thorn Germandbls];  `
+The classes UC and lc must contain the exact number of glyphs that is expected in the substitution classes, and in the correct order:
+`@UC = [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE Eth IJ Eng OE Thorn Germandbls];`
 
 `@lc = [a b c d e f g h i j k l m n o p q r s t u v w x y z ae eth ij eng oe thorn germandbls idotless jdotless];`
 
-Here is an example of the recipe used for the Canada Playwrite Font:  
-`Canada;CAN;18;496;100;A.cur_locl B.dec C.cur D.dec E.cur F.dec G.dec H.dec I.cur J.cur K.dec L.dec M.cur N.cur O.dec P.dec Q.cur R.dec S.cur T.dec U.cur V.cur W.cur X.cur Y.cur Z.cur AE.cur Eth IJ.cur Eng OE.cur Thorn Germandbls;a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.mrr_ca q.mrr r.ful s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.cnt ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc `
+Here is an example of the recipe used for the Canada Playwrite Font:
+`Canada;CAN;18;496;100;A.cur_locl B.dec C.cur D.dec E.cur F.dec G.dec H.dec I.cur J.cur K.dec L.dec M.cur N.cur O.dec P.dec Q.cur R.dec S.cur T.dec U.cur V.cur W.cur X.cur Y.cur Z.cur AE.cur Eth IJ.cur Eng OE.cur Thorn Germandbls;a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.mrr_ca q.mrr r.ful s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.cnt ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc`
 
 ## List of fonts by region
 
@@ -174,7 +152,7 @@ Each font model uses the following naming conventions:
 | Country        | Alpha-2 code | Variant        | Family name           | Display name                       |
 | -------------- | ------------ | -------------- | --------------------- | ---------------------------------- |
 | Argentina      | AR           |                | Playwrite AR          | Playwrite Argentina                |
-| Australia      | AU           | NSW            | Playwrite AU NSW      | Playwrite Australia NSW             |
+| Australia      | AU           | NSW            | Playwrite AU NSW      | Playwrite Australia NSW            |
 | Australia      | AU           | QLD            | Playwrite AU QLD      | Playwrite Australia QLD            |
 | Australia      | AU           | SA             | Playwrite AU SA       | Playwrite Australia NSW            |
 | Australia      | AU           | TAS            | Playwrite AU TAS      | Playwrite Australia TAS            |
