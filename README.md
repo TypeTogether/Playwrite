@@ -174,7 +174,7 @@ Each font model uses the following naming conventions:
 | Country        | Alpha-2 code | Variant        | Family name           | Display name                       |
 | -------------- | ------------ | -------------- | --------------------- | ---------------------------------- |
 | Argentina      | AR           |                | Playwrite AR          | Playwrite Argentina                |
-| Australia      | AU           | NSW            | Playwrite AU NSW      | Playwrite Astralia NSW             |
+| Australia      | AU           | NSW            | Playwrite AU NSW      | Playwrite Australia NSW             |
 | Australia      | AU           | QLD            | Playwrite AU QLD      | Playwrite Australia QLD            |
 | Australia      | AU           | SA             | Playwrite AU SA       | Playwrite Australia NSW            |
 | Australia      | AU           | TAS            | Playwrite AU TAS      | Playwrite Australia TAS            |
