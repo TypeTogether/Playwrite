@@ -1,5 +1,5 @@
 {
-.appVersion = "3306";
+.appVersion = "3307";
 .formatVersion = 3;
 axes = (
 {
@@ -3005,18 +3005,6 @@ m006 = 1;
 isItalic = 1;
 linkStyle = Regular;
 name = Italic;
-},
-{
-axesValues = (
-400,
--18,
-1000,
-100
-);
-instanceInterpolations = {
-m016 = 1;
-};
-name = Maximum;
 }
 );
 kerningLTR = {
