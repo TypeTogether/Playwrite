@@ -1593,6 +1593,9 @@ feature dist {
 			pos @cmod_SRC 13 @smod_TGT;
 			pos @emod_SRC 25 @tlop_de_TGT;
 			pos @emod_SRC 37 @xful_TGT;
+			pos @emod_SRC 38 @rful_TGT;
+			pos @emod_SRC 25 @sful_TGT;
+			pos @emod_SRC 88 @zful_TGT;
 			pos @emod_SRC 37 @zcnt_TGT;
 			pos @emod_SRC 50 @smod_TGT;
 			pos @emod_SRC 100 @ncnt_TGT;
