@@ -51,7 +51,7 @@ jobs:
 
   release:
     # only run if the commit is tagged...
-    if: github.event_name == 'release'
+    if: contains(github.ref, 'refs/tags/')
     # ... and it builds successfully
     needs:
       - build
