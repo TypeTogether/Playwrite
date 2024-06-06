@@ -6,8 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## Unreleased
 
-- Next version of the fonts will include small fixes reported in [#66](https://github.com/TypeTogether/Playwrite/issues/66)
-- Guides version. Discussed in [#23]([url](https://github.com/TypeTogether/Playwrite/issues/23))
+- Next version of the fonts will include small fixes reported in https://github.com/TypeTogether/Playwrite/issues/66
+- Guides version. Discussed in https://github.com/TypeTogether/Playwrite/issues/23
 
 ## v1.002 (2024-Jun-05)
 
