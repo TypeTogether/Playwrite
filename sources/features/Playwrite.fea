@@ -1604,7 +1604,7 @@ feature dist {
 			pos @emod_SRC 112 @vmod_TGT;
 			pos @nmod_SRC 137 @xmod_TGT;
 			pos @nmod_SRC 25 @tlop_de_TGT;
-			pos @nmod_SRC 37 @rful_TGT;
+			pos @nmod_SRC 25 @rful_TGT;
 			pos @nmod_SRC 43 @zcnt_TGT;
 			pos @nmod_SRC 50 @smod_TGT;
 			pos @nmod_SRC 62 @xful_TGT;
