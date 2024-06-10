@@ -3415,7 +3415,7 @@ t.lop_de = -200;
 "@MMK_R_x" = -90;
 "@MMK_R_z" = -100;
 G.dec = -100;
-y_de = -90;
+y_de = -80;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -4423,6 +4423,7 @@ G.dec = -80;
 "@MMK_R_x" = -90;
 "@MMK_R_z" = -80;
 G.dec = -100;
+y_de = -80;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -5403,6 +5404,7 @@ t.lop_de = -170;
 "@MMK_R_x" = -90;
 "@MMK_R_z" = -100;
 G.dec = -100;
+y_de = -80;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -7358,6 +7360,7 @@ t.lop_de = -110;
 "@MMK_R_x" = -90;
 "@MMK_R_z" = -100;
 G.dec = -100;
+y_de = -80;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -8336,6 +8339,7 @@ t.lop_de = -50;
 "@MMK_R_x" = -90;
 "@MMK_R_z" = -70;
 G.dec = -100;
+y_de = -80;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -9314,6 +9318,7 @@ t.lop_de = -120;
 "@MMK_R_x" = -90;
 "@MMK_R_z" = -100;
 G.dec = -100;
+y_de = -80;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -10286,6 +10291,7 @@ t.lop_de = -60;
 "@MMK_R_x" = -90;
 "@MMK_R_z" = -70;
 G.dec = -100;
+y_de = -80;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -11272,6 +11278,7 @@ M_locl = -120;
 "@MMK_R_x" = -190;
 "@MMK_R_z" = -190;
 G.dec = -100;
+y_de = -190;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -12276,6 +12283,7 @@ G.dec = -80;
 "@MMK_R_x" = -140;
 "@MMK_R_z" = -150;
 G.dec = -100;
+y_de = -110;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -13272,6 +13280,7 @@ G.dec = -80;
 "@MMK_R_x" = -190;
 "@MMK_R_z" = -190;
 G.dec = -100;
+y_de = -190;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -14273,6 +14282,7 @@ G.dec = -80;
 "@MMK_R_x" = -140;
 "@MMK_R_z" = -150;
 G.dec = -100;
+y_de = -110;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -15267,6 +15277,7 @@ M_locl = -120;
 "@MMK_R_x" = -200;
 "@MMK_R_z" = -230;
 G.dec = -100;
+y_de = -190;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -16239,6 +16250,7 @@ G.dec = -80;
 "@MMK_R_x" = -180;
 "@MMK_R_z" = -170;
 G.dec = -100;
+y_de = -170;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -17241,6 +17253,7 @@ G.dec = -80;
 "@MMK_R_x" = -200;
 "@MMK_R_z" = -230;
 G.dec = -100;
+y_de = -190;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
@@ -18253,6 +18266,7 @@ G.dec = -80;
 "@MMK_R_x" = -180;
 "@MMK_R_z" = -170;
 G.dec = -100;
+y_de = -170;
 };
 "@MMK_L_T.cur_locl" = {
 "@MMK_R_A.dec" = -20;
