@@ -51,7 +51,7 @@ jobs:
 
   release:
     # only run if the commit is tagged...
-    if: github.event_name == 'release'
+    if: contains(github.ref, 'refs/tags/')
     # ... and it builds successfully
     needs:
       - build
@@ -74,3 +74,9 @@ jobs:
           tag: ${{ github.ref }}
           overwrite: true
           body: "Production ready fonts"
+      - name: Check for release
+        id: create_release
+        run: |
+          if ! gh release view ${{ github.ref_name }}; then
+          git show -s --format=%B ${{ github.ref_name }} | tail -n +4 | gh release create ${{ github.ref_name }} -t ${{ github.ref_name }} -F -
+          fi
