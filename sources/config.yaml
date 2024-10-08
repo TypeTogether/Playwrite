@@ -1,8 +1,8 @@
 sources:
 - Playwrite_MM.glyphspackage
-doGuidelines: false
+doGuidelines: true
 buildStatic: true
-buildColorVariable: false
+buildColorVariable: true
 recipeProvider: fontprimer
 variants:
 - name: AR
