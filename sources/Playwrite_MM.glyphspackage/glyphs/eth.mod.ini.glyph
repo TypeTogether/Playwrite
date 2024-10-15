@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = cnct;
-pos = (603,0);
+pos = (482,0);
 }
 );
 layerId = m01;
@@ -17,13 +17,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (521,0);
+pos = (417,0);
 }
 );
 layerId = m016;
@@ -32,13 +32,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (521,0);
+pos = (417,0);
 }
 );
 layerId = m012;
@@ -47,13 +47,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (521,0);
+pos = (417,0);
 }
 );
 layerId = m002;
@@ -62,13 +62,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (521,0);
+pos = (417,0);
 }
 );
 layerId = m006;
@@ -77,13 +77,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (603,0);
+pos = (482,0);
 }
 );
 layerId = m009;
@@ -92,13 +92,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (603,0);
+pos = (482,0);
 }
 );
 layerId = m005;
@@ -107,13 +107,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (603,0);
+pos = (482,0);
 }
 );
 layerId = m011;
@@ -122,13 +122,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (603,0);
+pos = (482,0);
 }
 );
 layerId = m015;
@@ -137,13 +137,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (521,0);
+pos = (417,0);
 }
 );
 layerId = m008;
@@ -152,13 +152,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (521,0);
+pos = (417,0);
 }
 );
 layerId = m010;
@@ -167,13 +167,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (521,0);
+pos = (417,0);
 }
 );
 layerId = m004;
@@ -182,13 +182,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (521,0);
+pos = (417,0);
 }
 );
 layerId = m014;
@@ -197,13 +197,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (603,0);
+pos = (482,0);
 }
 );
 layerId = m007;
@@ -212,13 +212,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (603,0);
+pos = (482,0);
 }
 );
 layerId = m003;
@@ -227,13 +227,13 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (603,0);
+pos = (482,0);
 }
 );
 layerId = m013;
@@ -242,7 +242,7 @@ shapes = (
 ref = eth;
 }
 );
-width = 603;
+width = 482;
 }
 );
 }

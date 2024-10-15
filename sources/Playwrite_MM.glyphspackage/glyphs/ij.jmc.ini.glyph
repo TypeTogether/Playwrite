@@ -6,7 +6,7 @@ layers = (
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (493,0);
 }
 );
 layerId = m01;
@@ -15,21 +15,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (428,0);
 }
 );
 layerId = m002;
@@ -38,21 +38,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (493,0);
 }
 );
 layerId = m003;
@@ -61,21 +61,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (428,0);
 }
 );
 layerId = m004;
@@ -84,21 +84,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (493,0);
 }
 );
 layerId = m005;
@@ -107,21 +107,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (428,0);
 }
 );
 layerId = m006;
@@ -130,21 +130,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (493,0);
 }
 );
 layerId = m007;
@@ -153,21 +153,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (428,0);
 }
 );
 layerId = m008;
@@ -176,21 +176,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (493,0);
 }
 );
 layerId = m009;
@@ -199,21 +199,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (428,0);
 }
 );
 layerId = m010;
@@ -222,21 +222,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (493,0);
 }
 );
 layerId = m011;
@@ -245,21 +245,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (428,0);
 }
 );
 layerId = m012;
@@ -268,21 +268,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (493,0);
 }
 );
 layerId = m013;
@@ -291,21 +291,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (428,0);
 }
 );
 layerId = m014;
@@ -314,21 +314,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (616,0);
+pos = (493,0);
 }
 );
 layerId = m015;
@@ -337,21 +337,21 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (535,0);
+pos = (428,0);
 }
 );
 layerId = m016;
@@ -360,15 +360,15 @@ shapes = (
 ref = i.mod.ini;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = cnct.mod_n_n;
 },
 {
-pos = (300,0);
+pos = (240,0);
 ref = j.jmc.ini;
 }
 );
-width = 616;
+width = 493;
 }
 );
 }

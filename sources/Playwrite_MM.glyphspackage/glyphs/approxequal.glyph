@@ -5,11 +5,11 @@ layers = (
 layerId = m01;
 shapes = (
 {
-pos = (0,125);
+pos = (0,100);
 ref = asciitilde;
 },
 {
-pos = (0,-125);
+pos = (0,-100);
 ref = asciitilde;
 }
 );
@@ -29,17 +29,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m002;
 shapes = (
 {
-pos = (41,125);
+pos = (33,100);
 ref = asciitilde;
 },
 {
-pos = (-41,-125);
+pos = (-33,-100);
 ref = asciitilde;
 }
 );
@@ -59,17 +59,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m003;
 shapes = (
 {
-pos = (0,125);
+pos = (0,100);
 ref = asciitilde;
 },
 {
-pos = (0,-125);
+pos = (0,-100);
 ref = asciitilde;
 }
 );
@@ -89,17 +89,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m004;
 shapes = (
 {
-pos = (41,125);
+pos = (33,100);
 ref = asciitilde;
 },
 {
-pos = (-41,-125);
+pos = (-33,-100);
 ref = asciitilde;
 }
 );
@@ -119,17 +119,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m005;
 shapes = (
 {
-pos = (0,138);
+pos = (0,110);
 ref = asciitilde;
 },
 {
-pos = (0,-137);
+pos = (0,-110);
 ref = asciitilde;
 }
 );
@@ -149,17 +149,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m006;
 shapes = (
 {
-pos = (45,138);
+pos = (36,110);
 ref = asciitilde;
 },
 {
-pos = (-45,-137);
+pos = (-36,-110);
 ref = asciitilde;
 }
 );
@@ -179,17 +179,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m007;
 shapes = (
 {
-pos = (0,138);
+pos = (0,110);
 ref = asciitilde;
 },
 {
-pos = (0,-137);
+pos = (0,-110);
 ref = asciitilde;
 }
 );
@@ -209,17 +209,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m008;
 shapes = (
 {
-pos = (45,138);
+pos = (36,110);
 ref = asciitilde;
 },
 {
-pos = (-45,-137);
+pos = (-36,-110);
 ref = asciitilde;
 }
 );
@@ -239,17 +239,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m009;
 shapes = (
 {
-pos = (0,125);
+pos = (0,100);
 ref = asciitilde;
 },
 {
-pos = (0,-125);
+pos = (0,-100);
 ref = asciitilde;
 }
 );
@@ -269,17 +269,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m010;
 shapes = (
 {
-pos = (41,125);
+pos = (33,100);
 ref = asciitilde;
 },
 {
-pos = (-41,-125);
+pos = (-33,-100);
 ref = asciitilde;
 }
 );
@@ -299,17 +299,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m011;
 shapes = (
 {
-pos = (0,125);
+pos = (0,100);
 ref = asciitilde;
 },
 {
-pos = (0,-125);
+pos = (0,-100);
 ref = asciitilde;
 }
 );
@@ -329,17 +329,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m012;
 shapes = (
 {
-pos = (41,125);
+pos = (33,100);
 ref = asciitilde;
 },
 {
-pos = (-41,-125);
+pos = (-33,-100);
 ref = asciitilde;
 }
 );
@@ -359,17 +359,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m013;
 shapes = (
 {
-pos = (0,138);
+pos = (0,110);
 ref = asciitilde;
 },
 {
-pos = (0,-137);
+pos = (0,-110);
 ref = asciitilde;
 }
 );
@@ -389,17 +389,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m014;
 shapes = (
 {
-pos = (45,138);
+pos = (36,110);
 ref = asciitilde;
 },
 {
-pos = (-45,-137);
+pos = (-36,-110);
 ref = asciitilde;
 }
 );
@@ -419,17 +419,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m015;
 shapes = (
 {
-pos = (0,138);
+pos = (0,110);
 ref = asciitilde;
 },
 {
-pos = (0,-137);
+pos = (0,-110);
 ref = asciitilde;
 }
 );
@@ -449,17 +449,17 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 },
 {
 layerId = m016;
 shapes = (
 {
-pos = (45,138);
+pos = (36,110);
 ref = asciitilde;
 },
 {
-pos = (-45,-137);
+pos = (-36,-110);
 ref = asciitilde;
 }
 );
@@ -479,7 +479,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 763;
+width = 610;
 }
 );
 unicode = 8776;

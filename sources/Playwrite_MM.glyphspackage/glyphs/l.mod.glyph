@@ -8,7 +8,7 @@ layers = (
 anchors = (
 {
 name = center;
-pos = (135,638);
+pos = (108,510);
 }
 );
 layerId = m01;
@@ -34,13 +34,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (266,658);
+pos = (213,526);
 }
 );
 layerId = m002;
@@ -66,13 +66,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (135,638);
+pos = (108,510);
 }
 );
 layerId = m003;
@@ -98,13 +98,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (266,658);
+pos = (213,526);
 }
 );
 layerId = m004;
@@ -130,13 +130,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (140,678);
+pos = (112,542);
 }
 );
 layerId = m005;
@@ -162,13 +162,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (282,678);
+pos = (226,542);
 }
 );
 layerId = m006;
@@ -194,13 +194,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (138,678);
+pos = (110,542);
 }
 );
 layerId = m007;
@@ -226,13 +226,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (282,678);
+pos = (226,542);
 }
 );
 layerId = m008;
@@ -258,13 +258,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (135,825);
+pos = (108,660);
 }
 );
 layerId = m009;
@@ -290,13 +290,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (324,825);
+pos = (259,660);
 }
 );
 layerId = m010;
@@ -322,13 +322,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (135,825);
+pos = (108,660);
 }
 );
 layerId = m011;
@@ -354,13 +354,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (321,825);
+pos = (257,660);
 }
 );
 layerId = m012;
@@ -386,13 +386,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (139,813);
+pos = (111,650);
 }
 );
 layerId = m013;
@@ -418,13 +418,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (325,813);
+pos = (260,650);
 }
 );
 layerId = m014;
@@ -450,13 +450,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (139,813);
+pos = (111,650);
 }
 );
 layerId = m015;
@@ -482,13 +482,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 },
 {
 anchors = (
 {
 name = center;
-pos = (325,813);
+pos = (260,650);
 }
 );
 layerId = m016;
@@ -514,7 +514,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 299;
+width = 239;
 }
 );
 metricLeft = l;

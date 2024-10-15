@@ -6,7 +6,7 @@ layerId = m01;
 shapes = (
 {
 angle = 180;
-pos = (375,875);
+pos = (300,700);
 ref = bracketright;
 }
 );
@@ -26,14 +26,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 375;
+width = 300;
 },
 {
 layerId = m002;
 shapes = (
 {
 angle = 180;
-pos = (497,875);
+pos = (397,700);
 ref = bracketright;
 }
 );
@@ -53,14 +53,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 375;
+width = 300;
 },
 {
 layerId = m003;
 shapes = (
 {
 angle = 180;
-pos = (375,875);
+pos = (300,700);
 ref = bracketright;
 }
 );
@@ -80,14 +80,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 375;
+width = 300;
 },
 {
 layerId = m004;
 shapes = (
 {
 angle = 180;
-pos = (497,875);
+pos = (397,700);
 ref = bracketright;
 }
 );
@@ -107,14 +107,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 375;
+width = 300;
 },
 {
 layerId = m005;
 shapes = (
 {
 angle = 180;
-pos = (375,875);
+pos = (300,700);
 ref = bracketright;
 }
 );
@@ -134,14 +134,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 375;
+width = 300;
 },
 {
 layerId = m006;
 shapes = (
 {
 angle = 180;
-pos = (496,875);
+pos = (398,700);
 ref = bracketright;
 }
 );
@@ -161,14 +161,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 375;
+width = 300;
 },
 {
 layerId = m007;
 shapes = (
 {
 angle = 180;
-pos = (375,875);
+pos = (300,700);
 ref = bracketright;
 }
 );
@@ -188,14 +188,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 375;
+width = 300;
 },
 {
 layerId = m008;
 shapes = (
 {
 angle = 180;
-pos = (496,875);
+pos = (398,700);
 ref = bracketright;
 }
 );
@@ -215,14 +215,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 375;
+width = 300;
 },
 {
 layerId = m009;
 shapes = (
 {
 angle = 180;
-pos = (625,1500);
+pos = (500,1200);
 ref = bracketright;
 }
 );
@@ -242,14 +242,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 500;
 },
 {
 layerId = m010;
 shapes = (
 {
 angle = 180;
-pos = (950,1500);
+pos = (760,1200);
 ref = bracketright;
 }
 );
@@ -269,14 +269,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 500;
 },
 {
 layerId = m011;
 shapes = (
 {
 angle = 180;
-pos = (625,1500);
+pos = (500,1200);
 ref = bracketright;
 }
 );
@@ -296,14 +296,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 500;
 },
 {
 layerId = m012;
 shapes = (
 {
 angle = 180;
-pos = (950,1500);
+pos = (760,1200);
 ref = bracketright;
 }
 );
@@ -323,14 +323,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 500;
 },
 {
 layerId = m013;
 shapes = (
 {
 angle = 180;
-pos = (625,1500);
+pos = (500,1200);
 ref = bracketright;
 }
 );
@@ -350,14 +350,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 500;
 },
 {
 layerId = m014;
 shapes = (
 {
 angle = 180;
-pos = (950,1500);
+pos = (760,1200);
 ref = bracketright;
 }
 );
@@ -377,14 +377,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 500;
 },
 {
 layerId = m015;
 shapes = (
 {
 angle = 180;
-pos = (625,1500);
+pos = (500,1200);
 ref = bracketright;
 }
 );
@@ -404,14 +404,14 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 500;
 },
 {
 layerId = m016;
 shapes = (
 {
 angle = 180;
-pos = (950,1500);
+pos = (760,1200);
 ref = bracketright;
 }
 );
@@ -431,7 +431,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 625;
+width = 500;
 }
 );
 metricLeft = "=|bracketright";
