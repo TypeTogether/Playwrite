@@ -1,12 +1,12 @@
 sources:
 - Playwrite_MM.glyphspackage
-doGuidelines: true
+doGuidelines: false
 buildStatic: true
-buildColorVariable: true
+buildColorVariable: false
 recipeProvider: fontprimer
 variants:
-- name: AR
-  alias: AR
+- name: CC AR
+  alias: CC AR
   steps:
   - operation: subspace
     axes: YEXT=565 SPED=0 slnt=-0
@@ -92,8 +92,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: AU NSW
-  alias: AU NSW
+- name: CC AU NSW
+  alias: CC AU NSW
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=-16
@@ -179,8 +179,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: AU QLD
-  alias: AU QLD
+- name: CC AU QLD
+  alias: CC AU QLD
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=-16
@@ -266,8 +266,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: AU SA
-  alias: AU SA
+- name: CC AU SA
+  alias: CC AU SA
   steps:
   - operation: subspace
     axes: YEXT=488 SPED=100 slnt=-16
@@ -353,8 +353,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: AU TAS
-  alias: AU TAS
+- name: CC AU TAS
+  alias: CC AU TAS
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=-18
@@ -440,8 +440,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: AU VIC
-  alias: AU VIC
+- name: CC AU VIC
+  alias: CC AU VIC
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=75 slnt=-18
@@ -527,8 +527,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: AT
-  alias: AT
+- name: CC AT
+  alias: CC AT
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0
@@ -611,8 +611,8 @@ variants:
     args: --include-source-fixes
   - operation: buildStat
     args: --src stat.yaml
-- name: AT
-  alias: AT
+- name: CC AT
+  alias: CC AT
   italic: true
   steps:
   - operation: subspace
@@ -695,8 +695,8 @@ variants:
     args: --src stat-italic.yaml
   - operation: fix
     args: --include-source-fixes
-- name: BE WAL
-  alias: BE WAL
+- name: CC BE WAL
+  alias: CC BE WAL
   steps:
   - operation: subspace
     axes: YEXT=905 SPED=0 slnt=-0
@@ -782,8 +782,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: BE VLG
-  alias: BE VLG
+- name: CC BE VLG
+  alias: CC BE VLG
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=-18
@@ -869,8 +869,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: BR
-  alias: BR
+- name: CC BR
+  alias: CC BR
   steps:
   - operation: subspace
     axes: YEXT=631 SPED=0 slnt=-0
@@ -956,8 +956,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: CA
-  alias: CA
+- name: CC CA
+  alias: CC CA
   steps:
   - operation: subspace
     axes: YEXT=496 SPED=100 slnt=-18
@@ -1043,8 +1043,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: CL
-  alias: CL
+- name: CC CL
+  alias: CC CL
   steps:
   - operation: subspace
     axes: YEXT=633 SPED=0 slnt=-0
@@ -1130,8 +1130,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: CO
-  alias: CO
+- name: CC CO
+  alias: CC CO
   steps:
   - operation: subspace
     axes: YEXT=520 SPED=25 slnt=-18
@@ -1217,8 +1217,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: HR
-  alias: HR
+- name: CC HR
+  alias: CC HR
   steps:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=-18
@@ -1304,8 +1304,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: HR Lijeva
-  alias: HR Lijeva
+- name: CC HR Lijeva
+  alias: CC HR Lijeva
   steps:
   - operation: subspace
     axes: YEXT=379 SPED=25 slnt=-0
@@ -1391,8 +1391,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: CU
-  alias: CU
+- name: CC CU
+  alias: CC CU
   steps:
   - operation: subspace
     axes: YEXT=615 SPED=50 slnt=-18
@@ -1478,11 +1478,9 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: CZ
-  alias: CZ
+- name: CC CZ
+  alias: CC CZ
   steps:
-  - operation: remapLayout
-    args: '''latn/CSY/locl => latn/dflt/locl'''
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=-18
   - operation: remap
@@ -1567,8 +1565,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: DK Loopet
-  alias: DK Loopet
+- name: CC DK Loopet
+  alias: CC DK Loopet
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=-18
@@ -1654,8 +1652,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: DK Uloopet
-  alias: DK Uloopet
+- name: CC DK Uloopet
+  alias: CC DK Uloopet
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=-18
@@ -1741,8 +1739,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: GB S
-  alias: GB S
+- name: CC GB S
+  alias: CC GB S
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=0
@@ -1825,8 +1823,8 @@ variants:
     args: --include-source-fixes
   - operation: buildStat
     args: --src stat.yaml
-- name: GB S
-  alias: GB S
+- name: CC GB S
+  alias: CC GB S
   italic: true
   steps:
   - operation: subspace
@@ -1909,8 +1907,8 @@ variants:
     args: --src stat-italic.yaml
   - operation: fix
     args: --include-source-fixes
-- name: GB J
-  alias: GB J
+- name: CC GB J
+  alias: CC GB J
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=0
@@ -1993,8 +1991,8 @@ variants:
     args: --include-source-fixes
   - operation: buildStat
     args: --src stat.yaml
-- name: GB J
-  alias: GB J
+- name: CC GB J
+  alias: CC GB J
   italic: true
   steps:
   - operation: subspace
@@ -2077,8 +2075,8 @@ variants:
     args: --src stat-italic.yaml
   - operation: fix
     args: --include-source-fixes
-- name: EE
-  alias: EE
+- name: CC EE
+  alias: CC EE
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=-15
@@ -2164,8 +2162,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: FR Trad
-  alias: FR Trad
+- name: CC FR Trad
+  alias: CC FR Trad
   steps:
   - operation: subspace
     axes: YEXT=908 SPED=0 slnt=-0
@@ -2251,8 +2249,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: FR Moderne
-  alias: FR Moderne
+- name: CC FR Moderne
+  alias: CC FR Moderne
   steps:
   - operation: subspace
     axes: YEXT=600 SPED=100 slnt=-0
@@ -2338,8 +2336,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: DE Grund
-  alias: DE Grund
+- name: CC DE Grund
+  alias: CC DE Grund
   steps:
   - operation: subspace
     axes: YEXT=420 SPED=0 slnt=-0
@@ -2425,8 +2423,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: DE LA
-  alias: DE LA
+- name: CC DE LA
+  alias: CC DE LA
   steps:
   - operation: subspace
     axes: YEXT=420 SPED=75 slnt=-18
@@ -2512,8 +2510,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: DE SAS
-  alias: DE SAS
+- name: CC DE SAS
+  alias: CC DE SAS
   steps:
   - operation: subspace
     axes: YEXT=388 SPED=75 slnt=-14
@@ -2599,8 +2597,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: DE VA
-  alias: DE VA
+- name: CC DE VA
+  alias: CC DE VA
   steps:
   - operation: subspace
     axes: YEXT=479 SPED=100 slnt=-10
@@ -2686,8 +2684,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: HU
-  alias: HU
+- name: CC HU
+  alias: CC HU
   steps:
   - operation: subspace
     axes: YEXT=446 SPED=0 slnt=-0
@@ -2773,8 +2771,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: IS
-  alias: IS
+- name: CC IS
+  alias: CC IS
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=100 slnt=-14
@@ -2860,8 +2858,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: IN
-  alias: IN
+- name: CC IN
+  alias: CC IN
   steps:
   - operation: subspace
     axes: YEXT=523 SPED=75 slnt=-18
@@ -2947,8 +2945,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: ID
-  alias: ID
+- name: CC ID
+  alias: CC ID
   steps:
   - operation: subspace
     axes: YEXT=938 SPED=0 slnt=-0
@@ -3034,8 +3032,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: IE
-  alias: IE
+- name: CC IE
+  alias: CC IE
   steps:
   - operation: subspace
     axes: YEXT=481 SPED=0 slnt=-18
@@ -3121,8 +3119,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: IT Trad
-  alias: IT Trad
+- name: CC IT Trad
+  alias: CC IT Trad
   steps:
   - operation: subspace
     axes: YEXT=459 SPED=25 slnt=-0
@@ -3208,8 +3206,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: IT Moderna
-  alias: IT Moderna
+- name: CC IT Moderna
+  alias: CC IT Moderna
   steps:
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=-0
@@ -3295,8 +3293,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: MX
-  alias: MX
+- name: CC MX
+  alias: CC MX
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=-18
@@ -3382,11 +3380,9 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: NL
-  alias: NL
+- name: CC NL
+  alias: CC NL
   steps:
-  - operation: remapLayout
-    args: '''latn/NLD/locl => latn/dflt/locl'''
   - operation: subspace
     axes: YEXT=773 SPED=50 slnt=-18
   - operation: remap
@@ -3471,8 +3467,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: NZ
-  alias: NZ
+- name: CC NZ
+  alias: CC NZ
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=-18
@@ -3558,8 +3554,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: NG Modern
-  alias: NG Modern
+- name: CC NG Modern
+  alias: CC NG Modern
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=-0
@@ -3645,8 +3641,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: 'NO'
-  alias: 'NO'
+- name: CC NO
+  alias: CC NO
   steps:
   - operation: subspace
     axes: YEXT=470 SPED=25 slnt=-18
@@ -3732,8 +3728,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: PE
-  alias: PE
+- name: CC PE
+  alias: CC PE
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=-0
@@ -3819,8 +3815,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: PL
-  alias: PL
+- name: CC PL
+  alias: CC PL
   steps:
   - operation: subspace
     axes: YEXT=486 SPED=0 slnt=-0
@@ -3906,8 +3902,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: PT
-  alias: PT
+- name: CC PT
+  alias: CC PT
   steps:
   - operation: subspace
     axes: YEXT=581 SPED=0 slnt=-0
@@ -3993,11 +3989,9 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: RO
-  alias: RO
+- name: CC RO
+  alias: CC RO
   steps:
-  - operation: remapLayout
-    args: '''latn/ROM/locl => latn/dflt/locl'''
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=-18
   - operation: remap
@@ -4082,11 +4076,9 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: SK
-  alias: SK
+- name: CC SK
+  alias: CC SK
   steps:
-  - operation: remapLayout
-    args: '''latn/SKY/locl => latn/dflt/locl'''
   - operation: subspace
     axes: YEXT=485 SPED=50 slnt=-18
   - operation: remap
@@ -4258,11 +4250,9 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: ES
-  alias: ES
+- name: CC ES
+  alias: CC ES
   steps:
-  - operation: remapLayout
-    args: '''latn/ESP/locl => latn/dflt/locl'''
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=-0
   - operation: remap
@@ -4347,8 +4337,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: ES Deco
-  alias: ES Deco
+- name: CC ES Deco
+  alias: CC ES Deco
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=0 slnt=-0
@@ -4434,8 +4424,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: TZ
-  alias: TZ
+- name: CC TZ
+  alias: CC TZ
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=25 slnt=-16
@@ -4521,8 +4511,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: US Modern
-  alias: US Modern
+- name: CC US Modern
+  alias: CC US Modern
   steps:
   - operation: subspace
     axes: YEXT=438 SPED=0 slnt=-0
@@ -4608,8 +4598,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: US Trad
-  alias: US Trad
+- name: CC US Trad
+  alias: CC US Trad
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=100 slnt=-18
@@ -4695,8 +4685,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: VN
-  alias: VN
+- name: CC VN
+  alias: CC VN
   steps:
   - operation: subspace
     axes: YEXT=757 SPED=0 slnt=-0
