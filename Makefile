@@ -19,6 +19,9 @@ build: build.stamp
 
 venv: venv/touchfile
 
+sources/generated/Playwrite-Guides.glyphs: sources/Playwrite_MM.glyphspackage venv
+	. venv/bin/activate; python3 scripts/generate-guideline-source.py
+
 sources/config.yaml: sources/data/models-all.csv
 	python3 scripts/create-builder-config.py
 
