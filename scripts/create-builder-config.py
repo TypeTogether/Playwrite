@@ -1,7 +1,7 @@
 # Construct a builder config file from the data in data/models-all.csv
 import csv
+from dataclasses import dataclass
 import yaml
-import copy
 
 UC_ORDER = (
     "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z "
@@ -55,124 +55,154 @@ config = {
     ],
 }
 
-with open("sources/data/models-all.csv", "r") as file:
-    reader = csv.DictReader(file, delimiter=";")
-    for ix, model in enumerate(reader):
-        new_ucs = model["UC"].strip().split()
-        new_lcs = model["lc"].strip().split()
 
-        mapping = {}
+@dataclass
+class Model:
+    _Country: str
+    _lang_tag: str
+    _slnt: str
+    _YEXT: int
+    _SPED: int
+    _UC: str
+    _lc: str
+
+    mapping: dict = None
+
+    def __post_init__(self):
+        new_ucs = self._UC.strip().split()
+        new_lcs = self._lc.strip().split()
+        self.mapping = {}
         for old, new in zip(UC_ORDER, new_ucs):
-            mapping[old] = new
+            self.mapping[old] = new
         for old, new in zip(LC_ORDER, new_lcs):
-            mapping[old] = new
-        # model_name = model["Country"]
-        # if "_" in model["lang_tag"]:
-        # model_name += " " + model["lang_tag"].split("_")[1]
-        model_name = model["lang_tag"].replace("_", " ")
-        remapLayout = []
-        if model["lang_tag"] in locl_required:
-            remapLayout = [
+            self.mapping[old] = new
+
+    @property
+    def name(self):
+        return self._lang_tag.replace("_", " ")
+
+    @property
+    def remap_layout(self):
+        if self._lang_tag in locl_required:
+            return [
                 {
                     "operation": "remapLayout",
                     "args": "'latn/"
-                    + locl_required[model["lang_tag"]]
+                    + locl_required[self._lang_tag]
                     + "/locl => latn/dflt/locl'",
                 }
             ]
-        if "-" in model["slnt"]:
-            regular, italic = model["slnt"].split("-")
-            # Regular is easy
-            config["variants"].append(
-                {
-                    "name": model_name,
-                    "alias": model["lang_tag"].replace("_", " "),
-                    "steps": remapLayout
-                    + [
-                        {
-                            "operation": "subspace",
-                            "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt={regular}",
-                        },
-                        {"operation": "remap", "args": "--deep", "mappings": mapping},
-                        {
-                            "operation": "remapLayout",
-                            "args": "'locl=>|calt' 'ccmp=>|calt'",
-                        },
-                        {"operation": "hbsubset", "args": "--passthrough-tables"},
-                        {"operation": "fix", "args": "--include-source-fixes"},
-                        {"operation": "buildStat", "args": "--src stat.yaml"},
-                    ],
-                }
-            )
-            italic = -int(italic)
-            config["variants"].append(
-                {
-                    "name": model_name,
-                    "alias": model["lang_tag"].replace("_", " "),
-                    "italic": True,
-                    "steps": remapLayout
-                    + [
-                        {
-                            "operation": "subspace",
-                            "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt={italic}",
-                            "args": "--update-name-table",
-                        },
-                        {
-                            "operation": "remap",
-                            "args": "--deep",
-                            "mappings": copy.deepcopy(mapping),
-                        },
-                        {"operation": "hbsubset", "args": "--passthrough-tables"},
-                        # Give italic VFs a better STAT
-                        {"operation": "buildStat", "args": "--src stat-italic.yaml"},
-                        {"operation": "fix", "args": "--include-source-fixes"},
-                    ],
-                }
-            )
-            # Add the italic value to the stat table
-            if italic not in added_values:
-                added_values.add(italic)
+        return []
+
+    @property
+    def remap_glyphs(self):
+        return {
+            "operation": "remap",
+            "args": "--deep",
+            "mappings": dict(self.mapping),
+        }
+
+    @property
+    def has_italic(self):
+        return "-" in self._slnt
+
+    def slnt_value(self, italic=False):
+        if self.has_italic:
+            reg_value, ital_value = self._slnt.split("-")
+            if italic:
+                val = ital_value
+            else:
+                val = reg_value
+        else:
+            if italic:
+                raise ValueError("Variant has no italic")
+            val = self._slnt
+        val = int(val)
+        return val
+
+    @property
+    def alias(self):
+        return self._lang_tag.replace("_", " ")
+
+    def subspace(self, italic=False):
+        op = {
+            "operation": "subspace",
+            "axes": f"YEXT={self._YEXT} SPED={self._SPED} slnt=-{self.slnt_value(italic)}",
+        }
+        if italic:
+            op["args"] = "--update-name-table"
+        return op
+
+    @property
+    def adobe_fix(self):
+        return {
+            "operation": "remapLayout",
+            "args": "'locl=>|calt' 'ccmp=>|calt'",
+        }
+
+    def basic_config(self, italic=False):
+        conf = {"name": self.name, "alias": self.alias}
+        if italic:
+            conf["italic"] = True
+        conf["steps"] = model.remap_layout + [
+            self.subspace(italic=italic),
+            self.remap_glyphs,
+            self.adobe_fix,
+            {"operation": "hbsubset", "args": "--passthrough-tables"},
+        ]
+        return conf
+
+    def add_used_slants_to_stat(self):
+        used_slnts = [self.slnt_value(italic=False)]
+        if self.has_italic:
+            used_slnts.append(self.slnt_value(italic=True))
+        for used_slnt in used_slnts:
+            if -used_slnt not in added_values:
+                added_values.add(-used_slnt)
                 slant_values.append(
-                    {"name": "Italic", "value": int(italic)},
+                    {"name": "Italic", "value": -used_slnt},
                 )
 
+
+with open("sources/data/models-all.csv", "r", encoding="utf-8") as file:
+    reader = csv.DictReader(file, delimiter=";")
+    for ix, model in enumerate(reader):
+        model = Model(**{"_" + k: v for k, v in model.items()})
+        if model.has_italic:
+            # Regular is easy
+            regular = model.basic_config(italic=False)
+            regular["steps"] += [
+                # Fix first is correct here. I know it's different to the others.
+                {"operation": "fix", "args": "--include-source-fixes"},
+                {"operation": "buildStat", "args": "--src stat.yaml"},
+            ]
+            config["variants"].append(regular)
+
+            italic = model.basic_config(italic=True)
+            italic["steps"] += [
+                {"operation": "buildStat", "args": "--src stat-italic.yaml"},
+                {"operation": "fix", "args": "--include-source-fixes"},
+            ]
+            config["variants"].append(italic)
         else:
-            config["variants"].append(
-                {
-                    "name": model_name,
-                    "alias": model["lang_tag"].replace("_", " "),
-                    "steps": remapLayout
-                    + [
-                        {
-                            "operation": "subspace",
-                            "axes": f"YEXT={model['YEXT']} SPED={model['SPED']} slnt=-{model['slnt']}",
-                        },
-                        {"operation": "remap", "args": "--deep", "mappings": mapping},
-                        {
-                            "operation": "remapLayout",
-                            "args": "'locl=>|calt' 'ccmp=>|calt'",
-                        },
-                        {"operation": "hbsubset", "args": "--passthrough-tables"},
-                        {
-                            "operation": "buildStat",
-                            "args": "--src stat-standalone.yaml",
-                        },
-                        {"operation": "fix", "args": "--include-source-fixes"},
-                        {
-                            "operation": "exec",
-                            "exe": "gftools-fontsetter",
-                            "args": "-o $out $in zero-post.yaml",
-                        },
-                    ],
-                }
+            regular = model.basic_config(italic=False)
+            regular["steps"].extend(
+                [
+                    {
+                        "operation": "buildStat",
+                        "args": "--src stat-standalone.yaml",
+                    },
+                    {"operation": "fix", "args": "--include-source-fixes"},
+                    {
+                        "operation": "exec",
+                        "exe": "gftools-fontsetter",
+                        "args": "-o $out $in zero-post.yaml",
+                    },
+                ],
             )
-            # I hate this
-            italic = -int(model["slnt"])
-            if italic not in added_values:
-                added_values.add(italic)
-                slant_values.append(
-                    {"name": "Italic", "value": italic},
-                )
+
+            config["variants"].append(regular)
+        model.add_used_slants_to_stat()
 
 with open("sources/config.yaml", "w") as file:
     yaml.dump(config, file, sort_keys=False, default_flow_style=False)
