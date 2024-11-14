@@ -1,0 +1,35 @@
+- name: Weight
+  tag: wght
+  values:
+  - name: Thin
+    value: 100
+  - name: ExtraLight
+    value: 200
+  - name: Light
+    value: 300
+  - name: Regular
+    value: 400
+    flags: 2
+- name: Slant
+  tag: slnt
+  values:
+  - name: Regular
+    value: 0
+  - name: Italic
+    value: -18
+  - name: Italic
+    value: -16
+  - name: Italic
+    value: -13
+  - name: Italic
+    value: -7
+  - name: Italic
+    value: -15
+  - name: Italic
+    value: -14
+  - name: Italic
+    value: -10
+- name: Speed
+  tag: SPED
+- name: Y Extension
+  tag: YEXT
