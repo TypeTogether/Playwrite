@@ -4788,6 +4788,5012 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
+recipe:
+  ../fonts/ttf/PlaywriteARGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=565 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.cur
+      H: H.dec
+      I: I.cur
+      J: J.cur
+      K: K.cur
+      L: L.cur
+      M: M.cur
+      N: N.cur
+      O: O.cur
+      P: P.dec
+      Q: Q.cur
+      R: R.dec
+      S: S.cur
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec
+      Y: Y.cur
+      Z: Z.cur
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.ful
+      q: q.jmc_ar
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.ful
+      y: y.cnt
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite AR Guides
+  ../fonts/ttf/PlaywriteAUNSWGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=100 slnt=-16 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M_locl.au
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U_locl.au
+      V: V
+      W: W
+      X: X
+      Y: Y_locl
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mod
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod_au
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.mod
+      q: q.jmc
+      r: r.mod
+      s: s.mod
+      t: t.mod
+      u: u.mod
+      v: v.ful
+      w: w.ful
+      x: x.mod
+      y: y.mod
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite AU NSW Guides
+  ../fonts/ttf/PlaywriteAUQLDGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=100 slnt=-16 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I_locl
+      J: J
+      K: K
+      L: L
+      M: M_locl.au
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U_locl.au
+      V: V
+      W: W
+      X: X
+      Y: Y_locl
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mod
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod_au
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.mod
+      q: q.mod_au
+      r: r.cnt
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.ful
+      w: w.ful
+      x: x.ful
+      y: y.mod
+      z: z.cnt_au
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite AU QLD Guides
+  ../fonts/ttf/PlaywriteAUSAGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=488 SPED=100 slnt=-16 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I_locl
+      J: J
+      K: K
+      L: L
+      M: M_locl.au
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U
+      V: V
+      W: W
+      X: X
+      Y: Y_locl
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mod
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod_au
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.mod
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.mod
+      q: q.mod_au
+      r: r.mod
+      s: s.jmc
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.mod
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite AU SA Guides
+  ../fonts/ttf/PlaywriteAUTASGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=75 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M_locl.au
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U_locl.au
+      V: V
+      W: W
+      X: X
+      Y: Y_locl
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mod
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.mod
+      q: q.mod_au
+      r: r.mod
+      s: s.mod
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.mod
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite AU TAS Guides
+  ../fonts/ttf/PlaywriteAUVICGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=75 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M_locl
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U_locl.au
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.ful
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.ful_de
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.ful
+      q: q.mod_au
+      r: r.cnt
+      s: s.mod
+      t: t.mod
+      u: u.mod
+      v: v.ful
+      w: w.ful
+      x: x.cnt
+      y: y.mod
+      z: z.cnt_au
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite AU VIC Guides
+  ../fonts/ttf/PlaywriteATGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B
+      C: C.cur
+      D: D
+      E: E.cur
+      F: F
+      G: G.cur
+      H: H
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.cur
+      M: M.dec
+      N: N.dec
+      O: O
+      P: P
+      Q: Q.cur_locl
+      R: R
+      S: S
+      T: T
+      U: U.cur
+      V: V.dec
+      W: W.dec
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful_at
+      w: w.ful_at
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite AT Guides
+  ../fonts/ttf/PlaywriteATGuides-Italic.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: buildStat
+    args: --src generated/omni-stat.yaml
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=-13 wght=drop
+    args: --update-name-table
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B
+      C: C.cur
+      D: D
+      E: E.cur
+      F: F
+      G: G.cur
+      H: H
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.cur
+      M: M.dec
+      N: N.dec
+      O: O
+      P: P
+      Q: Q.cur_locl
+      R: R
+      S: S
+      T: T
+      U: U.cur
+      V: V.dec
+      W: W.dec
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful_at
+      w: w.ful_at
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: rename
+    args: --just-family
+    name: Playwrite AT Guides
+  ../fonts/ttf/PlaywriteBEWALGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=905 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur_locl
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O.cur
+      P: P.cur
+      Q: Q.cur_locl
+      R: R.cur
+      S: S.dec
+      T: T.cur_locl
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec_locl
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.ful
+      q: q.jmc
+      r: r.mlp
+      s: s.ful
+      t: t.mod_be
+      u: u.mod
+      v: v.mlp
+      w: w.mlp
+      x: x.cnt
+      y: y.jmc
+      z: z.mlp
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite BE WAL Guides
+  ../fonts/ttf/PlaywriteBEVLGGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=25 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur_locl
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O.cur
+      P: P.cur
+      Q: Q_locl
+      R: R.cur
+      S: S.dec
+      T: T.cur_locl
+      U: U.cur
+      V: V.dec
+      W: W.dec
+      X: X.dec_locl
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.jmc
+      t: t.mod_be
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.cnt
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite BE VLG Guides
+  ../fonts/ttf/PlaywriteBRGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=631 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur
+      B: B.dec
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.cur
+      L: L.cur
+      M: M.cur
+      N: N.cur
+      O: O.cur
+      P: P.dec
+      Q: Q.dec
+      R: R.dec
+      S: S.cur
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec
+      Y: Y.cur
+      Z: Z.cur
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.ful
+      q: q.jmc_ar
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.ful
+      y: y.cnt
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite BR Guides
+  ../fonts/ttf/PlaywriteCAGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=496 SPED=100 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur_locl
+      B: B.dec
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.dec
+      H: H.dec
+      I: I.cur
+      J: J.cur
+      K: K.dec
+      L: L.dec
+      M: M.cur
+      N: N.cur
+      O: O.dec
+      P: P.dec
+      Q: Q.cur
+      R: R.dec
+      S: S.cur
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.cur
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.mrr_ca
+      q: q.mrr
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.ful
+      y: y.cnt
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite CA Guides
+  ../fonts/ttf/PlaywriteCLGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=633 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.cur
+      K: K.dec
+      L: L.cur
+      M: M.cur
+      N: N.cur
+      O: O.cur
+      P: P.cur
+      Q: Q.dec
+      R: R.cur
+      S: S.cur
+      T: T.cur_locl
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.ful
+      q: q.mrr
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.ful
+      y: y.cnt
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite CL Guides
+  ../fonts/ttf/PlaywriteCOGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=520 SPED=25 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur
+      B: B.dec
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.dec
+      H: H.cur
+      I: I.cur
+      J: J.cur
+      K: K.cur
+      L: L.dec
+      M: M.cur
+      N: N.cur
+      O: O.cur
+      P: P.dec
+      Q: Q.cur
+      R: R.dec
+      S: S.cur
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.cur
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.jmc
+      q: q.mrr
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.ful
+      x: x.ful
+      y: y.cnt
+      z: z.mlp
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite CO Guides
+  ../fonts/ttf/PlaywriteHRGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=379 SPED=25 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E
+      F: F.cur
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.cur
+      L: L.cur
+      M: M.dec
+      N: N.dec
+      O: O
+      P: P.cur
+      Q: Q
+      R: R.cur
+      S: S
+      T: T.dec
+      U: U.cur
+      V: V.dec
+      W: W.dec
+      X: X.cur
+      Y: Y
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.ful
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.cnt
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.ful
+      y: y.cnt
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite HR Guides
+  ../fonts/ttf/PlaywriteHRLijevaGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=379 SPED=25 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E
+      F: F.cur
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.cur
+      L: L.cur
+      M: M.dec
+      N: N.dec
+      O: O
+      P: P.cur
+      Q: Q
+      R: R.cur
+      S: S
+      T: T.dec
+      U: U.cur
+      V: V.dec
+      W: W.dec
+      X: X.cur
+      Y: Y
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.ful
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.cnt
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.ful
+      y: y.cnt
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite HR Lijeva Guides
+  ../fonts/ttf/PlaywriteCUGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=615 SPED=50 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur
+      B: B.dec
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur
+      H: H.dec
+      I: I.cur
+      J: J.cur
+      K: K.dec
+      L: L.cur
+      M: M.cur
+      N: N.cur
+      O: O
+      P: P.dec
+      Q: Q.dec
+      R: R.dec
+      S: S.cur
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec
+      Y: Y.cur
+      Z: Z.cur
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.lop_cu
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.mrr
+      q: q.mrr
+      r: r.cnt
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.ful
+      x: x.ful
+      y: y.cnt
+      z: z.mlp
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite CU Guides
+  ../fonts/ttf/PlaywriteCZGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=485 SPED=50 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.cur
+      L: L.dec
+      M: M.cur
+      N: N.cur
+      O: O.cur
+      P: P.cur
+      Q: Q_locl
+      R: R.cur
+      S: S.dec
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.ful
+      y: y.cnt
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite CZ Guides
+  ../fonts/ttf/PlaywriteDKLoopetGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=375 SPED=25 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M.dec
+      N: N.dec
+      O: O
+      P: P
+      Q: Q.cur_locl
+      R: R
+      S: S
+      T: T
+      U: U
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.jmc_dk
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.jmc
+      q: q.mod
+      r: r.mod
+      s: s.jmc
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite DK Loopet Guides
+  ../fonts/ttf/PlaywriteDKUloopetGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=375 SPED=25 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M.dec
+      N: N.dec
+      O: O
+      P: P
+      Q: Q.cur_locl
+      R: R
+      S: S
+      T: T
+      U: U
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.jmc
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mod_au
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.jmc
+      q: q.mod
+      r: r.mod
+      s: s.jmc
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.mod
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite DK Uloopet Guides
+  ../fonts/ttf/PlaywriteGBSGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M_locl
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U_locl.au
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mod
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.mod
+      q: q.mod_au
+      r: r.mod
+      s: s.mod
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.mod
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite GB S Guides
+  ../fonts/ttf/PlaywriteGBSGuides-Italic.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: buildStat
+    args: --src generated/omni-stat.yaml
+  - operation: subspace
+    axes: YEXT=375 SPED=75 slnt=-7 wght=drop
+    args: --update-name-table
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M_locl
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U_locl.au
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mod
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.mod
+      q: q.mod_au
+      r: r.mod
+      s: s.mod
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.mod
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: rename
+    args: --just-family
+    name: Playwrite GB S Guides
+  ../fonts/ttf/PlaywriteGBJGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=375 SPED=25 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M_locl
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U_locl.au
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.jmc
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.jmc
+      g: g.jmc
+      h: h.mod
+      i: i.mod
+      j: j.jmc
+      k: k.ful
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.jmc
+      q: q.jmc
+      r: r.mod
+      s: s.jmc
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite GB J Guides
+  ../fonts/ttf/PlaywriteGBJGuides-Italic.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: buildStat
+    args: --src generated/omni-stat.yaml
+  - operation: subspace
+    axes: YEXT=375 SPED=25 slnt=-7 wght=drop
+    args: --update-name-table
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M_locl
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U_locl.au
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.jmc
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.jmc
+      g: g.jmc
+      h: h.mod
+      i: i.mod
+      j: j.jmc
+      k: k.ful
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.jmc
+      q: q.jmc
+      r: r.mod
+      s: s.jmc
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: rename
+    args: --just-family
+    name: Playwrite GB J Guides
+  ../fonts/ttf/PlaywriteEEGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=50 slnt=-15 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur_ro
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O.cur
+      P: P.cur
+      Q: Q.cur_locl
+      R: R.cur
+      S: S
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.lop_cu
+      e: e.ful
+      f: f.mlp
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mlp
+      p: p.mrr
+      q: q.jmc
+      r: r.mlp
+      s: s.mlp
+      t: t.lop_ee
+      u: u.mod
+      v: v.mlp
+      w: w.mlp
+      x: x.cnt
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite EE Guides
+  ../fonts/ttf/PlaywriteFRTradGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=908 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur_locl
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O.cur
+      P: P.cur
+      Q: Q.cur_locl
+      R: R.cur
+      S: S.dec
+      T: T.cur_locl
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec_locl
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.cnt
+      y: y.jmc
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite FR Trad Guides
+  ../fonts/ttf/PlaywriteFRModerneGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=600 SPED=100 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.jmc
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.mod
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.jmc
+      q: q.mod
+      r: r.mod
+      s: s.jmc
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.mod
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite FR Moderne Guides
+  ../fonts/ttf/PlaywriteDEGrundGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=420 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a
+      b: b
+      c: c
+      d: d
+      e: e
+      f: f.mod_au
+      g: g
+      h: h
+      i: i
+      j: j
+      k: k
+      l: l
+      m: m
+      n: n
+      o: o
+      p: p
+      q: q
+      r: r
+      s: s
+      t: t
+      u: u
+      v: v
+      w: w
+      x: x
+      y: y_de
+      z: z
+      U+00E6: ae
+      U+00F0: eth
+      U+0133: ij
+      U+014B: eng
+      U+0153: oe
+      U+00FE: thorn
+      U+00DF: germandbls
+      U+0131: idotless
+      U+0237: jdotless
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite DE Grund Guides
+  ../fonts/ttf/PlaywriteDELAGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=420 SPED=75 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec
+      B: B.dec
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.cur
+      M: M.dec
+      N: N.dec
+      O: O
+      P: P.cur
+      Q: Q.cur_locl
+      R: R.cur
+      S: S.dec
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec_locl
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.cnt
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.cnt_de
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite DE LA Guides
+  ../fonts/ttf/PlaywriteDESASGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=388 SPED=75 slnt=-14 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B
+      C: C
+      D: D
+      E: E.cur
+      F: F
+      G: G.cur
+      H: H
+      I: I.dec
+      J: J.dec
+      K: K
+      L: L.cur
+      M: M.dec
+      N: N.dec
+      O: O
+      P: P
+      Q: Q.cur_locl
+      R: R
+      S: S
+      T: T
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.cnt
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.ful
+      w: w.ful
+      x: x.ful
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite DE SAS Guides
+  ../fonts/ttf/PlaywriteDEVAGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=479 SPED=100 slnt=-10 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E.cur
+      F: F
+      G: G.cur
+      H: H
+      I: I.dec
+      J: J.dec
+      K: K
+      L: L.cur
+      M: M.dec
+      N: N
+      O: O
+      P: P
+      Q: Q.cur_locl
+      R: R
+      S: S
+      T: T
+      U: U.cur
+      V: V
+      W: W
+      X: X
+      Y: Y.cur
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.mod
+      s: s.mlp
+      t: t.lop_de
+      u: u.mod
+      v: v.ful
+      w: w.ful
+      x: x.mod
+      y: y.jmc
+      z: z.cnt
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite DE VA Guides
+  ../fonts/ttf/PlaywriteHUGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=446 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O
+      P: P.cur
+      Q: Q.cur
+      R: R.cur
+      S: S
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.cnt
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.ful
+      w: w.ful
+      x: x.ful
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite HU Guides
+  ../fonts/ttf/PlaywriteISGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=375 SPED=100 slnt=-14 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M_locl
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.jmc
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.jmc
+      q: q.mod
+      r: r.mod
+      s: s.jmc
+      t: t.mod
+      u: u.mod
+      v: v.ful
+      w: w.ful
+      x: x.ful
+      y: y.mod
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite IS Guides
+  ../fonts/ttf/PlaywriteINGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=523 SPED=75 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.cur_locl
+      H: H.dec
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O.cur
+      P: P.cur
+      Q: Q.cur
+      R: R.cur
+      S: S.cur
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec
+      Y: Y.cur
+      Z: Z.cur
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.ful
+      q: q.mod_au
+      r: r.mlp
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.cnt
+      y: y.jmc
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite IN Guides
+  ../fonts/ttf/PlaywriteIDGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=938 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B
+      C: C
+      D: D
+      E: E.cur
+      F: F
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.cur
+      M: M.cur
+      N: N.cur
+      O: O
+      P: P
+      Q: Q.dec
+      R: R
+      S: S
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.jmc
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.cnt
+      y: y.jmc
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite ID Guides
+  ../fonts/ttf/PlaywriteIEGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=481 SPED=0 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur_locl
+      B: B.dec
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.cur_locl
+      H: H.dec
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.cur
+      N: N.cur
+      O: O
+      P: P.cur
+      Q: Q.cur
+      R: R.dec
+      S: S
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec
+      Y: Y.cur
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.jmc
+      q: q.jmc
+      r: r.ful
+      s: s.jmc
+      t: t.mod
+      u: u.mod
+      v: v.ful
+      w: w.ful
+      x: x.ful
+      y: y.jmc
+      z: z.cnt
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite IE Guides
+  ../fonts/ttf/PlaywriteITTradGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=459 SPED=25 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur_locl
+      B: B.cur
+      C: C.cur
+      D: D.cur
+      E: E.cur
+      F: F.dec
+      G: G.cur_locl
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.cur
+      N: N.cur
+      O: O.cur
+      P: P.cur
+      Q: Q.cur
+      R: R.cur
+      S: S.cur
+      T: T.cur
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec_locl
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.cnt_de
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite IT Trad Guides
+  ../fonts/ttf/PlaywriteITModernaGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=375 SPED=25 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G
+      H: H
+      I: I_locl
+      J: J
+      K: K
+      L: L
+      M: M_locl
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.jmc
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.jmc
+      g: g.jmc
+      h: h.mod
+      i: i.mod
+      j: j.jmc
+      k: k.mod
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.jmc
+      q: q.jmc
+      r: r.mod
+      s: s.jmc
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite IT Moderna Guides
+  ../fonts/ttf/PlaywriteMXGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=25 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur
+      B: B.dec
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur_locl
+      G: G.dec
+      H: H.dec
+      I: I.cur
+      J: J.cur
+      K: K.cur
+      L: L.cur
+      M: M.cur
+      N: N.cur
+      O: O.dec
+      P: P.dec
+      Q: Q.cur
+      R: R.dec
+      S: S.cur
+      T: T.cur
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.cur
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mlp
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.jmc
+      q: q.mrr
+      r: r.cnt
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.mlp
+      w: w.mlp
+      x: x.cnt
+      y: y.cnt
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite MX Guides
+  ../fonts/ttf/PlaywriteNLGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=773 SPED=50 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur_locl
+      B: B.cur
+      C: C.cur
+      D: D.cur
+      E: E.cur
+      F: F.cur
+      G: G.cur
+      H: H
+      I: I.cur
+      J: J.cur
+      K: K.cur
+      L: L.cur
+      M: M.cur
+      N: N.cur
+      O: O.cur
+      P: P.cur
+      Q: Q.cur
+      R: R.cur
+      S: S
+      T: T.cur
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.cnt
+      y: y.cnt
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite NL Guides
+  ../fonts/ttf/PlaywriteNZGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=100 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I_locl
+      J: J
+      K: K
+      L: L
+      M: M_locl
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U_locl.au
+      V: V
+      W: W
+      X: X
+      Y: Y_locl
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mod
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod_au
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.mod
+      q: q.mod_au
+      r: r.mod
+      s: s.mod
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.mod
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite NZ Guides
+  ../fonts/ttf/PlaywriteNGModernGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=25 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.au
+      H: H
+      I: I
+      J: J
+      K: K
+      L: L
+      M: M
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U
+      V: V
+      W: W
+      X: X
+      Y: Y_locl
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mod
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.mod
+      q: q.mod_au
+      r: r.mod
+      s: s.mod
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.mod
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite NG Modern Guides
+  ../fonts/ttf/PlaywriteNOGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=470 SPED=25 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.cur
+      E: E.cur
+      F: F.cur
+      G: G.cur
+      H: H
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.cur
+      M: M.dec
+      N: N.dec
+      O: O
+      P: P.cur
+      Q: Q.cur_locl
+      R: R.cur
+      S: S
+      T: T.dec
+      U: U.cur
+      V: V.dec
+      W: W.dec
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.ful
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod_au
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.mod
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.ful
+      w: w.ful
+      x: x.ful
+      y: y.mod
+      z: z.cnt_no
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite NO Guides
+  ../fonts/ttf/PlaywritePEGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=50 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur
+      B: B.dec
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.dec
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.cur
+      M: M.cur
+      N: N.cur
+      O: O.dec
+      P: P.dec
+      Q: Q.cur
+      R: R.dec
+      S: S.cur
+      T: T.cur_locl
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec
+      Y: Y.cur
+      Z: Z.cur
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop_pe
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.jmc
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.mlp
+      w: w.mlp
+      x: x.ful
+      y: y.cnt
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite PE Guides
+  ../fonts/ttf/PlaywritePLGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=486 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.cur
+      M: M.dec
+      N: N.dec
+      O: O
+      P: P.cur
+      Q: Q
+      R: R.cur
+      S: S
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.ful
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.mod
+      i: i.mod
+      j: j.jmc
+      k: k.mod
+      l: l.mod
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.cnt
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.ful
+      w: w.ful
+      x: x.ful
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite PL Guides
+  ../fonts/ttf/PlaywritePTGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=581 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O.cur
+      P: P.cur
+      Q: Q.dec_pt
+      R: R.cur
+      S: S.dec
+      T: T.dec
+      U: U.cur
+      V: V.dec
+      W: W.dec
+      X: X.dec
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mlp
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.mlp
+      w: w.mlp
+      x: x.ful
+      y: y.jmc
+      z: z.mlp
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite PT Guides
+  ../fonts/ttf/PlaywriteROGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=0 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur_ro
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O.cur
+      P: P.cur
+      Q: Q.cur_locl
+      R: R.cur
+      S: S.dec
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec_ro
+      Y: Y.cur
+      Z: Z.dec_locl
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful_de
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.ful
+      q: q.mod_au
+      r: r.mlp
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.mlp
+      w: w.mlp
+      x: x.cnt_ro
+      y: y.cnt
+      z: z.mod_ro
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite RO Guides
+  ../fonts/ttf/PlaywriteSKGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=485 SPED=50 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.cur
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.cur
+      L: L.dec
+      M: M.cur
+      N: N.cur
+      O: O.cur
+      P: P.cur
+      Q: Q_locl
+      R: R.cur
+      S: S.dec
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.lop_de
+      u: u.mod
+      v: v.cnt
+      w: w.cnt
+      x: x.ful
+      y: y.cnt
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite SK Guides
+  ../fonts/ttf/PlaywriteZAGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=50 slnt=-10 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur_locl
+      B: B.cur
+      C: C
+      D: D.cur
+      E: E.cur
+      F: F.dec
+      G: G.cur_locl
+      H: H.dec
+      I: I.dec
+      J: J.cur
+      K: K.dec
+      L: L.dec
+      M: M.cur
+      N: N.cur
+      O: O.cur
+      P: P.dec
+      Q: Q.cur_locl
+      R: R.cur
+      S: S.dec
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec
+      Y: Y.cur
+      Z: Z.cur
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.mod
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.ful
+      w: w.ful
+      x: x.cnt
+      y: y.jmc
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite ZA Guides
+  ../fonts/ttf/PlaywriteESGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G
+      H: H
+      I: I_locl
+      J: J
+      K: K
+      L: L
+      M: M
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.mlp
+      w: w.mlp
+      x: x.cnt
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite ES Guides
+  ../fonts/ttf/PlaywriteESDecoGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur
+      B: B.dec
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.cur
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.cur
+      M: M.cur
+      N: N.cur
+      O: O.dec
+      P: P.dec
+      Q: Q.cur
+      R: R.dec
+      S: S.cur
+      T: T.cur_locl
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.dec_locl
+      Y: Y.cur
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.ful
+      q: q.jmc
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.mlp
+      w: w.mlp
+      x: x.cnt
+      y: y.jmc
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite ES Deco Guides
+  ../fonts/ttf/PlaywriteTZGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=25 slnt=-16 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec
+      B: B.dec
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.cur_ro
+      H: H.dec
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.cur
+      N: N.dec
+      O: O.dec
+      P: P
+      Q: Q.cur
+      R: R
+      S: S
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.dec
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mlp
+      p: p.jmc
+      q: q.mrr
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.mlp
+      w: w.ful
+      x: x.cnt
+      y: y.cnt
+      z: z.mod
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite TZ Guides
+  ../fonts/ttf/PlaywriteUSModernGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=438 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G
+      H: H
+      I: I_locl
+      J: J
+      K: K
+      L: L
+      M: M
+      N: N
+      O: O
+      P: P
+      Q: Q
+      R: R
+      S: S
+      T: T
+      U: U
+      V: V
+      W: W
+      X: X
+      Y: Y
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mod
+      c: c.mod
+      d: d.mod
+      e: e.mod
+      f: f.mod
+      g: g.mod
+      h: h.mod
+      i: i.mod
+      j: j.mod
+      k: k.ful
+      l: l.mod
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.mod
+      q: q.mod_au
+      r: r.cnt
+      s: s.mod
+      t: t.mod
+      u: u.mod
+      v: v.mod
+      w: w.mod
+      x: x.mod
+      y: y.mod
+      z: z.mod
+      U+00E6: ae.mod
+      U+00F0: eth.mod
+      U+0133: ij.mod
+      U+014B: eng
+      U+0153: oe.mod
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite US Modern Guides
+  ../fonts/ttf/PlaywriteUSTradGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=500 SPED=100 slnt=-18 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.cur_locl
+      B: B.dec
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.dec
+      H: H.dec
+      I: I.cur
+      J: J.cur
+      K: K.dec
+      L: L.dec
+      M: M.cur
+      N: N.cur
+      O: O.dec
+      P: P.dec
+      Q: Q.cur
+      R: R.dec
+      S: S.cur
+      T: T.dec
+      U: U.cur
+      V: V.cur
+      W: W.cur
+      X: X.cur
+      Y: Y.cur
+      Z: Z.cur
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.lop
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.mrr
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.cnt
+      n: n.cnt
+      o: o.mod
+      p: p.mrr_ca
+      q: q.mrr
+      r: r.ful
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.cnt
+      w: w.ful
+      x: x.ful
+      y: y.jmc
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite US Trad Guides
+  ../fonts/ttf/PlaywriteVNGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=757 SPED=0 slnt=-0 wght=drop
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A.dec_locl
+      B: B.cur
+      C: C.cur
+      D: D.dec
+      E: E.cur
+      F: F.dec
+      G: G.cur_locl
+      H: H.cur
+      I: I.dec
+      J: J.dec
+      K: K.dec
+      L: L.dec
+      M: M.dec
+      N: N.dec
+      O: O.dec
+      P: P.cur
+      Q: Q.cur
+      R: R.cur
+      S: S.dec
+      T: T.dec
+      U: U.cur
+      V: V.dec
+      W: W.dec
+      X: X.dec_locl
+      Y: Y.cur
+      Z: Z.cur
+      U+00C6: AE.cur
+      U+00D0: Eth
+      U+0132: IJ.cur
+      U+014a: Eng
+      U+0152: OE.cur
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.mod
+      b: b.mlp
+      c: c.mod
+      d: d.mod
+      e: e.ful
+      f: f.ful
+      g: g.jmc
+      h: h.lop
+      i: i.mod
+      j: j.jmc
+      k: k.lop
+      l: l.lop
+      m: m.mod
+      n: n.mod
+      o: o.mod
+      p: p.ful
+      q: q.jmc
+      r: r.mlp
+      s: s.ful
+      t: t.mod
+      u: u.mod
+      v: v.mlp
+      w: w.mlp
+      x: x.cnt
+      y: y.jmc
+      z: z.cnt
+      U+00E6: ae.ful
+      U+00F0: eth.mod
+      U+0133: ij.jmc
+      U+014B: eng
+      U+0153: oe.ful
+      U+00FE: thorn.jmc
+      U+00DF: germandbls.jmc
+      U+0131: idotless.mod
+      U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite VN Guides
 stat:
 - name: Weight
   tag: wght

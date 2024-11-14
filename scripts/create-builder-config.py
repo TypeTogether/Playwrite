@@ -34,6 +34,7 @@ config = {
     "buildColorVariable": False,
     "recipeProvider": "fontprimer",
     "variants": [],
+    "recipe": {},
     "stat": [
         {
             "name": "Weight",
@@ -124,11 +125,13 @@ class Model:
     def alias(self):
         return self._lang_tag.replace("_", " ")
 
-    def subspace(self, italic=False):
+    def subspace(self, italic=False, drop_weight=False):
         op = {
             "operation": "subspace",
             "axes": f"YEXT={self._YEXT} SPED={self._SPED} slnt=-{self.slnt_value(italic)}",
         }
+        if drop_weight:
+            op["axes"] += " wght=drop"
         if italic:
             op["args"] = "--update-name-table"
         return op
@@ -163,6 +166,46 @@ class Model:
                     {"name": "Italic", "value": -used_slnt},
                 )
 
+    def guidelines_recipe(self, italic=False):
+        ops = [
+            {"source": "generated/Playwrite-Guides.glyphs"},
+            {
+                "args": "--filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter --no-production-names",
+                "operation": "buildVariable",
+            },
+            {"operation": "fix"},
+        ]
+        if italic:
+            ops.append(
+                {
+                    "operation": "buildStat",
+                    "args": "--src generated/omni-stat.yaml",
+                }
+            )
+        ops += [
+            model.subspace(italic=italic, drop_weight=True),
+            model.remap_glyphs,
+            model.adobe_fix,
+            {"operation": "hbsubset", "args": "--drop-tables=STAT"},
+            {"operation": "fix", "args": "--include-source-fixes"},
+        ]
+        if not italic:
+            ops.append(
+                {
+                    "operation": "exec",
+                    "exe": "gftools-fontsetter",
+                    "args": "-o $out $in zero-post.yaml",
+                }
+            )
+        ops.append(
+            {
+                "operation": "rename",
+                "args": "--just-family",
+                "name": "Playwrite " + model.alias + " Guides",
+            },
+        )
+        return ops
+
 
 with open("sources/data/models-all.csv", "r", encoding="utf-8") as file:
     reader = csv.DictReader(file, delimiter=";")
@@ -178,12 +221,25 @@ with open("sources/data/models-all.csv", "r", encoding="utf-8") as file:
             ]
             config["variants"].append(regular)
 
+            # Add an explicit recipe for guidelines
+            config["recipe"][
+                "../fonts/ttf/Playwrite"
+                + model.alias.replace(" ", "")
+                + "Guides-Regular.ttf"
+            ] = model.guidelines_recipe(italic=False)
+
             italic = model.basic_config(italic=True)
             italic["steps"] += [
                 {"operation": "buildStat", "args": "--src stat-italic.yaml"},
                 {"operation": "fix", "args": "--include-source-fixes"},
             ]
             config["variants"].append(italic)
+            config["recipe"][
+                "../fonts/ttf/Playwrite"
+                + model.alias.replace(" ", "")
+                + "Guides-Italic.ttf"
+            ] = model.guidelines_recipe(italic=True)
+
         else:
             regular = model.basic_config(italic=False)
             regular["steps"].extend(
@@ -202,7 +258,18 @@ with open("sources/data/models-all.csv", "r", encoding="utf-8") as file:
             )
 
             config["variants"].append(regular)
+
+            # Add an explicit recipe for guidelines
+            config["recipe"][
+                "../fonts/ttf/Playwrite"
+                + model.alias.replace(" ", "")
+                + "Guides-Regular.ttf"
+            ] = model.guidelines_recipe(italic=False)
+
         model.add_used_slants_to_stat()
 
 with open("sources/config.yaml", "w") as file:
     yaml.dump(config, file, sort_keys=False, default_flow_style=False)
+
+with open("sources/generated/omni-stat.yaml", "w") as file:
+    yaml.dump(config["stat"], file, sort_keys=False, default_flow_style=False)
