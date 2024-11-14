@@ -23,9 +23,9 @@ sources/generated/Playwrite-Guides.glyphs: sources/Playwrite_MM.glyphspackage ve
 	. venv/bin/activate; python3 scripts/generate-guideline-source.py
 
 sources/config.yaml: sources/data/models-all.csv
-	python3 scripts/create-builder-config.py
+	. venv/bin/activate; python3 scripts/create-builder-config.py
 
-build.stamp: venv .init.stamp sources/config.yaml $(SOURCES)
+build.stamp: venv .init.stamp sources/config.yaml $(SOURCES) sources/generated/Playwrite-Guides.glyphs
 	rm -rf fonts
 	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
 
