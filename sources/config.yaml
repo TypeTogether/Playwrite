@@ -1,8 +1,8 @@
 sources:
 - Playwrite_MM.glyphspackage
-doGuidelines: true
+doGuidelines: false
 buildStatic: true
-buildColorVariable: true
+buildColorVariable: false
 recipeProvider: fontprimer
 variants:
 - name: AR
@@ -531,7 +531,7 @@ variants:
   alias: AT
   steps:
   - operation: subspace
-    axes: YEXT=375 SPED=75 slnt=0
+    axes: YEXT=375 SPED=75 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -689,6 +689,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
     args: --passthrough-tables
   - operation: buildStat
@@ -1745,7 +1747,7 @@ variants:
   alias: GB S
   steps:
   - operation: subspace
-    axes: YEXT=375 SPED=75 slnt=0
+    axes: YEXT=375 SPED=75 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -1903,6 +1905,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
     args: --passthrough-tables
   - operation: buildStat
@@ -1913,7 +1917,7 @@ variants:
   alias: GB J
   steps:
   - operation: subspace
-    axes: YEXT=375 SPED=25 slnt=0
+    axes: YEXT=375 SPED=25 slnt=-0
   - operation: remap
     args: --deep
     mappings:
@@ -2071,6 +2075,8 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.jmc
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
     args: --passthrough-tables
   - operation: buildStat
