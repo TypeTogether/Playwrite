@@ -38,5 +38,7 @@ effects = create_effects(font, None, overrides)
 transform_font(font, effects)
 
 font.familyName = "Playwrite Guides"
-
+font.featurePrefixes["Languagesystems"].code = font.featurePrefixes[
+    "Languagesystems"
+].code.replace("include(features", "include(../features")
 font.save("sources/generated/Playwrite-Guides.glyphs")
