@@ -131,7 +131,7 @@ class Model:
             "axes": f"YEXT={self._YEXT} SPED={self._SPED} slnt=-{self.slnt_value(italic)}",
         }
         if drop_weight:
-            op["axes"] += " wght=drop"
+            op["axes"] += " wght=200"
         if italic:
             op["args"] = "--update-name-table"
         return op
