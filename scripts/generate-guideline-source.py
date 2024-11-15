@@ -19,7 +19,7 @@ font.instances[1].linkStyle = "Regular"
 
 
 for glyph in font.glyphs:
-    if glyph.name.endswith("comb"):
+    if "comb" in glyph.name:
         glyph.userData["co.uk.corvelsoftware.Dotter.disableGuidelines"] = True
     if glyph.name in ["space", "nbspace", "CR", ".notdef", "thinspace"]:
         glyph.userData["co.uk.corvelsoftware.Dotter.disableGuidelines"] = True
