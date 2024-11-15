@@ -4796,7 +4796,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=565 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=565 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -4887,7 +4887,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=100 slnt=-16 wght=drop
+    axes: YEXT=500 SPED=100 slnt=-16 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -4978,7 +4978,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=100 slnt=-16 wght=drop
+    axes: YEXT=500 SPED=100 slnt=-16 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -5069,7 +5069,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=488 SPED=100 slnt=-16 wght=drop
+    axes: YEXT=488 SPED=100 slnt=-16 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -5160,7 +5160,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=75 slnt=-18 wght=drop
+    axes: YEXT=500 SPED=75 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -5251,7 +5251,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=75 slnt=-18 wght=drop
+    axes: YEXT=500 SPED=75 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -5342,7 +5342,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=375 SPED=75 slnt=-0 wght=drop
+    axes: YEXT=375 SPED=75 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -5435,7 +5435,7 @@ recipe:
   - operation: buildStat
     args: --src generated/omni-stat.yaml
   - operation: subspace
-    axes: YEXT=375 SPED=75 slnt=-13 wght=drop
+    axes: YEXT=375 SPED=75 slnt=-13 wght=200
     args: --update-name-table
   - operation: remap
     args: --deep
@@ -5524,7 +5524,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=905 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=905 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -5615,7 +5615,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=25 slnt=-18 wght=drop
+    axes: YEXT=500 SPED=25 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -5706,7 +5706,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=631 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=631 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -5797,7 +5797,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=496 SPED=100 slnt=-18 wght=drop
+    axes: YEXT=496 SPED=100 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -5888,7 +5888,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=633 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=633 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -5979,7 +5979,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=520 SPED=25 slnt=-18 wght=drop
+    axes: YEXT=520 SPED=25 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -6070,7 +6070,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=379 SPED=25 slnt=-18 wght=drop
+    axes: YEXT=379 SPED=25 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -6161,7 +6161,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=379 SPED=25 slnt=-0 wght=drop
+    axes: YEXT=379 SPED=25 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -6252,7 +6252,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=615 SPED=50 slnt=-18 wght=drop
+    axes: YEXT=615 SPED=50 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -6343,7 +6343,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=485 SPED=50 slnt=-18 wght=drop
+    axes: YEXT=485 SPED=50 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -6434,7 +6434,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=375 SPED=25 slnt=-18 wght=drop
+    axes: YEXT=375 SPED=25 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -6525,7 +6525,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=375 SPED=25 slnt=-18 wght=drop
+    axes: YEXT=375 SPED=25 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -6616,7 +6616,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=375 SPED=75 slnt=-0 wght=drop
+    axes: YEXT=375 SPED=75 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -6709,7 +6709,7 @@ recipe:
   - operation: buildStat
     args: --src generated/omni-stat.yaml
   - operation: subspace
-    axes: YEXT=375 SPED=75 slnt=-7 wght=drop
+    axes: YEXT=375 SPED=75 slnt=-7 wght=200
     args: --update-name-table
   - operation: remap
     args: --deep
@@ -6798,7 +6798,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=375 SPED=25 slnt=-0 wght=drop
+    axes: YEXT=375 SPED=25 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -6891,7 +6891,7 @@ recipe:
   - operation: buildStat
     args: --src generated/omni-stat.yaml
   - operation: subspace
-    axes: YEXT=375 SPED=25 slnt=-7 wght=drop
+    axes: YEXT=375 SPED=25 slnt=-7 wght=200
     args: --update-name-table
   - operation: remap
     args: --deep
@@ -6980,7 +6980,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=50 slnt=-15 wght=drop
+    axes: YEXT=500 SPED=50 slnt=-15 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -7071,7 +7071,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=908 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=908 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -7162,7 +7162,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=600 SPED=100 slnt=-0 wght=drop
+    axes: YEXT=600 SPED=100 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -7253,7 +7253,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=420 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=420 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -7344,7 +7344,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=420 SPED=75 slnt=-18 wght=drop
+    axes: YEXT=420 SPED=75 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -7435,7 +7435,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=388 SPED=75 slnt=-14 wght=drop
+    axes: YEXT=388 SPED=75 slnt=-14 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -7526,7 +7526,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=479 SPED=100 slnt=-10 wght=drop
+    axes: YEXT=479 SPED=100 slnt=-10 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -7617,7 +7617,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=446 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=446 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -7708,7 +7708,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=375 SPED=100 slnt=-14 wght=drop
+    axes: YEXT=375 SPED=100 slnt=-14 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -7799,7 +7799,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=523 SPED=75 slnt=-18 wght=drop
+    axes: YEXT=523 SPED=75 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -7890,7 +7890,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=938 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=938 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -7981,7 +7981,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=481 SPED=0 slnt=-18 wght=drop
+    axes: YEXT=481 SPED=0 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -8072,7 +8072,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=459 SPED=25 slnt=-0 wght=drop
+    axes: YEXT=459 SPED=25 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -8163,7 +8163,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=375 SPED=25 slnt=-0 wght=drop
+    axes: YEXT=375 SPED=25 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -8254,7 +8254,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=25 slnt=-18 wght=drop
+    axes: YEXT=500 SPED=25 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -8345,7 +8345,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=773 SPED=50 slnt=-18 wght=drop
+    axes: YEXT=773 SPED=50 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -8436,7 +8436,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=100 slnt=-18 wght=drop
+    axes: YEXT=500 SPED=100 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -8527,7 +8527,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=25 slnt=-0 wght=drop
+    axes: YEXT=500 SPED=25 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -8618,7 +8618,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=470 SPED=25 slnt=-18 wght=drop
+    axes: YEXT=470 SPED=25 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -8709,7 +8709,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=50 slnt=-0 wght=drop
+    axes: YEXT=500 SPED=50 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -8800,7 +8800,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=486 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=486 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -8891,7 +8891,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=581 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=581 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -8982,7 +8982,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=0 slnt=-18 wght=drop
+    axes: YEXT=500 SPED=0 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -9073,7 +9073,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=485 SPED=50 slnt=-18 wght=drop
+    axes: YEXT=485 SPED=50 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -9164,7 +9164,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=50 slnt=-10 wght=drop
+    axes: YEXT=500 SPED=50 slnt=-10 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -9255,7 +9255,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=500 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -9346,7 +9346,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=500 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -9437,7 +9437,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=25 slnt=-16 wght=drop
+    axes: YEXT=500 SPED=25 slnt=-16 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -9528,7 +9528,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=438 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=438 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -9619,7 +9619,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=100 slnt=-18 wght=drop
+    axes: YEXT=500 SPED=100 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -9710,7 +9710,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=757 SPED=0 slnt=-0 wght=drop
+    axes: YEXT=757 SPED=0 slnt=-0 wght=200
   - operation: remap
     args: --deep
     mappings:
