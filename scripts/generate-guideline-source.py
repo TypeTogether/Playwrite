@@ -1,6 +1,7 @@
 import json
 import glyphsLib
 from pendot import create_effects, find_instance, transform_font
+from glyphsLib.builder.transformations.propagate_anchors import propagate_all_anchors
 
 
 font = glyphsLib.load("sources/Playwrite_MM.glyphspackage")
@@ -18,12 +19,14 @@ font.instances[1].weight = 400
 font.instances[1].linkStyle = "Regular"
 
 
+propagate_all_anchors(font)
+
 for glyph in font.glyphs:
     if "comb" in glyph.name:
         glyph.userData["co.uk.corvelsoftware.Dotter.disableGuidelines"] = True
-    if glyph.name in ["space", "nbspace", "CR", ".notdef", "thinspace"]:
+    elif glyph.name in ["space", "nbspace", "CR", ".notdef", "thinspace"]:
         glyph.userData["co.uk.corvelsoftware.Dotter.disableGuidelines"] = True
-    if glyph.name == "underscore":
+    elif glyph.name == "underscore":
         glyph.userData["co.uk.corvelsoftware.Dotter.disableCopy"] = True
     # Restrict layers to existing masters
     glyph.layers = [
