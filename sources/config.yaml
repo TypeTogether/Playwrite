@@ -5433,7 +5433,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: buildStat
-    args: --src generated/omni-stat.yaml
+    args: --src generated/guidelines-stat.yaml
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=-13 wght=200
     args: --update-name-table
@@ -6707,7 +6707,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: buildStat
-    args: --src generated/omni-stat.yaml
+    args: --src generated/guidelines-stat.yaml
   - operation: subspace
     axes: YEXT=375 SPED=75 slnt=-7 wght=200
     args: --update-name-table
@@ -6889,7 +6889,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: buildStat
-    args: --src generated/omni-stat.yaml
+    args: --src generated/guidelines-stat.yaml
   - operation: subspace
     axes: YEXT=375 SPED=25 slnt=-7 wght=200
     args: --update-name-table
