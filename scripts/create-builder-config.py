@@ -179,7 +179,7 @@ class Model:
             ops.append(
                 {
                     "operation": "buildStat",
-                    "args": "--src generated/omni-stat.yaml",
+                    "args": "--src generated/guidelines-stat.yaml",
                 }
             )
         ops += [
@@ -272,4 +272,9 @@ with open("sources/config.yaml", "w") as file:
     yaml.dump(config, file, sort_keys=False, default_flow_style=False)
 
 with open("sources/generated/omni-stat.yaml", "w") as file:
+    yaml.dump(config["stat"], file, sort_keys=False, default_flow_style=False)
+
+# Rename ExtraLight to Regular in guidelines
+config["stat"][0]["values"][1]["name"] = "Regular"
+with open("sources/generated/guidelines-stat.yaml", "w") as file:
     yaml.dump(config["stat"], file, sort_keys=False, default_flow_style=False)
