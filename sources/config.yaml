@@ -4163,8 +4163,8 @@ variants:
   - operation: exec
     exe: gftools-fontsetter
     args: -o $out $in zero-post.yaml
-- name: ZA
-  alias: ZA
+- name: CC ZA
+  alias: CC ZA
   steps:
   - operation: subspace
     axes: YEXT=500 SPED=50 slnt=-10
