@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to the Font Versioning as stipulated in the [Google Fonts Guide](https://googlefonts.github.io/gf-guide/requirements.html#font-versioning).
 
-## Unreleased
+## v1.003 (2024-Nov)
 
 - Next version of the fonts will include small fixes reported in https://github.com/TypeTogether/Playwrite/issues/66
 - Guides version. Discussed in https://github.com/TypeTogether/Playwrite/issues/23
