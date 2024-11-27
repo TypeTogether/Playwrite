@@ -206,6 +206,14 @@ Each font model uses the following naming conventions:
 | USA            | US           | Traditional    | Playwrite US Trad     | Playwrite US Traditional           |
 | Vietnam        | VN           |                | Playwrite VN          | Playwrite Việt Nam                 |
 
+
+## Guides variant
+
+A new variant called `Guides` has been added for each country model. In this variant, guidelines are included for all characters, except those used for letter spacing.
+
+To create a versatile font for teachers designing practice sheets that feature guidelines without corresponding letters, the underscore is used as a key character. It replaces the glyph shape with the guidelines and matches the width of the letter space.
+
+
 ## Create or edit handwriting models
 
 For creating new models or editing existing you can follow these steps:
