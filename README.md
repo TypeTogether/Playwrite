@@ -213,6 +213,7 @@ A new variant called `Guides` has been added for each country model. In this var
 
 To create a versatile font for teachers designing practice sheets that feature guidelines without corresponding letters, the underscore is used as a key character. It replaces the glyph shape with the guidelines and matches the width of the letter space.
 
+![Alt Image Text](documentation/images/readme/Playwrite-Guides_6r.png)
 
 ## Create or edit handwriting models
 
