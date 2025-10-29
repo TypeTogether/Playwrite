@@ -1,5 +1,5 @@
 {
-.appVersion = "3327";
+.appVersion = "3434";
 .formatVersion = 3;
 axes = (
 {
@@ -573,6 +573,21 @@ plusminus,
 divide,
 multiply,
 logicalnot,
+a.prt,
+d.prt,
+e.prt,
+f.prt,
+h.prt,
+i.prt,
+k.prt,
+l.prt,
+m.prt,
+n.prt,
+t.prt,
+u.prt,
+idotless.prt,
+ae.prt,
+oe.prt,
 a.mod,
 a.mod.ini,
 a.mod.med,
