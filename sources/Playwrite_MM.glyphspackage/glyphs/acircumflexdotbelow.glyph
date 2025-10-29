@@ -76,11 +76,11 @@ shapes = (
 ref = a;
 },
 {
-pos = (284,0);
+pos = (294,0);
 ref = dotbelowcomb;
 },
 {
-pos = (294,0);
+pos = (304,0);
 ref = circumflexcomb;
 }
 );
@@ -100,7 +100,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 613;
+width = 623;
 },
 {
 layerId = m004;
