@@ -1,5 +1,5 @@
 name: Build font and specimen
-on: [push, release]
+on: workflow_dispatch
 
 jobs:
   build:
