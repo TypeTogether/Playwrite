@@ -1,5 +1,5 @@
 {
-color = 11;
+color = 6;
 glyphname = g.mod_nz;
 kernLeft = a;
 kernRight = g;
@@ -8,14 +8,13 @@ layers = (
 anchors = (
 {
 name = cnct;
-pos = (610,0);
+pos = (598,0);
 }
 );
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -34,20 +33,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (528,0);
+pos = (517,0);
 }
 );
 layerId = m002;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -66,20 +64,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (610,0);
+pos = (598,0);
 }
 );
 layerId = m003;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -98,20 +95,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (528,0);
+pos = (517,0);
 }
 );
 layerId = m004;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -130,20 +126,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (610,0);
+pos = (598,0);
 }
 );
 layerId = m005;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -162,20 +157,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (528,0);
+pos = (517,0);
 }
 );
 layerId = m006;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -194,20 +188,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (610,0);
+pos = (598,0);
 }
 );
 layerId = m007;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -226,20 +219,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (528,0);
+pos = (517,0);
 }
 );
 layerId = m008;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -258,20 +250,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (610,0);
+pos = (598,0);
 }
 );
 layerId = m009;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -290,20 +281,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (528,0);
+pos = (517,0);
 }
 );
 layerId = m010;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -322,20 +312,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (610,0);
+pos = (598,0);
 }
 );
 layerId = m011;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -354,20 +343,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (528,0);
+pos = (517,0);
 }
 );
 layerId = m012;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -386,20 +374,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (610,0);
+pos = (598,0);
 }
 );
 layerId = m013;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -418,20 +405,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (528,0);
+pos = (517,0);
 }
 );
 layerId = m014;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -450,20 +436,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (610,0);
+pos = (598,0);
 }
 );
 layerId = m015;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -482,20 +467,19 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 },
 {
 anchors = (
 {
 name = cnct;
-pos = (528,0);
+pos = (517,0);
 }
 );
 layerId = m016;
 shapes = (
 {
-alignment = -1;
-ref = g;
+ref = g.prt_nz;
 }
 );
 userData = {
@@ -514,7 +498,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 610;
+width = 598;
 }
 );
 metricLeft = g;
