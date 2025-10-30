@@ -1,5 +1,5 @@
 {
-color = 9;
+color = 6;
 glyphname = f.mod_nz.fin_o_;
 layers = (
 {
@@ -7,7 +7,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -33,7 +33,7 @@ layerId = m002;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -59,7 +59,7 @@ layerId = m003;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -85,7 +85,7 @@ layerId = m004;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -111,7 +111,7 @@ layerId = m005;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -137,7 +137,7 @@ layerId = m006;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -163,7 +163,7 @@ layerId = m007;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -189,7 +189,7 @@ layerId = m008;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -215,7 +215,7 @@ layerId = m009;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -241,7 +241,7 @@ layerId = m010;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -267,7 +267,7 @@ layerId = m011;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -293,7 +293,7 @@ layerId = m012;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -319,7 +319,7 @@ layerId = m013;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -345,7 +345,7 @@ layerId = m014;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -371,7 +371,7 @@ layerId = m015;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {
@@ -397,7 +397,7 @@ layerId = m016;
 shapes = (
 {
 alignment = -1;
-ref = f.mod.med_o_;
+ref = f.mod_nz.med_o_;
 }
 );
 userData = {

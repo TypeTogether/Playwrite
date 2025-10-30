@@ -1,5 +1,5 @@
 {
-color = 11;
+color = 6;
 glyphname = q.mod_nz.med;
 layers = (
 {
@@ -34,7 +34,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -71,7 +71,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -108,7 +108,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -145,7 +145,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -182,7 +182,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -219,7 +219,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -256,7 +256,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -293,7 +293,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -330,7 +330,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -367,7 +367,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -404,7 +404,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -441,7 +441,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -478,7 +478,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -515,7 +515,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -552,7 +552,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -589,7 +589,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;

@@ -1,8 +1,37 @@
 {
-color = 11;
+color = 6;
 glyphname = q.mod_nz;
 layers = (
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(523,-327,o),
+(563,-262,o),
+(624,-201,cs),
+(633,-192,o),
+(633,-185,o),
+(624,-179,cs),
+(616,-172,o),
+(609,-172,o),
+(603,-179,cs),
+(544,-242,o),
+(500,-304,o),
+(464,-366,cs),
+(454,-384,o),
+(483,-396,o),
+(490,-382,cs)
+);
+},
+{
+alignment = -1;
+pos = (13,0);
+ref = q.prt_nz;
+}
+);
+};
 layerId = m01;
 shapes = (
 {
@@ -28,7 +57,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -59,7 +88,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -90,7 +119,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -121,7 +150,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -152,7 +181,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -183,7 +212,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -214,7 +243,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -245,7 +274,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -276,7 +305,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -307,7 +336,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -338,7 +367,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -369,7 +398,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -400,7 +429,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -431,7 +460,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -462,7 +491,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;
@@ -493,7 +522,7 @@ nodes = (
 {
 alignment = -1;
 pos = (13,0);
-ref = q;
+ref = q.prt_nz;
 }
 );
 width = 623;

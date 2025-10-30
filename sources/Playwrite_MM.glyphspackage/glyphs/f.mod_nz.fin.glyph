@@ -1,5 +1,5 @@
 {
-color = 11;
+color = 6;
 glyphname = f.mod_nz.fin;
 kernLeft = f.mod.med;
 layers = (
@@ -14,7 +14,7 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -46,7 +46,7 @@ layerId = m002;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -78,7 +78,7 @@ layerId = m003;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -110,7 +110,7 @@ layerId = m004;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -142,7 +142,7 @@ layerId = m005;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -174,7 +174,7 @@ layerId = m006;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -206,7 +206,7 @@ layerId = m007;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -238,7 +238,7 @@ layerId = m008;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -270,7 +270,7 @@ layerId = m009;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -302,7 +302,7 @@ layerId = m010;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -334,7 +334,7 @@ layerId = m011;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -366,7 +366,7 @@ layerId = m012;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -398,7 +398,7 @@ layerId = m013;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -430,7 +430,7 @@ layerId = m014;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -462,7 +462,7 @@ layerId = m015;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
@@ -494,7 +494,7 @@ layerId = m016;
 shapes = (
 {
 alignment = -1;
-ref = f;
+ref = f.prt;
 }
 );
 userData = {
