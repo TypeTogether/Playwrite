@@ -1,0 +1,246 @@
+{
+color = 6;
+glyphname = k.mod_nz.med;
+layers = (
+{
+anchors = (
+{
+name = cnct;
+pos = (539,0);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 539;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (451,0);
+}
+);
+layerId = m002;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 532;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (559,0);
+}
+);
+layerId = m003;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 559;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (476,0);
+}
+);
+layerId = m004;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 557;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (541,0);
+}
+);
+layerId = m005;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 541;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (457,0);
+}
+);
+layerId = m006;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 538;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (544,0);
+}
+);
+layerId = m007;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 544;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (471,0);
+}
+);
+layerId = m008;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 552;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (539,0);
+}
+);
+layerId = m009;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 539;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (451,0);
+}
+);
+layerId = m010;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 532;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (559,0);
+}
+);
+layerId = m011;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 559;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (476,0);
+}
+);
+layerId = m012;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 557;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (541,0);
+}
+);
+layerId = m013;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 541;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (457,0);
+}
+);
+layerId = m014;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 538;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (544,0);
+}
+);
+layerId = m015;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 544;
+},
+{
+anchors = (
+{
+name = cnct;
+pos = (471,0);
+}
+);
+layerId = m016;
+shapes = (
+{
+ref = k.mod_nz.ini;
+}
+);
+width = 552;
+}
+);
+}
