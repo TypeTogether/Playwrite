@@ -33,6 +33,8 @@ languagesystem latn SKY;
 @lcCNT = [a.mod b.lop c.mod d.mod e.ful f.ful g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.ful q.jmc r.cnt s.ful t.mod u.mod v.cnt w.cnt x.cnt y.cnt z.cnt ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc];
 @lcMRR = [a.mod b.lop c.mod d.mod e.ful f.mrr g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mod p.mrr q.mrr r.cnt s.ful t.mod u.mod v.cnt w.cnt x.ful y.cnt z.cnt ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc];
 @lcMLP = [a.mod b.mlp c.mod d.mod e.ful f.mlp g.jmc h.lop i.mod j.jmc k.lop l.lop m.cnt n.cnt o.mlp p.mrr q.mrr r.mlp s.mlp t.mod u.mod v.mlp w.mlp x.ful y.cnt z.mlp ae.ful eth.mod ij.jmc eng oe.ful thorn.jmc germandbls.jmc idotless.mod jdotless.jmc];
+@lcPRINTsrc = [a d e f h i k l m n t u idotless ae oe];
+@lcPRINTtgt = [a.prt d.prt e.prt f.prt h.prt i.prt k.prt l.prt m.prt n.prt t.prt u.prt idotless.prt ae.prt oe.prt];
 
 # @lcKernTest_SRC = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
 # @lcKernTest = [a.mod b.mod c.mod d.mod e.ful f.mod g.mod h.lop i.mod j.mod k.mod l.lop m.mod n.cnt o.mod p.mod q.mod r.ful s.mod t.lop_de u.mod v.mod w.mod x.ful y.mod z.cnt];
@@ -768,6 +770,7 @@ feature aalt {
 	feature ss05;
 	feature ss06;
 	feature ss07;
+	feature ss08;
 	feature ss19;
 	feature ss20;
 } aalt;
@@ -1165,13 +1168,13 @@ feature ss07 {
 	sub @lc by @lcMLP;
 } ss07;
 
-# feature ss09 {
-# 	featureNames {
-# 		name "KERN - temp test"; # Windows English
-# 		name 1 0 0 "KERN - temp test"; # Mac English
-# 	};
-# 	sub @lcKernTest_SRC by @lcKernTest;
-# } ss09;
+feature ss08 {
+	featureNames {
+		name "PRINT"; # Windows English
+		name 1 0 0 "PRINT"; # Mac English
+	};
+	sub @lcPRINTsrc by @lcPRINTtgt;
+} ss08;
 
 feature ss19 {
 	featureNames {
