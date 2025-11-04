@@ -1,6 +1,8 @@
 {
 color = 6;
 glyphname = q.mod_nz.fin;
+kernLeft = a.mod.med;
+kernRight = g;
 layers = (
 {
 layerId = m01;
