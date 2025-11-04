@@ -8,7 +8,7 @@ layers = (
 layerId = m01;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -27,13 +27,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 592;
+width = 622;
 },
 {
 layerId = m002;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -52,13 +52,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 596;
+width = 622;
 },
 {
 layerId = m003;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -77,13 +77,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 592;
+width = 622;
 },
 {
 layerId = m004;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -102,13 +102,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 594;
+width = 622;
 },
 {
 layerId = m005;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -127,13 +127,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 597;
+width = 622;
 },
 {
 layerId = m006;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -152,13 +152,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 598;
+width = 622;
 },
 {
 layerId = m007;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -177,13 +177,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 592;
+width = 622;
 },
 {
 layerId = m008;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -202,13 +202,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 594;
+width = 622;
 },
 {
 layerId = m009;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -227,13 +227,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 592;
+width = 622;
 },
 {
 layerId = m010;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -252,13 +252,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 596;
+width = 622;
 },
 {
 layerId = m011;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -277,13 +277,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 592;
+width = 622;
 },
 {
 layerId = m012;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -302,13 +302,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 594;
+width = 622;
 },
 {
 layerId = m013;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -327,13 +327,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 597;
+width = 622;
 },
 {
 layerId = m014;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -352,13 +352,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 598;
+width = 622;
 },
 {
 layerId = m015;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -377,13 +377,13 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 592;
+width = 622;
 },
 {
 layerId = m016;
 shapes = (
 {
-ref = a.prt_nz;
+ref = a.mod;
 }
 );
 userData = {
@@ -402,7 +402,7 @@ com.hugojourdan.ColorFlow = {
 "9" = 0;
 };
 };
-width = 594;
+width = 622;
 }
 );
 metricLeft = a;
