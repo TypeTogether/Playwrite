@@ -1,6 +1,8 @@
 {
 color = 6;
 glyphname = a.prt_nz;
+kernLeft = a;
+kernRight = a.prt;
 layers = (
 {
 anchors = (

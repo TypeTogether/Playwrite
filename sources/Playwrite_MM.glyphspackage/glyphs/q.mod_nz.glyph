@@ -1,6 +1,8 @@
 {
 color = 6;
 glyphname = q.mod_nz;
+kernLeft = a;
+kernRight = g;
 layers = (
 {
 background = {

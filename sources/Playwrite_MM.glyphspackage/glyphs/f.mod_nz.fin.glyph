@@ -2,6 +2,7 @@
 color = 6;
 glyphname = f.mod_nz.fin;
 kernLeft = f.mod.med;
+kernRight = f;
 layers = (
 {
 anchors = (
