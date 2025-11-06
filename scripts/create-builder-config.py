@@ -13,6 +13,10 @@ LC_ORDER = (
     "U+00E6 U+00F0 U+0133 U+014B U+0153 U+00FE U+00DF U+0131 U+0237".split()
 )
 
+FG_ORDER = (
+    "U+0030 U+0031 U+0032 U+0033 U+0034 U+0035 U+0036 U+0037 U+0038 U+0039".split()
+)
+
 locl_required = {
     "CZ": "CSY",
     "ES": "ESP",
@@ -66,18 +70,21 @@ class Model:
     _SPED: int
     _UC: str
     _lc: str
+    _fg: str
 
     mapping: dict = None
 
     def __post_init__(self):
         new_ucs = self._UC.strip().split()
         new_lcs = self._lc.strip().split()
+        new_figs = self._fg.strip().split()
         self.mapping = {}
         for old, new in zip(UC_ORDER, new_ucs):
             self.mapping[old] = new
         for old, new in zip(LC_ORDER, new_lcs):
             self.mapping[old] = new
-
+        for old, new in zip(FG_ORDER, new_figs):
+            self.mapping[old] = new
     @property
     def name(self):
         return self._lang_tag.replace("_", " ")
