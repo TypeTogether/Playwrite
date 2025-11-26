@@ -3076,31 +3076,6 @@ m006 = 1;
 isItalic = 1;
 linkStyle = Regular;
 name = Italic;
-},
-{
-axesValues = (
-400,
--9,
-375,
-100
-);
-instanceInterpolations = {
-m007 = 0.5;
-m008 = 0.5;
-};
-name = "NZ Basic";
-},
-{
-axesValues = (
-400,
--18,
-375,
-100
-);
-instanceInterpolations = {
-m008 = 1;
-};
-name = NZ;
 }
 );
 kerningLTR = {
