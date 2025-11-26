@@ -1,6 +1,8 @@
 {
 color = 6;
 glyphname = Q_locl.nz;
+kernLeft = O;
+kernRight = O;
 layers = (
 {
 background = {
