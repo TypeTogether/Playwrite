@@ -3481,7 +3481,7 @@ variants:
   alias: NZ
   steps:
   - operation: subspace
-    axes: YEXT=500 SPED=100 slnt=-18
+    axes: YEXT=375 SPED=100 slnt=-18
   - operation: remap
     args: --deep
     mappings:
@@ -3491,7 +3491,7 @@ variants:
       D: D
       E: E
       F: F
-      G: G_locl.au
+      G: G_locl.nz
       H: H
       I: I_locl
       J: J
@@ -3501,7 +3501,7 @@ variants:
       N: N
       O: O
       P: P
-      Q: Q
+      Q: Q_locl.nz
       R: R
       S: S
       T: T
@@ -3518,32 +3518,32 @@ variants:
       U+0152: OE
       U+00DE: Thorn
       U+1E9E: Germandbls
-      a: a.mod
+      a: a.mod_nz
       b: b.mod
       c: c.mod
       d: d.mod
       e: e.mod
-      f: f.mod_au
-      g: g.mod
+      f: f.mod_nz
+      g: g.mod_nz
       h: h.mod
       i: i.mod
-      j: j.mod
-      k: k.ful
+      j: j.mod_nz
+      k: k.mod_nz
       l: l.mod
       m: m.mod
       n: n.mod
       o: o.mod
       p: p.mod
-      q: q.mod_au
+      q: q.mod_nz
       r: r.mod
       s: s.mod
-      t: t.mod
+      t: t.mod_nz
       u: u.mod
-      v: v.mod
-      w: w.mod
+      v: v.mod_nz
+      w: w.mod_nz
       x: x.mod
-      y: y.mod
-      z: z.mod
+      y: y.mod_nz
+      z: z
       U+00E6: ae.mod
       U+00F0: eth.mod
       U+0133: ij.mod
@@ -3553,6 +3553,113 @@ variants:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+      U+0030: zero
+      U+0031: one.alt1
+      U+0032: two
+      U+0033: three
+      U+0034: four
+      U+0035: five
+      U+0036: six
+      U+0037: seven
+      U+0038: eight
+      U+0039: nine.alt1
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --passthrough-tables
+  - operation: buildStat
+    args: --src stat-standalone.yaml
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+- name: NZ Basic
+  alias: NZ Basic
+  steps:
+  - operation: subspace
+    axes: YEXT=375 SPED=100 slnt=-9
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.nz
+      H: H
+      I: I_locl
+      J: J
+      K: K
+      L: L
+      M: M_locl
+      N: N
+      O: O
+      P: P
+      Q: Q_locl.nz
+      R: R
+      S: S
+      T: T
+      U: U_locl.au
+      V: V
+      W: W
+      X: X
+      Y: Y_locl
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.prt_nz
+      b: b
+      c: c
+      d: d.prt
+      e: e
+      f: f.prt_nz
+      g: g.prt_nz
+      h: h.prt
+      i: i.prt
+      j: j.prt_nz
+      k: k.prt_nz
+      l: l.prt
+      m: m.prt
+      n: n.prt
+      o: o
+      p: p
+      q: q.prt_nz
+      r: r
+      s: s
+      t: t.prt_nz
+      u: u.prt
+      v: v.prt_nz
+      w: w.prt_nz
+      x: x
+      y: y.prt_nz
+      z: z
+      U+00E6: ae
+      U+00F0: eth
+      U+0133: ij
+      U+014B: eng
+      U+0153: oe
+      U+00FE: thorn
+      U+00DF: germandbls
+      U+0131: idotless.prt
+      U+0237: jdotless
+      U+0030: zero
+      U+0031: one.alt1
+      U+0032: two
+      U+0033: three
+      U+0034: four
+      U+0035: five
+      U+0036: six
+      U+0037: seven
+      U+0038: eight
+      U+0039: nine.alt1
   - operation: remapLayout
     args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
@@ -8436,7 +8543,7 @@ recipe:
     operation: buildVariable
   - operation: fix
   - operation: subspace
-    axes: YEXT=500 SPED=100 slnt=-18 wght=200
+    axes: YEXT=375 SPED=100 slnt=-18 wght=200
   - operation: remap
     args: --deep
     mappings:
@@ -8446,7 +8553,7 @@ recipe:
       D: D
       E: E
       F: F
-      G: G_locl.au
+      G: G_locl.nz
       H: H
       I: I_locl
       J: J
@@ -8456,7 +8563,7 @@ recipe:
       N: N
       O: O
       P: P
-      Q: Q
+      Q: Q_locl.nz
       R: R
       S: S
       T: T
@@ -8473,32 +8580,32 @@ recipe:
       U+0152: OE
       U+00DE: Thorn
       U+1E9E: Germandbls
-      a: a.mod
+      a: a.mod_nz
       b: b.mod
       c: c.mod
       d: d.mod
       e: e.mod
-      f: f.mod_au
-      g: g.mod
+      f: f.mod_nz
+      g: g.mod_nz
       h: h.mod
       i: i.mod
-      j: j.mod
-      k: k.ful
+      j: j.mod_nz
+      k: k.mod_nz
       l: l.mod
       m: m.mod
       n: n.mod
       o: o.mod
       p: p.mod
-      q: q.mod_au
+      q: q.mod_nz
       r: r.mod
       s: s.mod
-      t: t.mod
+      t: t.mod_nz
       u: u.mod
-      v: v.mod
-      w: w.mod
+      v: v.mod_nz
+      w: w.mod_nz
       x: x.mod
-      y: y.mod
-      z: z.mod
+      y: y.mod_nz
+      z: z
       U+00E6: ae.mod
       U+00F0: eth.mod
       U+0133: ij.mod
@@ -8508,6 +8615,16 @@ recipe:
       U+00DF: germandbls.jmc
       U+0131: idotless.mod
       U+0237: jdotless.mod
+      U+0030: zero
+      U+0031: one.alt1
+      U+0032: two
+      U+0033: three
+      U+0034: four
+      U+0035: five
+      U+0036: six
+      U+0037: seven
+      U+0038: eight
+      U+0039: nine.alt1
   - operation: remapLayout
     args: '''locl=>|calt'' ''ccmp=>|calt'''
   - operation: hbsubset
@@ -8520,6 +8637,107 @@ recipe:
   - operation: rename
     args: --just-family
     name: Playwrite NZ Guides
+  ../fonts/ttf/PlaywriteNZBasicGuides-Regular.ttf:
+  - source: generated/Playwrite-Guides.glyphs
+  - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
+      --no-production-names
+    operation: buildVariable
+  - operation: fix
+  - operation: subspace
+    axes: YEXT=375 SPED=100 slnt=-9 wght=200
+  - operation: remap
+    args: --deep
+    mappings:
+      A: A
+      B: B
+      C: C
+      D: D
+      E: E
+      F: F
+      G: G_locl.nz
+      H: H
+      I: I_locl
+      J: J
+      K: K
+      L: L
+      M: M_locl
+      N: N
+      O: O
+      P: P
+      Q: Q_locl.nz
+      R: R
+      S: S
+      T: T
+      U: U_locl.au
+      V: V
+      W: W
+      X: X
+      Y: Y_locl
+      Z: Z
+      U+00C6: AE
+      U+00D0: Eth
+      U+0132: IJ
+      U+014a: Eng
+      U+0152: OE
+      U+00DE: Thorn
+      U+1E9E: Germandbls
+      a: a.prt_nz
+      b: b
+      c: c
+      d: d.prt
+      e: e
+      f: f.prt_nz
+      g: g.prt_nz
+      h: h.prt
+      i: i.prt
+      j: j.prt_nz
+      k: k.prt_nz
+      l: l.prt
+      m: m.prt
+      n: n.prt
+      o: o
+      p: p
+      q: q.prt_nz
+      r: r
+      s: s
+      t: t.prt_nz
+      u: u.prt
+      v: v.prt_nz
+      w: w.prt_nz
+      x: x
+      y: y.prt_nz
+      z: z
+      U+00E6: ae
+      U+00F0: eth
+      U+0133: ij
+      U+014B: eng
+      U+0153: oe
+      U+00FE: thorn
+      U+00DF: germandbls
+      U+0131: idotless.prt
+      U+0237: jdotless
+      U+0030: zero
+      U+0031: one.alt1
+      U+0032: two
+      U+0033: three
+      U+0034: four
+      U+0035: five
+      U+0036: six
+      U+0037: seven
+      U+0038: eight
+      U+0039: nine.alt1
+  - operation: remapLayout
+    args: '''locl=>|calt'' ''ccmp=>|calt'''
+  - operation: hbsubset
+    args: --drop-tables=STAT
+  - operation: fix
+    args: --include-source-fixes
+  - operation: exec
+    exe: gftools-fontsetter
+    args: -o $out $in zero-post.yaml
+  - operation: rename
+    args: --just-family
+    name: Playwrite NZ Basic Guides
   ../fonts/ttf/PlaywriteNGModernGuides-Regular.ttf:
   - source: generated/Playwrite-Guides.glyphs
   - args: --filter ...  --filter FlattenComponentsFilter --filter DecomposeTransformedComponentsFilter
@@ -9826,6 +10044,8 @@ stat:
     value: -14
   - name: Italic
     value: -10
+  - name: Italic
+    value: -9
 - name: Speed
   tag: SPED
 - name: Y Extension
